@@ -1,0 +1,530 @@
+{
+  "total": 87,
+  "data_extracao": "2026-02-12",
+  "numeros": [
+    "0001",
+    "0004",
+    "0012",
+    "0024",
+    "0027",
+    "0033",
+    "0037",
+    "0039",
+    "0041",
+    "0042",
+    "0046",
+    "0048",
+    "0051",
+    "0052",
+    "0053",
+    "0056",
+    "0057",
+    "0058",
+    "0068",
+    "0069",
+    "0101",
+    "0102",
+    "0104",
+    "0105",
+    "0108",
+    "0110",
+    "0113",
+    "0114",
+    "0115",
+    "0116",
+    "0117",
+    "0214",
+    "0217",
+    "0221",
+    "0223",
+    "0226",
+    "0401",
+    "0403",
+    "0404",
+    "0501",
+    "0502",
+    "0504",
+    "0601",
+    "0602",
+    "0603",
+    "0604",
+    "0606",
+    "0607",
+    "0610",
+    "0612",
+    "0613",
+    "0614",
+    "0615",
+    "0700",
+    "0703",
+    "0704",
+    "0706",
+    "0707",
+    "0708",
+    "0709",
+    "0710",
+    "0712",
+    "0714",
+    "0716",
+    "0719",
+    "0720",
+    "0723",
+    "0727",
+    "0802",
+    "0804",
+    "0805",
+    "0807",
+    "0809",
+    "0812",
+    "0900",
+    "0901",
+    "0903",
+    "0999",
+    "1000",
+    "1018",
+    "1019",
+    "4003",
+    "4006",
+    "4011",
+    "4013",
+    "4014",
+    "4015"
+  ],
+  "detalhes": [
+    {
+      "numero": "0001",
+      "nome_completo": "0001 Terminal X Cruzeiro",
+      "nome": "Terminal X Cruzeiro"
+    },
+    {
+      "numero": "0004",
+      "nome_completo": "0004 - Rio Largo via Mata do Rolo",
+      "nome": "- Rio Largo via Mata do Rolo"
+    },
+    {
+      "numero": "0012",
+      "nome_completo": "0012 - Jose da Silva Peixoto / Centro",
+      "nome": "- Jose da Silva Peixoto / Centro"
+    },
+    {
+      "numero": "0024",
+      "nome_completo": "0024 - Gruta / Centro / Term. Rotary",
+      "nome": "- Gruta / Centro / Term. Rotary"
+    },
+    {
+      "numero": "0027",
+      "nome_completo": "0027 - Vila Saem / Centro",
+      "nome": "- Vila Saem / Centro"
+    },
+    {
+      "numero": "0033",
+      "nome_completo": "0033 Jose Tenorio / Centro",
+      "nome": "Jose Tenorio / Centro"
+    },
+    {
+      "numero": "0037",
+      "nome_completo": "0037 - Salvador Lyra / Centro",
+      "nome": "- Salvador Lyra / Centro"
+    },
+    {
+      "numero": "0039",
+      "nome_completo": "0039 - Dubeaux Leao / Centro",
+      "nome": "- Dubeaux Leao / Centro"
+    },
+    {
+      "numero": "0041",
+      "nome_completo": "0041 - Feitosa X Centro / Farol",
+      "nome": "- Feitosa X Centro / Farol"
+    },
+    {
+      "numero": "0042",
+      "nome_completo": "0042 - T.I. Benedito Bentes / Centro",
+      "nome": "- T.I. Benedito Bentes / Centro"
+    },
+    {
+      "numero": "0046",
+      "nome_completo": "0046 - Village II / Centro",
+      "nome": "- Village II / Centro"
+    },
+    {
+      "numero": "0048",
+      "nome_completo": "0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo)",
+      "nome": "- T.I Benedito Bentes / Centro (Via Josefa de Melo)"
+    },
+    {
+      "numero": "0051",
+      "nome_completo": "0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro",
+      "nome": "- Santos Durmont Via Bomba do Gonzaga / Farol / Centro"
+    },
+    {
+      "numero": "0052",
+      "nome_completo": "0052 - T.I Eustáquio Gomes / Centro",
+      "nome": "- T.I Eustáquio Gomes / Centro"
+    },
+    {
+      "numero": "0053",
+      "nome_completo": "0053 - Graciliano Ramos / Centro",
+      "nome": "- Graciliano Ramos / Centro"
+    },
+    {
+      "numero": "0056",
+      "nome_completo": "0056 - João Sampaio / Centro",
+      "nome": "- João Sampaio / Centro"
+    },
+    {
+      "numero": "0057",
+      "nome_completo": "0057 - Rio Novo / Centro Via Farol",
+      "nome": "- Rio Novo / Centro Via Farol"
+    },
+    {
+      "numero": "0058",
+      "nome_completo": "0058 Fernão Velho / Centro via Farol",
+      "nome": "Fernão Velho / Centro via Farol"
+    },
+    {
+      "numero": "0068",
+      "nome_completo": "0068 - Colina / Poço",
+      "nome": "- Colina / Poço"
+    },
+    {
+      "numero": "0069",
+      "nome_completo": "0069 - Clima Bom / Centro",
+      "nome": "- Clima Bom / Centro"
+    },
+    {
+      "numero": "0101",
+      "nome_completo": "0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto",
+      "nome": "- Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto"
+    },
+    {
+      "numero": "0102",
+      "nome_completo": "0102 - João Sampaio X Trapiche Via Rotary - Jacintinho",
+      "nome": "- João Sampaio X Trapiche Via Rotary - Jacintinho"
+    },
+    {
+      "numero": "0104",
+      "nome_completo": "0104 - T.I Benedito Bentes / Trapiche",
+      "nome": "- T.I Benedito Bentes / Trapiche"
+    },
+    {
+      "numero": "0105",
+      "nome_completo": "0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis)",
+      "nome": "- Salvador Lyra / Trapiche ( Via Jardim Petrópolis)"
+    },
+    {
+      "numero": "0108",
+      "nome_completo": "0108 - Clima Bom via Colina / Trapiche",
+      "nome": "- Clima Bom via Colina / Trapiche"
+    },
+    {
+      "numero": "0110",
+      "nome_completo": "0110 - Graciliano Ramos / Trapiche",
+      "nome": "- Graciliano Ramos / Trapiche"
+    },
+    {
+      "numero": "0113",
+      "nome_completo": "0113 - T.I Eustáquio Gomes / Trapiche",
+      "nome": "- T.I Eustáquio Gomes / Trapiche"
+    },
+    {
+      "numero": "0114",
+      "nome_completo": "0114 - Cruz das Alamas X Trapiche",
+      "nome": "- Cruz das Alamas X Trapiche"
+    },
+    {
+      "numero": "0115",
+      "nome_completo": "0115 - Chã da Jaqueira Trapiche (via centro - prado)",
+      "nome": "- Chã da Jaqueira Trapiche (via centro - prado)"
+    },
+    {
+      "numero": "0116",
+      "nome_completo": "0116 - José Tenório X Trapiche",
+      "nome": "- José Tenório X Trapiche"
+    },
+    {
+      "numero": "0117",
+      "nome_completo": "0117 - Village II / Trapiche",
+      "nome": "- Village II / Trapiche"
+    },
+    {
+      "numero": "0214",
+      "nome_completo": "0214 - Henrique Equelman / Vergel",
+      "nome": "- Henrique Equelman / Vergel"
+    },
+    {
+      "numero": "0217",
+      "nome_completo": "0217 - T.I. Benedito Bentes / Mercado",
+      "nome": "- T.I. Benedito Bentes / Mercado"
+    },
+    {
+      "numero": "0221",
+      "nome_completo": "0221 - Saúde / Cruz das Almas",
+      "nome": "- Saúde / Cruz das Almas"
+    },
+    {
+      "numero": "0223",
+      "nome_completo": "0223 - Ipioca X Vergel Via Mercado",
+      "nome": "- Ipioca X Vergel Via Mercado"
+    },
+    {
+      "numero": "0226",
+      "nome_completo": "0226 - Ipioca X Trapiche via Poço",
+      "nome": "- Ipioca X Trapiche via Poço"
+    },
+    {
+      "numero": "0401",
+      "nome_completo": "0401 - Circular Bairros I",
+      "nome": "- Circular Bairros I"
+    },
+    {
+      "numero": "0403",
+      "nome_completo": "0403 - Trapiche / Ouro Preto",
+      "nome": "- Trapiche / Ouro Preto"
+    },
+    {
+      "numero": "0404",
+      "nome_completo": "0404 - Trapiche / Novo Mundo",
+      "nome": "- Trapiche / Novo Mundo"
+    },
+    {
+      "numero": "0501",
+      "nome_completo": "0501 - Vergel X São Jorge (Via Jacintinho)",
+      "nome": "- Vergel X São Jorge (Via Jacintinho)"
+    },
+    {
+      "numero": "0502",
+      "nome_completo": "0502 - Vergel X São Jorge ( Via Farol)",
+      "nome": "- Vergel X São Jorge ( Via Farol)"
+    },
+    {
+      "numero": "0504",
+      "nome_completo": "0504 - Trapiche / São Jorge",
+      "nome": "- Trapiche / São Jorge"
+    },
+    {
+      "numero": "0601",
+      "nome_completo": "0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar)",
+      "nome": "- T.I. Benedito Bentes / Jatiúca (Via Rota do Mar)"
+    },
+    {
+      "numero": "0602",
+      "nome_completo": "0602 - Salvador Lyra / Maeió Shopping",
+      "nome": "- Salvador Lyra / Maeió Shopping"
+    },
+    {
+      "numero": "0603",
+      "nome_completo": "0603 - Vergel / Mirante",
+      "nome": "- Vergel / Mirante"
+    },
+    {
+      "numero": "0604",
+      "nome_completo": "0604 Eustáquio Gomes / Cruz das Almas",
+      "nome": "Eustáquio Gomes / Cruz das Almas"
+    },
+    {
+      "numero": "0606",
+      "nome_completo": "0606 - Jose Tenorio / MCZ Shopping",
+      "nome": "- Jose Tenorio / MCZ Shopping"
+    },
+    {
+      "numero": "0607",
+      "nome_completo": "0607 - T.I. Eustáquio Gomes / Maceió Shopping",
+      "nome": "- T.I. Eustáquio Gomes / Maceió Shopping"
+    },
+    {
+      "numero": "0610",
+      "nome_completo": "0610 - Terminal Cruz das Almas X Ouro Preto",
+      "nome": "- Terminal Cruz das Almas X Ouro Preto"
+    },
+    {
+      "numero": "0612",
+      "nome_completo": "0612 - E. Gomes / Jatiuca",
+      "nome": "- E. Gomes / Jatiuca"
+    },
+    {
+      "numero": "0613",
+      "nome_completo": "0613 - vergel / Guaxuma",
+      "nome": "- vergel / Guaxuma"
+    },
+    {
+      "numero": "0614",
+      "nome_completo": "0614 - Trapiche / Mangabeiras",
+      "nome": "- Trapiche / Mangabeiras"
+    },
+    {
+      "numero": "0615",
+      "nome_completo": "0615 - Eustáquio Gomes / Mangabeiras",
+      "nome": "- Eustáquio Gomes / Mangabeiras"
+    },
+    {
+      "numero": "0700",
+      "nome_completo": "0700 - Gruta / Ponta Verde / Term. Rotary",
+      "nome": "- Gruta / Ponta Verde / Term. Rotary"
+    },
+    {
+      "numero": "0703",
+      "nome_completo": "0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta)",
+      "nome": "- T.I Benedito Bentes / Ponta Verde (Via Gruta)"
+    },
+    {
+      "numero": "0704",
+      "nome_completo": "0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia)",
+      "nome": "- T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia)"
+    },
+    {
+      "numero": "0706",
+      "nome_completo": "0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho)",
+      "nome": "- T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho)"
+    },
+    {
+      "numero": "0707",
+      "nome_completo": "0707 - Graciliano Ramos / Ponta Verde",
+      "nome": "- Graciliano Ramos / Ponta Verde"
+    },
+    {
+      "numero": "0708",
+      "nome_completo": "0708 - Cruz das Almas x Ponta Verde",
+      "nome": "- Cruz das Almas x Ponta Verde"
+    },
+    {
+      "numero": "0709",
+      "nome_completo": "0709 - Chã da Jaqueira / Ponta Verde",
+      "nome": "- Chã da Jaqueira / Ponta Verde"
+    },
+    {
+      "numero": "0710",
+      "nome_completo": "0710 - Chã da Jaqueira/ Ponta Verde",
+      "nome": "- Chã da Jaqueira/ Ponta Verde"
+    },
+    {
+      "numero": "0712",
+      "nome_completo": "0712 - Santos Durmont X Ponta Verde / Farol",
+      "nome": "- Santos Durmont X Ponta Verde / Farol"
+    },
+    {
+      "numero": "0714",
+      "nome_completo": "0714 - Rio Novo / Ponta Verde via Jacintinho",
+      "nome": "- Rio Novo / Ponta Verde via Jacintinho"
+    },
+    {
+      "numero": "0716",
+      "nome_completo": "0716 - Clima bom / Ponta Verde",
+      "nome": "- Clima bom / Ponta Verde"
+    },
+    {
+      "numero": "0719",
+      "nome_completo": "0719 - Chã nova / Ponta Verde",
+      "nome": "- Chã nova / Ponta Verde"
+    },
+    {
+      "numero": "0720",
+      "nome_completo": "0720 - Denisson Menezes / Ponta Verde",
+      "nome": "- Denisson Menezes / Ponta Verde"
+    },
+    {
+      "numero": "0723",
+      "nome_completo": "0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho",
+      "nome": "- Rosane Collor / Ponta Verde via Bom Parto - Jacintinho"
+    },
+    {
+      "numero": "0727",
+      "nome_completo": "0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II)",
+      "nome": "- T.I Eustáquio Gomes / Ponta Verde (via Village II)"
+    },
+    {
+      "numero": "0802",
+      "nome_completo": "0802 - Colina / Benedito Bentes",
+      "nome": "- Colina / Benedito Bentes"
+    },
+    {
+      "numero": "0804",
+      "nome_completo": "0804 T.I. Benedito Bentes / Cidade Sorriso I",
+      "nome": "T.I. Benedito Bentes / Cidade Sorriso I"
+    },
+    {
+      "numero": "0805",
+      "nome_completo": "0805 - T.I. Benedito Bentes / Guaxuma",
+      "nome": "- T.I. Benedito Bentes / Guaxuma"
+    },
+    {
+      "numero": "0807",
+      "nome_completo": "0807 - T.I. Benedito Bentes / Aprígio",
+      "nome": "- T.I. Benedito Bentes / Aprígio"
+    },
+    {
+      "numero": "0809",
+      "nome_completo": "0809 - T.I. Benedito Bentes / Selma Bandeira",
+      "nome": "- T.I. Benedito Bentes / Selma Bandeira"
+    },
+    {
+      "numero": "0812",
+      "nome_completo": "0812 T.I. Benedito Bentes / Carminha",
+      "nome": "T.I. Benedito Bentes / Carminha"
+    },
+    {
+      "numero": "0900",
+      "nome_completo": "0900 - Cruz das Almas/UFAL (Via José Tenório)",
+      "nome": "- Cruz das Almas/UFAL (Via José Tenório)"
+    },
+    {
+      "numero": "0901",
+      "nome_completo": "0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital)",
+      "nome": "- T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital)"
+    },
+    {
+      "numero": "0903",
+      "nome_completo": "0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)",
+      "nome": "- T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)"
+    },
+    {
+      "numero": "0999",
+      "nome_completo": "0999 - João Sampaio / Flexais-Via Chã da Jaqueira",
+      "nome": "- João Sampaio / Flexais-Via Chã da Jaqueira"
+    },
+    {
+      "numero": "1000",
+      "nome_completo": "1000 - Trapiche / Pontal",
+      "nome": "- Trapiche / Pontal"
+    },
+    {
+      "numero": "1018",
+      "nome_completo": "1018 - Alto do Cruzeiro / AL 101 Norte (Andraújo)",
+      "nome": "- Alto do Cruzeiro / AL 101 Norte (Andraújo)"
+    },
+    {
+      "numero": "1019",
+      "nome_completo": "1019 - Alto de Ipioca",
+      "nome": "- Alto de Ipioca"
+    },
+    {
+      "numero": "4003",
+      "nome_completo": "4003 - T.I Eustáquio gomes / Grand Jardim",
+      "nome": "- T.I Eustáquio gomes / Grand Jardim"
+    },
+    {
+      "numero": "4006",
+      "nome_completo": "4006 - T.I Benedito Bentes / Mocambo",
+      "nome": "- T.I Benedito Bentes / Mocambo"
+    },
+    {
+      "numero": "4011",
+      "nome_completo": "4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos)",
+      "nome": "- Salvador Lyra / T.I. Benedito Bentes (via Recantos)"
+    },
+    {
+      "numero": "4013",
+      "nome_completo": "4013 - T.I. Eustáquio Gomes / Forene (J. Saúde)",
+      "nome": "- T.I. Eustáquio Gomes / Forene (J. Saúde)"
+    },
+    {
+      "numero": "4014",
+      "nome_completo": "4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal",
+      "nome": "- T.I Eustáquio Gomes / Novo Jardim - J. Royal"
+    },
+    {
+      "numero": "4015",
+      "nome_completo": "4015 - T.I. Eustáquio Gomes / Jardim Amarílis. (via Flamboyantes)",
+      "nome": "- T.I. Eustáquio Gomes / Jardim Amarílis. (via Flamboyantes)"
+    }
+  ]
+}

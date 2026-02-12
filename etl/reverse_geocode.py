@@ -59,6 +59,9 @@ def reverse_geocode_points(
         results.append(address)
 
         if index % 25 == 0 or not address:
+
+
+            
             status = "ok" if address else "falha"
             print(f"Progresso: {index}/{len(points)} ({status})")
 
@@ -86,7 +89,7 @@ def main() -> None:
 
     cache = _load_json(cache_path, default={})
 
-    for prefix in ["IDA", "VOLTA"]:
+    for prefix in ["VOLTA"]:
         input_path = input_dir / f"{prefix}_amostrado.json"
         output_path = output_dir / f"{prefix}_ruas.json"
 

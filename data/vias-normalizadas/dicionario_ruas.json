@@ -1,0 +1,2446 @@
+[
+  {
+    "id": 1,
+    "nome": "00001 RUA DO IMPERADOR"
+  },
+  {
+    "id": 2,
+    "nome": "00001 RUA DO IMPERADOR 0000"
+  },
+  {
+    "id": 3,
+    "nome": "00002 RUA JOAO PESSOA (ANT. RUA DO SOL)"
+  },
+  {
+    "id": 4,
+    "nome": "00002 RUA JOAO PESSOA (ANT. RUA DO SOL) 0000"
+  },
+  {
+    "id": 5,
+    "nome": "00003 RUA MELO MORAES"
+  },
+  {
+    "id": 6,
+    "nome": "00004 RUA FERNANDES DE BARROS"
+  },
+  {
+    "id": 7,
+    "nome": "00004 RUA FERNANDES DE BARROS 0000"
+  },
+  {
+    "id": 8,
+    "nome": "00005 RUA DIAS CABRAL"
+  },
+  {
+    "id": 9,
+    "nome": "00006 AVENIDA SANTOS PACHECO"
+  },
+  {
+    "id": 10,
+    "nome": "00006 AVENIDA SANTOS PACHECO 0000"
+  },
+  {
+    "id": 11,
+    "nome": "00007 RUA OLIVEIRA E SILV A"
+  },
+  {
+    "id": 12,
+    "nome": "00007 RUA OLIVEIRA E SILV A 0000"
+  },
+  {
+    "id": 13,
+    "nome": "00008 RUA 2 DE DEZEMBRO"
+  },
+  {
+    "id": 14,
+    "nome": "00009 PRAÇA DOS MARTIRIOS"
+  },
+  {
+    "id": 15,
+    "nome": "00009 PRAÇA DOS MARTIRIOS 0000"
+  },
+  {
+    "id": 16,
+    "nome": "00011 RUA CINCINATO PINTO"
+  },
+  {
+    "id": 17,
+    "nome": "00012 RUA LUIZ PONTES DE MIRANDA"
+  },
+  {
+    "id": 18,
+    "nome": "00012 RUA LUIZ PONTES DE MIRANDA 0000"
+  },
+  {
+    "id": 19,
+    "nome": "00013 RUA PEDRO MONTEIRO"
+  },
+  {
+    "id": 20,
+    "nome": "00013 RUA PEDRO MONTEIRO 0000"
+  },
+  {
+    "id": 21,
+    "nome": "00014 RUA GABINO BEZOURO"
+  },
+  {
+    "id": 22,
+    "nome": "00015 RUA AGERSON DANTAS"
+  },
+  {
+    "id": 23,
+    "nome": "00017 AVENIDA MOREIRA LIMA"
+  },
+  {
+    "id": 24,
+    "nome": "00018 RUA SENADOR MENDONÇA - RUA DO LIVRAMENTO"
+  },
+  {
+    "id": 25,
+    "nome": "00018 RUA SENADOR MENDONÇA - RUA DO LIVRAMENTO 0000"
+  },
+  {
+    "id": 26,
+    "nome": "00019 RUA BARAO DE PENEDO"
+  },
+  {
+    "id": 27,
+    "nome": "00022 RUA LADISLAU NETO - RUA AUGUSTA"
+  },
+  {
+    "id": 28,
+    "nome": "00024 PRAÇA DEODORO"
+  },
+  {
+    "id": 29,
+    "nome": "00025 PRAÇA DOM PEDRO II"
+  },
+  {
+    "id": 30,
+    "nome": "00026 PRAÇA SAO VICENTE 0000"
+  },
+  {
+    "id": 31,
+    "nome": "00028 AVENIDA SIQUEIRA CAMPOS"
+  },
+  {
+    "id": 32,
+    "nome": "00030 AVENIDA SILVESTRE PERICLES ( RUA FORMOSA )"
+  },
+  {
+    "id": 33,
+    "nome": "00030 AVENIDA SILVESTRE PERICLES ( RUA FORMOSA ) 0000"
+  },
+  {
+    "id": 34,
+    "nome": "00031 RUA BOM DESTINO"
+  },
+  {
+    "id": 35,
+    "nome": "00032 RUA BOA VISTA - P. GROSSA"
+  },
+  {
+    "id": 36,
+    "nome": "00032 RUA BOA VISTA - P. GROSSA 0000"
+  },
+  {
+    "id": 37,
+    "nome": "00033 RUA TEONILO GAMA"
+  },
+  {
+    "id": 38,
+    "nome": "00033 RUA TEONILO GAMA 0000"
+  },
+  {
+    "id": 39,
+    "nome": "00035 AVENIDA ASSIS CHATEAUBRIAND"
+  },
+  {
+    "id": 40,
+    "nome": "00035 AVENIDA ASSIS CHATEAUBRIAND 0000"
+  },
+  {
+    "id": 41,
+    "nome": "00036 RUA BOA SORTE"
+  },
+  {
+    "id": 42,
+    "nome": "00038 AVENIDA PROFESSOR CLAUDIO M. LOUREIRO"
+  },
+  {
+    "id": 43,
+    "nome": "00038 AVENIDA PROFESSOR CLAUDIO M. LOUREIRO 0000"
+  },
+  {
+    "id": 44,
+    "nome": "00041 TRA V . CABRAL"
+  },
+  {
+    "id": 45,
+    "nome": "00042 AVENIDA AMAZONAS"
+  },
+  {
+    "id": 46,
+    "nome": "00044 RUA SENADOR. ARNON DE MELO(VILLAGE II)"
+  },
+  {
+    "id": 47,
+    "nome": "00044 RUA SENADOR. ARNON DE MELO(VILLAGE II) 0000"
+  },
+  {
+    "id": 48,
+    "nome": "00049 RUA PREF. JOATAS MALTA DE ALENCAR"
+  },
+  {
+    "id": 49,
+    "nome": "00050 AVENIDA MONTE CASTELO"
+  },
+  {
+    "id": 50,
+    "nome": "00053 TERMINAL DO VERGEL(PRAÇA DO CRUZEIRO)"
+  },
+  {
+    "id": 51,
+    "nome": "00054 RUA 16 DE SETEMBRO"
+  },
+  {
+    "id": 52,
+    "nome": "00057 RUA SANTA FE"
+  },
+  {
+    "id": 53,
+    "nome": "00058 RUA CABO REIS"
+  },
+  {
+    "id": 54,
+    "nome": "00059 RUA MARQUES DE POMBAL 0000"
+  },
+  {
+    "id": 55,
+    "nome": "00060 RUA SANTA CRUZ"
+  },
+  {
+    "id": 56,
+    "nome": "00060 RUA SANTA CRUZ 0000"
+  },
+  {
+    "id": 57,
+    "nome": "00062 RUA DEMOCRITO GRACINDO 0000"
+  },
+  {
+    "id": 58,
+    "nome": "00063 RUA JOAO CALHEIROS GATO"
+  },
+  {
+    "id": 59,
+    "nome": "00064 AVENIDA CELESTE BEZERRA"
+  },
+  {
+    "id": 60,
+    "nome": "00065 RUA FELIX BANDEIRA"
+  },
+  {
+    "id": 61,
+    "nome": "00066 RUA NOV A"
+  },
+  {
+    "id": 62,
+    "nome": "00067 RUA JOSE C. DE MELO(RUA DA PALMA)"
+  },
+  {
+    "id": 63,
+    "nome": "00067 RUA JOSE C. DE MELO(RUA DA PALMA) 0000"
+  },
+  {
+    "id": 64,
+    "nome": "00068 RUA LUIZ CALHEIROS GATO"
+  },
+  {
+    "id": 65,
+    "nome": "00069 DIQUE ESTRADA"
+  },
+  {
+    "id": 66,
+    "nome": "00073 PRAÇA DAS GRACAS"
+  },
+  {
+    "id": 67,
+    "nome": "00073 PRAÇA DAS GRACAS 0000"
+  },
+  {
+    "id": 68,
+    "nome": "00074 PRAÇA GUEDES DE MIRANDA 0000"
+  },
+  {
+    "id": 69,
+    "nome": "00075 RUA DOUTOR LUIZ DE BARROS"
+  },
+  {
+    "id": 70,
+    "nome": "00078 AVENIDA MAJOR CICERO DE GOES MONTEIRO"
+  },
+  {
+    "id": 71,
+    "nome": "00078 AVENIDA MAJOR CICERO DE GOES MONTEIRO 0000"
+  },
+  {
+    "id": 72,
+    "nome": "00079 RUA TOBIAS BARRETO"
+  },
+  {
+    "id": 73,
+    "nome": "00081 RUA FAUSTINO SILVEIRA"
+  },
+  {
+    "id": 74,
+    "nome": "00082 RUA PROFESSOR E. SENA"
+  },
+  {
+    "id": 75,
+    "nome": "00088 RUA DOUTOR PASSOS DE MIRANDA"
+  },
+  {
+    "id": 76,
+    "nome": "00089 RUA DA PENHA"
+  },
+  {
+    "id": 77,
+    "nome": "00092 RUA CORONEL LUCENA MARANHAO"
+  },
+  {
+    "id": 78,
+    "nome": "00093 LOTEAMENTO JARDIM PETROPOLIS II"
+  },
+  {
+    "id": 79,
+    "nome": "00093 LOTEAMENTO JARDIM PETROPOLIS II 0000"
+  },
+  {
+    "id": 80,
+    "nome": "00094 AVENIDA DOUTOR JULIO CESAR MENDONÇA UCHOA"
+  },
+  {
+    "id": 81,
+    "nome": "00094 AVENIDA DOUTOR JULIO CESAR MENDONÇA UCHOA 0000"
+  },
+  {
+    "id": 82,
+    "nome": "00096 ESTR. DE ACESSO AO MONTE ALEGRE"
+  },
+  {
+    "id": 83,
+    "nome": "00096 ESTR. DE ACESSO AO MONTE ALEGRE 0000"
+  },
+  {
+    "id": 84,
+    "nome": "00100 RUA WILSON PRAXEDES"
+  },
+  {
+    "id": 85,
+    "nome": "00106 AVENIDA DOUTOR FRANCISCO DE MENEZES"
+  },
+  {
+    "id": 86,
+    "nome": "00107 RUA PAU BRASIL"
+  },
+  {
+    "id": 87,
+    "nome": "00107 RUA PAU BRASIL 0000"
+  },
+  {
+    "id": 88,
+    "nome": "00110 RUA DA PRAIA (FERNÃO VELHO)"
+  },
+  {
+    "id": 89,
+    "nome": "00111 ESTR. DE ACESSO VILA ABC"
+  },
+  {
+    "id": 90,
+    "nome": "00112 RUA DO CRA VO - TERMINAL DO RIO NOVO"
+  },
+  {
+    "id": 91,
+    "nome": "00114 TRA V . SANTA AMELIA 0000"
+  },
+  {
+    "id": 92,
+    "nome": "00117 LADEIRA DO BRITO"
+  },
+  {
+    "id": 93,
+    "nome": "00118 RUA COMENDADOR PALMEIRA"
+  },
+  {
+    "id": 94,
+    "nome": "00118 RUA COMENDADOR PALMEIRA 0000"
+  },
+  {
+    "id": 95,
+    "nome": "00122 AVENIDA FERNANDES LIMA"
+  },
+  {
+    "id": 96,
+    "nome": "00123 LADEIRA DOS MARTIRIOS 0000"
+  },
+  {
+    "id": 97,
+    "nome": "00124 RUA TEREZA AZEVEDO"
+  },
+  {
+    "id": 98,
+    "nome": "00125 AVENIDA MOREIRA E SILV A"
+  },
+  {
+    "id": 99,
+    "nome": "00127 RUA MAJOR VICENTE SABINO"
+  },
+  {
+    "id": 100,
+    "nome": "00128 RUA DOM SANTINO COUTINHO"
+  },
+  {
+    "id": 101,
+    "nome": "00128 RUA DOM SANTINO COUTINHO 0000"
+  },
+  {
+    "id": 102,
+    "nome": "00129 RUA PAULO DE ANDRADE JOAZEIRO"
+  },
+  {
+    "id": 103,
+    "nome": "00130 RUA MARTINS MURTA"
+  },
+  {
+    "id": 104,
+    "nome": "00134 RUA DOUTOR ALFREDO OITICICA"
+  },
+  {
+    "id": 105,
+    "nome": "00135 RUA ESTATISTICO TEIXEIRA DE FREITAS"
+  },
+  {
+    "id": 106,
+    "nome": "00136 RUA RICARDO CESAR DE MELO"
+  },
+  {
+    "id": 107,
+    "nome": "00137 RUA CORONEL LIMA ROCHA"
+  },
+  {
+    "id": 108,
+    "nome": "00137 RUA CORONEL LIMA ROCHA 0000"
+  },
+  {
+    "id": 109,
+    "nome": "00139 ALAMEDA SAO FRANCISCO (RUA MARIO MARROQUI"
+  },
+  {
+    "id": 110,
+    "nome": "00139 ALAMEDA SAO FRANCISCO (RUA MARIO MARROQUI 0000"
+  },
+  {
+    "id": 111,
+    "nome": "00140 RUA BELO HORIZONTE (J. DA SILV . CAMERINO"
+  },
+  {
+    "id": 112,
+    "nome": "00141 RUA PROFESSOR JOSE DA SILVEIRA CAMERINO"
+  },
+  {
+    "id": 113,
+    "nome": "00147 AVENIDA ROTARY(AVENIDA MENDONÇA JÚNIOR)"
+  },
+  {
+    "id": 114,
+    "nome": "00148 RUA NILO PEÇANHA TORRES"
+  },
+  {
+    "id": 115,
+    "nome": "00150 RUA CAXEU"
+  },
+  {
+    "id": 116,
+    "nome": "00151 RUA ABELARDO PONTES LIMA 0000"
+  },
+  {
+    "id": 117,
+    "nome": "00153 RUA ARTUR VITAL DA SILV A"
+  },
+  {
+    "id": 118,
+    "nome": "00154 AVENIDA DURV AL DE GOES MONTEIRO"
+  },
+  {
+    "id": 119,
+    "nome": "00155 RUA MARAGOGI"
+  },
+  {
+    "id": 120,
+    "nome": "00159 RUA SANTO AMARO"
+  },
+  {
+    "id": 121,
+    "nome": "00160 LADEIRA GERALDO SANTOS MELO 0000"
+  },
+  {
+    "id": 122,
+    "nome": "00165 TRA VESSA ALMIRANTE BARROSO"
+  },
+  {
+    "id": 123,
+    "nome": "00168 RUA FREI CANECA"
+  },
+  {
+    "id": 124,
+    "nome": "00169 RUA IRIS ALAGOENSE"
+  },
+  {
+    "id": 125,
+    "nome": "00172 RUA JOSE LUIZ DOS SANTOS 0000"
+  },
+  {
+    "id": 126,
+    "nome": "00175 ACESSO AO OURO PRETO"
+  },
+  {
+    "id": 127,
+    "nome": "00177 AVENIDA MUNIZ FALCÃO"
+  },
+  {
+    "id": 128,
+    "nome": "00178 RUA CORONEL PARANHOS"
+  },
+  {
+    "id": 129,
+    "nome": "00179 RUA BONFIM - CLETO CAMPELO"
+  },
+  {
+    "id": 130,
+    "nome": "00181 RUA PASTOR EURICO CALHEIROS"
+  },
+  {
+    "id": 131,
+    "nome": "00182 TRA VESSA CLETO CAMPELO"
+  },
+  {
+    "id": 132,
+    "nome": "00183 RUA DO ENCANTO"
+  },
+  {
+    "id": 133,
+    "nome": "00186 RUA A - CONJ. JOSE DA SILV A PEIXOTO"
+  },
+  {
+    "id": 134,
+    "nome": "00193 NOVO MUNDO"
+  },
+  {
+    "id": 135,
+    "nome": "00194 RUA BUARQUE DE MACEDO 0000"
+  },
+  {
+    "id": 136,
+    "nome": "00199 AVENIDA PROFESSOR SANTOS FERRAZ"
+  },
+  {
+    "id": 137,
+    "nome": "00200 RUA DOUTOR ZEFERINO RODRIGUES"
+  },
+  {
+    "id": 138,
+    "nome": "00202 TRA VESSA SANTO ANTÔNIO"
+  },
+  {
+    "id": 139,
+    "nome": "00202 TRA VESSA SANTO ANTÔNIO 0000"
+  },
+  {
+    "id": 140,
+    "nome": "00204 RUA BARÃO DE ATALAIA"
+  },
+  {
+    "id": 141,
+    "nome": "00205 AVENIDA COMENDADOR CALACA"
+  },
+  {
+    "id": 142,
+    "nome": "00207 PRAÇA SENHOR DO BONFIM"
+  },
+  {
+    "id": 143,
+    "nome": "00208 AVENIDA HUMBERTO MENDES 0000"
+  },
+  {
+    "id": 144,
+    "nome": "00209 RUA PEDRO PAULINO"
+  },
+  {
+    "id": 145,
+    "nome": "00211 AVENIDA CID SCALA"
+  },
+  {
+    "id": 146,
+    "nome": "00213 AVENIDA DONA CONSTANÇA 0000"
+  },
+  {
+    "id": 147,
+    "nome": "00215 AVENIDA CAPITAO MARINHO FALCAO"
+  },
+  {
+    "id": 148,
+    "nome": "00217 AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA"
+  },
+  {
+    "id": 149,
+    "nome": "00218 AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS"
+  },
+  {
+    "id": 150,
+    "nome": "00219 AVENIDA JOÃO DA VINO"
+  },
+  {
+    "id": 151,
+    "nome": "00220 AVENIDA PILAR"
+  },
+  {
+    "id": 152,
+    "nome": "00223 AVENIDA BRIGADEIRO EDUARDO GOMES"
+  },
+  {
+    "id": 153,
+    "nome": "00227 AVENIDA GAL. LUIZ DE FRANÇA ALBUQUERQUE"
+  },
+  {
+    "id": 154,
+    "nome": "00228 RUA SAMPAIO MARQUES (USA 842)"
+  },
+  {
+    "id": 155,
+    "nome": "00231 IPIOCA"
+  },
+  {
+    "id": 156,
+    "nome": "00232 PRAÇA FLORIANO PEIXOTO - IPIOCA"
+  },
+  {
+    "id": 157,
+    "nome": "00234 CONJ. JACARECICA"
+  },
+  {
+    "id": 158,
+    "nome": "00236 RIACHO DOCE"
+  },
+  {
+    "id": 159,
+    "nome": "00239 AVENIDA DUQUE DE CAXIAS (AVENIDA DA PAZ)"
+  },
+  {
+    "id": 160,
+    "nome": "00241 RUA SA E ALBUQUERQUE"
+  },
+  {
+    "id": 161,
+    "nome": "00243 RUA JANGADEIROS ALAGOANO"
+  },
+  {
+    "id": 162,
+    "nome": "00244 RUA EPAMINONDAS GRACINDO"
+  },
+  {
+    "id": 163,
+    "nome": "00247 RUA DO URUGUAI"
+  },
+  {
+    "id": 164,
+    "nome": "00248 RUA DOMINGOS LORDSLEN"
+  },
+  {
+    "id": 165,
+    "nome": "00251 LOTEAMENTO JARDIM PETROPOLES I"
+  },
+  {
+    "id": 166,
+    "nome": "00254 RUA UBERABA"
+  },
+  {
+    "id": 167,
+    "nome": "00257 RUA FRANCISO ALVES"
+  },
+  {
+    "id": 168,
+    "nome": "00258 AVENIDA BELMIRO AMORIM"
+  },
+  {
+    "id": 169,
+    "nome": "00259 TRA VESSA BELMIRO AMORIM"
+  },
+  {
+    "id": 170,
+    "nome": "00260 AVENIDA CACHOEIRA DO MEIRIM"
+  },
+  {
+    "id": 171,
+    "nome": "00263 RUA 3 - CONJ. JOSE MARIA DE MELO"
+  },
+  {
+    "id": 172,
+    "nome": "00264 RUA CARLOS GOMES DE BARROS"
+  },
+  {
+    "id": 173,
+    "nome": "00266 RUA ELIEZER RUFINO DE CASTRO"
+  },
+  {
+    "id": 174,
+    "nome": "00267 AVENIDA GOV . LUIZ CA V ALCANTE"
+  },
+  {
+    "id": 175,
+    "nome": "00270 AVENIDA MENINO MARCELO (VIA EXPRESSA)"
+  },
+  {
+    "id": 176,
+    "nome": "00278 RUA DA FLORESTA"
+  },
+  {
+    "id": 177,
+    "nome": "00280 AVENIDA WALTER ANANIAS"
+  },
+  {
+    "id": 178,
+    "nome": "00283 RUA DO ARAME (CLIMA BOM)"
+  },
+  {
+    "id": 179,
+    "nome": "00284 RUA DOUTOR EURICO AYRES"
+  },
+  {
+    "id": 180,
+    "nome": "00285 RUA SAO PAULO"
+  },
+  {
+    "id": 181,
+    "nome": "00286 RUA DO SOSSEGO"
+  },
+  {
+    "id": 182,
+    "nome": "00289 TERMINAL NOVO HORIZONTE - SANTOS DUMONT"
+  },
+  {
+    "id": 183,
+    "nome": "00291 RUA L - COLINA DOS EUCALIPTOS"
+  },
+  {
+    "id": 184,
+    "nome": "00292 RUA O - COLINA DOS EUCALIPTOS"
+  },
+  {
+    "id": 185,
+    "nome": "00293 RUA D - COLINA DOS EUCALIPTOS"
+  },
+  {
+    "id": 186,
+    "nome": "00294 RUA ISRAEL"
+  },
+  {
+    "id": 187,
+    "nome": "00298 RUA LUIZ CLEMENTE V ASCONCELOS(R.BOA VISTA)"
+  },
+  {
+    "id": 188,
+    "nome": "00299 RUA SAO LUIZ(RUA EDUADO JORGE L. NOV AES)"
+  },
+  {
+    "id": 189,
+    "nome": "00300 RUA DO CAJUEIRO"
+  },
+  {
+    "id": 190,
+    "nome": "00302 CONJ. BOSQUE DA SERRARIA"
+  },
+  {
+    "id": 191,
+    "nome": "00303 RUA SANTA LUZIA"
+  },
+  {
+    "id": 192,
+    "nome": "00304 RUA LAGOA SECA"
+  },
+  {
+    "id": 193,
+    "nome": "00305 BR 104 ( AVENIDA LOURIV AL MELO COSTA )"
+  },
+  {
+    "id": 194,
+    "nome": "00307 CIDADE UNIVERSITARIA-UFAL"
+  },
+  {
+    "id": 195,
+    "nome": "00310 RUA A - CONJ. INOCOOP"
+  },
+  {
+    "id": 196,
+    "nome": "00311 RUA 2A - CONJ. INOCOOP"
+  },
+  {
+    "id": 197,
+    "nome": "00313 RUA G1 - CONJUNTO EUSTAQUIO GOMES I"
+  },
+  {
+    "id": 198,
+    "nome": "00313 RUA G1 - CONJUNTO EUSTAQUIO GOMES I 0000"
+  },
+  {
+    "id": 199,
+    "nome": "00316 RUA PRINCIPAL - CONJ. VILLAGE CAMPESTRE"
+  },
+  {
+    "id": 200,
+    "nome": "00317 RUA K1 - CONJUNTO EUSTAQUIO GOMES I"
+  },
+  {
+    "id": 201,
+    "nome": "00319 RUA G - CONJUNTO EUSTAQUIO GOMES"
+  },
+  {
+    "id": 202,
+    "nome": "00320 RUA BELO MONTE - CANAA"
+  },
+  {
+    "id": 203,
+    "nome": "00323 ACESSO AO CONJ. CABO LUIZ PEDRO III"
+  },
+  {
+    "id": 204,
+    "nome": "00324 TERMINAL PONTAL DA BARRA"
+  },
+  {
+    "id": 205,
+    "nome": "00326 RUA SÃO FRANCISCO DE ASSIS"
+  },
+  {
+    "id": 206,
+    "nome": "00326 RUA SÃO FRANCISCO DE ASSIS 0000"
+  },
+  {
+    "id": 207,
+    "nome": "00329 RUA DOS CAETES"
+  },
+  {
+    "id": 208,
+    "nome": "00338 RUA PORTO ALEGRE"
+  },
+  {
+    "id": 209,
+    "nome": "00340 RUA D - CONJ. MORADA DO BOSQUE"
+  },
+  {
+    "id": 210,
+    "nome": "00342 RUA H"
+  },
+  {
+    "id": 211,
+    "nome": "00344 AVENIDA GARÇA TORTA"
+  },
+  {
+    "id": 212,
+    "nome": "00348 RUA DOUTOR PONTES DE MIRANDA(LADEIRA F. VELHO)"
+  },
+  {
+    "id": 213,
+    "nome": "00354 TERMINAL INTEGRADO BENEDITO BENTES"
+  },
+  {
+    "id": 214,
+    "nome": "00354 TERMINAL INTEGRADO BENEDITO BENTES 0000"
+  },
+  {
+    "id": 215,
+    "nome": "00355 RUA JUÇARA"
+  },
+  {
+    "id": 216,
+    "nome": "00357 RUA EDSON FERREIRA SANTOS"
+  },
+  {
+    "id": 217,
+    "nome": "00358 RUA J - CONJ. PAJUCARA"
+  },
+  {
+    "id": 218,
+    "nome": "00367 RUA BRUNO FERRAZ"
+  },
+  {
+    "id": 219,
+    "nome": "00368 RUA QUINTINO BOCAIUV A"
+  },
+  {
+    "id": 220,
+    "nome": "00369 RUA ALMIRANTE MASCARENHAS"
+  },
+  {
+    "id": 221,
+    "nome": "00372 RUA MACHADO LEMOS"
+  },
+  {
+    "id": 222,
+    "nome": "00373 RETORNO DO VIADUTO JOSEPHA DE MELO"
+  },
+  {
+    "id": 223,
+    "nome": "00375 AVENIDA EMP. CARLOS DA SILV A NOGUEIRA"
+  },
+  {
+    "id": 224,
+    "nome": "00376 RUA JOAQUIM NABUCO"
+  },
+  {
+    "id": 225,
+    "nome": "00378 RUA DOM VITAL"
+  },
+  {
+    "id": 226,
+    "nome": "00379 RUA J. G. PEREIRA DO CARMO"
+  },
+  {
+    "id": 227,
+    "nome": "00380 QUADRA O - CONJ. SAÚDE"
+  },
+  {
+    "id": 228,
+    "nome": "00381 RUA SETE DE SETEMBRO"
+  },
+  {
+    "id": 229,
+    "nome": "00382 AVENIDA JORGE M. DE BARROS- SANTA AMÉLIA"
+  },
+  {
+    "id": 230,
+    "nome": "00384 AVENIDA CORONEL SALUSTIANO SARMENTO"
+  },
+  {
+    "id": 231,
+    "nome": "00385 AVENIDA FRANCISCO FREIRE RIBEIRO"
+  },
+  {
+    "id": 232,
+    "nome": "00386 RUA CARTEIRO JOAO FIRMINO"
+  },
+  {
+    "id": 233,
+    "nome": "00389 RUA DA ALEGRIA"
+  },
+  {
+    "id": 234,
+    "nome": "00391 A VENIDA PIERRE CHALITA"
+  },
+  {
+    "id": 235,
+    "nome": "00393 RUA ESTUDANTE ARNOUMAR CHAGAS"
+  },
+  {
+    "id": 236,
+    "nome": "00399 AVENIDA BRASIL"
+  },
+  {
+    "id": 237,
+    "nome": "00408 AVENIDA BENEDITO BENTES"
+  },
+  {
+    "id": 238,
+    "nome": "00410 AVENIDA GUAXUMA"
+  },
+  {
+    "id": 239,
+    "nome": "00416 RUA DONA MARIETA C. TEIXEIRA 0000"
+  },
+  {
+    "id": 240,
+    "nome": "00423 RUA 436 0000"
+  },
+  {
+    "id": 241,
+    "nome": "00426 AVENIDA DOUTOR ANTONIO GOUVEIA"
+  },
+  {
+    "id": 242,
+    "nome": "00428 TERMINAL DO TRAPICHE"
+  },
+  {
+    "id": 243,
+    "nome": "00429 RUA COMENDADOR TEIXEIRA BASTOS"
+  },
+  {
+    "id": 244,
+    "nome": "00432 AVENIDA MINISTRO MARIO ANDREAZZA"
+  },
+  {
+    "id": 245,
+    "nome": "00442 RUA JOÃO JOSÉ P. DE RUA FILHO 0000"
+  },
+  {
+    "id": 246,
+    "nome": "00443 RUA DONA ROSA DA FONSECA"
+  },
+  {
+    "id": 247,
+    "nome": "00444 LOTEAMENTO SÃO JORGE"
+  },
+  {
+    "id": 248,
+    "nome": "00456 GUAXUMA"
+  },
+  {
+    "id": 249,
+    "nome": "00458 AVENIDA SENADOR RUI PALMEIRA"
+  },
+  {
+    "id": 250,
+    "nome": "00459 MACEIÓ SHOPPING ( ANTIGO IGUATEMI )"
+  },
+  {
+    "id": 251,
+    "nome": "00460 TRA VESSA CALABAR 0000"
+  },
+  {
+    "id": 252,
+    "nome": "00463 PRAÇA DA IGREJA - FEITOSA"
+  },
+  {
+    "id": 253,
+    "nome": "00464 RUA 2 - LOTEAMENTO BARILOCHE"
+  },
+  {
+    "id": 254,
+    "nome": "00464 RUA 2 - LOTEAMENTO BARILOCHE 0000"
+  },
+  {
+    "id": 255,
+    "nome": "00469 AVENIDA ALMIRANTE ALV ARO CALHEIROS"
+  },
+  {
+    "id": 256,
+    "nome": "00472 RUA SÃO JOÃO"
+  },
+  {
+    "id": 257,
+    "nome": "00478 VILA KENNEDY"
+  },
+  {
+    "id": 258,
+    "nome": "00479 TRA VESSA PAU DARCO 0000"
+  },
+  {
+    "id": 259,
+    "nome": "00483 AVENIDA JORN. TOBIAS GRANJA 0000"
+  },
+  {
+    "id": 260,
+    "nome": "00487 RUA TENENTE FRANCISCO DE OLIVEIRA (V . SAEM) 0000"
+  },
+  {
+    "id": 261,
+    "nome": "00488 ALAMEDA RIO BRANCO"
+  },
+  {
+    "id": 262,
+    "nome": "00496 AL 101 NORTE - PRATAGY 0000"
+  },
+  {
+    "id": 263,
+    "nome": "00497 AL 101 NORTE - PESCARIA"
+  },
+  {
+    "id": 264,
+    "nome": "00499 RUA DO CRUZEIRO"
+  },
+  {
+    "id": 265,
+    "nome": "00501 AVENIDA DEPUTADO EDSON LINS(ESTRADA DA SERRARIA)"
+  },
+  {
+    "id": 266,
+    "nome": "00505 AVENIDA SENADOR TEOTONIO VILELA"
+  },
+  {
+    "id": 267,
+    "nome": "00507 RUA ADRIANO MAGALHÃES"
+  },
+  {
+    "id": 268,
+    "nome": "00512 RUA RIACHUELO"
+  },
+  {
+    "id": 269,
+    "nome": "00513 RUA SOLDADO EDUARDO SANTOS"
+  },
+  {
+    "id": 270,
+    "nome": "00518 RUA JAIRO MARQUES LUZ"
+  },
+  {
+    "id": 271,
+    "nome": "00520 RUA ADOLFO CAMERINO"
+  },
+  {
+    "id": 272,
+    "nome": "00522 RUA OUVIDOR BATALHA"
+  },
+  {
+    "id": 273,
+    "nome": "00528 RUA A - CONJ. DO SESI"
+  },
+  {
+    "id": 274,
+    "nome": "00530 RUA SAO JOAO BATISTA DOS SANTOS 0000"
+  },
+  {
+    "id": 275,
+    "nome": "00544 RUA BARÃO DE JARAGUÁ"
+  },
+  {
+    "id": 276,
+    "nome": "00552 RUA PROJETADA"
+  },
+  {
+    "id": 277,
+    "nome": "00554 RUA CORONEL PACHECO RAMALHO"
+  },
+  {
+    "id": 278,
+    "nome": "00555 RUA ZACARIAS DE AZEVEDO"
+  },
+  {
+    "id": 279,
+    "nome": "00556 RUA GERMANO LOPES CORDEIRO 0000"
+  },
+  {
+    "id": 280,
+    "nome": "00564 AVENIDA SANTANA DO IPANEMA"
+  },
+  {
+    "id": 281,
+    "nome": "00566 TRA VESSA MARA VILHA"
+  },
+  {
+    "id": 282,
+    "nome": "00567 RUA PROFESSOR MARIO MARROQUIM"
+  },
+  {
+    "id": 283,
+    "nome": "00568 LARGO DELMIRO GOUVEIA"
+  },
+  {
+    "id": 284,
+    "nome": "00573 RUA PARQUE DOS EUCALIPTOS-CONJ. M. NETO"
+  },
+  {
+    "id": 285,
+    "nome": "00585 RUA BELEM"
+  },
+  {
+    "id": 286,
+    "nome": "00587 RUA PRESIDENTE AGOSTINHO DA SILV A NEVES"
+  },
+  {
+    "id": 287,
+    "nome": "00587 RUA PRESIDENTE AGOSTINHO DA SILV A NEVES 0000"
+  },
+  {
+    "id": 288,
+    "nome": "00596 AL 101 NORTE"
+  },
+  {
+    "id": 289,
+    "nome": "00608 AVENIDA BENEDITO BATISTA"
+  },
+  {
+    "id": 290,
+    "nome": "00620 TERMINAL CONJ. GRACILIANO RAMOS"
+  },
+  {
+    "id": 291,
+    "nome": "00625 RUA CAINHA"
+  },
+  {
+    "id": 292,
+    "nome": "00640 RUA CORONEL WALFRIDO ROCHA"
+  },
+  {
+    "id": 293,
+    "nome": "00643 AVENIDA BETEL"
+  },
+  {
+    "id": 294,
+    "nome": "00646 RUA MARECHAL ROBERTO FERREIRA"
+  },
+  {
+    "id": 295,
+    "nome": "00647 RUA SARGENTO BENEVIDES"
+  },
+  {
+    "id": 296,
+    "nome": "00649 RUA DOUTOR LESSA DE AZEVEDO"
+  },
+  {
+    "id": 297,
+    "nome": "00650 RUA MANOEL MAIA NOBRE"
+  },
+  {
+    "id": 298,
+    "nome": "00662 AVENIDA LUIZ RAMALHO DE CASTRO"
+  },
+  {
+    "id": 299,
+    "nome": "00667 AVENIDA BEIRA MAR"
+  },
+  {
+    "id": 300,
+    "nome": "00668 RUA SANTA AMÁLIA"
+  },
+  {
+    "id": 301,
+    "nome": "00671 RETORNO POSTO COMVEM"
+  },
+  {
+    "id": 302,
+    "nome": "00673 RUA CORONEL CAHET"
+  },
+  {
+    "id": 303,
+    "nome": "00677 AVENIDA TANCREDO NEVES"
+  },
+  {
+    "id": 304,
+    "nome": "00691 RUA PROFESSOR BENEDITO GONEGUNDES"
+  },
+  {
+    "id": 305,
+    "nome": "00700 RUA FLORENCIO DE ABREU 0000"
+  },
+  {
+    "id": 306,
+    "nome": "00702 TRA VESSA SENADOR FIRMINO V ASCONCELOS"
+  },
+  {
+    "id": 307,
+    "nome": "00703 RUA PADRE LUIZ AMERICO GALVÃO"
+  },
+  {
+    "id": 308,
+    "nome": "00718 AVENIDA JUCA SAMPAIO - MAC"
+  },
+  {
+    "id": 309,
+    "nome": "00720 RUA 13 0000"
+  },
+  {
+    "id": 310,
+    "nome": "00734 RUA 09-E - CONJ. J. SAMPAIO - B. BENTES"
+  },
+  {
+    "id": 311,
+    "nome": "00736 RUA LAFAYETE PACHECO"
+  },
+  {
+    "id": 312,
+    "nome": "00737 RUA JULIO PLECH FILHO 0000"
+  },
+  {
+    "id": 313,
+    "nome": "00739 RUA JOEL VIEIRA DOS ANJOS"
+  },
+  {
+    "id": 314,
+    "nome": "00741 RUA ANTONIO ZEFERINO DOS SANTOS"
+  },
+  {
+    "id": 315,
+    "nome": "00742 A VENIDA COMENDADOR LEÃO(POÇO)"
+  },
+  {
+    "id": 316,
+    "nome": "00753 ALAMEDA JOSÉ LOPES ALBUQUERQUE"
+  },
+  {
+    "id": 317,
+    "nome": "00754 RUA 14 A - JOAO SAMPAIO I"
+  },
+  {
+    "id": 318,
+    "nome": "00757 AVENIDA ALAMEDA"
+  },
+  {
+    "id": 319,
+    "nome": "00757 AVENIDA ALAMEDA 959 0000"
+  },
+  {
+    "id": 320,
+    "nome": "00761 RUA DO ALECRIM"
+  },
+  {
+    "id": 321,
+    "nome": "00764 RUA PROFESSOR HUMBERTO VILELA"
+  },
+  {
+    "id": 322,
+    "nome": "00769 RUA VEREADOR JOSE RAIMUNDO DOS SANTOS"
+  },
+  {
+    "id": 323,
+    "nome": "00776 RUA GUIOMAR OMENA"
+  },
+  {
+    "id": 324,
+    "nome": "00801 TERMINAL ROTARY 0000"
+  },
+  {
+    "id": 325,
+    "nome": "00802 AVENIDA NELSON MARINHO DE ARAUJO"
+  },
+  {
+    "id": 326,
+    "nome": "00803 RUA RIO GRANDE DO SUL"
+  },
+  {
+    "id": 327,
+    "nome": "00804 AVENIDA DA PAZ"
+  },
+  {
+    "id": 328,
+    "nome": "00806 RUA 01 0000"
+  },
+  {
+    "id": 329,
+    "nome": "00808 RUA IOLANDA GOMES DE MOURA"
+  },
+  {
+    "id": 330,
+    "nome": "00811 RUA CAMARAGIBE (C. DAS ALMAS)"
+  },
+  {
+    "id": 331,
+    "nome": "00821 AVENIDA GAMA LINS"
+  },
+  {
+    "id": 332,
+    "nome": "00832 RUA DEPUTADO JORN JOSE BATISTA DOS SANTOS 0000"
+  },
+  {
+    "id": 333,
+    "nome": "00836 AVENIDA JORGE MONTENEGRO DE BARROS"
+  },
+  {
+    "id": 334,
+    "nome": "00842 RUA SAMPAIO MARQUES"
+  },
+  {
+    "id": 335,
+    "nome": "00847 ITINERARIO 01 - VIA JACINTINHO"
+  },
+  {
+    "id": 336,
+    "nome": "00847 ITINERARIO 01 - VIA JACINTINHO 0000"
+  },
+  {
+    "id": 337,
+    "nome": "00848 ITINERARIO 02 - VIA FAROL"
+  },
+  {
+    "id": 338,
+    "nome": "00849 RUA SANTO ANTONIO - CAMPO DO TEJO-S.JORGE"
+  },
+  {
+    "id": 339,
+    "nome": "00855 AVENIDA FRANCISCO AFONSO DE MELO"
+  },
+  {
+    "id": 340,
+    "nome": "00856 RUA EM PROJETO"
+  },
+  {
+    "id": 341,
+    "nome": "00859 VIADUTO IB GATTO FALCÃO"
+  },
+  {
+    "id": 342,
+    "nome": "00859 VIADUTO IB GATTO FALCÃO 0001"
+  },
+  {
+    "id": 343,
+    "nome": "00860 TRA VESSA DOS ARTISTAS"
+  },
+  {
+    "id": 344,
+    "nome": "00903 TRA VESSA 7 DE SETEMBRO"
+  },
+  {
+    "id": 345,
+    "nome": "00906 TERM DE CRUZ DAS ALMAS(RUA JOÃO ULISSES)"
+  },
+  {
+    "id": 346,
+    "nome": "00910 RUA BERNARDO LOPES"
+  },
+  {
+    "id": 347,
+    "nome": "00911 RUA ENGENHEIRO OTA VIO CABRAL"
+  },
+  {
+    "id": 348,
+    "nome": "00912 RUA MANOEL RIBEIRO DA ROCHA"
+  },
+  {
+    "id": 349,
+    "nome": "00914 RUA DESEMBARGADOR TENÓRIO"
+  },
+  {
+    "id": 350,
+    "nome": "00915 RUA SÃO MIGUEL"
+  },
+  {
+    "id": 351,
+    "nome": "00916 RUA SENADOR FIRMINO V ASCONCELOS"
+  },
+  {
+    "id": 352,
+    "nome": "00917 AVENIDA JUCA NUNES"
+  },
+  {
+    "id": 353,
+    "nome": "00920 RUA ANADIA"
+  },
+  {
+    "id": 354,
+    "nome": "00921 RUA SATUBA"
+  },
+  {
+    "id": 355,
+    "nome": "00922 LADEIRA DEPUTADA CECI CUNHA 0001"
+  },
+  {
+    "id": 356,
+    "nome": "00926 AVENIDA JOSÉ HAILTON DOS SANTOS"
+  },
+  {
+    "id": 357,
+    "nome": "00928 AVENIDA ALICE KAROLINE"
+  },
+  {
+    "id": 358,
+    "nome": "00930 RUA FRED STONE"
+  },
+  {
+    "id": 359,
+    "nome": "00936 RUA JOSÉ LUIZ CALAZANS"
+  },
+  {
+    "id": 360,
+    "nome": "00938 AVENIDA SANTA RITA DE CASSIA"
+  },
+  {
+    "id": 361,
+    "nome": "00939 RUA PROFESSOR JOSÉ PAULINO ( PARAGUAÇÚ )"
+  },
+  {
+    "id": 362,
+    "nome": "00939 RUA PROFESSOR JOSÉ PAULINO ( PARAGUAÇÚ ) 0001"
+  },
+  {
+    "id": 363,
+    "nome": "00940 RUA AFONSO PENA"
+  },
+  {
+    "id": 364,
+    "nome": "00941 RUA SÃO DOMINGOS"
+  },
+  {
+    "id": 365,
+    "nome": "00943 RUA COMENDADOR FIRMO LOPES"
+  },
+  {
+    "id": 366,
+    "nome": "00945 RUA MARIA CECÍLIA DA ROCHA"
+  },
+  {
+    "id": 367,
+    "nome": "06079 AVENIDA ARIOSV ALDO PEREIRA CINTRA"
+  },
+  {
+    "id": 368,
+    "nome": "06083 RUA MIGUEL PALMEIRA"
+  },
+  {
+    "id": 369,
+    "nome": "06086 RUA 10 DE NOVEMBRO"
+  },
+  {
+    "id": 370,
+    "nome": "06087 ALAMEDA SÃO BENEDITO"
+  },
+  {
+    "id": 371,
+    "nome": "06088 ALAMEDA SÃO FRANCISCO"
+  },
+  {
+    "id": 372,
+    "nome": "06090 RUA INDUSTRIAL MOACIR DUARTE"
+  },
+  {
+    "id": 373,
+    "nome": "06095 RUA ALBUQUERQUE LINS"
+  },
+  {
+    "id": 374,
+    "nome": "06096 RUA ANTENOR GOMES DE OLIVEIRA"
+  },
+  {
+    "id": 375,
+    "nome": "06097 AVENIDA NORMA PIMENTEL DA COSTA"
+  },
+  {
+    "id": 376,
+    "nome": "06100 RUA JOÃO LINS CALHEIROS"
+  },
+  {
+    "id": 377,
+    "nome": "06101 AVENIDA ANTONIO LISBOA DE AMORIM"
+  },
+  {
+    "id": 378,
+    "nome": "06103 RUA SÃO JOSÉ"
+  },
+  {
+    "id": 379,
+    "nome": "06104 AVENIDA V ALENTIM DOS SANTOS DINIZ"
+  },
+  {
+    "id": 380,
+    "nome": "06105 RUA PIAÇABUÇU"
+  },
+  {
+    "id": 381,
+    "nome": "06110 RUA LUIZ RIZZO"
+  },
+  {
+    "id": 382,
+    "nome": "06113 ITINERARIO IDA - RUA DA FLORESTA"
+  },
+  {
+    "id": 383,
+    "nome": "06113 ITINERARIO IDA - RUA DA FLORESTA 0001"
+  },
+  {
+    "id": 384,
+    "nome": "06117 RUA DOS PARDAIS (CJ. SALV ADOR LYRA)"
+  },
+  {
+    "id": 385,
+    "nome": "06118 RUA PROFESSOR GRAÇA LEITE"
+  },
+  {
+    "id": 386,
+    "nome": "06124 RUA CORONEL PARANHOS (LADEIRA J. ATAÍDE) 0001"
+  },
+  {
+    "id": 387,
+    "nome": "06125 RUA ITAPUÃ"
+  },
+  {
+    "id": 388,
+    "nome": "06126 RUA MARIA VITORIA DE FRANÇA CHA VES"
+  },
+  {
+    "id": 389,
+    "nome": "06127 RUA DOUTOR FÁBIO WANDERLEY"
+  },
+  {
+    "id": 390,
+    "nome": "06128 RUA X - CJ. EUSTÁQUIO GOMES I"
+  },
+  {
+    "id": 391,
+    "nome": "06132 RUA ANTONIO REGINALDO PONTES LIMA 0000"
+  },
+  {
+    "id": 392,
+    "nome": "06142 TRA VESSA ANTÔNIO MACIEL DE OLIVEIRA"
+  },
+  {
+    "id": 393,
+    "nome": "06144 RUA SANTA ANA"
+  },
+  {
+    "id": 394,
+    "nome": "06145 RUA SANTA LEOPOLDINA"
+  },
+  {
+    "id": 395,
+    "nome": "06148 RUA SÃO JOSÉ (JATIÚCA)"
+  },
+  {
+    "id": 396,
+    "nome": "06154 AVENIDA WALDEMAR RUFINO DOS SANTOS-GOIABEIRA 0000"
+  },
+  {
+    "id": 397,
+    "nome": "06155 RUA DOUTOR MANOEL MACHADO"
+  },
+  {
+    "id": 398,
+    "nome": "06157 TRA VESSA RIO DA SILV A 0000"
+  },
+  {
+    "id": 399,
+    "nome": "06158 RUA NOSSA SENHORA APARECIDA"
+  },
+  {
+    "id": 400,
+    "nome": "06163 RUA 03 0000"
+  },
+  {
+    "id": 401,
+    "nome": "06171 RUA JOÃO OMENA ANDRADE"
+  },
+  {
+    "id": 402,
+    "nome": "06173 TRA VESSA CRISTOVÃO COLOMBO"
+  },
+  {
+    "id": 403,
+    "nome": "06174 RUA CASSIANO DE ALBUQUERQUE"
+  },
+  {
+    "id": 404,
+    "nome": "06181 RUA AUGUSTO DIAS CARDOSO"
+  },
+  {
+    "id": 405,
+    "nome": "06185 ITINERÁRIO - 02 ( VIA CLIMA BOM )"
+  },
+  {
+    "id": 406,
+    "nome": "06187 RUA LUCILO SIMÕES DE SOUZA"
+  },
+  {
+    "id": 407,
+    "nome": "06190 AVENIDA JÚLIA CAMELO DE FREITAS"
+  },
+  {
+    "id": 408,
+    "nome": "06192 RUA NOSSA SENHORA DE FATIMA"
+  },
+  {
+    "id": 409,
+    "nome": "06194 RUA COSTA NABAL"
+  },
+  {
+    "id": 410,
+    "nome": "06201 LADEIRA MANOEL FLORENTINO LOPES DOS SANTOS"
+  },
+  {
+    "id": 411,
+    "nome": "06204 RUA ANA LOPES CAHET(TERMINAL)"
+  },
+  {
+    "id": 412,
+    "nome": "06207 AVENIDA OTONIEL PIMENTEL SANTOS"
+  },
+  {
+    "id": 413,
+    "nome": "06212 RUA JOSÉ DE MELO"
+  },
+  {
+    "id": 414,
+    "nome": "06217 RUA INÁCIO CALMON"
+  },
+  {
+    "id": 415,
+    "nome": "06219 RUA VEREADOR BRUNO FERRARI"
+  },
+  {
+    "id": 416,
+    "nome": "06220 RUA DA LIBERDADE"
+  },
+  {
+    "id": 417,
+    "nome": "06221 CONJ. JOSÉ APRÍGIO VILELA"
+  },
+  {
+    "id": 418,
+    "nome": "06223 RUA DOUTOR ALDO CARDOSO ( QD. D - 1 )"
+  },
+  {
+    "id": 419,
+    "nome": "06224 RUA ERNANI JONAS GOMES"
+  },
+  {
+    "id": 420,
+    "nome": "06232 ACESSO AOS CONJ. PETRÓPOLIS I,II,III"
+  },
+  {
+    "id": 421,
+    "nome": "06243 RUA SILVIO SANDES TORRES JÚNIOR"
+  },
+  {
+    "id": 422,
+    "nome": "06248 RUA DA AREIA"
+  },
+  {
+    "id": 423,
+    "nome": "06256 RUA SÃO FRANCISCO"
+  },
+  {
+    "id": 424,
+    "nome": "06262 RUA 7-D - J. SAMP."
+  },
+  {
+    "id": 425,
+    "nome": "06264 RUA 12-A - J. SAMP."
+  },
+  {
+    "id": 426,
+    "nome": "06269 RUA JOÃO CORREIA DE ARAÚJO"
+  },
+  {
+    "id": 427,
+    "nome": "06271 RUA DEZ DE NOVEMBRO"
+  },
+  {
+    "id": 428,
+    "nome": "06274 AVENIDA MANOEL AFONSO DE MELO"
+  },
+  {
+    "id": 429,
+    "nome": "06279 IDA - SANTA LÚCIA"
+  },
+  {
+    "id": 430,
+    "nome": "06283 RUA SENADOR RUI PALMEIRA"
+  },
+  {
+    "id": 431,
+    "nome": "06286 RUA TEODOMIRO DEODATO SANTOS"
+  },
+  {
+    "id": 432,
+    "nome": "06289 LADEIRA VEREADOR JORGE OMENA"
+  },
+  {
+    "id": 433,
+    "nome": "06296 IDA - CHÃ DA JAQUEIRA"
+  },
+  {
+    "id": 434,
+    "nome": "06300 RUA CLÁUDIO MANOEL"
+  },
+  {
+    "id": 435,
+    "nome": "06307 RUA A QUATORZE"
+  },
+  {
+    "id": 436,
+    "nome": "06309 RUA DOUTOR PEDRO MARCELO DE OLIVEIRA"
+  },
+  {
+    "id": 437,
+    "nome": "06310 AVENIDA MACEIÓ"
+  },
+  {
+    "id": 438,
+    "nome": "06312 RUA BELA VISTA"
+  },
+  {
+    "id": 439,
+    "nome": "06320 AVENIDA DENILMA BULHÕES"
+  },
+  {
+    "id": 440,
+    "nome": "06327 RUA SÃO BENEDITO"
+  },
+  {
+    "id": 441,
+    "nome": "06338 ROTA DO MAR"
+  },
+  {
+    "id": 442,
+    "nome": "06349 RUA FRANCISCO LEÃO"
+  },
+  {
+    "id": 443,
+    "nome": "06355 RUA GOVERNADOR CARLOS LACERDA"
+  },
+  {
+    "id": 444,
+    "nome": "06356 RUA JOÃO CANUTO DA SILV A"
+  },
+  {
+    "id": 445,
+    "nome": "06357 RUA MARIA ANTONIETA TEIXEIRA LEITE"
+  },
+  {
+    "id": 446,
+    "nome": "06358 RUA LEOPOLDO ARAÚJO AMORIM"
+  },
+  {
+    "id": 447,
+    "nome": "06359 RUA SENADOR ARNON DE MELO"
+  },
+  {
+    "id": 448,
+    "nome": "06368 SAÍDA VILLAGE II - IDA SALV ADOR LYRA"
+  },
+  {
+    "id": 449,
+    "nome": "06389 RUA CELSO PIATTI"
+  },
+  {
+    "id": 450,
+    "nome": "06390 RUA JOSÉ MOREIRA"
+  },
+  {
+    "id": 451,
+    "nome": "06391 RUA ANA DUARTE"
+  },
+  {
+    "id": 452,
+    "nome": "06394 RUA JOSÉ ALVES BARBOSA"
+  },
+  {
+    "id": 453,
+    "nome": "06395 AVENIDA ROBERTO PONTES DE LIMA"
+  },
+  {
+    "id": 454,
+    "nome": "06398 RUA VITÓRIA"
+  },
+  {
+    "id": 455,
+    "nome": "06399 RUA NOVE"
+  },
+  {
+    "id": 456,
+    "nome": "06401 RUA ANA EMÍLIA DE ALENCAR"
+  },
+  {
+    "id": 457,
+    "nome": "06403 AVENIDA PENEDO"
+  },
+  {
+    "id": 458,
+    "nome": "06406 RUA 7 DE SETEMBRO(CENTRO)"
+  },
+  {
+    "id": 459,
+    "nome": "06409 AVENIDA DEPUTADO SEZERDELO DE BARROS CARREA"
+  },
+  {
+    "id": 460,
+    "nome": "06412 AVENIDA PAULO HOLANDA"
+  },
+  {
+    "id": 461,
+    "nome": "06414 RUA TRANSVERSAL 2 (UFAL)"
+  },
+  {
+    "id": 462,
+    "nome": "06418 RUA EDGAR DE GOES MONTEIRO"
+  },
+  {
+    "id": 463,
+    "nome": "06426 RUA BOA VISTA"
+  },
+  {
+    "id": 464,
+    "nome": "06431 RUA DESEMBARGADOR AMORIM LIMA"
+  },
+  {
+    "id": 465,
+    "nome": "06432 CONJUNTOS RESIDENCIAIS RIO NOVO"
+  },
+  {
+    "id": 466,
+    "nome": "06433 LADEIRA CORONEL ALVEZ MATA"
+  },
+  {
+    "id": 467,
+    "nome": "06438 RUA DJALMA BARRETO DE MENEZES"
+  },
+  {
+    "id": 468,
+    "nome": "06439 RUA TEÓFILO DE BARROS"
+  },
+  {
+    "id": 469,
+    "nome": "06441 RUA PEDRO OLIVEIRA ROCHA"
+  },
+  {
+    "id": 470,
+    "nome": "06447 4ª ROTATÓRIA - JARD ROYAL 0001"
+  },
+  {
+    "id": 471,
+    "nome": "06449 1ª R A DIREITA PÓS 4° ROTATORIA NOVO JAR"
+  },
+  {
+    "id": 472,
+    "nome": "06450 3ª RUA A DIREITA - NOVO JARDIM"
+  },
+  {
+    "id": 473,
+    "nome": "06451 RUA PÃO DE AÇÚCAR"
+  },
+  {
+    "id": 474,
+    "nome": "06457 AVENIDA JOSÉ AIRTON GONDIM LAMENHA (6620) 0001"
+  },
+  {
+    "id": 475,
+    "nome": "06461 RUA PUBLICITÁRIO RANILDO CA V ALCANTE"
+  },
+  {
+    "id": 476,
+    "nome": "06467 CONJUNTO CAETÉS"
+  },
+  {
+    "id": 477,
+    "nome": "06468 AVENIDA DOUTOR FERNANDO COUTO MALTA"
+  },
+  {
+    "id": 478,
+    "nome": "06469 RUA DAS MANGUEIRAS"
+  },
+  {
+    "id": 479,
+    "nome": "06470 AVENIDA DAS JAQUEIRAS"
+  },
+  {
+    "id": 480,
+    "nome": "06472 RUA PINHEIRO"
+  },
+  {
+    "id": 481,
+    "nome": "06473 RUA MANOEL OMENA FIREMAN"
+  },
+  {
+    "id": 482,
+    "nome": "06475 RUA FERNANDO JÚNIOR"
+  },
+  {
+    "id": 483,
+    "nome": "06482 RUA INDUSTRIAL LUIZ CALHEIROS JÚNIOR"
+  },
+  {
+    "id": 484,
+    "nome": "06484 RUA PERIMETRAL 5 CONJ J SAMPAIO I (6510)"
+  },
+  {
+    "id": 485,
+    "nome": "06485 RUA VINTE A - CONJ. JOÃO SAMPAIO I"
+  },
+  {
+    "id": 486,
+    "nome": "06486 LADEIRA PROFESSOR BENEDITO DA SILV A"
+  },
+  {
+    "id": 487,
+    "nome": "06493 AVENIDA VEREADOR GALBA NOV AES DE CASTRO"
+  },
+  {
+    "id": 488,
+    "nome": "06494 RUA PERIMETRAL 3 - CONJ. JOÃO SAMPAIO"
+  },
+  {
+    "id": 489,
+    "nome": "06496 AVENIDA COMENDADOR FRANCISCO AMORIM LEÃO"
+  },
+  {
+    "id": 490,
+    "nome": "06498 RUA PROFESSOR JOÃO ULISSES MOREIRA"
+  },
+  {
+    "id": 491,
+    "nome": "06499 RUA JÚLIA TENÓRTIO DE OLIVEIRA"
+  },
+  {
+    "id": 492,
+    "nome": "06504 RUA PADRE CÍCERO/COLÉGIO ELITE"
+  },
+  {
+    "id": 493,
+    "nome": "06505 AVENIDA ESTRADA RIO DO MEIO(CJ. SALV . LYRA)"
+  },
+  {
+    "id": 494,
+    "nome": "06508 RUA JOÃO CORREIA COSTA"
+  },
+  {
+    "id": 495,
+    "nome": "06512 A VENIDA ALCIDES RAMOS DE LIMA"
+  },
+  {
+    "id": 496,
+    "nome": "06513 RUA APOLÔNIA ROCHA DOS SANTOS"
+  },
+  {
+    "id": 497,
+    "nome": "06517 AVENIDA NAÇÕES UNIDAS"
+  },
+  {
+    "id": 498,
+    "nome": "06522 AVENIDA JOSEFA DE MELO"
+  },
+  {
+    "id": 499,
+    "nome": "06523 AVENIDA RUI BARBOSA"
+  },
+  {
+    "id": 500,
+    "nome": "06528 A VENIDA GUSTA VO PAIV A (MANGABEIRAS)"
+  },
+  {
+    "id": 501,
+    "nome": "06529 VIA PRINCIPAL JARDIM DAS PALMEIRAS"
+  },
+  {
+    "id": 502,
+    "nome": "06545 RUA JOSÉ JORGE DE MELO GONÇALVES"
+  },
+  {
+    "id": 503,
+    "nome": "06546 ECOVIA NORTE"
+  },
+  {
+    "id": 504,
+    "nome": "06556 RUA JOÃO CAMERINO"
+  },
+  {
+    "id": 505,
+    "nome": "06557 RUA DO CEARÁ"
+  },
+  {
+    "id": 506,
+    "nome": "06558 A VENIDA LUIZ A VELINO PEREIRA"
+  },
+  {
+    "id": 507,
+    "nome": "06561 RUA ÍRIS ALAGOENSE"
+  },
+  {
+    "id": 508,
+    "nome": "06562 RUA SANTA LUZIA (VILA SAEM)"
+  },
+  {
+    "id": 509,
+    "nome": "06563 TRA VESSA JOSÉ BARRETO (VILA SAEM)"
+  },
+  {
+    "id": 510,
+    "nome": "06568 RUA DOUTOR JOSÉ CASTRO DE AZEVEDO"
+  },
+  {
+    "id": 511,
+    "nome": "06570 A VENIDA DOUTOR MUNIZ FALCÃO 0000"
+  },
+  {
+    "id": 512,
+    "nome": "06574 RUA OLDEMBURGO DA SILV A PARANHOS"
+  },
+  {
+    "id": 513,
+    "nome": "06575 RUA MAJOR FRANCISCO DE BARROS REGO"
+  },
+  {
+    "id": 514,
+    "nome": "06577 RUA PROFESSOR VIRGÍLIO DE CAMPOS"
+  },
+  {
+    "id": 515,
+    "nome": "06579 RUA SANTA RITA"
+  },
+  {
+    "id": 516,
+    "nome": "06580 RUA DOUTOR LUIS DE MASCARENHAS"
+  },
+  {
+    "id": 517,
+    "nome": "06584 TERMINAL VILLAGE CAMPESTRE II"
+  },
+  {
+    "id": 518,
+    "nome": "06588 AVENIDA PRINCIPAL (UFAL)"
+  },
+  {
+    "id": 519,
+    "nome": "06592 RUA DOUTOR JOÃO CRISÓSTOMO DE FARIAS"
+  },
+  {
+    "id": 520,
+    "nome": "06597 AVENIDA ANTÔNIO HOLANDA(LOTEAMENTO DURVILLE)"
+  },
+  {
+    "id": 521,
+    "nome": "06598 AVENIDA SANTO ANTÔNIO"
+  },
+  {
+    "id": 522,
+    "nome": "06600 RUA BARÃO JOSÉ MIGUEL"
+  },
+  {
+    "id": 523,
+    "nome": "06601 RUA PROFESSOR GUEDES DE MIRANDA"
+  },
+  {
+    "id": 524,
+    "nome": "06602 AVENIDA ÁLV ARO OTACÍLIO"
+  },
+  {
+    "id": 525,
+    "nome": "06606 RUA PROFESSORA MARIA ESTHER DA COSTA BAR"
+  },
+  {
+    "id": 526,
+    "nome": "06610 AVENIDA JOSÉ MOURA ROCHA"
+  },
+  {
+    "id": 527,
+    "nome": "06612 RUA MARQUÊS DE TAMANDARÉ"
+  },
+  {
+    "id": 528,
+    "nome": "06613 RETORNO ANTARES / CAMBUCÍ"
+  },
+  {
+    "id": 529,
+    "nome": "06616 RUA JOSÉ LOURENÇO DE ALBUQUERQUE"
+  },
+  {
+    "id": 530,
+    "nome": "06620 AVENIDA JOSÉ AIRTON GONDIM LAMENHA"
+  },
+  {
+    "id": 531,
+    "nome": "06623 AVENIDA POETA LUIZ GONZAGA BARROSO"
+  },
+  {
+    "id": 532,
+    "nome": "06625 RUA EDUARDO PINHEIRO LOBO"
+  },
+  {
+    "id": 533,
+    "nome": "06630 AVENIDA HUMBERTO GOMES DE BARROS"
+  },
+  {
+    "id": 534,
+    "nome": "06632 AVENIDA EMPRESÁRIO NELSON OLIVEIRA MENEZES"
+  },
+  {
+    "id": 535,
+    "nome": "06633 AVENIDA JOSÉ CAMELO DE FREITAS"
+  },
+  {
+    "id": 536,
+    "nome": "06634 RUA JOANA D'ARC"
+  },
+  {
+    "id": 537,
+    "nome": "06635 RUA BENEDITO CALAÇA LOUREIRO"
+  },
+  {
+    "id": 538,
+    "nome": "06636 AVENIDA MARÍLIA MENDONÇA"
+  },
+  {
+    "id": 539,
+    "nome": "06637 ALAMEDA DOS ANTÚRIOS"
+  },
+  {
+    "id": 540,
+    "nome": "06642 RUA K UM (CONJ. EUSTÁQUIO GOMES)"
+  },
+  {
+    "id": 541,
+    "nome": "06653 RUA PERIMETRAL 2 0000"
+  },
+  {
+    "id": 542,
+    "nome": "06665 VIADUTO INDUSTRIAL JOAO LYRA"
+  },
+  {
+    "id": 543,
+    "nome": "06666 RUA DESEMBARGADOR PAULO DA ROCHA MENDES"
+  },
+  {
+    "id": 544,
+    "nome": "06667 RUA PROFESSOR DILERMANDO REIS"
+  },
+  {
+    "id": 545,
+    "nome": "06671 RUA JOAO LISBOA CALHEIROS"
+  },
+  {
+    "id": 546,
+    "nome": "06673 RUA ERONILDES DE OLIVEIRA"
+  },
+  {
+    "id": 547,
+    "nome": "06675 RUA TITO DE BARROS"
+  },
+  {
+    "id": 548,
+    "nome": "06677 RUA SÃO PEDRO"
+  },
+  {
+    "id": 549,
+    "nome": "06686 RUA DOUTOR MESSIAS DE GUSMÃO"
+  },
+  {
+    "id": 550,
+    "nome": "06687 RUA RODOLFO ABREU"
+  },
+  {
+    "id": 551,
+    "nome": "06688 TRA VESSA ALFREDO OITICICA"
+  },
+  {
+    "id": 552,
+    "nome": "06689 RUA PRESIDENTE GETULIO V ARGAS"
+  },
+  {
+    "id": 553,
+    "nome": "06695 RUA ANTÔNIO MURTA"
+  },
+  {
+    "id": 554,
+    "nome": "06696 RUA CORONEL FRANCISCO SILV A"
+  },
+  {
+    "id": 555,
+    "nome": "06701 ACESSO AO GRAN JARDIM AMARILIS"
+  },
+  {
+    "id": 556,
+    "nome": "06706 RUA RECANTO DO SOL"
+  },
+  {
+    "id": 557,
+    "nome": "06710 RUA HORIZONTE(ALTO DO CRUZEIRO)"
+  },
+  {
+    "id": 558,
+    "nome": "06711 RUA ANTÔNIO FÉLIX"
+  },
+  {
+    "id": 559,
+    "nome": "06715 RUA ZAFIRA ATAÍDE CERQUEIRA-LOT. J.SAÚDE"
+  },
+  {
+    "id": 560,
+    "nome": "06717 ITINERÁRIO VOLTA - POÇO"
+  },
+  {
+    "id": 561,
+    "nome": "REVISAR: 2ª TRAVESSA SENADOR TEOTÔNIO VILELA"
+  },
+  {
+    "id": 562,
+    "nome": "REVISAR: ABY'S CALÇADOS"
+  },
+  {
+    "id": 563,
+    "nome": "REVISAR: AL-101"
+  },
+  {
+    "id": 564,
+    "nome": "REVISAR: AL-210"
+  },
+  {
+    "id": 565,
+    "nome": "REVISAR: AL-405"
+  },
+  {
+    "id": 566,
+    "nome": "REVISAR: AUTO FORTE"
+  },
+  {
+    "id": 567,
+    "nome": "REVISAR: AUTO PREMIUM"
+  },
+  {
+    "id": 568,
+    "nome": "REVISAR: BARRO DURO"
+  },
+  {
+    "id": 569,
+    "nome": "REVISAR: BR-104"
+  },
+  {
+    "id": 570,
+    "nome": "REVISAR: BR-316"
+  },
+  {
+    "id": 571,
+    "nome": "REVISAR: CANTEIRO CENTRAL"
+  },
+  {
+    "id": 572,
+    "nome": "REVISAR: CARAJÁS CONSTRUÇÕES"
+  },
+  {
+    "id": 573,
+    "nome": "REVISAR: CONDOMINIO ARTEMÍSIA"
+  },
+  {
+    "id": 574,
+    "nome": "REVISAR: CONDOMINIO OCEAN VIEW"
+  },
+  {
+    "id": 575,
+    "nome": "REVISAR: CONDOMÍNIO MARAJÓ"
+  },
+  {
+    "id": 576,
+    "nome": "REVISAR: ESCOLA ALIANÇA AMERICANA"
+  },
+  {
+    "id": 577,
+    "nome": "REVISAR: HOME CENTER TOTAL GIRO"
+  },
+  {
+    "id": 578,
+    "nome": "REVISAR: LEROY MERLIN"
+  },
+  {
+    "id": 579,
+    "nome": "REVISAR: 06666"
+  },
+  {
+    "id": 580,
+    "nome": "REVISAR: LOJAS AMERICANAS"
+  },
+  {
+    "id": 581,
+    "nome": "REVISAR: LÓTUS ESTÉTICA CJR"
+  },
+  {
+    "id": 582,
+    "nome": "REVISAR: MARGARIDA PROCÓPIO"
+  },
+  {
+    "id": 583,
+    "nome": "REVISAR: MPR ADVOGADOS"
+  },
+  {
+    "id": 584,
+    "nome": "REVISAR: OK PNEUS"
+  },
+  {
+    "id": 585,
+    "nome": "REVISAR: PAJUÇARA"
+  },
+  {
+    "id": 586,
+    "nome": "REVISAR: POLIGONAL"
+  },
+  {
+    "id": 587,
+    "nome": "REVISAR: QD A01"
+  },
+  {
+    "id": 588,
+    "nome": "REVISAR: QD A02"
+  },
+  {
+    "id": 589,
+    "nome": "REVISAR: QD A03"
+  },
+  {
+    "id": 590,
+    "nome": "REVISAR: QD A11"
+  },
+  {
+    "id": 591,
+    "nome": "REVISAR: QD B3"
+  },
+  {
+    "id": 592,
+    "nome": "REVISAR: QD V1"
+  },
+  {
+    "id": 593,
+    "nome": "REVISAR: RESIDENCIAL ALLEGRO"
+  },
+  {
+    "id": 594,
+    "nome": "REVISAR: RESIDENCIAL CITÁ"
+  },
+  {
+    "id": 595,
+    "nome": "REVISAR: RESIDENCIAL VILA MADALENA"
+  },
+  {
+    "id": 596,
+    "nome": "REVISAR: RODOVIA BR-104"
+  },
+  {
+    "id": 597,
+    "nome": "REVISAR: SEGUNDA TRAVESSA PRESIDENTE ROOSEVELT"
+  },
+  {
+    "id": 598,
+    "nome": "REVISAR: SEXTA TRAVESSA ANADIA"
+  },
+  {
+    "id": 599,
+    "nome": "REVISAR: TAIYO HONDA"
+  },
+  {
+    "id": 600,
+    "nome": "REVISAR: TERCEIRA TRAVESSA MUNIZ FALCÃO"
+  },
+  {
+    "id": 601,
+    "nome": "REVISAR: TRAVESSA AURORA"
+  },
+  {
+    "id": 602,
+    "nome": "REVISAR: TRAVESSA CAIO GRACO"
+  },
+  {
+    "id": 603,
+    "nome": "REVISAR: TRAVESSA CANAÃ"
+  },
+  {
+    "id": 604,
+    "nome": "REVISAR: TRAVESSA ESPERANÇA"
+  },
+  {
+    "id": 605,
+    "nome": "REVISAR: TRAVESSA FLORESTAL"
+  },
+  {
+    "id": 606,
+    "nome": "REVISAR: TRAVESSA GODOFREDO FERRO"
+  },
+  {
+    "id": 607,
+    "nome": "REVISAR: TRAVESSA JULIANA"
+  },
+  {
+    "id": 608,
+    "nome": "REVISAR: TRAVESSA MANAUS"
+  },
+  {
+    "id": 609,
+    "nome": "REVISAR: TRAVESSA PRIMAVERA"
+  },
+  {
+    "id": 610,
+    "nome": "REVISAR: TRAVESSA TIRADENTES"
+  },
+  {
+    "id": 611,
+    "nome": "REVISAR: ÉLEVE ÁGUA MINERAL"
+  }
+]

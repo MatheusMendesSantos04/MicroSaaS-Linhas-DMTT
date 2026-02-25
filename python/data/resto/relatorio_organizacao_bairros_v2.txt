@@ -1,0 +1,88 @@
+RELATÓRIO DE ORGANIZAÇÃO DE BAIRROS (V2)
+======================================================================
+Gerado em: 2026-02-25 11:45:30
+JSON origem : I:\Micro-SaaS-DMTT\MicroSaaS-Linhas-DMTT\data\vias-por-bairro\itinerarios_por_bairro_completo.json
+TXT referência: I:\Micro-SaaS-DMTT\MicroSaaS-Linhas-DMTT\python\bairros_extraidos.txt
+JSON saída  : I:\Micro-SaaS-DMTT\MicroSaaS-Linhas-DMTT\data\vias-por-bairro\itinerarios_por_bairro_completo_organizado_v2.json
+
+RESUMO
+----------------------------------------------------------------------
+Total de chaves no JSON original: 66
+Total de bairros no TXT         : 54
+Total de chaves no JSON novo    : 62
+
+MÉTODO DE CONCILIAÇÃO (quantidade)
+----------------------------------------------------------------------
+- inferido_endereco: 3
+- match_aproximado: 3
+- match_exato: 46
+- match_sem_prefixo: 1
+- sem_match: 13
+
+BAIRROS DE REFERÊNCIA AUSENTES NO JSON NOVO
+----------------------------------------------------------------------
+01. ALTO DA ALEGRIA
+02. GAMA LINS
+03. JARDIM PETROPOLIS II
+04. MUTANGE
+05. RECURSOS INFORMÁTICAVIAPORBAIRRO
+
+CHAVES NO JSON NOVO FORA DA REFERÊNCIA
+----------------------------------------------------------------------
+01. Avenida José Manhães
+02. Avenida Lourival Melo Mota
+03. Conjunto Renascer
+04. Desconhecido
+05. Floriano Peixoto
+06. Loteamento Jeune Ville
+07. Maceió
+08. Petrópolis
+09. Residencial Maceió I
+10. Rio Largo
+11. Rua Santa Quitéria
+12. Rua do Alecrim
+13. Satuba
+
+MAPEAMENTOS SEM MATCH (ORIGEM -> DESTINO)
+----------------------------------------------------------------------
+01. Avenida Lourival Melo Mota -> Avenida Lourival Melo Mota
+02. Rio Largo -> Rio Largo
+03. Rua do Alecrim -> Rua do Alecrim
+04. Avenida José Manhães -> Avenida José Manhães
+05. Satuba -> Satuba
+06. Maceió -> Maceió
+07. Residencial Maceió I -> Residencial Maceió I
+08. Rua Santa Quitéria -> Rua Santa Quitéria
+09. Conjunto Renascer -> Conjunto Renascer
+10. Desconhecido -> Desconhecido
+11. Petrópolis -> Petrópolis
+12. Floriano Peixoto -> Floriano Peixoto
+13. Loteamento Jeune Ville -> Loteamento Jeune Ville
+
+AMOSTRA DE MAPEAMENTOS
+----------------------------------------------------------------------
+- Santos Dumont -> SANTOS DUMONT (match_exato, ida=720, volta=474)
+- Benedito Bentes -> BENEDITO BENTES (match_exato, ida=2808, volta=2864)
+- Riacho Doce -> RIACHO DOCE (match_exato, ida=765, volta=593)
+- Pinheiro -> PINHEIRO (match_exato, ida=1613, volta=1450)
+- Mangabeiras -> MANGABEIRAS (match_exato, ida=1224, volta=1380)
+- Avenida Lourival Melo Mota -> Avenida Lourival Melo Mota (sem_match, ida=1, volta=1)
+- Village Campestre -> VILLAGE CAMPESTRE (match_exato, ida=0, volta=15)
+- Via Principal Maceió 1 -> CIDADE UNIVERSITARIA (inferido_endereco, ida=9, volta=0)
+- Cidade Universitária -> CIDADE UNIVERSITARIA (match_exato, ida=5035, volta=4715)
+- Gruta de Lourdes -> GRUTA DE LOURDES (match_exato, ida=2393, volta=2449)
+- Cruz das Almas -> CRUZ DAS ALMAS (match_exato, ida=1797, volta=1992)
+- Poço -> POÇO (match_exato, ida=1955, volta=1955)
+- Rio Largo -> Rio Largo (sem_match, ida=1747, volta=1521)
+- Rua do Alecrim -> Rua do Alecrim (sem_match, ida=31, volta=31)
+- Avenida José Manhães -> Avenida José Manhães (sem_match, ida=4, volta=4)
+- Guaxuma -> GUAXUMA (match_exato, ida=512, volta=311)
+- Santa Lúcia -> SANTA LÚCIA (match_exato, ida=1030, volta=1289)
+- Tabuleiros dos Martins -> TABULEIRO DOS MARTINS (match_aproximado, ida=4812, volta=4331)
+- Satuba -> Satuba (sem_match, ida=94, volta=88)
+- Trapiche da Barra -> TRAPICHE DA BARRA (match_exato, ida=1116, volta=1225)
+- Maceió -> Maceió (sem_match, ida=1, volta=2)
+- Canaã -> CANAÃ (match_exato, ida=379, volta=422)
+- Vergel do Lago -> VERGEL DO LAGO (match_exato, ida=722, volta=660)
+- Jaraguá -> JARAGUÁ (match_exato, ida=1219, volta=884)
+- Bairro Gruta de Lourdes -> GRUTA DE LOURDES (match_sem_prefixo, ida=213, volta=168)

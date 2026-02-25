@@ -1,0 +1,251 @@
+{
+  "total_bairros": 61,
+  "total_pontos": 68207,
+  "media_pontos_por_bairro": 1118.15,
+  "bairros_ranking": [
+    {
+      "bairro": "Farol",
+      "quantidade_pontos": 5318
+    },
+    {
+      "bairro": "Cidade Universitária",
+      "quantidade_pontos": 5035
+    },
+    {
+      "bairro": "Tabuleiros dos Martins",
+      "quantidade_pontos": 4812
+    },
+    {
+      "bairro": "Serraria",
+      "quantidade_pontos": 2809
+    },
+    {
+      "bairro": "Benedito Bentes",
+      "quantidade_pontos": 2808
+    },
+    {
+      "bairro": "Centro",
+      "quantidade_pontos": 2721
+    },
+    {
+      "bairro": "Gruta de Lourdes",
+      "quantidade_pontos": 2393
+    },
+    {
+      "bairro": "Petrópolis",
+      "quantidade_pontos": 2388
+    },
+    {
+      "bairro": "Jacintinho",
+      "quantidade_pontos": 2280
+    },
+    {
+      "bairro": "Antares",
+      "quantidade_pontos": 2063
+    },
+    {
+      "bairro": "Jatiúca",
+      "quantidade_pontos": 2047
+    },
+    {
+      "bairro": "Poço",
+      "quantidade_pontos": 1955
+    },
+    {
+      "bairro": "Feitosa",
+      "quantidade_pontos": 1802
+    },
+    {
+      "bairro": "Cruz das Almas",
+      "quantidade_pontos": 1797
+    },
+    {
+      "bairro": "Rio Largo",
+      "quantidade_pontos": 1747
+    },
+    {
+      "bairro": "Barro Duro",
+      "quantidade_pontos": 1639
+    },
+    {
+      "bairro": "Pinheiro",
+      "quantidade_pontos": 1613
+    },
+    {
+      "bairro": "Ponta Grossa",
+      "quantidade_pontos": 1347
+    },
+    {
+      "bairro": "Ponta Verde",
+      "quantidade_pontos": 1259
+    },
+    {
+      "bairro": "Mangabeiras",
+      "quantidade_pontos": 1224
+    },
+    {
+      "bairro": "Jaraguá",
+      "quantidade_pontos": 1219
+    },
+    {
+      "bairro": "Ipioca",
+      "quantidade_pontos": 1136
+    },
+    {
+      "bairro": "Trapiche da Barra",
+      "quantidade_pontos": 1116
+    },
+    {
+      "bairro": "Santa Amélia",
+      "quantidade_pontos": 1102
+    },
+    {
+      "bairro": "Jacarecica",
+      "quantidade_pontos": 1085
+    },
+    {
+      "bairro": "Santa Lúcia",
+      "quantidade_pontos": 1030
+    },
+    {
+      "bairro": "Jardim Petrópolis",
+      "quantidade_pontos": 984
+    },
+    {
+      "bairro": "Levada",
+      "quantidade_pontos": 916
+    },
+    {
+      "bairro": "Pajuçara",
+      "quantidade_pontos": 884
+    },
+    {
+      "bairro": "Pitanguinha",
+      "quantidade_pontos": 822
+    },
+    {
+      "bairro": "Riacho Doce",
+      "quantidade_pontos": 765
+    },
+    {
+      "bairro": "Vergel do Lago",
+      "quantidade_pontos": 722
+    },
+    {
+      "bairro": "Santos Dumont",
+      "quantidade_pontos": 720
+    },
+    {
+      "bairro": "Clima Bom",
+      "quantidade_pontos": 652
+    },
+    {
+      "bairro": "São Jorge",
+      "quantidade_pontos": 603
+    },
+    {
+      "bairro": "Santo Amaro",
+      "quantidade_pontos": 571
+    },
+    {
+      "bairro": "Guaxuma",
+      "quantidade_pontos": 512
+    },
+    {
+      "bairro": "Prado",
+      "quantidade_pontos": 488
+    },
+    {
+      "bairro": "Bebedouro",
+      "quantidade_pontos": 479
+    },
+    {
+      "bairro": "Chã de Bebedouro",
+      "quantidade_pontos": 414
+    },
+    {
+      "bairro": "Canaã",
+      "quantidade_pontos": 379
+    },
+    {
+      "bairro": "Ouro Preto",
+      "quantidade_pontos": 374
+    },
+    {
+      "bairro": "Chã da Jaqueira",
+      "quantidade_pontos": 368
+    },
+    {
+      "bairro": "Fernão Velho",
+      "quantidade_pontos": 367
+    },
+    {
+      "bairro": "Pescaria",
+      "quantidade_pontos": 336
+    },
+    {
+      "bairro": "Rio Novo",
+      "quantidade_pontos": 264
+    },
+    {
+      "bairro": "Bairro Gruta de Lourdes",
+      "quantidade_pontos": 213
+    },
+    {
+      "bairro": "Garça Torta",
+      "quantidade_pontos": 211
+    },
+    {
+      "bairro": "Bom Parto",
+      "quantidade_pontos": 154
+    },
+    {
+      "bairro": "Satuba",
+      "quantidade_pontos": 94
+    },
+    {
+      "bairro": "Pontal da Barra",
+      "quantidade_pontos": 89
+    },
+    {
+      "bairro": "Rua do Alecrim",
+      "quantidade_pontos": 31
+    },
+    {
+      "bairro": "288",
+      "quantidade_pontos": 16
+    },
+    {
+      "bairro": "Via Principal Maceió 1",
+      "quantidade_pontos": 9
+    },
+    {
+      "bairro": "Ponta da Terra",
+      "quantidade_pontos": 8
+    },
+    {
+      "bairro": "Conjunto Renascer",
+      "quantidade_pontos": 7
+    },
+    {
+      "bairro": "Avenida José Manhães",
+      "quantidade_pontos": 4
+    },
+    {
+      "bairro": "Rua Fortaleza",
+      "quantidade_pontos": 3
+    },
+    {
+      "bairro": "Maceió",
+      "quantidade_pontos": 1
+    },
+    {
+      "bairro": "Avenida Lourival Melo Mota",
+      "quantidade_pontos": 1
+    },
+    {
+      "bairro": "Rua Santa Quitéria",
+      "quantidade_pontos": 1
+    }
+  ]
+}

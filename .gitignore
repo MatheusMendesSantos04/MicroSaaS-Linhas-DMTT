@@ -1,1 +1,49 @@
+# Python virtual environments
 venv/
+.venv/
+env/
+
+# Python cache/build
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Frontend (Vite/Node)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment/config secrets
+.env
+.env.*
+!.env.example
+
+# IDE/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime/temp logs
+*.log
+tmp/
+temp/

@@ -23,8 +23,8 @@ from pypdf import PdfReader
 ROOT = Path(__file__).resolve().parents[1]
 PDF_DIR = ROOT / "data" / "pdf-intinerarios-por-via-todas-linhas"
 MASTER_PDF = PDF_DIR / "sre_relatorio_via_logradouro-codigo-das-ruas.pdf"
-ITINERARIO_JSON = ROOT / "python" / "dado principal" / "intinerario manual" / "itinerario_completo.json"
-OUTPUT_DIR = ROOT / "python" / "dado principal" / "intinerario-com-codigo-rua"
+ITINERARIO_JSON = ROOT / "data" / "json" / "intinerario manual" / "itinerario_completo.json"
+OUTPUT_DIR = ROOT / "data" / "json" / "intinerario-com-codigo-rua"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

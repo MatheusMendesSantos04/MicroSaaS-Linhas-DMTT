@@ -3,9 +3,15 @@ from typing import Dict, List, Optional
 from pydantic import BaseModel
 
 
+class RuaItem(BaseModel):
+    via: str
+    codigo: Optional[str]
+    match: str
+
+
 class SentidoData(BaseModel):
     coordenadas: List[List[float]]
-    ruas: List[str]
+    ruas: List[RuaItem]
 
 
 class LinhaSummary(BaseModel):
@@ -28,10 +34,17 @@ class RuaOcorrencia(BaseModel):
     linha_nome: str
     sentido: str
     rua: str
+    codigo: Optional[str]
 
 
 class RuasSearchResponse(BaseModel):
     query: str
+    total: int
+    resultados: List[RuaOcorrencia]
+
+
+class RuasPorCodigoResponse(BaseModel):
+    codigo: str
     total: int
     resultados: List[RuaOcorrencia]
 

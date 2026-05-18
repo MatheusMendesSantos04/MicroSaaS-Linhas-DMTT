@@ -2,9 +2,9 @@ import hashlib
 import json
 import re
 import unicodedata
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 
 def normalize_text(value: str) -> str:
@@ -23,13 +23,20 @@ def build_line_id(line_name: str) -> str:
 
 
 @dataclass
+class RuaItem:
+    via: str
+    codigo: Optional[str]
+    match: str
+
+
+@dataclass
 class UnifiedLine:
     id: str
     nome: str
     ida_coordenadas: List[List[float]]
     volta_coordenadas: List[List[float]]
-    ida_ruas: List[str]
-    volta_ruas: List[str]
+    ida_ruas: List[RuaItem] = field(default_factory=list)
+    volta_ruas: List[RuaItem] = field(default_factory=list)
 
 
 class DataStore:
@@ -38,15 +45,14 @@ class DataStore:
         self.paths = {
             "ida_amostrado": root_dir / "data" / "json" / "dado-tratado" / "IDA_amostrado.json",
             "volta_amostrado": root_dir / "data" / "json" / "dado-tratado" / "VOLTA_amostrado.json",
-            "itinerario_manual": root_dir
-            / "python"
-            / "dado principal"
-            / "intinerario manual"
-            / "itinerario_completo_rua_principal_somente_ruas_v1.json",
+            "itinerario_com_codigos": root_dir / "data" / "json" / "intinerario-com-codigo-rua" / "itinerario_com_codigos.json",
         }
         self.lines_by_id: Dict[str, UnifiedLine] = {}
         self.line_ids_by_name_norm: Dict[str, str] = {}
-        self.rua_index: Dict[str, List[Tuple[str, str, str]]] = {}
+        # rua_index: normalized_via → [(line_id, line_nome, sentido, codigo)]
+        self.rua_index: Dict[str, List[Tuple[str, str, str, Optional[str]]]] = {}
+        # codigo_index: codigo → [(line_id, line_nome, sentido, via)]
+        self.codigo_index: Dict[str, List[Tuple[str, str, str, str]]] = {}
         self._load()
 
     def _load_json(self, path: Path):
@@ -56,7 +62,7 @@ class DataStore:
     def _load(self) -> None:
         ida_data = self._load_json(self.paths["ida_amostrado"])
         volta_data = self._load_json(self.paths["volta_amostrado"])
-        manual_data = self._load_json(self.paths["itinerario_manual"])
+        itinerario_data = self._load_json(self.paths["itinerario_com_codigos"])
 
         by_norm_name: Dict[str, UnifiedLine] = {}
 
@@ -71,8 +77,6 @@ class DataStore:
                 nome=name,
                 ida_coordenadas=item.get("coordenadas", []),
                 volta_coordenadas=[],
-                ida_ruas=[],
-                volta_ruas=[],
             )
 
         for item in volta_data:
@@ -88,51 +92,65 @@ class DataStore:
                     nome=name,
                     ida_coordenadas=[],
                     volta_coordenadas=item.get("coordenadas", []),
-                    ida_ruas=[],
-                    volta_ruas=[],
                 )
             else:
                 current.volta_coordenadas = item.get("coordenadas", [])
 
-        for manual_name, sentidos in manual_data.items():
-            norm = normalize_text(manual_name)
+        for itinerario_key, sentidos in itinerario_data.items():
+            norm = normalize_text(itinerario_key)
             current = by_norm_name.get(norm)
             if current is None:
-                line_id = build_line_id(manual_name)
+                line_id = build_line_id(itinerario_key)
                 current = UnifiedLine(
                     id=line_id,
-                    nome=manual_name,
+                    nome=itinerario_key,
                     ida_coordenadas=[],
                     volta_coordenadas=[],
-                    ida_ruas=[],
-                    volta_ruas=[],
                 )
                 by_norm_name[norm] = current
 
-            current.ida_ruas = sentidos.get("ida-correto", [])
-            current.volta_ruas = sentidos.get("volta-correto", [])
+            current.ida_ruas = [
+                RuaItem(via=r["via"], codigo=r.get("codigo"), match=r.get("match", ""))
+                for r in sentidos.get("ida", [])
+            ]
+            current.volta_ruas = [
+                RuaItem(via=r["via"], codigo=r.get("codigo"), match=r.get("match", ""))
+                for r in sentidos.get("volta", [])
+            ]
 
         for norm, line in by_norm_name.items():
             self.lines_by_id[line.id] = line
             self.line_ids_by_name_norm[norm] = line.id
 
-        self._build_rua_index()
+        self._build_indexes()
 
-    def _build_rua_index(self) -> None:
-        index: Dict[str, List[Tuple[str, str, str]]] = {}
+    def _build_indexes(self) -> None:
+        rua_index: Dict[str, List[Tuple[str, str, str, Optional[str]]]] = {}
+        codigo_index: Dict[str, List[Tuple[str, str, str, str]]] = {}
+
         for line in self.lines_by_id.values():
             for rua in line.ida_ruas:
-                key = normalize_text(rua)
-                index.setdefault(key, []).append((line.id, line.nome, "ida"))
+                key = normalize_text(rua.via)
+                rua_index.setdefault(key, []).append((line.id, line.nome, "ida", rua.codigo))
+                if rua.codigo:
+                    codigo_index.setdefault(rua.codigo, []).append(
+                        (line.id, line.nome, "ida", rua.via)
+                    )
             for rua in line.volta_ruas:
-                key = normalize_text(rua)
-                index.setdefault(key, []).append((line.id, line.nome, "volta"))
-        self.rua_index = index
+                key = normalize_text(rua.via)
+                rua_index.setdefault(key, []).append((line.id, line.nome, "volta", rua.codigo))
+                if rua.codigo:
+                    codigo_index.setdefault(rua.codigo, []).append(
+                        (line.id, line.nome, "volta", rua.via)
+                    )
+
+        self.rua_index = rua_index
+        self.codigo_index = codigo_index
 
     def list_lines(self) -> List[UnifiedLine]:
         return sorted(self.lines_by_id.values(), key=lambda line: line.nome)
 
-    def get_line(self, line_id: str) -> UnifiedLine | None:
+    def get_line(self, line_id: str) -> Optional[UnifiedLine]:
         return self.lines_by_id.get(line_id)
 
     def get_metadata(self) -> dict:
@@ -142,24 +160,31 @@ class DataStore:
             "arquivos_origem": {key: str(path) for key, path in self.paths.items()},
         }
 
-    def search_ruas(self, query: str, limit: int = 100) -> List[Tuple[str, str, str, str]]:
+    def search_ruas(
+        self, query: str, limit: int = 100
+    ) -> List[Tuple[str, str, str, str, Optional[str]]]:
         normalized_query = normalize_text(query)
         if not normalized_query:
             return []
 
-        results: List[Tuple[str, str, str, str]] = []
+        results: List[Tuple[str, str, str, str, Optional[str]]] = []
         seen = set()
         for key, items in self.rua_index.items():
             if normalized_query in key:
-                for line_id, line_name, sentido in items:
+                for line_id, line_name, sentido, codigo in items:
                     dedup_key = (line_id, sentido, key)
                     if dedup_key in seen:
                         continue
                     seen.add(dedup_key)
-                    results.append((line_id, line_name, sentido, key))
+                    results.append((line_id, line_name, sentido, key, codigo))
                     if len(results) >= limit:
                         return results
         return results
+
+    def search_by_codigo(
+        self, codigo: str
+    ) -> List[Tuple[str, str, str, str]]:
+        return self.codigo_index.get(codigo, [])
 
     @staticmethod
     def _to_geojson_coords(coordenadas: List[List[float]]) -> List[List[float]]:
@@ -182,36 +207,24 @@ class DataStore:
             include_volta = sentido_normalizado in {"", "volta", "ambos"}
 
             if include_ida and line.ida_coordenadas:
-                features.append(
-                    {
-                        "type": "Feature",
-                        "geometry": {
-                            "type": "LineString",
-                            "coordinates": self._to_geojson_coords(line.ida_coordenadas),
-                        },
-                        "properties": {
-                            "linha_id": line.id,
-                            "linha_nome": line.nome,
-                            "sentido": "ida",
-                        },
-                    }
-                )
+                features.append({
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": self._to_geojson_coords(line.ida_coordenadas),
+                    },
+                    "properties": {"linha_id": line.id, "linha_nome": line.nome, "sentido": "ida"},
+                })
 
             if include_volta and line.volta_coordenadas:
-                features.append(
-                    {
-                        "type": "Feature",
-                        "geometry": {
-                            "type": "LineString",
-                            "coordinates": self._to_geojson_coords(line.volta_coordenadas),
-                        },
-                        "properties": {
-                            "linha_id": line.id,
-                            "linha_nome": line.nome,
-                            "sentido": "volta",
-                        },
-                    }
-                )
+                features.append({
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": self._to_geojson_coords(line.volta_coordenadas),
+                    },
+                    "properties": {"linha_id": line.id, "linha_nome": line.nome, "sentido": "volta"},
+                })
 
         return {"type": "FeatureCollection", "features": features}
 
@@ -229,35 +242,23 @@ class DataStore:
         include_volta = sentido_normalizado in {"", "volta", "ambos"}
 
         if include_ida and line.ida_coordenadas:
-            features.append(
-                {
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "LineString",
-                        "coordinates": self._to_geojson_coords(line.ida_coordenadas),
-                    },
-                    "properties": {
-                        "linha_id": line.id,
-                        "linha_nome": line.nome,
-                        "sentido": "ida",
-                    },
-                }
-            )
+            features.append({
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": self._to_geojson_coords(line.ida_coordenadas),
+                },
+                "properties": {"linha_id": line.id, "linha_nome": line.nome, "sentido": "ida"},
+            })
 
         if include_volta and line.volta_coordenadas:
-            features.append(
-                {
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "LineString",
-                        "coordinates": self._to_geojson_coords(line.volta_coordenadas),
-                    },
-                    "properties": {
-                        "linha_id": line.id,
-                        "linha_nome": line.nome,
-                        "sentido": "volta",
-                    },
-                }
-            )
+            features.append({
+                "type": "Feature",
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": self._to_geojson_coords(line.volta_coordenadas),
+                },
+                "properties": {"linha_id": line.id, "linha_nome": line.nome, "sentido": "volta"},
+            })
 
         return {"type": "FeatureCollection", "features": features}

@@ -2,6 +2,7 @@ from pathlib import Path
 from typing import Any
 
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 
 from .schemas import (
     HealthResponse,
@@ -9,7 +10,9 @@ from .schemas import (
     LinhasResponse,
     LinhaSummary,
     MetaResponse,
+    RuaItem,
     RuaOcorrencia,
+    RuasPorCodigoResponse,
     RuasSearchResponse,
     SentidoData,
 )
@@ -21,8 +24,15 @@ data_store = DataStore(PROJECT_ROOT)
 
 app = FastAPI(
     title="MicroSaaS Linhas DMTT API",
-    version="0.1.0",
-    description="API local para visualização de linhas, sentidos IDA/VOLTA e busca por ruas.",
+    version="0.2.0",
+    description="API para visualização de linhas, itinerários IDA/VOLTA e busca por ruas.",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["GET"],
+    allow_headers=["*"],
 )
 
 
@@ -61,8 +71,14 @@ def detalhar_linha(linha_id: str) -> LinhaDetalhe:
     return LinhaDetalhe(
         id=line.id,
         nome=line.nome,
-        ida=SentidoData(coordenadas=line.ida_coordenadas, ruas=line.ida_ruas),
-        volta=SentidoData(coordenadas=line.volta_coordenadas, ruas=line.volta_ruas),
+        ida=SentidoData(
+            coordenadas=line.ida_coordenadas,
+            ruas=[RuaItem(via=r.via, codigo=r.codigo, match=r.match) for r in line.ida_ruas],
+        ),
+        volta=SentidoData(
+            coordenadas=line.volta_coordenadas,
+            ruas=[RuaItem(via=r.via, codigo=r.codigo, match=r.match) for r in line.volta_ruas],
+        ),
     )
 
 
@@ -73,10 +89,32 @@ def buscar_rua(
 ) -> RuasSearchResponse:
     matches = data_store.search_ruas(q, limit=limit)
     results = [
-        RuaOcorrencia(linha_id=line_id, linha_nome=line_name, sentido=sentido, rua=rua_norm)
-        for line_id, line_name, sentido, rua_norm in matches
+        RuaOcorrencia(
+            linha_id=line_id,
+            linha_nome=line_name,
+            sentido=sentido,
+            rua=rua_norm,
+            codigo=codigo,
+        )
+        for line_id, line_name, sentido, rua_norm, codigo in matches
     ]
     return RuasSearchResponse(query=q, total=len(results), resultados=results)
+
+
+@app.get("/ruas/codigo/{codigo}", response_model=RuasPorCodigoResponse)
+def buscar_por_codigo(codigo: str) -> RuasPorCodigoResponse:
+    matches = data_store.search_by_codigo(codigo)
+    results = [
+        RuaOcorrencia(
+            linha_id=line_id,
+            linha_nome=line_name,
+            sentido=sentido,
+            rua=via,
+            codigo=codigo,
+        )
+        for line_id, line_name, sentido, via in matches
+    ]
+    return RuasPorCodigoResponse(codigo=codigo, total=len(results), resultados=results)
 
 
 @app.get("/geojson/linhas")

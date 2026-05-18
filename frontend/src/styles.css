@@ -1,117 +1,280 @@
+/* ── Reset & base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
 :root {
-  font-family: Arial, sans-serif;
+  --blue: #3b82f6;
+  --orange: #f97316;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-400: #9ca3af;
+  --gray-600: #4b5563;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  --green: #16a34a;
+  --yellow: #ca8a04;
+  --red: #dc2626;
+  --radius: 6px;
 }
 
-* {
-  box-sizing: border-box;
-}
+html, body, #root { height: 100%; }
 
 body {
-  margin: 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 14px;
+  color: var(--gray-800);
+  background: var(--gray-100);
 }
 
-.page {
-  min-height: 100vh;
+/* ── App layout ── */
+.app {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.header {
-  padding: 12px 16px;
-  border-bottom: 1px solid #ddd;
+/* ── Header ── */
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 16px;
+  height: 52px;
+  background: var(--gray-900);
+  color: #fff;
+  flex-shrink: 0;
 }
 
-.header h1 {
-  margin: 0;
-  font-size: 22px;
+.app-title { font-size: 16px; font-weight: 600; letter-spacing: 0.01em; }
+.loading-badge { font-size: 12px; color: var(--gray-400); }
+.error-badge {
+  font-size: 12px; color: #fca5a5;
+  background: #450a0a; padding: 2px 8px; border-radius: 4px;
 }
 
-.header p {
-  margin: 4px 0 0;
-}
-
+/* ── Controls bar ── */
 .controls {
-  padding: 12px 16px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  display: flex;
   gap: 12px;
-  border-bottom: 1px solid #ddd;
+  padding: 8px 16px;
+  background: #fff;
+  border-bottom: 1px solid var(--gray-200);
+  flex-shrink: 0;
+  flex-wrap: wrap;
 }
 
-.controls label {
+.control-group { display: flex; align-items: center; gap: 8px; }
+
+.control-label {
+  font-size: 12px; font-weight: 600;
+  color: var(--gray-600); white-space: nowrap;
+}
+
+.control-select {
+  padding: 5px 10px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  font-size: 13px;
+  background: var(--gray-50);
+  cursor: pointer;
+  max-width: 280px;
+}
+
+.control-select:focus { outline: 2px solid var(--blue); outline-offset: 1px; }
+
+/* ── Body: map + sidebar ── */
+.app-body { display: flex; flex: 1; overflow: hidden; }
+
+/* ── Map ── */
+.map-wrapper { flex: 1; position: relative; min-width: 0; }
+
+.map-legend {
+  position: absolute;
+  bottom: 28px; left: 12px;
+  z-index: 1000;
+  display: flex; gap: 6px;
+  background: rgba(255,255,255,0.92);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 5px 10px;
+  font-size: 12px; font-weight: 600;
+  pointer-events: none;
+}
+
+.legend-item { display: flex; align-items: center; gap: 4px; }
+.legend-ida::before {
+  content: ""; display: inline-block;
+  width: 18px; height: 3px; background: var(--blue); border-radius: 2px;
+}
+.legend-volta::before {
+  content: ""; display: inline-block;
+  width: 18px; height: 3px; background: var(--orange); border-radius: 2px;
+}
+
+/* ── Sidebar ── */
+.sidebar {
+  width: 320px; flex-shrink: 0;
+  display: flex; flex-direction: column;
+  background: #fff;
+  border-left: 1px solid var(--gray-200);
+  overflow-y: auto;
+}
+
+.sidebar-title {
+  font-size: 13px; font-weight: 700;
+  color: var(--gray-600);
+  text-transform: uppercase; letter-spacing: 0.06em;
+  padding: 14px 16px 8px;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.sidebar-hint { padding: 12px 16px; font-size: 13px; color: var(--gray-400); }
+
+/* ── Itinerário ── */
+.itinerario-panel { border-bottom: 1px solid var(--gray-200); }
+
+.linha-nome-detalhe {
+  padding: 8px 16px; font-size: 12px; font-weight: 600;
+  color: var(--gray-600); background: var(--gray-50);
+}
+
+.sentido-section { padding: 0 0 8px; }
+
+.sentido-titulo {
+  font-size: 12px; font-weight: 700;
+  padding: 8px 16px;
+  border-left: 3px solid var(--gray-200);
+  color: var(--gray-600); background: var(--gray-50);
+}
+
+.itinerario-list { list-style: none; }
+
+.itinerario-rua {
+  display: flex; align-items: center; gap: 6px;
+  padding: 5px 16px; font-size: 13px;
+  border-bottom: 1px solid var(--gray-100);
+}
+.itinerario-rua:last-child { border-bottom: none; }
+
+.match-icon { font-size: 11px; font-weight: 700; width: 16px; text-align: center; flex-shrink: 0; }
+.match-exato { color: var(--green); }
+.match-fuzzy { color: var(--yellow); }
+.match-none  { color: var(--gray-400); }
+
+.via-nome { flex: 1; }
+
+.via-codigo {
+  font-size: 11px; font-family: monospace;
+  color: var(--gray-400); background: var(--gray-100);
+  border-radius: 3px; padding: 1px 5px; flex-shrink: 0;
+}
+
+/* ── Busca por rua ── */
+.rua-search-panel { padding-bottom: 16px; }
+
+.search-form { display: flex; gap: 6px; padding: 10px 16px; }
+
+.search-input {
+  flex: 1; padding: 6px 10px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius); font-size: 13px;
+}
+.search-input:focus { outline: 2px solid var(--blue); outline-offset: 1px; }
+
+.search-btn {
+  padding: 6px 14px;
+  background: var(--blue); color: #fff;
+  border: none; border-radius: var(--radius);
+  font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.search-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.search-btn:hover:not(:disabled) { background: #2563eb; }
+
+.result-count { padding: 0 16px 6px; font-size: 12px; color: var(--gray-400); }
+.error-msg { padding: 6px 16px; font-size: 12px; color: var(--red); }
+
+.result-list { list-style: none; }
+
+.result-item { padding: 8px 16px; border-bottom: 1px solid var(--gray-100); }
+.result-item:last-child { border-bottom: none; }
+
+.result-linha-btn {
+  background: none; border: none; padding: 0;
+  font-size: 13px; font-weight: 600;
+  color: var(--blue); cursor: pointer;
+  text-align: left; width: 100%; margin-bottom: 4px;
+}
+.result-linha-btn:hover { text-decoration: underline; }
+
+.result-sentidos { display: flex; flex-wrap: wrap; gap: 4px; }
+
+.sentido-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 11px; font-weight: 600;
+  padding: 2px 7px; border-radius: 4px;
+}
+.sentido-ida   { background: #dbeafe; color: #1d4ed8; }
+.sentido-volta { background: #ffedd5; color: #c2410c; }
+
+.codigo-badge { font-family: monospace; font-size: 10px; opacity: 0.7; font-weight: 400; }
+
+/* ── Map Style Selector ── */
+.map-style-panel { border-bottom: 1px solid var(--gray-200); }
+
+.style-options {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
+  padding: 8px 16px 12px;
 }
 
-.controls select,
-.controls input,
-.controls button {
-  padding: 8px;
-}
-
-.rua-search {
+.style-option {
   display: flex;
-  gap: 8px;
-  align-items: end;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 10px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  background: var(--gray-50);
+  cursor: pointer;
+  font-size: 13px;
+  text-align: left;
+  width: 100%;
+  transition: border-color 0.15s, background 0.15s;
 }
 
-.rua-search label {
-  flex: 1;
+.style-option:hover:not(.style-option--active) {
+  border-color: var(--blue);
+  background: #eff6ff;
 }
 
-.status,
-.error {
-  margin: 8px 16px;
+.style-option--active {
+  border-color: var(--blue);
+  background: #dbeafe;
+  font-weight: 600;
+  color: #1d4ed8;
 }
 
-.error {
-  color: #b00020;
+.style-swatch {
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
 }
 
-.content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 12px;
-  padding: 12px 16px 16px;
-  flex: 1;
-  min-height: 0;
+.style-label { flex: 1; }
+
+.style-check {
+  font-size: 12px;
+  color: var(--blue);
+  font-weight: 700;
 }
 
-.map-box {
-  min-height: 550px;
-  border: 1px solid #ddd;
-}
-
-.sidebar {
-  border: 1px solid #ddd;
-  padding: 12px;
-  overflow: auto;
-}
-
-.sidebar h2 {
-  margin-top: 0;
-}
-
-.line-name {
-  font-weight: bold;
-}
-
-.sidebar ul {
-  margin: 8px 0 16px;
-  padding-left: 18px;
-}
-
-@media (max-width: 1100px) {
-  .controls {
-    grid-template-columns: 1fr;
-  }
-
-  .content {
-    grid-template-columns: 1fr;
-  }
-
-  .map-box {
-    min-height: 420px;
-  }
+/* ── Mobile ── */
+@media (max-width: 700px) {
+  .app-body { flex-direction: column; }
+  .map-wrapper { height: 55vh; }
+  .sidebar { width: 100%; border-left: none; border-top: 1px solid var(--gray-200); }
 }

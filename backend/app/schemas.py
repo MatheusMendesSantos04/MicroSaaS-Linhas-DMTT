@@ -49,6 +49,19 @@ class RuasPorCodigoResponse(BaseModel):
     resultados: List[RuaOcorrencia]
 
 
+class RuaOcorrenciaHorario(RuaOcorrencia):
+    horarios_proximos: List[str]
+
+
+class RuasHorarioResponse(BaseModel):
+    query: str
+    horario: str
+    dia: str
+    janela: int
+    total: int
+    resultados: List[RuaOcorrenciaHorario]
+
+
 class MetaResponse(BaseModel):
     total_linhas: int
     total_ruas_indexadas: int
@@ -62,3 +75,16 @@ class HealthResponse(BaseModel):
 class LinhasResponse(BaseModel):
     total: int
     itens: List[LinhaSummary]
+
+
+class HorarioSentido(BaseModel):
+    ida: List[str]
+    volta: List[str]
+
+
+class HorariosLinha(BaseModel):
+    linha_id: str
+    nome: str
+    dia_util: HorarioSentido
+    sabado: HorarioSentido
+    domingo: HorarioSentido

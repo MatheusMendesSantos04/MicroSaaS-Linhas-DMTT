@@ -46,6 +46,7 @@ class DataStore:
             "ida_amostrado": root_dir / "data" / "json" / "dado-tratado" / "IDA_amostrado.json",
             "volta_amostrado": root_dir / "data" / "json" / "dado-tratado" / "VOLTA_amostrado.json",
             "itinerario_com_codigos": root_dir / "data" / "json" / "intinerario-com-codigo-rua" / "itinerario_com_codigos.json",
+            "horarios": root_dir / "data" / "json" / "horarios" / "horarios.json",
         }
         self.lines_by_id: Dict[str, UnifiedLine] = {}
         self.line_ids_by_name_norm: Dict[str, str] = {}
@@ -53,6 +54,8 @@ class DataStore:
         self.rua_index: Dict[str, List[Tuple[str, str, str, Optional[str]]]] = {}
         # codigo_index: codigo → [(line_id, line_nome, sentido, via)]
         self.codigo_index: Dict[str, List[Tuple[str, str, str, str]]] = {}
+        # horario_index: numero_4dig → {dia_util, sabado, domingo}
+        self.horario_index: Dict[str, dict] = {}
         self._load()
 
     def _load_json(self, path: Path):
@@ -122,6 +125,10 @@ class DataStore:
             self.lines_by_id[line.id] = line
             self.line_ids_by_name_norm[norm] = line.id
 
+        horarios_path = self.paths["horarios"]
+        if horarios_path.exists():
+            self.horario_index = self._load_json(horarios_path)
+
         self._build_indexes()
 
     def _build_indexes(self) -> None:
@@ -160,6 +167,14 @@ class DataStore:
             "arquivos_origem": {key: str(path) for key, path in self.paths.items()},
         }
 
+    def suggest_ruas(self, query: str, limit: int = 10) -> List[str]:
+        normalized_query = normalize_text(query)
+        if not normalized_query:
+            return []
+        matches = [key for key in self.rua_index if normalized_query in key]
+        matches.sort()
+        return matches[:limit]
+
     def search_ruas(
         self, query: str, limit: int = 100
     ) -> List[Tuple[str, str, str, str, Optional[str]]]:
@@ -180,6 +195,44 @@ class DataStore:
                     if len(results) >= limit:
                         return results
         return results
+
+    @staticmethod
+    def _horario_to_minutos(h: str) -> int:
+        parts = h.split(":")
+        return int(parts[0]) * 60 + int(parts[1])
+
+    def search_ruas_horario(
+        self,
+        query: str,
+        horario: str,
+        dia: str,
+        janela: int = 20,
+        limit: int = 100,
+    ) -> List[Tuple[str, str, str, str, Optional[str], List[str]]]:
+        target = self._horario_to_minutos(horario)
+        base = self.search_ruas(query, limit=limit)
+        enriched: List[Tuple[str, str, str, str, Optional[str], List[str]]] = []
+        for line_id, line_name, sentido, rua_norm, codigo in base:
+            m = re.match(r"^(\d{4})", line_name)
+            if not m:
+                continue
+            horarios_linha = self.horario_index.get(m.group(1))
+            if not horarios_linha:
+                continue
+            tempos: List[str] = horarios_linha.get(dia, {}).get(sentido, [])
+            proximos = [t for t in tempos if abs(self._horario_to_minutos(t) - target) <= janela]
+            if proximos:
+                enriched.append((line_id, line_name, sentido, rua_norm, codigo, proximos))
+        return enriched
+
+    def get_horarios(self, linha_id: str) -> Optional[dict]:
+        line = self.get_line(linha_id)
+        if line is None:
+            return None
+        m = re.match(r"^(\d{4})", line.nome)
+        if not m:
+            return None
+        return self.horario_index.get(m.group(1))
 
     def search_by_codigo(
         self, codigo: str

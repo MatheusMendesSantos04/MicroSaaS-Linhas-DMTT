@@ -1,0 +1,398 @@
+[
+  {
+    "codigo": "0001",
+    "nome": ""
+  },
+  {
+    "codigo": "0003",
+    "nome": ""
+  },
+  {
+    "codigo": "0004",
+    "nome": ""
+  },
+  {
+    "codigo": "0012",
+    "nome": "0012 - CONJ. JOSÉ S. PEIXOTO/CENTRO"
+  },
+  {
+    "codigo": "0024",
+    "nome": "0024 - GRUTA/CENTRO-VIA C. ALMAS(TERM. ROTARY)"
+  },
+  {
+    "codigo": "0027",
+    "nome": "0027 - VILA SAEM/CENTRO(PINHEIRO-PITANGUINHA)"
+  },
+  {
+    "codigo": "0033",
+    "nome": "0033 - JOSÉ TENÓRIO/CENTRO (ROTARY-GRUTA)"
+  },
+  {
+    "codigo": "0036",
+    "nome": ""
+  },
+  {
+    "codigo": "0037",
+    "nome": "0037 - SALVADOR LIRA/CENTRO"
+  },
+  {
+    "codigo": "0039",
+    "nome": "0039 - CLETO MARQUES LUZ/CENTRO"
+  },
+  {
+    "codigo": "0041",
+    "nome": "0041 - FEITOSA / CENTRO / PIABAS / C. DAS ALMAS"
+  },
+  {
+    "codigo": "0042",
+    "nome": "0042 - BEN. BENTES / CENTRO / SALVADOR LIRA"
+  },
+  {
+    "codigo": "0046",
+    "nome": "0046 - VILLAGE CAMPESTRE II / CENTRO"
+  },
+  {
+    "codigo": "0048",
+    "nome": "0048 - BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)"
+  },
+  {
+    "codigo": "0051",
+    "nome": "0051 - SANTOS DUMONT/CENTRO(VIA POÇO)"
+  },
+  {
+    "codigo": "0052",
+    "nome": "0052 - T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)"
+  },
+  {
+    "codigo": "0053",
+    "nome": "0053 - GRACILIANO RAMOS/CENTRO(FAROL)"
+  },
+  {
+    "codigo": "0056",
+    "nome": "0056 - JOÃO SAMPAIO I / CENTRO / FAROL"
+  },
+  {
+    "codigo": "0057",
+    "nome": "0057 - RIO NOVO / CENTRO / VIA COLINA"
+  },
+  {
+    "codigo": "0058",
+    "nome": "0058 - FERNÃO VELHO / CENTRO / B. GONZAGA"
+  },
+  {
+    "codigo": "0065",
+    "nome": ""
+  },
+  {
+    "codigo": "0068",
+    "nome": "0068 - COLINA/CENTRO(SANTA AMÉLIA - FAROL)"
+  },
+  {
+    "codigo": "0069",
+    "nome": "0069 - CLIMA BOM / CENTRO / FAROL"
+  },
+  {
+    "codigo": "0101",
+    "nome": "0101 - CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)"
+  },
+  {
+    "codigo": "0102",
+    "nome": "0102 - JOÃO SAMPAIO/TRAPICHE(ROTARY-JACINTINHO)"
+  },
+  {
+    "codigo": "0104",
+    "nome": "0104 - BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)"
+  },
+  {
+    "codigo": "0108",
+    "nome": "0108 - CLIMA BOM / TRAPICHE / BEBEDOURO"
+  },
+  {
+    "codigo": "0110",
+    "nome": "0110 - GRACILIANO RAMOS/TRAPICHE(T. ROD.)"
+  },
+  {
+    "codigo": "0113",
+    "nome": "0113 - T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)"
+  },
+  {
+    "codigo": "0114",
+    "nome": "0114 - C DAS ALMAS/TRAPICHE(JACINTINHO-J. LEÃO)"
+  },
+  {
+    "codigo": "0115",
+    "nome": "0115 - CHÃ DA JAQUEIRA/TRAPICHE(CENTRO-PRADO)"
+  },
+  {
+    "codigo": "0116",
+    "nome": "0116 - JOSÉ TENÓRIO/TRAPICHE(VIA CRUZ DAS ALMAS"
+  },
+  {
+    "codigo": "0117",
+    "nome": "0117 - VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)"
+  },
+  {
+    "codigo": "0214",
+    "nome": "0214 - HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA"
+  },
+  {
+    "codigo": "0217",
+    "nome": "0217 - BENEDITO BENTES/MERCADO/FEITOSA"
+  },
+  {
+    "codigo": "0221",
+    "nome": "0221 - SAÚDE/TERMINAL CRUZ DAS ALMAS"
+  },
+  {
+    "codigo": "0223",
+    "nome": "0223 - IPIOCA/VERGEL(PONTA VERDE-TRAPICHE-POÇO)"
+  },
+  {
+    "codigo": "0226",
+    "nome": "0226 - IPIOCA/TRAPICHE(POÇO-VERGEL-PONTA VERDE)"
+  },
+  {
+    "codigo": "0301",
+    "nome": ""
+  },
+  {
+    "codigo": "0401",
+    "nome": "0401 - CIRCULAR / BAIRROS 1"
+  },
+  {
+    "codigo": "0402",
+    "nome": ""
+  },
+  {
+    "codigo": "0403",
+    "nome": "0403 - TRAPICHE/OURO PRETO(JACINTINHO-FAROL)"
+  },
+  {
+    "codigo": "0404",
+    "nome": "0404 - TRAPICHE/NOVO MUNDO(FAROL-JACINTINHO)"
+  },
+  {
+    "codigo": "0501",
+    "nome": "0501 - VERGEL/SÃO JORGE(MERCADO-JACINTINHO)"
+  },
+  {
+    "codigo": "0502",
+    "nome": "0502 - VERGEL/SÃO JORGE(MERCADO-FAROL)"
+  },
+  {
+    "codigo": "0504",
+    "nome": "0504 - TRAPICHE/SÃO JORGE(PTA VERDE-JACARECICA)"
+  },
+  {
+    "codigo": "0601",
+    "nome": "0601 - BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)"
+  },
+  {
+    "codigo": "0602",
+    "nome": "0602 - S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE"
+  },
+  {
+    "codigo": "0603",
+    "nome": "0603 - VERGEL/MIRANTE(VIA POÇO - PÇA BOMFIM)"
+  },
+  {
+    "codigo": "0604",
+    "nome": "0604 - EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY"
+  },
+  {
+    "codigo": "0606",
+    "nome": "0606 - JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)"
+  },
+  {
+    "codigo": "0607",
+    "nome": "0607 - T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)"
+  },
+  {
+    "codigo": "0610",
+    "nome": "0610 - CRUZ DAS ALMAS/OURO PRETO (VIA GRUTA)"
+  },
+  {
+    "codigo": "0612",
+    "nome": "0612 - E GOMES/JATIÚCA (VIA CENTRO-PONTA VERDE)"
+  },
+  {
+    "codigo": "0613",
+    "nome": "0613 - VERGEL/GUAXUMA(SANTO EDUARDO-JACARECICA)"
+  },
+  {
+    "codigo": "0614",
+    "nome": "0614 - TRAPICHE/MANGABEIRAS(J. LEÃO-PT. VERDE)"
+  },
+  {
+    "codigo": "0615",
+    "nome": "0615 - E. GOMES/MANGABEIRAS(M. MARCELO/J. MELO)"
+  },
+  {
+    "codigo": "0700",
+    "nome": "0700 - GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)"
+  },
+  {
+    "codigo": "0703",
+    "nome": "0703 - BENEDITO BENTES/PONTA VERDE"
+  },
+  {
+    "codigo": "0704",
+    "nome": "0704 - BENEDITO BENTES/PONTA VERDE/FAROL"
+  },
+  {
+    "codigo": "0706",
+    "nome": "0706 - T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT"
+  },
+  {
+    "codigo": "0707",
+    "nome": "0707 - GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)"
+  },
+  {
+    "codigo": "0708",
+    "nome": "0708 - CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC"
+  },
+  {
+    "codigo": "0709",
+    "nome": "0709 - CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO"
+  },
+  {
+    "codigo": "0710",
+    "nome": "0710 - CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA"
+  },
+  {
+    "codigo": "0712",
+    "nome": "0712 - SANTO DUMONT/ PONTA VERDE/ IGUATEMI"
+  },
+  {
+    "codigo": "0714",
+    "nome": "0714 - RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)"
+  },
+  {
+    "codigo": "0716",
+    "nome": "0716 - CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL"
+  },
+  {
+    "codigo": "0719",
+    "nome": "0719 - CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)"
+  },
+  {
+    "codigo": "0720",
+    "nome": "0720 - DENISSON MENEZES/PONTA VERDE(FAROL)"
+  },
+  {
+    "codigo": "0723",
+    "nome": "0723 - ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT"
+  },
+  {
+    "codigo": "0727",
+    "nome": "0727 - EUSTÁQUIO GOMES/PTA VERDE(VILLAGE II)"
+  },
+  {
+    "codigo": "0800",
+    "nome": ""
+  },
+  {
+    "codigo": "0802",
+    "nome": "0802 - T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)"
+  },
+  {
+    "codigo": "0804",
+    "nome": "0804 - CONJ. CIDADE SORRISO I/TER. B. BENTES"
+  },
+  {
+    "codigo": "0805",
+    "nome": "0805 - GUAXUMA/TERMINAL DO BENEDITO BENTES"
+  },
+  {
+    "codigo": "0807",
+    "nome": "0807 - JOSÉ APRÍGIO VILLELA / T.I. B. BENTES"
+  },
+  {
+    "codigo": "0809",
+    "nome": "0809 - SELMA BANDEIRA/TERMINAL BENEDITO BENTES"
+  },
+  {
+    "codigo": "0812",
+    "nome": "0812 - PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES"
+  },
+  {
+    "codigo": "0900",
+    "nome": "0900 - CRUZ DAS ALMAS/UFAL (VIA JOSÉ TENÓRIO)"
+  },
+  {
+    "codigo": "0901",
+    "nome": "0901 - T.I. B. BENTES/T.I. E. GOMES(H. METROP)"
+  },
+  {
+    "codigo": "0902",
+    "nome": ""
+  },
+  {
+    "codigo": "0903",
+    "nome": "0903 - T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)"
+  },
+  {
+    "codigo": "0999",
+    "nome": "0999 - JOÃO SAMPAIO/FLEXAIS-VIA CHÃ DA JAQUEIRA"
+  },
+  {
+    "codigo": "1000",
+    "nome": "1000 - TRAPICHE/PONTAL(V. DOS PESCADORES)"
+  },
+  {
+    "codigo": "1018",
+    "nome": "1018 - A. DO CRUZEIRO/AL 101 NORTE(ANDRAÚJO)"
+  },
+  {
+    "codigo": "1019",
+    "nome": "1019 - T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)"
+  },
+  {
+    "codigo": "4003",
+    "nome": "4003 - T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)"
+  },
+  {
+    "codigo": "4006",
+    "nome": "4006 - TERMINAL MOCAMBO/T.I. BENEDITO BENTES"
+  },
+  {
+    "codigo": "4011",
+    "nome": "4011 - TERM. SAL. LYRA / TERM. INTEG. VIA REC."
+  },
+  {
+    "codigo": "4013",
+    "nome": "4013 - T.I. EUSTÁQUIO GOMES/FORENE(J SAÚDE)"
+  },
+  {
+    "codigo": "4014",
+    "nome": "4014 - T.I. EUSTÁQUIO GOMES/N JARDIM-JD ROYAL"
+  },
+  {
+    "codigo": "4015",
+    "nome": "4015 - T.I. EUST. GOMES/JD. AMARILIS(FLAMBOYANT"
+  },
+  {
+    "codigo": "M001",
+    "nome": ""
+  },
+  {
+    "codigo": "M002",
+    "nome": ""
+  },
+  {
+    "codigo": "M003",
+    "nome": ""
+  },
+  {
+    "codigo": "M004",
+    "nome": ""
+  },
+  {
+    "codigo": "M005",
+    "nome": ""
+  },
+  {
+    "codigo": "M006",
+    "nome": ""
+  }
+]

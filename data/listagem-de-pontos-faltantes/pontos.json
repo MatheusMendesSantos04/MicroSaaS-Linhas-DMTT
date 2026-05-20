@@ -1,0 +1,4909 @@
+[
+  {
+    "codigo": "0001",
+    "linha": "Terminal x Cruzeiro",
+    "nome_ida": "Circular Cruzeiro do Sul - Via Colorado",
+    "nome_volta": "",
+    "pontos": [
+      {
+        "nome": "Terminal Eustáquio Gomes",
+        "abreviatura": "T-EGOMES",
+        "endereco": "Rua Oito A 241, Cidade Universitária, Maceió - Alagoas, 57072-037, Brasil",
+        "ordem": 1,
+        "vel_limite": 60,
+        "latitude": -9.54223,
+        "longitude": -35.78303
+      },
+      {
+        "nome": "TP330667669",
+        "abreviatura": "Term. Provisório",
+        "endereco": "Rua P1 75, Cidade Universitária, Maceió - Alagoas, 57072-370, Brasil",
+        "ordem": 2,
+        "vel_limite": 40,
+        "latitude": -9.54063,
+        "longitude": -35.78339
+      },
+      {
+        "nome": "PN324",
+        "abreviatura": "PN324",
+        "endereco": "R. Dr. Juraci Pereira, 474-518 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 3,
+        "vel_limite": 60,
+        "latitude": -9.53802,
+        "longitude": -35.78683
+      },
+      {
+        "nome": "PP64",
+        "abreviatura": "PP64",
+        "endereco": "R. Cinco, 428-478 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 4,
+        "vel_limite": 60,
+        "latitude": -9.53923,
+        "longitude": -35.78908
+      },
+      {
+        "nome": "PN434",
+        "abreviatura": "PN434",
+        "endereco": "R. Dr. Juraci Pereira, 916-1040 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 5,
+        "vel_limite": 60,
+        "latitude": -9.54022,
+        "longitude": -35.79088
+      },
+      {
+        "nome": "PN435",
+        "abreviatura": "PN435",
+        "endereco": "BR-104, 66",
+        "ordem": 6,
+        "vel_limite": 60,
+        "latitude": -9.53808,
+        "longitude": -35.7925
+      },
+      {
+        "nome": "PN722",
+        "abreviatura": "PN722",
+        "endereco": "BR-104",
+        "ordem": 7,
+        "vel_limite": 60,
+        "latitude": -9.53355,
+        "longitude": -35.79512
+      },
+      {
+        "nome": "PN437",
+        "abreviatura": "PN437",
+        "endereco": "Estrada Utinga, 2-14 - Santos Dumont, Maceió - AL, 57100-000, Brasil",
+        "ordem": 8,
+        "vel_limite": 60,
+        "latitude": -9.53459,
+        "longitude": -35.79593
+      },
+      {
+        "nome": "Terminal Forene",
+        "abreviatura": "T-Forene",
+        "endereco": "Avenida José Manhães Satuba - Alagoas, Brasil",
+        "ordem": 9,
+        "vel_limite": 60,
+        "latitude": -9.53545,
+        "longitude": -35.7982
+      },
+      {
+        "nome": "PN01",
+        "abreviatura": "PN01",
+        "endereco": "Residencial Parque Dos Coqueirais 12, Satuba - Alagoas, 57120-000, Brasil",
+        "ordem": 10,
+        "vel_limite": 50,
+        "latitude": -9.53563,
+        "longitude": -35.80048
+      },
+      {
+        "nome": "PN002",
+        "abreviatura": "PN002",
+        "endereco": "Rua da Delegacia, 9 - Conj. Guriata, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 11,
+        "vel_limite": 50,
+        "latitude": -9.53393,
+        "longitude": -35.80412
+      },
+      {
+        "nome": "PN04",
+        "abreviatura": "PN04",
+        "endereco": "Rua Principal 2125, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 12,
+        "vel_limite": 50,
+        "latitude": -9.53418,
+        "longitude": -35.80693
+      },
+      {
+        "nome": "PN03",
+        "abreviatura": "PN03",
+        "endereco": "Rua S D 11 85, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 13,
+        "vel_limite": 50,
+        "latitude": -9.53631,
+        "longitude": -35.81009
+      },
+      {
+        "nome": "PT NOVO 13",
+        "abreviatura": "PT NOVO 13",
+        "endereco": "Rua Jeriva Rio Largo - Alagoas, Brasil",
+        "ordem": 14,
+        "vel_limite": 60,
+        "latitude": -9.53708,
+        "longitude": -35.81396
+      },
+      {
+        "nome": "PN02",
+        "abreviatura": "PN02",
+        "endereco": "Rua Sd 16 Rio Largo - Alagoas, Brasil",
+        "ordem": 15,
+        "vel_limite": 50,
+        "latitude": -9.53718,
+        "longitude": -35.81488
+      },
+      {
+        "nome": "PN2338",
+        "abreviatura": "PN2338",
+        "endereco": "Rua das Gamaleiras 494, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 16,
+        "vel_limite": 60,
+        "latitude": -9.53819,
+        "longitude": -35.81817
+      },
+      {
+        "nome": "PN2339",
+        "abreviatura": "PN2339",
+        "endereco": "Rua das Gamaleiras 474, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 17,
+        "vel_limite": 60,
+        "latitude": -9.53969,
+        "longitude": -35.81841
+      },
+      {
+        "nome": "PN2336",
+        "abreviatura": "PN2336",
+        "endereco": "Acesso a Utinga Leão, Rio Largo - Alagoas, Brasil",
+        "ordem": 18,
+        "vel_limite": 60,
+        "latitude": -9.5402,
+        "longitude": -35.82117
+      },
+      {
+        "nome": "PN2337",
+        "abreviatura": "PN2337",
+        "endereco": "Acesso a Utinga Leão, Rio Largo - Alagoas, Brasil",
+        "ordem": 19,
+        "vel_limite": 60,
+        "latitude": -9.53798,
+        "longitude": -35.81861
+      },
+      {
+        "nome": "PN006",
+        "abreviatura": "PN006",
+        "endereco": "Rua Sd 17 Rio Largo - Alagoas, Brasil",
+        "ordem": 20,
+        "vel_limite": 50,
+        "latitude": -9.53819,
+        "longitude": -35.81499
+      },
+      {
+        "nome": "PN009",
+        "abreviatura": "PN009",
+        "endereco": "Rua Sd 17 Rio Largo - Alagoas, Brasil",
+        "ordem": 21,
+        "vel_limite": 50,
+        "latitude": -9.54015,
+        "longitude": -35.81446
+      },
+      {
+        "nome": "PN5137",
+        "abreviatura": "PN5137",
+        "endereco": "Avenida Professor Paulo Bandeira, Satuba - Alagoas, Brasil",
+        "ordem": 22,
+        "vel_limite": 60,
+        "latitude": -9.54534,
+        "longitude": -35.81302
+      },
+      {
+        "nome": "PN5138",
+        "abreviatura": "PN5138",
+        "endereco": "Avenida Professor Paulo Bandeira, Satuba - Alagoas, Brasil",
+        "ordem": 23,
+        "vel_limite": 60,
+        "latitude": -9.54915,
+        "longitude": -35.81144
+      },
+      {
+        "nome": "Terminal Nova Satuba",
+        "abreviatura": "Terminal Nova Satuba",
+        "endereco": "Avenida Professor Paulo Bandeira, Satuba - Alagoas, Brasil",
+        "ordem": 24,
+        "vel_limite": 60,
+        "latitude": -9.55231,
+        "longitude": -35.81038
+      },
+      {
+        "nome": "PN5141",
+        "abreviatura": "PN5141",
+        "endereco": "Avenida Professor Paulo Bandeira, Satuba - Alagoas, Brasil",
+        "ordem": 25,
+        "vel_limite": 60,
+        "latitude": -9.55029,
+        "longitude": -35.81061
+      },
+      {
+        "nome": "PN5142",
+        "abreviatura": "PN5142",
+        "endereco": "Avenida Professor Paulo Bandeira, Satuba - Alagoas, Brasil",
+        "ordem": 26,
+        "vel_limite": 60,
+        "latitude": -9.54814,
+        "longitude": -35.81205
+      },
+      {
+        "nome": "PN5143",
+        "abreviatura": "PN5143",
+        "endereco": "Avenida Professor Paulo Bandeira, Satuba - Alagoas, Brasil",
+        "ordem": 27,
+        "vel_limite": 60,
+        "latitude": -9.54455,
+        "longitude": -35.81309
+      },
+      {
+        "nome": "PN010",
+        "abreviatura": "PN010",
+        "endereco": "Unnamed Road, Satuba - AL, Brasil",
+        "ordem": 28,
+        "vel_limite": 50,
+        "latitude": -9.5434,
+        "longitude": -35.81325
+      },
+      {
+        "nome": "PN011",
+        "abreviatura": "PN011",
+        "endereco": "Unnamed Road, Satuba - AL, Brasil",
+        "ordem": 29,
+        "vel_limite": 50,
+        "latitude": -9.54235,
+        "longitude": -35.81287
+      },
+      {
+        "nome": "PN012",
+        "abreviatura": "PN012",
+        "endereco": "Rua Sd 16 Rio Largo - Alagoas, Brasil",
+        "ordem": 30,
+        "vel_limite": 50,
+        "latitude": -9.53926,
+        "longitude": -35.8145
+      },
+      {
+        "nome": "PN013",
+        "abreviatura": "PN013",
+        "endereco": "Rua Tucuma Rio Largo - Alagoas, Brasil",
+        "ordem": 31,
+        "vel_limite": 50,
+        "latitude": -9.53727,
+        "longitude": -35.81422
+      },
+      {
+        "nome": "PN020",
+        "abreviatura": "PN020",
+        "endereco": "Terminal do Cruzeiro do Sul",
+        "ordem": 32,
+        "vel_limite": 50,
+        "latitude": -9.53867,
+        "longitude": -35.81046
+      },
+      {
+        "nome": "PN015",
+        "abreviatura": "PN015",
+        "endereco": "Rua da Delegacia, 10 - Conj. Cruzeiro do Sul, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 33,
+        "vel_limite": 50,
+        "latitude": -9.53487,
+        "longitude": -35.81007
+      },
+      {
+        "nome": "PN014",
+        "abreviatura": "PN014",
+        "endereco": "Rua da Delegacia, 6 - Conj. Cruzeiro do Sul, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 34,
+        "vel_limite": 50,
+        "latitude": -9.5344,
+        "longitude": -35.8083
+      },
+      {
+        "nome": "Escola",
+        "abreviatura": "Escola",
+        "endereco": "Rua Lindaura Vitor De Melo 41, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 35,
+        "vel_limite": 50,
+        "latitude": -9.53428,
+        "longitude": -35.8068
+      },
+      {
+        "nome": "PN017",
+        "abreviatura": "PN017",
+        "endereco": "Rua da Delegacia, 2 - Conj. Guriata, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 36,
+        "vel_limite": 50,
+        "latitude": -9.53408,
+        "longitude": -35.80538
+      },
+      {
+        "nome": "PN05",
+        "abreviatura": "PN05",
+        "endereco": "Rua da Delegacia, 9 - Conj. Guriata, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 37,
+        "vel_limite": 50,
+        "latitude": -9.534,
+        "longitude": -35.80427
+      },
+      {
+        "nome": "PN001",
+        "abreviatura": "PN001",
+        "endereco": "Avenida José Manhães 21, Satuba - Alagoas, 57120-000, Brasil",
+        "ordem": 38,
+        "vel_limite": 50,
+        "latitude": -9.53594,
+        "longitude": -35.80381
+      },
+      {
+        "nome": "PT NOVO 14",
+        "abreviatura": "PT NOVO 14",
+        "endereco": "Avenida José Manhães Satuba - Alagoas, 57120-000, Brasil",
+        "ordem": 39,
+        "vel_limite": 50,
+        "latitude": -9.53588,
+        "longitude": -35.80088
+      },
+      {
+        "nome": "PN019",
+        "abreviatura": "PN019",
+        "endereco": "Avenida José Manhães Satuba - Alagoas, Brasil",
+        "ordem": 40,
+        "vel_limite": 50,
+        "latitude": -9.53564,
+        "longitude": -35.79903
+      },
+      {
+        "nome": "PN466",
+        "abreviatura": "PN466",
+        "endereco": "Estrada Utinga, 1-13 - Santos Dumont, Maceió - AL, 57100-000, Brasil",
+        "ordem": 41,
+        "vel_limite": 60,
+        "latitude": -9.53453,
+        "longitude": -35.79557
+      },
+      {
+        "nome": "PN438",
+        "abreviatura": "PN438",
+        "endereco": "BR-104, 66",
+        "ordem": 42,
+        "vel_limite": 60,
+        "latitude": -9.53822,
+        "longitude": -35.79272
+      },
+      {
+        "nome": "PN3211",
+        "abreviatura": "PN3211",
+        "endereco": "Av. Dr. Fábio Wanderley, 727-955 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 43,
+        "vel_limite": 60,
+        "latitude": -9.54417,
+        "longitude": -35.7883
+      },
+      {
+        "nome": "PN428",
+        "abreviatura": "PN428",
+        "endereco": "Avenida Doutor Fábio Wanderley, 608-654 - Cidade Universitária, Maceió - AL,",
+        "ordem": 44,
+        "vel_limite": 60,
+        "latitude": -9.54305,
+        "longitude": -35.78619
+      },
+      {
+        "nome": "PN429",
+        "abreviatura": "PN429",
+        "endereco": "Av. Dr. Fábio Wanderley, 448-486 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 45,
+        "vel_limite": 60,
+        "latitude": -9.54235,
+        "longitude": -35.78485
+      }
+    ]
+  },
+  {
+    "codigo": "0003",
+    "linha": "Jarbas Oiticíca",
+    "nome_ida": "Jarbas Via Antônio Lins / Aeroporto",
+    "nome_volta": "Jarbas Via Antônio Lins / Aeroporto",
+    "pontos": [
+      {
+        "nome": "Terminal Eustáquio Gomes",
+        "abreviatura": "T-EGOMES",
+        "endereco": "Rua Oito A 241, Cidade Universitária, Maceió - Alagoas, 57072-037, Brasil",
+        "ordem": 1,
+        "vel_limite": 60,
+        "latitude": -9.54223,
+        "longitude": -35.78303
+      },
+      {
+        "nome": "PN324",
+        "abreviatura": "PN324",
+        "endereco": "R. Dr. Juraci Pereira, 474-518 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 2,
+        "vel_limite": 60,
+        "latitude": -9.53802,
+        "longitude": -35.78683
+      },
+      {
+        "nome": "PP64",
+        "abreviatura": "PP64",
+        "endereco": "R. Cinco, 428-478 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 3,
+        "vel_limite": 60,
+        "latitude": -9.53923,
+        "longitude": -35.78908
+      },
+      {
+        "nome": "PN434",
+        "abreviatura": "PN434",
+        "endereco": "R. Dr. Juraci Pereira, 916-1040 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 4,
+        "vel_limite": 60,
+        "latitude": -9.54022,
+        "longitude": -35.79088
+      },
+      {
+        "nome": "PN435",
+        "abreviatura": "PN435",
+        "endereco": "BR-104, 66",
+        "ordem": 5,
+        "vel_limite": 60,
+        "latitude": -9.53808,
+        "longitude": -35.7925
+      },
+      {
+        "nome": "PN722",
+        "abreviatura": "PN722",
+        "endereco": "BR-104",
+        "ordem": 6,
+        "vel_limite": 60,
+        "latitude": -9.53355,
+        "longitude": -35.79512
+      },
+      {
+        "nome": "PN56219740",
+        "abreviatura": "PN56219740",
+        "endereco": "BR-104, 232",
+        "ordem": 7,
+        "vel_limite": 60,
+        "latitude": -9.53013,
+        "longitude": -35.79712
+      },
+      {
+        "nome": "PN355275055",
+        "abreviatura": "PN355275055",
+        "endereco": "Avenida Lourival Melo Mota 1248, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 8,
+        "vel_limite": 60,
+        "latitude": -9.52883,
+        "longitude": -35.79784
+      },
+      {
+        "nome": "PN355275056",
+        "abreviatura": "PN355275056",
+        "endereco": "Avenida Lourival Melo Mota 5941, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 9,
+        "vel_limite": 60,
+        "latitude": -9.52715,
+        "longitude": -35.79869
+      },
+      {
+        "nome": "PN355275057",
+        "abreviatura": "PN355275057",
+        "endereco": "Avenida Lourival Melo Mota 591c, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 10,
+        "vel_limite": 60,
+        "latitude": -9.52485,
+        "longitude": -35.7998
+      },
+      {
+        "nome": "PN355275058",
+        "abreviatura": "355275058",
+        "endereco": "Avenida Lourival Melo Mota 591c, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 11,
+        "vel_limite": 60,
+        "latitude": -9.5224,
+        "longitude": -35.80098
+      },
+      {
+        "nome": "PN355275059",
+        "abreviatura": "PN355275059",
+        "endereco": "Avenida Lourival Melo Mota Rio Largo - Alagoas, 57075-000, Brasil",
+        "ordem": 12,
+        "vel_limite": 60,
+        "latitude": -9.51832,
+        "longitude": -35.80298
+      },
+      {
+        "nome": "PN1951",
+        "abreviatura": "PN1951",
+        "endereco": "Acesso Aeroporto Zumbi Dos Palmares Rio Largo - Alagoas, Brasil",
+        "ordem": 13,
+        "vel_limite": 60,
+        "latitude": -9.51524,
+        "longitude": -35.79381
+      },
+      {
+        "nome": "PN3434",
+        "abreviatura": "PN3434",
+        "endereco": "Acesso Aeroporto Zumbi Dos Palmares Rio Largo - Alagoas, Brasil",
+        "ordem": 14,
+        "vel_limite": 60,
+        "latitude": -9.51472,
+        "longitude": -35.79849
+      },
+      {
+        "nome": "PN1789",
+        "abreviatura": "PN1789",
+        "endereco": "BR-104, 12, Maceió - AL, 57100-000, Brasil",
+        "ordem": 15,
+        "vel_limite": 60,
+        "latitude": -9.51328,
+        "longitude": -35.80333
+      },
+      {
+        "nome": "PN355275060",
+        "abreviatura": "PN355275060",
+        "endereco": "Br-104 5693, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 16,
+        "vel_limite": 60,
+        "latitude": -9.51068,
+        "longitude": -35.80677
+      },
+      {
+        "nome": "PN355275061",
+        "abreviatura": "PN355275061",
+        "endereco": "Br-104 342, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 17,
+        "vel_limite": 60,
+        "latitude": -9.50769,
+        "longitude": -35.80824
+      },
+      {
+        "nome": "PN64281791",
+        "abreviatura": "Posto Palmares",
+        "endereco": "BR-104, 23 - Conj. Bandeirante, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 18,
+        "vel_limite": 60,
+        "latitude": -9.50582,
+        "longitude": -35.80901
+      },
+      {
+        "nome": "PN355275062",
+        "abreviatura": "Xica Boa",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 19,
+        "vel_limite": 60,
+        "latitude": -9.50049,
+        "longitude": -35.81102
+      },
+      {
+        "nome": "PN355275063",
+        "abreviatura": "CIMAPRA",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 20,
+        "vel_limite": 60,
+        "latitude": -9.49746,
+        "longitude": -35.81228
+      },
+      {
+        "nome": "PN64281793",
+        "abreviatura": "PN64281793",
+        "endereco": "BR-104, 2764 - Conj. Napoleao Viana, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 21,
+        "vel_limite": 60,
+        "latitude": -9.48868,
+        "longitude": -35.81592
+      },
+      {
+        "nome": "PN355275065",
+        "abreviatura": "PN355275065",
+        "endereco": "Avenida Principal Rio Largo - Alagoas, Brasil",
+        "ordem": 22,
+        "vel_limite": 60,
+        "latitude": -9.48659,
+        "longitude": -35.81277
+      },
+      {
+        "nome": "PN35452648",
+        "abreviatura": "PN35452648",
+        "endereco": "Avenida Principal Rio Largo - Alagoas, Brasil",
+        "ordem": 23,
+        "vel_limite": 60,
+        "latitude": -9.48544,
+        "longitude": -35.80754
+      },
+      {
+        "nome": "PN6573435",
+        "abreviatura": "PN6573435",
+        "endereco": "Qd 49 Conj.Antonio Lins Rio Largo - Alagoas, Brasil",
+        "ordem": 24,
+        "vel_limite": 60,
+        "latitude": -9.48466,
+        "longitude": -35.80391
+      },
+      {
+        "nome": "PN5782",
+        "abreviatura": "PN5782",
+        "endereco": "Avenida Principal Rio Largo - Alagoas, Brasil",
+        "ordem": 25,
+        "vel_limite": 60,
+        "latitude": -9.48403,
+        "longitude": -35.80089
+      },
+      {
+        "nome": "PN5066",
+        "abreviatura": "PN5066",
+        "endereco": "Avenida Principal Rio Largo - Alagoas, Brasil",
+        "ordem": 26,
+        "vel_limite": 60,
+        "latitude": -9.48641,
+        "longitude": -35.81294
+      },
+      {
+        "nome": "PN64281794",
+        "abreviatura": "Antônio Lins CITTA",
+        "endereco": "Rodovia Br-104 1441, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 27,
+        "vel_limite": 60,
+        "latitude": -9.48466,
+        "longitude": -35.81759
+      },
+      {
+        "nome": "PN355275067",
+        "abreviatura": "José Medeiros",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 28,
+        "vel_limite": 60,
+        "latitude": -9.47939,
+        "longitude": -35.81973
+      },
+      {
+        "nome": "PN64281795",
+        "abreviatura": "Posto do Gás",
+        "endereco": "Rua Dezesseis C 1418, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 29,
+        "vel_limite": 60,
+        "latitude": -9.47647,
+        "longitude": -35.82088
+      },
+      {
+        "nome": "PN355275068",
+        "abreviatura": "Mata do Rolo",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 30,
+        "vel_limite": 60,
+        "latitude": -9.47418,
+        "longitude": -35.82186
+      },
+      {
+        "nome": "PN355275070",
+        "abreviatura": "PN355275070",
+        "endereco": "Avenida Principal Rio Largo - Alagoas, Brasil",
+        "ordem": 31,
+        "vel_limite": 60,
+        "latitude": -9.47216,
+        "longitude": -35.81825
+      },
+      {
+        "nome": "PN355275071",
+        "abreviatura": "PN355275071",
+        "endereco": "Avenida Principal Rio Largo - Alagoas, Brasil",
+        "ordem": 32,
+        "vel_limite": 60,
+        "latitude": -9.47389,
+        "longitude": -35.81479
+      },
+      {
+        "nome": "PN355275072",
+        "abreviatura": "PN355275072",
+        "endereco": "Avenida Principal Rio Largo - Alagoas, Brasil",
+        "ordem": 33,
+        "vel_limite": 60,
+        "latitude": -9.47388,
+        "longitude": -35.81177
+      },
+      {
+        "nome": "TS - Jarbas Oiticica",
+        "abreviatura": "PN354526484",
+        "endereco": "Rua Trinta E Quatro Rio Largo - Alagoas, Brasil",
+        "ordem": 34,
+        "vel_limite": 60,
+        "latitude": -9.47395,
+        "longitude": -35.80845
+      },
+      {
+        "nome": "PN355275073",
+        "abreviatura": "PN355275073",
+        "endereco": "Avenida Principal Rio Largo - Alagoas, Brasil",
+        "ordem": 35,
+        "vel_limite": 60,
+        "latitude": -9.47336,
+        "longitude": -35.81563
+      },
+      {
+        "nome": "PN355275074",
+        "abreviatura": "PN355275074",
+        "endereco": "Avenida Principal Rio Largo - Alagoas, Brasil",
+        "ordem": 36,
+        "vel_limite": 60,
+        "latitude": -9.47188,
+        "longitude": -35.82219
+      },
+      {
+        "nome": "PN355275075",
+        "abreviatura": "Balducco",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 37,
+        "vel_limite": 60,
+        "latitude": -9.47257,
+        "longitude": -35.82282
+      },
+      {
+        "nome": "PN355275076",
+        "abreviatura": "PN355275076",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 38,
+        "vel_limite": 60,
+        "latitude": -9.4744,
+        "longitude": -35.82207
+      },
+      {
+        "nome": "PN64281781",
+        "abreviatura": "PN64281781",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 39,
+        "vel_limite": 60,
+        "latitude": -9.47631,
+        "longitude": -35.82124
+      },
+      {
+        "nome": "PN355275077",
+        "abreviatura": "PN355275077",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 40,
+        "vel_limite": 60,
+        "latitude": -9.47939,
+        "longitude": -35.82005
+      },
+      {
+        "nome": "PN355275078",
+        "abreviatura": "PN355275078",
+        "endereco": "Rodovia Br-104 1441, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 41,
+        "vel_limite": 60,
+        "latitude": -9.48496,
+        "longitude": -35.8177
+      },
+      {
+        "nome": "PN355275079",
+        "abreviatura": "PN355275079",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 42,
+        "vel_limite": 60,
+        "latitude": -9.48724,
+        "longitude": -35.81678
+      },
+      {
+        "nome": "PN64281782",
+        "abreviatura": "PN64281782",
+        "endereco": "BR-104, 2764 - Conj. Napoleao Viana, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 43,
+        "vel_limite": 60,
+        "latitude": -9.48958,
+        "longitude": -35.81581
+      },
+      {
+        "nome": "PN355275080",
+        "abreviatura": "PN355275080",
+        "endereco": "Rodovia Br-104 7398, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 44,
+        "vel_limite": 60,
+        "latitude": -9.49269,
+        "longitude": -35.81454
+      },
+      {
+        "nome": "PN64281783",
+        "abreviatura": "PN64281783",
+        "endereco": "BR-104 - Conj. Napoleao Viana, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 45,
+        "vel_limite": 60,
+        "latitude": -9.4972,
+        "longitude": -35.8127
+      },
+      {
+        "nome": "PN355275081",
+        "abreviatura": "PN355275081",
+        "endereco": "Rodovia Br-104 370, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 46,
+        "vel_limite": 60,
+        "latitude": -9.50084,
+        "longitude": -35.81124
+      },
+      {
+        "nome": "PN64281784",
+        "abreviatura": "PN64281784",
+        "endereco": "BR-104, 53 - Conj. Bandeirante, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 47,
+        "vel_limite": 60,
+        "latitude": -9.50415,
+        "longitude": -35.80988
+      },
+      {
+        "nome": "PN80895401",
+        "abreviatura": "PN80895401",
+        "endereco": "Rua José Monteiro De Melo 6188, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 48,
+        "vel_limite": 60,
+        "latitude": -9.50604,
+        "longitude": -35.8091
+      },
+      {
+        "nome": "PN355275082",
+        "abreviatura": "PN355275082",
+        "endereco": "Br-104 6142, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 49,
+        "vel_limite": 60,
+        "latitude": -9.50833,
+        "longitude": -35.80819
+      },
+      {
+        "nome": "PN355275083",
+        "abreviatura": "PN355275083",
+        "endereco": "Rua Niteroi 5910, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 50,
+        "vel_limite": 60,
+        "latitude": -9.50995,
+        "longitude": -35.80744
+      },
+      {
+        "nome": "PN64281787",
+        "abreviatura": "PN64281787",
+        "endereco": "BR-104, 46 - Conj. Bandeirante, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 51,
+        "vel_limite": 60,
+        "latitude": -9.51133,
+        "longitude": -35.80667
+      },
+      {
+        "nome": "PN1951",
+        "abreviatura": "PN1951",
+        "endereco": "Acesso Aeroporto Zumbi Dos Palmares Rio Largo - Alagoas, Brasil",
+        "ordem": 52,
+        "vel_limite": 60,
+        "latitude": -9.51524,
+        "longitude": -35.79381
+      },
+      {
+        "nome": "PN3434",
+        "abreviatura": "PN3434",
+        "endereco": "Acesso Aeroporto Zumbi Dos Palmares Rio Largo - Alagoas, Brasil",
+        "ordem": 53,
+        "vel_limite": 60,
+        "latitude": -9.51472,
+        "longitude": -35.79849
+      },
+      {
+        "nome": "PN1789",
+        "abreviatura": "PN1789",
+        "endereco": "BR-104, 12, Maceió - AL, 57100-000, Brasil",
+        "ordem": 54,
+        "vel_limite": 60,
+        "latitude": -9.51328,
+        "longitude": -35.80333
+      },
+      {
+        "nome": "PN355275084",
+        "abreviatura": "PN355275084",
+        "endereco": "Rua D 5486, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 55,
+        "vel_limite": 60,
+        "latitude": -9.51538,
+        "longitude": -35.80481
+      },
+      {
+        "nome": "PN56219732",
+        "abreviatura": "PN56219732",
+        "endereco": "Avenida Lourival Melo Mota Rio Largo - Alagoas, 57075-000, Brasil",
+        "ordem": 56,
+        "vel_limite": 60,
+        "latitude": -9.51798,
+        "longitude": -35.80347
+      },
+      {
+        "nome": "PN355275085",
+        "abreviatura": "PN355275085",
+        "endereco": "Avenida Lourival Melo Mota 591c, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 57,
+        "vel_limite": 60,
+        "latitude": -9.52228,
+        "longitude": -35.8014
+      },
+      {
+        "nome": "PN355275086",
+        "abreviatura": "PN355275086",
+        "endereco": "Avenida Lourival Melo Mota 5941, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 58,
+        "vel_limite": 60,
+        "latitude": -9.52544,
+        "longitude": -35.79989
+      },
+      {
+        "nome": "PN355275087",
+        "abreviatura": "PN355275087",
+        "endereco": "Rua S D 4620, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 59,
+        "vel_limite": 60,
+        "latitude": -9.52698,
+        "longitude": -35.79919
+      },
+      {
+        "nome": "PN355275088",
+        "abreviatura": "PN355275088",
+        "endereco": "Avenida Lourival Melo Mota 1248, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 60,
+        "vel_limite": 60,
+        "latitude": -9.52851,
+        "longitude": -35.79837
+      },
+      {
+        "nome": "PN56219734",
+        "abreviatura": "PN56219734",
+        "endereco": "BR-104, 232",
+        "ordem": 61,
+        "vel_limite": 60,
+        "latitude": -9.53075,
+        "longitude": -35.79705
+      },
+      {
+        "nome": "PN438",
+        "abreviatura": "PN438",
+        "endereco": "BR-104, 66",
+        "ordem": 62,
+        "vel_limite": 60,
+        "latitude": -9.53822,
+        "longitude": -35.79272
+      },
+      {
+        "nome": "PN3211",
+        "abreviatura": "PN3211",
+        "endereco": "Av. Dr. Fábio Wanderley, 727-955 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 63,
+        "vel_limite": 60,
+        "latitude": -9.54417,
+        "longitude": -35.7883
+      },
+      {
+        "nome": "PN428",
+        "abreviatura": "PN428",
+        "endereco": "Avenida Doutor Fábio Wanderley, 608-654 - Cidade Universitária, Maceió - AL,",
+        "ordem": 64,
+        "vel_limite": 60,
+        "latitude": -9.54305,
+        "longitude": -35.78619
+      },
+      {
+        "nome": "PN429",
+        "abreviatura": "PN429",
+        "endereco": "Av. Dr. Fábio Wanderley, 448-486 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 65,
+        "vel_limite": 60,
+        "latitude": -9.54235,
+        "longitude": -35.78485
+      }
+    ]
+  },
+  {
+    "codigo": "0004",
+    "linha": "Rio Largo via Mata do Rolo",
+    "nome_ida": "E. Gomes x Rio Largo Via Mata do Rolo",
+    "nome_volta": "",
+    "pontos": [
+      {
+        "nome": "Terminal Eustáquio Gomes",
+        "abreviatura": "T-EGOMES",
+        "endereco": "Rua Oito A 241, Cidade Universitária, Maceió - Alagoas, 57072-037, Brasil",
+        "ordem": 1,
+        "vel_limite": 60,
+        "latitude": -9.54223,
+        "longitude": -35.78303
+      },
+      {
+        "nome": "TP330667669",
+        "abreviatura": "Term. Provisório",
+        "endereco": "Rua P1 75, Cidade Universitária, Maceió - Alagoas, 57072-370, Brasil",
+        "ordem": 2,
+        "vel_limite": 40,
+        "latitude": -9.54063,
+        "longitude": -35.78339
+      },
+      {
+        "nome": "PN324",
+        "abreviatura": "PN324",
+        "endereco": "R. Dr. Juraci Pereira, 474-518 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 3,
+        "vel_limite": 60,
+        "latitude": -9.53802,
+        "longitude": -35.78683
+      },
+      {
+        "nome": "PP64",
+        "abreviatura": "PP64",
+        "endereco": "R. Cinco, 428-478 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 4,
+        "vel_limite": 60,
+        "latitude": -9.53923,
+        "longitude": -35.78908
+      },
+      {
+        "nome": "PN434",
+        "abreviatura": "PN434",
+        "endereco": "R. Dr. Juraci Pereira, 916-1040 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 5,
+        "vel_limite": 60,
+        "latitude": -9.54022,
+        "longitude": -35.79088
+      },
+      {
+        "nome": "PN435",
+        "abreviatura": "PN435",
+        "endereco": "BR-104, 66",
+        "ordem": 6,
+        "vel_limite": 60,
+        "latitude": -9.53808,
+        "longitude": -35.7925
+      },
+      {
+        "nome": "PN722",
+        "abreviatura": "PN722",
+        "endereco": "BR-104",
+        "ordem": 7,
+        "vel_limite": 60,
+        "latitude": -9.53355,
+        "longitude": -35.79512
+      },
+      {
+        "nome": "PN56219740",
+        "abreviatura": "PN56219740",
+        "endereco": "BR-104, 232",
+        "ordem": 8,
+        "vel_limite": 60,
+        "latitude": -9.53013,
+        "longitude": -35.79712
+      },
+      {
+        "nome": "PN355275055",
+        "abreviatura": "PN355275055",
+        "endereco": "Avenida Lourival Melo Mota 1248, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 9,
+        "vel_limite": 60,
+        "latitude": -9.52883,
+        "longitude": -35.79784
+      },
+      {
+        "nome": "PN355275056",
+        "abreviatura": "PN355275056",
+        "endereco": "Avenida Lourival Melo Mota 5941, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 10,
+        "vel_limite": 60,
+        "latitude": -9.52715,
+        "longitude": -35.79869
+      },
+      {
+        "nome": "PN355275057",
+        "abreviatura": "PN355275057",
+        "endereco": "Avenida Lourival Melo Mota 591c, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 11,
+        "vel_limite": 60,
+        "latitude": -9.52485,
+        "longitude": -35.7998
+      },
+      {
+        "nome": "PN355275058",
+        "abreviatura": "355275058",
+        "endereco": "Avenida Lourival Melo Mota 591c, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 12,
+        "vel_limite": 60,
+        "latitude": -9.5224,
+        "longitude": -35.80098
+      },
+      {
+        "nome": "PN355275059",
+        "abreviatura": "PN355275059",
+        "endereco": "Avenida Lourival Melo Mota Rio Largo - Alagoas, 57075-000, Brasil",
+        "ordem": 13,
+        "vel_limite": 60,
+        "latitude": -9.51832,
+        "longitude": -35.80298
+      },
+      {
+        "nome": "PN355275060",
+        "abreviatura": "PN355275060",
+        "endereco": "Br-104 5693, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 14,
+        "vel_limite": 60,
+        "latitude": -9.51068,
+        "longitude": -35.80677
+      },
+      {
+        "nome": "PN6428",
+        "abreviatura": "PN6428",
+        "endereco": "BR-104, 50 - Conj. Bandeirante, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 15,
+        "vel_limite": 60,
+        "latitude": -9.5101,
+        "longitude": -35.80717
+      },
+      {
+        "nome": "PN355275061",
+        "abreviatura": "PN355275061",
+        "endereco": "Br-104 342, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 16,
+        "vel_limite": 60,
+        "latitude": -9.50769,
+        "longitude": -35.80824
+      },
+      {
+        "nome": "PN64281791",
+        "abreviatura": "Posto Palmares",
+        "endereco": "BR-104, 23 - Conj. Bandeirante, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 17,
+        "vel_limite": 60,
+        "latitude": -9.50582,
+        "longitude": -35.80901
+      },
+      {
+        "nome": "PN355275062",
+        "abreviatura": "Xica Boa",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 18,
+        "vel_limite": 60,
+        "latitude": -9.50049,
+        "longitude": -35.81102
+      },
+      {
+        "nome": "PN355275063",
+        "abreviatura": "CIMAPRA",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 19,
+        "vel_limite": 60,
+        "latitude": -9.49746,
+        "longitude": -35.81228
+      },
+      {
+        "nome": "PN64281793",
+        "abreviatura": "PN64281793",
+        "endereco": "BR-104, 2764 - Conj. Napoleao Viana, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 20,
+        "vel_limite": 60,
+        "latitude": -9.48868,
+        "longitude": -35.81592
+      },
+      {
+        "nome": "PN355275064",
+        "abreviatura": "Antônio Lins",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 21,
+        "vel_limite": 60,
+        "latitude": -9.4874,
+        "longitude": -35.81639
+      },
+      {
+        "nome": "PN64281794",
+        "abreviatura": "Antônio Lins CITTA",
+        "endereco": "Rodovia Br-104 1441, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 22,
+        "vel_limite": 60,
+        "latitude": -9.48466,
+        "longitude": -35.81759
+      },
+      {
+        "nome": "PN355275067",
+        "abreviatura": "José Medeiros",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 23,
+        "vel_limite": 60,
+        "latitude": -9.47939,
+        "longitude": -35.81973
+      },
+      {
+        "nome": "PN64281795",
+        "abreviatura": "Posto do Gás",
+        "endereco": "Rua Dezesseis C 1418, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 24,
+        "vel_limite": 60,
+        "latitude": -9.47647,
+        "longitude": -35.82088
+      },
+      {
+        "nome": "PN355275068",
+        "abreviatura": "Mata do Rolo",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 25,
+        "vel_limite": 60,
+        "latitude": -9.47418,
+        "longitude": -35.82186
+      },
+      {
+        "nome": "PN355275069",
+        "abreviatura": "Jarbas Oiticica",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 26,
+        "vel_limite": 60,
+        "latitude": -9.47212,
+        "longitude": -35.82259
+      },
+      {
+        "nome": "PN355275075",
+        "abreviatura": "Balducco",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 27,
+        "vel_limite": 60,
+        "latitude": -9.47257,
+        "longitude": -35.82282
+      },
+      {
+        "nome": "PN23267",
+        "abreviatura": "PN23267",
+        "endereco": "Avenida Teotônio Vilela 925, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 28,
+        "vel_limite": 60,
+        "latitude": -9.47456,
+        "longitude": -35.82273
+      },
+      {
+        "nome": "PN1777",
+        "abreviatura": "PN1777",
+        "endereco": "Av. Teotônio Viléla, 1159-1213 - Lot. Vila Rica, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 29,
+        "vel_limite": 60,
+        "latitude": -9.47783,
+        "longitude": -35.8333
+      },
+      {
+        "nome": "PN1803",
+        "abreviatura": "PN1803",
+        "endereco": "Av. Intendente Júlio Calheiros, 417-499 - Lot. Vila Rica, Rio Largo - AL, 57100-000,",
+        "ordem": 30,
+        "vel_limite": 60,
+        "latitude": -9.47788,
+        "longitude": -35.83708
+      },
+      {
+        "nome": "PN7539",
+        "abreviatura": "PN7539",
+        "endereco": "Avenida Teotônio Vilela 118, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 31,
+        "vel_limite": 60,
+        "latitude": -9.4787,
+        "longitude": -35.8387
+      },
+      {
+        "nome": "PN7540",
+        "abreviatura": "PN7540",
+        "endereco": "Avenida Teotônio Vilela 13, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 32,
+        "vel_limite": 60,
+        "latitude": -9.47959,
+        "longitude": -35.83979
+      },
+      {
+        "nome": "PN7541",
+        "abreviatura": "PN7541",
+        "endereco": "Avenida Teotônio Vilela, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 33,
+        "vel_limite": 60,
+        "latitude": -9.48171,
+        "longitude": -35.84177
+      },
+      {
+        "nome": "PN7542",
+        "abreviatura": "PN7542",
+        "endereco": "Avenida Teotônio Vilela, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 34,
+        "vel_limite": 60,
+        "latitude": -9.48498,
+        "longitude": -35.84742
+      },
+      {
+        "nome": "PN7543",
+        "abreviatura": "PN7543",
+        "endereco": "Rua São João, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 35,
+        "vel_limite": 60,
+        "latitude": -9.48691,
+        "longitude": -35.85262
+      },
+      {
+        "nome": "TS - Rio Largo",
+        "abreviatura": "TS - Rio Largo",
+        "endereco": "Avenida Vaz De Castro, Rio Largo - Alagoas, 57110, Brasil",
+        "ordem": 36,
+        "vel_limite": 60,
+        "latitude": -9.48504,
+        "longitude": -35.85759
+      },
+      {
+        "nome": "PN7545",
+        "abreviatura": "PN7545",
+        "endereco": "Rua Manoel Zacarias De Amorim 5722, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 37,
+        "vel_limite": 60,
+        "latitude": -9.48864,
+        "longitude": -35.85256
+      },
+      {
+        "nome": "PN7542",
+        "abreviatura": "PN7542",
+        "endereco": "Avenida Teotônio Vilela, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 38,
+        "vel_limite": 60,
+        "latitude": -9.48498,
+        "longitude": -35.84742
+      },
+      {
+        "nome": "PN7541",
+        "abreviatura": "PN7541",
+        "endereco": "Avenida Teotônio Vilela, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 39,
+        "vel_limite": 60,
+        "latitude": -9.48171,
+        "longitude": -35.84177
+      },
+      {
+        "nome": "PN7540",
+        "abreviatura": "PN7540",
+        "endereco": "Avenida Teotônio Vilela 13, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 40,
+        "vel_limite": 60,
+        "latitude": -9.47959,
+        "longitude": -35.83979
+      },
+      {
+        "nome": "PN7539",
+        "abreviatura": "PN7539",
+        "endereco": "Avenida Teotônio Vilela 118, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 41,
+        "vel_limite": 60,
+        "latitude": -9.4787,
+        "longitude": -35.8387
+      },
+      {
+        "nome": "PN7538",
+        "abreviatura": "PN7538",
+        "endereco": "Avenida Teotônio Vilela 4, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 42,
+        "vel_limite": 60,
+        "latitude": -9.47787,
+        "longitude": -35.83589
+      },
+      {
+        "nome": "PN1777",
+        "abreviatura": "PN1777",
+        "endereco": "Av. Teotônio Viléla, 1159-1213 - Lot. Vila Rica, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 43,
+        "vel_limite": 60,
+        "latitude": -9.47783,
+        "longitude": -35.8333
+      },
+      {
+        "nome": "PN23267",
+        "abreviatura": "PN23267",
+        "endereco": "Avenida Teotônio Vilela 925, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 44,
+        "vel_limite": 60,
+        "latitude": -9.47456,
+        "longitude": -35.82273
+      },
+      {
+        "nome": "PN64281781",
+        "abreviatura": "PN64281781",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 45,
+        "vel_limite": 60,
+        "latitude": -9.47631,
+        "longitude": -35.82124
+      },
+      {
+        "nome": "PN355275077",
+        "abreviatura": "PN355275077",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 46,
+        "vel_limite": 60,
+        "latitude": -9.47939,
+        "longitude": -35.82005
+      },
+      {
+        "nome": "PN355275078",
+        "abreviatura": "PN355275078",
+        "endereco": "Rodovia Br-104 1441, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 47,
+        "vel_limite": 60,
+        "latitude": -9.48496,
+        "longitude": -35.8177
+      },
+      {
+        "nome": "PN355275079",
+        "abreviatura": "PN355275079",
+        "endereco": "Rodovia Br-104 Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 48,
+        "vel_limite": 60,
+        "latitude": -9.48724,
+        "longitude": -35.81678
+      },
+      {
+        "nome": "PN64281782",
+        "abreviatura": "PN64281782",
+        "endereco": "BR-104, 2764 - Conj. Napoleao Viana, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 49,
+        "vel_limite": 60,
+        "latitude": -9.48958,
+        "longitude": -35.81581
+      },
+      {
+        "nome": "PN355275080",
+        "abreviatura": "PN355275080",
+        "endereco": "Rodovia Br-104 7398, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 50,
+        "vel_limite": 60,
+        "latitude": -9.49269,
+        "longitude": -35.81454
+      },
+      {
+        "nome": "PN64281783",
+        "abreviatura": "PN64281783",
+        "endereco": "BR-104 - Conj. Napoleao Viana, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 51,
+        "vel_limite": 60,
+        "latitude": -9.4972,
+        "longitude": -35.8127
+      },
+      {
+        "nome": "PN355275081",
+        "abreviatura": "PN355275081",
+        "endereco": "Rodovia Br-104 370, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 52,
+        "vel_limite": 60,
+        "latitude": -9.50084,
+        "longitude": -35.81124
+      },
+      {
+        "nome": "PN64281784",
+        "abreviatura": "PN64281784",
+        "endereco": "BR-104, 53 - Conj. Bandeirante, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 53,
+        "vel_limite": 60,
+        "latitude": -9.50415,
+        "longitude": -35.80988
+      },
+      {
+        "nome": "PN80895401",
+        "abreviatura": "PN80895401",
+        "endereco": "Rua José Monteiro De Melo 6188, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 54,
+        "vel_limite": 60,
+        "latitude": -9.50604,
+        "longitude": -35.8091
+      },
+      {
+        "nome": "PN355275082",
+        "abreviatura": "PN355275082",
+        "endereco": "Br-104 6142, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 55,
+        "vel_limite": 60,
+        "latitude": -9.50833,
+        "longitude": -35.80819
+      },
+      {
+        "nome": "PN355275083",
+        "abreviatura": "PN355275083",
+        "endereco": "Rua Niteroi 5910, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 56,
+        "vel_limite": 60,
+        "latitude": -9.50995,
+        "longitude": -35.80744
+      },
+      {
+        "nome": "PN64281787",
+        "abreviatura": "PN64281787",
+        "endereco": "BR-104, 46 - Conj. Bandeirante, Rio Largo - AL, 57100-000, Brasil",
+        "ordem": 57,
+        "vel_limite": 60,
+        "latitude": -9.51133,
+        "longitude": -35.80667
+      },
+      {
+        "nome": "PN355275084",
+        "abreviatura": "PN355275084",
+        "endereco": "Rua D 5486, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 58,
+        "vel_limite": 60,
+        "latitude": -9.51538,
+        "longitude": -35.80481
+      },
+      {
+        "nome": "PN56219732",
+        "abreviatura": "PN56219732",
+        "endereco": "Avenida Lourival Melo Mota Rio Largo - Alagoas, 57075-000, Brasil",
+        "ordem": 59,
+        "vel_limite": 60,
+        "latitude": -9.51798,
+        "longitude": -35.80347
+      },
+      {
+        "nome": "PN355275085",
+        "abreviatura": "PN355275085",
+        "endereco": "Avenida Lourival Melo Mota 591c, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 60,
+        "vel_limite": 60,
+        "latitude": -9.52228,
+        "longitude": -35.8014
+      },
+      {
+        "nome": "PN355275086",
+        "abreviatura": "PN355275086",
+        "endereco": "Avenida Lourival Melo Mota 5941, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 61,
+        "vel_limite": 60,
+        "latitude": -9.52544,
+        "longitude": -35.79989
+      },
+      {
+        "nome": "PN355275087",
+        "abreviatura": "PN355275087",
+        "endereco": "Rua S D 4620, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 62,
+        "vel_limite": 60,
+        "latitude": -9.52698,
+        "longitude": -35.79919
+      },
+      {
+        "nome": "PN355275088",
+        "abreviatura": "PN355275088",
+        "endereco": "Avenida Lourival Melo Mota 1248, Rio Largo - Alagoas, 57100-000, Brasil",
+        "ordem": 63,
+        "vel_limite": 60,
+        "latitude": -9.52851,
+        "longitude": -35.79837
+      },
+      {
+        "nome": "PN56219734",
+        "abreviatura": "PN56219734",
+        "endereco": "BR-104, 232",
+        "ordem": 64,
+        "vel_limite": 60,
+        "latitude": -9.53075,
+        "longitude": -35.79705
+      },
+      {
+        "nome": "PN438",
+        "abreviatura": "PN438",
+        "endereco": "BR-104, 66",
+        "ordem": 65,
+        "vel_limite": 60,
+        "latitude": -9.53822,
+        "longitude": -35.79272
+      },
+      {
+        "nome": "PN3211",
+        "abreviatura": "PN3211",
+        "endereco": "Av. Dr. Fábio Wanderley, 727-955 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 66,
+        "vel_limite": 60,
+        "latitude": -9.54417,
+        "longitude": -35.7883
+      },
+      {
+        "nome": "PN428",
+        "abreviatura": "PN428",
+        "endereco": "Avenida Doutor Fábio Wanderley, 608-654 - Cidade Universitária, Maceió - AL,",
+        "ordem": 67,
+        "vel_limite": 60,
+        "latitude": -9.54305,
+        "longitude": -35.78619
+      },
+      {
+        "nome": "PN429",
+        "abreviatura": "PN429",
+        "endereco": "Av. Dr. Fábio Wanderley, 448-486 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 68,
+        "vel_limite": 60,
+        "latitude": -9.54235,
+        "longitude": -35.78485
+      }
+    ]
+  },
+  {
+    "codigo": "0036",
+    "linha": "Dubeaux Leao / Centro",
+    "nome_ida": "Dubeaux Leão X Centro",
+    "nome_volta": "Dubeaux Leão X Centro",
+    "pontos": [
+      {
+        "nome": "Terminal Dubeaux Leão",
+        "abreviatura": "Terminal Dubeaux Leão",
+        "endereco": "Avenida Josué Alves Marques 47, Tabuleiro do Martins, Maceió - Alagoas,",
+        "ordem": 1,
+        "vel_limite": 60,
+        "latitude": -9.57043,
+        "longitude": -35.75444
+      },
+      {
+        "nome": "Terminal Cleto Marques",
+        "abreviatura": "TP",
+        "endereco": "Avenida Betel, 1297-1315 - Tabuleiro do Martins, Maceió - AL, República Federativa",
+        "ordem": 2,
+        "vel_limite": 60,
+        "latitude": -9.57073,
+        "longitude": -35.75478
+      },
+      {
+        "nome": "PN180",
+        "abreviatura": "PN180",
+        "endereco": "Avenida Osvaldo Ramos, 58-60 - Tabuleiro do Martins, Maceió - AL, 57082-820,",
+        "ordem": 3,
+        "vel_limite": 60,
+        "latitude": -9.57075,
+        "longitude": -35.75665
+      },
+      {
+        "nome": "PN181",
+        "abreviatura": "PN181",
+        "endereco": "Avenida Osvaldo Ramos, 62-66 - Tabuleiro do Martins, Maceió - AL, 57082-820,",
+        "ordem": 4,
+        "vel_limite": 60,
+        "latitude": -9.57015,
+        "longitude": -35.75706
+      },
+      {
+        "nome": "PN18211",
+        "abreviatura": "PN18211",
+        "endereco": "Rua Santana, 1724-1776 - Tabuleiro do Martins, Maceió - AL, República Federativa",
+        "ordem": 5,
+        "vel_limite": 60,
+        "latitude": -9.56898,
+        "longitude": -35.75573
+      },
+      {
+        "nome": "PN2911",
+        "abreviatura": "PN2911",
+        "endereco": "Rua Ver. Dário Marsiglia, 1777-1937",
+        "ordem": 6,
+        "vel_limite": 60,
+        "latitude": -9.56796,
+        "longitude": -35.75454
+      },
+      {
+        "nome": "PN2811",
+        "abreviatura": "PN2811",
+        "endereco": "R. Cel. Pedro Pierre Braga, 55-115 - Tabuleiro do Martins, Maceió - AL, 57081-150,",
+        "ordem": 7,
+        "vel_limite": 60,
+        "latitude": -9.56925,
+        "longitude": -35.75236
+      },
+      {
+        "nome": "PP29",
+        "abreviatura": "PP29",
+        "endereco": "Estr. Des. Carlos de Gusmão, 314-342 - Santa Lúcia, Maceió - AL, Brazil",
+        "ordem": 8,
+        "vel_limite": 60,
+        "latitude": -9.56874,
+        "longitude": -35.74888
+      },
+      {
+        "nome": "PN7622",
+        "abreviatura": "PN7622",
+        "endereco": "Estr. Des. Carlos de Gusmão, 576-690 - Santa Lúcia, Maceió - AL, 57082-300,",
+        "ordem": 9,
+        "vel_limite": 60,
+        "latitude": -9.56603,
+        "longitude": -35.74744
+      },
+      {
+        "nome": "Estrada Desembargador",
+        "abreviatura": "CarlEoss tdraed Ga uDsemsãeom, b8a3r8g-a9d7o4r",
+        "endereco": "-C SaRarlnuotasa DdLeúsceiam, bMaarcgeaidóo -r ACLa,r lBorsa Dsiel Gusmão 86, Antares, Maceió - Alagoas, 57085,",
+        "ordem": 10,
+        "vel_limite": 60,
+        "latitude": -9.5639,
+        "longitude": -35.74617
+      },
+      {
+        "nome": "PN98",
+        "abreviatura": "PN98",
+        "endereco": "Avenida Menino Marcelo, 6375-6437 - Barro Duro, Maceió - AL, Brasil",
+        "ordem": 11,
+        "vel_limite": 60,
+        "latitude": -9.56625,
+        "longitude": -35.74418
+      },
+      {
+        "nome": "PN1042",
+        "abreviatura": "PN1042",
+        "endereco": "Avenida Menino Marcelo, 6007-6215 - Barro Duro, Maceió - AL, Brasil",
+        "ordem": 12,
+        "vel_limite": 60,
+        "latitude": -9.56804,
+        "longitude": -35.74344
+      },
+      {
+        "nome": "PN99",
+        "abreviatura": "PN99",
+        "endereco": "Avenida Menino Marcelo, 5713-5763 - Barro Duro, Maceió - AL, Brasil",
+        "ordem": 13,
+        "vel_limite": 60,
+        "latitude": -9.57136,
+        "longitude": -35.74127
+      },
+      {
+        "nome": "PN100",
+        "abreviatura": "PN100",
+        "endereco": "R. Treze, 294-348 - Antares, Maceió - AL, Brasil",
+        "ordem": 14,
+        "vel_limite": 60,
+        "latitude": -9.57355,
+        "longitude": -35.7425
+      },
+      {
+        "nome": "PN101",
+        "abreviatura": "PN101",
+        "endereco": "Rua 13, 404-748 - Antares, Maceió - AL, República Federativa do Brasil",
+        "ordem": 15,
+        "vel_limite": 60,
+        "latitude": -9.57443,
+        "longitude": -35.74617
+      },
+      {
+        "nome": "PN592",
+        "abreviatura": "PN592",
+        "endereco": "Rua Nossa Senhora Aparecida, 58 - Santa Lúcia, Maceió - AL, 57081-480, Brasil",
+        "ordem": 16,
+        "vel_limite": 60,
+        "latitude": -9.57433,
+        "longitude": -35.74762
+      },
+      {
+        "nome": "PN113",
+        "abreviatura": "PN113",
+        "endereco": "Rua Nossa Senhora Aparecida, 300-412 - Santa Lúcia, Maceió - AL, 57081-480,",
+        "ordem": 17,
+        "vel_limite": 60,
+        "latitude": -9.5749,
+        "longitude": -35.7501
+      },
+      {
+        "nome": "PN102",
+        "abreviatura": "PN102",
+        "endereco": "Avenida Belmiro Amorim, 1653-1719 - Santa Lúcia, Maceió - AL, Brasil",
+        "ordem": 18,
+        "vel_limite": 60,
+        "latitude": -9.57618,
+        "longitude": -35.75122
+      },
+      {
+        "nome": "PN103",
+        "abreviatura": "PN103",
+        "endereco": "Avenida Belmiro Amorim, 1381-1447 - Santa Lúcia, Maceió - AL, Brasil",
+        "ordem": 19,
+        "vel_limite": 60,
+        "latitude": -9.57725,
+        "longitude": -35.75324
+      },
+      {
+        "nome": "PN104",
+        "abreviatura": "PN104",
+        "endereco": "Rua Belmiro Amorim, 1101-1165 - Santa Lúcia, Maceió - AL, República Federativa",
+        "ordem": 20,
+        "vel_limite": 60,
+        "latitude": -9.57857,
+        "longitude": -35.75587
+      },
+      {
+        "nome": "PN105",
+        "abreviatura": "PN105",
+        "endereco": "R. Belmiro Amorim, 883-957 - Santa Lúcia, Maceió - AL, Brasil",
+        "ordem": 21,
+        "vel_limite": 60,
+        "latitude": -9.57949,
+        "longitude": -35.75763
+      },
+      {
+        "nome": "PN106",
+        "abreviatura": "PN106",
+        "endereco": "Avenida Belmiro Amorim, 569-663 - Santa Lúcia, Maceió - AL, Brasil",
+        "ordem": 22,
+        "vel_limite": 60,
+        "latitude": -9.58115,
+        "longitude": -35.76011
+      },
+      {
+        "nome": "PN578",
+        "abreviatura": "PN578",
+        "endereco": "Avenida Belmiro Amorim, 367-433 - Santa Lúcia, Maceió - AL, Brasil",
+        "ordem": 23,
+        "vel_limite": 60,
+        "latitude": -9.58215,
+        "longitude": -35.76149
+      },
+      {
+        "nome": "PN197",
+        "abreviatura": "PN197",
+        "endereco": "Rua Fernando Barros, 214-332 - Santa Lúcia, Maceió - AL, República Federativa do",
+        "ordem": 24,
+        "vel_limite": 60,
+        "latitude": -9.58309,
+        "longitude": -35.76117
+      },
+      {
+        "nome": "PN1983",
+        "abreviatura": "PN1983",
+        "endereco": "R. Acaraú, 409-545, Maceió - AL, 57082-220, Brazil",
+        "ordem": 25,
+        "vel_limite": 60,
+        "latitude": -9.58495,
+        "longitude": -35.75954
+      },
+      {
+        "nome": "PN200e",
+        "abreviatura": "PN200e",
+        "endereco": "Rua José Hermes Damasceno, 575-649 - Santa Lúcia, Maceió - AL, 57082-010,",
+        "ordem": 26,
+        "vel_limite": 60,
+        "latitude": -9.58673,
+        "longitude": -35.75775
+      },
+      {
+        "nome": "PN1955",
+        "abreviatura": "PN1955",
+        "endereco": "BR-104, 1741-2455 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 27,
+        "vel_limite": 60,
+        "latitude": -9.58842,
+        "longitude": -35.76172
+      },
+      {
+        "nome": "PN20",
+        "abreviatura": "PN20",
+        "endereco": "Brasil Gás - Tabuleiro do Martins",
+        "ordem": 28,
+        "vel_limite": 60,
+        "latitude": -9.59071,
+        "longitude": -35.75965
+      },
+      {
+        "nome": "PN2144",
+        "abreviatura": "PN2144",
+        "endereco": "Avenida Durval de Góes Monteiro, 1238-1740 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 29,
+        "vel_limite": 60,
+        "latitude": -9.59198,
+        "longitude": -35.75734
+      },
+      {
+        "nome": "PN87711862",
+        "abreviatura": "PN87711862",
+        "endereco": "Av. Durval de Góes Monteiro, 1237-1739 - Jardim Petropolis, Maceió - AL, Brasil",
+        "ordem": 30,
+        "vel_limite": 60,
+        "latitude": -9.59293,
+        "longitude": -35.75571
+      },
+      {
+        "nome": "PN2277",
+        "abreviatura": "PN2277",
+        "endereco": "Faculdade Raimundo Marinho - Tabuleiro do Martins",
+        "ordem": 31,
+        "vel_limite": 60,
+        "latitude": -9.59448,
+        "longitude": -35.75307
+      },
+      {
+        "nome": "PN2344",
+        "abreviatura": "PN2344",
+        "endereco": "BR-104, 2-344 - Tabuleiro do Martins, Maceió - AL, República Federativa do Brasil",
+        "ordem": 32,
+        "vel_limite": 60,
+        "latitude": -9.60077,
+        "longitude": -35.74872
+      },
+      {
+        "nome": "PN2477",
+        "abreviatura": "PN2477",
+        "endereco": "Avenida Fernandes Lima, 10730",
+        "ordem": 33,
+        "vel_limite": 60,
+        "latitude": -9.60415,
+        "longitude": -35.74448
+      },
+      {
+        "nome": "PN2577",
+        "abreviatura": "PN2577",
+        "endereco": "Ponte do Canaã - Gruta de Lourdes",
+        "ordem": 34,
+        "vel_limite": 60,
+        "latitude": -9.60772,
+        "longitude": -35.74073
+      },
+      {
+        "nome": "PN2677",
+        "abreviatura": "PN2677",
+        "endereco": "BR-104, 10175-10275 - Gruta de Lourdes, Maceió - AL, República Federativa do",
+        "ordem": 35,
+        "vel_limite": 60,
+        "latitude": -9.60988,
+        "longitude": -35.74039
+      },
+      {
+        "nome": "PN2788",
+        "abreviatura": "PN2788",
+        "endereco": "IBAMA - Gruta de Lourdes",
+        "ordem": 36,
+        "vel_limite": 60,
+        "latitude": -9.61452,
+        "longitude": -35.73983
+      },
+      {
+        "nome": "PN2855",
+        "abreviatura": "PN2855",
+        "endereco": "Eletrobras - Gruta de Lourdes",
+        "ordem": 37,
+        "vel_limite": 60,
+        "latitude": -9.6192,
+        "longitude": -35.73928
+      },
+      {
+        "nome": "PN2988",
+        "abreviatura": "PN2988",
+        "endereco": "Casa Vieira - Gruta de Lourdes",
+        "ordem": 38,
+        "vel_limite": 60,
+        "latitude": -9.6264,
+        "longitude": -35.73828
+      },
+      {
+        "nome": "PN3088",
+        "abreviatura": "PN3088",
+        "endereco": "Sindicato da Ind. e da Construção Civil - Gruta de Lourdes",
+        "ordem": 39,
+        "vel_limite": 60,
+        "latitude": -9.63337,
+        "longitude": -35.73688
+      },
+      {
+        "nome": "PN3188",
+        "abreviatura": "PN3188",
+        "endereco": "CEPA - Gruta de Lourdes",
+        "ordem": 40,
+        "vel_limite": 60,
+        "latitude": -9.63875,
+        "longitude": -35.73582
+      },
+      {
+        "nome": "PN3288",
+        "abreviatura": "PN3288",
+        "endereco": "Instituro Zumbi dos Palmares - Gruta de Lourdes, Maceió - AL, Brasil",
+        "ordem": 41,
+        "vel_limite": 60,
+        "latitude": -9.64066,
+        "longitude": -35.73545
+      },
+      {
+        "nome": "PN3388",
+        "abreviatura": "PN3388",
+        "endereco": "Avenida Fernandes Lima, 6193",
+        "ordem": 42,
+        "vel_limite": 60,
+        "latitude": -9.64582,
+        "longitude": -35.73445
+      },
+      {
+        "nome": "PN347",
+        "abreviatura": "PN347",
+        "endereco": "Avenida Fernandes Lima, 5827-5969 - Gruta de Lourdes, Maceió - AL, Brazil",
+        "ordem": 43,
+        "vel_limite": 60,
+        "latitude": -9.64901,
+        "longitude": -35.73381
+      },
+      {
+        "nome": "PN35",
+        "abreviatura": "PN35",
+        "endereco": "Praça Centenária - Farol",
+        "ordem": 44,
+        "vel_limite": 60,
+        "latitude": -9.65229,
+        "longitude": -35.73379
+      },
+      {
+        "nome": "PN79",
+        "abreviatura": "PN79",
+        "endereco": "Ladeira dos Martírios - Farol",
+        "ordem": 45,
+        "vel_limite": 60,
+        "latitude": -9.65869,
+        "longitude": -35.73623
+      },
+      {
+        "nome": "TS Dubeax Leão",
+        "abreviatura": "TS Dubeax Leão",
+        "endereco": "R. do Comércio - P5 - Centro",
+        "ordem": 46,
+        "vel_limite": 60,
+        "latitude": -9.6621,
+        "longitude": -35.73824
+      },
+      {
+        "nome": "PN81",
+        "abreviatura": "PN81",
+        "endereco": "Ladeira do Brito, 219-221 - Farol, Maceió - AL, 57051-165, Brasil",
+        "ordem": 47,
+        "vel_limite": 60,
+        "latitude": -9.66123,
+        "longitude": -35.73551
+      },
+      {
+        "nome": "PN55",
+        "abreviatura": "PN55",
+        "endereco": "Av. Tomás Espíndola, 55-171 - Farol, Maceió - AL, Brasil",
+        "ordem": 48,
+        "vel_limite": 60,
+        "latitude": -9.65753,
+        "longitude": -35.73336
+      },
+      {
+        "nome": "PN56",
+        "abreviatura": "PN56",
+        "endereco": "Av. Tomás Espíndola, 363-399 - Farol, Maceió - AL, Brasil",
+        "ordem": 49,
+        "vel_limite": 60,
+        "latitude": -9.65484,
+        "longitude": -35.73315
+      },
+      {
+        "nome": "PN571",
+        "abreviatura": "PN571",
+        "endereco": "Praça Centenária - Farol",
+        "ordem": 50,
+        "vel_limite": 60,
+        "latitude": -9.65259,
+        "longitude": -35.7331
+      },
+      {
+        "nome": "PN58",
+        "abreviatura": "PN58",
+        "endereco": "BR-104, 5219-5361 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 51,
+        "vel_limite": 60,
+        "latitude": -9.64768,
+        "longitude": -35.73377
+      },
+      {
+        "nome": "PN59",
+        "abreviatura": "PN59",
+        "endereco": "",
+        "ordem": 52,
+        "vel_limite": 60,
+        "latitude": -9.64461,
+        "longitude": -35.73442
+      },
+      {
+        "nome": "PN389",
+        "abreviatura": "PN389",
+        "endereco": "BR-104, 4263-4375 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 53,
+        "vel_limite": 55,
+        "latitude": -9.6387,
+        "longitude": -35.73558
+      },
+      {
+        "nome": "PN61",
+        "abreviatura": "PN61",
+        "endereco": "Av. Fernandes Lima, 3531-3715 - Gruta de Lourdes, Maceió - AL, Brasil",
+        "ordem": 54,
+        "vel_limite": 60,
+        "latitude": -9.63191,
+        "longitude": -35.7369
+      },
+      {
+        "nome": "PN6233",
+        "abreviatura": "PN6233",
+        "endereco": "BR-104, 3085-3199 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 55,
+        "vel_limite": 60,
+        "latitude": -9.6278,
+        "longitude": -35.73777
+      },
+      {
+        "nome": "PN6321",
+        "abreviatura": "PN6321",
+        "endereco": "Hospital do Açúcar - Gruta de Lourdes",
+        "ordem": 56,
+        "vel_limite": 60,
+        "latitude": -9.62463,
+        "longitude": -35.73838
+      },
+      {
+        "nome": "PN6422",
+        "abreviatura": "PN6422",
+        "endereco": "BR-104, 2029-2313 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 57,
+        "vel_limite": 60,
+        "latitude": -9.61872,
+        "longitude": -35.7391
+      },
+      {
+        "nome": "PN6533",
+        "abreviatura": "PN6533",
+        "endereco": "Hiper Bompreço - Gruta de Lourdes",
+        "ordem": 58,
+        "vel_limite": 60,
+        "latitude": -9.61463,
+        "longitude": -35.7396
+      },
+      {
+        "nome": "PN6633",
+        "abreviatura": "PN6633",
+        "endereco": "Avenida Fernandes Lima, 1145",
+        "ordem": 59,
+        "vel_limite": 60,
+        "latitude": -9.60985,
+        "longitude": -35.74014
+      },
+      {
+        "nome": "PN6733",
+        "abreviatura": "PN6733",
+        "endereco": "Av. Fernandes Lima, 809-903 - Gruta de Lourdes, Maceió - AL, Brasil",
+        "ordem": 60,
+        "vel_limite": 60,
+        "latitude": -9.6067,
+        "longitude": -35.74087
+      },
+      {
+        "nome": "PN6833",
+        "abreviatura": "PN6833",
+        "endereco": "BR-104, 223-385 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 61,
+        "vel_limite": 60,
+        "latitude": -9.60367,
+        "longitude": -35.74517
+      },
+      {
+        "nome": "PN6933",
+        "abreviatura": "PN6933",
+        "endereco": "Avenida Durval de Góes Monteiro, 10147-10213 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 62,
+        "vel_limite": 60,
+        "latitude": -9.60103,
+        "longitude": -35.74835
+      },
+      {
+        "nome": "PN7022",
+        "abreviatura": "PN7022",
+        "endereco": "Tupan - Tabuleiro do Martins",
+        "ordem": 63,
+        "vel_limite": 60,
+        "latitude": -9.59456,
+        "longitude": -35.75251
+      },
+      {
+        "nome": "PN7122",
+        "abreviatura": "PN7122",
+        "endereco": "Avenida Durval de Góes Monteiro, 8974-9488 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 64,
+        "vel_limite": 60,
+        "latitude": -9.59314,
+        "longitude": -35.75489
+      },
+      {
+        "nome": "PN10733",
+        "abreviatura": "PN10733",
+        "endereco": "BR-104, 8813-8845 - Tabuleiro do Martins, Maceió - AL, República Federativa do",
+        "ordem": 65,
+        "vel_limite": 60,
+        "latitude": -9.59197,
+        "longitude": -35.75685
+      },
+      {
+        "nome": "PN2043",
+        "abreviatura": "PN2043",
+        "endereco": "Rua José Hermes Damasceno, 204-280 - Santa Lúcia, Maceió - AL, 57082-010,",
+        "ordem": 66,
+        "vel_limite": 60,
+        "latitude": -9.58878,
+        "longitude": -35.75872
+      },
+      {
+        "nome": "PN2053",
+        "abreviatura": "PN2053",
+        "endereco": "Rua José Hermes Damasceno, 504-574",
+        "ordem": 67,
+        "vel_limite": 60,
+        "latitude": -9.58698,
+        "longitude": -35.75779
+      },
+      {
+        "nome": "PN2063",
+        "abreviatura": "PN2063",
+        "endereco": "R. Acaraú, 410-546, Maceió - AL, 57082-220, Brazil",
+        "ordem": 68,
+        "vel_limite": 60,
+        "latitude": -9.58484,
+        "longitude": -35.75955
+      },
+      {
+        "nome": "71159382",
+        "abreviatura": "71159382",
+        "endereco": "R. Marquês de Tamandaré, 335-433 - Santa Lúcia, Maceió - AL, 57082-090, Brasil",
+        "ordem": 69,
+        "vel_limite": 60,
+        "latitude": -9.58314,
+        "longitude": -35.76077
+      },
+      {
+        "nome": "71159383",
+        "abreviatura": "71159383",
+        "endereco": "R. Marquês de Tamandaré, 79-137 - Santa Lúcia, Maceió - AL, 57082-090, Brasil",
+        "ordem": 70,
+        "vel_limite": 60,
+        "latitude": -9.58136,
+        "longitude": -35.75849
+      },
+      {
+        "nome": "71159384",
+        "abreviatura": "71159384",
+        "endereco": "",
+        "ordem": 71,
+        "vel_limite": 60,
+        "latitude": -9.58011,
+        "longitude": -35.75652
+      },
+      {
+        "nome": "71159385",
+        "abreviatura": "71159385",
+        "endereco": "",
+        "ordem": 72,
+        "vel_limite": 60,
+        "latitude": -9.57893,
+        "longitude": -35.75417
+      },
+      {
+        "nome": "71159386",
+        "abreviatura": "71159386",
+        "endereco": "",
+        "ordem": 73,
+        "vel_limite": 60,
+        "latitude": -9.57743,
+        "longitude": -35.7513
+      },
+      {
+        "nome": "PN603",
+        "abreviatura": "PN603",
+        "endereco": "R. Nossa Sra. Aparecida, 1-13, Maceió - AL, 57081-480, Brasil",
+        "ordem": 74,
+        "vel_limite": 60,
+        "latitude": -9.57434,
+        "longitude": -35.74725
+      },
+      {
+        "nome": "PN115",
+        "abreviatura": "PN115",
+        "endereco": "Rua 13, 748",
+        "ordem": 75,
+        "vel_limite": 60,
+        "latitude": -9.57444,
+        "longitude": -35.74601
+      },
+      {
+        "nome": "PP32",
+        "abreviatura": "PP32",
+        "endereco": "R. Treze, 349-401 - Antares, Maceió - AL, Brasil",
+        "ordem": 76,
+        "vel_limite": 60,
+        "latitude": -9.57373,
+        "longitude": -35.74302
+      },
+      {
+        "nome": "PN116",
+        "abreviatura": "PN116",
+        "endereco": "Rua 13, 111-169 - Antares, Maceió - AL, República Federativa do Brasil",
+        "ordem": 77,
+        "vel_limite": 60,
+        "latitude": -9.57325,
+        "longitude": -35.74093
+      },
+      {
+        "nome": "PN117",
+        "abreviatura": "PN117",
+        "endereco": "Avenida Menino Marcelo, 5766-5848 - Barro Duro, Maceió - AL, 57081-385, Brasil",
+        "ordem": 78,
+        "vel_limite": 60,
+        "latitude": -9.57078,
+        "longitude": -35.74168
+      },
+      {
+        "nome": "PN118",
+        "abreviatura": "PN118",
+        "endereco": "Avenida Menino Marcelo, 6008-6216 - Barro Duro, Maceió - AL, 57081-385, Brasil",
+        "ordem": 79,
+        "vel_limite": 60,
+        "latitude": -9.56824,
+        "longitude": -35.74323
+      },
+      {
+        "nome": "PN119",
+        "abreviatura": "PN119",
+        "endereco": "BR-316, 6440-6562 - Barro Duro, Maceió - AL, 57081-385, República Federativa do",
+        "ordem": 80,
+        "vel_limite": 60,
+        "latitude": -9.56538,
+        "longitude": -35.74446
+      },
+      {
+        "nome": "Rotatoria Shopping Patio",
+        "abreviatura": "Shop",
+        "endereco": "Avenida Menino Marcelo 3800, Antares, Maceió - Alagoas, 57073-470, Brasil",
+        "ordem": 81,
+        "vel_limite": 60,
+        "latitude": -9.56201,
+        "longitude": -35.74547
+      },
+      {
+        "nome": "PP57",
+        "abreviatura": "PP57",
+        "endereco": "Estr. Des. Carlos de Gusmão, 691-779 - Santa Lúcia, Maceió - AL, 57082-300,",
+        "ordem": 82,
+        "vel_limite": 60,
+        "latitude": -9.56529,
+        "longitude": -35.74713
+      }
+    ]
+  },
+  {
+    "codigo": "0065",
+    "linha": "Rosane Collor / Centro",
+    "nome_ida": "Rosane Collor / Centro (Via Colina - Farol)",
+    "nome_volta": "",
+    "pontos": [
+      {
+        "nome": "TP. ROSANE COLLOR",
+        "abreviatura": "Ter.R.Coll",
+        "endereco": "Terminal Rosane Collor - Clima Bom",
+        "ordem": 1,
+        "vel_limite": 65,
+        "latitude": -9.57735,
+        "longitude": -35.7884
+      },
+      {
+        "nome": "PN688",
+        "abreviatura": "PN688",
+        "endereco": "R. Dra. Nadja, 350-412 - Clima Bom, Maceió - AL, 57071-096, Brasil",
+        "ordem": 2,
+        "vel_limite": 65,
+        "latitude": -9.57622,
+        "longitude": -35.78827
+      },
+      {
+        "nome": "ROSANE COLLOR-11",
+        "abreviatura": "R.COLLOR11",
+        "endereco": "R. Cel. Valfrido Rocha, 412 - Clima Bom, Maceió - AL, 57071-070, Brasil",
+        "ordem": 3,
+        "vel_limite": 65,
+        "latitude": -9.57577,
+        "longitude": -35.78589
+      },
+      {
+        "nome": "ROSANE COLLOR-3",
+        "abreviatura": "R.COLLOR03",
+        "endereco": "R. Cel. Valfrido Rocha, 126-132 - Clima Bom, Maceió - AL, 57071-070, Brasil",
+        "ordem": 4,
+        "vel_limite": 65,
+        "latitude": -9.57605,
+        "longitude": -35.78387
+      },
+      {
+        "nome": "PN612",
+        "abreviatura": "PN612",
+        "endereco": "R. Cel. Valfrido Rocha, 48 - Clima Bom, Maceió - AL, 57071-070, Brasil",
+        "ordem": 5,
+        "vel_limite": 65,
+        "latitude": -9.57641,
+        "longitude": -35.78122
+      },
+      {
+        "nome": "CL007",
+        "abreviatura": "CL007",
+        "endereco": "Av. A, 77 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 6,
+        "vel_limite": 65,
+        "latitude": -9.57809,
+        "longitude": -35.77849
+      },
+      {
+        "nome": "TP - OSMAN LOUREIRO",
+        "abreviatura": "TP OSMAN LOUREIRO",
+        "endereco": "Av. B, 261-309 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 7,
+        "vel_limite": 60,
+        "latitude": -9.57934,
+        "longitude": -35.7781
+      },
+      {
+        "nome": "PN600",
+        "abreviatura": "PN600",
+        "endereco": "Avenida C, 111-161 - Clima Bom, Maceió - AL, República Federativa do Brasil",
+        "ordem": 8,
+        "vel_limite": 65,
+        "latitude": -9.58047,
+        "longitude": -35.77835
+      },
+      {
+        "nome": "PN607",
+        "abreviatura": "PN607",
+        "endereco": "R. Dezenove, 29 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 9,
+        "vel_limite": 65,
+        "latitude": -9.58217,
+        "longitude": -35.77908
+      },
+      {
+        "nome": "PN603",
+        "abreviatura": "PN603",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 384-446 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 10,
+        "vel_limite": 65,
+        "latitude": -9.58411,
+        "longitude": -35.77649
+      },
+      {
+        "nome": "3000125",
+        "abreviatura": "3000125",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 502-744 - Santa Amelia, Maceió - AL,",
+        "ordem": 11,
+        "vel_limite": 65,
+        "latitude": -9.58477,
+        "longitude": -35.7773
+      },
+      {
+        "nome": "3000127",
+        "abreviatura": "3000127",
+        "endereco": "R. Empresário Jorge Montenegro Barros, 4255-4323 - Santa Amelia, Maceió - AL,",
+        "ordem": 12,
+        "vel_limite": 68,
+        "latitude": -9.58647,
+        "longitude": -35.77833
+      },
+      {
+        "nome": "3000128",
+        "abreviatura": "3000128",
+        "endereco": "R. Est. Arnoumar Chagas, 2-68 - Santa Amelia, Maceió - AL, 57063-430, Brasil",
+        "ordem": 13,
+        "vel_limite": 65,
+        "latitude": -9.58831,
+        "longitude": -35.77659
+      },
+      {
+        "nome": "3000129",
+        "abreviatura": "3000129",
+        "endereco": "R. Est. Arnoumar Chagas, 214-264 - Santa Amelia, Maceió - AL, 57063-430, Brasil",
+        "ordem": 14,
+        "vel_limite": 65,
+        "latitude": -9.58699,
+        "longitude": -35.77549
+      },
+      {
+        "nome": "TP COLINA",
+        "abreviatura": "TP COLINA",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 186-260 - Santa Amelia, Maceió - AL, Brazil",
+        "ordem": 15,
+        "vel_limite": 65,
+        "latitude": -9.58528,
+        "longitude": -35.77491
+      },
+      {
+        "nome": "CL0010",
+        "abreviatura": "CL0010",
+        "endereco": "R. Sete de Setembro, 341 - Tabuleiro do Martins, Maceió - AL, 57061-140, Brasil",
+        "ordem": 16,
+        "vel_limite": 65,
+        "latitude": -9.57999,
+        "longitude": -35.77298
+      },
+      {
+        "nome": "CL0011",
+        "abreviatura": "CL0011",
+        "endereco": "R. Sete de Setembro, 143 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 17,
+        "vel_limite": 65,
+        "latitude": -9.57853,
+        "longitude": -35.77162
+      },
+      {
+        "nome": "010012",
+        "abreviatura": "020012",
+        "endereco": "Av. Durval de Góes Monteiro, 3145-3755 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 18,
+        "vel_limite": 65,
+        "latitude": -9.57783,
+        "longitude": -35.76968
+      },
+      {
+        "nome": "010013",
+        "abreviatura": "010013",
+        "endereco": "Avenida Durval de Góes Monteiro, 3145-3755 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 19,
+        "vel_limite": 65,
+        "latitude": -9.58019,
+        "longitude": -35.76786
+      },
+      {
+        "nome": "CL0014",
+        "abreviatura": "CL0014",
+        "endereco": "SMTT - Tabuleiro do Martins",
+        "ordem": 20,
+        "vel_limite": 70,
+        "latitude": -9.58248,
+        "longitude": -35.76616
+      },
+      {
+        "nome": "CL0015",
+        "abreviatura": "CL0015",
+        "endereco": "Posto Eucaliptos - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 21,
+        "vel_limite": 70,
+        "latitude": -9.58594,
+        "longitude": -35.76365
+      },
+      {
+        "nome": "PN49101486",
+        "abreviatura": "PN49101486",
+        "endereco": "BR-104, 1741-2455 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 22,
+        "vel_limite": 70,
+        "latitude": -9.58842,
+        "longitude": -35.76172
+      },
+      {
+        "nome": "PN49101487",
+        "abreviatura": "PN49101487",
+        "endereco": "Brasil Gás - Tabuleiro do Martins",
+        "ordem": 23,
+        "vel_limite": 70,
+        "latitude": -9.59071,
+        "longitude": -35.75965
+      },
+      {
+        "nome": "PN49101488",
+        "abreviatura": "PN49101488",
+        "endereco": "Avenida Durval de Góes Monteiro, 1238-1740 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 24,
+        "vel_limite": 70,
+        "latitude": -9.59198,
+        "longitude": -35.75734
+      },
+      {
+        "nome": "PN87711862",
+        "abreviatura": "PN87711862",
+        "endereco": "Av. Durval de Góes Monteiro, 1237-1739 - Jardim Petropolis, Maceió - AL, Brasil",
+        "ordem": 25,
+        "vel_limite": 65,
+        "latitude": -9.59293,
+        "longitude": -35.75571
+      },
+      {
+        "nome": "PN49101489",
+        "abreviatura": "PN49101489",
+        "endereco": "Faculdade Raimundo Marinho - Tabuleiro do Martins",
+        "ordem": 26,
+        "vel_limite": 72,
+        "latitude": -9.59448,
+        "longitude": -35.75307
+      },
+      {
+        "nome": "PN49101490",
+        "abreviatura": "PN49101490",
+        "endereco": "BR-104, 2-344 - Tabuleiro do Martins, Maceió - AL, República Federativa do Brasil",
+        "ordem": 27,
+        "vel_limite": 75,
+        "latitude": -9.60077,
+        "longitude": -35.74872
+      },
+      {
+        "nome": "PN49101491",
+        "abreviatura": "PN49101491",
+        "endereco": "Avenida Fernandes Lima, 10730",
+        "ordem": 28,
+        "vel_limite": 75,
+        "latitude": -9.60415,
+        "longitude": -35.74448
+      },
+      {
+        "nome": "PN49101492",
+        "abreviatura": "PN49101492",
+        "endereco": "Ponte do Canaã - Gruta de Lourdes",
+        "ordem": 29,
+        "vel_limite": 72,
+        "latitude": -9.60772,
+        "longitude": -35.74073
+      },
+      {
+        "nome": "PN49101493",
+        "abreviatura": "PN49101493",
+        "endereco": "BR-104, 10175-10275 - Gruta de Lourdes, Maceió - AL, República Federativa do",
+        "ordem": 30,
+        "vel_limite": 75,
+        "latitude": -9.60988,
+        "longitude": -35.74039
+      },
+      {
+        "nome": "PN26",
+        "abreviatura": "PN26",
+        "endereco": "IBAMA - Gruta de Lourdes",
+        "ordem": 31,
+        "vel_limite": 75,
+        "latitude": -9.61452,
+        "longitude": -35.73983
+      },
+      {
+        "nome": "PN27",
+        "abreviatura": "PN27",
+        "endereco": "Eletrobras - Gruta de Lourdes",
+        "ordem": 32,
+        "vel_limite": 70,
+        "latitude": -9.6192,
+        "longitude": -35.73928
+      },
+      {
+        "nome": "PN28",
+        "abreviatura": "PN28",
+        "endereco": "Casa Vieira - Gruta de Lourdes",
+        "ordem": 33,
+        "vel_limite": 70,
+        "latitude": -9.6264,
+        "longitude": -35.73828
+      },
+      {
+        "nome": "PN29",
+        "abreviatura": "PN29",
+        "endereco": "Sindicato da Ind. e da Construção Civil - Gruta de Lourdes",
+        "ordem": 34,
+        "vel_limite": 70,
+        "latitude": -9.63337,
+        "longitude": -35.73688
+      },
+      {
+        "nome": "PN30",
+        "abreviatura": "PN30",
+        "endereco": "CEPA - Gruta de Lourdes",
+        "ordem": 35,
+        "vel_limite": 60,
+        "latitude": -9.63875,
+        "longitude": -35.73582
+      },
+      {
+        "nome": "PN31",
+        "abreviatura": "PN31",
+        "endereco": "Instituro Zumbi dos Palmares - Gruta de Lourdes, Maceió - AL, Brasil",
+        "ordem": 36,
+        "vel_limite": 60,
+        "latitude": -9.64066,
+        "longitude": -35.73545
+      },
+      {
+        "nome": "PN32B",
+        "abreviatura": "PN32B",
+        "endereco": "Avenida Fernandes Lima, 6193",
+        "ordem": 37,
+        "vel_limite": 60,
+        "latitude": -9.64582,
+        "longitude": -35.73445
+      },
+      {
+        "nome": "PP3",
+        "abreviatura": "PP3",
+        "endereco": "Avenida Fernandes Lima, 5827-5969 - Gruta de Lourdes, Maceió - AL, Brazil",
+        "ordem": 38,
+        "vel_limite": 70,
+        "latitude": -9.64901,
+        "longitude": -35.73381
+      },
+      {
+        "nome": "PN34",
+        "abreviatura": "PN34",
+        "endereco": "Praça Centenária - Farol",
+        "ordem": 39,
+        "vel_limite": 70,
+        "latitude": -9.65229,
+        "longitude": -35.73379
+      },
+      {
+        "nome": "TS56,",
+        "abreviatura": "TS56.",
+        "endereco": "Ladeira dos Martírios - Farol",
+        "ordem": 40,
+        "vel_limite": 80,
+        "latitude": -9.65869,
+        "longitude": -35.73623
+      },
+      {
+        "nome": "TP CENTRO",
+        "abreviatura": "CENTRO",
+        "endereco": "R. do Comércio - P8 - Centro",
+        "ordem": 41,
+        "vel_limite": 65,
+        "latitude": -9.66298,
+        "longitude": -35.73787
+      },
+      {
+        "nome": "TP01.",
+        "abreviatura": "TP01.",
+        "endereco": "Ladeira do Brito, 219-221 - Farol, Maceió - AL, 57051-165, Brasil",
+        "ordem": 42,
+        "vel_limite": 65,
+        "latitude": -9.66123,
+        "longitude": -35.73551
+      },
+      {
+        "nome": "PN56",
+        "abreviatura": "PN56",
+        "endereco": "Av. Tomás Espíndola, 363-399 - Farol, Maceió - AL, Brasil",
+        "ordem": 43,
+        "vel_limite": 70,
+        "latitude": -9.65484,
+        "longitude": -35.73315
+      },
+      {
+        "nome": "TP08",
+        "abreviatura": "TP08",
+        "endereco": "Praça Centenária - Farol",
+        "ordem": 44,
+        "vel_limite": 70,
+        "latitude": -9.65259,
+        "longitude": -35.7331
+      },
+      {
+        "nome": "TP09",
+        "abreviatura": "TP09",
+        "endereco": "BR-104, 5219-5361 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 45,
+        "vel_limite": 70,
+        "latitude": -9.64768,
+        "longitude": -35.73377
+      },
+      {
+        "nome": "TP10",
+        "abreviatura": "TP10",
+        "endereco": "Avenida Fernandes Lima, 714 - Gruta de Lourdes, Maceió - AL, República",
+        "ordem": 46,
+        "vel_limite": 70,
+        "latitude": -9.64461,
+        "longitude": -35.73442
+      },
+      {
+        "nome": "TP11",
+        "abreviatura": "TP11",
+        "endereco": "BR-104, 4263-4375 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 47,
+        "vel_limite": 65,
+        "latitude": -9.6387,
+        "longitude": -35.73558
+      },
+      {
+        "nome": "TP12",
+        "abreviatura": "TP12",
+        "endereco": "Av. Fernandes Lima, 3531-3715 - Gruta de Lourdes, Maceió - AL, Brasil",
+        "ordem": 48,
+        "vel_limite": 70,
+        "latitude": -9.63191,
+        "longitude": -35.7369
+      },
+      {
+        "nome": "TP13",
+        "abreviatura": "TP13",
+        "endereco": "BR-104, 3085-3199 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 49,
+        "vel_limite": 65,
+        "latitude": -9.6278,
+        "longitude": -35.73777
+      },
+      {
+        "nome": "PN63",
+        "abreviatura": "PN63",
+        "endereco": "Hospital do Açúcar - Gruta de Lourdes",
+        "ordem": 50,
+        "vel_limite": 70,
+        "latitude": -9.62463,
+        "longitude": -35.73838
+      },
+      {
+        "nome": "PN64",
+        "abreviatura": "PN64",
+        "endereco": "BR-104, 2029-2313 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 51,
+        "vel_limite": 70,
+        "latitude": -9.61872,
+        "longitude": -35.7391
+      },
+      {
+        "nome": "TP17.",
+        "abreviatura": "TP17.",
+        "endereco": "Avenida Fernandes Lima, 1145",
+        "ordem": 52,
+        "vel_limite": 70,
+        "latitude": -9.60985,
+        "longitude": -35.74014
+      },
+      {
+        "nome": "TP18.",
+        "abreviatura": "TP18.",
+        "endereco": "Av. Fernandes Lima, 809-903 - Gruta de Lourdes, Maceió - AL, Brasil",
+        "ordem": 53,
+        "vel_limite": 70,
+        "latitude": -9.6067,
+        "longitude": -35.74087
+      },
+      {
+        "nome": "TP19.",
+        "abreviatura": "TP19.",
+        "endereco": "BR-104, 223-385 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 54,
+        "vel_limite": 72,
+        "latitude": -9.60367,
+        "longitude": -35.74517
+      },
+      {
+        "nome": "TP20.",
+        "abreviatura": "TP20.",
+        "endereco": "Avenida Durval de Góes Monteiro, 10147-10213 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 55,
+        "vel_limite": 70,
+        "latitude": -9.60103,
+        "longitude": -35.74835
+      },
+      {
+        "nome": "TP21.",
+        "abreviatura": "TP21.",
+        "endereco": "Tupan - Tabuleiro do Martins",
+        "ordem": 56,
+        "vel_limite": 72,
+        "latitude": -9.59456,
+        "longitude": -35.75251
+      },
+      {
+        "nome": "TP22",
+        "abreviatura": "TP22",
+        "endereco": "Avenida Durval de Góes Monteiro, 8974-9488 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 57,
+        "vel_limite": 70,
+        "latitude": -9.59314,
+        "longitude": -35.75489
+      },
+      {
+        "nome": "TP23.",
+        "abreviatura": "TP23.",
+        "endereco": "BR-104, 8813-8845 - Tabuleiro do Martins, Maceió - AL, República Federativa do",
+        "ordem": 58,
+        "vel_limite": 70,
+        "latitude": -9.59197,
+        "longitude": -35.75685
+      },
+      {
+        "nome": "TP24.",
+        "abreviatura": "TP24.",
+        "endereco": "Avenida Durval de Góes Monteiro, 8299-8445 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 59,
+        "vel_limite": 70,
+        "latitude": -9.58986,
+        "longitude": -35.76024
+      },
+      {
+        "nome": "PN50905355",
+        "abreviatura": "PN50905355",
+        "endereco": "Av. Durval de Góes Monteiro, 7875-7925 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 60,
+        "vel_limite": 65,
+        "latitude": -9.5863,
+        "longitude": -35.76297
+      },
+      {
+        "nome": "TP25.",
+        "abreviatura": "TP25.",
+        "endereco": "Av. Durval de Góes Monteiro, 5136 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 61,
+        "vel_limite": 70,
+        "latitude": -9.5851,
+        "longitude": -35.76388
+      },
+      {
+        "nome": "TP26",
+        "abreviatura": "TP26",
+        "endereco": "SMTT - Tabuleiro do Martins",
+        "ordem": 62,
+        "vel_limite": 70,
+        "latitude": -9.58256,
+        "longitude": -35.76581
+      },
+      {
+        "nome": "TP27",
+        "abreviatura": "TP27",
+        "endereco": "Avenida Durval de Góes Monteiro, 6996-7066 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 63,
+        "vel_limite": 65,
+        "latitude": -9.57988,
+        "longitude": -35.7678
+      },
+      {
+        "nome": "TP28",
+        "abreviatura": "TP28",
+        "endereco": "Rua Dr. Eurico Ayres, 84 - Tabuleiro do Martins, Maceió - AL, 57061-050, Brasil",
+        "ordem": 64,
+        "vel_limite": 65,
+        "latitude": -9.57653,
+        "longitude": -35.77139
+      },
+      {
+        "nome": "TP29",
+        "abreviatura": "TP29",
+        "endereco": "R. São Paulo, 343-441 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 65,
+        "vel_limite": 65,
+        "latitude": -9.57831,
+        "longitude": -35.77329
+      },
+      {
+        "nome": "TP30b",
+        "abreviatura": "TP30b",
+        "endereco": "R. São Paulo, 57-119 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 66,
+        "vel_limite": 65,
+        "latitude": -9.58057,
+        "longitude": -35.77394
+      },
+      {
+        "nome": "3000125",
+        "abreviatura": "3000125",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 502-744 - Santa Amelia, Maceió - AL,",
+        "ordem": 67,
+        "vel_limite": 65,
+        "latitude": -9.58477,
+        "longitude": -35.7773
+      },
+      {
+        "nome": "3000127",
+        "abreviatura": "3000127",
+        "endereco": "R. Empresário Jorge Montenegro Barros, 4255-4323 - Santa Amelia, Maceió - AL,",
+        "ordem": 68,
+        "vel_limite": 68,
+        "latitude": -9.58647,
+        "longitude": -35.77833
+      },
+      {
+        "nome": "3000128",
+        "abreviatura": "3000128",
+        "endereco": "R. Est. Arnoumar Chagas, 2-68 - Santa Amelia, Maceió - AL, 57063-430, Brasil",
+        "ordem": 69,
+        "vel_limite": 65,
+        "latitude": -9.58831,
+        "longitude": -35.77659
+      },
+      {
+        "nome": "3000129",
+        "abreviatura": "3000129",
+        "endereco": "R. Est. Arnoumar Chagas, 214-264 - Santa Amelia, Maceió - AL, 57063-430, Brasil",
+        "ordem": 70,
+        "vel_limite": 65,
+        "latitude": -9.58699,
+        "longitude": -35.77549
+      },
+      {
+        "nome": "TP COLINA",
+        "abreviatura": "TP COLINA",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 186-260 - Santa Amelia, Maceió - AL, Brazil",
+        "ordem": 71,
+        "vel_limite": 65,
+        "latitude": -9.58528,
+        "longitude": -35.77491
+      },
+      {
+        "nome": "PN605",
+        "abreviatura": "mandacarú",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 458 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 72,
+        "vel_limite": 65,
+        "latitude": -9.58359,
+        "longitude": -35.7767
+      },
+      {
+        "nome": "PN745",
+        "abreviatura": "PN745",
+        "endereco": "Rua 16, 333 - Clima Bom, Maceió - AL, República Federativa do Brasil",
+        "ordem": 73,
+        "vel_limite": 65,
+        "latitude": -9.58308,
+        "longitude": -35.77764
+      },
+      {
+        "nome": "PN601",
+        "abreviatura": "PN601",
+        "endereco": "Rua Dezenove, 2-104 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 74,
+        "vel_limite": 65,
+        "latitude": -9.58218,
+        "longitude": -35.7788
+      },
+      {
+        "nome": "PN392",
+        "abreviatura": "ter.osmam",
+        "endereco": "Av. B, 262-310 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 75,
+        "vel_limite": 65,
+        "latitude": -9.5794,
+        "longitude": -35.77776
+      },
+      {
+        "nome": "PN383",
+        "abreviatura": "PN383",
+        "endereco": "Av. A, 2-56 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 76,
+        "vel_limite": 65,
+        "latitude": -9.57772,
+        "longitude": -35.77806
+      },
+      {
+        "nome": "ROSANE COLLOR-5",
+        "abreviatura": "R.COLLOR05",
+        "endereco": "R. Cel. Valfrido Rocha, 32-46 - Clima Bom, Maceió - AL, 57071-070, Brasil",
+        "ordem": 77,
+        "vel_limite": 65,
+        "latitude": -9.57637,
+        "longitude": -35.78099
+      },
+      {
+        "nome": "ROSANE COLLOR-9",
+        "abreviatura": "R.COLLOR09",
+        "endereco": "Rua Coronel Valfrido Rocha, 109-113 - Clima Bom, Maceió - AL, 57071-070, Brasil",
+        "ordem": 78,
+        "vel_limite": 65,
+        "latitude": -9.57597,
+        "longitude": -35.78347
+      },
+      {
+        "nome": "ROSANE COLLOR-10",
+        "abreviatura": "R.CLLOR10",
+        "endereco": "R. Cel. Valfrido Rocha, 158-166 - Clima Bom, Maceió - AL, 57071-070, Brasil",
+        "ordem": 79,
+        "vel_limite": 65,
+        "latitude": -9.57581,
+        "longitude": -35.78491
+      },
+      {
+        "nome": "ROSANE COLLOR-10b",
+        "abreviatura": "R. COLLOR-10b",
+        "endereco": "R. Cel. Valfrido Rocha, 602-680 - Clima Bom, Maceió - AL, 57071-070, Brasil",
+        "ordem": 80,
+        "vel_limite": 65,
+        "latitude": -9.57558,
+        "longitude": -35.78646
+      },
+      {
+        "nome": "ROSANE COLLOR-1",
+        "abreviatura": "R.COLLOR01",
+        "endereco": "R. Dra. Nadja, 349-411 - Clima Bom, Maceió - AL, 57071-096, Brasil",
+        "ordem": 81,
+        "vel_limite": 65,
+        "latitude": -9.5762,
+        "longitude": -35.78833
+      }
+    ]
+  },
+  {
+    "codigo": "0301",
+    "linha": "VILLAGE II/CHÃ DA JAQUEIRA",
+    "nome_ida": "VILLAGE I I - CHÃ DA JAQUEIRA",
+    "nome_volta": "",
+    "pontos": [
+      {
+        "nome": "Terminal Village II",
+        "abreviatura": "Terminal Village II",
+        "endereco": "Avenida Alice Karoline 87, Cidade Universitária, Maceió - Alagoas, Brasil",
+        "ordem": 1,
+        "vel_limite": 65,
+        "latitude": -9.54732,
+        "longitude": -35.76139
+      },
+      {
+        "nome": "solara",
+        "abreviatura": "solara",
+        "endereco": "Av. Alice Carolina, 07 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 2,
+        "vel_limite": 65,
+        "latitude": -9.5506,
+        "longitude": -35.7593
+      },
+      {
+        "nome": "graciliano 1",
+        "abreviatura": "graciliano 1",
+        "endereco": "Travassa Hailton dos Santos, 180 - Cidade Universitária, Maceió - AL, 57073-480,",
+        "ordem": 3,
+        "vel_limite": 65,
+        "latitude": -9.55158,
+        "longitude": -35.76083
+      },
+      {
+        "nome": "gracilianoo 2",
+        "abreviatura": "graciliano 2",
+        "endereco": "Travassa Hailton dos Santos, 404-458 - Cidade Universitária, Maceió - AL,",
+        "ordem": 4,
+        "vel_limite": 65,
+        "latitude": -9.5525,
+        "longitude": -35.76265
+      },
+      {
+        "nome": "graciliano 3",
+        "abreviatura": "graciliano 3",
+        "endereco": "Travassa Hailton dos Santos, 662-700 - Cidade Universitária, Maceió - AL,",
+        "ordem": 5,
+        "vel_limite": 65,
+        "latitude": -9.55353,
+        "longitude": -35.76473
+      },
+      {
+        "nome": "gracilino 4",
+        "abreviatura": "graciliano 4",
+        "endereco": "Travassa Hailton dos Santos, 30 - Cidade Universitária, Maceió - AL, 57073-480,",
+        "ordem": 6,
+        "vel_limite": 65,
+        "latitude": -9.5543,
+        "longitude": -35.76617
+      },
+      {
+        "nome": "UFAL-1",
+        "abreviatura": "UFAL01",
+        "endereco": "Universidade Federal de Alagoas - Unnamed Road - Cidade Universitária, Maceió -",
+        "ordem": 7,
+        "vel_limite": 65,
+        "latitude": -9.55213,
+        "longitude": -35.77125
+      },
+      {
+        "nome": "ufal 2",
+        "abreviatura": "ufal 2",
+        "endereco": "Universidade Federal de Alagoas - Unnamed Road - Cidade Universitária, Maceió -",
+        "ordem": 8,
+        "vel_limite": 65,
+        "latitude": -9.55298,
+        "longitude": -35.77285
+      },
+      {
+        "nome": "UFAL 3 reitoria",
+        "abreviatura": "UFAL3 reitoria",
+        "endereco": "Universidade Federal de Alagoas - Unnamed Road - Cidade Universitária, Maceió -",
+        "ordem": 9,
+        "vel_limite": 65,
+        "latitude": -9.55348,
+        "longitude": -35.77393
+      },
+      {
+        "nome": "UFAL-4 B. Brasil",
+        "abreviatura": "UFAL-4 B Brasil",
+        "endereco": "Universidade Federal de Alagoas - Unnamed Road - Cidade Universitária, Maceió -",
+        "ordem": 10,
+        "vel_limite": 65,
+        "latitude": -9.55453,
+        "longitude": -35.77597
+      },
+      {
+        "nome": "UFAL-5 ginasio",
+        "abreviatura": "UFAL05 ginasio",
+        "endereco": "Unnamed Road - Universidade Federal de Alagoas, Cidade Universitária, Maceió -",
+        "ordem": 11,
+        "vel_limite": 65,
+        "latitude": -9.55527,
+        "longitude": -35.77728
+      },
+      {
+        "nome": "UFAL-6 fisica",
+        "abreviatura": "UFAL-6 fisica",
+        "endereco": "Universidade Federal de Alagoas - Unnamed Road - Cidade Universitária, Maceió -",
+        "ordem": 12,
+        "vel_limite": 65,
+        "latitude": -9.55588,
+        "longitude": -35.77848
+      },
+      {
+        "nome": "UFAL-06",
+        "abreviatura": "UFAL06",
+        "endereco": "Rua Senhor do Bonfim, 202 - Santos Dumont, Maceió - AL, 57018-530, Brasil",
+        "ordem": 13,
+        "vel_limite": 65,
+        "latitude": -9.5566,
+        "longitude": -35.77989
+      },
+      {
+        "nome": "UFAL07 portaria",
+        "abreviatura": "UFAL07 portaria",
+        "endereco": "BR-104, 1099 - Santos Dumont, Maceió - AL, Brasil",
+        "ordem": 14,
+        "vel_limite": 65,
+        "latitude": -9.55727,
+        "longitude": -35.78122
+      },
+      {
+        "nome": "BR-104 - HU",
+        "abreviatura": "BR.104-HU",
+        "endereco": "BR-104, 7017",
+        "ordem": 15,
+        "vel_limite": 65,
+        "latitude": -9.56122,
+        "longitude": -35.77983
+      },
+      {
+        "nome": "Rua Edgar de Góes de",
+        "abreviatura": "MonteRiruoa, 1E4d7g2a-r1 d5e2 6G -ó Cesli mdea",
+        "endereco": "MBoomnBt,e RMir-o3a,1ce6i,ó 1 -4 A72L-,1 B5r2a6s i-l Clima Bom, Maceió - AL, República Federativa do Brasil",
+        "ordem": 16,
+        "vel_limite": 65,
+        "latitude": -9.56573,
+        "longitude": -35.78048
+      },
+      {
+        "nome": "FERRO VELHO",
+        "abreviatura": "FERRO VELHO",
+        "endereco": "BR-316, 1722-1806 - Clima Bom, Maceió - AL, República Federativa do Brasil",
+        "ordem": 17,
+        "vel_limite": 65,
+        "latitude": -9.56538,
+        "longitude": -35.78297
+      },
+      {
+        "nome": "DER- AL",
+        "abreviatura": "DER- AL",
+        "endereco": "R. Edgar de Góes de Monteiro, 1970-1990 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 18,
+        "vel_limite": 65,
+        "latitude": -9.5649,
+        "longitude": -35.78634
+      },
+      {
+        "nome": "TP - Clima Bom",
+        "abreviatura": "TP CB",
+        "endereco": "Rua Eduardo Jorge Lopes Novaes, 234, Clima Bom, Maceió - AL, 57071-060, Brasil",
+        "ordem": 19,
+        "vel_limite": 65,
+        "latitude": -9.56596,
+        "longitude": -35.79054
+      },
+      {
+        "nome": "CL 02 001",
+        "abreviatura": "CL 02 001",
+        "endereco": "R. Eduardo Jorge Lopes Novaes, 455-515 - Clima Bom, Maceió - AL, 57071-060,",
+        "ordem": 20,
+        "vel_limite": 65,
+        "latitude": -9.56792,
+        "longitude": -35.79086
+      },
+      {
+        "nome": "CLIMA BOM 2",
+        "abreviatura": "CLIMA BOM 2",
+        "endereco": "R. Luís Clemente Vasconcelos, 817-915 - Clima Bom, Maceió - AL, 57071-040,",
+        "ordem": 21,
+        "vel_limite": 65,
+        "latitude": -9.56888,
+        "longitude": -35.78976
+      },
+      {
+        "nome": "CL003",
+        "abreviatura": "CL003",
+        "endereco": "Rua Luís Clemente Vasconcelos, 419-503 - Clima Bom, Maceió - AL, 57071-040,",
+        "ordem": 22,
+        "vel_limite": 65,
+        "latitude": -9.5695,
+        "longitude": -35.78565
+      },
+      {
+        "nome": "CL004",
+        "abreviatura": "CL004",
+        "endereco": "R. Luís Clemente Vasconcelos, 87-123 - Clima Bom, Maceió - AL, 57071-040,",
+        "ordem": 23,
+        "vel_limite": 65,
+        "latitude": -9.56995,
+        "longitude": -35.78262
+      },
+      {
+        "nome": "CL005",
+        "abreviatura": "CL005",
+        "endereco": "R. Boa Vista, 115-193 - Clima Bom, Maceió - AL, 57071-041, Brasil",
+        "ordem": 24,
+        "vel_limite": 65,
+        "latitude": -9.57058,
+        "longitude": -35.77796
+      },
+      {
+        "nome": "CL006",
+        "abreviatura": "CL006",
+        "endereco": "R. Dr. João Crisóstomo de Farias, 263-359 - Clima Bom, Maceió - AL, 57071-090,",
+        "ordem": 25,
+        "vel_limite": 65,
+        "latitude": -9.57393,
+        "longitude": -35.77817
+      },
+      {
+        "nome": "CL007",
+        "abreviatura": "CL007",
+        "endereco": "Av. A, 77 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 26,
+        "vel_limite": 65,
+        "latitude": -9.57809,
+        "longitude": -35.77849
+      },
+      {
+        "nome": "TP - OSMAN LOUREIRO",
+        "abreviatura": "TP OSMAN LOUREIRO",
+        "endereco": "Av. B, 261-309 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 27,
+        "vel_limite": 60,
+        "latitude": -9.57934,
+        "longitude": -35.7781
+      },
+      {
+        "nome": "PN600",
+        "abreviatura": "PN600",
+        "endereco": "Avenida C, 111-161 - Clima Bom, Maceió - AL, República Federativa do Brasil",
+        "ordem": 28,
+        "vel_limite": 65,
+        "latitude": -9.58047,
+        "longitude": -35.77835
+      },
+      {
+        "nome": "PN607",
+        "abreviatura": "PN607",
+        "endereco": "R. Dezenove, 29 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 29,
+        "vel_limite": 65,
+        "latitude": -9.58217,
+        "longitude": -35.77908
+      },
+      {
+        "nome": "PN603",
+        "abreviatura": "PN603",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 384-446 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 30,
+        "vel_limite": 65,
+        "latitude": -9.58411,
+        "longitude": -35.77649
+      },
+      {
+        "nome": "3000125",
+        "abreviatura": "3000125",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 502-744 - Santa Amelia, Maceió - AL,",
+        "ordem": 31,
+        "vel_limite": 65,
+        "latitude": -9.58477,
+        "longitude": -35.7773
+      },
+      {
+        "nome": "3000127",
+        "abreviatura": "3000127",
+        "endereco": "R. Empresário Jorge Montenegro Barros, 4255-4323 - Santa Amelia, Maceió - AL,",
+        "ordem": 32,
+        "vel_limite": 68,
+        "latitude": -9.58647,
+        "longitude": -35.77833
+      },
+      {
+        "nome": "3000128",
+        "abreviatura": "3000128",
+        "endereco": "R. Est. Arnoumar Chagas, 2-68 - Santa Amelia, Maceió - AL, 57063-430, Brasil",
+        "ordem": 33,
+        "vel_limite": 65,
+        "latitude": -9.58831,
+        "longitude": -35.77659
+      },
+      {
+        "nome": "3000129",
+        "abreviatura": "3000129",
+        "endereco": "R. Est. Arnoumar Chagas, 214-264 - Santa Amelia, Maceió - AL, 57063-430, Brasil",
+        "ordem": 34,
+        "vel_limite": 65,
+        "latitude": -9.58699,
+        "longitude": -35.77549
+      },
+      {
+        "nome": "TP COLINA",
+        "abreviatura": "TP COLINA",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 186-260 - Santa Amelia, Maceió - AL, Brazil",
+        "ordem": 35,
+        "vel_limite": 65,
+        "latitude": -9.58528,
+        "longitude": -35.77491
+      },
+      {
+        "nome": "FERINHA-1",
+        "abreviatura": "FERINHA01",
+        "endereco": "Av. Gen. Walfrido Jerônimo da Rocha, 100-A - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 36,
+        "vel_limite": 65,
+        "latitude": -9.58453,
+        "longitude": -35.77321
+      },
+      {
+        "nome": "FERINHA-13",
+        "abreviatura": "FERINHA13",
+        "endereco": "R. Santa Luzia, 18 - Tabuleiro do Martins, Maceió - AL, 57060-150, Brasil",
+        "ordem": 37,
+        "vel_limite": 65,
+        "latitude": -9.58649,
+        "longitude": -35.77199
+      },
+      {
+        "nome": "FERINHA-12",
+        "abreviatura": "FERINHA12",
+        "endereco": "R. Santa Luzia, 987-1139 - Tabuleiro do Martins, Maceió - AL, 57060-150, Brasil",
+        "ordem": 38,
+        "vel_limite": 65,
+        "latitude": -9.58709,
+        "longitude": -35.7686
+      },
+      {
+        "nome": "PN216",
+        "abreviatura": "PN216",
+        "endereco": "Av. Sebastião Corrêia da Rocha, 1442-1510 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 39,
+        "vel_limite": 65,
+        "latitude": -9.58821,
+        "longitude": -35.76454
+      },
+      {
+        "nome": "PN421",
+        "abreviatura": "PN421",
+        "endereco": "Av. Sebastião Corrêia da Rocha, 911 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 40,
+        "vel_limite": 65,
+        "latitude": -9.5922,
+        "longitude": -35.76157
+      },
+      {
+        "nome": "PN219",
+        "abreviatura": "PN219",
+        "endereco": "Av. Sebastião Corrêia da Rocha, 781-827 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 41,
+        "vel_limite": 65,
+        "latitude": -9.59314,
+        "longitude": -35.76091
+      },
+      {
+        "nome": "PN220",
+        "abreviatura": "PN220",
+        "endereco": "Av. Sebastião Corrêia da Rocha, 583-635 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 42,
+        "vel_limite": 65,
+        "latitude": -9.59477,
+        "longitude": -35.75978
+      },
+      {
+        "nome": "PN221",
+        "abreviatura": "PN221",
+        "endereco": "Av. Sebastião Corrêia da Rocha, 395 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 43,
+        "vel_limite": 65,
+        "latitude": -9.59631,
+        "longitude": -35.75872
+      },
+      {
+        "nome": "TS07A",
+        "abreviatura": "TS07A",
+        "endereco": "Avenida Galba Novas de Castro, 237-369 - Petrópolis, Maceió - AL, República",
+        "ordem": 44,
+        "vel_limite": 65,
+        "latitude": -9.59947,
+        "longitude": -35.75702
+      },
+      {
+        "nome": "TS08A",
+        "abreviatura": "TS08A",
+        "endereco": "Av. Galba Novas de Castro, 141-207 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 45,
+        "vel_limite": 65,
+        "latitude": -9.60168,
+        "longitude": -35.75824
+      },
+      {
+        "nome": "Ponto Flor do Bairro",
+        "abreviatura": "Ponto Flor do Bairro",
+        "endereco": "Av. Teresa Lucena Quintela Cavalcante, 1665-1723 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 46,
+        "vel_limite": 60,
+        "latitude": -9.60332,
+        "longitude": -35.75904
+      },
+      {
+        "nome": "TS23",
+        "abreviatura": "TS23",
+        "endereco": "Av. Teresa Lucena Quintela Cavalcante, 1519-1587 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 47,
+        "vel_limite": 65,
+        "latitude": -9.60428,
+        "longitude": -35.75821
+      },
+      {
+        "nome": "TS24",
+        "abreviatura": "TS24",
+        "endereco": "Av. Teresa Lucena Quintela Cavalcante, 1225-1283 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 48,
+        "vel_limite": 65,
+        "latitude": -9.60615,
+        "longitude": -35.75653
+      },
+      {
+        "nome": "TS25",
+        "abreviatura": "TS25",
+        "endereco": "Av. Teresa Lucena Quintela Cavalcante, 973-1029 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 49,
+        "vel_limite": 65,
+        "latitude": -9.60838,
+        "longitude": -35.7551
+      },
+      {
+        "nome": "TS26",
+        "abreviatura": "TS26",
+        "endereco": "Avenida Teresa Lucena Quintela Cavalcante, 831-893 - Petrópolis, Maceió - AL,",
+        "ordem": 50,
+        "vel_limite": 65,
+        "latitude": -9.60956,
+        "longitude": -35.75437
+      },
+      {
+        "nome": "TS27",
+        "abreviatura": "TS27",
+        "endereco": "Via Principal Dois, 271-299 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 51,
+        "vel_limite": 65,
+        "latitude": -9.61051,
+        "longitude": -35.7517
+      },
+      {
+        "nome": "TS28",
+        "abreviatura": "TS28",
+        "endereco": "Alameda F Três, 1-33 - Chã da Jaqueira, Maceió - AL, Brasil",
+        "ordem": 52,
+        "vel_limite": 65,
+        "latitude": -9.61142,
+        "longitude": -35.74934
+      },
+      {
+        "nome": "PN795",
+        "abreviatura": "PN795",
+        "endereco": "R. Manoel Inácio, 230 - Chã da Jaqueira, Maceió - AL, 57018-560, Brasil",
+        "ordem": 53,
+        "vel_limite": 60,
+        "latitude": -9.61225,
+        "longitude": -35.74755
+      },
+      {
+        "nome": "CHÃ DA JAQUEIRA-16",
+        "abreviatura": "CJ16",
+        "endereco": "Av. Monte Castelo, 96-142 - Chã da Jaqueira, Maceió - AL, 57018-570, Brasil",
+        "ordem": 54,
+        "vel_limite": 65,
+        "latitude": -9.6133,
+        "longitude": -35.746
+      },
+      {
+        "nome": "CHÃ DA JAQUEIRA-3",
+        "abreviatura": "CJ03",
+        "endereco": "R. Jequitibá, 257-315 - Chã da Jaqueira, Maceió - AL, Brasil",
+        "ordem": 55,
+        "vel_limite": 65,
+        "latitude": -9.6146,
+        "longitude": -35.74512
+      },
+      {
+        "nome": "CHÃ DA JAQUEIRA-19",
+        "abreviatura": "CJ19",
+        "endereco": "Rua Pau Brasil, 77 - Chá de Jaqueira, Maceió - AL, 57018-542, República",
+        "ordem": 56,
+        "vel_limite": 65,
+        "latitude": -9.61642,
+        "longitude": -35.74598
+      },
+      {
+        "nome": "TP. Terminal-Chã da JaqueiraTer.Chã",
+        "abreviatura": "da jaqueira",
+        "endereco": "Terminal Paraíso do Horto - Chã de Jaqueira",
+        "ordem": 57,
+        "vel_limite": 65,
+        "latitude": -9.61782,
+        "longitude": -35.7467
+      },
+      {
+        "nome": "TP17",
+        "abreviatura": "TP17",
+        "endereco": "R. Marquês de Abrantes, 206-402, Maceió - AL, Brasil",
+        "ordem": 58,
+        "vel_limite": 65,
+        "latitude": -9.62129,
+        "longitude": -35.75197
+      },
+      {
+        "nome": "TS312",
+        "abreviatura": "TS312",
+        "endereco": "",
+        "ordem": 59,
+        "vel_limite": 65,
+        "latitude": -9.62017,
+        "longitude": -35.75253
+      },
+      {
+        "nome": "PN722",
+        "abreviatura": "PN722",
+        "endereco": "R. dos Coqueiros, 538-622 - Chã da Jaqueira, Maceió - AL, Brasil",
+        "ordem": 60,
+        "vel_limite": 65,
+        "latitude": -9.61807,
+        "longitude": -35.75137
+      },
+      {
+        "nome": "CHÃ DA JAQUEIRA-13",
+        "abreviatura": "CJ13",
+        "endereco": "R. dos Coqueiros, 842 - Chã da Jaqueira, Maceió - AL, Brasil",
+        "ordem": 61,
+        "vel_limite": 65,
+        "latitude": -9.61773,
+        "longitude": -35.75089
+      },
+      {
+        "nome": "PN687",
+        "abreviatura": "PN687",
+        "endereco": "R. dos Coqueiros, 68 - Chã da Jaqueira, Maceió - AL, 57052-556, Brasil",
+        "ordem": 62,
+        "vel_limite": 60,
+        "latitude": -9.61328,
+        "longitude": -35.75085
+      },
+      {
+        "nome": "RODOVIARIA DA JAQUEIRAR,CJ,",
+        "abreviatura": "",
+        "endereco": "",
+        "ordem": 63,
+        "vel_limite": 65,
+        "latitude": -9.61131,
+        "longitude": -35.74911
+      },
+      {
+        "nome": "JARDIM PETROPOLIS",
+        "abreviatura": "II-8 JP08",
+        "endereco": "Via Principal Dois, 24-26 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 64,
+        "vel_limite": 65,
+        "latitude": -9.6103,
+        "longitude": -35.75204
+      },
+      {
+        "nome": "JARDIM PETROPOLIS",
+        "abreviatura": "II-9 JP09",
+        "endereco": "Avenida Teresa Lucena Quintela Cavalcante, 832-894 - Petrópolis, Maceió - AL,",
+        "ordem": 65,
+        "vel_limite": 65,
+        "latitude": -9.60925,
+        "longitude": -35.7544
+      },
+      {
+        "nome": "JARDIM PETROPOLIS",
+        "abreviatura": "II-10JP10",
+        "endereco": "Av. Teresa Lucena Quintela Cavalcante, 1046-1084 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 66,
+        "vel_limite": 65,
+        "latitude": -9.60778,
+        "longitude": -35.75531
+      },
+      {
+        "nome": "JARDIM PETROPOLIS",
+        "abreviatura": "II-11 JP11",
+        "endereco": "Av. Teresa Lucena Quintela Cavalcante, 1306-1350 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 67,
+        "vel_limite": 65,
+        "latitude": -9.60582,
+        "longitude": -35.75665
+      },
+      {
+        "nome": "JARDIM PETROPOLIS",
+        "abreviatura": "II-12JP12",
+        "endereco": "Av. Teresa Lucena Quintela Cavalcante, 1508-1518 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 68,
+        "vel_limite": 65,
+        "latitude": -9.60455,
+        "longitude": -35.75777
+      },
+      {
+        "nome": "JARDIM PETROPOLIS",
+        "abreviatura": "II-13JP13",
+        "endereco": "Av. Teresa Lucena Quintela Cavalcante, 1666-1724 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 69,
+        "vel_limite": 65,
+        "latitude": -9.60325,
+        "longitude": -35.75892
+      },
+      {
+        "nome": "TP22l",
+        "abreviatura": "TP22l",
+        "endereco": "Av. Galba Novas de Castro, 210-218 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 70,
+        "vel_limite": 65,
+        "latitude": -9.60155,
+        "longitude": -35.75793
+      },
+      {
+        "nome": "TP23",
+        "abreviatura": "TP23",
+        "endereco": "Av. Galba Novas de Castro, 294-346 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 71,
+        "vel_limite": 65,
+        "latitude": -9.59996,
+        "longitude": -35.75732
+      },
+      {
+        "nome": "PN213",
+        "abreviatura": "PN213",
+        "endereco": "R. D, 215 - Petrópolis, Maceió - AL, Brasil",
+        "ordem": 72,
+        "vel_limite": 65,
+        "latitude": -9.59637,
+        "longitude": -35.75853
+      },
+      {
+        "nome": "PN214",
+        "abreviatura": "PN214",
+        "endereco": "Av. Sebastião Corrêia da Rocha, 1055 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 73,
+        "vel_limite": 65,
+        "latitude": -9.59471,
+        "longitude": -35.75968
+      },
+      {
+        "nome": "PN420",
+        "abreviatura": "PN420",
+        "endereco": "Avenida Sebastião Corrêia da Rocha, 722-780 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 74,
+        "vel_limite": 65,
+        "latitude": -9.59342,
+        "longitude": -35.7606
+      },
+      {
+        "nome": "PN413",
+        "abreviatura": "PN413",
+        "endereco": "Av. Sebastião Corrêia da Rocha, 1442-1510 - Tabuleiro do Martins, Maceió - AL,",
+        "ordem": 75,
+        "vel_limite": 65,
+        "latitude": -9.58796,
+        "longitude": -35.76454
+      },
+      {
+        "nome": "FERINHA-3",
+        "abreviatura": "FERINHA03",
+        "endereco": "R. Santa Luzia, 988-1140 - Tabuleiro do Martins, Maceió - AL, 57060-150, Brasil",
+        "ordem": 76,
+        "vel_limite": 65,
+        "latitude": -9.58698,
+        "longitude": -35.76874
+      },
+      {
+        "nome": "FERINHA-2",
+        "abreviatura": "FERINHA02",
+        "endereco": "Rua Santa Luzia, 1200-1456 - Tabuleiro do Martins, Maceió - AL, 57060-150,",
+        "ordem": 77,
+        "vel_limite": 65,
+        "latitude": -9.58648,
+        "longitude": -35.77166
+      },
+      {
+        "nome": "FERINHA-14",
+        "abreviatura": "FERINHA14",
+        "endereco": "Av. Gen. Walfrido Jerônimo da Rocha, 267 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 78,
+        "vel_limite": 65,
+        "latitude": -9.58459,
+        "longitude": -35.77309
+      },
+      {
+        "nome": "TP30b",
+        "abreviatura": "TP30b",
+        "endereco": "R. São Paulo, 57-119 - Tabuleiro do Martins, Maceió - AL, Brasil",
+        "ordem": 79,
+        "vel_limite": 65,
+        "latitude": -9.58057,
+        "longitude": -35.77394
+      },
+      {
+        "nome": "3000125",
+        "abreviatura": "3000125",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 502-744 - Santa Amelia, Maceió - AL,",
+        "ordem": 80,
+        "vel_limite": 65,
+        "latitude": -9.58477,
+        "longitude": -35.7773
+      },
+      {
+        "nome": "3000127",
+        "abreviatura": "3000127",
+        "endereco": "R. Empresário Jorge Montenegro Barros, 4255-4323 - Santa Amelia, Maceió - AL,",
+        "ordem": 81,
+        "vel_limite": 68,
+        "latitude": -9.58647,
+        "longitude": -35.77833
+      },
+      {
+        "nome": "3000128",
+        "abreviatura": "3000128",
+        "endereco": "R. Est. Arnoumar Chagas, 2-68 - Santa Amelia, Maceió - AL, 57063-430, Brasil",
+        "ordem": 82,
+        "vel_limite": 65,
+        "latitude": -9.58831,
+        "longitude": -35.77659
+      },
+      {
+        "nome": "3000129",
+        "abreviatura": "3000129",
+        "endereco": "R. Est. Arnoumar Chagas, 214-264 - Santa Amelia, Maceió - AL, 57063-430, Brasil",
+        "ordem": 83,
+        "vel_limite": 65,
+        "latitude": -9.58699,
+        "longitude": -35.77549
+      },
+      {
+        "nome": "TP COLINA",
+        "abreviatura": "TP COLINA",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 186-260 - Santa Amelia, Maceió - AL, Brazil",
+        "ordem": 84,
+        "vel_limite": 65,
+        "latitude": -9.58528,
+        "longitude": -35.77491
+      },
+      {
+        "nome": "PN605",
+        "abreviatura": "mandacarú",
+        "endereco": "Rua Emani Rocha Cavalcante Passos, 458 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 85,
+        "vel_limite": 65,
+        "latitude": -9.58359,
+        "longitude": -35.7767
+      },
+      {
+        "nome": "PN745",
+        "abreviatura": "PN745",
+        "endereco": "Rua 16, 333 - Clima Bom, Maceió - AL, República Federativa do Brasil",
+        "ordem": 86,
+        "vel_limite": 65,
+        "latitude": -9.58308,
+        "longitude": -35.77764
+      },
+      {
+        "nome": "PN601",
+        "abreviatura": "PN601",
+        "endereco": "Rua Dezenove, 2-104 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 87,
+        "vel_limite": 65,
+        "latitude": -9.58218,
+        "longitude": -35.7788
+      },
+      {
+        "nome": "PN608",
+        "abreviatura": "PN608",
+        "endereco": "Av. C, 112-162 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 88,
+        "vel_limite": 60,
+        "latitude": -9.5805,
+        "longitude": -35.77827
+      },
+      {
+        "nome": "PN392",
+        "abreviatura": "ter.osmam",
+        "endereco": "Av. B, 262-310 - Santa Amelia, Maceió - AL, Brasil",
+        "ordem": 89,
+        "vel_limite": 65,
+        "latitude": -9.5794,
+        "longitude": -35.77776
+      },
+      {
+        "nome": "PN383",
+        "abreviatura": "PN383",
+        "endereco": "Av. A, 2-56 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 90,
+        "vel_limite": 65,
+        "latitude": -9.57772,
+        "longitude": -35.77806
+      },
+      {
+        "nome": "TP33",
+        "abreviatura": "loterica",
+        "endereco": "R. Dr. João Crisóstomo de Farias, 362-476 - Clima Bom, Maceió - AL, 57071-090,",
+        "ordem": 91,
+        "vel_limite": 65,
+        "latitude": -9.57354,
+        "longitude": -35.77803
+      },
+      {
+        "nome": "sd",
+        "abreviatura": "sd",
+        "endereco": "Rua Da Alegria, Clima Bom, Maceió - Alagoas, 57075, Brasil",
+        "ordem": 92,
+        "vel_limite": 65,
+        "latitude": -9.56947,
+        "longitude": -35.77797
+      },
+      {
+        "nome": "g",
+        "abreviatura": "g",
+        "endereco": "Avenida Poeta Luiz Gonzaga Barroso, Clima Bom, Maceió - Alagoas, 57075, Brasil",
+        "ordem": 93,
+        "vel_limite": 65,
+        "latitude": -9.56892,
+        "longitude": -35.78187
+      },
+      {
+        "nome": "s",
+        "abreviatura": "s",
+        "endereco": "Avenida Poeta Luiz Gonzaga Barroso, Clima Bom, Maceió - Alagoas, 57075, Brasil",
+        "ordem": 94,
+        "vel_limite": 65,
+        "latitude": -9.56833,
+        "longitude": -35.78588
+      },
+      {
+        "nome": "b",
+        "abreviatura": "b",
+        "endereco": "Avenida Poeta Luiz Gonzaga Barroso 97, Clima Bom, Maceió - Alagoas, Brasil",
+        "ordem": 95,
+        "vel_limite": 65,
+        "latitude": -9.56786,
+        "longitude": -35.78897
+      },
+      {
+        "nome": "TP40",
+        "abreviatura": "CHURASCARIA",
+        "endereco": "R. Edgar de Góes de Monteiro, 1901-1939 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 96,
+        "vel_limite": 65,
+        "latitude": -9.5651,
+        "longitude": -35.78547
+      },
+      {
+        "nome": "PN50987776",
+        "abreviatura": "PN50987776",
+        "endereco": "R. Edgar de Góes de Monteiro, 1661-1681 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 97,
+        "vel_limite": 60,
+        "latitude": -9.56557,
+        "longitude": -35.78239
+      },
+      {
+        "nome": "PN7",
+        "abreviatura": "PN7",
+        "endereco": "Rua Edgar de Góes de Monteiro, 1369-1409 - Clima Bom, Maceió - AL, Brasil",
+        "ordem": 98,
+        "vel_limite": 65,
+        "latitude": -9.56597,
+        "longitude": -35.77955
+      },
+      {
+        "nome": "BR-104",
+        "abreviatura": "BR-104",
+        "endereco": "BR-104, 5124 - Cidade Universitária, Maceió - AL, Brasil",
+        "ordem": 99,
+        "vel_limite": 65,
+        "latitude": -9.56332,
+        "longitude": -35.7785
+      },
+      {
+        "nome": "BR-104 - V",
+        "abreviatura": "BR.104-V",
+        "endereco": "BR-104, 7017 - Santos Dumont, Maceió - AL, Brasil",
+        "ordem": 100,
+        "vel_limite": 65,
+        "latitude": -9.56052,
+        "longitude": -35.77989
+      },
+      {
+        "nome": "ENTRADA DA UFAL",
+        "abreviatura": "ENTR-UFAL",
+        "endereco": "BR-104, 5837 - Santos Dumont, Maceió - AL, Brasil",
+        "ordem": 101,
+        "vel_limite": 65,
+        "latitude": -9.55739,
+        "longitude": -35.78099
+      },
+      {
+        "nome": "UFAL-7",
+        "abreviatura": "UFAL-07",
+        "endereco": "BR-104, 5837, Maceió - AL, República Federativa do Brasil",
+        "ordem": 102,
+        "vel_limite": 65,
+        "latitude": -9.55665,
+        "longitude": -35.7797
+      },
+      {
+        "nome": "Universidade Federal de",
+        "abreviatura": "AlagUoFaAsL.",
+        "endereco": "Universidade Federal de Alagoas - Unnamed Road - Cidade Universitária, Maceió -",
+        "ordem": 103,
+        "vel_limite": 65,
+        "latitude": -9.55516,
+        "longitude": -35.77687
+      },
+      {
+        "nome": "UFAL-3",
+        "abreviatura": "UFAL03",
+        "endereco": "Universidade Federal de Alagoas - Unnamed Road - Cidade Universitária, Maceió -",
+        "ordem": 104,
+        "vel_limite": 65,
+        "latitude": -9.55461,
+        "longitude": -35.77579
+      },
+      {
+        "nome": "UFAL-9",
+        "abreviatura": "UFAL09",
+        "endereco": "Universidade Federal de Alagoas - Unnamed Road - Cidade Universitária, Maceió -",
+        "ordem": 105,
+        "vel_limite": 65,
+        "latitude": -9.55399,
+        "longitude": -35.77457
+      },
+      {
+        "nome": "UFAL...",
+        "abreviatura": "UFAL...",
+        "endereco": "Universidade Federal de Alagoas - Unnamed Road - Cidade Universitária, Maceió -",
+        "ordem": 106,
+        "vel_limite": 65,
+        "latitude": -9.55331,
+        "longitude": -35.77319
+      },
+      {
+        "nome": "UFAL-11",
+        "abreviatura": "UFAL11",
+        "endereco": "Universidade Federal de Alagoas - Unnamed Road - Cidade Universitária, Maceió -",
+        "ordem": 107,
+        "vel_limite": 65,
+        "latitude": -9.55243,
+        "longitude": -35.7715
+      },
+      {
+        "nome": "PN286",
+        "abreviatura": "PN286",
+        "endereco": "Travassa Hailton dos Santos, 868-914 - Cidade Universitária, Maceió - AL,",
+        "ordem": 108,
+        "vel_limite": 65,
+        "latitude": -9.55469,
+        "longitude": -35.76674
+      },
+      {
+        "nome": "PN273",
+        "abreviatura": "PN273",
+        "endereco": "Travassa Hailton dos Santos, 460-556 - Cidade Universitária, Maceió - AL,",
+        "ordem": 109,
+        "vel_limite": 65,
+        "latitude": -9.55304,
+        "longitude": -35.76349
+      },
+      {
+        "nome": "ponto vilagen",
+        "abreviatura": "ponto vilagen",
+        "endereco": "Travassa Hailton dos Santos, 204-250 - Cidade Universitária, Maceió - AL,",
+        "ordem": 110,
+        "vel_limite": 65,
+        "latitude": -9.55185,
+        "longitude": -35.76109
+      },
+      {
+        "nome": "PN3070",
+        "abreviatura": "PN3070",
+        "endereco": "Tv. Haílton dos Santos, 13-43 - Cidade Universitária, Maceió - AL, 57073-480, Brasil",
+        "ordem": 111,
+        "vel_limite": 65,
+        "latitude": -9.55097,
+        "longitude": -35.75947
+      },
+      {
+        "nome": "TER VILLAGE",
+        "abreviatura": "TER VILLAGE",
+        "endereco": "Avenida Alice Carolina, 2-66 - Cidade Universitária, Maceió - AL, 57073-415,",
+        "ordem": 112,
+        "vel_limite": 65,
+        "latitude": -9.55028,
+        "longitude": -35.75937
+      }
+    ]
+  },
+  {
+    "codigo": "0402",
+    "linha": "Circular Bairros II",
+    "nome_ida": "Circular II (Trapiche) Via Ouro Preto",
+    "nome_volta": "",
+    "pontos": [
+      {
+        "nome": "tp trapiche",
+        "abreviatura": "tp trapiche",
+        "endereco": "",
+        "ordem": 1,
+        "vel_limite": 70,
+        "latitude": -9.67417,
+        "longitude": -35.76134
+      },
+      {
+        "nome": "PN576",
+        "abreviatura": "PN576",
+        "endereco": "Av. Sen. Rui Palmeira, 25 - Levada, Maceió - AL, Brasil",
+        "ordem": 2,
+        "vel_limite": 70,
+        "latitude": -9.67358,
+        "longitude": -35.76263
+      },
+      {
+        "nome": "PN204 1",
+        "abreviatura": "PN204 1",
+        "endereco": "R. Dr. Paulo Neto, 90 - Trapiche da Barra, Maceió - AL, 57010-380, Brasil",
+        "ordem": 3,
+        "vel_limite": 70,
+        "latitude": -9.67271,
+        "longitude": -35.76081
+      },
+      {
+        "nome": "PN207",
+        "abreviatura": "PN207",
+        "endereco": "Avenida Siqueira Campos, 1935 - Prado, Maceió - AL, Brasil",
+        "ordem": 4,
+        "vel_limite": 70,
+        "latitude": -9.67174,
+        "longitude": -35.75771
+      },
+      {
+        "nome": "PN208",
+        "abreviatura": "PN208",
+        "endereco": "Avenida Siqueira Campos, 1415-1497 - Prado, Maceió - AL, Brasil",
+        "ordem": 5,
+        "vel_limite": 70,
+        "latitude": -9.67073,
+        "longitude": -35.75431
+      },
+      {
+        "nome": "PN209",
+        "abreviatura": "PN209",
+        "endereco": "Avenida Siqueira Campos, 1211-1263 - Prado, Maceió - AL, Brasil",
+        "ordem": 6,
+        "vel_limite": 70,
+        "latitude": -9.67013,
+        "longitude": -35.75228
+      },
+      {
+        "nome": "PN359",
+        "abreviatura": "PN359",
+        "endereco": "Avenida Siqueira Campos, 1081 - Prado, Maceió - AL, Brasil",
+        "ordem": 7,
+        "vel_limite": 70,
+        "latitude": -9.66953,
+        "longitude": -35.75028
+      },
+      {
+        "nome": "PP39",
+        "abreviatura": "PP39",
+        "endereco": "",
+        "ordem": 8,
+        "vel_limite": 70,
+        "latitude": -9.66887,
+        "longitude": -35.7481
+      },
+      {
+        "nome": "PN128",
+        "abreviatura": "PN128",
+        "endereco": "Rua do Ceará, 462-536 - Prado, Maceió - AL, 57010-350, Brasil",
+        "ordem": 9,
+        "vel_limite": 65,
+        "latitude": -9.66701,
+        "longitude": -35.74751
+      },
+      {
+        "nome": "Casa dos Aquários",
+        "abreviatura": "C.Aquários",
+        "endereco": "Av. Silvestre Péricles de Góes Monteiro, 749 - Levada, Maceió - AL, Brasil",
+        "ordem": 10,
+        "vel_limite": 70,
+        "latitude": -9.66439,
+        "longitude": -35.7445
+      },
+      {
+        "nome": "TS.CENTRO",
+        "abreviatura": "TS.CENTRO",
+        "endereco": "Prado, Maceió - AL, 57020-300, Brasil",
+        "ordem": 11,
+        "vel_limite": 65,
+        "latitude": -9.66573,
+        "longitude": -35.74337
+      },
+      {
+        "nome": "jaraguá1",
+        "abreviatura": "Jaraguá1",
+        "endereco": "R. do Imperador, 108-202 - Centro, Maceió - AL, 57020-670, Brasil",
+        "ordem": 12,
+        "vel_limite": 65,
+        "latitude": -9.66848,
+        "longitude": -35.73371
+      },
+      {
+        "nome": "PN158",
+        "abreviatura": "PN158",
+        "endereco": "R. Buarque de Macedo, 422-432 - Centro, Maceió - AL, 57020-520, Brasil",
+        "ordem": 13,
+        "vel_limite": 60,
+        "latitude": -9.66686,
+        "longitude": -35.73244
+      },
+      {
+        "nome": "SALGADINHO",
+        "abreviatura": "SALGADINHO",
+        "endereco": "Avenida Maceió, 1466-1478 - Jaraguá, Maceió - AL, 57022-080, República",
+        "ordem": 14,
+        "vel_limite": 65,
+        "latitude": -9.66708,
+        "longitude": -35.72843
+      },
+      {
+        "nome": "PN453",
+        "abreviatura": "PN453",
+        "endereco": "Rua Santa Leopoldina, 37-89 - Jaraguá, Maceió - AL, República Federativa do Brasil",
+        "ordem": 15,
+        "vel_limite": 70,
+        "latitude": -9.66647,
+        "longitude": -35.72268
+      },
+      {
+        "nome": "PN450",
+        "abreviatura": "PN450",
+        "endereco": "R. Santos Ferraz, 252 - Poço, Maceió - AL, 57025-040, Brasil",
+        "ordem": 16,
+        "vel_limite": 70,
+        "latitude": -9.66442,
+        "longitude": -35.72125
+      },
+      {
+        "nome": "PN204",
+        "abreviatura": "PN204",
+        "endereco": "R. Alm. Mascarenhas, 276-368 - Pajuçara, Maceió - AL, 57030-010, Brasil",
+        "ordem": 17,
+        "vel_limite": 65,
+        "latitude": -9.66899,
+        "longitude": -35.71665
+      },
+      {
+        "nome": "PN203",
+        "abreviatura": "PN203",
+        "endereco": "R. Ouvidor Batalha, 187 - Pajuçara, Maceió - AL, 57030-130, Brasil",
+        "ordem": 18,
+        "vel_limite": 65,
+        "latitude": -9.66991,
+        "longitude": -35.71825
+      },
+      {
+        "nome": "PN49101511",
+        "abreviatura": "PN49101511",
+        "endereco": "Rua Epaminondas Gracindo, 438-590 - Pajuçara, Maceió - AL, Brasil",
+        "ordem": 19,
+        "vel_limite": 65,
+        "latitude": -9.66974,
+        "longitude": -35.71605
+      },
+      {
+        "nome": "495258754",
+        "abreviatura": "495258754",
+        "endereco": "Rua Jangadeiros Alagoanos 993, Pajuçara, Maceió - Alagoas, 57030-000, Brasil",
+        "ordem": 20,
+        "vel_limite": 50,
+        "latitude": -9.66637,
+        "longitude": -35.71328
+      },
+      {
+        "nome": "PN49101885",
+        "abreviatura": "PN49101885",
+        "endereco": "Rua Jangaderios Alagoanos, 14-200 - Ponta Verde, Maceió - AL, Brasil",
+        "ordem": 21,
+        "vel_limite": 65,
+        "latitude": -9.66369,
+        "longitude": -35.71006
+      },
+      {
+        "nome": "PN457",
+        "abreviatura": "PN457",
+        "endereco": "Rua João Gualberto Pereira do Carmo, 343 - Ponta Verde, Maceió - AL, 57035-270,",
+        "ordem": 22,
+        "vel_limite": 70,
+        "latitude": -9.65983,
+        "longitude": -35.70943
+      },
+      {
+        "nome": "PN458",
+        "abreviatura": "PN458",
+        "endereco": "Rua Professor Sandoval Arroxelas, 226 - Ponta Verde, Maceió - AL, República",
+        "ordem": 23,
+        "vel_limite": 70,
+        "latitude": -9.65892,
+        "longitude": -35.70877
+      },
+      {
+        "nome": "PN459",
+        "abreviatura": "PN459",
+        "endereco": "Rua Professor Sandoval Arroxelas, 630 - Ponta Verde, Maceió - AL, Brasil",
+        "ordem": 24,
+        "vel_limite": 70,
+        "latitude": -9.65897,
+        "longitude": -35.70497
+      },
+      {
+        "nome": "PN460",
+        "abreviatura": "PN460",
+        "endereco": "R. Prof. Sandoval Arroxelas, 814-886 - Ponta Verde, Maceió - AL, Brasil",
+        "ordem": 25,
+        "vel_limite": 70,
+        "latitude": -9.65899,
+        "longitude": -35.70208
+      },
+      {
+        "nome": "PN39",
+        "abreviatura": "PN39",
+        "endereco": "Avenida Álvaro Otacílio 3293, Ponta Verde, Maceió - Alagoas, 57035-180, Brasil",
+        "ordem": 26,
+        "vel_limite": 65,
+        "latitude": -9.65623,
+        "longitude": -35.69853
+      },
+      {
+        "nome": "PN1039",
+        "abreviatura": "PN1039",
+        "endereco": "Av. Dr. Antônio Gomes de Barros, 586 - Jatiúca, Maceió - AL, 57036-001, Brasil",
+        "ordem": 27,
+        "vel_limite": 65,
+        "latitude": -9.65108,
+        "longitude": -35.70633
+      },
+      {
+        "nome": "PN443",
+        "abreviatura": "PN443",
+        "endereco": "Av. Dr. Antônio Gomes de Barros, 651 - Jatiúca, Maceió - AL, 57036-001, Brasil",
+        "ordem": 28,
+        "vel_limite": 70,
+        "latitude": -9.65132,
+        "longitude": -35.7132
+      },
+      {
+        "nome": "SHOPPING IGUATEMI",
+        "abreviatura": "S.IGUATEMI",
+        "endereco": "Avenida Dona Constanca 120b, Jatiúca, Maceió - Alagoas, 57036-370, Brasil",
+        "ordem": 29,
+        "vel_limite": 65,
+        "latitude": -9.64916,
+        "longitude": -35.71403
+      },
+      {
+        "nome": "PN81",
+        "abreviatura": "PN81",
+        "endereco": "Dona Constança, 1700 - Jatiúca, Maceió - AL, 57031-520, República Federativa do",
+        "ordem": 30,
+        "vel_limite": 65,
+        "latitude": -9.64687,
+        "longitude": -35.71205
+      },
+      {
+        "nome": "JC04",
+        "abreviatura": "JC04",
+        "endereco": "R. Cleto Campelo, 169-265 - Jacintinho, Maceió - AL, Brasil",
+        "ordem": 31,
+        "vel_limite": 65,
+        "latitude": -9.64181,
+        "longitude": -35.71803
+      },
+      {
+        "nome": "JC08",
+        "abreviatura": "JC08",
+        "endereco": "Rua Padre Sizenando Silva, 39-105 - Jacintinho, Maceió - AL, 57041-610, República",
+        "ordem": 32,
+        "vel_limite": 65,
+        "latitude": -9.63708,
+        "longitude": -35.71821
+      },
+      {
+        "nome": "JC09",
+        "abreviatura": "JC09",
+        "endereco": "R. Apolônia Rocha dos Santos, 43 - Jacintinho, Maceió - AL, 57041-300, Brasil",
+        "ordem": 33,
+        "vel_limite": 65,
+        "latitude": -9.63574,
+        "longitude": -35.71616
+      },
+      {
+        "nome": "JS03",
+        "abreviatura": "JS03",
+        "endereco": "Av. Juca Sampaio, 1851-1885 - Barro Duro, Maceió - AL, 57046-242, Brasil",
+        "ordem": 34,
+        "vel_limite": 70,
+        "latitude": -9.63291,
+        "longitude": -35.71553
+      },
+      {
+        "nome": "JS05",
+        "abreviatura": "JS05",
+        "endereco": "Av. Juca Sampaio, 2012-2108 - Barro Duro, Maceió - AL, 57046-242, Brasil",
+        "ordem": 35,
+        "vel_limite": 65,
+        "latitude": -9.63079,
+        "longitude": -35.71564
+      },
+      {
+        "nome": "PP6",
+        "abreviatura": "PP6",
+        "endereco": "Av. Juca Sampaio, 2595-2615 - Barro Duro, Maceió - AL, Brasil",
+        "ordem": 36,
+        "vel_limite": 70,
+        "latitude": -9.62638,
+        "longitude": -35.71708
+      },
+      {
+        "nome": "PN112",
+        "abreviatura": "PN112",
+        "endereco": "Av. Gov. Lamenha Filho, 2659-2671 - Feitosa, Maceió - AL, Brasil",
+        "ordem": 37,
+        "vel_limite": 70,
+        "latitude": -9.62704,
+        "longitude": -35.71782
+      },
+      {
+        "nome": "PN113",
+        "abreviatura": "PN113",
+        "endereco": "",
+        "ordem": 38,
+        "vel_limite": 70,
+        "latitude": -9.62677,
+        "longitude": -35.71968
+      },
+      {
+        "nome": "PN114",
+        "abreviatura": "PN114",
+        "endereco": "",
+        "ordem": 39,
+        "vel_limite": 70,
+        "latitude": -9.6267,
+        "longitude": -35.72217
+      },
+      {
+        "nome": "PN115",
+        "abreviatura": "PN115",
+        "endereco": "",
+        "ordem": 40,
+        "vel_limite": 70,
+        "latitude": -9.6275,
+        "longitude": -35.72378
+      },
+      {
+        "nome": "PN116",
+        "abreviatura": "PN116",
+        "endereco": "",
+        "ordem": 41,
+        "vel_limite": 70,
+        "latitude": -9.62965,
+        "longitude": -35.72493
+      },
+      {
+        "nome": "PN117",
+        "abreviatura": "PN117",
+        "endereco": "",
+        "ordem": 42,
+        "vel_limite": 70,
+        "latitude": -9.63343,
+        "longitude": -35.72555
+      },
+      {
+        "nome": "PN118",
+        "abreviatura": "PN118",
+        "endereco": "Av. Gov. Lamenha Filho, 1022-1072 - Feitosa, Maceió - AL, Brasil",
+        "ordem": 43,
+        "vel_limite": 70,
+        "latitude": -9.63639,
+        "longitude": -35.72643
+      },
+      {
+        "nome": "PN119",
+        "abreviatura": "PN119",
+        "endereco": "Av. Gov. Lamenha Filho, 861-867 - Feitosa, Maceió - AL, Brasil",
+        "ordem": 44,
+        "vel_limite": 70,
+        "latitude": -9.63799,
+        "longitude": -35.72732
+      },
+      {
+        "nome": "PN131",
+        "abreviatura": "PN131",
+        "endereco": "Av. Gov. Lamenha Filho, 473-565 - Feitosa, Maceió - AL, Brazil",
+        "ordem": 45,
+        "vel_limite": 70,
+        "latitude": -9.64094,
+        "longitude": -35.72868
+      },
+      {
+        "nome": "PN121",
+        "abreviatura": "PN121",
+        "endereco": "Av. Gov. Lamenha Filho, 55 - Feitosa, Maceió - AL, Brasil",
+        "ordem": 46,
+        "vel_limite": 70,
+        "latitude": -9.64517,
+        "longitude": -35.7285
+      },
+      {
+        "nome": "Ponto da Rodoviaria",
+        "abreviatura": "Ponto da Rodoviaria",
+        "endereco": "R. Santo Antônio, 666 - Feitosa, Maceió - AL, Brazil",
+        "ordem": 47,
+        "vel_limite": 70,
+        "latitude": -9.64551,
+        "longitude": -35.7263
+      },
+      {
+        "nome": "ponto rginaldo",
+        "abreviatura": "pt reginaldo",
+        "endereco": "R. Joaquim Nabuco, 450 - Farol, Maceió - AL, 57051-410, Brasil",
+        "ordem": 48,
+        "vel_limite": 60,
+        "latitude": -9.6486,
+        "longitude": -35.73151
+      },
+      {
+        "nome": "Clinica Cervi",
+        "abreviatura": "C Cervi",
+        "endereco": "Rua Doutor Albino Magalhães, 117 - Farol, Maceió - AL, 57050-080, República",
+        "ordem": 49,
+        "vel_limite": 60,
+        "latitude": -9.6487,
+        "longitude": -35.73273
+      },
+      {
+        "nome": "TP09",
+        "abreviatura": "TP09",
+        "endereco": "BR-104, 5219-5361 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 50,
+        "vel_limite": 70,
+        "latitude": -9.64768,
+        "longitude": -35.73377
+      },
+      {
+        "nome": "TP10",
+        "abreviatura": "TP10",
+        "endereco": "Avenida Fernandes Lima, 714 - Gruta de Lourdes, Maceió - AL, República",
+        "ordem": 51,
+        "vel_limite": 70,
+        "latitude": -9.64461,
+        "longitude": -35.73442
+      },
+      {
+        "nome": "TP11",
+        "abreviatura": "TP11",
+        "endereco": "BR-104, 4263-4375 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 52,
+        "vel_limite": 65,
+        "latitude": -9.6387,
+        "longitude": -35.73558
+      },
+      {
+        "nome": "TP12",
+        "abreviatura": "TP12",
+        "endereco": "Av. Fernandes Lima, 3531-3715 - Gruta de Lourdes, Maceió - AL, Brasil",
+        "ordem": 53,
+        "vel_limite": 70,
+        "latitude": -9.63191,
+        "longitude": -35.7369
+      },
+      {
+        "nome": "PN63",
+        "abreviatura": "PN63",
+        "endereco": "Hospital do Açúcar - Gruta de Lourdes",
+        "ordem": 54,
+        "vel_limite": 70,
+        "latitude": -9.62463,
+        "longitude": -35.73838
+      },
+      {
+        "nome": "PN64",
+        "abreviatura": "PN64",
+        "endereco": "BR-104, 2029-2313 - Gruta de Lourdes, Maceió - AL, República Federativa do Brasil",
+        "ordem": 55,
+        "vel_limite": 70,
+        "latitude": -9.61872,
+        "longitude": -35.7391
+      },
+      {
+        "nome": "PN100",
+        "abreviatura": "PN100",
+        "endereco": "R. Artur Vital da Silva, 317-439 - Gruta de Lourdes, Maceió - AL, 57052-790, Brasil",
+        "ordem": 56,
+        "vel_limite": 70,
+        "latitude": -9.61631,
+        "longitude": -35.73683
+      },
+      {
+        "nome": "PN101",
+        "abreviatura": "PN101",
+        "endereco": "Rua Elói Lemos de França, 119 - Gruta de Lourdes, Maceió - AL, 57052-880, Brasil",
+        "ordem": 57,
+        "vel_limite": 70,
+        "latitude": -9.61582,
+        "longitude": -35.73461
+      },
+      {
+        "nome": "PN104",
+        "abreviatura": "PN104",
+        "endereco": "R. São Francisco, 02 - Ouro Preto, Maceió - AL, Brasil",
+        "ordem": 58,
+        "vel_limite": 70,
+        "latitude": -9.61027,
+        "longitude": -35.73022
+      },
+      {
+        "nome": "PN0108",
+        "abreviatura": "PN0108",
+        "endereco": "R. São Francisco, 924-1008 - Ouro Preto, Maceió - AL, 57062-016, Brasil",
+        "ordem": 59,
+        "vel_limite": 70,
+        "latitude": -9.60562,
+        "longitude": -35.72971
+      },
+      {
+        "nome": "PN 109",
+        "abreviatura": "PN 109",
+        "endereco": "Rua São Francisco, 1139-1185 - Ouro Preto, Maceió - AL, 57062-016, República",
+        "ordem": 60,
+        "vel_limite": 70,
+        "latitude": -9.60435,
+        "longitude": -35.72989
+      },
+      {
+        "nome": "PN110",
+        "abreviatura": "PN110",
+        "endereco": "Rua São Francisco, 1188-1370",
+        "ordem": 61,
+        "vel_limite": 70,
+        "latitude": -9.60294,
+        "longitude": -35.73089
+      },
+      {
+        "nome": "747459",
+        "abreviatura": "747459",
+        "endereco": "R. Camaragibe, 611-643 - Ouro Preto, Maceió - AL, Brasil",
+        "ordem": 62,
+        "vel_limite": 65,
+        "latitude": -9.60208,
+        "longitude": -35.72992
+      },
+      {
+        "nome": "223344",
+        "abreviatura": "223344",
+        "endereco": "R. Boa Vista, 249 - Ouro Preto, Maceió - AL, Brasil",
+        "ordem": 63,
+        "vel_limite": 65,
+        "latitude": -9.60042,
+        "longitude": -35.72936
+      },
+      {
+        "nome": "445566",
+        "abreviatura": "445566",
+        "endereco": "Rua Rio Grande Do Sul 18, Ouro Preto, Maceió - Alagoas, 57046, Brasil",
+        "ordem": 64,
+        "vel_limite": 65,
+        "latitude": -9.60084,
+        "longitude": -35.73074
+      },
+      {
+        "nome": "223366",
+        "abreviatura": "223366",
+        "endereco": "Rua São Francisco 300, Ouro Preto, Maceió - Alagoas, 57046, Brasil",
+        "ordem": 65,
+        "vel_limite": 65,
+        "latitude": -9.60215,
+        "longitude": -35.73147
+      },
+      {
+        "nome": "11111",
+        "abreviatura": "11111",
+        "endereco": "Rua Camaragibe, 259-369 - Ouro Preto, Maceió - AL, República Federativa do",
+        "ordem": 66,
+        "vel_limite": 65,
+        "latitude": -9.60327,
+        "longitude": -35.73217
+      },
+      {
+        "nome": "PN307 1",
+        "abreviatura": "PN307 1",
+        "endereco": "Rua Camaragibe, 838-902 - Gruta de Lourdes, Maceió - AL, República Federativa",
+        "ordem": 67,
+        "vel_limite": 70,
+        "latitude": -9.60508,
+        "longitude": -35.73402
+      },
+      {
+        "nome": "336633",
+        "abreviatura": "336633",
+        "endereco": "R. Camaragibe, 505-627 - Gruta de Lourdes, Maceió - AL, 57045-850, Brasil",
+        "ordem": 68,
+        "vel_limite": 65,
+        "latitude": -9.6065,
+        "longitude": -35.73585
+      },
+      {
+        "nome": "TS FACIMA",
+        "abreviatura": "TS FACIMA",
+        "endereco": "R. Camaragibe, 17-151 - Gruta de Lourdes, Maceió - AL, Brasil",
+        "ordem": 69,
+        "vel_limite": 70,
+        "latitude": -9.60934,
+        "longitude": -35.73922
+      },
+      {
+        "nome": "PN26",
+        "abreviatura": "PN26",
+        "endereco": "IBAMA - Gruta de Lourdes",
+        "ordem": 70,
+        "vel_limite": 75,
+        "latitude": -9.61452,
+        "longitude": -35.73983
+      },
+      {
+        "nome": "PN27",
+        "abreviatura": "PN27",
+        "endereco": "Eletrobras - Gruta de Lourdes",
+        "ordem": 71,
+        "vel_limite": 70,
+        "latitude": -9.6192,
+        "longitude": -35.73928
+      },
+      {
+        "nome": "PN28",
+        "abreviatura": "PN28",
+        "endereco": "Casa Vieira - Gruta de Lourdes",
+        "ordem": 72,
+        "vel_limite": 70,
+        "latitude": -9.6264,
+        "longitude": -35.73828
+      },
+      {
+        "nome": "TS43",
+        "abreviatura": "TS43",
+        "endereco": "Av. Francisco de Menezes, 699-855 - Levada, Maceió - AL, Brasil",
+        "ordem": 73,
+        "vel_limite": 65,
+        "latitude": -9.65552,
+        "longitude": -35.74058
+      },
+      {
+        "nome": "MERCADO PROD",
+        "abreviatura": "MERCADO PROD",
+        "endereco": "Rua Fernandes de Barros 351, Centro, Maceió - Alagoas, 57020-020, Brasil",
+        "ordem": 74,
+        "vel_limite": 60,
+        "latitude": -9.66143,
+        "longitude": -35.74252
+      },
+      {
+        "nome": "PN126",
+        "abreviatura": "PN126",
+        "endereco": "R. Cel. Cahet, 48-70 - Levada, Maceió - AL, 57017-090, Brasil",
+        "ordem": 75,
+        "vel_limite": 65,
+        "latitude": -9.66212,
+        "longitude": -35.74451
+      },
+      {
+        "nome": "PPRAÇASTO.ANTONIO",
+        "abreviatura": "PPRAÇASTO.ANTONIO",
+        "endereco": "R. Santo Antônio, 71 - Ponta Grossa, Maceió - AL, Brasil",
+        "ordem": 76,
+        "vel_limite": 70,
+        "latitude": -9.66236,
+        "longitude": -35.74736
+      },
+      {
+        "nome": "PP18",
+        "abreviatura": "PP18",
+        "endereco": "R. Santo Antônio, 424 - Ponta Grossa, Maceió - AL, 57014-680, Brasil",
+        "ordem": 77,
+        "vel_limite": 70,
+        "latitude": -9.66078,
+        "longitude": -35.75014
+      },
+      {
+        "nome": "PN154",
+        "abreviatura": "PN154",
+        "endereco": "Rua Santo Antônio, 817-859 - Ponta Grossa, Maceió - AL, 57014-680, República",
+        "ordem": 78,
+        "vel_limite": 65,
+        "latitude": -9.659,
+        "longitude": -35.75332
+      },
+      {
+        "nome": "PN235",
+        "abreviatura": "PN235",
+        "endereco": "R. Cabo Réis, 378-518 - Ponta Grossa, Maceió - AL, 57014-260, Brasil",
+        "ordem": 79,
+        "vel_limite": 65,
+        "latitude": -9.65888,
+        "longitude": -35.75476
+      },
+      {
+        "nome": "PN0233",
+        "abreviatura": "PN0233",
+        "endereco": "R. Cabo Réis, 646-836 - Ponta Grossa, Maceió - AL, 57014-260, Brasil",
+        "ordem": 80,
+        "vel_limite": 65,
+        "latitude": -9.66151,
+        "longitude": -35.75675
+      },
+      {
+        "nome": "Cabo Reis",
+        "abreviatura": "Cabo Reis",
+        "endereco": "Rua Cabo Réis, 1020-1102 - Ponta Grossa, Maceió - AL, 57014-260, Brasil",
+        "ordem": 81,
+        "vel_limite": 60,
+        "latitude": -9.66357,
+        "longitude": -35.75767
+      },
+      {
+        "nome": "PN230",
+        "abreviatura": "PN230",
+        "endereco": "Rua Cabo Reis, 1218-1278 - Ponta Grossa, Maceió - AL, 57014-260, República",
+        "ordem": 82,
+        "vel_limite": 65,
+        "latitude": -9.66523,
+        "longitude": -35.75777
+      },
+      {
+        "nome": "PN0231",
+        "abreviatura": "PN0231",
+        "endereco": "R. Cabo Réis, 427 - Ponta Grossa, Maceió - AL, 57014-260, Brasil",
+        "ordem": 83,
+        "vel_limite": 65,
+        "latitude": -9.66785,
+        "longitude": -35.75775
+      },
+      {
+        "nome": "PN488",
+        "abreviatura": "PN488",
+        "endereco": "R. Cabo Réis, 47 - Ponta Grossa, Maceió - AL, 57014-260, Brasil",
+        "ordem": 84,
+        "vel_limite": 70,
+        "latitude": -9.67104,
+        "longitude": -35.757
+      },
+      {
+        "nome": "PN2032",
+        "abreviatura": "PN2032",
+        "endereco": "Avenida Siqueira Campos, 1902-2000 - Prado, Maceió - AL, Brasil",
+        "ordem": 85,
+        "vel_limite": 70,
+        "latitude": -9.67166,
+        "longitude": -35.75795
+      },
+      {
+        "nome": "PN358",
+        "abreviatura": "PN358",
+        "endereco": "Av. Siqueira Campos, 2310 - Prado, Maceió - AL, Brasil",
+        "ordem": 86,
+        "vel_limite": 70,
+        "latitude": -9.67262,
+        "longitude": -35.76138
+      }
+    ]
+  }
+]

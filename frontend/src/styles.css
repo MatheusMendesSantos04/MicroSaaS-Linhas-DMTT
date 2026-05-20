@@ -105,12 +105,19 @@ body {
 .legend-item { display: flex; align-items: center; gap: 4px; }
 .legend-ida::before {
   content: ""; display: inline-block;
-  width: 18px; height: 3px; background: var(--blue); border-radius: 2px;
+  width: 18px; height: 4px; background: #22c55e; border-radius: 2px;
 }
 .legend-volta::before {
   content: ""; display: inline-block;
-  width: 18px; height: 3px; background: var(--orange); border-radius: 2px;
+  width: 18px; height: 4px; background: #1e40af; border-radius: 2px;
 }
+.legend-rua::before {
+  content: ""; display: inline-block;
+  width: 18px; height: 4px; background: #facc15; border-radius: 2px;
+}
+
+/* Cursor crosshair para indicar que o mapa aceita cliques */
+.leaflet-container { cursor: crosshair; }
 
 /* ── Sidebar ── */
 .sidebar {
@@ -173,7 +180,67 @@ body {
 /* ── Busca por rua ── */
 .rua-search-panel { padding-bottom: 16px; }
 
-.search-form { display: flex; gap: 6px; padding: 10px 16px; }
+.search-autocomplete-wrapper { position: relative; padding: 10px 16px 0; }
+
+.search-form { display: flex; gap: 6px; }
+
+.suggest-list {
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 16px; right: 16px;
+  background: #fff;
+  border: 1px solid var(--gray-200);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  list-style: none;
+  z-index: 2000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.suggest-item {
+  padding: 8px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--gray-100);
+}
+.suggest-item:last-child { border-bottom: none; }
+.suggest-item:hover { background: #eff6ff; color: var(--blue); }
+
+/* ── Filtro de horário ── */
+.horario-filter { padding: 0 16px 8px; }
+
+.horario-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.horario-input { max-width: 110px; flex: none; }
+
+.dia-select { font-size: 12px; padding: 5px 6px; max-width: 110px; }
+
+.horario-filter-hint {
+  font-size: 11px;
+  color: var(--gray-400);
+  margin-top: 4px;
+}
+
+.horarios-proximos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.horario-chip-destaque {
+  background: #dbeafe;
+  border-color: var(--blue);
+  color: #1d4ed8;
+  font-weight: 700;
+}
 
 .search-input {
   flex: 1; padding: 6px 10px;
@@ -182,14 +249,10 @@ body {
 }
 .search-input:focus { outline: 2px solid var(--blue); outline-offset: 1px; }
 
-.search-btn {
-  padding: 6px 14px;
-  background: var(--blue); color: #fff;
-  border: none; border-radius: var(--radius);
-  font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap;
+.search-spinner {
+  font-size: 13px; color: var(--gray-400);
+  display: flex; align-items: center; padding: 0 4px;
 }
-.search-btn:disabled { opacity: 0.6; cursor: not-allowed; }
-.search-btn:hover:not(:disabled) { background: #2563eb; }
 
 .result-count { padding: 0 16px 6px; font-size: 12px; color: var(--gray-400); }
 .error-msg { padding: 6px 16px; font-size: 12px; color: var(--red); }
@@ -214,10 +277,127 @@ body {
   font-size: 11px; font-weight: 600;
   padding: 2px 7px; border-radius: 4px;
 }
-.sentido-ida   { background: #dbeafe; color: #1d4ed8; }
-.sentido-volta { background: #ffedd5; color: #c2410c; }
+.sentido-ida   { background: #22c55e; color: #fff; }
+.sentido-volta { background: #1e40af; color: #fff; }
+
+.sentido-btn {
+  border: none; cursor: pointer;
+  transition: filter 0.15s, transform 0.1s;
+}
+.sentido-btn:hover { filter: brightness(0.88); transform: scale(1.05); }
+.sentido-btn:active { transform: scale(0.97); }
 
 .codigo-badge { font-family: monospace; font-size: 10px; opacity: 0.7; font-weight: 400; }
+
+.mapa-contexto {
+  position: absolute;
+  bottom: 56px;
+  right: 12px;
+  z-index: 1000;
+  width: 260px;
+  padding: 10px 12px;
+  background: #1e3a5f;
+  border-left: 3px solid #3b82f6;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+.contexto-titulo {
+  font-size: 11px; font-weight: 700;
+  color: #93c5fd; margin-bottom: 4px;
+  text-transform: uppercase; letter-spacing: 0.04em;
+}
+.contexto-desc {
+  line-height: 1.45; margin-bottom: 8px; color: #cbd5e1;
+}
+.contexto-desc strong { color: #f1f5f9; }
+.contexto-desc em { font-style: normal; color: #facc15; }
+.contexto-btn-ambos {
+  font-size: 11px; font-weight: 600;
+  padding: 3px 10px;
+  background: #2563eb; color: #fff;
+  border: none; border-radius: 3px; cursor: pointer;
+}
+.contexto-btn-ambos:hover { background: #1d4ed8; }
+
+/* ── Horários ── */
+.horarios-panel { border-bottom: 1px solid var(--gray-200); }
+
+.horario-tabs {
+  display: flex;
+  gap: 4px;
+  padding: 8px 16px 0;
+}
+
+.horario-tab {
+  flex: 1;
+  padding: 5px 4px;
+  border: 1px solid var(--gray-200);
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  background: var(--gray-100);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--gray-600);
+  transition: background 0.15s, color 0.15s;
+}
+
+.horario-tab:hover:not(.horario-tab--ativo) { background: var(--gray-200); }
+
+.horario-tab--ativo {
+  background: #fff;
+  color: var(--blue);
+  border-color: var(--gray-200);
+  border-bottom-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.horario-corpo {
+  border: 1px solid var(--gray-200);
+  border-radius: 0 0 6px 6px;
+  margin: 0 16px 12px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.horario-sentido { display: flex; flex-direction: column; gap: 6px; }
+
+.horario-sentido-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.ida-label   { color: #22c55e; }
+.volta-label { color: #1e40af; }
+
+.horario-grade {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.horario-chip {
+  font-size: 12px;
+  font-family: monospace;
+  font-weight: 600;
+  padding: 2px 8px;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  border-radius: 4px;
+  color: var(--gray-800);
+}
+
+.horario-vazio {
+  font-size: 12px;
+  color: var(--gray-400);
+  font-style: italic;
+}
 
 /* ── Map Style Selector ── */
 .map-style-panel { border-bottom: 1px solid var(--gray-200); }

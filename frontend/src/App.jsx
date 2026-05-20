@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import HorariosPanel from "./components/HorariosPanel";
 import ItinerarioPanel from "./components/ItinerarioPanel";
 import LinhaSelector from "./components/LinhaSelector";
 import MapStyleSelector from "./components/MapStyleSelector";
@@ -14,6 +15,8 @@ async function fetchJson(path) {
   return res.json();
 }
 
+const NOMINATIM = "https://nominatim.openstreetmap.org";
+
 export default function App() {
   const [linhas, setLinhas] = useState([]);
   const [selectedLinhaId, setSelectedLinhaId] = useState("");
@@ -24,6 +27,10 @@ export default function App() {
   const [error, setError] = useState("");
   const [mapStyle, setMapStyle] = useState("dark");
   const [geojsonVersion, setGeojsonVersion] = useState(0);
+  const [horarios, setHorarios] = useState(null);
+  const [ruaGeojson, setRuaGeojson] = useState(null);
+  const [externalQuery, setExternalQuery] = useState("");
+  const [linhaContexto, setLinhaContexto] = useState(null);
 
   // Carrega lista de linhas ao montar
   useEffect(() => {
@@ -67,11 +74,47 @@ export default function App() {
       })
       .finally(() => { if (active) setLoading(false); });
 
+    // Horários: busca paralela e independente, falha silenciosa
+    if (selectedLinhaId) {
+      fetchJson(`/horarios/${selectedLinhaId}`)
+        .then((data) => { if (active) setHorarios(data); })
+        .catch(() => { if (active) setHorarios(null); });
+    } else {
+      setHorarios(null);
+    }
+
     return () => { active = false; };
   }, [selectedLinhaId, selectedSentido]);
 
-  function handleSelectLinha(id) {
+  async function handleRuaHighlight(nomeDaRua) {
+    if (!nomeDaRua) { setRuaGeojson(null); return; }
+    try {
+      const url = `${NOMINATIM}/search?q=${encodeURIComponent(nomeDaRua + ", Maceió, AL, Brasil")}&format=geojson&polygon_geojson=1&limit=1&countrycodes=br`;
+      const res = await fetch(url, { headers: { "Accept-Language": "pt-BR" } });
+      const data = await res.json();
+      setRuaGeojson(data.features?.length > 0 ? data : null);
+    } catch { setRuaGeojson(null); }
+  }
+
+  async function handleMapClick(lat, lng) {
+    try {
+      const url = `${NOMINATIM}/reverse?lat=${lat}&lon=${lng}&format=json&accept-language=pt-BR`;
+      const res = await fetch(url);
+      const data = await res.json();
+      const rua = data.address?.road || data.address?.pedestrian || "";
+      if (rua) setExternalQuery(rua);
+    } catch {}
+  }
+
+  function handleSelectLinha(id, sentido) {
     setSelectedLinhaId(id);
+    setRuaGeojson(null);
+    setLinhaContexto(null);
+    if (sentido !== undefined) setSelectedSentido(sentido);
+  }
+
+  function handleContextoAmbos() {
+    if (linhaContexto) handleSelectLinha(linhaContexto.id, "ambos");
   }
 
   return (
@@ -91,15 +134,16 @@ export default function App() {
       />
 
       <div className="app-body">
-        <MapView geojson={geojson} isLinhaSelected={!!selectedLinhaId} linhaId={selectedLinhaId} tileStyle={mapStyle} geojsonVersion={geojsonVersion} />
+        <MapView geojson={geojson} isLinhaSelected={!!selectedLinhaId} linhaId={selectedLinhaId} tileStyle={mapStyle} geojsonVersion={geojsonVersion} ruaGeojson={ruaGeojson} onMapClick={handleMapClick} linhaContexto={linhaContexto} onContextoAmbos={handleContextoAmbos} />
 
         <aside className="sidebar">
           <MapStyleSelector value={mapStyle} onChange={setMapStyle} />
+          <HorariosPanel horarios={horarios} selectedLinhaId={selectedLinhaId} />
           <ItinerarioPanel
             detalheLinha={detalheLinha}
             selectedSentido={selectedSentido}
           />
-          <RuaSearch onSelectLinha={handleSelectLinha} />
+          <RuaSearch onSelectLinha={handleSelectLinha} onRuaHighlight={handleRuaHighlight} externalQuery={externalQuery} onLinhaContexto={setLinhaContexto} />
         </aside>
       </div>
     </div>

@@ -9253,7 +9253,7 @@
         "match": "exato"
       },
       {
-        "via": "AVENIDA ALICE KAROLINE",
+        "via": "AVENIDA ALICE CAROLINE",
         "codigo": "00928",
         "via_pdf": "AV. ALICE KAROLINE",
         "match": "exato"
@@ -23510,7 +23510,7 @@
         "match": "fuzzy_global"
       },
       {
-        "via": "AVENIDA ALICE CAROLINA",
+        "via": "AVENIDA ALICE CAROLINE",
         "codigo": "06585",
         "via_pdf": "AV. ALICE CAROLINA",
         "match": "exato_global"
@@ -24658,7 +24658,7 @@
         "match": "fuzzy_global"
       },
       {
-        "via": "AVENIDA ALICE CAROLINA",
+        "via": "AVENIDA ALICE CAROLINE",
         "codigo": "06585",
         "via_pdf": "AV. ALICE CAROLINA",
         "match": "exato"
@@ -24670,7 +24670,7 @@
         "match": "exato"
       },
       {
-        "via": "AVENIDA ALICE CAROLINA",
+        "via": "AVENIDA ALICE CAROLINE",
         "codigo": "06585",
         "via_pdf": "AV. ALICE CAROLINA",
         "match": "exato"

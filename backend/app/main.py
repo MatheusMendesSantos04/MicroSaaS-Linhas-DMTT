@@ -6,13 +6,17 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .schemas import (
     HealthResponse,
+    HorarioSentido,
+    HorariosLinha,
     LinhaDetalhe,
     LinhasResponse,
     LinhaSummary,
     MetaResponse,
     RuaItem,
     RuaOcorrencia,
+    RuaOcorrenciaHorario,
     RuasPorCodigoResponse,
+    RuasHorarioResponse,
     RuasSearchResponse,
     SentidoData,
 )
@@ -82,11 +86,37 @@ def detalhar_linha(linha_id: str) -> LinhaDetalhe:
     )
 
 
-@app.get("/ruas/search", response_model=RuasSearchResponse)
+@app.get("/ruas/suggest", response_model=list[str])
+def sugerir_rua(
+    q: str = Query(..., min_length=2, description="Prefixo do nome da rua"),
+    limit: int = Query(10, ge=1, le=50),
+) -> list[str]:
+    return data_store.suggest_ruas(q, limit=limit)
+
+
+@app.get("/ruas/search")
 def buscar_rua(
     q: str = Query(..., min_length=1, description="Nome da rua para busca"),
     limit: int = Query(100, ge=1, le=500),
-) -> RuasSearchResponse:
+    horario: str | None = Query(None, description="Filtrar por horário HH:MM"),
+    dia: str = Query("dia_util", description="dia_util | sabado | domingo"),
+    janela: int = Query(20, ge=5, le=60, description="Janela em minutos"),
+):
+    if horario:
+        matches = data_store.search_ruas_horario(q, horario=horario, dia=dia, janela=janela, limit=limit)
+        results = [
+            RuaOcorrenciaHorario(
+                linha_id=line_id,
+                linha_nome=line_name,
+                sentido=sentido,
+                rua=rua_norm,
+                codigo=codigo,
+                horarios_proximos=horarios_proximos,
+            )
+            for line_id, line_name, sentido, rua_norm, codigo, horarios_proximos in matches
+        ]
+        return RuasHorarioResponse(query=q, horario=horario, dia=dia, janela=janela, total=len(results), resultados=results)
+
     matches = data_store.search_ruas(q, limit=limit)
     results = [
         RuaOcorrencia(
@@ -115,6 +145,23 @@ def buscar_por_codigo(codigo: str) -> RuasPorCodigoResponse:
         for line_id, line_name, sentido, via in matches
     ]
     return RuasPorCodigoResponse(codigo=codigo, total=len(results), resultados=results)
+
+
+@app.get("/horarios/{linha_id}", response_model=HorariosLinha)
+def horarios_linha(linha_id: str) -> HorariosLinha:
+    line = data_store.get_line(linha_id)
+    if line is None:
+        raise HTTPException(status_code=404, detail="Linha não encontrada")
+    horarios = data_store.get_horarios(linha_id)
+    if horarios is None:
+        raise HTTPException(status_code=404, detail="Horários não disponíveis para esta linha")
+    return HorariosLinha(
+        linha_id=linha_id,
+        nome=horarios.get("nome", line.nome),
+        dia_util=HorarioSentido(**horarios.get("dia_util", {"ida": [], "volta": []})),
+        sabado=HorarioSentido(**horarios.get("sabado", {"ida": [], "volta": []})),
+        domingo=HorarioSentido(**horarios.get("domingo", {"ida": [], "volta": []})),
+    )
 
 
 @app.get("/geojson/linhas")

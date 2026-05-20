@@ -52,10 +52,10 @@ export default function ItinerarioPanel({ detalheLinha, selectedSentido }) {
       <p className="linha-nome-detalhe">{detalheLinha.nome}</p>
 
       {mostrarIda && (
-        <SentidoSection titulo="→ IDA" ruas={detalheLinha.ida?.ruas} cor="#3b82f6" />
+        <SentidoSection titulo="→ IDA" ruas={detalheLinha.ida?.ruas} cor="#22c55e" />
       )}
       {mostrarVolta && (
-        <SentidoSection titulo="← VOLTA" ruas={detalheLinha.volta?.ruas} cor="#f97316" />
+        <SentidoSection titulo="← VOLTA" ruas={detalheLinha.volta?.ruas} cor="#1e40af" />
       )}
     </div>
   );

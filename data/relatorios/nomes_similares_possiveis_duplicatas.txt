@@ -1,0 +1,514 @@
+================================================================================
+RELATÓRIO 2 — NOMES SIMILARES / POSSÍVEIS DUPLICATAS
+================================================================================
+
+Pares de vias com grafia parecida. Podem ser:
+  - O mesmo logradouro escrito de formas diferentes
+  - Abreviações vs. nome completo
+  - Erros de digitação
+
+Para cada par é exibido o código DMTT (se houver) — se os dois
+tiverem códigos DIFERENTES, podem realmente ser ruas distintas.
+Se um tiver código e o outro não, o sem código pode ser corrigido.
+
+Total de pares suspeitos: 240
+Limiar de similaridade  : 82%
+
+--------------------------------------------------------------------------------
+
+  Similaridade : 89.4%  [diferença mínima de caracteres (possível typo)]
+  Via A : AVENIDA EVILÁSIO SORIANO  [cód. 06615]
+  Via B : AVENUE EVILASIO SORIANO  [cód. 06615]
+
+  Similaridade : 89.3%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA DOUTOR PASSOS DE MIRANDA  [cód. 00088]
+  Via B : RUA DOUTOR PONTES DE MIRANDA  [cód. 00348]
+
+  Similaridade : 89.1%  [similaridade alta (89%)]
+  Via A : AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS  [cód. 00218]
+  Via B : AVENIDA DOUTOR ANTONIOG DE B - AMELIA ROSAS  [cód. 00218]
+
+  Similaridade : 88.9%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA DOUTOR FRANCISCO DE MENEZES  [cód. 00106]
+  Via B : AVENIDA FRANCISCO DE MENEZES  [cód. 06293]
+
+  Similaridade : 88.9%  [uma contém a outra (possível abreviação)]
+  Via A : RUA ESCRITOR PAULINO SANTIAGO  [cód. 00519]
+  Via B : TRAVESSA ESCRITOR PAULINO SANTIAGO  [cód. (sem código)]
+
+  Similaridade : 88.2%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA MENDONÇA JUNIOR - AVENIDA ROTARY  [cód. (sem código)]
+  Via B : AVENIDA MENDONÇA JUNIOR(ROTARY)  [cód. 06583]
+
+  Similaridade : 88.1%  [uma contém a outra (possível abreviação)]
+  Via A : RUA DOUTOR LUIS PONTES DE MIRANDA  [cód. 00012]
+  Via B : RUA LUIS PONTES DE MIRANDA  [cód. 00012]
+
+  Similaridade : 88.1%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA LOURIVAL MELO MOTA  [cód. 00305]
+  Via B : AVENIDA LOURIVAL MELO MOTA - BR 104  [cód. (sem código)]
+
+  Similaridade : 87.9%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA DOUTOR ABELARDO PONTES LIMA  [cód. (sem código)]
+  Via B : RUA DOUTOR ABELARDO PONTES LIMA  [cód. 00151]
+
+  Similaridade : 87.7%  [similaridade alta (88%)]
+  Via A : AVENIDA GOV LAMENHA FILHO  [cód. 00173]
+  Via B : AVENIDA GOVERNADOR LAMENHA FILHO  [cód. 00173]
+
+  Similaridade : 87.7%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA BENEDITO CALAÇA LOUREIRO  [cód. 00701]
+  Via B : AVENIDA BENEDITO LOUREIRO  [cód. 06361]
+
+  Similaridade : 87.5%  [uma contém a outra (possível abreviação)]
+  Via A : RUA CARNAVALESCO JOSÉ TEÓFANES  [cód. 06074]
+  Via B : AVENIDA CARNAVALESCO JOSÉ TEOFANES  [cód. 06153]
+
+  Similaridade : 87.3%  [uma contém a outra (possível abreviação)]
+  Via A : RUA ABELARDO PONTES LIMA  [cód. 00151]
+  Via B : RUA DOUTOR ABELARDO PONTES LIMA  [cód. 00151]
+
+  Similaridade : 87.3%  [uma contém a outra (possível abreviação)]
+  Via A : TRAVESSA PROFESSOR LAURO COSTA  [cód. 00760]
+  Via B : RUA PROFESSOR LAURO COSTA  [cód. 00580]
+
+  Similaridade : 87.2%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA BARÃO DE ATALAIA  [cód. 00204]
+  Via B : RUA BARÃO DE ANADIA  [cód. 00021]
+
+  Similaridade : 87.1%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA PRESIDENTE GETULIO VARGAS  [cód. 06689]
+  Via B : RUA PRESIDENTE GETULIO VARGAS  [cód. 06689]
+
+  Similaridade : 87.1%  [uma contém a outra (possível abreviação)]
+  Via A : RUA ARIOSVALDO PEREIRA CINTRA  [cód. 06133]
+  Via B : AVENIDA ARIOSVALDO PEREIRA CINTRA  [cód. 06079]
+
+  Similaridade : 87.0%  [diferença mínima de caracteres (possível typo)]
+  Via A : TRAVESSA 7 DE SETEMBRO  [cód. 00903]
+  Via B : TRAVESSA SETE DE STEMBRO  [cód. 00903]
+
+  Similaridade : 86.8%  [similaridade alta (87%)]
+  Via A : RUA ESMERALDINHO MARINHO SPÍNDOLA SOBRINHO  [cód. (sem código)]
+  Via B : RUA ESMERALDINAM SPINDOLA SOBRINHO  [cód. 06202]
+
+  Similaridade : 86.8%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA MENDONÇA JUNIOR  [cód. 06583]
+  Via B : AVENIDA MENDONÇA JUNIOR(ROTARY)  [cód. 06583]
+
+  Similaridade : 86.8%  [uma contém a outra (possível abreviação)]
+  Via A : RUA ELIZEU GOMES DE SENA  [cód. 00766]
+  Via B : TRAVESSA ELIZEU GOMES DE SENA  [cód. 00766]
+
+  Similaridade : 86.7%  [uma contém a outra (possível abreviação)]
+  Via A : RUA PROJETADA 920  [cód. 00552]
+  Via B : RUA PROJETADA  [cód. 06315]
+
+  Similaridade : 86.7%  [uma contém a outra (possível abreviação)]
+  Via A : RUA BENEDITO CALAÇA LOUREIRO  [cód. 00701]
+  Via B : AVENIDA BENEDITO CALAÇA LOUREIRO  [cód. 00701]
+
+  Similaridade : 86.7%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA 13 DE MAIO  [cód. 06170]
+  Via B : PRACA 13 DE MAIO  [cód. 06170]
+
+  Similaridade : 86.4%  [diferença mínima de caracteres (possível typo)]
+  Via A : TRAVESSA JOSÉ BARRETO  [cód. 00143]
+  Via B : TRAVESSA TOBIAS BARRETO  [cód. 00080]
+
+  Similaridade : 86.2%  [uma contém a outra (possível abreviação)]
+  Via A : RUA PROFESSOR LAURO COSTA  [cód. 00580]
+  Via B : RUA PROFESSOR LAURO MACHADO COSTA  [cód. 00580]
+
+  Similaridade : 86.2%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA NORMA PIMENTEL DA COSTA  [cód. 06097]
+  Via B : RUA NORMA PIMENTEL DA COSTA  [cód. 06097]
+
+  Similaridade : 86.2%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA SENADOR TEOTÔNIO VILELA  [cód. 00505]
+  Via B : RUA SENADOR TEOTÔNIO VILELA  [cód. 00505]
+
+  Similaridade : 86.2%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA QUATORZE A - CONJ. JOÃO SAMPAIO I  [cód. 06483]
+  Via B : RUA VINTE A - CONJ. JOÃO SAMPAIO I  [cód. 06485]
+
+  Similaridade : 85.7%  [similaridade alta (86%)]
+  Via A : AVENIDA JOSEPHA DE MELO  [cód. 06210]
+  Via B : AVENIDA JOSEFA MELO  [cód. 06522]
+
+  Similaridade : 85.7%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA ARIOSV ALDO PEREIRA CINTRA  [cód. 06133]
+  Via B : AVENIDA ARIOSVALDO PEREIRA CINTRA  [cód. 06079]
+
+  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
+  Via A : LARGO DELMIRO GOUVEIA - ROTARY  [cód. 06350]
+  Via B : LARGO DELMIRO GOUVEIA  [cód. 00568]
+
+  Similaridade : 85.7%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA CONSELHEIRO JOSÉ BEZERRA  [cód. 06576]
+  Via B : RUA CONSELHEIRO JOSÉ BARBOSA  [cód. 06428]
+
+  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
+  Via A : RUA CARLOS GOMES DE BARROS  [cód. 00264]
+  Via B : AVENIDA CARLOS GOMES DE BARROS  [cód. 00264]
+
+  Similaridade : 85.7%  [similaridade alta (86%)]
+  Via A : RUA ILAILDA FELIX DE O SANTOS  [cód. 00606]
+  Via B : REAVESSA INAILDA FELIX DE O SANTOS  [cód. 00606]
+
+  Similaridade : 85.7%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA DO CEARÁ  [cód. 06557]
+  Via B : RUA CEARA  [cód. 00046]
+
+  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
+  Via A : RUA DOUTOR FÁBIO WANDERLEY  [cód. 06127]
+  Via B : AVENIDA DOUTOR FÁBIO WANDERLEY  [cód. 06127]
+
+  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
+  Via A : RUA DOUTOR PONTES DE MIRANDA  [cód. 00348]
+  Via B : RUA PONTES DE MIRANDA  [cód. 00012]
+
+  Similaridade : 85.7%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA DOUTOR LAURO MACHADO COSTA  [cód. (sem código)]
+  Via B : RUA PROFESSOR LAURO MACHADO COSTA  [cód. 00580]
+
+  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
+  Via A : RUA CAPITÃO MARINHO FALCÃO  [cód. 00215]
+  Via B : AVENIDA CAPITAO MARINHO FALCAO  [cód. 00215]
+
+  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA JOSÉ AILTON DOS SANTOS  [cód. 00828]
+  Via B : RUA JOSE AILTON DOS SANTOS  [cód. 00827]
+
+  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
+  Via A : ALAMEDA DOS ANTÚRIOS  [cód. 06637]
+  Via B : AL. DOS ANTÚRIOS  [cód. 06637]
+
+  Similaridade : 85.4%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS  [cód. 00218]
+  Via B : AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS  [cód. 00218]
+
+  Similaridade : 85.2%  [similaridade alta (85%)]
+  Via A : RUA FRANCISCO AFONSO DE MELO  [cód. 00256]
+  Via B : AVENIDA FRANCISCO AFONSO DE MELLO  [cód. 00855]
+
+  Similaridade : 85.2%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA PROFESSOR CLAUDIOM LOUREIRO  [cód. 00038]
+  Via B : AVENIDA PROFESSOR LOUREIRO  [cód. 00038]
+
+  Similaridade : 85.2%  [similaridade alta (85%)]
+  Via A : RUA ROBERTO MASCARENHA BRITO  [cód. 00222]
+  Via B : AVENIDA ROBERTO MASCARENHAS BRITO  [cód. 00222]
+
+  Similaridade : 85.2%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA DEPUTADO SILOÉ TAVARES  [cód. 00452]
+  Via B : RUA DEPUTADO GONÇALO TAVARES  [cód. 00435]
+
+  Similaridade : 85.2%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA DOUTOR PONTES DE MIRANDA  [cód. 00348]
+  Via B : RUA LUIS PONTES DE MIRANDA  [cód. 00012]
+
+  Similaridade : 85.1%  [diferença mínima de caracteres (possível typo)]
+  Via A : AVENIDA BENEDITO BATISTA  [cód. 00608]
+  Via B : AVENIDA BENEDITO BENTES  [cód. 00408]
+
+  Similaridade : 85.1%  [diferença mínima de caracteres (possível typo)]
+  Via A : PRAÇA SENHOR DO BONFIM  [cód. 00207]
+  Via B : TRAVESSA SENHOR DO BONFIM  [cód. 00719]
+
+  Similaridade : 85.1%  [uma contém a outra (possível abreviação)]
+  Via A : RUA DOUTOR BAPTISTA ACCIOLY  [cód. (sem código)]
+  Via B : RUA BAPTISTA ACCIOLY  [cód. 06169]
+
+  Similaridade : 85.1%  [similaridade alta (85%)]
+  Via A : RUA SÁ E ALBUQUERQUE  [cód. 00241]
+  Via B : RUA CASSIANO DE ALBUQUERQUE  [cód. 06174]
+
+  Similaridade : 85.0%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA BARÃO DE ATALAIA  [cód. 00204]
+  Via B : RUA BARÃO DE ALAGOAS  [cód. 00023]
+
+  Similaridade : 85.0%  [uma contém a outra (possível abreviação)]
+  Via A : ESTRADA DO RIO DO MEIO  [cód. 00550]
+  Via B : RUA DO RIO DO MEIO  [cód. 00550]
+
+  Similaridade : 85.0%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA BARÃO DE ALAGOAS  [cód. 00023]
+  Via B : RUA BARÃO DE JARAGUÁ  [cód. 00544]
+
+  Similaridade : 85.0%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA ALTO DA BOA VISTA  [cód. 00105]
+  Via B : RUA ALTO BELA VISTA  [cód. 06312]
+
+  Similaridade : 84.8%  [diferença mínima de caracteres (possível typo)]
+  Via A : TERMINAL CONJUNTO GRACILIANO RAMOS  [cód. 00620]
+  Via B : RUA 54 CONJUNTO GRACILIANO RAMOS  [cód. (sem código)]
+
+  Similaridade : 84.8%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA SANTA MARIANA  [cód. 06144]
+  Via B : RUA SANTA AMÁLIA  [cód. 00668]
+
+  Similaridade : 84.8%  [diferença mínima de caracteres (possível typo)]
+  Via A : VIA PRINCIPAL 2  [cód. (sem código)]
+  Via B : VIA PRINCIPAL DOIS  [cód. (sem código)]
+
+  Similaridade : 84.7%  [uma contém a outra (possível abreviação)]
+  Via A : TERMINAL PARAÍSO DO HORTO  [cód. 06150]
+  Via B : TERMINAL CONJUNTO PARAISO DO HORTO  [cód. 06150]
+
+  Similaridade : 84.7%  [similaridade alta (85%)]
+  Via A : RUA COMENDADOR LUIZ JARDIM FRANCA  [cód. 06076]
+  Via B : RUA COMENDADOR LUIS JARDIM  [cód. (sem código)]
+
+  Similaridade : 84.6%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA SANTA RITA DE CÁSSIA  [cód. 00938]
+  Via B : RUA SANTA RITA DE CÁSSIA  [cód. 06081]
+
+  Similaridade : 84.6%  [diferença mínima de caracteres (possível typo)]
+  Via A : PRACA SAO JOSE  [cód. 06156]
+  Via B : RUA SÃO JOSÉ  [cód. 00102]
+
+  Similaridade : 84.6%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA DA ALEGRIA  [cód. 00389]
+  Via B : RUA DA AREIA  [cód. 06248]
+
+  Similaridade : 84.6%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA SENADOR RUI PALMEIRA  [cód. 00458]
+  Via B : RUA SENADOR RUI PALMEIRA  [cód. 06283]
+
+  Similaridade : 84.6%  [uma contém a outra (possível abreviação)]
+  Via A : RUA DOUTOR LAURO MACHADO COSTA  [cód. (sem código)]
+  Via B : RUA DOUTOR LAURO COSTA  [cód. (sem código)]
+
+  Similaridade : 84.4%  [uma contém a outra (possível abreviação)]
+  Via A : RUA SETE DE SETEMBRO  [cód. 00381]
+  Via B : TRAVESSA SETE DE SETEMBRO  [cód. 00903]
+
+  Similaridade : 84.4%  [similaridade alta (84%)]
+  Via A : RUA COM FIRMO LOPES  [cód. 00943]
+  Via B : RUA COMENDADOR FIRMO LOPES  [cód. 06581]
+
+  Similaridade : 84.4%  [uma contém a outra (possível abreviação)]
+  Via A : RUA VIRGILIO GUEDES  [cód. 00029]
+  Via B : RUA DOUTOR VIRGILIO GUEDES  [cód. 00029]
+
+  Similaridade : 84.2%  [diferença mínima de caracteres (possível typo)]
+  Via A : AVENIDA MOREIRA LIMA  [cód. 00017]
+  Via B : AVENIDA JORGE LIMA  [cód. 00017]
+
+  Similaridade : 84.2%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA SETE DE SETEMBRO  [cód. 00381]
+  Via B : RUA 19 DE SETEMBRO  [cód. 00054]
+
+  Similaridade : 84.2%  [similaridade alta (84%)]
+  Via A : AVENIDA JOSÉ HAILTON DOS SANTOS  [cód. 00926]
+  Via B : RUA JOSE AILTON DOS SANTOS  [cód. 00827]
+
+  Similaridade : 84.2%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA GOVERNADOR AFRANIO LAGES  [cód. 00161]
+  Via B : AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE  [cód. 00161]
+
+  Similaridade : 84.2%  [similaridade alta (84%)]
+  Via A : AVENIDA SENADOR TEOTÔNIO VILELA  [cód. 00505]
+  Via B : RUA SENADOR TEOTÔNIO VIELA  [cód. 00505]
+
+  Similaridade : 84.2%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA B TRINTA E NOVE  [cód. (sem código)]
+  Via B : RUA B TRINTA E OITO  [cód. (sem código)]
+
+  Similaridade : 84.0%  [similaridade alta (84%)]
+  Via A : RUA ENG OTA VIO CABRAL  [cód. 06092]
+  Via B : RUA ENGENHEIRO OTAVIO CABRAL  [cód. 00911]
+
+  Similaridade : 84.0%  [uma contém a outra (possível abreviação)]
+  Via A : RUA DOUTOR MIGUEL OMENA  [cód. 00040]
+  Via B : ACENIDA DOUTOR MIGUEL OMENA  [cód. (sem código)]
+
+  Similaridade : 84.0%  [uma contém a outra (possível abreviação)]
+  Via A : RUA DOUTOR MIGUEL OMENA  [cód. 00040]
+  Via B : AVENIDA DOUTOR MIGUEL OMENA  [cód. (sem código)]
+
+  Similaridade : 84.0%  [diferença mínima de caracteres (possível typo)]
+  Via A : ALAMEDA 101 NORTE - PESCARIA  [cód. 00497]
+  Via B : ALAMEDA 101 NORTE - IPIOCA  [cód. 00498]
+
+  Similaridade : 84.0%  [uma contém a outra (possível abreviação)]
+  Via A : RUA DEPUTADO JOSÉ LAGES  [cód. 06435]
+  Via B : AVENIDA DEPUTADO JOSE LAGES  [cód. 00216]
+
+  Similaridade : 83.9%  [similaridade alta (84%)]
+  Via A : AVENIDA ARYOSVALDO PEREIRA CINTRA  [cód. 06079]
+  Via B : RUA ARIOSVALDO PEREIRA CINTRA  [cód. 06133]
+
+  Similaridade : 83.9%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA SANTA LUZIA  [cód. 00303]
+  Via B : RUA SANTA AMÁLIA  [cód. 00668]
+
+  Similaridade : 83.9%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA SANTA RITA  [cód. 06579]
+  Via B : RUA SANTA MARIANA  [cód. 06144]
+
+  Similaridade : 83.9%  [diferença mínima de caracteres (possível typo)]
+  Via A : AVENIDA CARLOS GOMES DE BARROS  [cód. 00264]
+  Via B : AVENIDA HUMBERTO GOMES DE BARROS  [cód. 06630]
+
+  Similaridade : 83.7%  [diferença mínima de caracteres (possível typo)]
+  Via A : AVENIDA MOREIRA LIMA  [cód. 00017]
+  Via B : AVENIDA MOREIRA E SILVA  [cód. 00125]
+
+  Similaridade : 83.7%  [diferença mínima de caracteres (possível typo)]
+  Via A : AVENIDA CLETO CAMPELO  [cód. 00180]
+  Via B : TRAVESSA CLETO CAMPELO  [cód. 00182]
+
+  Similaridade : 83.7%  [uma contém a outra (possível abreviação)]
+  Via A : RUA PEDRO MONTEIRO  [cód. 00013]
+  Via B : RUA DOUTOR PEDRO MONTEIRO  [cód. 00013]
+
+  Similaridade : 83.7%  [diferença mínima de caracteres (possível typo)]
+  Via A : AVENIDA MONTE CASTELO  [cód. 00050]
+  Via B : TRAVESSA MONTE CASTELO  [cód. 00051]
+
+  Similaridade : 83.7%  [diferença mínima de caracteres (possível typo)]
+  Via A : PRAÇA SENHOR DO BONFIM  [cód. 00207]
+  Via B : VILA SENHOR DO BONFIM  [cód. 00207]
+
+  Similaridade : 83.6%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA HUMBERTO MENDES  [cód. 00208]
+  Via B : AVENIDA DEPUTADO HUMBERTO MENDES  [cód. 00208]
+
+  Similaridade : 83.3%  [diferença mínima de caracteres (possível typo)]
+  Via A : AVENIDA COMENDADOR CALAÇA  [cód. 00205]
+  Via B : AVENIDA COMENDADOR LEÃO  [cód. 00196]
+
+  Similaridade : 83.3%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA JUCA SAMPAIO - MAC 204  [cód. 00718]
+  Via B : AVENIDA JUCA SAMPAIO  [cód. 06515]
+
+  Similaridade : 83.3%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA DO CEARÁ  [cód. 06557]
+  Via B : RUA DO CRAVO  [cód. 00835]
+
+  Similaridade : 83.3%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA DO CEARÁ  [cód. 06557]
+  Via B : RUA DO ARAME  [cód. 06304]
+
+  Similaridade : 83.3%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA DA PRAIA  [cód. 06250]
+  Via B : RUA DA AREIA  [cód. 06248]
+
+  Similaridade : 83.3%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA SÃO JOÃO  [cód. 00472]
+  Via B : RUA SÃO JOSÉ  [cód. 00102]
+
+  Similaridade : 83.3%  [similaridade alta (83%)]
+  Via A : AVENIDA ROBERTO MASCARENHAS BRIO  [cód. 00810]
+  Via B : RUA ROBERTO MASCARENHA BRITO  [cód. 00222]
+
+  Similaridade : 82.9%  [uma contém a outra (possível abreviação)]
+  Via A : TRAVESSA TOBIAS BARRETO  [cód. 00080]
+  Via B : RUA TOBIAS BARRETO  [cód. 00079]
+
+  Similaridade : 82.9%  [uma contém a outra (possível abreviação)]
+  Via A : RUA BONFIM - CLETO CAMPELO  [cód. 00179]
+  Via B : RUA CLETO CAMPELO  [cód. 00179]
+
+  Similaridade : 82.9%  [similaridade alta (83%)]
+  Via A : AV. EMP. LOURIVAL LOBO FERREIRA  [cód. 00577]
+  Via B : AVENIDA EMPRESARIO LOURIVAL LOBO FERREIRA  [cód. 00577]
+
+  Similaridade : 82.8%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA SANTA LUZIA  [cód. 00303]
+  Via B : RUA SANTA RITA  [cód. 06579]
+
+  Similaridade : 82.8%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA SANTA LUZIA  [cód. 00303]
+  Via B : RUA SANTA CRUZ  [cód. 00060]
+
+  Similaridade : 82.8%  [similaridade alta (83%)]
+  Via A : 3 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06640]
+  Via B : SAIDA DO CONJ JARDIM ROYAL  [cód. 06663]
+
+  Similaridade : 82.8%  [similaridade alta (83%)]
+  Via A : 4 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06639]
+  Via B : SAIDA DO CONJ JARDIM ROYAL  [cód. 06663]
+
+  Similaridade : 82.8%  [similaridade alta (83%)]
+  Via A : 5 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06638]
+  Via B : SAIDA DO CONJ JARDIM ROYAL  [cód. 06663]
+
+  Similaridade : 82.6%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA COMENDADOR CALAÇA  [cód. 00205]
+  Via B : RUA COMENDADOR CALAÇA  [cód. 00205]
+
+  Similaridade : 82.6%  [similaridade alta (83%)]
+  Via A : RUA SETE DE SETEMBRO  [cód. 00381]
+  Via B : RUA SETE DE STEMBRO - CENTRO  [cód. 06495]
+
+  Similaridade : 82.6%  [uma contém a outra (possível abreviação)]
+  Via A : TRAVESSA SENHOR DO BONFIM  [cód. 00719]
+  Via B : VILA SENHOR DO BONFIM  [cód. 00207]
+
+  Similaridade : 82.6%  [similaridade alta (83%)]
+  Via A : RUA DOUTOR BAPTISTA ACCIOLY  [cód. (sem código)]
+  Via B : RUA BATISTA ACCIOLY  [cód. 06169]
+
+  Similaridade : 82.6%  [similaridade alta (83%)]
+  Via A : RUA TARCÍSIO DE JESUS  [cód. (sem código)]
+  Via B : RUA OTACÍLIO DES DE JESUS  [cód. (sem código)]
+
+  Similaridade : 82.5%  [diferença mínima de caracteres (possível typo)]
+  Via A : AVENIDA ARYOSVALDO PEREIRA CINTRA  [cód. 06079]
+  Via B : RUA ARIOSV ALDO PEREIRA CINTRA  [cód. 06133]
+
+  Similaridade : 82.5%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA TEN JONH RICHARDOM CORDEIRO  [cód. 06209]
+  Via B : AVENIDA JONH RICHARDSON CORDEIRO  [cód. 06260]
+
+  Similaridade : 82.4%  [similaridade alta (82%)]
+  Via A : RUA DOUTORMILTON HENIO GOUVEIA  [cód. 00631]
+  Via B : AVENIDA DOUTOR MILTON HENIO DE GOUVEIA  [cód. 00631]
+
+  Similaridade : 82.4%  [diferença mínima de caracteres (possível typo)]
+  Via A : ALAMEDA 101 NORTE - PESCARIA  [cód. 00497]
+  Via B : ALAMEDA 101 NORTE - PRATAGY  [cód. 00496]
+
+  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA B TERMINAL OSMAN LOUREIRO  [cód. 00419]
+  Via B : TERMINAL OSMAN LOUREIRO  [cód. 00419]
+
+  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
+  Via A : AVENIDA HUMBERTO MENDES  [cód. 00208]
+  Via B : AVENIDA DEPULTADO HUMBERTO MENDES  [cód. 00208]
+
+  Similaridade : 82.1%  [similaridade alta (82%)]
+  Via A : 1 ROTATORIA - JARDIM ROYAL  [cód. 06444]
+  Via B : 3 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06640]
+
+  Similaridade : 82.1%  [similaridade alta (82%)]
+  Via A : 1 ROTATORIA - JARDIM ROYAL  [cód. 06444]
+  Via B : 4 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06639]
+
+  Similaridade : 82.1%  [similaridade alta (82%)]
+  Via A : 1 ROTATORIA - JARDIM ROYAL  [cód. 06444]
+  Via B : 5 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06638]
+
+  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
+  Via A : TRAVESSA CLETO CAMPELO  [cód. 00182]
+  Via B : RUA CLETO CAMPELO  [cód. 00179]
+
+  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
+  Via A : RUA MIGUEL OMENA  [cód. 00040]
+  Via B : RUA DOUTOR MIGUEL OMENA  [cód. 00040]
+
+  Similaridade : 82.1%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA BARÃO DE ANADIA  [cód. 00021]
+  Via B : RUA BARÃO DE ALAGOAS  [cód. 00023]
+
+  Similaridade : 82.1%  [diferença mínima de caracteres (possível typo)]
+  Via A : RUA BARÃO DE ANADIA  [cód. 00021]
+  Via B : RUA BARÃO DE JARAGUÁ  [cód. 00544]
+
+  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
+  Via A : RUA JOSÉ CORRÊA DE MELO  [cód. 06212]
+  Via B : RUA JOSÉ DE MELO  [cód. 06212]
+

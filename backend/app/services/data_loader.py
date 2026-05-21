@@ -43,9 +43,7 @@ class DataStore:
     def __init__(self, root_dir: Path) -> None:
         self.root_dir = root_dir
         self.paths = {
-            "ida_amostrado": root_dir / "data" / "json" / "dado-tratado" / "IDA_amostrado.json",
-            "volta_amostrado": root_dir / "data" / "json" / "dado-tratado" / "VOLTA_amostrado.json",
-            "itinerario_com_codigos": root_dir / "data" / "json" / "intinerario-com-codigo-rua" / "itinerario_com_codigos.json",
+            "dados_unificados": root_dir / "data" / "json" / "dados_unificados.json",
             "horarios": root_dir / "data" / "json" / "horarios" / "horarios.json",
         }
         self.lines_by_id: Dict[str, UnifiedLine] = {}
@@ -63,67 +61,28 @@ class DataStore:
             return json.load(file)
 
     def _load(self) -> None:
-        ida_data = self._load_json(self.paths["ida_amostrado"])
-        volta_data = self._load_json(self.paths["volta_amostrado"])
-        itinerario_data = self._load_json(self.paths["itinerario_com_codigos"])
+        dados = self._load_json(self.paths["dados_unificados"])
 
-        by_norm_name: Dict[str, UnifiedLine] = {}
-
-        for item in ida_data:
-            name = item.get("linha", "").strip()
-            if not name:
-                continue
-            norm = normalize_text(name)
-            line_id = build_line_id(name)
-            by_norm_name[norm] = UnifiedLine(
+        for nome, sentidos in dados.items():
+            line_id = build_line_id(nome)
+            ida   = sentidos.get("ida",   {})
+            volta = sentidos.get("volta", {})
+            line = UnifiedLine(
                 id=line_id,
-                nome=name,
-                ida_coordenadas=item.get("coordenadas", []),
-                volta_coordenadas=[],
+                nome=nome,
+                ida_coordenadas=ida.get("coordenadas", []),
+                volta_coordenadas=volta.get("coordenadas", []),
+                ida_ruas=[
+                    RuaItem(via=r["via"], codigo=r.get("codigo"), match=r.get("match", ""))
+                    for r in ida.get("ruas", [])
+                ],
+                volta_ruas=[
+                    RuaItem(via=r["via"], codigo=r.get("codigo"), match=r.get("match", ""))
+                    for r in volta.get("ruas", [])
+                ],
             )
-
-        for item in volta_data:
-            name = item.get("linha", "").strip()
-            if not name:
-                continue
-            norm = normalize_text(name)
-            current = by_norm_name.get(norm)
-            if current is None:
-                line_id = build_line_id(name)
-                by_norm_name[norm] = UnifiedLine(
-                    id=line_id,
-                    nome=name,
-                    ida_coordenadas=[],
-                    volta_coordenadas=item.get("coordenadas", []),
-                )
-            else:
-                current.volta_coordenadas = item.get("coordenadas", [])
-
-        for itinerario_key, sentidos in itinerario_data.items():
-            norm = normalize_text(itinerario_key)
-            current = by_norm_name.get(norm)
-            if current is None:
-                line_id = build_line_id(itinerario_key)
-                current = UnifiedLine(
-                    id=line_id,
-                    nome=itinerario_key,
-                    ida_coordenadas=[],
-                    volta_coordenadas=[],
-                )
-                by_norm_name[norm] = current
-
-            current.ida_ruas = [
-                RuaItem(via=r["via"], codigo=r.get("codigo"), match=r.get("match", ""))
-                for r in sentidos.get("ida", [])
-            ]
-            current.volta_ruas = [
-                RuaItem(via=r["via"], codigo=r.get("codigo"), match=r.get("match", ""))
-                for r in sentidos.get("volta", [])
-            ]
-
-        for norm, line in by_norm_name.items():
-            self.lines_by_id[line.id] = line
-            self.line_ids_by_name_norm[norm] = line.id
+            self.lines_by_id[line_id] = line
+            self.line_ids_by_name_norm[normalize_text(nome)] = line_id
 
         horarios_path = self.paths["horarios"]
         if horarios_path.exists():

@@ -1,0 +1,167 @@
+================================================================================
+RELATÓRIO 3 — DIAGNÓSTICO GERAL DE QUALIDADE DOS DADOS
+================================================================================
+
+[ RESUMO EXECUTIVO ]
+
+  Linhas no sistema         : 85
+  Vias únicas indexadas      : 897
+  Vias com código DMTT       : 749 (84%)
+  Vias sem código            : 148 (16%)
+    → Sem código + sem dic   : 148  ← MAIOR PRIORIDADE
+    → Sem código + no dic    : 0  ← código pode ser preenchido
+  Pares com grafia suspeita  : 240
+  Linhas sem coord. IDA      : 2
+  Linhas sem coord. VOLTA    : 2
+  Linhas com anotações       : 2
+
+--------------------------------------------------------------------------------
+[ QUALIDADE DOS MATCHES (como os itinerários foram vinculados ao cadastro) ]
+
+  exato                         2447 ( 53.1%)  ██████████████████████████
+  fuzzy                          765 ( 16.6%)  ████████
+  nao_encontrado                 527 ( 11.4%)  █████
+  exato_global                   396 (  8.6%)  ████
+  exato_sem_complemento          227 (  4.9%)  ██
+  fuzzy_global                   196 (  4.3%)  ██
+  contem                          50 (  1.1%)  
+
+  Total de entradas de itinerário: 4608
+
+  OBS: 'exato' e 'exato_global' = alta confiança.
+       'fuzzy' e 'contem' = precisa verificação humana.
+       'nao_encontrado' = código não achado no cadastro DMTT.
+
+--------------------------------------------------------------------------------
+[ VIAS COM match='nao_encontrado' — CÓDIGO NÃO VALIDADO ]
+
+  O script de geração encontrou um código no PDF mas não conseguiu
+  confirmar no cadastro. Pode ser código digitado errado no PDF.
+
+  RUA FORMOSA [cód. None]  — 0104 - T.I Benedito Bentes / Trapiche (ida); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta); 0108 - Clima Bom via Colina / Trapiche (volta)
+  TERMINAL DE CRUZ DAS ALMAS [cód. None]  — 0041 - Feitosa X Centro / Farol (ida); 0041 - Feitosa X Centro / Farol (volta); 0114 - Cruz das Alamas X Trapiche (ida)
+  AVENIDA DONA CONSTANÇA DE GÓES MONTEIRO [cód. 06348]  — 0114 - Cruz das Alamas X Trapiche (volta); 0116 - José Tenório X Trapiche (volta); 0226 - Ipioca X Trapiche via Poço (volta)
+  AVENIDA LOURIVAL MELO MOTA - BR 104 [cód. None]  — 0612 - Eustáquio Gomes / Jatiúca (ida); 0612 - Eustáquio Gomes / Jatiúca (volta); 0615 - Eustáquio Gomes / Mangabeiras (volta)
+  RUA B TRINTA E OITO [cód. None]  — 0217 - T.I. Benedito Bentes / Mercado (volta); 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar) (ida); 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar) (volta)
+  AVENIDA PRESIDENTE ROOSEVELT [cód. None]  — 0052 - T.I Eustáquio Gomes / Centro (volta); 0110 - Graciliano Ramos / Trapiche (volta); 0117 - Village II / Trapiche (volta)
+  RUA DEZESSEIS DE SETEMBRO [cód. None]  — 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida); 0113 - T.I Eustáquio Gomes / Trapiche (ida); 0116 - José Tenório X Trapiche (ida)
+  RUA COMENDADOR JOSÉ GERALDO DA SILVA [cód. None]  — 0104 - T.I Benedito Bentes / Trapiche (ida); 0110 - Graciliano Ramos / Trapiche (ida); 0110 - Graciliano Ramos / Trapiche (volta)
+  RUA DO SOL [cód. None]  — 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta); 0108 - Clima Bom via Colina / Trapiche (volta); 0113 - T.I Eustáquio Gomes / Trapiche (volta)
+  AVENIDA DOUTOR ABELARDO PONTES LIMA [cód. None]  — 0113 - T.I Eustáquio Gomes / Trapiche (ida); 0113 - T.I Eustáquio Gomes / Trapiche (volta); 0214 - Henrique Equelman / Vergel (ida)
+  RUA JORNALISTA OSÉAS ROSAS [cód. None]  — 0104 - T.I Benedito Bentes / Trapiche (volta); 0108 - Clima Bom via Colina / Trapiche (ida); 0110 - Graciliano Ramos / Trapiche (ida)
+  RUA CORONEL MENDES DA FONSECA [cód. None]  — 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida); 0226 - Ipioca X Trapiche via Poço (ida); 0404 - Trapiche / Novo Mundo (volta)
+  PRAÇA DO PIRULITO [cód. None]  — 0104 - T.I Benedito Bentes / Trapiche (volta); 0110 - Graciliano Ramos / Trapiche (volta); 0116 - José Tenório X Trapiche (volta)
+  RUA JORNALISTA OSEIAS ROSAS [cód. None]  — 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida); 0108 - Clima Bom via Colina / Trapiche (volta); 0116 - José Tenório X Trapiche (ida)
+  RUA CARLOS GUIDO FERRÁRIO LÔBO [cód. None]  — 0108 - Clima Bom via Colina / Trapiche (ida); 0108 - Clima Bom via Colina / Trapiche (volta); 0716 - Clima bom / Ponta Verde (ida)
+  RUA DOUTOR LAURO MACHADO COSTA [cód. None]  — 0114 - Cruz das Alamas X Trapiche (ida); 0114 - Cruz das Alamas X Trapiche (volta); 0504 - Trapiche / São Jorge (volta)
+  RUA B TRINTA E NOVE [cód. None]  — 0217 - T.I. Benedito Bentes / Mercado (ida); 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta) (ida); 0802 - Colina / Benedito Bentes (volta)
+  AVENIDA ROTA DO MAR [cód. None]  — 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar) (ida); 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar) (volta); 0807 - T.I. Benedito Bentes / Aprígio (ida)
+  RETORNO [cód. None]  — 0708 - Cruz das Almas x Ponta Verde (ida); 0719 - Chã nova / Ponta Verde (volta); 0719 - Chã nova / Ponta Verde (volta)
+  RUA SANTOS PACHECO [cód. None]  — 0104 - T.I Benedito Bentes / Trapiche (volta); 0116 - José Tenório X Trapiche (volta); 0226 - Ipioca X Trapiche via Poço (volta)
+  RUA AUGUSTA [cód. None]  — 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta); 0108 - Clima Bom via Colina / Trapiche (volta); 0214 - Henrique Equelman / Vergel (volta)
+  RUA EDUARDO JORGE LOPES NOVAES [cód. None]  — 0108 - Clima Bom via Colina / Trapiche (ida); 0108 - Clima Bom via Colina / Trapiche (volta); 0108 - Clima Bom via Colina / Trapiche (volta)
+  RUA EMANI DA ROCHA CAVALCANTE PASSOS [cód. None]  — 0108 - Clima Bom via Colina / Trapiche (ida); 0108 - Clima Bom via Colina / Trapiche (ida); 0108 - Clima Bom via Colina / Trapiche (volta)
+  RUA GILBERTO VIEIRA LEITE [cód. None]  — 0108 - Clima Bom via Colina / Trapiche (ida); 0108 - Clima Bom via Colina / Trapiche (volta); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+  RUA DOUTOR BAPTISTA ACCIOLY [cód. None]  — 0110 - Graciliano Ramos / Trapiche (volta); 0116 - José Tenório X Trapiche (volta); 0226 - Ipioca X Trapiche via Poço (volta)
+  RUA JORNALISTA LAFAIETE BELO [cód. None]  — 0110 - Graciliano Ramos / Trapiche (volta); 0117 - Village II / Trapiche (volta); 0403 - Trapiche / Ouro Preto (ida)
+  TRAVESSA EULIANA GUIMARÃES SANTOS DE MELO [cód. None]  — 0614 - Trapiche / Mangabeiras (volta); 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (ida); 0707 - Graciliano Ramos / Ponta Verde (ida)
+  TRAVESSA ESCRITOR PAULINO SANTIAGO [cód. None]  — 0700 - Gruta / Ponta Verde / Term. Rotary (volta); 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta) (volta); 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (ida)
+  RUA LUIZ CLEMENTE VASCONCELOS [cód. None]  — 0069 - Clima Bom / Centro (ida); 0108 - Clima Bom via Colina / Trapiche (ida); 0716 - Clima bom / Ponta Verde (ida)
+  RUA DEZENOVE [cód. None]  — 0108 - Clima Bom via Colina / Trapiche (ida); 0108 - Clima Bom via Colina / Trapiche (volta); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+  ... e mais 120 vias
+
+--------------------------------------------------------------------------------
+[ CÓDIGOS DO ITINERÁRIO QUE NÃO EXISTEM NO DICIONÁRIO ]
+
+  Estas vias têm um código preenchido, mas esse código não aparece
+  no dicionario_ruas.json. Pode ser código incorreto ou via nova
+  ainda não cadastrada.
+
+  AVENIDA COMENDADOR GUSTAVO PAIVA                    cód: 00206  (64x)
+  PRAÇA DO CENTENARIO                                 cód: 00121  (63x)
+  AVENIDA ÁLVARO OTACÍLIO                             cód: 00237  (43x)
+  RUA DO COMERCIO                                     cód: 00642  (36x)
+  AVENIDA TOMÁS ESPÍNDOLA                             cód: 00120  (34x)
+  RUA SANTO ANTÔNIO                                   cód: 00282  (33x)
+  AVENIDA VIEIRA PERDIGÃO                             cód: 00475  (32x)
+  AVENIDA COMENDADOR LEÃO                             cód: 00196  (29x)
+  AVENIDA DOM ANTÔNIO BRANDÃO                         cód: 00119  (28x)
+  TERMINAL INTEGRADO EUSTÁQUIO GOMES                  cód: 00526  (28x)
+  TRAVESSA SENHOR DO BONFIM                           cód: 00719  (24x)
+  AVENIDA JUCA SAMPAIO                                cód: 06515  (23x)
+  AVENIDA CACHOEIRA DO MEIRIM                         cód: 06265  (22x)
+  TERMINAL RODOVIARIO DE MACEIO                       cód: 00185  (21x)
+  AVENIDA DONA CONSTANÇA DE GÓES MONTEIRO             cód: 06348  (21x)
+  PARQUE RODOLFO LINS                                 cód: 00412  (18x)
+  AVENIDA GOVERNADOR LAMENHA FILHO                    cód: 00173  (18x)
+  AVENIDA CLETO CAMPELO                               cód: 00180  (17x)
+  AVENIDA GOVERNADOR AFRANIO LAGES                    cód: 00161  (17x)
+  RUA DOUTOR JURACI PEREIRA                           cód: 00145  (16x)
+  RUA SALVADOR CALMON                                 cód: 00210  (15x)
+  RUA DESEMBARGADOR CARLOS DE GUSMÃO                  cód: 00516  (14x)
+  RUA CÔNEGO COSTA                                    cód: 00484  (14x)
+  TRAVESSA PENEDO                                     cód: 00466  (13x)
+  VIADUTO DA PRF                                      cód: 00360  (13x)
+  RUA JOSE GONZAGA DE ALMEIDA                         cód: 00575  (13x)
+  RUA BENJAMIN CONSTANT                               cód: 00511  (13x)
+  RUA ENGENHEIRO MARIO DE GUSMAO                      cód: 00245  (13x)
+  RUA BARÃO DE ANADIA                                 cód: 00021  (12x)
+  RUA ZADIR ÍNDIO                                     cód: 06197  (12x)
+  RUA BARÃO DE ALAGOAS                                cód: 00023  (12x)
+  PRACA GUIMARAES PASSOS                              cód: 06189  (11x)
+  AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE      cód: 00161  (11x)
+  AVENIDA GOV AFRANIO LAGES - LESTE OESTE             cód: 00161  (10x)
+  RUA ITAPUÃ                                          cód: 00191  (10x)
+  RUA DA CODEAL                                       cód: 00551  (10x)
+  AVENIDA JORNALISTA MARCIO CANUTO                    cód: 06167  (10x)
+  ALAMEDA 101 NORTE - GARCA TORTA                     cód: 00480  (10x)
+  ALAMEDA 101 NORTE - GUAXUMA                         cód: 00493  (10x)
+  AVENIDA MUNDAÚ                                      cód: 00407  (10x)
+  ... e mais 369
+
+--------------------------------------------------------------------------------
+[ LINHAS SEM COORDENADAS GPS ]
+
+  Essas linhas não aparecem no mapa (traçado vazio).
+
+  Sem IDA:
+    - 0401 - Circular Bairros I - FALTA FAZER
+    - 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO
+
+  Sem VOLTA:
+    - 0401 - Circular Bairros I - FALTA FAZER
+    - 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO
+
+--------------------------------------------------------------------------------
+[ LINHAS COM ANOTAÇÕES PENDENTES NO NOME ]
+
+  O nome da linha contém palavras como FALTA/PRECISA/REVISAR.
+  Isso indica trabalho pendente e pode aparecer no frontend.
+
+  - 0401 - Circular Bairros I - FALTA FAZER
+  - 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO
+
+--------------------------------------------------------------------------------
+[ RECOMENDAÇÕES POR PRIORIDADE ]
+
+  1. URGENTE — Remover as anotações dos nomes de linha
+     Os nomes com 'FALTA FAZER' e 'PRECISA DE ALTERAÇÃO' aparecem
+     no frontend para o usuário. Corrija ou remova as linhas.
+
+  2. ALTA — Mapear 148 vias sem código e sem dicionário
+     Ver Relatório 1 (parte principal). São vias completamente
+     desconhecidas ao sistema DMTT — buscar o código ou corrigir o nome.
+
+  3. ALTA — Revisar 240 pares de nomes similares
+     Ver Relatório 2. Podem ser o mesmo logradouro com grafia diferente,
+     causando fragmentação nos resultados de busca.
+
+  4. MÉDIA — Verificar 409 códigos sem correspondência no dicionário
+     Pode ser código digitado errado no PDF de origem.
+
+  5. MÉDIA — Completar GPS de 2 linhas sem traçado
+     Sem coordenadas essas linhas existem no sistema mas não
+     aparecem no mapa. Precisam de levantamento em campo.
+
+--------------------------------------------------------------------------------
+Gerado automaticamente por python/gerar_relatorios.py

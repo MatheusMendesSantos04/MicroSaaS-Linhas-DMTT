@@ -196,7 +196,7 @@
         "match": "exato"
       },
       {
-        "via": "AVENIDA GUSTA VO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "fuzzy"
@@ -396,7 +396,7 @@
         "match": "fuzzy_global"
       },
       {
-        "via": "AVENIDA GUSTA VO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "fuzzy"
@@ -1527,7 +1527,7 @@
         "match": "exato"
       },
       {
-        "via": "AVENIDA GUSTA VO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "fuzzy"
@@ -1817,7 +1817,7 @@
         "match": "exato"
       },
       {
-        "via": "AVENIDA GUSTA VO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "fuzzy"
@@ -2340,7 +2340,7 @@
         "match": "exato"
       },
       {
-        "via": "AVENIDA GUSTA VO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "fuzzy"
@@ -2546,7 +2546,7 @@
         "match": "fuzzy"
       },
       {
-        "via": "AVENIDA GUSTA VO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "fuzzy"
@@ -8110,7 +8110,7 @@
         "match": "fuzzy"
       },
       {
-        "via": "AVENIDA GUSTAVO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "exato"
@@ -8442,7 +8442,7 @@
         "match": "nao_encontrado"
       },
       {
-        "via": "RETORNO COMENDADOR GUSTAVO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": null,
         "via_pdf": null,
         "match": "nao_encontrado"
@@ -9158,7 +9158,7 @@
         "match": "fuzzy"
       },
       {
-        "via": "AVENIDA GUSTAVO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "exato"
@@ -10654,7 +10654,7 @@
         "match": "fuzzy"
       },
       {
-        "via": "AVENIDA GUSTAVO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "exato"
@@ -10686,7 +10686,7 @@
         "match": "exato"
       },
       {
-        "via": "AVENIDA GUSTA VO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "fuzzy"
@@ -10799,7 +10799,7 @@
         "match": "fuzzy"
       },
       {
-        "via": "AVENIDA GUSTA VO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "fuzzy"
@@ -11991,7 +11991,7 @@
         "match": "exato"
       },
       {
-        "via": "AVENIDA GUSTA VO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "fuzzy"
@@ -14286,7 +14286,7 @@
         "match": "nao_encontrado"
       },
       {
-        "via": "AVENIDA GUSTAVO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "exato"
@@ -14396,7 +14396,7 @@
         "match": "exato"
       },
       {
-        "via": "AVENIDA GUSTAVO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "exato"
@@ -14426,7 +14426,7 @@
         "match": "exato_global"
       },
       {
-        "via": "AVENIDA GUSTAVO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "exato"
@@ -14713,7 +14713,7 @@
         "match": "fuzzy"
       },
       {
-        "via": "AVENIDA GUSTAVO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "exato"
@@ -14763,7 +14763,7 @@
         "match": "fuzzy"
       },
       {
-        "via": "AVENIDA GUSTAVO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": "00206",
         "via_pdf": "AV. GUSTAVO PAIVA",
         "match": "exato"
@@ -20563,7 +20563,7 @@
         "match": "nao_encontrado"
       },
       {
-        "via": "RETORNO COMENDADOR GUSTAVO PAIVA",
+        "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
         "codigo": null,
         "via_pdf": null,
         "match": "nao_encontrado"

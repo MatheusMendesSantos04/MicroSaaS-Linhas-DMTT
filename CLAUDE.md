@@ -2,7 +2,7 @@
 
 > Este arquivo é lido automaticamente pelo Claude Code em toda sessão.
 > Mantenha-o atualizado após cada sessão de trabalho.
-> Última atualização: 20/05/2026 — Sessão 3 concluída
+> Última atualização: 22/05/2026 — Sessão 4 concluída
 
 ---
 
@@ -90,7 +90,14 @@ MicroSaaS-Linhas-DMTT/
 │       └── linhas.json                    ← 99 linhas identificadas nos XLS de passageiros
 ├── python/
 │   ├── extrair_pontos_pdf.py              ← extrai pontos dos PDFs → pontos.json
-│   └── gerar_kml_pontos.py                ← gera KMLs de IDA/VOLTA a partir de pontos.json
+│   ├── gerar_kml_pontos.py                ← gera KMLs de IDA/VOLTA a partir de pontos.json
+│   ├── gerar_dados_unificados.py          ← une GPS + itinerario_com_codigos → dados_unificados.json
+│   ├── gerar_relatorios.py                ← gera 3 relatórios de qualidade (data/relatorios/)
+│   └── gerar_relatorio_similares.py       ← nomes similares com sugestão de código DMTT
+├── resumo-oso/
+│   ├── sp_relatorio_resumooso.pdf         ← PDF fonte do OSO (22/05/2026)
+│   ├── extrair_resumo_oso.py              ← extrai linhas por tipo de serviço do PDF
+│   └── relatorio_tipos_servico.txt        ← resultado: convencional/catraca/madrugadão por empresa
 └── matrix/
     └── extrair_linhas_xls.py              ← identifica linhas nos arquivos XLS de passageiros
 ```
@@ -121,7 +128,23 @@ MicroSaaS-Linhas-DMTT/
 
 ## Dados principais — formato
 
-### `itinerario_com_codigos.json` (fonte principal do backend)
+### `dados_unificados.json` ← FONTE ATUAL DO BACKEND (gerado por gerar_dados_unificados.py)
+
+```json
+{
+  "0024 - Gruta / Centro / Term. Rotary": {
+    "ida":   { "coordenadas": [[lat, lon], ...], "ruas": [{"via": "...", "codigo": "00834", "match": "exato"}] },
+    "volta": { "coordenadas": [[lat, lon], ...], "ruas": [...] }
+  }
+}
+```
+
+**Regra:** edite sempre este arquivo. Para regenerar a partir das fontes originais, rode `python python/gerar_dados_unificados.py`.
+Após editar o JSON, **reinicie o backend** (uvicorn só recarrega .py, não .json).
+
+---
+
+### `itinerario_com_codigos.json` (fonte original — não mais lida diretamente pelo backend)
 
 ```json
 {
@@ -196,9 +219,18 @@ MicroSaaS-Linhas-DMTT/
 ### Scripts Python
 - [x] `extrair_pontos_pdf.py` — extrai pontos de parada dos PDFs (máquina de estados, filtro Principal=Sim + Ativo=Sim)
 - [x] `gerar_kml_pontos.py` — gera KMLs IDA/VOLTA com LineString + Placemarks individuais
+- [x] `gerar_dados_unificados.py` — une GPS coords + itinerario_com_codigos → `dados_unificados.json` (85 linhas)
+- [x] `gerar_relatorios.py` — gera 3 relatórios de qualidade em `data/relatorios/`
+- [x] `gerar_relatorio_similares.py` — relatório de nomes similares com sugestão de código DMTT
+- [x] `resumo-oso/extrair_resumo_oso.py` — extrai tipos de serviço do PDF OSO via pdfplumber
 - [x] `matrix/extrair_linhas_xls.py` — identifica 99 linhas nos XLS de passageiros
 
 ### Dados gerados
+- [x] `data/json/dados_unificados.json` — 85 linhas com GPS + ruas + códigos em um único arquivo
+- [x] `data/relatorios/ruas_sem_codigo_e_sem_dicionario.txt` — 148 vias sem código e sem dicionário
+- [x] `data/relatorios/nomes_similares_possiveis_duplicatas.txt` — 101 pares similares com sugestão de código
+- [x] `data/relatorios/atencao_geral.txt` — diagnóstico geral de qualidade dos dados
+- [x] `resumo-oso/relatorio_tipos_servico.txt` — 108 linhas: 78 convencional, 2 catraca, 5 madrugadão, 22 integração, 1 cidadã
 - [x] `pontos.json` — 7 atendimentos, 539 pontos com lat/lon
 - [x] `data/kml/pontos_*.kml` — 7 KMLs individuais + 1 com todas as linhas
 - [x] `data/linhas-nomes/linhas.json` — 99 linhas (84 com nome, 15 sem)
@@ -234,6 +266,14 @@ MicroSaaS-Linhas-DMTT/
 
 ## Backlog (próximas fases)
 
+### Qualidade de dados — pendências identificadas (Sessão 4)
+
+- [ ] 148 vias sem código DMTT e sem correspondência no dicionário → ver `data/relatorios/ruas_sem_codigo_e_sem_dicionario.txt`
+- [ ] 22 pares com mesmo código mas grafias diferentes → padronizar no `dados_unificados.json`
+- [ ] 4 pares com sugestão automática de código → ver `data/relatorios/nomes_similares_possiveis_duplicatas.txt`
+- [ ] 2 linhas com anotações pendentes no nome (`FALTA FAZER`, `PRECISA DE ALTERAÇÃO`) → remover ou corrigir
+- [ ] 2 linhas sem coordenadas GPS (IDA e VOLTA) → levantamento em campo
+
 ### Fase 3 — Qualidade e deploy
 - [ ] CORS configurável via variável de ambiente
 - [ ] Criar `.env.example` para backend e frontend
@@ -255,7 +295,8 @@ MicroSaaS-Linhas-DMTT/
 
 - **Não quebrar endpoints existentes** — frontend já consome a API
 - **JSON como fonte de verdade agora** — não criar banco de dados ainda
-- **Itinerário com código** — sempre usar `itinerario_com_codigos.json`, nunca o antigo
+- **Fonte de dados do backend** — `dados_unificados.json` é o único arquivo lido pelo backend. Edite ele, não o `itinerario_com_codigos.json` diretamente
+- **Reiniciar backend após editar JSON** — uvicorn --reload só observa .py; matar e reiniciar o processo para recarregar JSONs
 - **Cores:** IDA = `#22c55e` (verde), VOLTA = `#1e40af` (azul) — manter em tudo
 - **Nominatim** — chamadas feitas direto do frontend, sem passar pelo backend
 - **Sem comentários óbvios** — só comentar o "por quê" quando não for óbvio

@@ -1,514 +1,962 @@
 ================================================================================
-RELATÓRIO 2 — NOMES SIMILARES / POSSÍVEIS DUPLICATAS
+RELATORIO — NOMES SIMILARES COM SUGESTAO DE CODIGO DMTT
 ================================================================================
 
-Pares de vias com grafia parecida. Podem ser:
-  - O mesmo logradouro escrito de formas diferentes
-  - Abreviações vs. nome completo
-  - Erros de digitação
+Total de pares suspeitos : 101
+Limiar de similaridade   : 82%
 
-Para cada par é exibido o código DMTT (se houver) — se os dois
-tiverem códigos DIFERENTES, podem realmente ser ruas distintas.
-Se um tiver código e o outro não, o sem código pode ser corrigido.
+LEGENDA DAS SECOES:
+  [SUGERIR CODIGO]    uma via tem codigo, a outra nao -> atribuir o mesmo
+  [MESMO CODIGO]      ambas ja tem o mesmo codigo -> corrigir a grafia
+  [CODIGOS DIFERENTES] ambas tem codigos distintos -> ruas distintas ou erro
+  [SEM CODIGO]        nenhuma tem codigo -> buscar no cadastro DMTT
 
-Total de pares suspeitos: 240
-Limiar de similaridade  : 82%
+================================================================================
 
+[SUGERIR CODIGO]  4 pares  ← MAIS ACIONAVEIS
 --------------------------------------------------------------------------------
 
-  Similaridade : 89.4%  [diferença mínima de caracteres (possível typo)]
-  Via A : AVENIDA EVILÁSIO SORIANO  [cód. 06615]
-  Via B : AVENUE EVILASIO SORIANO  [cód. 06615]
-
-  Similaridade : 89.3%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA DOUTOR PASSOS DE MIRANDA  [cód. 00088]
-  Via B : RUA DOUTOR PONTES DE MIRANDA  [cód. 00348]
-
-  Similaridade : 89.1%  [similaridade alta (89%)]
-  Via A : AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS  [cód. 00218]
-  Via B : AVENIDA DOUTOR ANTONIOG DE B - AMELIA ROSAS  [cód. 00218]
-
-  Similaridade : 88.9%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA DOUTOR FRANCISCO DE MENEZES  [cód. 00106]
-  Via B : AVENIDA FRANCISCO DE MENEZES  [cód. 06293]
-
-  Similaridade : 88.9%  [uma contém a outra (possível abreviação)]
-  Via A : RUA ESCRITOR PAULINO SANTIAGO  [cód. 00519]
-  Via B : TRAVESSA ESCRITOR PAULINO SANTIAGO  [cód. (sem código)]
-
-  Similaridade : 88.2%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA MENDONÇA JUNIOR - AVENIDA ROTARY  [cód. (sem código)]
-  Via B : AVENIDA MENDONÇA JUNIOR(ROTARY)  [cód. 06583]
-
-  Similaridade : 88.1%  [uma contém a outra (possível abreviação)]
-  Via A : RUA DOUTOR LUIS PONTES DE MIRANDA  [cód. 00012]
-  Via B : RUA LUIS PONTES DE MIRANDA  [cód. 00012]
-
-  Similaridade : 88.1%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA LOURIVAL MELO MOTA  [cód. 00305]
-  Via B : AVENIDA LOURIVAL MELO MOTA - BR 104  [cód. (sem código)]
-
-  Similaridade : 87.9%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA DOUTOR ABELARDO PONTES LIMA  [cód. (sem código)]
-  Via B : RUA DOUTOR ABELARDO PONTES LIMA  [cód. 00151]
-
-  Similaridade : 87.7%  [similaridade alta (88%)]
-  Via A : AVENIDA GOV LAMENHA FILHO  [cód. 00173]
-  Via B : AVENIDA GOVERNADOR LAMENHA FILHO  [cód. 00173]
-
-  Similaridade : 87.7%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA BENEDITO CALAÇA LOUREIRO  [cód. 00701]
-  Via B : AVENIDA BENEDITO LOUREIRO  [cód. 06361]
-
-  Similaridade : 87.5%  [uma contém a outra (possível abreviação)]
-  Via A : RUA CARNAVALESCO JOSÉ TEÓFANES  [cód. 06074]
-  Via B : AVENIDA CARNAVALESCO JOSÉ TEOFANES  [cód. 06153]
-
-  Similaridade : 87.3%  [uma contém a outra (possível abreviação)]
-  Via A : RUA ABELARDO PONTES LIMA  [cód. 00151]
-  Via B : RUA DOUTOR ABELARDO PONTES LIMA  [cód. 00151]
-
-  Similaridade : 87.3%  [uma contém a outra (possível abreviação)]
-  Via A : TRAVESSA PROFESSOR LAURO COSTA  [cód. 00760]
-  Via B : RUA PROFESSOR LAURO COSTA  [cód. 00580]
-
-  Similaridade : 87.2%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA BARÃO DE ATALAIA  [cód. 00204]
-  Via B : RUA BARÃO DE ANADIA  [cód. 00021]
-
-  Similaridade : 87.1%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA PRESIDENTE GETULIO VARGAS  [cód. 06689]
-  Via B : RUA PRESIDENTE GETULIO VARGAS  [cód. 06689]
-
-  Similaridade : 87.1%  [uma contém a outra (possível abreviação)]
-  Via A : RUA ARIOSVALDO PEREIRA CINTRA  [cód. 06133]
-  Via B : AVENIDA ARIOSVALDO PEREIRA CINTRA  [cód. 06079]
-
-  Similaridade : 87.0%  [diferença mínima de caracteres (possível typo)]
-  Via A : TRAVESSA 7 DE SETEMBRO  [cód. 00903]
-  Via B : TRAVESSA SETE DE STEMBRO  [cód. 00903]
-
-  Similaridade : 86.8%  [similaridade alta (87%)]
-  Via A : RUA ESMERALDINHO MARINHO SPÍNDOLA SOBRINHO  [cód. (sem código)]
-  Via B : RUA ESMERALDINAM SPINDOLA SOBRINHO  [cód. 06202]
-
-  Similaridade : 86.8%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA MENDONÇA JUNIOR  [cód. 06583]
-  Via B : AVENIDA MENDONÇA JUNIOR(ROTARY)  [cód. 06583]
-
-  Similaridade : 86.8%  [uma contém a outra (possível abreviação)]
-  Via A : RUA ELIZEU GOMES DE SENA  [cód. 00766]
-  Via B : TRAVESSA ELIZEU GOMES DE SENA  [cód. 00766]
-
-  Similaridade : 86.7%  [uma contém a outra (possível abreviação)]
-  Via A : RUA PROJETADA 920  [cód. 00552]
-  Via B : RUA PROJETADA  [cód. 06315]
-
-  Similaridade : 86.7%  [uma contém a outra (possível abreviação)]
-  Via A : RUA BENEDITO CALAÇA LOUREIRO  [cód. 00701]
-  Via B : AVENIDA BENEDITO CALAÇA LOUREIRO  [cód. 00701]
-
-  Similaridade : 86.7%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA 13 DE MAIO  [cód. 06170]
-  Via B : PRACA 13 DE MAIO  [cód. 06170]
-
-  Similaridade : 86.4%  [diferença mínima de caracteres (possível typo)]
-  Via A : TRAVESSA JOSÉ BARRETO  [cód. 00143]
-  Via B : TRAVESSA TOBIAS BARRETO  [cód. 00080]
-
-  Similaridade : 86.2%  [uma contém a outra (possível abreviação)]
-  Via A : RUA PROFESSOR LAURO COSTA  [cód. 00580]
-  Via B : RUA PROFESSOR LAURO MACHADO COSTA  [cód. 00580]
-
-  Similaridade : 86.2%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA NORMA PIMENTEL DA COSTA  [cód. 06097]
-  Via B : RUA NORMA PIMENTEL DA COSTA  [cód. 06097]
-
-  Similaridade : 86.2%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA SENADOR TEOTÔNIO VILELA  [cód. 00505]
-  Via B : RUA SENADOR TEOTÔNIO VILELA  [cód. 00505]
-
-  Similaridade : 86.2%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA QUATORZE A - CONJ. JOÃO SAMPAIO I  [cód. 06483]
-  Via B : RUA VINTE A - CONJ. JOÃO SAMPAIO I  [cód. 06485]
-
-  Similaridade : 85.7%  [similaridade alta (86%)]
-  Via A : AVENIDA JOSEPHA DE MELO  [cód. 06210]
-  Via B : AVENIDA JOSEFA MELO  [cód. 06522]
-
-  Similaridade : 85.7%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA ARIOSV ALDO PEREIRA CINTRA  [cód. 06133]
-  Via B : AVENIDA ARIOSVALDO PEREIRA CINTRA  [cód. 06079]
-
-  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
-  Via A : LARGO DELMIRO GOUVEIA - ROTARY  [cód. 06350]
-  Via B : LARGO DELMIRO GOUVEIA  [cód. 00568]
-
-  Similaridade : 85.7%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA CONSELHEIRO JOSÉ BEZERRA  [cód. 06576]
-  Via B : RUA CONSELHEIRO JOSÉ BARBOSA  [cód. 06428]
-
-  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
-  Via A : RUA CARLOS GOMES DE BARROS  [cód. 00264]
-  Via B : AVENIDA CARLOS GOMES DE BARROS  [cód. 00264]
-
-  Similaridade : 85.7%  [similaridade alta (86%)]
-  Via A : RUA ILAILDA FELIX DE O SANTOS  [cód. 00606]
-  Via B : REAVESSA INAILDA FELIX DE O SANTOS  [cód. 00606]
-
-  Similaridade : 85.7%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA DO CEARÁ  [cód. 06557]
-  Via B : RUA CEARA  [cód. 00046]
-
-  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
-  Via A : RUA DOUTOR FÁBIO WANDERLEY  [cód. 06127]
-  Via B : AVENIDA DOUTOR FÁBIO WANDERLEY  [cód. 06127]
-
-  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
-  Via A : RUA DOUTOR PONTES DE MIRANDA  [cód. 00348]
-  Via B : RUA PONTES DE MIRANDA  [cód. 00012]
-
-  Similaridade : 85.7%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA DOUTOR LAURO MACHADO COSTA  [cód. (sem código)]
-  Via B : RUA PROFESSOR LAURO MACHADO COSTA  [cód. 00580]
-
-  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
-  Via A : RUA CAPITÃO MARINHO FALCÃO  [cód. 00215]
-  Via B : AVENIDA CAPITAO MARINHO FALCAO  [cód. 00215]
-
-  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA JOSÉ AILTON DOS SANTOS  [cód. 00828]
-  Via B : RUA JOSE AILTON DOS SANTOS  [cód. 00827]
-
-  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
-  Via A : ALAMEDA DOS ANTÚRIOS  [cód. 06637]
-  Via B : AL. DOS ANTÚRIOS  [cód. 06637]
-
-  Similaridade : 85.4%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS  [cód. 00218]
-  Via B : AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS  [cód. 00218]
-
-  Similaridade : 85.2%  [similaridade alta (85%)]
-  Via A : RUA FRANCISCO AFONSO DE MELO  [cód. 00256]
-  Via B : AVENIDA FRANCISCO AFONSO DE MELLO  [cód. 00855]
-
-  Similaridade : 85.2%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA PROFESSOR CLAUDIOM LOUREIRO  [cód. 00038]
-  Via B : AVENIDA PROFESSOR LOUREIRO  [cód. 00038]
-
-  Similaridade : 85.2%  [similaridade alta (85%)]
-  Via A : RUA ROBERTO MASCARENHA BRITO  [cód. 00222]
-  Via B : AVENIDA ROBERTO MASCARENHAS BRITO  [cód. 00222]
-
-  Similaridade : 85.2%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA DEPUTADO SILOÉ TAVARES  [cód. 00452]
-  Via B : RUA DEPUTADO GONÇALO TAVARES  [cód. 00435]
-
-  Similaridade : 85.2%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA DOUTOR PONTES DE MIRANDA  [cód. 00348]
-  Via B : RUA LUIS PONTES DE MIRANDA  [cód. 00012]
-
-  Similaridade : 85.1%  [diferença mínima de caracteres (possível typo)]
-  Via A : AVENIDA BENEDITO BATISTA  [cód. 00608]
-  Via B : AVENIDA BENEDITO BENTES  [cód. 00408]
-
-  Similaridade : 85.1%  [diferença mínima de caracteres (possível typo)]
-  Via A : PRAÇA SENHOR DO BONFIM  [cód. 00207]
-  Via B : TRAVESSA SENHOR DO BONFIM  [cód. 00719]
-
-  Similaridade : 85.1%  [uma contém a outra (possível abreviação)]
-  Via A : RUA DOUTOR BAPTISTA ACCIOLY  [cód. (sem código)]
-  Via B : RUA BAPTISTA ACCIOLY  [cód. 06169]
-
-  Similaridade : 85.1%  [similaridade alta (85%)]
-  Via A : RUA SÁ E ALBUQUERQUE  [cód. 00241]
-  Via B : RUA CASSIANO DE ALBUQUERQUE  [cód. 06174]
-
-  Similaridade : 85.0%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA BARÃO DE ATALAIA  [cód. 00204]
-  Via B : RUA BARÃO DE ALAGOAS  [cód. 00023]
-
-  Similaridade : 85.0%  [uma contém a outra (possível abreviação)]
-  Via A : ESTRADA DO RIO DO MEIO  [cód. 00550]
-  Via B : RUA DO RIO DO MEIO  [cód. 00550]
-
-  Similaridade : 85.0%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA BARÃO DE ALAGOAS  [cód. 00023]
-  Via B : RUA BARÃO DE JARAGUÁ  [cód. 00544]
-
-  Similaridade : 85.0%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA ALTO DA BOA VISTA  [cód. 00105]
-  Via B : RUA ALTO BELA VISTA  [cód. 06312]
-
-  Similaridade : 84.8%  [diferença mínima de caracteres (possível typo)]
-  Via A : TERMINAL CONJUNTO GRACILIANO RAMOS  [cód. 00620]
-  Via B : RUA 54 CONJUNTO GRACILIANO RAMOS  [cód. (sem código)]
-
-  Similaridade : 84.8%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA SANTA MARIANA  [cód. 06144]
-  Via B : RUA SANTA AMÁLIA  [cód. 00668]
-
-  Similaridade : 84.8%  [diferença mínima de caracteres (possível typo)]
-  Via A : VIA PRINCIPAL 2  [cód. (sem código)]
-  Via B : VIA PRINCIPAL DOIS  [cód. (sem código)]
-
-  Similaridade : 84.7%  [uma contém a outra (possível abreviação)]
-  Via A : TERMINAL PARAÍSO DO HORTO  [cód. 06150]
-  Via B : TERMINAL CONJUNTO PARAISO DO HORTO  [cód. 06150]
-
-  Similaridade : 84.7%  [similaridade alta (85%)]
-  Via A : RUA COMENDADOR LUIZ JARDIM FRANCA  [cód. 06076]
-  Via B : RUA COMENDADOR LUIS JARDIM  [cód. (sem código)]
-
-  Similaridade : 84.6%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA SANTA RITA DE CÁSSIA  [cód. 00938]
-  Via B : RUA SANTA RITA DE CÁSSIA  [cód. 06081]
-
-  Similaridade : 84.6%  [diferença mínima de caracteres (possível typo)]
-  Via A : PRACA SAO JOSE  [cód. 06156]
-  Via B : RUA SÃO JOSÉ  [cód. 00102]
-
-  Similaridade : 84.6%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA DA ALEGRIA  [cód. 00389]
-  Via B : RUA DA AREIA  [cód. 06248]
-
-  Similaridade : 84.6%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA SENADOR RUI PALMEIRA  [cód. 00458]
-  Via B : RUA SENADOR RUI PALMEIRA  [cód. 06283]
-
-  Similaridade : 84.6%  [uma contém a outra (possível abreviação)]
-  Via A : RUA DOUTOR LAURO MACHADO COSTA  [cód. (sem código)]
-  Via B : RUA DOUTOR LAURO COSTA  [cód. (sem código)]
-
-  Similaridade : 84.4%  [uma contém a outra (possível abreviação)]
-  Via A : RUA SETE DE SETEMBRO  [cód. 00381]
-  Via B : TRAVESSA SETE DE SETEMBRO  [cód. 00903]
-
-  Similaridade : 84.4%  [similaridade alta (84%)]
-  Via A : RUA COM FIRMO LOPES  [cód. 00943]
-  Via B : RUA COMENDADOR FIRMO LOPES  [cód. 06581]
-
-  Similaridade : 84.4%  [uma contém a outra (possível abreviação)]
-  Via A : RUA VIRGILIO GUEDES  [cód. 00029]
-  Via B : RUA DOUTOR VIRGILIO GUEDES  [cód. 00029]
-
-  Similaridade : 84.2%  [diferença mínima de caracteres (possível typo)]
-  Via A : AVENIDA MOREIRA LIMA  [cód. 00017]
-  Via B : AVENIDA JORGE LIMA  [cód. 00017]
-
-  Similaridade : 84.2%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA SETE DE SETEMBRO  [cód. 00381]
-  Via B : RUA 19 DE SETEMBRO  [cód. 00054]
-
-  Similaridade : 84.2%  [similaridade alta (84%)]
-  Via A : AVENIDA JOSÉ HAILTON DOS SANTOS  [cód. 00926]
-  Via B : RUA JOSE AILTON DOS SANTOS  [cód. 00827]
-
-  Similaridade : 84.2%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA GOVERNADOR AFRANIO LAGES  [cód. 00161]
-  Via B : AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE  [cód. 00161]
-
-  Similaridade : 84.2%  [similaridade alta (84%)]
-  Via A : AVENIDA SENADOR TEOTÔNIO VILELA  [cód. 00505]
-  Via B : RUA SENADOR TEOTÔNIO VIELA  [cód. 00505]
-
-  Similaridade : 84.2%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA B TRINTA E NOVE  [cód. (sem código)]
-  Via B : RUA B TRINTA E OITO  [cód. (sem código)]
-
-  Similaridade : 84.0%  [similaridade alta (84%)]
-  Via A : RUA ENG OTA VIO CABRAL  [cód. 06092]
-  Via B : RUA ENGENHEIRO OTAVIO CABRAL  [cód. 00911]
-
-  Similaridade : 84.0%  [uma contém a outra (possível abreviação)]
-  Via A : RUA DOUTOR MIGUEL OMENA  [cód. 00040]
-  Via B : ACENIDA DOUTOR MIGUEL OMENA  [cód. (sem código)]
-
-  Similaridade : 84.0%  [uma contém a outra (possível abreviação)]
-  Via A : RUA DOUTOR MIGUEL OMENA  [cód. 00040]
-  Via B : AVENIDA DOUTOR MIGUEL OMENA  [cód. (sem código)]
-
-  Similaridade : 84.0%  [diferença mínima de caracteres (possível typo)]
-  Via A : ALAMEDA 101 NORTE - PESCARIA  [cód. 00497]
-  Via B : ALAMEDA 101 NORTE - IPIOCA  [cód. 00498]
-
-  Similaridade : 84.0%  [uma contém a outra (possível abreviação)]
-  Via A : RUA DEPUTADO JOSÉ LAGES  [cód. 06435]
-  Via B : AVENIDA DEPUTADO JOSE LAGES  [cód. 00216]
-
-  Similaridade : 83.9%  [similaridade alta (84%)]
-  Via A : AVENIDA ARYOSVALDO PEREIRA CINTRA  [cód. 06079]
-  Via B : RUA ARIOSVALDO PEREIRA CINTRA  [cód. 06133]
-
-  Similaridade : 83.9%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA SANTA LUZIA  [cód. 00303]
-  Via B : RUA SANTA AMÁLIA  [cód. 00668]
-
-  Similaridade : 83.9%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA SANTA RITA  [cód. 06579]
-  Via B : RUA SANTA MARIANA  [cód. 06144]
-
-  Similaridade : 83.9%  [diferença mínima de caracteres (possível typo)]
-  Via A : AVENIDA CARLOS GOMES DE BARROS  [cód. 00264]
-  Via B : AVENIDA HUMBERTO GOMES DE BARROS  [cód. 06630]
-
-  Similaridade : 83.7%  [diferença mínima de caracteres (possível typo)]
-  Via A : AVENIDA MOREIRA LIMA  [cód. 00017]
-  Via B : AVENIDA MOREIRA E SILVA  [cód. 00125]
-
-  Similaridade : 83.7%  [diferença mínima de caracteres (possível typo)]
-  Via A : AVENIDA CLETO CAMPELO  [cód. 00180]
-  Via B : TRAVESSA CLETO CAMPELO  [cód. 00182]
+Uma das vias ja tem codigo DMTT. A outra parece ser a mesma rua
+escrita de forma diferente. Verifique e, se confirmar, aplique o codigo.
+
+  Similaridade : 88.9%  [mesmas palavras, ordem diferente]
+  ACAO         : Atribuir codigo 00519 ((não encontrado no dicionário)) para "TRAVESSA ESCRITOR PAULINO SANTIAGO"
+  Via A : RUA ESCRITOR PAULINO SANTIAGO
+          codigo=00519  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+  Via B : TRAVESSA ESCRITOR PAULINO SANTIAGO
+          codigo=(sem codigo)  ocorrencias=5
+
+  Similaridade : 87.9%  [mesmas palavras, ordem diferente]
+  ACAO         : Atribuir codigo 00151 (RUA ABELARDO PONTES LIMA) para "AVENIDA DOUTOR ABELARDO PONTES LIMA"
+  Via A : RUA DOUTOR ABELARDO PONTES LIMA
+          codigo=00151  ocorrencias=4
+          nome DMTT: RUA ABELARDO PONTES LIMA
+  Via B : AVENIDA DOUTOR ABELARDO PONTES LIMA
+          codigo=(sem codigo)  ocorrencias=10
+
+  Similaridade : 84.8%  [uma contém a outra (possível abreviação)]
+  ACAO         : Atribuir codigo 00620 (TERMINAL CONJ. GRACILIANO RAMOS) para "RUA 54 CONJUNTO GRACILIANO RAMOS"
+  Via A : TERMINAL CONJUNTO GRACILIANO RAMOS
+          codigo=00620  ocorrencias=8
+          nome DMTT: TERMINAL CONJ. GRACILIANO RAMOS
+  Via B : RUA 54 CONJUNTO GRACILIANO RAMOS
+          codigo=(sem codigo)  ocorrencias=2
+
+  Similaridade : 98.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Atribuir codigo 06202 ((não encontrado no dicionário)) para "RUA ESMERALDINHO MARINHO SPÍNDOLA SOBRINHO"
+  Via A : RUA ESMERALDINHO MARINHO SPÍNDOLA SOBRINHO
+          codigo=(sem codigo)  ocorrencias=3
+  Via B : RUA ESMERALDINO MARINHO SPINDOLA SOBRINHO
+          codigo=06202  ocorrencias=3
+          nome DMTT: (não encontrado no dicionário)
+
+
+================================================================================
+[MESMO CODIGO]  22 pares
+--------------------------------------------------------------------------------
+
+Ambas as vias ja possuem o MESMO codigo DMTT — sao definitivamente
+o mesmo logradouro escrito de duas formas. Padronizar a grafia no itinerario.
+
+  Similaridade : 96.8%  [uma contém a outra (possível abreviação)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: (não encontrado no dicionário)
+          (ambas usam codigo 00601)
+  Via A : TERMINAL CONJUNTO JOAO SAMPAIO I
+          codigo=00601  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+  Via B : TERMINAL CONJUNTO JOAO SAMPAIO
+          codigo=00601  ocorrencias=4
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 96.6%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: (não encontrado no dicionário)
+          (ambas usam codigo 00506)
+  Via A : RUA P - CONJ HENRIQUE HEQUELMAN
+          codigo=00506  ocorrencias=3
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA J - CONJ HENRIQUE HEQUELMAN
+          codigo=00506  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 96.4%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: (não encontrado no dicionário)
+          (ambas usam codigo 00577)
+  Via A : AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA
+          codigo=00577  ocorrencias=15
+          nome DMTT: (não encontrado no dicionário)
+  Via B : AVENIDA EMPRESÁRIO LOURIVAL LOBO FERREIRA
+          codigo=00577  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 95.4%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: (não encontrado no dicionário)
+          (ambas usam codigo 00684)
+  Via A : AVENIDA DOUTOR ANDRÉ PAPINE GÓISS
+          codigo=00684  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+  Via B : AVENIDA DOUTOR ANDRÉ PAPINI GÓIS
+          codigo=00684  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 94.8%  [alta similaridade (95%)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+          (ambas usam codigo 00218)
+  Via A : AVENIDA DOUTOR ANTONIOG DE BARROS - AMELIA ROSAS
+          codigo=00218  ocorrencias=2
+          nome DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+  Via B : AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS
+          codigo=00218  ocorrencias=1
+          nome DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+
+  Similaridade : 94.3%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: (não encontrado no dicionário)
+          (ambas usam codigo 00543)
+  Via A : RUA EMANI ROCHA CAVALCANTE PASSOS
+          codigo=00543  ocorrencias=6
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA ERMANI DA ROCHA CAVALCANTE PASSOS
+          codigo=00543  ocorrencias=9
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 93.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: RUA PERIMETRAL 2
+          (ambas usam codigo 06653)
+  Via A : RUA PERIMETRAL 4
+          codigo=06653  ocorrencias=6
+          nome DMTT: RUA PERIMETRAL 2
+  Via B : RUA PERIMETRAL 2
+          codigo=06653  ocorrencias=5
+          nome DMTT: RUA PERIMETRAL 2
+
+  Similaridade : 92.7%  [uma contém a outra (possível abreviação)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: (não encontrado no dicionário)
+          (ambas usam codigo 00631)
+  Via A : AVENIDA DOUTOR MILTON HENIO DE GOUVEIA
+          codigo=00631  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+  Via B : AVENIDA DOUTOR MILTON HÊNIO NETTO DE GOUVEIA
+          codigo=00631  ocorrencias=4
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 90.8%  [mesmas palavras, ordem diferente]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+          (ambas usam codigo 00218)
+  Via A : AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS - AMELIA ROSAS - AMELIA ROSAS
+          codigo=00218  ocorrencias=4
+          nome DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+  Via B : AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS - AMELIA ROSAS
+          codigo=00218  ocorrencias=2
+          nome DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+
+  Similaridade : 89.7%  [mesmas palavras, ordem diferente]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: AVENIDA GOV . LUIZ CA V ALCANTE
+          (ambas usam codigo 00267)
+  Via A : TRAVESSA GOVERNADOR LUIZ CAVALCANTE
+          codigo=00267  ocorrencias=8
+          nome DMTT: AVENIDA GOV . LUIZ CA V ALCANTE
+  Via B : AVENIDA TRAVESSA GOVERNADOR LUIZ CAVALCANTE
+          codigo=00267  ocorrencias=1
+          nome DMTT: AVENIDA GOV . LUIZ CA V ALCANTE
+
+  Similaridade : 89.4%  [uma contém a outra (possível abreviação)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: (não encontrado no dicionário)
+          (ambas usam codigo 00240)
+  Via A : AVENIDA CICERO TOLEDO
+          codigo=00240  ocorrencias=3
+          nome DMTT: (não encontrado no dicionário)
+  Via B : AVENIDA INDI. CICERO TOLEDO
+          codigo=00240  ocorrencias=8
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 88.7%  [mesmas palavras, ordem diferente]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+          (ambas usam codigo 00218)
+  Via A : AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS - AMELIA ROSAS
+          codigo=00218  ocorrencias=2
+          nome DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+  Via B : AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS
+          codigo=00218  ocorrencias=1
+          nome DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+
+  Similaridade : 87.1%  [mesmas palavras, ordem diferente]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: RUA PRESIDENTE GETULIO V ARGAS
+          (ambas usam codigo 06689)
+  Via A : AVENIDA PRESIDENTE GETULIO VARGAS
+          codigo=06689  ocorrencias=16
+          nome DMTT: RUA PRESIDENTE GETULIO V ARGAS
+  Via B : RUA PRESIDENTE GETULIO VARGAS
+          codigo=06689  ocorrencias=1
+          nome DMTT: RUA PRESIDENTE GETULIO V ARGAS
+
+  Similaridade : 86.8%  [mesmas palavras, ordem diferente]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: (não encontrado no dicionário)
+          (ambas usam codigo 00766)
+  Via A : RUA ELIZEU GOMES DE SENA
+          codigo=00766  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+  Via B : TRAVESSA ELIZEU GOMES DE SENA
+          codigo=00766  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 86.7%  [mesmas palavras, ordem diferente]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: (não encontrado no dicionário)
+          (ambas usam codigo 06170)
+  Via A : RUA 13 DE MAIO
+          codigo=06170  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+  Via B : PRACA 13 DE MAIO
+          codigo=06170  ocorrencias=9
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 86.2%  [mesmas palavras, ordem diferente]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: AVENIDA SENADOR TEOTONIO VILELA
+          (ambas usam codigo 00505)
+  Via A : AVENIDA SENADOR TEOTÔNIO VILELA
+          codigo=00505  ocorrencias=5
+          nome DMTT: AVENIDA SENADOR TEOTONIO VILELA
+  Via B : RUA SENADOR TEOTÔNIO VILELA
+          codigo=00505  ocorrencias=3
+          nome DMTT: AVENIDA SENADOR TEOTONIO VILELA
+
+  Similaridade : 85.7%  [mesmas palavras, ordem diferente]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: RUA DOUTOR FÁBIO WANDERLEY
+          (ambas usam codigo 06127)
+  Via A : RUA DOUTOR FÁBIO WANDERLEY
+          codigo=06127  ocorrencias=27
+          nome DMTT: RUA DOUTOR FÁBIO WANDERLEY
+  Via B : AVENIDA DOUTOR FABIO WANDERLEY
+          codigo=06127  ocorrencias=1
+          nome DMTT: RUA DOUTOR FÁBIO WANDERLEY
+
+  Similaridade : 84.2%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: AVENIDA MOREIRA LIMA
+          (ambas usam codigo 00017)
+  Via A : AVENIDA MOREIRA LIMA
+          codigo=00017  ocorrencias=20
+          nome DMTT: AVENIDA MOREIRA LIMA
+  Via B : AVENIDA JORGE LIMA
+          codigo=00017  ocorrencias=4
+          nome DMTT: AVENIDA MOREIRA LIMA
 
   Similaridade : 83.7%  [uma contém a outra (possível abreviação)]
-  Via A : RUA PEDRO MONTEIRO  [cód. 00013]
-  Via B : RUA DOUTOR PEDRO MONTEIRO  [cód. 00013]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: PRAÇA SENHOR DO BONFIM
+          (ambas usam codigo 00207)
+  Via A : PRAÇA SENHOR DO BONFIM
+          codigo=00207  ocorrencias=27
+          nome DMTT: PRAÇA SENHOR DO BONFIM
+  Via B : VILA SENHOR DO BONFIM
+          codigo=00207  ocorrencias=6
+          nome DMTT: PRAÇA SENHOR DO BONFIM
 
-  Similaridade : 83.7%  [diferença mínima de caracteres (possível typo)]
-  Via A : AVENIDA MONTE CASTELO  [cód. 00050]
-  Via B : TRAVESSA MONTE CASTELO  [cód. 00051]
-
-  Similaridade : 83.7%  [diferença mínima de caracteres (possível typo)]
-  Via A : PRAÇA SENHOR DO BONFIM  [cód. 00207]
-  Via B : VILA SENHOR DO BONFIM  [cód. 00207]
-
-  Similaridade : 83.6%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA HUMBERTO MENDES  [cód. 00208]
-  Via B : AVENIDA DEPUTADO HUMBERTO MENDES  [cód. 00208]
-
-  Similaridade : 83.3%  [diferença mínima de caracteres (possível typo)]
-  Via A : AVENIDA COMENDADOR CALAÇA  [cód. 00205]
-  Via B : AVENIDA COMENDADOR LEÃO  [cód. 00196]
-
-  Similaridade : 83.3%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA JUCA SAMPAIO - MAC 204  [cód. 00718]
-  Via B : AVENIDA JUCA SAMPAIO  [cód. 06515]
-
-  Similaridade : 83.3%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA DO CEARÁ  [cód. 06557]
-  Via B : RUA DO CRAVO  [cód. 00835]
-
-  Similaridade : 83.3%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA DO CEARÁ  [cód. 06557]
-  Via B : RUA DO ARAME  [cód. 06304]
-
-  Similaridade : 83.3%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA DA PRAIA  [cód. 06250]
-  Via B : RUA DA AREIA  [cód. 06248]
-
-  Similaridade : 83.3%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA SÃO JOÃO  [cód. 00472]
-  Via B : RUA SÃO JOSÉ  [cód. 00102]
-
-  Similaridade : 83.3%  [similaridade alta (83%)]
-  Via A : AVENIDA ROBERTO MASCARENHAS BRIO  [cód. 00810]
-  Via B : RUA ROBERTO MASCARENHA BRITO  [cód. 00222]
+  Similaridade : 83.6%  [alta similaridade (84%)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+          (ambas usam codigo 00218)
+  Via A : AVENIDA DOUTOR ANTONIOG DE BARROS - AMELIA ROSAS
+          codigo=00218  ocorrencias=2
+          nome DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
+  Via B : AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS - AMELIA ROSAS
+          codigo=00218  ocorrencias=2
+          nome DMTT: AVENIDA DOUTOR ANTONIO G. DE B. - AMÉLIA ROSAS
 
   Similaridade : 82.9%  [uma contém a outra (possível abreviação)]
-  Via A : TRAVESSA TOBIAS BARRETO  [cód. 00080]
-  Via B : RUA TOBIAS BARRETO  [cód. 00079]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: RUA BONFIM - CLETO CAMPELO
+          (ambas usam codigo 00179)
+  Via A : RUA BONFIM - CLETO CAMPELO
+          codigo=00179  ocorrencias=6
+          nome DMTT: RUA BONFIM - CLETO CAMPELO
+  Via B : RUA CLETO CAMPELO
+          codigo=00179  ocorrencias=4
+          nome DMTT: RUA BONFIM - CLETO CAMPELO
 
-  Similaridade : 82.9%  [uma contém a outra (possível abreviação)]
-  Via A : RUA BONFIM - CLETO CAMPELO  [cód. 00179]
-  Via B : RUA CLETO CAMPELO  [cód. 00179]
+  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
+  ACAO         : Padronizar grafia para o nome canônico DMTT: RUA JOSÉ DE MELO
+          (ambas usam codigo 06212)
+  Via A : RUA JOSÉ CORRÊA DE MELO
+          codigo=06212  ocorrencias=1
+          nome DMTT: RUA JOSÉ DE MELO
+  Via B : RUA JOSÉ DE MELO
+          codigo=06212  ocorrencias=3
+          nome DMTT: RUA JOSÉ DE MELO
 
-  Similaridade : 82.9%  [similaridade alta (83%)]
-  Via A : AV. EMP. LOURIVAL LOBO FERREIRA  [cód. 00577]
-  Via B : AVENIDA EMPRESARIO LOURIVAL LOBO FERREIRA  [cód. 00577]
 
-  Similaridade : 82.8%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA SANTA LUZIA  [cód. 00303]
-  Via B : RUA SANTA RITA  [cód. 06579]
+================================================================================
+[CODIGOS DIFERENTES]  69 pares
+--------------------------------------------------------------------------------
 
-  Similaridade : 82.8%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA SANTA LUZIA  [cód. 00303]
-  Via B : RUA SANTA CRUZ  [cód. 00060]
+Ambas tem codigos DMTT distintos. Podem ser ruas realmente diferentes
+com nomes parecidos, OU um dos codigos esta errado. Requer verificacao manual.
 
-  Similaridade : 82.8%  [similaridade alta (83%)]
-  Via A : 3 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06640]
-  Via B : SAIDA DO CONJ JARDIM ROYAL  [cód. 06663]
+  Similaridade : 98.0%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06341 ((não encontrado no dicionário)) vs cod 06340 ((não encontrado no dicionário))
+  Via A : JARDIM ROYAL ROTATORIA III
+          codigo=06341  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : JARDIM ROYAL ROTATORIA II
+          codigo=06340  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
 
-  Similaridade : 82.8%  [similaridade alta (83%)]
-  Via A : 4 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06639]
-  Via B : SAIDA DO CONJ JARDIM ROYAL  [cód. 06663]
+  Similaridade : 98.0%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06344 ((não encontrado no dicionário)) vs cod 06343 ((não encontrado no dicionário))
+  Via A : NOVO JARDIM ROTATORIA III
+          codigo=06344  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : NOVO JARDIM ROTATORIA II
+          codigo=06343  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
 
-  Similaridade : 82.8%  [similaridade alta (83%)]
-  Via A : 5 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06638]
-  Via B : SAIDA DO CONJ JARDIM ROYAL  [cód. 06663]
+  Similaridade : 96.9%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06640 ((não encontrado no dicionário)) vs cod 06639 ((não encontrado no dicionário))
+  Via A : 3 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06640  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+  Via B : 4 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06639  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 96.9%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06640 ((não encontrado no dicionário)) vs cod 06638 ((não encontrado no dicionário))
+  Via A : 3 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06640  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+  Via B : 5 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06638  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 96.9%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06639 ((não encontrado no dicionário)) vs cod 06638 ((não encontrado no dicionário))
+  Via A : 4 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06639  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+  Via B : 5 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06638  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 96.6%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06531 ((não encontrado no dicionário)) vs cod 06532 ((não encontrado no dicionário))
+  Via A : VIA PRINCIPAL CONJ MACEIO I - A
+          codigo=06531  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : VIA PRINCIPAL CONJ MACEIO I - B
+          codigo=06532  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 96.0%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06662 ((não encontrado no dicionário)) vs cod 06340 ((não encontrado no dicionário))
+  Via A : JARDIM ROYAL ROTATORIA IV
+          codigo=06662  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : JARDIM ROYAL ROTATORIA II
+          codigo=06340  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 95.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06345 ((não encontrado no dicionário)) vs cod 06343 ((não encontrado no dicionário))
+  Via A : NOVO JARDIM ROTATORIA IV
+          codigo=06345  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : NOVO JARDIM ROTATORIA II
+          codigo=06343  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 94.1%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06662 ((não encontrado no dicionário)) vs cod 06341 ((não encontrado no dicionário))
+  Via A : JARDIM ROYAL ROTATORIA IV
+          codigo=06662  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : JARDIM ROYAL ROTATORIA III
+          codigo=06341  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 93.9%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06345 ((não encontrado no dicionário)) vs cod 06344 ((não encontrado no dicionário))
+  Via A : NOVO JARDIM ROTATORIA IV
+          codigo=06345  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : NOVO JARDIM ROTATORIA III
+          codigo=06344  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 93.9%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06662 ((não encontrado no dicionário)) vs cod 06339 ((não encontrado no dicionário))
+  Via A : JARDIM ROYAL ROTATORIA IV
+          codigo=06662  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : JARDIM ROYAL ROTATORIA 1
+          codigo=06339  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 93.9%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06340 ((não encontrado no dicionário)) vs cod 06339 ((não encontrado no dicionário))
+  Via A : JARDIM ROYAL ROTATORIA II
+          codigo=06340  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : JARDIM ROYAL ROTATORIA 1
+          codigo=06339  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 93.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06653 (RUA PERIMETRAL 2) vs cod 06654 ((não encontrado no dicionário))
+  Via A : RUA PERIMETRAL 4
+          codigo=06653  ocorrencias=6
+          nome DMTT: RUA PERIMETRAL 2
+  Via B : RUA PERIMETRAL 3
+          codigo=06654  ocorrencias=9
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 93.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06653 (RUA PERIMETRAL 2) vs cod 06311 ((não encontrado no dicionário))
+  Via A : RUA PERIMETRAL 4
+          codigo=06653  ocorrencias=6
+          nome DMTT: RUA PERIMETRAL 2
+  Via B : RUA PERIMETRAL 5
+          codigo=06311  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 93.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06654 ((não encontrado no dicionário)) vs cod 06653 (RUA PERIMETRAL 2)
+  Via A : RUA PERIMETRAL 3
+          codigo=06654  ocorrencias=9
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA PERIMETRAL 2
+          codigo=06653  ocorrencias=5
+          nome DMTT: RUA PERIMETRAL 2
+
+  Similaridade : 93.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06654 ((não encontrado no dicionário)) vs cod 06311 ((não encontrado no dicionário))
+  Via A : RUA PERIMETRAL 3
+          codigo=06654  ocorrencias=9
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA PERIMETRAL 5
+          codigo=06311  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 93.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06653 (RUA PERIMETRAL 2) vs cod 06311 ((não encontrado no dicionário))
+  Via A : RUA PERIMETRAL 2
+          codigo=06653  ocorrencias=5
+          nome DMTT: RUA PERIMETRAL 2
+  Via B : RUA PERIMETRAL 5
+          codigo=06311  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 92.0%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06341 ((não encontrado no dicionário)) vs cod 06339 ((não encontrado no dicionário))
+  Via A : JARDIM ROYAL ROTATORIA III
+          codigo=06341  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : JARDIM ROYAL ROTATORIA 1
+          codigo=06339  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 91.8%  [uma contém a outra (possível abreviação)]
+  ACAO         : Verificar: cod 00348 (RUA DOUTOR PONTES DE MIRANDA(LADEIRA F. VELHO)) vs cod 00012 (RUA LUIZ PONTES DE MIRANDA)
+  Via A : RUA DOUTOR PONTES DE MIRANDA
+          codigo=00348  ocorrencias=8
+          nome DMTT: RUA DOUTOR PONTES DE MIRANDA(LADEIRA F. VELHO)
+  Via B : RUA DOUTOR LUIS PONTES DE MIRANDA
+          codigo=00012  ocorrencias=12
+          nome DMTT: RUA LUIZ PONTES DE MIRANDA
+
+  Similaridade : 91.3%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06444 ((não encontrado no dicionário)) vs cod 06445 ((não encontrado no dicionário))
+  Via A : 1 ROTATORIA - JARDIM ROYAL
+          codigo=06444  ocorrencias=6
+          nome DMTT: (não encontrado no dicionário)
+  Via B : 2 ROTATORIA - JARD ROYAL
+          codigo=06445  ocorrencias=6
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 91.2%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06533 ((não encontrado no dicionário)) vs cod 06534 ((não encontrado no dicionário))
+  Via A : VIA INTERNA DO CONJ MACEIO I - C
+          codigo=06533  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : VIA INTERNA CONJ MACEIO I - D
+          codigo=06534  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 89.3%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00088 (RUA DOUTOR PASSOS DE MIRANDA) vs cod 00348 (RUA DOUTOR PONTES DE MIRANDA(LADEIRA F. VELHO))
+  Via A : RUA DOUTOR PASSOS DE MIRANDA
+          codigo=00088  ocorrencias=16
+          nome DMTT: RUA DOUTOR PASSOS DE MIRANDA
+  Via B : RUA DOUTOR PONTES DE MIRANDA
+          codigo=00348  ocorrencias=8
+          nome DMTT: RUA DOUTOR PONTES DE MIRANDA(LADEIRA F. VELHO)
+
+  Similaridade : 87.2%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00204 (RUA BARÃO DE ATALAIA) vs cod 00021 ((não encontrado no dicionário))
+  Via A : RUA BARÃO DE ATALAIA
+          codigo=00204  ocorrencias=19
+          nome DMTT: RUA BARÃO DE ATALAIA
+  Via B : RUA BARÃO DE ANADIA
+          codigo=00021  ocorrencias=12
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 86.7%  [uma contém a outra (possível abreviação)]
+  ACAO         : Verificar: cod 00552 (RUA PROJETADA) vs cod 06315 ((não encontrado no dicionário))
+  Via A : RUA PROJETADA 920
+          codigo=00552  ocorrencias=2
+          nome DMTT: RUA PROJETADA
+  Via B : RUA PROJETADA
+          codigo=06315  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 86.4%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00143 ((não encontrado no dicionário)) vs cod 00080 ((não encontrado no dicionário))
+  Via A : TRAVESSA JOSÉ BARRETO
+          codigo=00143  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+  Via B : TRAVESSA TOBIAS BARRETO
+          codigo=00080  ocorrencias=3
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 86.2%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06483 ((não encontrado no dicionário)) vs cod 06485 (RUA VINTE A - CONJ. JOÃO SAMPAIO I)
+  Via A : RUA QUATORZE A - CONJ. JOÃO SAMPAIO I
+          codigo=06483  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA VINTE A - CONJ. JOÃO SAMPAIO I
+          codigo=06485  ocorrencias=2
+          nome DMTT: RUA VINTE A - CONJ. JOÃO SAMPAIO I
+
+  Similaridade : 85.7%  [uma contém a outra (possível abreviação)]
+  ACAO         : Verificar: cod 06350 ((não encontrado no dicionário)) vs cod 00568 (LARGO DELMIRO GOUVEIA)
+  Via A : LARGO DELMIRO GOUVEIA - ROTARY
+          codigo=06350  ocorrencias=6
+          nome DMTT: (não encontrado no dicionário)
+  Via B : LARGO DELMIRO GOUVEIA
+          codigo=00568  ocorrencias=2
+          nome DMTT: LARGO DELMIRO GOUVEIA
+
+  Similaridade : 85.7%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06576 ((não encontrado no dicionário)) vs cod 06428 ((não encontrado no dicionário))
+  Via A : RUA CONSELHEIRO JOSÉ BEZERRA
+          codigo=06576  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA CONSELHEIRO JOSÉ BARBOSA
+          codigo=06428  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 85.2%  [alta similaridade (85%)]
+  ACAO         : Verificar: cod 00256 ((não encontrado no dicionário)) vs cod 00855 (AVENIDA FRANCISCO AFONSO DE MELO)
+  Via A : RUA FRANCISCO AFONSO DE MELO
+          codigo=00256  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : AVENIDA FRANCISCO AFONSO DE MELLO
+          codigo=00855  ocorrencias=5
+          nome DMTT: AVENIDA FRANCISCO AFONSO DE MELO
+
+  Similaridade : 85.2%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00452 ((não encontrado no dicionário)) vs cod 00435 ((não encontrado no dicionário))
+  Via A : RUA DEPUTADO SILOÉ TAVARES
+          codigo=00452  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA DEPUTADO GONÇALO TAVARES
+          codigo=00435  ocorrencias=3
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 85.1%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00608 (AVENIDA BENEDITO BATISTA) vs cod 00408 (AVENIDA BENEDITO BENTES)
+  Via A : AVENIDA BENEDITO BATISTA
+          codigo=00608  ocorrencias=2
+          nome DMTT: AVENIDA BENEDITO BATISTA
+  Via B : AVENIDA BENEDITO BENTES
+          codigo=00408  ocorrencias=26
+          nome DMTT: AVENIDA BENEDITO BENTES
+
+  Similaridade : 85.1%  [mesmas palavras, ordem diferente]
+  ACAO         : Verificar: cod 00207 (PRAÇA SENHOR DO BONFIM) vs cod 00719 ((não encontrado no dicionário))
+  Via A : PRAÇA SENHOR DO BONFIM
+          codigo=00207  ocorrencias=27
+          nome DMTT: PRAÇA SENHOR DO BONFIM
+  Via B : TRAVESSA SENHOR DO BONFIM
+          codigo=00719  ocorrencias=24
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 85.1%  [alta similaridade (85%)]
+  ACAO         : Verificar: cod 00241 (RUA SA E ALBUQUERQUE) vs cod 06174 (RUA CASSIANO DE ALBUQUERQUE)
+  Via A : RUA SÁ E ALBUQUERQUE
+          codigo=00241  ocorrencias=15
+          nome DMTT: RUA SA E ALBUQUERQUE
+  Via B : RUA CASSIANO DE ALBUQUERQUE
+          codigo=06174  ocorrencias=4
+          nome DMTT: RUA CASSIANO DE ALBUQUERQUE
+
+  Similaridade : 85.0%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00204 (RUA BARÃO DE ATALAIA) vs cod 00023 ((não encontrado no dicionário))
+  Via A : RUA BARÃO DE ATALAIA
+          codigo=00204  ocorrencias=19
+          nome DMTT: RUA BARÃO DE ATALAIA
+  Via B : RUA BARÃO DE ALAGOAS
+          codigo=00023  ocorrencias=12
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 85.0%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00023 ((não encontrado no dicionário)) vs cod 00544 (RUA BARÃO DE JARAGUÁ)
+  Via A : RUA BARÃO DE ALAGOAS
+          codigo=00023  ocorrencias=12
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA BARÃO DE JARAGUÁ
+          codigo=00544  ocorrencias=4
+          nome DMTT: RUA BARÃO DE JARAGUÁ
+
+  Similaridade : 85.0%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00105 ((não encontrado no dicionário)) vs cod 06312 (RUA BELA VISTA)
+  Via A : RUA ALTO DA BOA VISTA
+          codigo=00105  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA ALTO BELA VISTA
+          codigo=06312  ocorrencias=2
+          nome DMTT: RUA BELA VISTA
+
+  Similaridade : 84.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06144 (RUA SANTA ANA) vs cod 00668 (RUA SANTA AMÁLIA)
+  Via A : RUA SANTA MARIANA
+          codigo=06144  ocorrencias=1
+          nome DMTT: RUA SANTA ANA
+  Via B : RUA SANTA AMÁLIA
+          codigo=00668  ocorrencias=8
+          nome DMTT: RUA SANTA AMÁLIA
+
+  Similaridade : 84.6%  [mesmas palavras, ordem diferente]
+  ACAO         : Verificar: cod 00938 (AVENIDA SANTA RITA DE CASSIA) vs cod 06081 ((não encontrado no dicionário))
+  Via A : AVENIDA SANTA RITA DE CÁSSIA
+          codigo=00938  ocorrencias=3
+          nome DMTT: AVENIDA SANTA RITA DE CASSIA
+  Via B : RUA SANTA RITA DE CÁSSIA
+          codigo=06081  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 84.6%  [mesmas palavras, ordem diferente]
+  ACAO         : Verificar: cod 06156 ((não encontrado no dicionário)) vs cod 00102 ((não encontrado no dicionário))
+  Via A : PRACA SAO JOSE
+          codigo=06156  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA SÃO JOSÉ
+          codigo=00102  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 84.6%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00389 (RUA DA ALEGRIA) vs cod 06248 (RUA DA AREIA)
+  Via A : RUA DA ALEGRIA
+          codigo=00389  ocorrencias=1
+          nome DMTT: RUA DA ALEGRIA
+  Via B : RUA DA AREIA
+          codigo=06248  ocorrencias=2
+          nome DMTT: RUA DA AREIA
+
+  Similaridade : 84.6%  [mesmas palavras, ordem diferente]
+  ACAO         : Verificar: cod 00458 (AVENIDA SENADOR RUI PALMEIRA) vs cod 06283 (RUA SENADOR RUI PALMEIRA)
+  Via A : AVENIDA SENADOR RUI PALMEIRA
+          codigo=00458  ocorrencias=33
+          nome DMTT: AVENIDA SENADOR RUI PALMEIRA
+  Via B : RUA SENADOR RUI PALMEIRA
+          codigo=06283  ocorrencias=1
+          nome DMTT: RUA SENADOR RUI PALMEIRA
+
+  Similaridade : 84.2%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00381 (RUA SETE DE SETEMBRO) vs cod 00054 (RUA 16 DE SETEMBRO)
+  Via A : RUA SETE DE SETEMBRO
+          codigo=00381  ocorrencias=14
+          nome DMTT: RUA SETE DE SETEMBRO
+  Via B : RUA 19 DE SETEMBRO
+          codigo=00054  ocorrencias=4
+          nome DMTT: RUA 16 DE SETEMBRO
+
+  Similaridade : 84.2%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00926 (AVENIDA JOSÉ HAILTON DOS SANTOS) vs cod 00827 ((não encontrado no dicionário))
+  Via A : AVENIDA JOSÉ AILTON DOS SANTOS
+          codigo=00926  ocorrencias=7
+          nome DMTT: AVENIDA JOSÉ HAILTON DOS SANTOS
+  Via B : RUA JOSE MAILTON DOS SANTOS
+          codigo=00827  ocorrencias=1
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 84.0%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00497 (AL 101 NORTE - PESCARIA) vs cod 00498 ((não encontrado no dicionário))
+  Via A : ALAMEDA 101 NORTE - PESCARIA
+          codigo=00497  ocorrencias=6
+          nome DMTT: AL 101 NORTE - PESCARIA
+  Via B : ALAMEDA 101 NORTE - IPIOCA
+          codigo=00498  ocorrencias=6
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 83.9%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00303 (RUA SANTA LUZIA) vs cod 00668 (RUA SANTA AMÁLIA)
+  Via A : RUA SANTA LUZIA
+          codigo=00303  ocorrencias=11
+          nome DMTT: RUA SANTA LUZIA
+  Via B : RUA SANTA AMÁLIA
+          codigo=00668  ocorrencias=8
+          nome DMTT: RUA SANTA AMÁLIA
+
+  Similaridade : 83.9%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06579 (RUA SANTA RITA) vs cod 06144 (RUA SANTA ANA)
+  Via A : RUA SANTA RITA
+          codigo=06579  ocorrencias=3
+          nome DMTT: RUA SANTA RITA
+  Via B : RUA SANTA MARIANA
+          codigo=06144  ocorrencias=1
+          nome DMTT: RUA SANTA ANA
+
+  Similaridade : 83.7%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00017 (AVENIDA MOREIRA LIMA) vs cod 00125 (AVENIDA MOREIRA E SILV A)
+  Via A : AVENIDA MOREIRA LIMA
+          codigo=00017  ocorrencias=20
+          nome DMTT: AVENIDA MOREIRA LIMA
+  Via B : AVENIDA MOREIRA E SILVA
+          codigo=00125  ocorrencias=35
+          nome DMTT: AVENIDA MOREIRA E SILV A
+
+  Similaridade : 83.7%  [mesmas palavras, ordem diferente]
+  ACAO         : Verificar: cod 00180 ((não encontrado no dicionário)) vs cod 00182 (TRA VESSA CLETO CAMPELO)
+  Via A : AVENIDA CLETO CAMPELO
+          codigo=00180  ocorrencias=17
+          nome DMTT: (não encontrado no dicionário)
+  Via B : TRAVESSA CLETO CAMPELO
+          codigo=00182  ocorrencias=1
+          nome DMTT: TRA VESSA CLETO CAMPELO
+
+  Similaridade : 83.7%  [mesmas palavras, ordem diferente]
+  ACAO         : Verificar: cod 00050 (AVENIDA MONTE CASTELO) vs cod 00051 ((não encontrado no dicionário))
+  Via A : AVENIDA MONTE CASTELO
+          codigo=00050  ocorrencias=22
+          nome DMTT: AVENIDA MONTE CASTELO
+  Via B : TRAVESSA MONTE CASTELO
+          codigo=00051  ocorrencias=7
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 83.3%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00205 (AVENIDA COMENDADOR CALACA) vs cod 00196 ((não encontrado no dicionário))
+  Via A : AVENIDA COMENDADOR CALAÇA
+          codigo=00205  ocorrencias=24
+          nome DMTT: AVENIDA COMENDADOR CALACA
+  Via B : AVENIDA COMENDADOR LEÃO
+          codigo=00196  ocorrencias=29
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 83.3%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06557 (RUA DO CEARÁ) vs cod 00835 ((não encontrado no dicionário))
+  Via A : RUA DO CEARÁ
+          codigo=06557  ocorrencias=11
+          nome DMTT: RUA DO CEARÁ
+  Via B : RUA DO CRAVO
+          codigo=00835  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 83.3%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06557 (RUA DO CEARÁ) vs cod 06304 ((não encontrado no dicionário))
+  Via A : RUA DO CEARÁ
+          codigo=06557  ocorrencias=11
+          nome DMTT: RUA DO CEARÁ
+  Via B : RUA DO ARAME
+          codigo=06304  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 83.3%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 06250 ((não encontrado no dicionário)) vs cod 06248 (RUA DA AREIA)
+  Via A : RUA DA PRAIA
+          codigo=06250  ocorrencias=4
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA DA AREIA
+          codigo=06248  ocorrencias=2
+          nome DMTT: RUA DA AREIA
+
+  Similaridade : 83.3%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00472 (RUA SÃO JOÃO) vs cod 00102 ((não encontrado no dicionário))
+  Via A : RUA SÃO JOÃO
+          codigo=00472  ocorrencias=9
+          nome DMTT: RUA SÃO JOÃO
+  Via B : RUA SÃO JOSÉ
+          codigo=00102  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 82.9%  [mesmas palavras, ordem diferente]
+  ACAO         : Verificar: cod 00080 ((não encontrado no dicionário)) vs cod 00079 (RUA TOBIAS BARRETO)
+  Via A : TRAVESSA TOBIAS BARRETO
+          codigo=00080  ocorrencias=3
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA TOBIAS BARRETO
+          codigo=00079  ocorrencias=4
+          nome DMTT: RUA TOBIAS BARRETO
+
+  Similaridade : 82.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00303 (RUA SANTA LUZIA) vs cod 06579 (RUA SANTA RITA)
+  Via A : RUA SANTA LUZIA
+          codigo=00303  ocorrencias=11
+          nome DMTT: RUA SANTA LUZIA
+  Via B : RUA SANTA RITA
+          codigo=06579  ocorrencias=3
+          nome DMTT: RUA SANTA RITA
+
+  Similaridade : 82.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00303 (RUA SANTA LUZIA) vs cod 00060 (RUA SANTA CRUZ)
+  Via A : RUA SANTA LUZIA
+          codigo=00303  ocorrencias=11
+          nome DMTT: RUA SANTA LUZIA
+  Via B : RUA SANTA CRUZ
+          codigo=00060  ocorrencias=14
+          nome DMTT: RUA SANTA CRUZ
+
+  Similaridade : 82.8%  [alta similaridade (83%)]
+  ACAO         : Verificar: cod 06640 ((não encontrado no dicionário)) vs cod 06663 ((não encontrado no dicionário))
+  Via A : 3 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06640  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+  Via B : SAIDA DO CONJ JARDIM ROYAL
+          codigo=06663  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 82.8%  [alta similaridade (83%)]
+  ACAO         : Verificar: cod 06639 ((não encontrado no dicionário)) vs cod 06663 ((não encontrado no dicionário))
+  Via A : 4 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06639  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+  Via B : SAIDA DO CONJ JARDIM ROYAL
+          codigo=06663  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 82.8%  [alta similaridade (83%)]
+  ACAO         : Verificar: cod 06638 ((não encontrado no dicionário)) vs cod 06663 ((não encontrado no dicionário))
+  Via A : 5 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06638  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
+  Via B : SAIDA DO CONJ JARDIM ROYAL
+          codigo=06663  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
+
+  Similaridade : 82.6%  [alta similaridade (83%)]
+  ACAO         : Verificar: cod 00381 (RUA SETE DE SETEMBRO) vs cod 06495 ((não encontrado no dicionário))
+  Via A : RUA SETE DE SETEMBRO
+          codigo=00381  ocorrencias=14
+          nome DMTT: RUA SETE DE SETEMBRO
+  Via B : RUA SETE DE STEMBRO - CENTRO
+          codigo=06495  ocorrencias=2
+          nome DMTT: (não encontrado no dicionário)
 
   Similaridade : 82.6%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA COMENDADOR CALAÇA  [cód. 00205]
-  Via B : RUA COMENDADOR CALAÇA  [cód. 00205]
+  ACAO         : Verificar: cod 00719 ((não encontrado no dicionário)) vs cod 00207 (PRAÇA SENHOR DO BONFIM)
+  Via A : TRAVESSA SENHOR DO BONFIM
+          codigo=00719  ocorrencias=24
+          nome DMTT: (não encontrado no dicionário)
+  Via B : VILA SENHOR DO BONFIM
+          codigo=00207  ocorrencias=6
+          nome DMTT: PRAÇA SENHOR DO BONFIM
 
-  Similaridade : 82.6%  [similaridade alta (83%)]
-  Via A : RUA SETE DE SETEMBRO  [cód. 00381]
-  Via B : RUA SETE DE STEMBRO - CENTRO  [cód. 06495]
+  Similaridade : 82.4%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00497 (AL 101 NORTE - PESCARIA) vs cod 00496 (AL 101 NORTE - PRATAGY)
+  Via A : ALAMEDA 101 NORTE - PESCARIA
+          codigo=00497  ocorrencias=6
+          nome DMTT: AL 101 NORTE - PESCARIA
+  Via B : ALAMEDA 101 NORTE - PRATAGY
+          codigo=00496  ocorrencias=6
+          nome DMTT: AL 101 NORTE - PRATAGY
 
-  Similaridade : 82.6%  [uma contém a outra (possível abreviação)]
-  Via A : TRAVESSA SENHOR DO BONFIM  [cód. 00719]
-  Via B : VILA SENHOR DO BONFIM  [cód. 00207]
+  Similaridade : 82.1%  [alta similaridade (82%)]
+  ACAO         : Verificar: cod 06444 ((não encontrado no dicionário)) vs cod 06640 ((não encontrado no dicionário))
+  Via A : 1 ROTATORIA - JARDIM ROYAL
+          codigo=06444  ocorrencias=6
+          nome DMTT: (não encontrado no dicionário)
+  Via B : 3 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06640  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
 
-  Similaridade : 82.6%  [similaridade alta (83%)]
-  Via A : RUA DOUTOR BAPTISTA ACCIOLY  [cód. (sem código)]
-  Via B : RUA BATISTA ACCIOLY  [cód. 06169]
+  Similaridade : 82.1%  [alta similaridade (82%)]
+  ACAO         : Verificar: cod 06444 ((não encontrado no dicionário)) vs cod 06639 ((não encontrado no dicionário))
+  Via A : 1 ROTATORIA - JARDIM ROYAL
+          codigo=06444  ocorrencias=6
+          nome DMTT: (não encontrado no dicionário)
+  Via B : 4 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06639  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
 
-  Similaridade : 82.6%  [similaridade alta (83%)]
-  Via A : RUA TARCÍSIO DE JESUS  [cód. (sem código)]
-  Via B : RUA OTACÍLIO DES DE JESUS  [cód. (sem código)]
+  Similaridade : 82.1%  [alta similaridade (82%)]
+  ACAO         : Verificar: cod 06444 ((não encontrado no dicionário)) vs cod 06638 ((não encontrado no dicionário))
+  Via A : 1 ROTATORIA - JARDIM ROYAL
+          codigo=06444  ocorrencias=6
+          nome DMTT: (não encontrado no dicionário)
+  Via B : 5 ROTATORIA DO CONJ JARDIM ROYAL
+          codigo=06638  ocorrencias=5
+          nome DMTT: (não encontrado no dicionário)
 
-  Similaridade : 82.5%  [diferença mínima de caracteres (possível typo)]
-  Via A : AVENIDA ARYOSVALDO PEREIRA CINTRA  [cód. 06079]
-  Via B : RUA ARIOSV ALDO PEREIRA CINTRA  [cód. 06133]
+  Similaridade : 82.1%  [mesmas palavras, ordem diferente]
+  ACAO         : Verificar: cod 00182 (TRA VESSA CLETO CAMPELO) vs cod 00179 (RUA BONFIM - CLETO CAMPELO)
+  Via A : TRAVESSA CLETO CAMPELO
+          codigo=00182  ocorrencias=1
+          nome DMTT: TRA VESSA CLETO CAMPELO
+  Via B : RUA CLETO CAMPELO
+          codigo=00179  ocorrencias=4
+          nome DMTT: RUA BONFIM - CLETO CAMPELO
 
-  Similaridade : 82.5%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA TEN JONH RICHARDOM CORDEIRO  [cód. 06209]
-  Via B : AVENIDA JONH RICHARDSON CORDEIRO  [cód. 06260]
+  Similaridade : 82.1%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00021 ((não encontrado no dicionário)) vs cod 00023 ((não encontrado no dicionário))
+  Via A : RUA BARÃO DE ANADIA
+          codigo=00021  ocorrencias=12
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA BARÃO DE ALAGOAS
+          codigo=00023  ocorrencias=12
+          nome DMTT: (não encontrado no dicionário)
 
-  Similaridade : 82.4%  [similaridade alta (82%)]
-  Via A : RUA DOUTORMILTON HENIO GOUVEIA  [cód. 00631]
-  Via B : AVENIDA DOUTOR MILTON HENIO DE GOUVEIA  [cód. 00631]
+  Similaridade : 82.1%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Verificar: cod 00021 ((não encontrado no dicionário)) vs cod 00544 (RUA BARÃO DE JARAGUÁ)
+  Via A : RUA BARÃO DE ANADIA
+          codigo=00021  ocorrencias=12
+          nome DMTT: (não encontrado no dicionário)
+  Via B : RUA BARÃO DE JARAGUÁ
+          codigo=00544  ocorrencias=4
+          nome DMTT: RUA BARÃO DE JARAGUÁ
 
-  Similaridade : 82.4%  [diferença mínima de caracteres (possível typo)]
-  Via A : ALAMEDA 101 NORTE - PESCARIA  [cód. 00497]
-  Via B : ALAMEDA 101 NORTE - PRATAGY  [cód. 00496]
 
-  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA B TERMINAL OSMAN LOUREIRO  [cód. 00419]
-  Via B : TERMINAL OSMAN LOUREIRO  [cód. 00419]
+================================================================================
+[SEM CODIGO]  6 pares
+--------------------------------------------------------------------------------
 
-  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
-  Via A : AVENIDA HUMBERTO MENDES  [cód. 00208]
-  Via B : AVENIDA DEPULTADO HUMBERTO MENDES  [cód. 00208]
+Nenhuma das duas tem codigo. Verificar se aparecem no dicionario_ruas.json
+com outra grafia, ou buscar no cadastro DMTT.
 
-  Similaridade : 82.1%  [similaridade alta (82%)]
-  Via A : 1 ROTATORIA - JARDIM ROYAL  [cód. 06444]
-  Via B : 3 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06640]
+  Similaridade : 95.0%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Buscar codigo no cadastro DMTT
+  Via A : ESTRADA DA GOIABIERA
+          codigo=(sem codigo)  ocorrencias=1
+  Via B : ESTRADA DA GOIABEIRA
+          codigo=(sem codigo)  ocorrencias=1
 
-  Similaridade : 82.1%  [similaridade alta (82%)]
-  Via A : 1 ROTATORIA - JARDIM ROYAL  [cód. 06444]
-  Via B : 4 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06639]
+  Similaridade : 91.3%  [uma contém a outra (possível abreviação)]
+  ACAO         : Buscar codigo no cadastro DMTT
+  Via A : RUA OTACÍLIO DE JESUS
+          codigo=(sem codigo)  ocorrencias=2
+  Via B : RUA OTACÍLIO DES DE JESUS
+          codigo=(sem codigo)  ocorrencias=2
 
-  Similaridade : 82.1%  [similaridade alta (82%)]
-  Via A : 1 ROTATORIA - JARDIM ROYAL  [cód. 06444]
-  Via B : 5 ROTATORIA DO CONJ JARDIM ROYAL  [cód. 06638]
+  Similaridade : 90.5%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Buscar codigo no cadastro DMTT
+  Via A : RUA OTACÍLIO DE JESUS
+          codigo=(sem codigo)  ocorrencias=2
+  Via B : RUA TARCÍSIO DE JESUS
+          codigo=(sem codigo)  ocorrencias=2
 
-  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
-  Via A : TRAVESSA CLETO CAMPELO  [cód. 00182]
-  Via B : RUA CLETO CAMPELO  [cód. 00179]
+  Similaridade : 84.8%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Buscar codigo no cadastro DMTT
+  Via A : VIA PRINCIPAL 2
+          codigo=(sem codigo)  ocorrencias=1
+  Via B : VIA PRINCIPAL DOIS
+          codigo=(sem codigo)  ocorrencias=4
 
-  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
-  Via A : RUA MIGUEL OMENA  [cód. 00040]
-  Via B : RUA DOUTOR MIGUEL OMENA  [cód. 00040]
+  Similaridade : 84.2%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Buscar codigo no cadastro DMTT
+  Via A : RUA B TRINTA E NOVE
+          codigo=(sem codigo)  ocorrencias=6
+  Via B : RUA B TRINTA E OITO
+          codigo=(sem codigo)  ocorrencias=18
 
-  Similaridade : 82.1%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA BARÃO DE ANADIA  [cód. 00021]
-  Via B : RUA BARÃO DE ALAGOAS  [cód. 00023]
+  Similaridade : 82.6%  [diferença minima de caracteres (possivel typo)]
+  ACAO         : Buscar codigo no cadastro DMTT
+  Via A : RUA TARCÍSIO DE JESUS
+          codigo=(sem codigo)  ocorrencias=2
+  Via B : RUA OTACÍLIO DES DE JESUS
+          codigo=(sem codigo)  ocorrencias=2
 
-  Similaridade : 82.1%  [diferença mínima de caracteres (possível typo)]
-  Via A : RUA BARÃO DE ANADIA  [cód. 00021]
-  Via B : RUA BARÃO DE JARAGUÁ  [cód. 00544]
-
-  Similaridade : 82.1%  [uma contém a outra (possível abreviação)]
-  Via A : RUA JOSÉ CORRÊA DE MELO  [cód. 06212]
-  Via B : RUA JOSÉ DE MELO  [cód. 06212]
-
+--------------------------------------------------------------------------------
+Gerado por python/gerar_relatorio_similares.py

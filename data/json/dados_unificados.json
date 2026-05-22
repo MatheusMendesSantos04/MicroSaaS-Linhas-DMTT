@@ -5051,7 +5051,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -5075,7 +5075,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA MIGUEL OMENA",
+          "via": "AVENIDA DOUTOR MIGUEL OMENA",
           "codigo": "00040",
           "via_pdf": "R. MIGUEL OMENA",
           "match": "exato"
@@ -8325,7 +8325,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -11865,9 +11865,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA COM FIRMO LOPES",
+          "via": "RUA COMENDADOR FIRMO LOPES",
           "codigo": "00943",
-          "via_pdf": "RUA COM. FIRMO LOPES",
+          "via_pdf": "RUA COMENDADOR FIRMO LOPES",
           "match": "exato"
         },
         {
@@ -16167,7 +16167,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA ENG OTA VIO CABRAL",
+          "via": "RUA ENGENHEIRO OTAVIO CABRAL",
           "codigo": "06092",
           "via_pdf": "RUA ENG. OTA VIO CABRAL",
           "match": "exato"
@@ -16221,7 +16221,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -28699,7 +28699,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -28765,15 +28765,15 @@
           "match": "exato"
         },
         {
-          "via": "RUA MAJOR ALV ARO EUSTERIO O DA SILVA",
+          "via": "RUA MAJOR ALVARO EUSTERIO O DA SILVA",
           "codigo": "06208",
           "via_pdf": "RUA MAJOR ALV ARO EUSTÉRIO O. DA SILVA",
           "match": "exato"
         },
         {
-          "via": "RUA TEN JONH RICHARDOM CORDEIRO",
+          "via": "AVENIDA JONH RICHARDSON CORDEIRO",
           "codigo": "06209",
-          "via_pdf": "RUA TEN JONH RICHARDOM CORDEIRO",
+          "via_pdf": "AVENIDA JONH RICHARDSON CORDEIRO",
           "match": "exato"
         },
         {
@@ -31043,7 +31043,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -47561,7 +47561,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -47609,7 +47609,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -47639,7 +47639,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA MIGUEL OMENA",
+          "via": "AVENIDA DOUTOR MIGUEL OMENA",
           "codigo": "00040",
           "via_pdf": "R. MIGUEL OMENA",
           "match": "exato"
@@ -51619,7 +51619,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -55207,7 +55207,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -61697,7 +61697,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTORMILTON HENIO GOUVEIA",
+          "via": "AVENIDA DOUTOR MILTON HENIO DE GOUVEIA",
           "codigo": "00631",
           "via_pdf": "RUA DR.MILTON HENIO GOUVEIA",
           "match": "fuzzy"
@@ -61721,7 +61721,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -64709,7 +64709,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -64733,7 +64733,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTORMILTON HENIO GOUVEIA",
+          "via": "AVENIDA DOUTOR MILTON HENIO DE GOUVEIA",
           "codigo": "00631",
           "via_pdf": "RUA DR.MILTON HENIO GOUVEIA",
           "match": "fuzzy"
@@ -73187,9 +73187,9 @@
           "match": "exato"
         },
         {
-          "via": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "exato"
         },
         {
@@ -75871,9 +75871,9 @@
           "match": "exato"
         },
         {
-          "via": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "exato"
         },
         {
@@ -95187,7 +95187,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA ENG OTA VIO CABRAL",
+          "via": "RUA ENGENHEIRO OTAVIO CABRAL",
           "codigo": "06092",
           "via_pdf": "RUA ENG. OTA VIO CABRAL",
           "match": "exato"
@@ -104305,9 +104305,9 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL PARAÍSO DO HORTO",
+          "via": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "codigo": "06150",
-          "via_pdf": "TERMINAL PARAÍSO DO HORTO",
+          "via_pdf": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "match": "exato"
         },
         {
@@ -104365,9 +104365,9 @@
           "match": "exato_global"
         },
         {
-          "via": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "exato"
         },
         {
@@ -108055,9 +108055,9 @@
           "match": "exato"
         },
         {
-          "via": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "exato"
         },
         {
@@ -108121,9 +108121,9 @@
           "match": "exato"
         },
         {
-          "via": "TERMINAL PARAÍSO DO HORTO",
+          "via": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "codigo": "06150",
-          "via_pdf": "TERMINAL PARAÍSO DO HORTO",
+          "via_pdf": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "match": "exato"
         }
       ]
@@ -111053,9 +111053,9 @@
           "match": "exato"
         },
         {
-          "via": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "exato"
         },
         {
@@ -111107,7 +111107,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA ENG OTA VIO CABRAL",
+          "via": "RUA ENGENHEIRO OTAVIO CABRAL",
           "codigo": "06092",
           "via_pdf": "RUA ENG. OTA VIO CABRAL",
           "match": "exato"
@@ -111131,7 +111131,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -111191,7 +111191,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -115493,7 +115493,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA VIRGILIO GUEDES",
+          "via": "RUA DOUTOR VIRGILIO GUEDES",
           "codigo": "00029",
           "via_pdf": "R. VIRGILIO GUEDES",
           "match": "exato"
@@ -115601,7 +115601,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA HUMBERTO MENDES",
+          "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
           "codigo": "00208",
           "via_pdf": "AV. HUMBERTO MENDES",
           "match": "exato"
@@ -115697,7 +115697,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -115781,9 +115781,9 @@
           "match": "exato"
         },
         {
-          "via": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "exato"
         },
         {
@@ -124257,7 +124257,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA VIRGILIO GUEDES",
+          "via": "RUA DOUTOR VIRGILIO GUEDES",
           "codigo": "00029",
           "via_pdf": "R. VIRGILIO GUEDES",
           "match": "exato"
@@ -124371,7 +124371,7 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -127905,7 +127905,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA DO RIO DO MEIO",
+          "via": "ESTRADA DO RIO DO MEIO",
           "codigo": null,
           "via_pdf": null,
           "match": "nao_encontrado"
@@ -128007,7 +128007,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -132343,7 +132343,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DO RIO DO MEIO",
+          "via": "ESTRADA DO RIO DO MEIO",
           "codigo": "00550",
           "via_pdf": "ESTRADA DO RIO DO MEIO",
           "match": "fuzzy"
@@ -136301,7 +136301,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -141023,7 +141023,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PROFESSOR LOUREIRO",
+          "via": "AVENIDA PROFESSOR CLAUDIOM LOUREIRO",
           "codigo": "00038",
           "via_pdf": "AV. PROF. CLAUDIO M. LOUREIRO",
           "match": "fuzzy_global"
@@ -141071,7 +141071,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES ",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -146025,7 +146025,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -146049,7 +146049,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA DOUTOR MIGUEL OMENA",
+          "via": "AVENIDA DOUTOR MIGUEL OMENA",
           "codigo": "00040",
           "via_pdf": "R. MIGUEL OMENA",
           "match": "fuzzy"
@@ -151139,7 +151139,7 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA DOUTOR BAPTISTA ACCIOLY",
+          "via": "RUA BATISTA ACCIOLY",
           "codigo": null,
           "via_pdf": null,
           "match": "nao_encontrado"
@@ -151241,7 +151241,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -151253,7 +151253,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -166561,7 +166561,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PROFESSOR LOUREIRO",
+          "via": "AVENIDA PROFESSOR CLAUDIOM LOUREIRO",
           "codigo": "00038",
           "via_pdf": "AV. PROF. CLAUDIO M. LOUREIRO",
           "match": "fuzzy_global"
@@ -168701,9 +168701,9 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL PARAÍSO DO HORTO",
+          "via": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "codigo": "06150",
-          "via_pdf": "TERMINAL PARAÍSO DO HORTO",
+          "via_pdf": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "match": "exato"
         },
         {
@@ -171283,9 +171283,9 @@
           "match": "exato"
         },
         {
-          "via": "TERMINAL PARAÍSO DO HORTO",
+          "via": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "codigo": "06150",
-          "via_pdf": "TERMINAL PARAÍSO DO HORTO",
+          "via_pdf": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "match": "exato"
         }
       ]
@@ -174719,7 +174719,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -178547,7 +178547,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR BAPTISTA ACCIOLY",
+          "via": "RUA BATISTA ACCIOLY",
           "codigo": null,
           "via_pdf": null,
           "match": "nao_encontrado"
@@ -183727,7 +183727,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -189143,13 +189143,13 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA HUMBERTO MENDES",
+          "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
           "codigo": "00208",
           "via_pdf": "AV. HUMBERTO MENDES",
           "match": "exato"
         },
         {
-          "via": "RUA COMENDADOR CALAÇA",
+          "via": "AVENIDA COMENDADOR CALAÇA",
           "codigo": "00205",
           "via_pdf": "AV. COMENDADOR CALACA",
           "match": "fuzzy"
@@ -189209,7 +189209,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -196257,7 +196257,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PROFESSOR LOUREIRO",
+          "via": "AVENIDA PROFESSOR CLAUDIOM LOUREIRO",
           "codigo": "00038",
           "via_pdf": "AV. PROF. CLAUDIO M. LOUREIRO",
           "match": "fuzzy"
@@ -199559,7 +199559,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -202699,7 +202699,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES ",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -214891,7 +214891,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -222053,7 +222053,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PROFESSOR LOUREIRO",
+          "via": "AVENIDA PROFESSOR CLAUDIOM LOUREIRO",
           "codigo": "00038",
           "via_pdf": "AV. PROF. CLAUDIO M. LOUREIRO",
           "match": "fuzzy"
@@ -222083,7 +222083,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PROFESSOR LOUREIRO",
+          "via": "AVENIDA PROFESSOR CLAUDIOM LOUREIRO",
           "codigo": "00038",
           "via_pdf": "AV. PROF. CLAUDIO M. LOUREIRO",
           "match": "fuzzy"
@@ -227567,7 +227567,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA COMENDADOR CALAÇA",
+          "via": "AVENIDA COMENDADOR CALAÇA",
           "codigo": "00205",
           "via_pdf": "AV. COMENDADOR CALACA",
           "match": "fuzzy"
@@ -227591,7 +227591,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -233557,7 +233557,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR BAPTISTA ACCIOLY",
+          "via": "RUA BATISTA ACCIOLY",
           "codigo": null,
           "via_pdf": null,
           "match": "nao_encontrado"
@@ -233941,7 +233941,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -234103,7 +234103,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -238675,7 +238675,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PROFESSOR LOUREIRO",
+          "via": "AVENIDA PROFESSOR CLAUDIOM LOUREIRO",
           "codigo": "00038",
           "via_pdf": "AV. PROF. CLAUDIO M. LOUREIRO",
           "match": "fuzzy"
@@ -245671,7 +245671,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PROFESSOR LOUREIRO",
+          "via": "AVENIDA PROFESSOR CLAUDIOM LOUREIRO",
           "codigo": "00038",
           "via_pdf": "AV. PROF. CLAUDIO M. LOUREIRO",
           "match": "fuzzy"
@@ -252839,7 +252839,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PROFESSOR LOUREIRO",
+          "via": "AVENIDA PROFESSOR CLAUDIOM LOUREIRO",
           "codigo": "00038",
           "via_pdf": "AV. PROF. CLAUDIO M. LOUREIRO",
           "match": "fuzzy"
@@ -253049,7 +253049,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -255745,7 +255745,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA COMENDADOR CALAÇA",
+          "via": "AVENIDA COMENDADOR CALAÇA",
           "codigo": "00205",
           "via_pdf": "AV. COMENDADOR CALACA",
           "match": "fuzzy"
@@ -261703,7 +261703,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -265861,9 +265861,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA ROBERTO MASCARENHA BRITO",
+          "via": "AVENIDA ROBERTO MASCARENHAS BRITO",
           "codigo": "00222",
-          "via_pdf": "RUA ROBERTO MASCARENHA BRITO",
+          "via_pdf": "AVENIDA ROBERTO MASCARENHAS BRITO",
           "match": "exato"
         },
         {
@@ -280945,7 +280945,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA DO RIO DO MEIO",
+          "via": "ESTRADA DO RIO DO MEIO",
           "codigo": "00550",
           "via_pdf": "ESTRADA DO RIO DO MEIO",
           "match": "fuzzy"
@@ -281047,7 +281047,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA HUMBERTO MENDES",
+          "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
           "codigo": "00208",
           "via_pdf": "AV. HUMBERTO MENDES",
           "match": "exato"
@@ -285097,7 +285097,7 @@
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS - AMELIA ROSAS",
+          "via": "AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS - AMELIA ROSAS",
           "codigo": "00218",
           "via_pdf": "AV. DR. ANTONIO G. DE B. - AMÉLIA ROSAS",
           "match": "fuzzy"
@@ -296661,7 +296661,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -300223,7 +300223,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -332695,7 +332695,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DEPUTADO JOSE LAGES",
+          "via": "RUA DEPUTADO JOSÉ LAGES",
           "codigo": "00216",
           "via_pdf": "AV. DEP. JOSE LAJES",
           "match": "exato"
@@ -332713,9 +332713,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA ROBERTO MASCARENHA BRITO",
+          "via": "AVENIDA ROBERTO MASCARENHAS BRITO",
           "codigo": "00222",
-          "via_pdf": "RUA ROBERTO MASCARENHA BRITO",
+          "via_pdf": "AVENIDA ROBERTO MASCARENHAS BRITO",
           "match": "exato"
         },
         {
@@ -335827,7 +335827,7 @@
         {
           "via": "AVENIDA ROBERTO MASCARENHAS BRITO",
           "codigo": "00222",
-          "via_pdf": "RUA ROBERTO MASCARENHA BRITO",
+          "via_pdf": "AVENIDA ROBERTO MASCARENHAS BRITO",
           "match": "fuzzy"
         },
         {
@@ -335867,7 +335867,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DEPUTADO JOSE LAGES",
+          "via": "RUA DEPUTADO JOSÉ LAGES",
           "codigo": "00216",
           "via_pdf": "AV. DEP. JOSE LAJES",
           "match": "fuzzy"
@@ -342555,7 +342555,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA PEDRO MONTEIRO",
+          "via": "RUA DOUTOR PEDRO MONTEIRO",
           "codigo": "00013",
           "via_pdf": "R. PEDRO MONTEIRO",
           "match": "exato"
@@ -350635,7 +350635,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -353735,7 +353735,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -356277,7 +356277,7 @@
       ],
       "ruas": [
         {
-          "via": "AVENIDA DEPUTADO JOSE LAGES",
+          "via": "RUA DEPUTADO JOSÉ LAGES",
           "codigo": "00216",
           "via_pdf": "AV. DEP. JOSE LAJES",
           "match": "exato"
@@ -356361,7 +356361,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -356445,7 +356445,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA COMENDADOR LUIS JARDIM",
+          "via": "RUA COMENDADOR LUIZ JARDIM FRANCA",
           "codigo": null,
           "via_pdf": null,
           "match": "nao_encontrado"
@@ -363999,7 +363999,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DEPUTADO JOSE LAGES",
+          "via": "RUA DEPUTADO JOSÉ LAGES",
           "codigo": "00216",
           "via_pdf": "AV. DEP. JOSE LAJES",
           "match": "exato"
@@ -364041,7 +364041,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA COMENDADOR CALAÇA",
+          "via": "AVENIDA COMENDADOR CALAÇA",
           "codigo": "00205",
           "via_pdf": "AV. COMENDADOR CALACA",
           "match": "fuzzy"
@@ -368407,7 +368407,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA HUMBERTO MENDES",
+          "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
           "codigo": "00208",
           "via_pdf": "AV. HUMBERTO MENDES",
           "match": "exato"
@@ -368479,7 +368479,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DEPUTADO JOSE LAGES",
+          "via": "RUA DEPUTADO JOSÉ LAGES",
           "codigo": "00216",
           "via_pdf": "AV. DEP. JOSE LAJES",
           "match": "exato"
@@ -368503,7 +368503,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS",
+          "via": "AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS",
           "codigo": "00218",
           "via_pdf": "AV. DR. ANTONIO G. DE B. - AMÉLIA ROSAS",
           "match": "fuzzy_global"
@@ -372653,7 +372653,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR BAPTISTA ACCIOLY",
+          "via": "RUA BATISTA ACCIOLY",
           "codigo": null,
           "via_pdf": null,
           "match": "nao_encontrado"
@@ -378033,7 +378033,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA COMENDADOR CALAÇA",
+          "via": "AVENIDA COMENDADOR CALAÇA",
           "codigo": "00205",
           "via_pdf": "AV. COMENDADOR CALACA",
           "match": "fuzzy"
@@ -378165,7 +378165,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DEPUTADO JOSE LAGES",
+          "via": "RUA DEPUTADO JOSÉ LAGES",
           "codigo": "00216",
           "via_pdf": "AV. DEP. JOSE LAJES",
           "match": "exato"
@@ -382605,7 +382605,7 @@
       ],
       "ruas": [
         {
-          "via": "AVENIDA DEPUTADO JOSE LAGES",
+          "via": "RUA DEPUTADO JOSÉ LAGES",
           "codigo": "00216",
           "via_pdf": "AV. DEP. JOSE LAJES",
           "match": "exato"
@@ -386417,7 +386417,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV . AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_global"
@@ -390965,7 +390965,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV . AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_global"
@@ -390995,7 +390995,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -394401,7 +394401,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -394557,7 +394557,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DEPUTADO JOSE LAGES",
+          "via": "RUA DEPUTADO JOSÉ LAGES",
           "codigo": "00216",
           "via_pdf": "AV. DEP. JOSE LAJES",
           "match": "exato"
@@ -397005,7 +397005,7 @@
       ],
       "ruas": [
         {
-          "via": "AVENIDA DEPUTADO JOSE LAGES",
+          "via": "RUA DEPUTADO JOSÉ LAGES",
           "codigo": "00216",
           "via_pdf": "AV. DEP. JOSE LAJES",
           "match": "exato"
@@ -397065,7 +397065,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -397095,7 +397095,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -401045,7 +401045,7 @@
         {
           "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "fuzzy"
         },
         {
@@ -401099,7 +401099,7 @@
         {
           "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "fuzzy"
         },
         {
@@ -404953,7 +404953,7 @@
         {
           "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "fuzzy"
         },
         {
@@ -408385,7 +408385,7 @@
         {
           "via": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "codigo": "06150",
-          "via_pdf": "TERMINAL PARAÍSO DO HORTO",
+          "via_pdf": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "match": "fuzzy_global"
         },
         {
@@ -408439,7 +408439,7 @@
         {
           "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "fuzzy"
         },
         {
@@ -412079,7 +412079,7 @@
         {
           "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "fuzzy"
         },
         {
@@ -412125,9 +412125,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "TERMINAL PARAÍSO DO HORTO",
+          "via": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "codigo": "06150",
-          "via_pdf": "TERMINAL PARAÍSO DO HORTO",
+          "via_pdf": "TERMINAL CONJUNTO PARAISO DO HORTO",
           "match": "exato_global"
         }
       ]
@@ -426275,7 +426275,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA COMENDADOR CALAÇA",
+          "via": "AVENIDA COMENDADOR CALAÇA",
           "codigo": "00205",
           "via_pdf": "AV. COMENDADOR CALACA",
           "match": "fuzzy"
@@ -435121,7 +435121,7 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "TERMINAL OSMAN LOUREIRO",
+          "via": "AVENIDA B TERMINAL OSMAN LOUREIRO",
           "codigo": "00419",
           "via_pdf": "AV. B TERMINAL OSMAN LOUREIRO",
           "match": "fuzzy"
@@ -439277,7 +439277,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR BAPTISTA ACCIOLY",
+          "via": "RUA BATISTA ACCIOLY",
           "codigo": null,
           "via_pdf": null,
           "match": "nao_encontrado"
@@ -443589,7 +443589,7 @@
         {
           "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "fuzzy_global"
         },
         {
@@ -447799,7 +447799,7 @@
         {
           "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "fuzzy_global"
         },
         {
@@ -447835,7 +447835,7 @@
         {
           "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "fuzzy_global"
         },
         {
@@ -456938,7 +456938,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -456950,7 +456950,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -456974,7 +456974,7 @@
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -456992,7 +456992,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA COMENDADOR CALAÇA",
+          "via": "AVENIDA COMENDADOR CALAÇA",
           "codigo": "00205",
           "via_pdf": "AV. COMENDADOR CALACA",
           "match": "fuzzy"
@@ -457171,7 +457171,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES ",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -457183,7 +457183,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA GOVERNADOR AFRANIO LAGES ",
+          "via": "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE",
           "codigo": "00161",
           "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "contem"
@@ -461765,7 +461765,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -467137,7 +467137,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JUCA SAMPAIO - MAC 204",
+          "via": "AVENIDA JUCA SAMPAIO",
           "codigo": "00718",
           "via_pdf": "AV. JUCA SAMPAIO - MAC 204",
           "match": "exato"
@@ -491031,7 +491031,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA DOUTOR LAURO COSTA",
+          "via": "RUA DOUTOR LAURO MACHADO COSTA",
           "codigo": null,
           "via_pdf": null,
           "match": "nao_encontrado"
@@ -499359,7 +499359,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA JOSE AILTON DOS SANTOS",
+          "via": "RUA JOSE MAILTON DOS SANTOS",
           "codigo": "00827",
           "via_pdf": "RUA JOSE MAILTON DOS SANTOS",
           "match": "fuzzy"
@@ -504071,7 +504071,7 @@
         {
           "via": "AVENIDA EMPRESÁRIO LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "fuzzy"
         },
         {
@@ -505157,7 +505157,7 @@
         {
           "via": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "codigo": "00577",
-          "via_pdf": "AV. EMP. LOURIVAL LOBO FERREIRA",
+          "via_pdf": "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA",
           "match": "fuzzy"
         },
         {
@@ -513193,7 +513193,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AL. DOS ANTÚRIOS",
+          "via": "ALAMEDA DOS ANTÚRIOS",
           "codigo": "06637",
           "via_pdf": "ALAMEDA DOS ANTÚRIOS",
           "match": "fuzzy_global"
@@ -515797,7 +515797,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA DO RIO DO MEIO",
+          "via": "ESTRADA DO RIO DO MEIO",
           "codigo": null,
           "via_pdf": null,
           "match": "nao_encontrado"
@@ -517489,7 +517489,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DO RIO DO MEIO",
+          "via": "ESTRADA DO RIO DO MEIO",
           "codigo": null,
           "via_pdf": null,
           "match": "nao_encontrado"

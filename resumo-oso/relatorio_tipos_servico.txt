@@ -1,0 +1,187 @@
+================================================================================
+RELATÓRIO — LINHAS POR TIPO DE SERVIÇO
+Fonte: sp_relatorio_resumooso.pdf
+================================================================================
+
+[ RESUMO GERAL ]
+
+  CONVENCIONAL               78 linhas  ██████████████████████████████████████████████████████████████████████████████
+  CATRACA DE SOLO             2 linhas  ██
+  MADRUGADAO                  5 linhas  █████
+  INTEGRACAO                 22 linhas  ██████████████████████
+  LINHA CIDADA                1 linhas  █
+
+  TOTAL GERAL               108 linhas
+
+================================================================================
+[ POR EMPRESA ]
+
+  CIMA - VIAÇÃO CIDADE DE MACEIÓ LTDA
+  Total: 37 linhas
+    CONVENCIONAL             : 28
+    MADRUGADAO               : 2
+    INTEGRACAO               : 7
+
+  REAL - REAL TRANSPORTES URBANOS LTDA.
+  Total: 45 linhas
+    CONVENCIONAL             : 27
+    CATRACA DE SOLO          : 2
+    MADRUGADAO               : 3
+    INTEGRACAO               : 13
+
+  SFRA - EMPRESA SÃO FRANCISCO LTDA.
+  Total: 26 linhas
+    CONVENCIONAL             : 23
+    INTEGRACAO               : 2
+    LINHA CIDADA             : 1
+
+================================================================================
+[ CONVENCIONAL ]  78 linhas
+--------------------------------------------------------------------------------
+
+  CIMA - VIAÇÃO CIDADE DE MACEIÓ LTDA (28 linhas):
+    0012          OSO 6825    CONJ. JOSÉ S. PEIXOTO/CENTRO
+    0014          OSO 6943    C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)
+    0024          OSO 6950    GRUTA/CENTRO-VIA C. ALMAS(TERM. ROTARY)
+    0027          OSO 6482    VILA SAEM/CENTRO(PINHEIRO-PITANGUINHA)
+    0033          OSO 6962    JOSÉ TENÓRIO/CENTRO (ROTARY-GRUTA)
+    0036          OSO 6904    DUBEAUX LEÃO/CENTRO
+    0041          OSO 6868    FEITOSA / CENTRO / PIABAS / C. DAS ALMAS
+    0109          OSO 6869    C DAS ALMAS/TRAPICHE-VERGEL(P. VDE/POÇO)
+    0114          OSO 6811    C DAS ALMAS/TRAPICHE(JACINTINHO-J. LEÃO)
+    0116          OSO 6857    JOSÉ TENÓRIO/TRAPICHE(VIA CRUZ DAS ALMAS
+    0209          OSO 6964    C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO)
+    0223          OSO 6966    IPIOCA/VERGEL(PONTA VERDE-TRAPICHE-POÇO)
+    0226          OSO 6967    IPIOCA/TRAPICHE(POÇO-VERGEL-PONTA VERDE)
+    0403          OSO 6491    TRAPICHE/OURO PRETO(JACINTINHO-FAROL)
+    0404          OSO 6492    TRAPICHE/NOVO MUNDO(FAROL-JACINTINHO)
+    0501          OSO 6686    VERGEL/SÃO JORGE(MERCADO-JACINTINHO)
+    0502          OSO 6866    VERGEL/SÃO JORGE(MERCADO-FAROL)
+    0504          OSO 6860    TRAPICHE/SÃO JORGE(PTA VERDE-JACARECICA)
+    0603          OSO 6907    VERGEL/MIRANTE(VIA POÇO - PÇA BOMFIM)
+    0604          OSO 6939    EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY
+    0606          OSO 6963    JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)
+    0610          OSO 6684    CRUZ DAS ALMAS/OURO PRETO (VIA GRUTA)
+    0613          OSO 6969    VERGEL/GUAXUMA(SANTO EDUARDO-JACARECICA)
+    0614          OSO 6970    TRAPICHE/MANGABEIRAS(J. LEÃO-PT. VERDE)
+    0617          OSO 6870    C DAS ALMAS/IPIOCA(SAÚDE-SAUAÇUHY)
+    0700          OSO 6502    GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)
+    0708          OSO 6685    CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC
+    0900          OSO 6956    CRUZ DAS ALMAS/UFAL (VIA JOSÉ TENÓRIO)
+
+  REAL - REAL TRANSPORTES URBANOS LTDA. (27 linhas):
+    0037          OSO 6910    SALVADOR LIRA/CENTRO
+    0039          OSO 6974    CLETO MARQUES LUZ/CENTRO
+    0042          OSO 6911    BEN. BENTES / CENTRO / SALVADOR LIRA
+    0046          OSO 6912    VILLAGE CAMPESTRE II / CENTRO
+    0048          OSO 6840    BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)
+    0052          OSO 6562    T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)
+    0053          OSO 6913    GRACILIANO RAMOS/CENTRO(FAROL)
+    0104          OSO 6972    BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)
+    0105          OSO 6565    JARD PETROPÓLIS/TRAPICHE/TERM SALV. LYRA
+    0110          OSO 6566    GRACILIANO RAMOS/TRAPICHE(T. ROD.)
+    0113          OSO 6952    T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)
+    0117          OSO 6568    VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)
+    0214          OSO 6735    HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA
+    0217          OSO 6570    BENEDITO BENTES/MERCADO/FEITOSA
+    0601          OSO 6971    BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)
+    0602          OSO 6917    S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE
+    0607          OSO 6580    T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)
+    0612          OSO 6927    E GOMES/JATIÚCA (VIA CENTRO-PONTA VERDE)
+    0615          OSO 6919    E. GOMES/MANGABEIRAS(M. MARCELO/J. MELO)
+    0703          OSO 6949    BENEDITO BENTES/PONTA VERDE
+    0704          OSO 6959    BENEDITO BENTES/PONTA VERDE/FAROL
+    0706          OSO 6922    T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT
+    0707          OSO 6923    GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)
+    0720          OSO 6973    DENISSON MENEZES/PONTA VERDE(FAROL)
+    0727          OSO 6924    EUSTÁQUIO GOMES/PTA VERDE(VILLAGE II)
+    0901          OSO 6543    T.I. B. BENTES/T.I. E. GOMES(H. METROP)
+    0903          OSO 6975    T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)
+
+  SFRA - EMPRESA SÃO FRANCISCO LTDA. (23 linhas):
+    0051          OSO 6889    SANTOS DUMONT/CENTRO(VIA POÇO)
+    0056          OSO 6890    JOÃO SAMPAIO I / CENTRO / FAROL
+    0057          OSO 6957    RIO NOVO / CENTRO / VIA COLINA
+    0058          OSO 6692    FERNÃO VELHO / CENTRO / B. GONZAGA
+    0065          OSO 6941    ROSANE COLLOR / CENTRO (FAROL)
+    0068          OSO 6514    COLINA/CENTRO(SANTA AMÉLIA - FAROL)
+    0069          OSO 6893    CLIMA BOM / CENTRO / FAROL
+    0101          OSO 6775    CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)
+    0102          OSO 6776    JOÃO SAMPAIO/TRAPICHE(ROTARY-JACINTINHO)
+    0108          OSO 6942    CLIMA BOM / TRAPICHE / BEBEDOURO
+    0115          OSO 6778    CHÃ DA JAQUEIRA/TRAPICHE(CENTRO-PRADO)
+    0301          OSO 6744    VILLAGE II/C. DA JAQUEIRA(UFAL-COLINA)
+    0401          OSO         
+    0402          OSO         
+    0612-A        OSO 6930    E GOMES/JATIÚCA(VIA CENTRO-PONTA VERDE)
+    0709          OSO 6937    CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO
+    0710          OSO 6947    CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA
+    0712          OSO 6945    SANTO DUMONT/ PONTA VERDE/ IGUATEMI
+    0714          OSO 6938    RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)
+    0716          OSO 6958    CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL
+    0719          OSO 6782    CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)
+    0723          OSO 6901    ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT
+    0802          OSO 6955    T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)
+
+================================================================================
+[ CATRACA DE SOLO ]  2 linhas
+--------------------------------------------------------------------------------
+
+  REAL - REAL TRANSPORTES URBANOS LTDA. (2 linhas):
+    0800          OSO         
+    0902          OSO         
+
+================================================================================
+[ MADRUGADAO ]  5 linhas
+--------------------------------------------------------------------------------
+
+  CIMA - VIAÇÃO CIDADE DE MACEIÓ LTDA (2 linhas):
+    0004-M        OSO 9407    OURO PRETO/PONTA VERDE (FEITOSA)
+    0005-M        OSO 6886    IPIOCA/PONTAL (PONTA VERDE)
+
+  REAL - REAL TRANSPORTES URBANOS LTDA. (3 linhas):
+    0001-M        OSO 9410    VILLAGE II/PONTA VERDE(GRACILIANO RAMOS)
+    0002-M        OSO 9411    BENEDITO BENTES/PONTA VERDE (TRAPICHE)
+    0003-M        OSO 9412    EUSTÁQUIO GOMES/PONTA VERDE (TRAPICHE)
+
+================================================================================
+[ INTEGRACAO ]  22 linhas
+--------------------------------------------------------------------------------
+
+  CIMA - VIAÇÃO CIDADE DE MACEIÓ LTDA (7 linhas):
+    0221          OSO 6965    SAÚDE/TERMINAL CRUZ DAS ALMAS
+    1000-B        OSO 6725    TRAPICHE/PONTAL(VILA DOS PESCADORES)
+    1018          OSO 6478    A. DO CRUZEIRO/AL 101 NORTE(ANDRAÚJO)
+    1019          OSO 6585    T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)
+    1020          OSO 6793    C. DAS ALMAS/SÃO JORGE(JOSEPHA DE MELO)
+    1022          OSO 6968    C.DAS ALMAS/ALTO DE GUAXUMA(JACARECICA)
+    1023          OSO 6795    C. DAS ALMAS/J. TENÓRIO(L. ÓLEO-MURILÓP)
+
+  REAL - REAL TRANSPORTES URBANOS LTDA. (13 linhas):
+    0804          OSO 6538    CONJ. CIDADE SORRISO I/TER. B. BENTES
+    0805          OSO 6929    GUAXUMA/TERMINAL DO BENEDITO BENTES
+    0807          OSO 6954    JOSÉ APRÍGIO VILLELA / T.I. B. BENTES
+    0809          OSO 6541    SELMA BANDEIRA/TERMINAL BENEDITO BENTES
+    0812          OSO 6739    PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES
+    1000          OSO 6961    TRAPICHE/PONTAL(V. DOS PESCADORES)
+    4000          OSO         
+    4003          OSO 6768    T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)
+    4006          OSO 6786    TERMINAL MOCAMBO/T.I. BENEDITO BENTES
+    4011          OSO 6960    TERM. SAL. LYRA / TERM. INTEG. VIA REC.
+    4013          OSO 6767    T.I. EUSTÁQUIO GOMES/FORENE(J SAÚDE)
+    4014          OSO 6758    T.I. EUSTÁQUIO GOMES/N JARDIM-JD ROYAL
+    4015          OSO 6769    T.I. EUST. GOMES/JD. AMARILIS(FLAMBOYANT
+
+  SFRA - EMPRESA SÃO FRANCISCO LTDA. (2 linhas):
+    0006-M        OSO 9409    CLIMA BOM/PONTA VERDE (FERNÃO VELHO)
+    2058          OSO 6533    FERNÃO VELHO/COLINA-VIA FEIRINHA-M. NETO
+
+================================================================================
+[ LINHA CIDADA ]  1 linhas
+--------------------------------------------------------------------------------
+
+  SFRA - EMPRESA SÃO FRANCISCO LTDA. (1 linhas):
+    0999          OSO 6784    JOÃO SAMPAIO/FLEXAIS-VIA CHÃ DA JAQUEIRA
+
+--------------------------------------------------------------------------------
+Gerado por resumo-oso/extrair_resumo_oso.py

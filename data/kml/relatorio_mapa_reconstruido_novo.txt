@@ -1,0 +1,197 @@
+================================================================================
+RELATÓRIO — MAPA RECONSTRUIDO (VERSÃO ATUALIZADA) vs CATÁLOGO
+Arquivo atual  : Mapa Reconstruido.kml
+Arquivo anterior: Mapa_Reconstruido.kml
+================================================================================
+
+[ RESUMO GERAL ]
+
+  Trajetos no KML atual            : 210
+  Pontos/Paradas no KML atual      : 1505
+  Códigos únicos com trajeto       : 99
+  Linhas no catálogo               : 99
+
+  Presentes no KML e no catálogo   : 95
+  No KML mas fora do catálogo      : 4
+  No catálogo sem trajeto no KML   : 4  ← ainda faltam
+
+================================================================================
+[ O QUE FOI ADICIONADO vs VERSÃO ANTERIOR ]  12 linhas novas
+--------------------------------------------------------------------------------
+
+  Versão anterior : 184 trajetos  (87 códigos únicos)
+  Versão atual    : 210 trajetos  (99 códigos únicos)
+  Diferença       : +26 trajetos  +12 códigos novos
+
+  0036  Catálogo : 
+       KML     : 0036
+       KML     : 0036
+
+  0065  Catálogo : 
+       KML     : 0065 - Rosane Collor/Centro
+       KML     : 0065 - Rosane Collor/Centro
+
+  0301  Catálogo : 
+       KML     : 0301 - village II/Chã da jaqueira
+       KML     : 0301 - village II/Chã da jaqueira
+
+  0402  Catálogo : 
+       KML     : 0402
+       KML     : 0402 - circular bairros II
+
+  1020  Catálogo : (nao esta no catalogo)
+       KML     : 1020 - Cruz das Almas X São Jorge
+       KML     : 1020 - Cruz das Almas X São Jorge
+
+  1022  Catálogo : (nao esta no catalogo)
+       KML     : 1022 - Cruz das Almas X Guaxuma
+       KML     : 1022 - cruz das almas X Guaxuma
+
+  1023  Catálogo : (nao esta no catalogo)
+       KML     : 1023 - Cruz das Almas X José Tenório
+       KML     : 1023 - Cruz das Almas X José Tenório
+
+  M001  Catálogo : 
+       KML     : M001 - MADRUGADÃO VILLAGE II
+       KML     : M001 - MADRUGADÃO VILLAGE II
+
+  M002  Catálogo : 
+       KML     : M002 - MADRUGADÃO BENEDITO BENTES
+       KML     : M002 - MADRUGADÃO BENEDITO BENTES
+
+  M003  Catálogo : 
+       KML     : M003 - MADRUGADÃO EUSTÁQUIO GOMES
+       KML     : M003 - MADRUGADÃO EUSTÁQUIO GOMES
+
+  M004  Catálogo : 
+       KML     : M004 - MADRUGADÃO OURO PRETO/PONTA VERDE
+       KML     : M004 - MADRUGADÃO OURO PRETO/PONTA VERDE
+
+  M005  Catálogo : 
+       KML     : M005 - MADRUGADÃO - IPIOCA/PONTAL
+       KML     : M005 - MADRUGADÃO - IPIOCA/PONTAL
+
+================================================================================
+[ LINHAS QUE AINDA FALTAM NO KML ]  4
+--------------------------------------------------------------------------------
+
+  0003  (sem nome no catalogo)
+  0800  (sem nome no catalogo)
+  0902  (sem nome no catalogo)
+  M006  (sem nome no catalogo)
+
+================================================================================
+[ NO KML MAS FORA DO CATÁLOGO ]  4
+--------------------------------------------------------------------------------
+
+  0105  0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis)
+  0105  0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis)
+  1020  1020 - Cruz das Almas X São Jorge
+  1020  1020 - Cruz das Almas X São Jorge
+  1022  1022 - Cruz das Almas X Guaxuma
+  1022  1022 - cruz das almas X Guaxuma
+  1023  1023 - Cruz das Almas X José Tenório
+  1023  1023 - Cruz das Almas X José Tenório
+
+================================================================================
+[ TODAS AS LINHAS PRESENTES NO KML E NO CATÁLOGO ]  95
+--------------------------------------------------------------------------------
+
+  0001    [6 trajeto(s)]
+  0004    [6 trajeto(s)]
+  0012  0012 - CONJ. JOSÉ S. PEIXOTO/CENTRO
+  0024  0024 - GRUTA/CENTRO-VIA C. ALMAS(TERM. ROTARY)
+  0027  0027 - VILA SAEM/CENTRO(PINHEIRO-PITANGUINHA)
+  0033  0033 - JOSÉ TENÓRIO/CENTRO (ROTARY-GRUTA)  [4 trajeto(s)]
+  0036  
+  0037  0037 - SALVADOR LIRA/CENTRO
+  0039  0039 - CLETO MARQUES LUZ/CENTRO
+  0041  0041 - FEITOSA / CENTRO / PIABAS / C. DAS ALMAS
+  0042  0042 - BEN. BENTES / CENTRO / SALVADOR LIRA
+  0046  0046 - VILLAGE CAMPESTRE II / CENTRO
+  0048  0048 - BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)
+  0051  0051 - SANTOS DUMONT/CENTRO(VIA POÇO)
+  0052  0052 - T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)
+  0053  0053 - GRACILIANO RAMOS/CENTRO(FAROL)
+  0056  0056 - JOÃO SAMPAIO I / CENTRO / FAROL
+  0057  0057 - RIO NOVO / CENTRO / VIA COLINA
+  0058  0058 - FERNÃO VELHO / CENTRO / B. GONZAGA
+  0065  
+  0068  0068 - COLINA/CENTRO(SANTA AMÉLIA - FAROL)
+  0069  0069 - CLIMA BOM / CENTRO / FAROL
+  0101  0101 - CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)
+  0102  0102 - JOÃO SAMPAIO/TRAPICHE(ROTARY-JACINTINHO)
+  0104  0104 - BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)
+  0108  0108 - CLIMA BOM / TRAPICHE / BEBEDOURO
+  0110  0110 - GRACILIANO RAMOS/TRAPICHE(T. ROD.)
+  0113  0113 - T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)
+  0114  0114 - C DAS ALMAS/TRAPICHE(JACINTINHO-J. LEÃO)
+  0115  0115 - CHÃ DA JAQUEIRA/TRAPICHE(CENTRO-PRADO)
+  0116  0116 - JOSÉ TENÓRIO/TRAPICHE(VIA CRUZ DAS ALMAS
+  0117  0117 - VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)
+  0214  0214 - HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA
+  0217  0217 - BENEDITO BENTES/MERCADO/FEITOSA
+  0221  0221 - SAÚDE/TERMINAL CRUZ DAS ALMAS
+  0223  0223 - IPIOCA/VERGEL(PONTA VERDE-TRAPICHE-POÇO)
+  0226  0226 - IPIOCA/TRAPICHE(POÇO-VERGEL-PONTA VERDE)
+  0301  
+  0401  0401 - CIRCULAR / BAIRROS 1
+  0402  
+  0403  0403 - TRAPICHE/OURO PRETO(JACINTINHO-FAROL)
+  0404  0404 - TRAPICHE/NOVO MUNDO(FAROL-JACINTINHO)
+  0501  0501 - VERGEL/SÃO JORGE(MERCADO-JACINTINHO)
+  0502  0502 - VERGEL/SÃO JORGE(MERCADO-FAROL)
+  0504  0504 - TRAPICHE/SÃO JORGE(PTA VERDE-JACARECICA)
+  0601  0601 - BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)
+  0602  0602 - S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE
+  0603  0603 - VERGEL/MIRANTE(VIA POÇO - PÇA BOMFIM)
+  0604  0604 - EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY
+  0606  0606 - JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)
+  0607  0607 - T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)
+  0610  0610 - CRUZ DAS ALMAS/OURO PRETO (VIA GRUTA)
+  0612  0612 - E GOMES/JATIÚCA (VIA CENTRO-PONTA VERDE)  [4 trajeto(s)]
+  0613  0613 - VERGEL/GUAXUMA(SANTO EDUARDO-JACARECICA)
+  0614  0614 - TRAPICHE/MANGABEIRAS(J. LEÃO-PT. VERDE)
+  0615  0615 - E. GOMES/MANGABEIRAS(M. MARCELO/J. MELO)
+  0700  0700 - GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)
+  0703  0703 - BENEDITO BENTES/PONTA VERDE
+  0704  0704 - BENEDITO BENTES/PONTA VERDE/FAROL
+  0706  0706 - T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT
+  0707  0707 - GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)
+  0708  0708 - CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC
+  0709  0709 - CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO
+  0710  0710 - CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA
+  0712  0712 - SANTO DUMONT/ PONTA VERDE/ IGUATEMI
+  0714  0714 - RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)
+  0716  0716 - CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL
+  0719  0719 - CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)
+  0720  0720 - DENISSON MENEZES/PONTA VERDE(FAROL)
+  0723  0723 - ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT
+  0727  0727 - EUSTÁQUIO GOMES/PTA VERDE(VILLAGE II)
+  0802  0802 - T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)
+  0804  0804 - CONJ. CIDADE SORRISO I/TER. B. BENTES
+  0805  0805 - GUAXUMA/TERMINAL DO BENEDITO BENTES
+  0807  0807 - JOSÉ APRÍGIO VILLELA / T.I. B. BENTES
+  0809  0809 - SELMA BANDEIRA/TERMINAL BENEDITO BENTES
+  0812  0812 - PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES
+  0900  0900 - CRUZ DAS ALMAS/UFAL (VIA JOSÉ TENÓRIO)
+  0901  0901 - T.I. B. BENTES/T.I. E. GOMES(H. METROP)
+  0903  0903 - T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)
+  0999  0999 - JOÃO SAMPAIO/FLEXAIS-VIA CHÃ DA JAQUEIRA
+  1000  1000 - TRAPICHE/PONTAL(V. DOS PESCADORES)
+  1018  1018 - A. DO CRUZEIRO/AL 101 NORTE(ANDRAÚJO)
+  1019  1019 - T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)
+  4003  4003 - T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)
+  4006  4006 - TERMINAL MOCAMBO/T.I. BENEDITO BENTES
+  4011  4011 - TERM. SAL. LYRA / TERM. INTEG. VIA REC.
+  4013  4013 - T.I. EUSTÁQUIO GOMES/FORENE(J SAÚDE)
+  4014  4014 - T.I. EUSTÁQUIO GOMES/N JARDIM-JD ROYAL
+  4015  4015 - T.I. EUST. GOMES/JD. AMARILIS(FLAMBOYANT
+  M001  
+  M002  
+  M003  
+  M004  
+  M005  
+
+--------------------------------------------------------------------------------
+Gerado por python/gerar_relatorio_kml_novo.py

@@ -1,0 +1,326 @@
+================================================================================
+RELATÓRIO — KML MAPA_RECONSTRUIDO vs CATÁLOGO DE LINHAS
+KML   : Mapa_Reconstruido.kml
+Fonte : linhas.json
+================================================================================
+
+[ RESUMO ]
+
+  Placemarks no KML               : 1659
+    Trajetos (LineString)           : 184
+    Pontos/Paradas                  : 1475
+  Códigos únicos com trajeto no KML: 87
+  Linhas no catálogo (linhas.json) : 99
+    Com nome                        : 84
+    Só código (sem nome)            : 15
+
+  Presentes no KML e no catálogo   : 86
+  NO KML mas fora do catálogo      : 1  ← adicionados/extras
+  No catálogo SEM trajeto no KML   : 13  ← faltam no KML
+
+================================================================================
+[ NO KML MAS FORA DO CATÁLOGO ]  1 linhas
+--------------------------------------------------------------------------------
+
+  Estes trajetos foram adicionados ao KML mas não existem
+  no catálogo linhas.json. Podem ser linhas novas.
+
+  0105  0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis)
+  0105  0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis)
+
+================================================================================
+[ NO CATÁLOGO SEM TRAJETO NO KML ]  13 linhas
+--------------------------------------------------------------------------------
+
+  Estas linhas existem no catálogo mas ainda não têm
+  trajeto desenhado no Mapa_Reconstruido.kml.
+
+  0003  (sem nome no catálogo)
+  0036  (sem nome no catálogo)
+  0065  (sem nome no catálogo)
+  0301  (sem nome no catálogo)
+  0402  (sem nome no catálogo)
+  0800  (sem nome no catálogo)
+  0902  (sem nome no catálogo)
+  M001  (sem nome no catálogo)
+  M002  (sem nome no catálogo)
+  M003  (sem nome no catálogo)
+  M004  (sem nome no catálogo)
+  M005  (sem nome no catálogo)
+  M006  (sem nome no catálogo)
+
+================================================================================
+[ PRESENTES NO KML E NO CATÁLOGO ]  86 linhas
+--------------------------------------------------------------------------------
+
+  0001    [6 trajeto(s) no KML]
+         KML: 0001 Terminal X Cruzeiro
+         KML: 0001 Terminal X Cruzeiro
+         KML: 0001 - Madrugadão Village II
+         KML: 0001 - Madrugadão Village II
+         KML: 0001 Terminal X Cruzeiro
+         KML: 0001 - Madrugadão Village II
+  0004    [6 trajeto(s) no KML]
+         KML: 0004 - Rio Largo via Mata do Rolo
+         KML: 0004 - Rio Largo - Mata do Rolo
+         KML: 0004 - Rio Largo (Mata do Rolo)
+         KML: 0004 - Rio Largo via Mata do Rolo
+         KML: 0004 - Rio Largo - Mata do Rolo
+         KML: 0004 - Rio Largo (Mata do Rolo)
+  0012  0012 - CONJ. JOSÉ S. PEIXOTO/CENTRO  [2 trajeto(s) no KML]
+         KML: 0012 - Jose da Silva Peixoto / Centro
+         KML: 0012 - Jose da Silva Peixoto / Centro
+  0024  0024 - GRUTA/CENTRO-VIA C. ALMAS(TERM. ROTARY)  [2 trajeto(s) no KML]
+         KML: 0024 - Gruta / Centro / Term. Rotary
+         KML: 0024 - Gruta / Centro / Term. Rotary
+  0027  0027 - VILA SAEM/CENTRO(PINHEIRO-PITANGUINHA)  [2 trajeto(s) no KML]
+         KML: 0027 - Vila Saem / Centro
+         KML: 0027 - Vila Saem / Centro
+  0033  0033 - JOSÉ TENÓRIO/CENTRO (ROTARY-GRUTA)  [2 trajeto(s) no KML]
+         KML: 0033 Jose Tenorio / Centro
+         KML: 0033 Jose Tenorio / Centro
+  0037  0037 - SALVADOR LIRA/CENTRO  [2 trajeto(s) no KML]
+         KML: 0037 - Salvador Lyra / Centro
+         KML: 0037 - Salvador Lyra / Centro
+  0039  0039 - CLETO MARQUES LUZ/CENTRO  [2 trajeto(s) no KML]
+         KML: 0039 - Dubeaux Leao / Centro
+         KML: 0039 - Dubeaux Leao / Centro
+  0041  0041 - FEITOSA / CENTRO / PIABAS / C. DAS ALMAS  [2 trajeto(s) no KML]
+         KML: 0041 - Feitosa X Centro / Farol
+         KML: 0041 - Feitosa X Centro / Farol
+  0042  0042 - BEN. BENTES / CENTRO / SALVADOR LIRA  [2 trajeto(s) no KML]
+         KML: 0042 - T.I. Benedito Bentes / Centro
+         KML: 0042 - T.I. Benedito Bentes / Centro
+  0046  0046 - VILLAGE CAMPESTRE II / CENTRO  [2 trajeto(s) no KML]
+         KML: 0046 - Village II / Centro
+         KML: 0046 - Village II / Centro
+  0048  0048 - BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)  [2 trajeto(s) no KML]
+         KML: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo)
+         KML: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo)
+  0051  0051 - SANTOS DUMONT/CENTRO(VIA POÇO)  [2 trajeto(s) no KML]
+         KML: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro
+         KML: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro
+  0052  0052 - T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)  [2 trajeto(s) no KML]
+         KML: 0052 - T.I Eustáquio Gomes / Centro
+         KML: 0052 - T.I Eustáquio Gomes / Centro
+  0053  0053 - GRACILIANO RAMOS/CENTRO(FAROL)  [2 trajeto(s) no KML]
+         KML: 0053 - Graciliano Ramos / Centro
+         KML: 0053 - Graciliano Ramos / Centro
+  0056  0056 - JOÃO SAMPAIO I / CENTRO / FAROL  [2 trajeto(s) no KML]
+         KML: 0056 - João Sampaio / Centro
+         KML: 0056 - João Sampaio / Centro
+  0057  0057 - RIO NOVO / CENTRO / VIA COLINA  [2 trajeto(s) no KML]
+         KML: 0057 - Rio Novo / Centro Via Farol
+         KML: 0057 - Rio Novo / Centro Via Farol
+  0058  0058 - FERNÃO VELHO / CENTRO / B. GONZAGA  [2 trajeto(s) no KML]
+         KML: 0058 Fernão Velho / Centro via Farol
+         KML: 0058 Fernão Velho / Centro via Farol
+  0068  0068 - COLINA/CENTRO(SANTA AMÉLIA - FAROL)  [2 trajeto(s) no KML]
+         KML: 0068 - Colina / Poço
+         KML: 0068 - Colina / Poço
+  0069  0069 - CLIMA BOM / CENTRO / FAROL  [2 trajeto(s) no KML]
+         KML: 0069 - Clima Bom / Centro
+         KML: 0069 - Clima Bom / Centro
+  0101  0101 - CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)  [2 trajeto(s) no KML]
+         KML: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+         KML: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+  0102  0102 - JOÃO SAMPAIO/TRAPICHE(ROTARY-JACINTINHO)  [2 trajeto(s) no KML]
+         KML: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+         KML: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+  0104  0104 - BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)  [2 trajeto(s) no KML]
+         KML: 0104 - T.I Benedito Bentes / Trapiche
+         KML: 0104 - T.I Benedito Bentes / Trapiche
+  0108  0108 - CLIMA BOM / TRAPICHE / BEBEDOURO  [2 trajeto(s) no KML]
+         KML: 0108 - Clima Bom via Colina / Trapiche
+         KML: 0108 - Clima Bom via Colina / Trapiche
+  0110  0110 - GRACILIANO RAMOS/TRAPICHE(T. ROD.)  [2 trajeto(s) no KML]
+         KML: 0110 - Graciliano Ramos / Trapiche
+         KML: 0110 - Graciliano Ramos / Trapiche
+  0113  0113 - T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)  [2 trajeto(s) no KML]
+         KML: 0113 - T.I Eustáquio Gomes / Trapiche
+         KML: 0113 - T.I Eustáquio Gomes / Trapiche
+  0114  0114 - C DAS ALMAS/TRAPICHE(JACINTINHO-J. LEÃO)  [2 trajeto(s) no KML]
+         KML: 0114 - Cruz das Alamas X Trapiche
+         KML: 0114 - Cruz das Alamas X Trapiche
+  0115  0115 - CHÃ DA JAQUEIRA/TRAPICHE(CENTRO-PRADO)  [2 trajeto(s) no KML]
+         KML: 0115 - Chã da Jaqueira Trapiche (via centro - prado)
+         KML: 0115 - Chã da Jaqueira Trapiche (via centro - prado)
+  0116  0116 - JOSÉ TENÓRIO/TRAPICHE(VIA CRUZ DAS ALMAS  [2 trajeto(s) no KML]
+         KML: 0116 - José Tenório X Trapiche
+         KML: 0116 - José Tenório X Trapiche
+  0117  0117 - VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)  [2 trajeto(s) no KML]
+         KML: 0117 - Village II / Trapiche
+         KML: 0117 - Village II / Trapiche
+  0214  0214 - HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA  [2 trajeto(s) no KML]
+         KML: 0214 - Henrique Equelman / Vergel
+         KML: 0214 - Henrique Equelman / Vergel
+  0217  0217 - BENEDITO BENTES/MERCADO/FEITOSA  [2 trajeto(s) no KML]
+         KML: 0217 - T.I. Benedito Bentes / Mercado
+         KML: 0217 - T.I. Benedito Bentes / Mercado
+  0221  0221 - SAÚDE/TERMINAL CRUZ DAS ALMAS  [2 trajeto(s) no KML]
+         KML: 0221 - Saúde / Cruz das Almas
+         KML: 0221 - Saúde / Cruz das Almas
+  0223  0223 - IPIOCA/VERGEL(PONTA VERDE-TRAPICHE-POÇO)  [2 trajeto(s) no KML]
+         KML: 0223 - Ipioca X Vergel Via Mercado
+         KML: 0223 - Ipioca X Vergel Via Mercado
+  0226  0226 - IPIOCA/TRAPICHE(POÇO-VERGEL-PONTA VERDE)  [2 trajeto(s) no KML]
+         KML: 0226 - Ipioca X Trapiche via Poço
+         KML: 0226 - Ipioca X Trapiche via Poço
+  0401  0401 - CIRCULAR / BAIRROS 1  [2 trajeto(s) no KML]
+         KML: 0401 - Circular Bairros I
+         KML: 0401 - Circular Bairros I
+  0403  0403 - TRAPICHE/OURO PRETO(JACINTINHO-FAROL)  [2 trajeto(s) no KML]
+         KML: 0403 - Trapiche / Ouro Preto
+         KML: 0403 - Trapiche / Ouro Preto
+  0404  0404 - TRAPICHE/NOVO MUNDO(FAROL-JACINTINHO)  [2 trajeto(s) no KML]
+         KML: 0404 - Trapiche / Novo Mundo
+         KML: 0404 - Trapiche / Novo Mundo
+  0501  0501 - VERGEL/SÃO JORGE(MERCADO-JACINTINHO)  [2 trajeto(s) no KML]
+         KML: 0501 - Vergel X São Jorge (Via Jacintinho)
+         KML: 0501 - Vergel X São Jorge (Via Jacintinho)
+  0502  0502 - VERGEL/SÃO JORGE(MERCADO-FAROL)  [2 trajeto(s) no KML]
+         KML: 0502 - Vergel X São Jorge ( Via Farol)
+         KML: 0502 - Vergel X São Jorge ( Via Farol)
+  0504  0504 - TRAPICHE/SÃO JORGE(PTA VERDE-JACARECICA)  [2 trajeto(s) no KML]
+         KML: 0504 - Trapiche / São Jorge
+         KML: 0504 - Trapiche / São Jorge
+  0601  0601 - BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)  [2 trajeto(s) no KML]
+         KML: 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar)
+         KML: 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar)
+  0602  0602 - S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE  [2 trajeto(s) no KML]
+         KML: 0602 - Salvador Lyra / Maeió Shopping
+         KML: 0602 - Salvador Lyra / Maeió Shopping
+  0603  0603 - VERGEL/MIRANTE(VIA POÇO - PÇA BOMFIM)  [2 trajeto(s) no KML]
+         KML: 0603 - Vergel / Mirante
+         KML: 0603 - Vergel / Mirante
+  0604  0604 - EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY  [2 trajeto(s) no KML]
+         KML: 0604 Eustáquio Gomes / Cruz das Almas
+         KML: 0604 Eustáquio Gomes / Cruz das Almas
+  0606  0606 - JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)  [2 trajeto(s) no KML]
+         KML: 0606 - Jose Tenorio / MCZ Shopping
+         KML: 0606 - Jose Tenorio / MCZ Shopping
+  0607  0607 - T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)  [2 trajeto(s) no KML]
+         KML: 0607 - T.I. Eustáquio Gomes / Maceió Shopping
+         KML: 0607 - T.I. Eustáquio Gomes / Maceió Shopping
+  0610  0610 - CRUZ DAS ALMAS/OURO PRETO (VIA GRUTA)  [2 trajeto(s) no KML]
+         KML: 0610 - Terminal Cruz das Almas X Ouro Preto
+         KML: 0610 - Terminal Cruz das Almas X Ouro Preto
+  0612  0612 - E GOMES/JATIÚCA (VIA CENTRO-PONTA VERDE)  [4 trajeto(s) no KML]
+         KML: 0612 - E. Gomes / Jatiuca
+         KML: 0612 - Eustáquio Gomes / Jatiúca
+         KML: 0612 - E. Gomes / Jatiuca
+         KML: 0612 - Eustáquio Gomes / Jatiúca
+  0613  0613 - VERGEL/GUAXUMA(SANTO EDUARDO-JACARECICA)  [2 trajeto(s) no KML]
+         KML: 0613 - vergel / Guaxuma
+         KML: 0613 - vergel / Guaxuma
+  0614  0614 - TRAPICHE/MANGABEIRAS(J. LEÃO-PT. VERDE)  [2 trajeto(s) no KML]
+         KML: 0614 - Trapiche / Mangabeiras
+         KML: 0614 - Trapiche / Mangabeiras
+  0615  0615 - E. GOMES/MANGABEIRAS(M. MARCELO/J. MELO)  [2 trajeto(s) no KML]
+         KML: 0615 - Eustáquio Gomes / Mangabeiras
+         KML: 0615 - Eustáquio Gomes / Mangabeiras
+  0700  0700 - GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)  [2 trajeto(s) no KML]
+         KML: 0700 - Gruta / Ponta Verde / Term. Rotary
+         KML: 0700 - Gruta / Ponta Verde / Term. Rotary
+  0703  0703 - BENEDITO BENTES/PONTA VERDE  [2 trajeto(s) no KML]
+         KML: 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta)
+         KML: 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta)
+  0704  0704 - BENEDITO BENTES/PONTA VERDE/FAROL  [2 trajeto(s) no KML]
+         KML: 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia)
+         KML: 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia)
+  0706  0706 - T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT  [2 trajeto(s) no KML]
+         KML: 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho)
+         KML: 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho)
+  0707  0707 - GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)  [2 trajeto(s) no KML]
+         KML: 0707 - Graciliano Ramos / Ponta Verde
+         KML: 0707 - Graciliano Ramos / Ponta Verde
+  0708  0708 - CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC  [2 trajeto(s) no KML]
+         KML: 0708 - Cruz das Almas x Ponta Verde
+         KML: 0708 - Cruz das Almas x Ponta Verde
+  0709  0709 - CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO  [2 trajeto(s) no KML]
+         KML: 0709 - Chã da Jaqueira / Ponta Verde
+         KML: 0709 - Chã da Jaqueira / Ponta Verde
+  0710  0710 - CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA  [2 trajeto(s) no KML]
+         KML: 0710 - Chã da Jaqueira/ Ponta Verde
+         KML: 0710 - Chã da Jaqueira/ Ponta Verde
+  0712  0712 - SANTO DUMONT/ PONTA VERDE/ IGUATEMI  [2 trajeto(s) no KML]
+         KML: 0712 - Santos Durmont X Ponta Verde / Farol
+         KML: 0712 - Santos Durmont X Ponta Verde / Farol
+  0714  0714 - RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)  [2 trajeto(s) no KML]
+         KML: 0714 - Rio Novo / Ponta Verde via Jacintinho
+         KML: 0714 - Rio Novo / Ponta Verde via Jacintinho
+  0716  0716 - CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL  [2 trajeto(s) no KML]
+         KML: 0716 - Clima bom / Ponta Verde
+         KML: 0716 - Clima bom / Ponta Verde
+  0719  0719 - CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)  [2 trajeto(s) no KML]
+         KML: 0719 - Chã nova / Ponta Verde
+         KML: 0719 - Chã nova / Ponta Verde
+  0720  0720 - DENISSON MENEZES/PONTA VERDE(FAROL)  [2 trajeto(s) no KML]
+         KML: 0720 - Denisson Menezes / Ponta Verde
+         KML: 0720 - Denisson Menezes / Ponta Verde
+  0723  0723 - ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT  [2 trajeto(s) no KML]
+         KML: 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho
+         KML: 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho
+  0727  0727 - EUSTÁQUIO GOMES/PTA VERDE(VILLAGE II)  [2 trajeto(s) no KML]
+         KML: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II)
+         KML: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II)
+  0802  0802 - T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)  [2 trajeto(s) no KML]
+         KML: 0802 - Colina / Benedito Bentes
+         KML: 0802 - Colina / Benedito Bentes
+  0804  0804 - CONJ. CIDADE SORRISO I/TER. B. BENTES  [2 trajeto(s) no KML]
+         KML: 0804 T.I. Benedito Bentes / Cidade Sorriso I
+         KML: 0804 T.I. Benedito Bentes / Cidade Sorriso I
+  0805  0805 - GUAXUMA/TERMINAL DO BENEDITO BENTES  [2 trajeto(s) no KML]
+         KML: 0805 - T.I. Benedito Bentes / Guaxuma
+         KML: 0805 - T.I. Benedito Bentes / Guaxuma
+  0807  0807 - JOSÉ APRÍGIO VILLELA / T.I. B. BENTES  [2 trajeto(s) no KML]
+         KML: 0807 - T.I. Benedito Bentes / Aprígio
+         KML: 0807 - T.I. Benedito Bentes / Aprígio
+  0809  0809 - SELMA BANDEIRA/TERMINAL BENEDITO BENTES  [2 trajeto(s) no KML]
+         KML: 0809 - T.I. Benedito Bentes / Selma Bandeira
+         KML: 0809 - T.I. Benedito Bentes / Selma Bandeira
+  0812  0812 - PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES  [2 trajeto(s) no KML]
+         KML: 0812 T.I. Benedito Bentes / Carminha
+         KML: 0812 T.I. Benedito Bentes / Carminha
+  0900  0900 - CRUZ DAS ALMAS/UFAL (VIA JOSÉ TENÓRIO)  [2 trajeto(s) no KML]
+         KML: 0900 - Cruz das Almas/UFAL (Via José Tenório)
+         KML: 0900 - Cruz das Almas/UFAL (Via José Tenório)
+  0901  0901 - T.I. B. BENTES/T.I. E. GOMES(H. METROP)  [2 trajeto(s) no KML]
+         KML: 0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital)
+         KML: 0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital)
+  0903  0903 - T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)  [2 trajeto(s) no KML]
+         KML: 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+         KML: 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+  0999  0999 - JOÃO SAMPAIO/FLEXAIS-VIA CHÃ DA JAQUEIRA  [2 trajeto(s) no KML]
+         KML: 0999 - João Sampaio / Flexais-Via Chã da Jaqueira
+         KML: 0999 - João Sampaio / Flexais-Via Chã da Jaqueira
+  1000  1000 - TRAPICHE/PONTAL(V. DOS PESCADORES)  [2 trajeto(s) no KML]
+         KML: 1000 - Trapiche / Pontal
+         KML: 1000 - Trapiche / Pontal
+  1018  1018 - A. DO CRUZEIRO/AL 101 NORTE(ANDRAÚJO)  [2 trajeto(s) no KML]
+         KML: 1018 - Alto do Cruzeiro / AL 101 Norte (Andraújo)
+         KML: 1018 - Alto do Cruzeiro / AL 101 Norte (Andraújo)
+  1019  1019 - T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)  [2 trajeto(s) no KML]
+         KML: 1019 - Alto de Ipioca
+         KML: 1019 - Alto de Ipioca
+  4003  4003 - T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)  [2 trajeto(s) no KML]
+         KML: 4003 - T.I Eustáquio gomes / Grand Jardim
+         KML: 4003 - T.I Eustáquio gomes / Grand Jardim
+  4006  4006 - TERMINAL MOCAMBO/T.I. BENEDITO BENTES  [2 trajeto(s) no KML]
+         KML: 4006 - T.I Benedito Bentes / Mocambo
+         KML: 4006 - T.I Benedito Bentes / Mocambo
+  4011  4011 - TERM. SAL. LYRA / TERM. INTEG. VIA REC.  [2 trajeto(s) no KML]
+         KML: 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos)
+         KML: 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos)
+  4013  4013 - T.I. EUSTÁQUIO GOMES/FORENE(J SAÚDE)  [2 trajeto(s) no KML]
+         KML: 4013 - T.I. Eustáquio Gomes / Forene (J. Saúde)
+         KML: 4013 - T.I. Eustáquio Gomes / Forene (J. Saúde)
+  4014  4014 - T.I. EUSTÁQUIO GOMES/N JARDIM-JD ROYAL  [2 trajeto(s) no KML]
+         KML: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal
+         KML: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal
+  4015  4015 - T.I. EUST. GOMES/JD. AMARILIS(FLAMBOYANT  [2 trajeto(s) no KML]
+         KML: 4015 - T.I. Eustáquio Gomes / Jardim Amarílis. (via Flamboyantes)
+         KML: 4015 - T.I. Eustáquio Gomes / Jardim Amarílis. (via Flamboyantes)
+
+--------------------------------------------------------------------------------
+Gerado por python/gerar_relatorio_kml.py

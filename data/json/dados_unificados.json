@@ -104509,13 +104509,13 @@
           "match": "exato"
         },
         {
-          "via": "RUA CONSELHEIRO FRANCISCO VIEIRA",
+          "via": "RUA CORONEL JOSÉ FRANCISCO VIEIRA",
           "codigo": "00421",
           "via_pdf": "RUA CONSELHEIRO FRANCISCO VIEIRA",
           "match": "exato"
         },
         {
-          "via": "TRAVESSA CONS FRANCISCO VIEIRA",
+          "via": "TRAVESSA CONSELHEIRO FRANCISCO VIEIRA",
           "codigo": "00709",
           "via_pdf": "TRAV. ESSA CONS. FRANCISCO VIEIRA",
           "match": "fuzzy"

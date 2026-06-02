@@ -264,6 +264,102 @@ Após editar o JSON, **reinicie o backend** (uvicorn só recarrega .py, não .js
 
 ---
 
+## Plano — Incorporar Novas Linhas ao Sistema (Sessões 4 e 5)
+
+Este é o plano definitivo para adicionar linhas novas ao MicroSaaS. Seguir sempre esta ordem.
+
+> Última atualização: 02/06/2026 — Sessão 5
+
+### Estado atual (02/06/2026)
+
+**OSO tem 106 linhas (excluindo Catraca de Solo). dados_unificados.json tem 85.**
+
+| Situação | Qtd | Linhas |
+|---|---|---|
+| No sistema (dados_unificados) e no KML | 85 | — |
+| KML feito, coords extraídas, aguardando itinerário + merge | 12 | 0036, 0065, 0301, 0402, 1020, 1022, 1023, M001–M005 |
+| **Faltam no KML — próxima Fase A** | **9** | ver tabela abaixo |
+| Total faltando no sistema | 19 | — |
+
+**9 linhas que ainda faltam no KML e em tudo:**
+
+| Código | Tipo | Nome |
+|---|---|---|
+| `0014` | Convencional | C das Almas / Centro (Peixoto-Rodov-Mercad) |
+| `0109` | Convencional | C das Almas / Trapiche-Vergel (P. Verde/Poço) |
+| `0209` | Convencional | C das Almas / Vergel (Stº Eduardo-J Leão) |
+| `0612--A` | Convencional | E Gomes / Jatiúca (Via Centro-Ponta Verde) |
+| `0617` | Convencional | C das Almas / Ipioca (Saúde-Sauaçuhy) |
+| `0006-M` | Integração | Clima Bom / Ponta Verde (Fernão Velho) |
+| `1000-B` | Integração | Trapiche / Pontal (Vila dos Pescadores) |
+| `2058` | Integração | Fernão Velho / Colina - Via Feirinha |
+| `4000` | Integração | Circular UFAL (Integração) |
+
+**Observação sobre coordenadas:** Os pontos extraídos do KML (30–300 pts por linha)
+são suficientes para exibir o traçado no Leaflet. Não precisa traçar mais fino.
+
+---
+
+### FASE A — Completar o KML (responsabilidade do usuário no Google Earth)
+- [ ] Desenhar IDA e VOLTA das 9 linhas acima em `data/kml/Mapa Reconstruido.kml`
+- [ ] Nomear cada placemark com o código no início (ex: `0014 - C das Almas / Centro`)
+- [ ] Avisar o Claude quando terminar → Claude roda Fase B
+
+---
+
+### FASE B — Extrair coordenadas do KML → JSON
+**Script:** `python/extrair_coords_kml.py` (já existe — basta rodar novamente)
+
+- Lê as pastas IDA/VOLTA do KML, extrai LineStrings das linhas novas
+- Converte `lon,lat` → `[lat, lon]`
+- Saída: `data/json/novos_trajetos/coords_novas_linhas.json`
+
+---
+
+### FASE C — Extrair itinerário e horários do Matrix
+**Scripts:** `matrix/automation_novas_itinerario.py` e `matrix/automation_novas_horario.py`
+
+Fluxo:
+1. Usuário abre Matrix → OSO → marca só **[x] Itinerário por Via**
+2. Roda `automation_novas_itinerario.py` → PDFs em `data/pdf-intinerarios-por-via-todas-linhas/`
+3. Usuário troca para só **[x] Quadro Horário**
+4. Roda `automation_novas_horario.py` → PDFs em `data/pdf-horario/`
+
+Scripts usam `coordenadas.json` (pyautogui) — não mexer no mouse durante execução.
+Formato dos madrugadões no Matrix: `0001-m`, `0002-m`, etc.
+
+---
+
+### FASE D — Parsear PDFs → JSON rascunho
+**Scripts a criar quando Fase C estiver pronta:**
+- `python/parsear_itinerario_pdf.py` → `data/json/novos_trajetos/itinerario_rascunho.json`
+- `python/parsear_horarios_pdf.py` → `data/json/novos_trajetos/horarios_novos.json`
+
+---
+
+### FASE E — Revisão manual (responsabilidade do usuário)
+- [ ] Corrigir vias no `itinerario_rascunho.json`, preencher códigos DMTT
+- [ ] Confirmar horários no `horarios_novos.json`
+- [ ] Avisar Claude → Fase F
+
+---
+
+### FASE F — Mesclar no sistema
+**Script a criar:** `python/mesclar_novos_trajetos.py`
+
+- Injeta coords + itinerário em `dados_unificados.json`
+- Mescla horários em `horarios/horarios.json`
+- Claude reinicia o backend
+
+---
+
+### Relatórios de controle
+- `I:\Micro-SaaS-DMTT\relatorio_pdfs_vs_oso.txt` — status PDFs vs OSO (106 linhas)
+- `data/kml/relatorio_mapa_reconstruido_novo.txt` — status KML vs catálogo
+- Script para regerar: `python python/gerar_relatorio_pdfs_vs_oso.py`
+
+---
+
 ## Backlog (próximas fases)
 
 ### Qualidade de dados — pendências identificadas (Sessão 4)

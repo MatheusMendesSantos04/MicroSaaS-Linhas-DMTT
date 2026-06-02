@@ -1,0 +1,149 @@
+
+============================================================
+Inicio: 2026-06-02 11:43:13.046873
+
+==================================================
+Linha: 0036
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_0036_20260602.pdf
+
+==================================================
+Linha: 0065
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_0065_20260602.pdf
+
+==================================================
+Linha: 0301
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_0301_20260602.pdf
+
+==================================================
+Linha: 0402
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_0402_20260602.pdf
+
+==================================================
+Linha: 1020
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_1020_20260602.pdf
+
+==================================================
+Linha: 1022
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_1022_20260602.pdf
+
+==================================================
+Linha: 1023
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_1023_20260602.pdf
+
+==================================================
+Linha: 0001-m
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_0001-m_20260602.pdf
+
+==================================================
+Linha: 0002-m
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_0002-m_20260602.pdf
+
+==================================================
+Linha: 0003-m
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_0003-m_20260602.pdf
+
+==================================================
+Linha: 0004-m
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_0004-m_20260602.pdf
+
+==================================================
+Linha: 0005-m
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: horario_0005-m_20260602.pdf
+
+Concluido: 12 OK | 0 erros

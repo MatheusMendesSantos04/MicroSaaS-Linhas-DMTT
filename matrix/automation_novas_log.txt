@@ -1,0 +1,92 @@
+
+============================================================
+Inicio: 2026-06-02 11:19:32.279567
+============================================================
+
+Linhas a processar: ['0036', '0065', '0301', '0402', '1020', '1022', '1023']
+PDFs em: I:\Micro-SaaS-DMTT\MicroSaaS-Linhas-DMTT\data\pdf\matrix_export\novas
+
+
+Procurando janela do Matrix (Relatorio)...
+  Conectado: Matrix
+
+[1/7]
+
+--- Linha: 0036 ---
+  Numero inserido: 0036
+  Imprimir via TAB+ENTER
+  Exportando PDF...
+  OK: linha_0036_20260602.pdf
+
+[2/7]
+
+--- Linha: 0065 ---
+  Numero inserido: 0065
+  Imprimir via TAB+ENTER
+  Exportando PDF...
+  OK: linha_0065_20260602.pdf
+
+[3/7]
+
+--- Linha: 0301 ---
+  Numero inserido: 0301
+  Imprimir via TAB+ENTER
+  Exportando PDF...
+  OK: linha_0301_20260602.pdf
+
+[4/7]
+
+--- Linha: 0402 ---
+  Numero inserido: 0402
+  Imprimir via TAB+ENTER
+  Exportando PDF...
+  OK: linha_0402_20260602.pdf
+
+[5/7]
+
+--- Linha: 1020 ---
+  Numero inserido: 1020
+  Imprimir via TAB+ENTER
+  Exportando PDF...
+  OK: linha_1020_20260602.pdf
+
+[6/7]
+
+--- Linha: 1022 ---
+  Numero inserido: 1022
+  Imprimir via TAB+ENTER
+  Exportando PDF...
+  OK: linha_1022_20260602.pdf
+
+[7/7]
+
+--- Linha: 1023 ---
+  Numero inserido: 1023
+  Imprimir via TAB+ENTER
+  Exportando PDF...
+  OK: linha_1023_20260602.pdf
+
+============================================================
+Concluido: 7 OK | 0 erros
+
+============================================================
+Inicio: 2026-06-02 11:27:15.841456
+
+==================================================
+Linha: 0001-m
+  1. Campo Numero
+  2. Imprimir
+  3. Aguardando visualizacao...
+  4. Exportar
+  5. OK formato
+  6. OK paginas
+  7. Nome do arquivo
+  8. Salvar
+  9. Fechar
+  OK: linha_0001-m_20260602.pdf
+
+==================================================
+Linha: 0002-m
+  1. Campo Numero
+  2. Imprimir
+  3. Aguardando visualizacao...

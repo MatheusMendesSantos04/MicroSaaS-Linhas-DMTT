@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='utf-8'?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Mapa Reconstruido</name>
-	<ns1:CascadingStyle id="__managed_style_0421E95E373FA992F17C_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0421E95E373FA992F17C_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.8</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=ffa726&amp;id=2006&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -22,15 +22,15 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_0421E95E373FA992F17C_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0421E95E373FA992F17C_normal">
 		<Style>
 			<IconStyle>
 				<scale>1.5</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=ffa726&amp;id=2006&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -43,7 +43,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0421E95E373FA992F17C">
 		<Pair>
 			<key>normal</key>
@@ -54,14 +54,14 @@
 			<styleUrl>#__managed_style_0421E95E373FA992F17C_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_0E51DFF2E23F95559320_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0E51DFF2E23F95559320_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.8</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2006&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -74,15 +74,15 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_0E51DFF2E23F95559320_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0E51DFF2E23F95559320_normal">
 		<Style>
 			<IconStyle>
 				<scale>1.5</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2006&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -95,7 +95,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0E51DFF2E23F95559320">
 		<Pair>
 			<key>normal</key>
@@ -106,7 +106,7 @@
 			<styleUrl>#__managed_style_0E51DFF2E23F95559320_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_074884FE423F95559321_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_074884FE423F95559321_highlight">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/none_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -114,7 +114,7 @@
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2006&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -127,7 +127,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_074884FE423F95559321">
 		<Pair>
 			<key>normal</key>
@@ -138,14 +138,14 @@
 			<styleUrl>#__managed_style_074884FE423F95559321_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_01A63ADD7E3F95559323_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_01A63ADD7E3F95559323_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -158,14 +158,14 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_01A63ADD7E3F95559323_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_01A63ADD7E3F95559323_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -178,8 +178,8 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_074884FE423F95559321_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_074884FE423F95559321_normal">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/none_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -187,7 +187,7 @@
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2006&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -200,15 +200,15 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_27A149F6CE3FB924D8D1">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_27A149F6CE3FB924D8D1">
 		<Style>
 			<IconStyle>
 				<scale>1.8</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2006&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -221,8 +221,8 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_06D875688D3F955EA497_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_06D875688D3F955EA497_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
@@ -237,7 +237,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_06D875688D3F955EA497">
 		<Pair>
 			<key>normal</key>
@@ -258,14 +258,14 @@
 			<styleUrl>#__managed_style_27A149F6CE3FB924D8D1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_05683030EE3FDCBF16D8_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_05683030EE3FDCBF16D8_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LabelStyle>
 			</LabelStyle>
@@ -280,14 +280,14 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_05683030EE3FDCBF16D8_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_05683030EE3FDCBF16D8_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LabelStyle>
 			</LabelStyle>
@@ -302,14 +302,14 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_039A7350DE3FB93ECA63_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_039A7350DE3FB93ECA63_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff9f3f30</color>
@@ -322,7 +322,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_05683030EE3FDCBF16D8">
 		<Pair>
 			<key>normal</key>
@@ -333,14 +333,14 @@
 			<styleUrl>#__managed_style_05683030EE3FDCBF16D8_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_0E528362073F765C4E4C_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0E528362073F765C4E4C_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -353,7 +353,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_007BC5E0F63F766BEE77">
 		<Pair>
 			<key>normal</key>
@@ -364,13 +364,13 @@
 			<styleUrl>#__managed_style_007BC5E0F63F766BEE77_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_0E528362073F765C4E4C_normal">
+	<gx:CascadingStyle kml:id="__managed_style_0E528362073F765C4E4C_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -383,14 +383,14 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<Style id="style_pontos">
 		<IconStyle>
 			<color>ff00ffff</color>
 			<scale>1.2</scale>
 		</IconStyle>
 	</Style>
-	<ns1:CascadingStyle id="__managed_style_0A8A29A89B3F765C4E53_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0A8A29A89B3F765C4E53_highlight">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -403,7 +403,7 @@
 				<width>1.5</width>
 			</LineStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0A8A29A89B3F765C4E53">
 		<Pair>
 			<key>normal</key>
@@ -424,14 +424,14 @@
 			<styleUrl>#__managed_style_039A7350DE3FB93ECA63_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_039A7350DE3FB93ECA63_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_039A7350DE3FB93ECA63_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff9f3f30</color>
@@ -444,7 +444,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_01A63ADD7E3F95559323">
 		<Pair>
 			<key>normal</key>
@@ -455,14 +455,14 @@
 			<styleUrl>#__managed_style_01A63ADD7E3F95559323_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_1FC1798B913FA49049AC_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_1FC1798B913FA49049AC_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff9f3f30</color>
@@ -475,7 +475,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_1FC1798B913FA49049AC">
 		<Pair>
 			<key>normal</key>
@@ -492,14 +492,14 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<ns1:CascadingStyle id="__managed_style_0728DCE7813FB93ECA60_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0728DCE7813FB93ECA60_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff6b7900</color>
@@ -512,14 +512,14 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_0BFDD931EF3FA49049AE_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0BFDD931EF3FA49049AE_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff3c8e38</color>
@@ -532,15 +532,15 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_0DA8034A4A3FBE601111_highlight">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0DA8034A4A3FBE601111_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff9f3f30</color>
@@ -553,15 +553,15 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_1FA4AE976E3FB924D8D1">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1FA4AE976E3FB924D8D1">
 		<Style>
 			<IconStyle>
 				<scale>1.5</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2006&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
@@ -574,14 +574,14 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_0DA8034A4A3FBE601111_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0DA8034A4A3FBE601111_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff9f3f30</color>
@@ -594,7 +594,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0E528362073F765C4E4C1">
 		<Pair>
 			<key>normal</key>
@@ -605,13 +605,13 @@
 			<styleUrl>#__managed_style_0E528362073F765C4E4C_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_0D8987229C3FDC842C69_normal">
+	<gx:CascadingStyle kml:id="__managed_style_0D8987229C3FDC842C69_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff3c8e38</color>
@@ -624,8 +624,8 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_0A8A29A89B3F765C4E53_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0A8A29A89B3F765C4E53_normal">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -634,14 +634,14 @@
 				</Icon>
 			</IconStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_0728DCE7813FB93ECA60_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0728DCE7813FB93ECA60_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff6b7900</color>
@@ -654,7 +654,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0728DCE7813FB93ECA60">
 		<Pair>
 			<key>normal</key>
@@ -665,7 +665,7 @@
 			<styleUrl>#__managed_style_0728DCE7813FB93ECA60_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_0FBE7A50A83F7667B921_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0FBE7A50A83F7667B921_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -681,8 +681,8 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_007BC5E0F63F766BEE77_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_007BC5E0F63F766BEE77_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
@@ -697,7 +697,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0FBE7A50A83F7667B921">
 		<Pair>
 			<key>normal</key>
@@ -724,7 +724,7 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
-	<ns1:CascadingStyle id="__managed_style_007BC5E0F63F766BEE77_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_007BC5E0F63F766BEE77_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -740,8 +740,8 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_06D875688D3F955EA497_highlight">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_06D875688D3F955EA497_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -757,15 +757,15 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_0D8987229C3FDC842C69_highlight">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0D8987229C3FDC842C69_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff3c8e38</color>
@@ -778,8 +778,8 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_0FBE7A50A83F7667B921_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0FBE7A50A83F7667B921_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
@@ -794,7 +794,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0BFDD931EF3FA49049AE">
 		<Pair>
 			<key>normal</key>
@@ -805,14 +805,14 @@
 			<styleUrl>#__managed_style_0BFDD931EF3FA49049AE_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<ns1:CascadingStyle id="__managed_style_0BFDD931EF3FA49049AE_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0BFDD931EF3FA49049AE_highlight">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff3c8e38</color>
@@ -825,14 +825,14 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
-	<ns1:CascadingStyle id="__managed_style_1FC1798B913FA49049AC_normal">
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1FC1798B913FA49049AC_normal">
 		<Style>
 			<IconStyle>
 				<Icon>
 					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
 			<LineStyle>
 				<color>ff9f3f30</color>
@@ -845,7 +845,7 @@
 				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
-	</ns1:CascadingStyle>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0DA8034A4A3FBE601111">
 		<Pair>
 			<key>normal</key>
@@ -868,7 +868,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>756.3954687995422</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -899,7 +899,7 @@
 				<altitude>-2.121972597635136e-09</altitude>
 				<heading>-6.053666298308515</heading>
 				<tilt>0.2704175628423419</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1810.732054586845</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -963,7 +963,7 @@
 				<altitude>0.0001344425251925685</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>843.3046081107948</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -1941,7 +1941,7 @@
 				<altitude>-7.073241992117119e-10</altitude>
 				<heading>1.465195250879079e-09</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1118.925372807625</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -1961,7 +1961,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>684.0998720401831</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -1981,7 +1981,7 @@
 				<altitude>-7.073241992117119e-10</altitude>
 				<heading>5.682742650416386</heading>
 				<tilt>0.2003736620991193</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>473.555361415737</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2001,7 +2001,7 @@
 				<altitude>-7.073241992117119e-10</altitude>
 				<heading>5.677810380024452</heading>
 				<tilt>0.2003787911367437</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>638.3000708399102</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2021,7 +2021,7 @@
 				<altitude>0</altitude>
 				<heading>13.92843062906567</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>631.5422651421594</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2041,7 +2041,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1961.34151001609</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2061,7 +2061,7 @@
 				<altitude>1.414648398423424e-09</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>2009.679745327729</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2081,7 +2081,7 @@
 				<altitude>1.414648398423424e-09</altitude>
 				<heading>348.2908368111746</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>4066.886997047574</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2101,7 +2101,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>590.4545932086761</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2121,7 +2121,7 @@
 				<altitude>-2.121972597635136e-09</altitude>
 				<heading>348.3002688371521</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1440.77656994546</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2141,7 +2141,7 @@
 				<altitude>-1.414648398423424e-09</altitude>
 				<heading>348.293646332042</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1280.851725834689</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2161,7 +2161,7 @@
 				<altitude>0.0005917092295537607</altitude>
 				<heading>18.05483015242493</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>2685.801051962703</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2181,7 +2181,7 @@
 				<altitude>0</altitude>
 				<heading>359.9999657687009</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>30.00010356977554</ns1:fovy>
+				<gx:fovy>30.00010356977554</gx:fovy>
 				<range>2969.228375630169</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2201,7 +2201,7 @@
 				<altitude>-2.121972597635136e-09</altitude>
 				<heading>25.93343708721698</heading>
 				<tilt>0.1969694846364055</tilt>
-				<ns1:fovy>30.00010356977554</ns1:fovy>
+				<gx:fovy>30.00010356977554</gx:fovy>
 				<range>1662.816917076023</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2221,7 +2221,7 @@
 				<altitude>5.443436289669759</altitude>
 				<heading>353.1929447347891</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>506.9802835811574</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2241,7 +2241,7 @@
 				<altitude>-7.073241992117119e-10</altitude>
 				<heading>353.2403688035608</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1078.1620045672</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2261,7 +2261,7 @@
 				<altitude>-1.414648398423424e-09</altitude>
 				<heading>353.2405888582681</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1455.912947916813</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2281,7 +2281,7 @@
 				<altitude>2.777379200624708e-05</altitude>
 				<heading>353.2477334039793</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>738.5618618769107</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2305,7 +2305,7 @@
 				<altitude>-1.414648398423424e-09</altitude>
 				<heading>353.2405888582681</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1455.912947916813</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2325,7 +2325,7 @@
 				<altitude>5.443436289669759</altitude>
 				<heading>353.1929447347891</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>506.9802835811574</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2345,7 +2345,7 @@
 				<altitude>3.382346326820256</altitude>
 				<heading>25.91182733653632</heading>
 				<tilt>0.1969417328594827</tilt>
-				<ns1:fovy>30.00010356977554</ns1:fovy>
+				<gx:fovy>30.00010356977554</gx:fovy>
 				<range>764.2156605637948</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -2365,7 +2365,7 @@
 				<altitude>1.414648398423424e-09</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>373.6990450120552</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3375,7 +3375,7 @@
 				<altitude>-1.414648398423424e-09</altitude>
 				<heading>5.689800400097343</heading>
 				<tilt>0.2003863540417606</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>876.1749395509356</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3406,7 +3406,7 @@
 				<altitude>0</altitude>
 				<heading>-6.421319089530152</heading>
 				<tilt>0.2704373688418358</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>2277.743962843309</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3426,7 +3426,7 @@
 				<altitude>-1.414648398423424e-09</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>3445.145300116189</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3446,7 +3446,7 @@
 				<altitude>-3.536620996058559e-09</altitude>
 				<heading>5.684504316830774</heading>
 				<tilt>0.2003719403444719</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>419.7329797260096</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3466,7 +3466,7 @@
 				<altitude>-7.073241992117119e-10</altitude>
 				<heading>-29.35239181192273</heading>
 				<tilt>0.2004122803262214</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1703.501151469294</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3486,7 +3486,7 @@
 				<altitude>-7.073241992117119e-10</altitude>
 				<heading>13.93103956690993</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1140.045788519664</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3506,7 +3506,7 @@
 				<altitude>0</altitude>
 				<heading>8.537736462515939e-07</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>250.0471211559532</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3526,7 +3526,7 @@
 				<altitude>1.414648398423424e-09</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>761.1287633574289</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3546,7 +3546,7 @@
 				<altitude>0.0001670402682374394</altitude>
 				<heading>348.2904270188934</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1029.205705085961</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3566,7 +3566,7 @@
 				<altitude>3.300940572881217e-05</altitude>
 				<heading>348.2879419084378</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>333.7471654541296</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3586,7 +3586,7 @@
 				<altitude>3.377897445755451e-05</altitude>
 				<heading>-9.849458373670712</heading>
 				<tilt>0.1969567387009059</tilt>
-				<ns1:fovy>30.00010356977554</ns1:fovy>
+				<gx:fovy>30.00010356977554</gx:fovy>
 				<range>1251.06420324309</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3606,7 +3606,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>7382.789626203989</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3626,7 +3626,7 @@
 				<altitude>1.463170838489347e-05</altitude>
 				<heading>348.2894739357496</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>278.1789328618422</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3646,7 +3646,7 @@
 				<altitude>-7.073241992117119e-10</altitude>
 				<heading>0.02541840865795088</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1396.972270371551</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3666,7 +3666,7 @@
 				<altitude>-7.073241992117119e-10</altitude>
 				<heading>353.2388418233222</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1268.001608671439</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -3677,6 +3677,7 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
+	</Folder>
 	<Placemark id="0097D908C33FDCC99E78">
 		<name>1000 B - Trapiche / Pontal</name>
 		<visibility>0</visibility>
@@ -3686,7 +3687,7 @@
 			<altitude>-1.414648398423424e-09</altitude>
 			<heading>353.2458544992422</heading>
 			<tilt>0</tilt>
-			<ns1:fovy>35</ns1:fovy>
+			<gx:fovy>35</gx:fovy>
 			<range>913.9705083632551</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
@@ -3697,7 +3698,6 @@
 			</coordinates>
 		</LineString>
 	</Placemark>
-	</Folder>
 	<Folder id="73C56A04D313D7DA76D63">
 		<name>PONTOS</name>
 		<visibility>0</visibility>
@@ -14036,7 +14036,7 @@
 			<altitude>5.367072682138316</altitude>
 			<heading>0</heading>
 			<tilt>0</tilt>
-			<ns1:fovy>35</ns1:fovy>
+			<gx:fovy>35</gx:fovy>
 			<range>391.9574756796221</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
@@ -14054,7 +14054,7 @@
 			<altitude>0</altitude>
 			<heading>0</heading>
 			<tilt>0</tilt>
-			<ns1:fovy>35</ns1:fovy>
+			<gx:fovy>35</gx:fovy>
 			<range>4522.117150251033</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
@@ -14072,7 +14072,7 @@
 			<altitude>0</altitude>
 			<heading>0</heading>
 			<tilt>0</tilt>
-			<ns1:fovy>35</ns1:fovy>
+			<gx:fovy>35</gx:fovy>
 			<range>262.4530725000434</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
@@ -14090,7 +14090,7 @@
 			<altitude>-7.073241992117119e-10</altitude>
 			<heading>0</heading>
 			<tilt>0</tilt>
-			<ns1:fovy>35</ns1:fovy>
+			<gx:fovy>35</gx:fovy>
 			<range>605.6760763509226</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
@@ -14108,7 +14108,7 @@
 			<altitude>0.0001398068719193901</altitude>
 			<heading>0</heading>
 			<tilt>0</tilt>
-			<ns1:fovy>35</ns1:fovy>
+			<gx:fovy>35</gx:fovy>
 			<range>292.6762949538551</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
@@ -14129,7 +14129,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1039.893530988361</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14147,7 +14147,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1039.922616760743</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14165,7 +14165,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1039.972851288884</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14183,7 +14183,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1039.855356822318</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14201,7 +14201,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1040.379118947273</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14219,7 +14219,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1040.086744715309</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14237,7 +14237,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1039.936391397923</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14255,7 +14255,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1040.075458963518</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14273,7 +14273,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1039.905350587957</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14291,7 +14291,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1039.947534689189</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14309,7 +14309,7 @@
 				<altitude>3.875429287480969e-05</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>492.0264927997939</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14326,7 +14326,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1039.97579935314</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14344,7 +14344,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1672.115781158502</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14361,7 +14361,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>3065.803670005301</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14378,7 +14378,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1040.047686411288</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14396,7 +14396,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1040.031729701692</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
@@ -14414,7 +14414,7 @@
 				<altitude>1.414648398423424e-09</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1128.583856378514</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14431,7 +14431,7 @@
 				<altitude>2.765637618917793e-06</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>919.9027884535068</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14448,7 +14448,7 @@
 				<altitude>1.414648398423424e-09</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>904.6269210243198</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14465,7 +14465,7 @@
 				<altitude>0.0001520322633785653</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>1118.456646408007</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14482,7 +14482,7 @@
 				<altitude>1.414648398423424e-09</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>911.2258343028063</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14499,7 +14499,7 @@
 				<altitude>1.414648398423424e-09</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>917.1862841370148</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14516,7 +14516,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>937.4655385040691</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14533,7 +14533,7 @@
 				<altitude>0</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>915.8624277289073</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14550,7 +14550,7 @@
 				<altitude>6.341868770132209e-05</altitude>
 				<heading>0</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>2445.786358136529</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
@@ -14567,7 +14567,7 @@
 				<altitude>0</altitude>
 				<heading>353.2431026191242</heading>
 				<tilt>0</tilt>
-				<ns1:fovy>35</ns1:fovy>
+				<gx:fovy>35</gx:fovy>
 				<range>457.2333536969672</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>

@@ -23,20 +23,28 @@ SAIDA    = BASE_DIR / "data" / "json" / "novos_trajetos" / "coords_novas_linhas.
 NS = {"k": "http://www.opengis.net/kml/2.2"}
 
 # Linhas novas a extrair (códigos conforme aparecem no KML)
+# "1000B" = "1000 B - Trapiche / Pontal" (variante B; "1000" já existe no sistema)
 LINHAS_NOVAS = {
+    # pipeline original (sessão 5)
     "0036", "0065", "0301", "0402",
     "1020", "1022", "1023",
     "M001", "M002", "M003", "M004", "M005",
+    # 8 linhas complementares desenhadas (sessão 6)
+    "0014", "0109", "0209", "0612",
+    "0617", "1000B", "2058", "4000",
 }
 
 
 def extrair_codigo(texto: str) -> str:
     if not texto:
         return ""
-    m = re.match(r"^([A-Z]?\d{3,4})", texto.strip())
+    # captura "1000 B" → "1000B", "M001" → "M001", "0612" → "0612"
+    m = re.match(r"^([A-Z]?\d{3,4})(?:\s+([A-Z])(?=[\s\-/]|$))?", texto.strip())
     if not m:
         return ""
-    v = m.group(1)
+    base   = m.group(1)
+    suffix = m.group(2) or ""
+    v = base + suffix
     return v.zfill(4) if v.isdigit() else v
 
 

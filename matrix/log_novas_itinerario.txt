@@ -147,3 +147,92 @@ Linha: 0005-m
   OK: itinerario_0005-m_20260602.pdf
 
 Concluido: 12 OK | 0 erros
+
+============================================================
+Inicio: 2026-06-08 10:50:25.795210
+
+==================================================
+Linha: 0014
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: itinerario_0014_20260608.pdf
+
+==================================================
+Linha: 0109
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: itinerario_0109_20260608.pdf
+
+==================================================
+Linha: 0209
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: itinerario_0209_20260608.pdf
+
+==================================================
+Linha: 0617
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: itinerario_0617_20260608.pdf
+
+==================================================
+Linha: 2058
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: itinerario_2058_20260608.pdf
+
+==================================================
+Linha: 4000
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: itinerario_4000_20260608.pdf
+
+==================================================
+Linha: 1000-b
+  1. Digitando numero
+  2. Imprimir
+  3. Exportar
+  4. OK formato
+  5. OK paginas
+  6. Nome arquivo
+  7. Salvar
+  8. Fechar visualizacao
+  OK: itinerario_1000-b_20260608.pdf
+
+Concluido: 7 OK | 0 erros

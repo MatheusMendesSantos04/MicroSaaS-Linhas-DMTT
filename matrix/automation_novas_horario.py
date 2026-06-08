@@ -33,6 +33,7 @@ PROG_FILE  = Path(__file__).parent / "progress_novas_horario.json"
 PDF_DIR.mkdir(parents=True, exist_ok=True)
 
 LINHAS = [
+    # pipeline sessão 5
     "0036",
     "0065",
     "0301",
@@ -45,6 +46,14 @@ LINHAS = [
     "0003-m",
     "0004-m",
     "0005-m",
+    # linhas complementares sessão 6
+    "0014",
+    "0109",
+    "0209",
+    "0617",
+    "2058",
+    "4000",
+    "1000-b",   # verificar formato exato no Matrix
 ]
 
 

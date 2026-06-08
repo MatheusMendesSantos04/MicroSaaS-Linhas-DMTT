@@ -2,7 +2,7 @@
 
 > Este arquivo é lido automaticamente pelo Claude Code em toda sessão.
 > Mantenha-o atualizado após cada sessão de trabalho.
-> Última atualização: 22/05/2026 — Sessão 4 concluída
+> Última atualização: 08/06/2026 — Sessão 6
 
 ---
 
@@ -270,70 +270,68 @@ Este é o plano definitivo para adicionar linhas novas ao MicroSaaS. Seguir semp
 
 > Última atualização: 02/06/2026 — Sessão 5
 
-### Estado atual (02/06/2026)
+### Estado atual (08/06/2026)
 
 **OSO tem 106 linhas (excluindo Catraca de Solo). dados_unificados.json tem 85.**
 
 | Situação | Qtd | Linhas |
 |---|---|---|
-| No sistema (dados_unificados) e no KML | 85 | — |
-| KML feito, coords extraídas, aguardando itinerário + merge | 12 | 0036, 0065, 0301, 0402, 1020, 1022, 1023, M001–M005 |
-| **Faltam no KML — próxima Fase A** | **9** | ver tabela abaixo |
-| Total faltando no sistema | 19 | — |
+| No sistema (dados_unificados) | 85 | — |
+| ✅ KML feito + coords extraídas + PDFs do Matrix prontos | 12 | 0036, 0065, 0301, 0402, 1020, 1022, 1023, M001–M005 |
+| ✅ KML feito + coords extraídas — **aguardando Matrix** | 8 | 0014, 0109, 0209, 0612-A, 0617, 1000-B, 2058, 4000 |
+| Não será feita (decisão) | 1 | 0006-M |
+| Total pendente no sistema | 20 | — |
 
-**9 linhas que ainda faltam no KML e em tudo:**
+**Arquivos intermediários gerados (sessão 6):**
+- `data/json/novos_trajetos/coords_novas_linhas.json` — 20 linhas com IDA/VOLTA (KML→JSON)
+- `data/json/terminais.json` — 26 terminais com lat/lon
+- `data/json/novos_trajetos/itinerario_rascunho.json` — 12 linhas parseadas (aguardando 8)
+- `data/json/novos_trajetos/horarios_novos.json` — 12 linhas parseadas (aguardando 8)
 
-| Código | Tipo | Nome |
-|---|---|---|
-| `0014` | Convencional | C das Almas / Centro (Peixoto-Rodov-Mercad) |
-| `0109` | Convencional | C das Almas / Trapiche-Vergel (P. Verde/Poço) |
-| `0209` | Convencional | C das Almas / Vergel (Stº Eduardo-J Leão) |
-| `0612--A` | Convencional | E Gomes / Jatiúca (Via Centro-Ponta Verde) |
-| `0617` | Convencional | C das Almas / Ipioca (Saúde-Sauaçuhy) |
-| `0006-M` | Integração | Clima Bom / Ponta Verde (Fernão Velho) |
-| `1000-B` | Integração | Trapiche / Pontal (Vila dos Pescadores) |
-| `2058` | Integração | Fernão Velho / Colina - Via Feirinha |
-| `4000` | Integração | Circular UFAL (Integração) |
+**Formato no Matrix para os madrugadões:** `0001-m`, `0002-m` ... `0005-m` (confirmado)
+**Formato a confirmar:** `1000-b` e `0612-a` (pode ser diferente no Matrix)
 
 **Observação sobre coordenadas:** Os pontos extraídos do KML (30–300 pts por linha)
 são suficientes para exibir o traçado no Leaflet. Não precisa traçar mais fino.
 
 ---
 
-### FASE A — Completar o KML (responsabilidade do usuário no Google Earth)
-- [ ] Desenhar IDA e VOLTA das 9 linhas acima em `data/kml/Mapa Reconstruido.kml`
-- [ ] Nomear cada placemark com o código no início (ex: `0014 - C das Almas / Centro`)
-- [ ] Avisar o Claude quando terminar → Claude roda Fase B
+### FASE A — Completar o KML ✅ CONCLUÍDA (sessão 6)
+- [x] KML corrigido: 1000-B VOLTA movida para pasta VOLTA
+- [x] Todas as 8 linhas complementares desenhadas com IDA/VOLTA
+- [x] `python/extrair_terminais_kml.py` criado → `data/json/terminais.json` (26 terminais)
 
 ---
 
-### FASE B — Extrair coordenadas do KML → JSON
-**Script:** `python/extrair_coords_kml.py` (já existe — basta rodar novamente)
-
-- Lê as pastas IDA/VOLTA do KML, extrai LineStrings das linhas novas
-- Converte `lon,lat` → `[lat, lon]`
-- Saída: `data/json/novos_trajetos/coords_novas_linhas.json`
+### FASE B — Extrair coordenadas do KML → JSON ✅ CONCLUÍDA (sessão 6)
+**Script:** `python/extrair_coords_kml.py`
+- 20 linhas extraídas (12 originais + 8 novas) → `coords_novas_linhas.json`
 
 ---
 
-### FASE C — Extrair itinerário e horários do Matrix
+### FASE C — Extrair itinerário e horários do Matrix ⏳ PARCIALMENTE FEITA
 **Scripts:** `matrix/automation_novas_itinerario.py` e `matrix/automation_novas_horario.py`
 
-Fluxo:
-1. Usuário abre Matrix → OSO → marca só **[x] Itinerário por Via**
-2. Roda `automation_novas_itinerario.py` → PDFs em `data/pdf-intinerarios-por-via-todas-linhas/`
-3. Usuário troca para só **[x] Quadro Horário**
-4. Roda `automation_novas_horario.py` → PDFs em `data/pdf-horario/`
+**Status:**
+- [x] 12 linhas originais — PDFs já extraídos (sessão 5)
+- [ ] 8 linhas complementares — **aguardando Matrix**
 
-Scripts usam `coordenadas.json` (pyautogui) — não mexer no mouse durante execução.
-Formato dos madrugadões no Matrix: `0001-m`, `0002-m`, etc.
+Fluxo para as 8 novas:
+1. Usuário abre Matrix → OSO → marca só **[x] Itinerário por Via**
+2. Roda `cd matrix && python automation_novas_itinerario.py`
+3. Usuário troca para só **[x] Quadro Horário**
+4. Roda `cd matrix && python automation_novas_horario.py`
+
+**Atenção:** confirmar formato de `1000-b` e `0612-a` no Matrix antes de rodar.
 
 ---
 
-### FASE D — Parsear PDFs → JSON rascunho
-**Scripts a criar quando Fase C estiver pronta:**
+### FASE D — Parsear PDFs → JSON rascunho ⏳ PARCIALMENTE FEITA (sessão 6)
+**Scripts já criados:**
 - `python/parsear_itinerario_pdf.py` → `data/json/novos_trajetos/itinerario_rascunho.json`
 - `python/parsear_horarios_pdf.py` → `data/json/novos_trajetos/horarios_novos.json`
+
+**Status:** 12 linhas parseadas. Rodar novamente após Fase C para incluir as 8 restantes.
 
 ---
 
@@ -344,12 +342,13 @@ Formato dos madrugadões no Matrix: `0001-m`, `0002-m`, etc.
 
 ---
 
-### FASE F — Mesclar no sistema
-**Script a criar:** `python/mesclar_novos_trajetos.py`
+### FASE F — Mesclar no sistema ✅ Script criado (sessão 6)
+**Script:** `python/mesclar_novos_trajetos.py` (pronto — rodar após Fase E)
 
 - Injeta coords + itinerário em `dados_unificados.json`
 - Mescla horários em `horarios/horarios.json`
-- Claude reinicia o backend
+- Faz backup automático antes de alterar
+- Após rodar: reiniciar backend (`cd backend && uvicorn app.main:app --reload`)
 
 ---
 

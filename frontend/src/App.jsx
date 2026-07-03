@@ -19,7 +19,7 @@ const NOMINATIM = "https://nominatim.openstreetmap.org";
 
 export default function App() {
   const [linhas, setLinhas] = useState([]);
-  const [selectedLinhaId, setSelectedLinhaId] = useState("");
+  const [selectedLinhaIds, setSelectedLinhaIds] = useState([]);
   const [selectedSentido, setSelectedSentido] = useState("ambos");
   const [geojson, setGeojson] = useState(EMPTY_FC);
   const [detalheLinha, setDetalheLinha] = useState(null);
@@ -31,19 +31,25 @@ export default function App() {
   const [ruaGeojson, setRuaGeojson] = useState(null);
   const [externalQuery, setExternalQuery] = useState("");
   const [linhaContexto, setLinhaContexto] = useState(null);
+  const [terminais, setTerminais] = useState([]);
+  const [showTerminais, setShowTerminais] = useState(false);
 
-  // Carrega lista de linhas ao montar
+  // Carrega lista de linhas e terminais ao montar
   useEffect(() => {
     let active = true;
     setLoading(true);
-    fetchJson("/linhas")
-      .then((data) => { if (active) setLinhas(data.itens || []); })
+    Promise.all([fetchJson("/linhas"), fetchJson("/terminais")])
+      .then(([linhasData, terminaisData]) => {
+        if (!active) return;
+        setLinhas(linhasData.itens || []);
+        setTerminais(terminaisData || []);
+      })
       .catch((err) => { if (active) setError(err.message); })
       .finally(() => { if (active) setLoading(false); });
     return () => { active = false; };
   }, []);
 
-  // Carrega mapa e detalhe quando linha ou sentido muda
+  // Carrega mapa e detalhe quando seleção ou sentido muda
   useEffect(() => {
     let active = true;
     setLoading(true);
@@ -51,12 +57,26 @@ export default function App() {
 
     const sentidoQuery = selectedSentido ? `?sentido=${selectedSentido}` : "";
 
-    const requests = selectedLinhaId
-      ? Promise.all([
-          fetchJson(`/geojson/linhas/${selectedLinhaId}${sentidoQuery}`),
-          fetchJson(`/linhas/${selectedLinhaId}`),
-        ]).then(([mapData, detalhe]) => ({ mapData, detalhe }))
-      : fetchJson(`/geojson/linhas${sentidoQuery}`).then((mapData) => ({ mapData, detalhe: null }));
+    let requests;
+    if (selectedLinhaIds.length === 0) {
+      requests = fetchJson(`/geojson/linhas${sentidoQuery}`)
+        .then((mapData) => ({ mapData, detalhe: null }));
+    } else if (selectedLinhaIds.length === 1) {
+      requests = Promise.all([
+        fetchJson(`/geojson/linhas/${selectedLinhaIds[0]}${sentidoQuery}`),
+        fetchJson(`/linhas/${selectedLinhaIds[0]}`),
+      ]).then(([mapData, detalhe]) => ({ mapData, detalhe }));
+    } else {
+      requests = Promise.all(
+        selectedLinhaIds.map((id) => fetchJson(`/geojson/linhas/${id}${sentidoQuery}`))
+      ).then((results) => ({
+        mapData: {
+          type: "FeatureCollection",
+          features: results.flatMap((r) => r.features || []),
+        },
+        detalhe: null,
+      }));
+    }
 
     requests
       .then(({ mapData, detalhe }) => {
@@ -74,9 +94,9 @@ export default function App() {
       })
       .finally(() => { if (active) setLoading(false); });
 
-    // Horários: busca paralela e independente, falha silenciosa
-    if (selectedLinhaId) {
-      fetchJson(`/horarios/${selectedLinhaId}`)
+    // Horários: apenas quando exatamente 1 linha
+    if (selectedLinhaIds.length === 1) {
+      fetchJson(`/horarios/${selectedLinhaIds[0]}`)
         .then((data) => { if (active) setHorarios(data); })
         .catch(() => { if (active) setHorarios(null); });
     } else {
@@ -84,7 +104,7 @@ export default function App() {
     }
 
     return () => { active = false; };
-  }, [selectedLinhaId, selectedSentido]);
+  }, [selectedLinhaIds, selectedSentido]);
 
   async function handleRuaHighlight(nomeDaRua) {
     if (!nomeDaRua) { setRuaGeojson(null); return; }
@@ -107,14 +127,30 @@ export default function App() {
   }
 
   function handleSelectLinha(id, sentido) {
-    setSelectedLinhaId(id);
+    setSelectedLinhaIds(id ? [id] : []);
     setRuaGeojson(null);
     setLinhaContexto(null);
     if (sentido !== undefined) setSelectedSentido(sentido);
   }
 
+  function handleToggleLinha(id) {
+    setSelectedLinhaIds((prev) =>
+      prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]
+    );
+    setLinhaContexto(null);
+  }
+
+  function handleClearLinhas() {
+    setSelectedLinhaIds([]);
+    setLinhaContexto(null);
+  }
+
   function handleContextoAmbos() {
-    if (linhaContexto) handleSelectLinha(linhaContexto.id, "ambos");
+    if (linhaContexto) {
+      setSelectedLinhaIds([linhaContexto.id]);
+      setSelectedSentido("ambos");
+      setLinhaContexto(null);
+    }
   }
 
   return (
@@ -127,18 +163,19 @@ export default function App() {
 
       <LinhaSelector
         linhas={linhas}
-        selectedLinhaId={selectedLinhaId}
+        selectedLinhaIds={selectedLinhaIds}
         selectedSentido={selectedSentido}
-        onSelectLinha={handleSelectLinha}
+        onToggleLinha={handleToggleLinha}
+        onClearLinhas={handleClearLinhas}
         onSelectSentido={setSelectedSentido}
       />
 
       <div className="app-body">
-        <MapView geojson={geojson} isLinhaSelected={!!selectedLinhaId} linhaId={selectedLinhaId} tileStyle={mapStyle} geojsonVersion={geojsonVersion} ruaGeojson={ruaGeojson} onMapClick={handleMapClick} linhaContexto={linhaContexto} onContextoAmbos={handleContextoAmbos} />
+        <MapView geojson={geojson} isLinhaSelected={selectedLinhaIds.length > 0} linhaId={selectedLinhaIds[0] ?? ""} tileStyle={mapStyle} geojsonVersion={geojsonVersion} ruaGeojson={ruaGeojson} onMapClick={handleMapClick} linhaContexto={selectedLinhaIds.length <= 1 ? linhaContexto : null} onContextoAmbos={handleContextoAmbos} terminais={terminais} showTerminais={showTerminais} />
 
         <aside className="sidebar">
-          <MapStyleSelector value={mapStyle} onChange={setMapStyle} />
-          <HorariosPanel horarios={horarios} selectedLinhaId={selectedLinhaId} />
+          <MapStyleSelector value={mapStyle} onChange={setMapStyle} showTerminais={showTerminais} onToggleTerminais={() => setShowTerminais((v) => !v)} />
+          <HorariosPanel horarios={horarios} selectedLinhaId={selectedLinhaIds[0] ?? ""} />
           <ItinerarioPanel
             detalheLinha={detalheLinha}
             selectedSentido={selectedSentido}

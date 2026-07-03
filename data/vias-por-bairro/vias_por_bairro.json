@@ -1,0 +1,3816 @@
+{
+  "ANTARES": [
+    {
+      "via": "AVENIDA DOUTOR MILTON HÊNIO NETTO DE GOUVEIA",
+      "codigo": "00631"
+    },
+    {
+      "via": "AVENIDA DOUTOR MILTON HÊNIO NETTO DE GOUVEIA",
+      "codigo": "00631"
+    },
+    {
+      "via": "AVENIDA MENINO MARCELO",
+      "codigo": "00270"
+    },
+    {
+      "via": "RETORNO ANTARES CAMBUCI",
+      "codigo": "06613"
+    },
+    {
+      "via": "RUA ISAIAS ALVES NICÁCIO",
+      "codigo": "00630"
+    },
+    {
+      "via": "RUA ISAIAS ALVES NICÁCIO",
+      "codigo": "00630"
+    }
+  ],
+  "BARRO DURO": [
+    {
+      "via": "AVENIDA ERALDO LINS CAVALCANTE",
+      "codigo": "00388"
+    },
+    {
+      "via": "AVENIDA JONH RICHARDSON CORDEIRO",
+      "codigo": "06209"
+    },
+    {
+      "via": "AVENIDA JORNALISTA MÁRCIO CANUTO",
+      "codigo": "06167"
+    },
+    {
+      "via": "AVENIDA JORNALISTA MÁRCIO CANUTO",
+      "codigo": "06167"
+    },
+    {
+      "via": "AVENIDA JUCA SAMPAIO",
+      "codigo": "00718"
+    },
+    {
+      "via": "AVENIDA MUNIZ FALCAO",
+      "codigo": "00162"
+    },
+    {
+      "via": "AVENIDA MUNIZ FALCÃO",
+      "codigo": "00177"
+    },
+    {
+      "via": "PONTO DE RETORNO NOVO MUNDO",
+      "codigo": "00660"
+    },
+    {
+      "via": "RUA DEPUTADO GONÇALO TAVARES",
+      "codigo": "00435"
+    },
+    {
+      "via": "RUA MAJOR ALVARO EUSTERIO O DA SILVA",
+      "codigo": "06208"
+    },
+    {
+      "via": "RUA MUNIZ FALCÃO",
+      "codigo": "00162"
+    },
+    {
+      "via": "RUA SILVIO SANDES TORRES JÚNIOR",
+      "codigo": "06243"
+    },
+    {
+      "via": "RUA SÃO JOÃO",
+      "codigo": "00472"
+    }
+  ],
+  "BEBEDOURO": [
+    {
+      "via": "LADEIRA OSWALDO CRUZ",
+      "codigo": "00083"
+    },
+    {
+      "via": "LADEIRA PROFESSOR BENEDITO SILVA",
+      "codigo": "00617"
+    },
+    {
+      "via": "PRACA LUCENA MARANHAO",
+      "codigo": "00571"
+    },
+    {
+      "via": "PRACA NOSSA SENHORA DAS DORES FLEXAL",
+      "codigo": "06607"
+    },
+    {
+      "via": "RUA CÔNEGO COSTA",
+      "codigo": "00484"
+    },
+    {
+      "via": "RUA DA LIBERDADE",
+      "codigo": "06220"
+    },
+    {
+      "via": "RUA DOUTOR ANTÔNIO NUNES LEITE",
+      "codigo": "06301"
+    },
+    {
+      "via": "RUA DOUTOR OSWALDO CRUZ",
+      "codigo": "00482"
+    },
+    {
+      "via": "RUA DOUTOR PASSOS DE MIRANDA",
+      "codigo": "00088"
+    },
+    {
+      "via": "RUA FAUSTINO SILVEIRA",
+      "codigo": "00081"
+    },
+    {
+      "via": "RUA MARQUÊS DE ABRANTES",
+      "codigo": "00085"
+    },
+    {
+      "via": "RUA TOBIAS BARRETO",
+      "codigo": "00079"
+    },
+    {
+      "via": "RUA VEREADOR BRUNO FERRARI",
+      "codigo": "06219"
+    },
+    {
+      "via": "TRAVESSA TOBIAS BARRETO",
+      "codigo": "00080"
+    }
+  ],
+  "BENEDITO BENTES": [
+    {
+      "via": "- DISTRITO INDUSTRIAL",
+      "codigo": "06281"
+    },
+    {
+      "via": "ACESSO AO CONJ MOACIR ANDRADE",
+      "codigo": "00624"
+    },
+    {
+      "via": "AVENIDA A",
+      "codigo": "06603"
+    },
+    {
+      "via": "AVENIDA ANTÔNIO LISBOA DE AMORIM",
+      "codigo": "06101"
+    },
+    {
+      "via": "AVENIDA ANTÔNIO LISBOA DE AMORIM",
+      "codigo": "06101"
+    },
+    {
+      "via": "AVENIDA BENEDITO BENTES",
+      "codigo": "00408"
+    },
+    {
+      "via": "AVENIDA CACHOEIRA DO MEIRIM",
+      "codigo": "06265"
+    },
+    {
+      "via": "AVENIDA GARÇA TORTA",
+      "codigo": "00344"
+    },
+    {
+      "via": "AVENIDA GUAXUMA",
+      "codigo": "00410"
+    },
+    {
+      "via": "AVENIDA HUMBERTO GOMES DE BARROS",
+      "codigo": "06630"
+    },
+    {
+      "via": "AVENIDA MUNDAÚ",
+      "codigo": "00407"
+    },
+    {
+      "via": "AVENIDA NORMA PIMENTEL DA COSTA",
+      "codigo": "06097"
+    },
+    {
+      "via": "AVENIDA PRATAGY",
+      "codigo": "00345"
+    },
+    {
+      "via": "AVENIDA TABULEIRO",
+      "codigo": "00353"
+    },
+    {
+      "via": "CONJ CIDADE SORRISOI",
+      "codigo": "06093"
+    },
+    {
+      "via": "CONJUNTO CARMINHA",
+      "codigo": "00846"
+    },
+    {
+      "via": "ESTRADA DO RIO DO MEIO",
+      "codigo": "00550"
+    },
+    {
+      "via": "RUA B 38 B",
+      "codigo": "06098"
+    },
+    {
+      "via": "RUA C-54",
+      "codigo": "00411"
+    },
+    {
+      "via": "RUA CAINHA",
+      "codigo": "00625"
+    },
+    {
+      "via": "RUA DENIS AGRA",
+      "codigo": "06240"
+    },
+    {
+      "via": "RUA E",
+      "codigo": "06674"
+    },
+    {
+      "via": "RUA E",
+      "codigo": "06674"
+    },
+    {
+      "via": "RUA JURITUBA",
+      "codigo": "00359"
+    },
+    {
+      "via": "RUA JUÇARA",
+      "codigo": "00355"
+    },
+    {
+      "via": "RUA JUÇARA",
+      "codigo": "00355"
+    },
+    {
+      "via": "RUA PRINCIPAL RECANTOS-COND REC DAS CORES",
+      "codigo": "06239"
+    },
+    {
+      "via": "RUA SÃO JOSÉ",
+      "codigo": "00102"
+    },
+    {
+      "via": "RUA VEREADOR JOSÉ RAIMUNDO DA SILVA",
+      "codigo": "00769"
+    },
+    {
+      "via": "TERMINAL INTEGRADO BENEDITO BENTES",
+      "codigo": "00354"
+    },
+    {
+      "via": "TERMINAL MOCAMBO",
+      "codigo": "00361"
+    },
+    {
+      "via": "VIA PRINCIPAL COND RECANTO DOS SONHOS",
+      "codigo": "06238"
+    }
+  ],
+  "BOM PARTO": [
+    {
+      "via": "AVENIDA FRANCISCO DE MENEZES",
+      "codigo": "00106"
+    },
+    {
+      "via": "AVENIDA GENERAL HERMES",
+      "codigo": "00077"
+    },
+    {
+      "via": "LADEIRA JOSÉ CARDOSO DA SILVA",
+      "codigo": "06651"
+    },
+    {
+      "via": "RUA ANADIA",
+      "codigo": "00920"
+    },
+    {
+      "via": "RUA CAMARAGIBE (CANAÃ)",
+      "codigo": "06387"
+    },
+    {
+      "via": "RUA PIAÇABUÇU",
+      "codigo": "06105"
+    },
+    {
+      "via": "RUA PÃO DE AÇÚCAR",
+      "codigo": "06451"
+    },
+    {
+      "via": "RUA SATUBA",
+      "codigo": "00921"
+    },
+    {
+      "via": "RUA ÁGUA BRANCA",
+      "codigo": "06200"
+    }
+  ],
+  "CENTRO": [
+    {
+      "via": "ALAMEDA F TRÊS",
+      "codigo": "06306"
+    },
+    {
+      "via": "AVENIDA ALAMEDA 959",
+      "codigo": "00757"
+    },
+    {
+      "via": "AVENIDA ALAMEDA C UM",
+      "codigo": "00757"
+    },
+    {
+      "via": "AVENIDA ANTONIO CLAUDINO",
+      "codigo": "00510"
+    },
+    {
+      "via": "AVENIDA DA PAZ",
+      "codigo": "00239"
+    },
+    {
+      "via": "AVENIDA JORGE LIMA",
+      "codigo": "00017"
+    },
+    {
+      "via": "AVENIDA MOREIRA LIMA",
+      "codigo": "00017"
+    },
+    {
+      "via": "AVENIDA SANTOS PACHECO",
+      "codigo": "00006"
+    },
+    {
+      "via": "AVENIDA VIEIRA PERDIGÃO",
+      "codigo": "00475"
+    },
+    {
+      "via": "CONJUNTO PARAISO DO HORTO",
+      "codigo": "00558"
+    },
+    {
+      "via": "CONJUNTO PARAISO DO HORTO",
+      "codigo": "00558"
+    },
+    {
+      "via": "ESTACÃO FERROVIARIA - C.B.T.U.",
+      "codigo": "00623"
+    },
+    {
+      "via": "ESTACÃO FERROVIARIA - C.B.T.U.",
+      "codigo": "00623"
+    },
+    {
+      "via": "LADEIRA DO BRITO",
+      "codigo": "00117"
+    },
+    {
+      "via": "LADEIRA DOS MARTÍRIOS",
+      "codigo": "00123"
+    },
+    {
+      "via": "LADEIRA VER JORGE OMENA",
+      "codigo": "06305"
+    },
+    {
+      "via": "PARQUE RODOLFO LINS (PRAÇA DO PIRULITO)",
+      "codigo": "00412"
+    },
+    {
+      "via": "PONTO DE RETORNOS SÃO JORGE",
+      "codigo": "06108"
+    },
+    {
+      "via": "PRACA DOS MARTIRIOS",
+      "codigo": "00009"
+    },
+    {
+      "via": "PRACA DOS PALMARES",
+      "codigo": "00020"
+    },
+    {
+      "via": "PRAÇA DOUTOR MANOEL VALENTE DE LIMA",
+      "codigo": "06337"
+    },
+    {
+      "via": "PRAÇA SÃO VICENTE",
+      "codigo": "00026"
+    },
+    {
+      "via": "PRACA SINIMBU",
+      "codigo": "00027"
+    },
+    {
+      "via": "PRAÇA DOUTOR MANOEL VALENTE DE LIMA",
+      "codigo": "06337"
+    },
+    {
+      "via": "PRAÇA SÃO VICENTE",
+      "codigo": "00026"
+    },
+    {
+      "via": "PRAÇA SÃO VICENTE",
+      "codigo": "00026"
+    },
+    {
+      "via": "RUA 2 DE DEZEMBRO",
+      "codigo": "00008"
+    },
+    {
+      "via": "RUA ALTO DA BOA VISTA",
+      "codigo": "00105"
+    },
+    {
+      "via": "RUA BARÃO DE ANADIA",
+      "codigo": "00021"
+    },
+    {
+      "via": "RUA BARÃO DE PENEDO",
+      "codigo": "00019"
+    },
+    {
+      "via": "RUA BARÃO DE ALAGOAS",
+      "codigo": "00023"
+    },
+    {
+      "via": "RUA BARÃO DE ANADIA",
+      "codigo": "00021"
+    },
+    {
+      "via": "RUA BARÃO DE PENEDO",
+      "codigo": "00019"
+    },
+    {
+      "via": "RUA CORONEL MENEZES",
+      "codigo": "00476"
+    },
+    {
+      "via": "RUA DIAS CABRAL",
+      "codigo": "00005"
+    },
+    {
+      "via": "RUA DO ARAME",
+      "codigo": "06304"
+    },
+    {
+      "via": "RUA DO COMÉRCIO",
+      "codigo": "00642"
+    },
+    {
+      "via": "RUA DO COMÉRCIO",
+      "codigo": "00642"
+    },
+    {
+      "via": "RUA DO IMPERADOR",
+      "codigo": "00001"
+    },
+    {
+      "via": "RUA DOUTOR LUIS PONTES DE MIRANDA",
+      "codigo": "00012"
+    },
+    {
+      "via": "RUA DOUTOR PEDRO MONTEIRO",
+      "codigo": "00013"
+    },
+    {
+      "via": "RUA FERNANDES DE BARROS",
+      "codigo": "00004"
+    },
+    {
+      "via": "RUA JEQUITIBÁ",
+      "codigo": "00597"
+    },
+    {
+      "via": "RUA JEQUITIBÁ",
+      "codigo": "00597"
+    },
+    {
+      "via": "RUA JOAO PESSOA",
+      "codigo": "00002"
+    },
+    {
+      "via": "RUA JOSÉ BONIFÁCIO",
+      "codigo": "00010"
+    },
+    {
+      "via": "RUA LADISLAU NETO - RUA AUGUSTA",
+      "codigo": "00022"
+    },
+    {
+      "via": "RUA MANOEL INÁCIO",
+      "codigo": "00087"
+    },
+    {
+      "via": "RUA MANOEL INÁCIO",
+      "codigo": "00087"
+    },
+    {
+      "via": "RUA MARECHAL ROBERTO FERREIRA",
+      "codigo": "00646"
+    },
+    {
+      "via": "RUA MELO MORAIS",
+      "codigo": "00003"
+    },
+    {
+      "via": "RUA OLIVEIRA E SILVA",
+      "codigo": "00007"
+    },
+    {
+      "via": "RUA PAU BRASIL",
+      "codigo": "00107"
+    },
+    {
+      "via": "RUA SARGENTO BENEVIDES",
+      "codigo": "00647"
+    },
+    {
+      "via": "RUA SENADOR MENDONCA - RUA DO LIVRAMENTO",
+      "codigo": "00018"
+    },
+    {
+      "via": "RUA SETE DE STEMBRO - CENTRO",
+      "codigo": "06495"
+    },
+    {
+      "via": "RUA TEREZA LUCENA QUINTELA",
+      "codigo": "00756"
+    },
+    {
+      "via": "RUA ZADIR ÍNDIO",
+      "codigo": "06197"
+    },
+    {
+      "via": "RUA ZADIR ÍNDIO",
+      "codigo": "06197"
+    },
+    {
+      "via": "TERMINAL CONJ MUTIRAO",
+      "codigo": "00679"
+    },
+    {
+      "via": "TERMINAL CONJUNTO PARAISO DO HORTO",
+      "codigo": "06150"
+    },
+    {
+      "via": "TRAVESSA 7 DE SETEMBRO",
+      "codigo": "00903"
+    }
+  ],
+  "CIDADE UNIVERSITARIA": [
+    {
+      "via": "1° ROTATÓRIA - JARDIM ROYAL",
+      "codigo": "06444"
+    },
+    {
+      "via": "1° ROTATÓRIA - JARDIM ROYAL",
+      "codigo": "06444"
+    },
+    {
+      "via": "2° ROTATORIA - JARD ROYAL",
+      "codigo": "06445"
+    },
+    {
+      "via": "2° ROTATORIA - JARD ROYAL",
+      "codigo": "06445"
+    },
+    {
+      "via": "3 ROTATORIA DO CONJ JARDIM ROYAL",
+      "codigo": "06640"
+    },
+    {
+      "via": "4 ROTATORIA DO CONJ JARDIM ROYAL",
+      "codigo": "06639"
+    },
+    {
+      "via": "5 ROTATORIA DO CONJ JARDIM ROYAL",
+      "codigo": "06638"
+    },
+    {
+      "via": "ACESSO AO GRAN JARDIM AMARILIS",
+      "codigo": "06701"
+    },
+    {
+      "via": "ACESSO JARDIM ROYAL",
+      "codigo": "06443"
+    },
+    {
+      "via": "ALAMEDA DOS ANTÚRIOS",
+      "codigo": "06637"
+    },
+    {
+      "via": "AVENIDA ALICE CAROLINE",
+      "codigo": "00928"
+    },
+    {
+      "via": "AVENIDA B",
+      "codigo": "06102"
+    },
+    {
+      "via": "AVENIDA B (LOT. JARDIM SAÚDE)",
+      "codigo": "06102"
+    },
+    {
+      "via": "AVENIDA BENEDITO CALAÇA LOUREIRO",
+      "codigo": "00701"
+    },
+    {
+      "via": "AVENIDA DOUTOR ANDRÉ PAPINI GÓIS",
+      "codigo": "00684"
+    },
+    {
+      "via": "AVENIDA DOUTOR ANDRÉ PAPINI GÓIS",
+      "codigo": "00684"
+    },
+    {
+      "via": "AVENIDA DOUTOR FABIO WANDERLEY",
+      "codigo": "06127"
+    },
+    {
+      "via": "AVENIDA DOUTOR FERNANDO COUTO MALTA",
+      "codigo": "06468"
+    },
+    {
+      "via": "AVENIDA EMPRESÁRIO NELSON OLIVEIRA MENEZES",
+      "codigo": "06632"
+    },
+    {
+      "via": "AVENIDA GRAN JARDIM",
+      "codigo": "06708"
+    },
+    {
+      "via": "AVENIDA JAQUEIRAS",
+      "codigo": "06470"
+    },
+    {
+      "via": "AVENIDA JOSÉ AILTON DOS SANTOS",
+      "codigo": "00926"
+    },
+    {
+      "via": "AVENIDA JOSÉ MOURA ROCHA",
+      "codigo": "06610"
+    },
+    {
+      "via": "AVENIDA JÚLIA CAMELO DE FREITAS",
+      "codigo": "06190"
+    },
+    {
+      "via": "AVENIDA LOURIVAL MELO MOTA - BR 104",
+      "codigo": "00305"
+    },
+    {
+      "via": "AVENIDA MARÍLIA MENDONÇA",
+      "codigo": "06636"
+    },
+    {
+      "via": "AVENIDA PAULO HOLANDA",
+      "codigo": "06412"
+    },
+    {
+      "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+      "codigo": "06689"
+    },
+    {
+      "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+      "codigo": "06689"
+    },
+    {
+      "via": "AVENIDA PRINCIPAL DA UFAL",
+      "codigo": "06588"
+    },
+    {
+      "via": "AVENIDA ROSIVALDO FERREIRA MENDES",
+      "codigo": "06709"
+    },
+    {
+      "via": "AVENIDA SENADOR TEOTÔNIO VILELA",
+      "codigo": "00505"
+    },
+    {
+      "via": "AVENIDA LOURIVAL MELO MOTA - BR 104",
+      "codigo": "00305"
+    },
+    {
+      "via": "CIDADE UNIVERSITÁRIA",
+      "codigo": "00307"
+    },
+    {
+      "via": "CONJUNTO DENISSON MENEZES",
+      "codigo": "06111"
+    },
+    {
+      "via": "CORREDOR DE TRANSP CONJ NOVO JARDIM",
+      "codigo": "06659"
+    },
+    {
+      "via": "CORREDOR DE TRANSP JARDIM ROYAL",
+      "codigo": "06661"
+    },
+    {
+      "via": "GRAND JARDIM FLAMBOYANT",
+      "codigo": "06703"
+    },
+    {
+      "via": "JARDIM ROYAL ROTATORIA 1",
+      "codigo": "06339"
+    },
+    {
+      "via": "JARDIM ROYAL ROTATORIA II",
+      "codigo": "06340"
+    },
+    {
+      "via": "JARDIM ROYAL ROTATORIA IV",
+      "codigo": "06662"
+    },
+    {
+      "via": "NOVO JARDIM ROTATORIA II",
+      "codigo": "06343"
+    },
+    {
+      "via": "NOVO JARDIM ROTATORIA III",
+      "codigo": "06344"
+    },
+    {
+      "via": "NOVO JARDIM ROTATORIA IV",
+      "codigo": "06345"
+    },
+    {
+      "via": "RETORNO DA AVENIDA MARILIA MENDONCA",
+      "codigo": "06700"
+    },
+    {
+      "via": "RETORNO UFAL",
+      "codigo": "06417"
+    },
+    {
+      "via": "RUA 01 (CONJUNTO VILLAGE CAMPESTRE I)",
+      "codigo": "06188"
+    },
+    {
+      "via": "RUA 01 (VILLAGE CAMPESTRE I)",
+      "codigo": "06587"
+    },
+    {
+      "via": "RUA 2 - CONJ DENISSON MENEZES",
+      "codigo": "06694"
+    },
+    {
+      "via": "RUA DAS MANGUEIRAS",
+      "codigo": "06469"
+    },
+    {
+      "via": "RUA DE ACESSO AO GRAND JARDIM FLAMBOYANT",
+      "codigo": "06702"
+    },
+    {
+      "via": "RUA DENISSON MENEZES 2",
+      "codigo": "06692"
+    },
+    {
+      "via": "RUA DOS PINHAIS",
+      "codigo": "06471"
+    },
+    {
+      "via": "RUA DOUTOR CLEANTHO DE MOURA RIZZO G JARDIM",
+      "codigo": "06707"
+    },
+    {
+      "via": "AVENIDA DOUTOR FABIO WANDERLEY",
+      "codigo": "06127"
+    },
+    {
+      "via": "RUA DOUTOR JURACI PEREIRA",
+      "codigo": "00145"
+    },
+    {
+      "via": "RUA JOANA D'ARC",
+      "codigo": "06634"
+    },
+    {
+      "via": "RUA JOSE MAILTON DOS SANTOS",
+      "codigo": "00827"
+    },
+    {
+      "via": "RUA K UM",
+      "codigo": "06642"
+    },
+    {
+      "via": "RUA L",
+      "codigo": "06641"
+    },
+    {
+      "via": "RUA PADRE CÍCERO",
+      "codigo": "00297"
+    },
+    {
+      "via": "RUA PADRE CÍCERO",
+      "codigo": "00297"
+    },
+    {
+      "via": "RUA PRESIDENTE GETULIO VARGAS",
+      "codigo": "06689"
+    },
+    {
+      "via": "RUA SENADOR ARNON DE MELLO",
+      "codigo": "06359"
+    },
+    {
+      "via": "RUA SENADOR TEOTÔNIO VILELA",
+      "codigo": "00505"
+    },
+    {
+      "via": "RUA SOLDADO ADRIANO JOSÉ DA SILVA",
+      "codigo": "06122"
+    },
+    {
+      "via": "RUA TANCRÊDO NEVES",
+      "codigo": "00538"
+    },
+    {
+      "via": "RUA TANCRÊDO NEVES",
+      "codigo": "00538"
+    },
+    {
+      "via": "RUA TRANSVERSAL DENISSON MENEZES 2",
+      "codigo": "06691"
+    },
+    {
+      "via": "RUA TRANSVERSAL UFAL 2",
+      "codigo": "06550"
+    },
+    {
+      "via": "RUA X - CJ EUSTAQUIO GOMES",
+      "codigo": "06128"
+    },
+    {
+      "via": "RUA ZAFIRA ATAIDE CERQUEIRA-LOT J SAUDE",
+      "codigo": "06715"
+    },
+    {
+      "via": "SAIDA DO CONJ JARDIM ROYAL",
+      "codigo": "06663"
+    },
+    {
+      "via": "TERMINAL CONJUNTO GRACILIANO RAMOS",
+      "codigo": "00620"
+    },
+    {
+      "via": "TERMINAL CONJUNTO VILLAGE II",
+      "codigo": "00537"
+    },
+    {
+      "via": "TERMINAL INTEGRADO EUSTÁQUIO GOMES",
+      "codigo": "00526"
+    },
+    {
+      "via": "TERMINAL INTEGRADO EUSTÁQUIO GOMES",
+      "codigo": "00526"
+    },
+    {
+      "via": "VIA DE ACESSO AO COND JD DAS TULIPAS",
+      "codigo": "06553"
+    },
+    {
+      "via": "VIA DE LIGACAO AO CONJ JARDIM ROYAL",
+      "codigo": "06660"
+    },
+    {
+      "via": "VIA INTERNA CONJ MACEIO I - D",
+      "codigo": "06534"
+    },
+    {
+      "via": "VIA INTERNA DO CONJ MACEIO I - C",
+      "codigo": "06533"
+    },
+    {
+      "via": "VIA PRINCIPAL CONJ MACEIO I - A",
+      "codigo": "06531"
+    },
+    {
+      "via": "VIA PRINCIPAL CONJ MACEIO I - B",
+      "codigo": "06532"
+    },
+    {
+      "via": "VIA PRINCIPAL JARDIM DAS PALMEIRAS",
+      "codigo": "06529"
+    }
+  ],
+  "CLIMA BOM": [
+    {
+      "via": "AVENIDA C (CONJUNTO OSMAN LOUREIRO)",
+      "codigo": "00420"
+    },
+    {
+      "via": "AVENIDA ANTÔNIO HOLANDA",
+      "codigo": "06597"
+    },
+    {
+      "via": "AVENIDA B CONJUNTO OSMAN LOUREIRO",
+      "codigo": "00845"
+    },
+    {
+      "via": "AVENIDA B TERMINAL OSMAN LOUREIRO",
+      "codigo": "00419"
+    },
+    {
+      "via": "AVENIDA C (CONJUNTO OSMAN LOUREIRO)",
+      "codigo": "00420"
+    },
+    {
+      "via": "AVENIDA C (CONJUNTO OSMAN LOUREIRO)",
+      "codigo": "00420"
+    },
+    {
+      "via": "AVENIDA GENERAL WALFRIDO JERÔNIMO DA ROCHA",
+      "codigo": "06288"
+    },
+    {
+      "via": "AVENIDA POETA LUIZ GONZAGA BARROSO",
+      "codigo": "06623"
+    },
+    {
+      "via": "BR 316",
+      "codigo": "00287"
+    },
+    {
+      "via": "RUA 19 (CONJUNTO OSMAN LOUREIRO)",
+      "codigo": "00844"
+    },
+    {
+      "via": "RUA ANTONIO SILVA - OSMAN LOUREIRO",
+      "codigo": "00900"
+    },
+    {
+      "via": "RUA CARLOS GUIDO FERRARIO LOBO",
+      "codigo": "00589"
+    },
+    {
+      "via": "RUA DA ALEGRIA",
+      "codigo": "00389"
+    },
+    {
+      "via": "RUA DOUTOR JOÃO CRISÓSTOMO DE FARIAS",
+      "codigo": "00778"
+    },
+    {
+      "via": "RUA JERUSALÉM",
+      "codigo": "00295"
+    },
+    {
+      "via": "RUA JOSÉ GONZAGA DE ALMEIDA",
+      "codigo": "00575"
+    },
+    {
+      "via": "RUA JOSÉ GONZAGA DE ALMEIDA",
+      "codigo": "00575"
+    },
+    {
+      "via": "RUA LUIZ CLEMENTE VASCONCELOS",
+      "codigo": "06186"
+    },
+    {
+      "via": "RUA NOSSA SENHORA DA CONCEIÇÃO",
+      "codigo": "00390"
+    },
+    {
+      "via": "RUA PLINIIUS AYRES (LOTEAMENTO DURVILLE)",
+      "codigo": "00843"
+    },
+    {
+      "via": "RUA RECANTO DO SOL",
+      "codigo": "06706"
+    },
+    {
+      "via": "RUA SÃO LUIZ",
+      "codigo": "00299"
+    },
+    {
+      "via": "RUA SÃO LUIZ",
+      "codigo": "00299"
+    },
+    {
+      "via": "TERMINAL CLIMA BOM",
+      "codigo": "06199"
+    },
+    {
+      "via": "TERMINAL CLIMA BOM",
+      "codigo": "06199"
+    },
+    {
+      "via": "TERMINAL CLIMA BOM",
+      "codigo": "06199"
+    },
+    {
+      "via": "TERMINAL CONJ ROSANE COLLOR",
+      "codigo": "00415"
+    }
+  ],
+  "CRUZ DAS ALMAS": [
+    {
+      "via": "AVENIDA BRIGADEIRO EDUARDO GOMES",
+      "codigo": "00223"
+    },
+    {
+      "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
+      "codigo": "00206"
+    },
+    {
+      "via": "AVENIDA JUCA SAMPAIO -",
+      "codigo": "06515"
+    },
+    {
+      "via": "AVENIDA ROBERTO MASCARENHAS BRITO",
+      "codigo": "00810"
+    },
+    {
+      "via": "RETORNO GUAXUMA(AL 101 NORTE)",
+      "codigo": "06514"
+    },
+    {
+      "via": "RETORNO PARQUE SHOPPING",
+      "codigo": "06253"
+    },
+    {
+      "via": "RUA BACHAREL VIRGÍLIO DA ROCHA MARQUES",
+      "codigo": "06680"
+    },
+    {
+      "via": "RUA BACHAREL VIRGÍLIO DA ROCHA MARQUES",
+      "codigo": "06680"
+    },
+    {
+      "via": "RUA CAMARAGIBE",
+      "codigo": "00811"
+    },
+    {
+      "via": "RUA CAMARAGIBE (C. DAS ALMAS)",
+      "codigo": "00811"
+    },
+    {
+      "via": "RUA DOUTOR LAURO MACHADO COSTA",
+      "codigo": "00580"
+    },
+    {
+      "via": "RUA HAVAÍ",
+      "codigo": "06214"
+    },
+    {
+      "via": "RUA JOÃO CANUTO",
+      "codigo": "00221"
+    },
+    {
+      "via": "RUA JOÃO CANÚTO DA SILVA",
+      "codigo": "06356"
+    },
+    {
+      "via": "RUA JOSÉ CORRÊA DE MELO",
+      "codigo": "06212"
+    },
+    {
+      "via": "RUA JOSÉ CORRÊA DE MELO",
+      "codigo": "06212"
+    },
+    {
+      "via": "RUA JOÃO CANUTO",
+      "codigo": "00221"
+    },
+    {
+      "via": "RUA JOÃO CANÚTO DA SILVA",
+      "codigo": "06356"
+    },
+    {
+      "via": "RUA JOÃO CANÚTO DA SILVA",
+      "codigo": "06356"
+    },
+    {
+      "via": "RUA MARECHAL MASCARENHAS DE MORAES",
+      "codigo": "06216"
+    },
+    {
+      "via": "RUA MARIA ANTONIETA TEIXEIRA LEITE",
+      "codigo": "06357"
+    },
+    {
+      "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
+      "codigo": "00703"
+    },
+    {
+      "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
+      "codigo": "00703"
+    },
+    {
+      "via": "RUA PROFESSOR JOÃO ULYSSES MOREIRA",
+      "codigo": "06115"
+    },
+    {
+      "via": "RUA PROFESSOR LAURO COSTA",
+      "codigo": "00760"
+    },
+    {
+      "via": "RUA RODOLFO ABREU",
+      "codigo": "06687"
+    },
+    {
+      "via": "RUA SENADOR EZEQUIAS DA ROCHA",
+      "codigo": "06213"
+    },
+    {
+      "via": "TRAVESSA ALFREDO OITICICA",
+      "codigo": "06688"
+    }
+  ],
+  "FAROL": [
+    {
+      "via": "ALAMEDA DOUTOR MOACYR TAVARES LOPES",
+      "codigo": "06437"
+    },
+    {
+      "via": "AVENIDA COMENDADOR FRANCISCO AMORIM LEÃO",
+      "codigo": "06496"
+    },
+    {
+      "via": "AVENIDA DOM ANTÔNIO BRANDÃO",
+      "codigo": "00119"
+    },
+    {
+      "via": "AVENIDA FERNANDES LIMA",
+      "codigo": "00122"
+    },
+    {
+      "via": "AVENIDA MENDONÇA JUNIOR - AVENIDA ROTARY",
+      "codigo": "06583"
+    },
+    {
+      "via": "AVENIDA MOREIRA E SILVA",
+      "codigo": "00125"
+    },
+    {
+      "via": "AVENIDA SANTA RITA DE CÁSSIA",
+      "codigo": "00938"
+    },
+    {
+      "via": "AVENIDA TOMÁS ESPÍNDOLA",
+      "codigo": "00120"
+    },
+    {
+      "via": "AVENIDA TOMÁS ESPÍNDOLA",
+      "codigo": "00120"
+    },
+    {
+      "via": "LADEIRA GERALDO SANTOS MELO",
+      "codigo": "00160"
+    },
+    {
+      "via": "PRAÇA DO CENTENARIO",
+      "codigo": "00121"
+    },
+    {
+      "via": "RUA AFONSO PENA",
+      "codigo": "00940"
+    },
+    {
+      "via": "RUA BARÃO JOSÉ MIGUEL",
+      "codigo": "06600"
+    },
+    {
+      "via": "RUA BELO HORIZONTE J DA SILV CAMERINO",
+      "codigo": "00140"
+    },
+    {
+      "via": "RUA CLAUDIO LIVIO",
+      "codigo": "00336"
+    },
+    {
+      "via": "RUA COMENDADOR FIRMO LOPES",
+      "codigo": "00943"
+    },
+    {
+      "via": "RUA COMENDADOR PALMEIRA",
+      "codigo": "00118"
+    },
+    {
+      "via": "RUA CONSELHEIRO JOSÉ BARBOSA",
+      "codigo": "06428"
+    },
+    {
+      "via": "RUA CORONEL LIMA ROCHA",
+      "codigo": "00137"
+    },
+    {
+      "via": "RUA DESEMBARGADOR TENÓRIO",
+      "codigo": "00914"
+    },
+    {
+      "via": "RUA DOM VITAL",
+      "codigo": "00378"
+    },
+    {
+      "via": "RUA DON SANTINO COUTINHO",
+      "codigo": "00128"
+    },
+    {
+      "via": "RUA DOUTOR ALBINO MAGALHAES",
+      "codigo": "06270"
+    },
+    {
+      "via": "RUA DOUTOR JOÃO DE AZEVEDO FILHO",
+      "codigo": "06497"
+    },
+    {
+      "via": "RUA DOUTOR JOÃO DE AZEVEDO FILHO",
+      "codigo": "06497"
+    },
+    {
+      "via": "RUA ENGENHEIRO OTAVIO CABRAL",
+      "codigo": "06092"
+    },
+    {
+      "via": "RUA H",
+      "codigo": "00342"
+    },
+    {
+      "via": "RUA INDUSTRIAL LUIZ CALHEIROS JÚNIOR",
+      "codigo": "06482"
+    },
+    {
+      "via": "RUA ÍRIS ALAGOENSE",
+      "codigo": "00169"
+    },
+    {
+      "via": "RUA JOAQUIM NABUCO",
+      "codigo": "00376"
+    },
+    {
+      "via": "RUA JOSÉ DE ALENCAR",
+      "codigo": "00171"
+    },
+    {
+      "via": "RUA JOÃO CORREIA DE ARAÚJO",
+      "codigo": "06269"
+    },
+    {
+      "via": "RUA LUIZ RIZZO",
+      "codigo": "06110"
+    },
+    {
+      "via": "RUA MAJOR VICENTE SABINO",
+      "codigo": "06582"
+    },
+    {
+      "via": "RUA MANOEL MAIA NOBRE",
+      "codigo": "00650"
+    },
+    {
+      "via": "RUA PROFESSOR GUEDES DE MIRANDA",
+      "codigo": "06601"
+    },
+    {
+      "via": "RUA PROFESSOR JOSE PAULINO",
+      "codigo": "00939"
+    },
+    {
+      "via": "RUA SANTA CRUZ",
+      "codigo": "00060"
+    },
+    {
+      "via": "RUA TEN FRANCISCO DE OLIVEIRA",
+      "codigo": "00487"
+    },
+    {
+      "via": "RUA ÍRIS ALAGOENSE",
+      "codigo": "00169"
+    },
+    {
+      "via": "TERMINAL ROTARY",
+      "codigo": "00801"
+    }
+  ],
+  "FEITOSA": [
+    {
+      "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
+      "codigo": "00161"
+    },
+    {
+      "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
+      "codigo": "00161"
+    },
+    {
+      "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
+      "codigo": "00161"
+    },
+    {
+      "via": "AVENIDA GOVERNADOR LAMENHA FILHO",
+      "codigo": "00173"
+    },
+    {
+      "via": "AVENIDA OTONIEL PIMENTEL SANTOS",
+      "codigo": "06207"
+    },
+    {
+      "via": "AVENIDA WALDEMAR RUFINO DOS SANTOS-GOIABEIRA",
+      "codigo": "06154"
+    },
+    {
+      "via": "PRAÇA SÃO JOSÉ",
+      "codigo": "06156"
+    },
+    {
+      "via": "PRAÇA SAO JOSE",
+      "codigo": "00265"
+    },
+    {
+      "via": "PRAÇA SÃO JOSÉ",
+      "codigo": "06156"
+    },
+    {
+      "via": "RUA ANA LOPES CAHET",
+      "codigo": "06204"
+    },
+    {
+      "via": "RUA DA PRAIA",
+      "codigo": "06250"
+    },
+    {
+      "via": "RUA DOUTOR MANOEL MACHADO",
+      "codigo": "06155"
+    },
+    {
+      "via": "RUA DOUTOR PONTES DE MIRANDA",
+      "codigo": "00348"
+    },
+    {
+      "via": "RUA ITAPUÃ",
+      "codigo": "00191"
+    },
+    {
+      "via": "RUA ITAPUÃ",
+      "codigo": "00191"
+    },
+    {
+      "via": "TERMINAL FERNÃO VELHO",
+      "codigo": "00277"
+    },
+    {
+      "via": "TERMINAL FERNÃO VELHO",
+      "codigo": "00277"
+    },
+    {
+      "via": "TERMINAL RODOVIARIO DE MACEIO",
+      "codigo": "00185"
+    },
+    {
+      "via": "TRAVESSA IV ALDO MARINHO",
+      "codigo": "06206"
+    },
+    {
+      "via": "TRAVESSA PENEDO",
+      "codigo": "00466"
+    }
+  ],
+  "GAMA LINS": [
+    {
+      "via": "AL 101 NORTE - GARCA TORTA",
+      "codigo": "00480"
+    },
+    {
+      "via": "ESTRADA DA GROTA DO ANDRAUJO",
+      "codigo": "06713"
+    }
+  ],
+  "GRUTA DE LOURDES": [
+    {
+      "via": "AVENIDA ROBERTO SIMONSEN",
+      "codigo": "00834"
+    },
+    {
+      "via": "AVENIDA ROTARY - AVENIDA MENDONÇA JÚNIOR",
+      "codigo": "00147"
+    },
+    {
+      "via": "AVENIDA ROTARY - AVENIDA MENDONÇA JÚNIOR",
+      "codigo": "00147"
+    },
+    {
+      "via": "AVENIDA ROTARY - AVENIDA MENDONÇA JÚNIOR",
+      "codigo": "00147"
+    },
+    {
+      "via": "LADEIRA CORONEL ALVES MATA",
+      "codigo": "00486"
+    },
+    {
+      "via": "LARGO DELMIRO GOUVEIA - ROTARY",
+      "codigo": "06350"
+    },
+    {
+      "via": "RUA A7",
+      "codigo": "06082"
+    },
+    {
+      "via": "RUA ANTONIO MENEZESA LEMOS",
+      "codigo": "06166"
+    },
+    {
+      "via": "RUA ARIOSVALDO PEREIRA CINTRA",
+      "codigo": "06079"
+    },
+    {
+      "via": "RUA ARTUR VITAL DA SILVA",
+      "codigo": "00153"
+    },
+    {
+      "via": "RUA B",
+      "codigo": "06526"
+    },
+    {
+      "via": "RUA COMENDADOR LUIZ JARDIM FRANCA",
+      "codigo": "06076"
+    },
+    {
+      "via": "RUA COMENDADOR LUIZ JARDIM FRANCA",
+      "codigo": "06076"
+    },
+    {
+      "via": "RUA DEPUTADO SILOÉ TAVARES",
+      "codigo": "00452"
+    },
+    {
+      "via": "RUA DOUTOR ABELARDO PONTES LIMA",
+      "codigo": "00151"
+    },
+    {
+      "via": "RUA ELOI DE LEMOS FRANCA",
+      "codigo": "00437"
+    },
+    {
+      "via": "RUA ENGENHEIRO OTÁVIO CABRAL",
+      "codigo": "00911"
+    },
+    {
+      "via": "RUA EURICO ACYOLE WANDERLEY",
+      "codigo": "06524"
+    },
+    {
+      "via": "RUA FERNANDO JÚNIOR",
+      "codigo": "06475"
+    },
+    {
+      "via": "RUA GERMANO LOPES CORDEIRO",
+      "codigo": "00556"
+    },
+    {
+      "via": "RUA HUGO CORRÊA PAES",
+      "codigo": "00468"
+    },
+    {
+      "via": "RUA NILO PEÇANHA TORRES",
+      "codigo": "00148"
+    },
+    {
+      "via": "RUA RANILDO CAVALCANTE",
+      "codigo": "06078"
+    },
+    {
+      "via": "RUA ROBERTO SÍMONSEN",
+      "codigo": "00149"
+    },
+    {
+      "via": "RUA ROBERTO SÍMONSEN",
+      "codigo": "00149"
+    },
+    {
+      "via": "RUA SANTA RITA DE CÁSSIA",
+      "codigo": "06081"
+    },
+    {
+      "via": "RUA TEREZA DE AZEVEDO",
+      "codigo": "00124"
+    },
+    {
+      "via": "TRAVESSA JOSÉ BARRETO",
+      "codigo": "00143"
+    },
+    {
+      "via": "VIA SECUNDARIA AVENIDA FERNANDES LIMA",
+      "codigo": "06681"
+    }
+  ],
+  "GUAXUMA": [
+    {
+      "via": "AL 101 NORTE - GUAXUMA",
+      "codigo": "00493"
+    },
+    {
+      "via": "LOTEAMENTO BELA VISTA",
+      "codigo": "00637"
+    }
+  ],
+  "IPIOCA": [
+    {
+      "via": "AL 101 NORTE - IPIOCA",
+      "codigo": "00498"
+    },
+    {
+      "via": "AL 101 NORTE - IPIOCA",
+      "codigo": "00498"
+    },
+    {
+      "via": "AL 101 NORTE - MIRANTE DA SEREIA",
+      "codigo": "00495"
+    },
+    {
+      "via": "AL 101 NORTE - PRATAGY",
+      "codigo": "00496"
+    },
+    {
+      "via": "ESTRADA DA SAÚDE",
+      "codigo": "00226"
+    },
+    {
+      "via": "ESTRADA DA SAÚDE",
+      "codigo": "00226"
+    },
+    {
+      "via": "LAD. MANOEL FLORENTINO LOPES DOS SANTOS",
+      "codigo": "06201"
+    },
+    {
+      "via": "LOTEAMENTO SAUACHUY(TERMINAL IPIOCA)",
+      "codigo": "00230"
+    },
+    {
+      "via": "LOTEAMENTO SAUACHUY(TERMINAL IPIOCA)",
+      "codigo": "00230"
+    },
+    {
+      "via": "PRAÇA FLORIANO PEIXOTO - IPIOCA",
+      "codigo": "00232"
+    }
+  ],
+  "JACARECICA": [
+    {
+      "via": "AL - 101 NORTE",
+      "codigo": "00596"
+    },
+    {
+      "via": "AVENIDA GENERAL LUIZ DE FRANÇA ALBUQUERQUE",
+      "codigo": "00227"
+    },
+    {
+      "via": "AVENIDA LITORÂNEA",
+      "codigo": "06254"
+    },
+    {
+      "via": "AVENIDA PIERRE CHALITA",
+      "codigo": "00391"
+    },
+    {
+      "via": "CONJ JACARECICA",
+      "codigo": "00234"
+    },
+    {
+      "via": "ESTRADA DE JACARECICA",
+      "codigo": "00933"
+    },
+    {
+      "via": "ROTATORIA DO VIADUTO DE JACARECICA",
+      "codigo": "06649"
+    },
+    {
+      "via": "RUA FISCAL VERA DE MELLO QUEIROZ",
+      "codigo": "06647"
+    },
+    {
+      "via": "RUA JORNALISTA JOSE NILTON DE OLIV CORREIA",
+      "codigo": "06648"
+    },
+    {
+      "via": "RUA MAJOR ISIDÓRO JERÔNIMO DA ROCH",
+      "codigo": "06650"
+    }
+  ],
+  "JACINTINHO": [
+    {
+      "via": "AVENIDA IND. CÍCERO TOLEDO",
+      "codigo": "00240"
+    },
+    {
+      "via": "AVENIDA CLETO CAMPELO",
+      "codigo": "00180"
+    },
+    {
+      "via": "AVENIDA IND. CÍCERO TOLEDO",
+      "codigo": "00240"
+    },
+    {
+      "via": "AVENIDA IND. CÍCERO TOLEDO",
+      "codigo": "00240"
+    },
+    {
+      "via": "AVENIDA JUCA NUNES",
+      "codigo": "00917"
+    },
+    {
+      "via": "AVENIDA WALTER ANANIAS",
+      "codigo": "00280"
+    },
+    {
+      "via": "PRAÇA DOIS LEÕES",
+      "codigo": "00935"
+    },
+    {
+      "via": "PRACA DOUTOR MANOEL DUARTE",
+      "codigo": "06384"
+    },
+    {
+      "via": "PRACA MARCILIO DIAS",
+      "codigo": "00249"
+    },
+    {
+      "via": "PRAÇA DOIS LEÕES",
+      "codigo": "00935"
+    },
+    {
+      "via": "RETORNO CEMITÉRIO JARAGUÁ",
+      "codigo": "06442"
+    },
+    {
+      "via": "RETORNO CEMITÉRIO JARAGUÁ",
+      "codigo": "06442"
+    },
+    {
+      "via": "RUA ANTÔNIO ZEFERINO DOS SANTOS",
+      "codigo": "00741"
+    },
+    {
+      "via": "RUA ANTONIOR PONTES LIMA",
+      "codigo": "00712"
+    },
+    {
+      "via": "RUA ANTÔNIO ZEFERINO DOS SANTOS",
+      "codigo": "00741"
+    },
+    {
+      "via": "RUA APOLÔNIA ROCHA DOS SANTOS",
+      "codigo": "00535"
+    },
+    {
+      "via": "RUA APOLÔNIA ROCHA DOS SANTOS",
+      "codigo": "00535"
+    },
+    {
+      "via": "RUA BARÃO DE JARAGUÁ",
+      "codigo": "00544"
+    },
+    {
+      "via": "RUA BATISTA ACCIOLY",
+      "codigo": "06169"
+    },
+    {
+      "via": "RUA BONFIM - CLETO CAMPELO",
+      "codigo": "00179"
+    },
+    {
+      "via": "RUA BONFIM - CLETO CAMPELO",
+      "codigo": "00179"
+    },
+    {
+      "via": "RUA CORONEL PARANHOS",
+      "codigo": "00178"
+    },
+    {
+      "via": "RUA DEMERV ALAMEDA MACARIO",
+      "codigo": "06267"
+    },
+    {
+      "via": "RUA DES. PAULO DA ROCHA MENDES",
+      "codigo": "06666"
+    },
+    {
+      "via": "RUA DO ENCANTO",
+      "codigo": "00183"
+    },
+    {
+      "via": "RUA DO URUGUAI",
+      "codigo": "00247"
+    },
+    {
+      "via": "RUA G",
+      "codigo": "06236"
+    },
+    {
+      "via": "RUA I",
+      "codigo": "06237"
+    },
+    {
+      "via": "RUA IVALDO MARINHO",
+      "codigo": "00588"
+    },
+    {
+      "via": "RUA JOSÉ ANTÔNIO REGINALDO PONTES LIMA",
+      "codigo": "06132"
+    },
+    {
+      "via": "RUA JOSÉ JORGE DE MELO GONÇALVES",
+      "codigo": "00184"
+    },
+    {
+      "via": "RUA JOÃO ULISSES MOREIRA",
+      "codigo": "00942"
+    },
+    {
+      "via": "RUA LANE IV ALDO NA VY - RUA ITAPUA",
+      "codigo": "06257"
+    },
+    {
+      "via": "RUA LEOPOLDO ARAÚJO AMORIM",
+      "codigo": "06358"
+    },
+    {
+      "via": "RUA MARIA CECÍLIA DA ROCHA",
+      "codigo": "00945"
+    },
+    {
+      "via": "RUA PADRE SIZENANDO SILVA",
+      "codigo": "00838"
+    },
+    {
+      "via": "RUA PASTOR EURÍCO CALHEIROS",
+      "codigo": "00181"
+    },
+    {
+      "via": "RUA PASTOR EURÍCO CALHEIROS",
+      "codigo": "00181"
+    },
+    {
+      "via": "RUA PAU DARCO",
+      "codigo": "06266"
+    },
+    {
+      "via": "RUA PROFESSOR VIRGÍNIO",
+      "codigo": "00334"
+    },
+    {
+      "via": "RUA PROFESSOR VIRGÍNIO",
+      "codigo": "00334"
+    },
+    {
+      "via": "RUA SÁ E ALBUQUERQUE",
+      "codigo": "00241"
+    },
+    {
+      "via": "RUA SAMPAIO MARQUES",
+      "codigo": "00842"
+    },
+    {
+      "via": "RUA SÁ E ALBUQUERQUE",
+      "codigo": "00241"
+    },
+    {
+      "via": "RUA SÃO BENEDITO",
+      "codigo": "06327"
+    },
+    {
+      "via": "RUA TRÊS",
+      "codigo": "06273"
+    },
+    {
+      "via": "RUA TRÊS",
+      "codigo": "06273"
+    },
+    {
+      "via": "TRAVESSA CLETO CAMPELO",
+      "codigo": "00182"
+    },
+    {
+      "via": "TRAVESSA CRISTÓVÃO COLOMBO",
+      "codigo": "06173"
+    },
+    {
+      "via": "TRAVESSA CRISTÓVÃO COLOMBO",
+      "codigo": "06173"
+    }
+  ],
+  "JARDIM PETROPOLIS I": [
+    {
+      "via": "AVENIDA FRANCISCO AFONSO DE MELLO",
+      "codigo": "00855"
+    }
+  ],
+  "JARDIM PETROPOLIS II": [
+    {
+      "via": "ACESSO AOS CONJ. PETRÓPOLIS I,II,III",
+      "codigo": "06232"
+    },
+    {
+      "via": "ALAMEDA A 2",
+      "codigo": "06652"
+    },
+    {
+      "via": "ALAMEDA JOSÉ LOPES DE ALBUQUERQUE",
+      "codigo": "00753"
+    },
+    {
+      "via": "AVENIDA DENILMA BULHÕES",
+      "codigo": "06320"
+    },
+    {
+      "via": "AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMÉLIA ROSAS",
+      "codigo": "00218"
+    },
+    {
+      "via": "AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMÉLIA ROSAS",
+      "codigo": "00218"
+    },
+    {
+      "via": "AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMÉLIA ROSAS",
+      "codigo": "00218"
+    },
+    {
+      "via": "AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMÉLIA ROSAS",
+      "codigo": "00218"
+    },
+    {
+      "via": "AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMÉLIA ROSAS",
+      "codigo": "00218"
+    },
+    {
+      "via": "AVENIDA EMPRESÁRIO LOURIVAL LOBO FERREIRA",
+      "codigo": "00577"
+    },
+    {
+      "via": "AVENIDA EMPRESÁRIO LOURIVAL LOBO FERREIRA",
+      "codigo": "00577"
+    },
+    {
+      "via": "AVENIDA GALBA NOVAES DE CASTRO",
+      "codigo": "00680"
+    },
+    {
+      "via": "AVENIDA JOÃO JOSÉ P. DE L. FILHO",
+      "codigo": "06114"
+    },
+    {
+      "via": "CONJ LUIZ PEDROI",
+      "codigo": "06487"
+    },
+    {
+      "via": "R. PERIMETRAL 5 CONJ J SAMPAIO I (6510)",
+      "codigo": "06484"
+    },
+    {
+      "via": "RUA 14 A - JOAO SAMPAIOI",
+      "codigo": "00754"
+    },
+    {
+      "via": "RUA A | QUATORZE",
+      "codigo": "06307"
+    },
+    {
+      "via": "RUA ALTO BELA VISTA",
+      "codigo": "06312"
+    },
+    {
+      "via": "RUA DEPUTADO JOSÉ LAGES",
+      "codigo": "06435"
+    },
+    {
+      "via": "RUA DJALMA FRAGOSO DE ALENÇAR",
+      "codigo": "06314"
+    },
+    {
+      "via": "RUA DJALMA FRAGOSO DE ALENÇAR",
+      "codigo": "06314"
+    },
+    {
+      "via": "RUA DOUTOR JOSÉ CAMELO JÚNIOR",
+      "codigo": "00706"
+    },
+    {
+      "via": "RUA I - CONJ CLIMERIO SARMENTO",
+      "codigo": "06258"
+    },
+    {
+      "via": "RUA MANOEL RIBEIRO DA ROCHA",
+      "codigo": "00912"
+    },
+    {
+      "via": "RUA PERIMETRAL 2",
+      "codigo": "06653"
+    },
+    {
+      "via": "RUA PERIMETRAL 3",
+      "codigo": "06654"
+    },
+    {
+      "via": "RUA PERIMETRAL 4",
+      "codigo": "06653"
+    },
+    {
+      "via": "RUA PERIMETRAL 5",
+      "codigo": "06311"
+    },
+    {
+      "via": "RUA PROF. DILERMANDO REIS",
+      "codigo": "06667"
+    },
+    {
+      "via": "RUA PROFESSORA MARIA ESTHER DA COSTA BARROS",
+      "codigo": "06606"
+    },
+    {
+      "via": "RUA PROJETADA",
+      "codigo": "06315"
+    },
+    {
+      "via": "RUA QUATORZE A - CONJ. JOÃO SAMPAIO I",
+      "codigo": "06483"
+    },
+    {
+      "via": "RUA VINTE A - CONJ. JOÃO SAMPAIO I",
+      "codigo": "06485"
+    },
+    {
+      "via": "TERMINAL CHÃ NOVA",
+      "codigo": "06323"
+    },
+    {
+      "via": "TERMINAL CONJUNTO JOAO SAMPAIO I",
+      "codigo": "00601"
+    },
+    {
+      "via": "TERMINAL CONJUNTO JOAO SAMPAIO I",
+      "codigo": "00601"
+    }
+  ],
+  "LEVADA": [
+    {
+      "via": "AVENIDA CELESTE BEZERRA",
+      "codigo": "00064"
+    },
+    {
+      "via": "AVENIDA DOUTOR MIGUEL OMENA",
+      "codigo": "00040"
+    },
+    {
+      "via": "PRACA DAS GRACAS",
+      "codigo": "00073"
+    },
+    {
+      "via": "RUA 19 DE SETEMBRO",
+      "codigo": "00054"
+    },
+    {
+      "via": "RUA COMENDADOR TEIXEIRA BASTOS",
+      "codigo": "00429"
+    },
+    {
+      "via": "RUA CORONEL CAHET",
+      "codigo": "00673"
+    },
+    {
+      "via": "RUA JOÃO CALHEIROS GATO",
+      "codigo": "00063"
+    },
+    {
+      "via": "RUA JOÃO CALHEIROS GATO",
+      "codigo": "00063"
+    }
+  ],
+  "MANGABEIRAS": [
+    {
+      "via": "AVENIDA ALMIRANTE ÁLVARO CALHEIROS",
+      "codigo": "00469"
+    },
+    {
+      "via": "AVENIDA ALMIRANTE ÁLVARO CALHEIROS",
+      "codigo": "00469"
+    },
+    {
+      "via": "AVENIDA EVILÁSIO SORIANO",
+      "codigo": "06615"
+    },
+    {
+      "via": "AVENIDA GOVERNADOR CARLOS LACERDA",
+      "codigo": "06405"
+    },
+    {
+      "via": "AVENIDA GOVERNADOR OSMAN LOUREIRO",
+      "codigo": "00919"
+    },
+    {
+      "via": "AVENIDA JOÃO DAVINO",
+      "codigo": "00219"
+    },
+    {
+      "via": "AVENIDA SENADOR CARLOS LYRA",
+      "codigo": "06405"
+    },
+    {
+      "via": "MACEIO SHOPPING",
+      "codigo": "00459"
+    },
+    {
+      "via": "RUA ENG. PAULO BRANDAO NOGUEIR",
+      "codigo": "00800"
+    },
+    {
+      "via": "RUA JOSÉ LOURENÇO DE ALBUQUERQUE",
+      "codigo": "06616"
+    },
+    {
+      "via": "RUA MÁRIO PALMEIRA JÚNIOR",
+      "codigo": "06346"
+    },
+    {
+      "via": "RUA MÁRIO PALMEIRA JÚNIOR",
+      "codigo": "06346"
+    },
+    {
+      "via": "RUA MÁRIO PALMEIRA JÚNIOR",
+      "codigo": "06346"
+    },
+    {
+      "via": "RUA MÁRIO PALMEIRA JÚNIOR",
+      "codigo": "06346"
+    },
+    {
+      "via": "RUA SANTA MARIANA",
+      "codigo": "06144"
+    },
+    {
+      "via": "RUA VENERAVEL JOAO VIEIRA CHAGAS",
+      "codigo": "00508"
+    },
+    {
+      "via": "VIADUTO INDL. JOAO LYRA",
+      "codigo": "06665"
+    }
+  ],
+  "MUTANGE": [
+    {
+      "via": "AVENIDA MAJOR CÍCERO DE GÓES MONTEIRO",
+      "codigo": "00078"
+    },
+    {
+      "via": "LARGO DELMIRO GOUVEIA",
+      "codigo": "00568"
+    }
+  ],
+  "OURO PRETO": [
+    {
+      "via": "AVENIDA VALENTIM DOS SANTOS DINIZ",
+      "codigo": "06104"
+    },
+    {
+      "via": "PONTO DE RETORNO OURO PRETO",
+      "codigo": "06453"
+    },
+    {
+      "via": "PRAÇA LIONS",
+      "codigo": "00250"
+    },
+    {
+      "via": "PRAÇA DA LIBERDADE",
+      "codigo": "00246"
+    },
+    {
+      "via": "PRAÇA LIONS",
+      "codigo": "00250"
+    },
+    {
+      "via": "RUA BOA VISTA",
+      "codigo": "06426"
+    },
+    {
+      "via": "RUA DOUTOR LESSA DE AZEVEDO",
+      "codigo": "00649"
+    },
+    {
+      "via": "RUA DOUTOR MESSIAS DE GUSMÃO",
+      "codigo": "06686"
+    },
+    {
+      "via": "RUA EPAMINONDAS GRACINDO",
+      "codigo": "00244"
+    },
+    {
+      "via": "RUA GERALDO PATURY ACCIOLY",
+      "codigo": "06259"
+    },
+    {
+      "via": "RUA JANGADEIROS ALAGOANOS",
+      "codigo": "00243"
+    },
+    {
+      "via": "RUA OUVIDOR BATALHA",
+      "codigo": "00522"
+    },
+    {
+      "via": "RUA RIO GRANDE DO SUL",
+      "codigo": "06454"
+    },
+    {
+      "via": "RUA SÃO FRANCISCO",
+      "codigo": "06256"
+    },
+    {
+      "via": "RUA SÃO FRANCISCO DE ASSIS",
+      "codigo": "00326"
+    }
+  ],
+  "PESCARIA": [
+    {
+      "via": "AL 101 NORTE - PESCARIA",
+      "codigo": "00497"
+    }
+  ],
+  "PINHEIRO": [
+    {
+      "via": "RUA ALBUQUERQUE LINS",
+      "codigo": "06095"
+    },
+    {
+      "via": "RUA ANTENOR GOMES DE OLIVEIRA",
+      "codigo": "06096"
+    },
+    {
+      "via": "RUA ANTONIO MURTA",
+      "codigo": "06695"
+    },
+    {
+      "via": "RUA ARNON DE MELLO",
+      "codigo": "00164"
+    },
+    {
+      "via": "RUA CONSELHEIRO JOSÉ BEZERRA",
+      "codigo": "06576"
+    },
+    {
+      "via": "RUA DOUTOR LUIS DE MASCARENHAS",
+      "codigo": "06580"
+    },
+    {
+      "via": "RUA FREI CANECA",
+      "codigo": "00168"
+    },
+    {
+      "via": "RUA MAJOR FRANCISCO DE BARROS REGO",
+      "codigo": "06575"
+    },
+    {
+      "via": "RUA MIGUEL PALMEIRA",
+      "codigo": "06083"
+    },
+    {
+      "via": "RUA OLDEMBURGO DA SILVA PARANHOS",
+      "codigo": "06574"
+    },
+    {
+      "via": "RUA PROFESSOR JOSÉ DA SILVEIRA CAMERINO",
+      "codigo": "00141"
+    },
+    {
+      "via": "RUA PROFESSOR VIRGÍNIO DE CAMPOS",
+      "codigo": "06577"
+    },
+    {
+      "via": "RUA SANTA RITA",
+      "codigo": "06579"
+    }
+  ],
+  "PITANGUINHA": [
+    {
+      "via": "AVENIDA BRASIL",
+      "codigo": "00399"
+    },
+    {
+      "via": "AVENIDA CAPITAO MARINHO FALCAO",
+      "codigo": "00215"
+    },
+    {
+      "via": "AVENIDA CID SCALA",
+      "codigo": "00211"
+    },
+    {
+      "via": "AVENIDA COMENDADOR CALAÇA",
+      "codigo": "00205"
+    },
+    {
+      "via": "AVENIDA COMENDADOR LEÃO",
+      "codigo": "00196"
+    },
+    {
+      "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
+      "codigo": "00208"
+    },
+    {
+      "via": "AVENIDA DONA CONSTANÇA",
+      "codigo": "00213"
+    },
+    {
+      "via": "AVENIDA DONA CONSTANCA DE GOES MONTEIRO",
+      "codigo": "06348"
+    },
+    {
+      "via": "AVENIDA DONA CONSTANÇA",
+      "codigo": "00213"
+    },
+    {
+      "via": "AVENIDA PROFESSOR SANTOS FERRAZ",
+      "codigo": "00199"
+    },
+    {
+      "via": "BOMBA DA MARIETA",
+      "codigo": "00212"
+    },
+    {
+      "via": "PRAÇA 13 DE MAIO",
+      "codigo": "06170"
+    },
+    {
+      "via": "PRAÇA GUIMARÃES PASSOS",
+      "codigo": "06189"
+    },
+    {
+      "via": "PRAÇA 13 DE MAIO",
+      "codigo": "06170"
+    },
+    {
+      "via": "PRAÇA GUIMARÃES PASSOS",
+      "codigo": "06189"
+    },
+    {
+      "via": "PRAÇA SENHOR DO BONFIM",
+      "codigo": "00207"
+    },
+    {
+      "via": "RUA 13 DE MAIO",
+      "codigo": "06170"
+    },
+    {
+      "via": "RUA BARÃO DE ATALAIA",
+      "codigo": "00204"
+    },
+    {
+      "via": "RUA BUARQUE DE MACÊDO",
+      "codigo": "00194"
+    },
+    {
+      "via": "RUA BUARQUE DE MACÊDO",
+      "codigo": "00194"
+    },
+    {
+      "via": "RUA CASSIANO DE ALBUQUERQUE",
+      "codigo": "06174"
+    },
+    {
+      "via": "RUA CORONEL FRANCISCO SILVA",
+      "codigo": "06696"
+    },
+    {
+      "via": "RUA DEZ DE NOVEMBRO",
+      "codigo": "06569"
+    },
+    {
+      "via": "RUA ESCRITOR PAULINO SANTIAGO",
+      "codigo": "00519"
+    },
+    {
+      "via": "RUA ESMERALDINO MARINHO SPINDOLA SOBRINHO",
+      "codigo": "06202"
+    },
+    {
+      "via": "RUA JORNALISTA JAIME DE AMORIM MIRANDA",
+      "codigo": "06172"
+    },
+    {
+      "via": "RUA JOÃO OMENA DE ANDRADE",
+      "codigo": "06171"
+    },
+    {
+      "via": "RUA JUCA NUNES",
+      "codigo": "06622"
+    },
+    {
+      "via": "RUA LAFAIETE BELO",
+      "codigo": "00238"
+    },
+    {
+      "via": "RUA MARIA VITÓRIA DE FRANÇA CHAVES",
+      "codigo": "06126"
+    },
+    {
+      "via": "RUA MARIA VITÓRIA DE FRANÇA CHAVES",
+      "codigo": "06126"
+    },
+    {
+      "via": "RUA MARIO LOBO",
+      "codigo": "00131"
+    },
+    {
+      "via": "RUA MARTINS MURTA",
+      "codigo": "00130"
+    },
+    {
+      "via": "RUA PEDRO PAULINO",
+      "codigo": "00209"
+    },
+    {
+      "via": "RUA SALVADOR CALMON",
+      "codigo": "00210"
+    },
+    {
+      "via": "RUA SANTA LEOPOLDINA",
+      "codigo": "06255"
+    },
+    {
+      "via": "RUA SOLDADO EDUARDO DOS SANTOS",
+      "codigo": "00513"
+    },
+    {
+      "via": "RUA TITO DE BARROS",
+      "codigo": "06675"
+    },
+    {
+      "via": "TRAVESSA JOATAN",
+      "codigo": "06326"
+    },
+    {
+      "via": "TRAVESSA MARAVILHA",
+      "codigo": "00566"
+    },
+    {
+      "via": "TRAVESSA SANTO AMARO",
+      "codigo": "06436"
+    },
+    {
+      "via": "TRAVESSA SENHOR DO BONFIM",
+      "codigo": "00719"
+    },
+    {
+      "via": "VIADUTO IB GATTO FALCÃO",
+      "codigo": "00859"
+    },
+    {
+      "via": "VILA DOS BANCARIOS",
+      "codigo": "00626"
+    },
+    {
+      "via": "VILA SENHOR DO BONFIM",
+      "codigo": "00207"
+    }
+  ],
+  "PONTA DA TERRA": [
+    {
+      "via": "RUA ALMIRANTE MASCARENHAS",
+      "codigo": "00369"
+    },
+    {
+      "via": "RUA ARAÚJO BIVAR",
+      "codigo": "00370"
+    },
+    {
+      "via": "RUA DOMINGOS LORDSLEEN",
+      "codigo": "00248"
+    },
+    {
+      "via": "RUA DOUTOR JOSÉ MILTON CORREIA",
+      "codigo": "00744"
+    },
+    {
+      "via": "RUA DOUTOR ZEFERINO RODRIGUES",
+      "codigo": "00200"
+    },
+    {
+      "via": "RUA LAFAYETE PACHECO",
+      "codigo": "00736"
+    },
+    {
+      "via": "RUA QUINTINO BOCAIÚVA",
+      "codigo": "00368"
+    },
+    {
+      "via": "RUA QUINTINO BOCAIÚVA",
+      "codigo": "00368"
+    },
+    {
+      "via": "RUA SÃO MIGUEL",
+      "codigo": "00915"
+    }
+  ],
+  "PONTA GROSSA": [
+    {
+      "via": "AVENIDA PROFESSOR CLAUDIOM LOUREIRO",
+      "codigo": "00038"
+    },
+    {
+      "via": "AVENIDA SILVESTRE PERICLES",
+      "codigo": "00030"
+    },
+    {
+      "via": "PRAÇA SANTO ANTONIO",
+      "codigo": "00653"
+    },
+    {
+      "via": "RUA BOA VISTA - P GROSSA",
+      "codigo": "00032"
+    },
+    {
+      "via": "RUA CABO REIS",
+      "codigo": "00058"
+    },
+    {
+      "via": "RUA CLÁUDIO MANOEL",
+      "codigo": "06300"
+    },
+    {
+      "via": "RUA CORONEL JOSÉ FRANCISCO VIEIRA",
+      "codigo": "00421"
+    },
+    {
+      "via": "RUA FELIX BANDEIRA",
+      "codigo": "00065"
+    },
+    {
+      "via": "RUA MARQUÊS DE POMBAL",
+      "codigo": "00059"
+    },
+    {
+      "via": "RUA MARQUÊS DE POMBAL",
+      "codigo": "00059"
+    },
+    {
+      "via": "RUA MOACIR MIRANDA",
+      "codigo": "00070"
+    },
+    {
+      "via": "RUA PADRE CICERO ROMÃO BATISTA",
+      "codigo": "06362"
+    },
+    {
+      "via": "RUA PADRE CICERO ROMÃO BATISTA",
+      "codigo": "06362"
+    },
+    {
+      "via": "RUA PAYSSANDU",
+      "codigo": "00061"
+    },
+    {
+      "via": "RUA PAYSSANDU",
+      "codigo": "00061"
+    },
+    {
+      "via": "RUA SANTO ANTÔNIO",
+      "codigo": "00282"
+    },
+    {
+      "via": "RUA SANTO ANTÔNIO",
+      "codigo": "00282"
+    },
+    {
+      "via": "RUA SILVÉRIO JORGE",
+      "codigo": "00654"
+    },
+    {
+      "via": "TRAVESSA CONSELHEIRO FRANCISCO VIEIRA",
+      "codigo": "00709"
+    },
+    {
+      "via": "VILA KENNEDY",
+      "codigo": "00478"
+    }
+  ],
+  "PONTA VERDE": [
+    {
+      "via": "AVENIDA DURVAL GUIMARAES",
+      "codigo": "00371"
+    },
+    {
+      "via": "AVENIDA SANDOVAL AMEDA ARROXELAS",
+      "codigo": "00203"
+    },
+    {
+      "via": "AVENIDA ÁLVARO OTACÍLIO",
+      "codigo": "00237"
+    },
+    {
+      "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
+      "codigo": "00245"
+    },
+    {
+      "via": "RUA PEDRO AMÉRICO",
+      "codigo": "00201"
+    },
+    {
+      "via": "RUA SENADOR RUI PALMEIRA",
+      "codigo": "06283"
+    },
+    {
+      "via": "TRAVESSA ANTÔNIO MACIEL DE OLIVEIRA",
+      "codigo": "06142"
+    }
+  ],
+  "PONTAL DA BARRA": [
+    {
+      "via": "ALAMEDA B",
+      "codigo": "06373"
+    },
+    {
+      "via": "ALAMEDA B",
+      "codigo": "06373"
+    },
+    {
+      "via": "AVENIDA ASSIS CHATEAUBRIAND",
+      "codigo": "00035"
+    },
+    {
+      "via": "RUA ALIPIO BARBOSA DA SILVA",
+      "codigo": "00427"
+    },
+    {
+      "via": "RUA IRACEMA LESSA DE ANDRADE",
+      "codigo": "00747"
+    },
+    {
+      "via": "TERMINAL PONTAL DA BARRA",
+      "codigo": "00324"
+    }
+  ],
+  "PRADO": [
+    {
+      "via": "AVENIDA AMAZONAS",
+      "codigo": "00042"
+    },
+    {
+      "via": "PÇA. AFRANIO JORGE",
+      "codigo": "00048"
+    },
+    {
+      "via": "RUA DO CEARÁ",
+      "codigo": "06557"
+    },
+    {
+      "via": "RUA DO CEARÁ",
+      "codigo": "06557"
+    },
+    {
+      "via": "RUA DOUTOR VIRGILIO GUEDES",
+      "codigo": "00029"
+    },
+    {
+      "via": "RUA MANAUS",
+      "codigo": "00037"
+    },
+    {
+      "via": "TRAVESSA CABRAL",
+      "codigo": "00041"
+    },
+    {
+      "via": "TRAVESSA CALABAR",
+      "codigo": "00460"
+    }
+  ],
+  "RIACHO DOCE": [
+    {
+      "via": "AL 101 NORTE - RIACHO DOCE",
+      "codigo": "00494"
+    },
+    {
+      "via": "CONJ SONHO DE ANTONIO DUARTE",
+      "codigo": "06712"
+    },
+    {
+      "via": "MIRANTE DA SEREIA",
+      "codigo": "00233"
+    },
+    {
+      "via": "RUA ANTÔNIO FÉLIX",
+      "codigo": "06711"
+    },
+    {
+      "via": "RUA HORIZONTE",
+      "codigo": "06710"
+    }
+  ],
+  "RIO NOVO": [
+    {
+      "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
+      "codigo": "00836"
+    },
+    {
+      "via": "AVENIDA JORGEM DE BARROS- SANTA AMELIA",
+      "codigo": "00382"
+    },
+    {
+      "via": "AVENIDA MACEIÓ",
+      "codigo": "06159"
+    },
+    {
+      "via": "CONJUNTO MEDEIROS NETO",
+      "codigo": "00837"
+    },
+    {
+      "via": "RUA CORONEL PEDRO PIERRE BRAGA",
+      "codigo": "06191"
+    },
+    {
+      "via": "RUA DA AREIA",
+      "codigo": "06248"
+    },
+    {
+      "via": "RUA DA FLORESTA",
+      "codigo": "00278"
+    },
+    {
+      "via": "RUA DO ALECRIM",
+      "codigo": "00761"
+    },
+    {
+      "via": "RUA ERMANI DA ROCHA CAVALCANTE PASSOS",
+      "codigo": "00543"
+    },
+    {
+      "via": "RUA ERMANI DA ROCHA CAVALCANTE PASSOS",
+      "codigo": "00543"
+    },
+    {
+      "via": "RUA ERMANI DA ROCHA CAVALCANTE PASSOS",
+      "codigo": "00543"
+    },
+    {
+      "via": "RUA ESTUDANTE ARNOUMAR CHAGAS",
+      "codigo": "00393"
+    },
+    {
+      "via": "RUA VEREADOR HERMÍNIO CARDOSO",
+      "codigo": "00352"
+    },
+    {
+      "via": "RUA MARQUÊS DE TAMANDARÉ",
+      "codigo": "06372"
+    },
+    {
+      "via": "RUA NOSSA SENHORA DA APARECIDA",
+      "codigo": "06158"
+    },
+    {
+      "via": "RUA NOVA BRASÍLIA",
+      "codigo": "00279"
+    },
+    {
+      "via": "RUA NOVA BRASÍLIA",
+      "codigo": "00279"
+    },
+    {
+      "via": "RUA PARQUE DOS EUCALIPTOS-CONJ M NETO",
+      "codigo": "00573"
+    },
+    {
+      "via": "RUA TEODOMIRO DEODATO SANTOS",
+      "codigo": "06286"
+    },
+    {
+      "via": "RUA VEREADOR HERMÍNIO CARDOSO",
+      "codigo": "00352"
+    },
+    {
+      "via": "SANTA LÚCIA",
+      "codigo": "06279"
+    },
+    {
+      "via": "TERMINAL COLINA",
+      "codigo": "06287"
+    },
+    {
+      "via": "TERMINAL CONJUNTO CLETO MARQUES LUZ",
+      "codigo": "00929"
+    },
+    {
+      "via": "TERMINMAL RIO NOVO",
+      "codigo": "06593"
+    },
+    {
+      "via": "TRAVESSA RIO DA SILVA",
+      "codigo": "06157"
+    }
+  ],
+  "SANTOS DUMONT": [
+    {
+      "via": "AVENIDA BENEDITO BATISTA",
+      "codigo": "00608"
+    },
+    {
+      "via": "AVENIDA CARNAVALESCO JOSÉ TEOFANES",
+      "codigo": "06074"
+    },
+    {
+      "via": "AVENIDA CORONEL SALUSTIANO SARMENTO",
+      "codigo": "00384"
+    },
+    {
+      "via": "AVENIDA DOUTOR DUDA CALADO",
+      "codigo": "06411"
+    },
+    {
+      "via": "AVENIDA ENGENHEIRO CORINTHO CAMPELO DA PAZ",
+      "codigo": "00224"
+    },
+    {
+      "via": "AVENIDA JOSEFA DE MELO",
+      "codigo": "06210"
+    },
+    {
+      "via": "AVENIDA JOSÉ AÍRTON GONDIM LAMENHA",
+      "codigo": "06620"
+    },
+    {
+      "via": "AVENIDA JOSÉ AÍRTON GONDIM LAMENHA",
+      "codigo": "06620"
+    },
+    {
+      "via": "AVENIDA JOSÉ MANHÃES",
+      "codigo": "00252"
+    },
+    {
+      "via": "AVENIDA RUI BARBOSA",
+      "codigo": "06523"
+    },
+    {
+      "via": "AVENIDA TANCREDO NEVES",
+      "codigo": "00677"
+    },
+    {
+      "via": "RETORNO DO ATACADAO",
+      "codigo": "06619"
+    },
+    {
+      "via": "RUA ALVARO MELO LADEIRA S JORGE-P CHALITA",
+      "codigo": "06141"
+    },
+    {
+      "via": "RUA EBENEZER DE OLIVEIRA FRIAS",
+      "codigo": "00813"
+    },
+    {
+      "via": "TRAVESSA ELIZEU GOMES DE SENA",
+      "codigo": "00766"
+    },
+    {
+      "via": "RUA ILAILDA FELIX DE O SANTOS",
+      "codigo": "00606"
+    },
+    {
+      "via": "RUA ROSA CRUZ",
+      "codigo": "06624"
+    },
+    {
+      "via": "RUA RUI BARBOSA",
+      "codigo": "00931"
+    },
+    {
+      "via": "RUA SANTA AMÁLIA",
+      "codigo": "00668"
+    },
+    {
+      "via": "TERMINAL DA FORENE",
+      "codigo": "00614"
+    },
+    {
+      "via": "TERMINAL DA FORENE",
+      "codigo": "00614"
+    },
+    {
+      "via": "TERMINAL NOVO HORIZONTE - SANTOS DUMONT",
+      "codigo": "00289"
+    },
+    {
+      "via": "TRAVESSA ELIZEU GOMES DE SENA",
+      "codigo": "00766"
+    }
+  ],
+  "SERRARIA": [
+    {
+      "via": "AVENIDA DEPUTADO EDSON LINS",
+      "codigo": "00501"
+    },
+    {
+      "via": "AVENIDA GETULIO VARGAS",
+      "codigo": "00174"
+    },
+    {
+      "via": "AVENIDA NELSON MARINHO DE ARAÚJO",
+      "codigo": "00802"
+    },
+    {
+      "via": "AVENIDA NELSON MARINHO DE ARAÚJO",
+      "codigo": "00802"
+    },
+    {
+      "via": "AVENIDA PRESIDENTE ROOSEVELT",
+      "codigo": "00174"
+    },
+    {
+      "via": "LOT BRISA DA SERRARIA III T J TENORIO",
+      "codigo": "06242"
+    },
+    {
+      "via": "RETORNO JOSE TENORIO",
+      "codigo": "06227"
+    },
+    {
+      "via": "RUA A - B",
+      "codigo": "06226"
+    },
+    {
+      "via": "RUA ADOLFO GUSTAVO",
+      "codigo": "00694"
+    },
+    {
+      "via": "RUA C - D",
+      "codigo": "06244"
+    },
+    {
+      "via": "RUA ERNANI JONAS GOMES",
+      "codigo": "06224"
+    },
+    {
+      "via": "RUA F",
+      "codigo": "06245"
+    },
+    {
+      "via": "RUA F, G",
+      "codigo": "06245"
+    },
+    {
+      "via": "RUA JOEL VIEIRA DOS ANJOS",
+      "codigo": "00739"
+    },
+    {
+      "via": "RUA LUIZ DE FRANÇA VERGETTI",
+      "codigo": "00693"
+    }
+  ],
+  "TABULEIRO DOS MARTINS": [
+    {
+      "via": "AVENIDA BETEL",
+      "codigo": "00643"
+    },
+    {
+      "via": "AVENIDA DEPUTADA SELMA BANDEIRA",
+      "codigo": "06285"
+    },
+    {
+      "via": "AVENIDA DURVAL DE GÓES MONTEIRO",
+      "codigo": "00154"
+    },
+    {
+      "via": "AVENIDA DURVAL DE GÓES MONTEIRO",
+      "codigo": "00154"
+    },
+    {
+      "via": "TRAVESSA GOVERNADOR LUIZ CAVALCANTE",
+      "codigo": "00267"
+    },
+    {
+      "via": "AVENIDA JORNALISTA TOBIAS GRANJA",
+      "codigo": "00483"
+    },
+    {
+      "via": "AVENIDA JÚLIO CEZAR MENDONÇA UCHÔA",
+      "codigo": "00094"
+    },
+    {
+      "via": "AVENIDA NAÇÕES UNIDAS",
+      "codigo": "06517"
+    },
+    {
+      "via": "AVENIDA OSVALDO RAMOS",
+      "codigo": "00644"
+    },
+    {
+      "via": "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA",
+      "codigo": "00436"
+    },
+    {
+      "via": "TRAVESSA GOVERNADOR LUIZ CAVALCANTE",
+      "codigo": "00267"
+    },
+    {
+      "via": "AVENIDA VEREADOR DÁRIO MARSÍGLIA",
+      "codigo": "00629"
+    },
+    {
+      "via": "CONJUNTO COLINA DOS EUCALIPTOS",
+      "codigo": "00413"
+    },
+    {
+      "via": "JARDIM ROYAL ROTATORIA III",
+      "codigo": "06341"
+    },
+    {
+      "via": "PISTAA",
+      "codigo": "00481"
+    },
+    {
+      "via": "RUA DESEMBARGADOR CARLOS DE GUSMÃO",
+      "codigo": "00516"
+    },
+    {
+      "via": "RETORNO BOMBA DO GONZAGA(POSTO J AQUINO)",
+      "codigo": "06547"
+    },
+    {
+      "via": "RETORNO DA LAGOA SECA",
+      "codigo": "00670"
+    },
+    {
+      "via": "ROTATÓRIA DO VIADUTO DA PRF",
+      "codigo": "06590"
+    },
+    {
+      "via": "ROTATÓRIA DO VIADUTO DA PRF",
+      "codigo": "06590"
+    },
+    {
+      "via": "RUA 01",
+      "codigo": "00806"
+    },
+    {
+      "via": "RUA 3 - CONJ JOSE MARIA DE MELO",
+      "codigo": "00263"
+    },
+    {
+      "via": "RUA ACARAU",
+      "codigo": "00395"
+    },
+    {
+      "via": "RUA ALAMEDA E 2 A - MORADA DO BOSQUE",
+      "codigo": "00542"
+    },
+    {
+      "via": "RUA AURELINA LIMA DA SILVA",
+      "codigo": "00417"
+    },
+    {
+      "via": "RUA C08",
+      "codigo": "06077"
+    },
+    {
+      "via": "RUA DA CODEAL",
+      "codigo": "00551"
+    },
+    {
+      "via": "RUA DESEMBARGADOR CARLOS DE GUSMÃO",
+      "codigo": "00516"
+    },
+    {
+      "via": "RUA DESEMBARGADOR CARLOS DE GUSMÃO",
+      "codigo": "00516"
+    },
+    {
+      "via": "RUA DO CRUZEIRO",
+      "codigo": "00499"
+    },
+    {
+      "via": "RUA DOUTOR CARLOS GOMES DE BARROS",
+      "codigo": "00264"
+    },
+    {
+      "via": "RUA DOUTOR EURICO AYRES",
+      "codigo": "00284"
+    },
+    {
+      "via": "RUA EDGAR DE GÓES DE MONTEIRO - BR 316",
+      "codigo": "06418"
+    },
+    {
+      "via": "RUA EDUARDO PINHEIRO LÔBO",
+      "codigo": "06625"
+    },
+    {
+      "via": "RUA ELIEZER RUFINO DE CASTRO",
+      "codigo": "00266"
+    },
+    {
+      "via": "RUA FRANCISCO AFONSO DE MELO",
+      "codigo": "00256"
+    },
+    {
+      "via": "RUA HAMILTON MORAIS",
+      "codigo": "00509"
+    },
+    {
+      "via": "RUA J - CONJ HENRIQUE HEQUELMAN",
+      "codigo": "00506"
+    },
+    {
+      "via": "RUA J. G. PEREIRA DO CARMO",
+      "codigo": "00379"
+    },
+    {
+      "via": "RUA JACI MELO",
+      "codigo": "00559"
+    },
+    {
+      "via": "RUA JAIRO MARQUÊS LUZ",
+      "codigo": "00518"
+    },
+    {
+      "via": "RUA JAIRO MARQUÊS LUZ",
+      "codigo": "00518"
+    },
+    {
+      "via": "RUA JOSÉ VIEIRA",
+      "codigo": "06627"
+    },
+    {
+      "via": "RUA JOÃO LINS CALHEIROS",
+      "codigo": "06626"
+    },
+    {
+      "via": "RUA LAGOA SECA",
+      "codigo": "00304"
+    },
+    {
+      "via": "RUA LUIZ BINA XAVIER",
+      "codigo": "00515"
+    },
+    {
+      "via": "RUA MONSENHOR VIEIRA",
+      "codigo": "06246"
+    },
+    {
+      "via": "AVENIDA OSVALDO RAMOS",
+      "codigo": "00644"
+    },
+    {
+      "via": "RUA P - CONJ HENRIQUE HEQUELMAN",
+      "codigo": "00506"
+    },
+    {
+      "via": "RUA PROJETADA 920",
+      "codigo": "00552"
+    },
+    {
+      "via": "RUA SANTA LUZIA",
+      "codigo": "00303"
+    },
+    {
+      "via": "RUA SÃO PAULO",
+      "codigo": "00285"
+    },
+    {
+      "via": "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA",
+      "codigo": "00436"
+    },
+    {
+      "via": "RUA SETE DE SETEMBRO",
+      "codigo": "00381"
+    },
+    {
+      "via": "RUA SÃO CAETANO",
+      "codigo": "00771"
+    },
+    {
+      "via": "RUA SÃO FRANCISCO - CONJ HENRIQUE HEQUELMAN",
+      "codigo": "00506"
+    },
+    {
+      "via": "RUA SÃO PAULO",
+      "codigo": "00285"
+    },
+    {
+      "via": "RUA UBERABA",
+      "codigo": "00254"
+    },
+    {
+      "via": "RUA WILSON PRAXEDES",
+      "codigo": "00100"
+    },
+    {
+      "via": "TERMINAL SALVADOR LYRA",
+      "codigo": "00275"
+    },
+    {
+      "via": "TRAVESSA EDGAR DE GÓES MONTEIRO",
+      "codigo": "06418"
+    },
+    {
+      "via": "TRAVESSA GOVERNADOR LUIZ CAVALCANTE",
+      "codigo": "00267"
+    },
+    {
+      "via": "VIADUTO DA PRF",
+      "codigo": "00360"
+    }
+  ],
+  "TRAPICHE DA BARRA": [
+    {
+      "via": "AVENIDA ROBERTO PONTES LIMA",
+      "codigo": "06395"
+    },
+    {
+      "via": "AVENIDA SIQUEIRA CAMPOS",
+      "codigo": "00028"
+    },
+    {
+      "via": "ITINERÁRIO IDA - POÇO",
+      "codigo": "06718"
+    },
+    {
+      "via": "ITINERÁRIO VOLTA - PONTA VERDE",
+      "codigo": "06719"
+    },
+    {
+      "via": "RUA BENJAMIN CONSTANT",
+      "codigo": "00511"
+    },
+    {
+      "via": "RUA CORONEL JOSE FRANCISCO VIEIRA",
+      "codigo": "06294"
+    },
+    {
+      "via": "RUA DOUTOR PAULO NETO",
+      "codigo": "06697"
+    },
+    {
+      "via": "RUA JOSÉ ALVES BARBOSA",
+      "codigo": "06394"
+    },
+    {
+      "via": "RUA LAGOA HOTEL",
+      "codigo": "06295"
+    },
+    {
+      "via": "RUA OSEAS ROSAS",
+      "codigo": "00034"
+    },
+    {
+      "via": "TERMINAL DO TRAPICHE",
+      "codigo": "00428"
+    }
+  ],
+  "VERGEL DO LAGO": [
+    {
+      "via": "AVENIDA GOVERNADOR THEOBALDO BARBOSA",
+      "codigo": "00451"
+    },
+    {
+      "via": "AVENIDA MINISTRO MÁRIO ANDREAZZA",
+      "codigo": "00432"
+    },
+    {
+      "via": "AVENIDA MONTE CASTELO",
+      "codigo": "00050"
+    },
+    {
+      "via": "AVENIDA SENADOR RUI PALMEIRA",
+      "codigo": "00458"
+    },
+    {
+      "via": "ITINERÁRIO IDA - PONTA VERDE",
+      "codigo": "06720"
+    },
+    {
+      "via": "ITINERÁRIO VOLTA - JOAQUIM LEÃO",
+      "codigo": "06722"
+    },
+    {
+      "via": "ITINERÁRIO VOLTA - POÇO",
+      "codigo": "06717"
+    },
+    {
+      "via": "ITINRERÁRIO IDA - VERGEL",
+      "codigo": "06721"
+    },
+    {
+      "via": "PRAÇA TENENTE MOISÉS SILVA FILHO",
+      "codigo": "06377"
+    },
+    {
+      "via": "PRAÇA TENENTE MOISÉS SILVA FILHO",
+      "codigo": "06377"
+    },
+    {
+      "via": "PRAÇA TENENTE MOISÉS SILVA FILHO",
+      "codigo": "06377"
+    },
+    {
+      "via": "RUA DOUTOR LUÍS DE BARROS",
+      "codigo": "00075"
+    },
+    {
+      "via": "RUA DOUTOR LUÍS DE BARROS",
+      "codigo": "00075"
+    },
+    {
+      "via": "RUA SÃO FÉLIX",
+      "codigo": "00052"
+    },
+    {
+      "via": "RUA SÃO PEDRO",
+      "codigo": "00807"
+    },
+    {
+      "via": "TERMINAL DO VERGEL",
+      "codigo": "00053"
+    },
+    {
+      "via": "TRAVESSA MONTE CASTELO",
+      "codigo": "00051"
+    }
+  ],
+  "SEM CODIGO": [
+    {
+      "via": "AL. DAS AMENDOEIRAS",
+      "codigo": null
+    },
+    {
+      "via": "ALAMEDA A DOIS",
+      "codigo": null
+    },
+    {
+      "via": "ALTO DE IPIOCA",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA BELMIRO AMORIM",
+      "codigo": "00258"
+    },
+    {
+      "via": "AVENIDA BOSQUE DA CIMEIRA",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA CAETÉS",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA CELESTE BEZERRA DE MENEZES",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA DO FUTURO",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA DONA CONSTANCA DE GÓES MONTEIRO",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA DONA CONSTANÇA DE GÓES MONTEIRO",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA DOUTOR ABELARDO PONTES LIMA",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
+      "codigo": "00217"
+    },
+    {
+      "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA DOUTOR LUIZ ROCHA TOLEDO",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA EDUARDO TADEU LOPES DA SILVA",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA FREI DAMIAO DE BOZANO",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA FREI DAMIÃO DE BOZANO",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA GERALDO BULHÔES",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA GERALDO SAMPAIO",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA JORNALISTA TEÓFILIO ALVES LINS",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA ROTA DO MAR",
+      "codigo": null
+    },
+    {
+      "via": "AVENIDA SAMPAIO MARQUES",
+      "codigo": null
+    },
+    {
+      "via": "BASILIANO APRIGIO DE OLIVEIRA",
+      "codigo": null
+    },
+    {
+      "via": "BENEDITO BENTES",
+      "codigo": null
+    },
+    {
+      "via": "CONJUNTO ELIAS PONTES BOMFIM",
+      "codigo": null
+    },
+    {
+      "via": "CONJUNTO MORADA DO PLANALTO",
+      "codigo": null
+    },
+    {
+      "via": "CORREDOR D",
+      "codigo": null
+    },
+    {
+      "via": "ESTRADA DA ANTIGA GRANJA",
+      "codigo": null
+    },
+    {
+      "via": "ESTRADA DA GOIABEIRA",
+      "codigo": null
+    },
+    {
+      "via": "ESTRADA DA GOIABIERA",
+      "codigo": null
+    },
+    {
+      "via": "ESTRADA DUAS BOCAS",
+      "codigo": null
+    },
+    {
+      "via": "LADEIRA DOUTOR GERALDO MELO DOS SANTOS",
+      "codigo": null
+    },
+    {
+      "via": "PARQUI RIO BRANCO",
+      "codigo": null
+    },
+    {
+      "via": "PC JOAQUIMM LUZ",
+      "codigo": null
+    },
+    {
+      "via": "PRACA DO PIRULITO",
+      "codigo": null
+    },
+    {
+      "via": "PRAÇA ALOÍSO BRANCO",
+      "codigo": null
+    },
+    {
+      "via": "PRAÇA DA MARAVILHA",
+      "codigo": "00198"
+    },
+    {
+      "via": "PRAÇA DOUTOR CAIO ÁGUIAR PÔRTO",
+      "codigo": null
+    },
+    {
+      "via": "Q E1",
+      "codigo": null
+    },
+    {
+      "via": "Q G",
+      "codigo": null
+    },
+    {
+      "via": "Q I1",
+      "codigo": null
+    },
+    {
+      "via": "Q K",
+      "codigo": null
+    },
+    {
+      "via": "Q W1",
+      "codigo": null
+    },
+    {
+      "via": "Q | 1",
+      "codigo": null
+    },
+    {
+      "via": "Q. G",
+      "codigo": null
+    },
+    {
+      "via": "Q. K",
+      "codigo": null
+    },
+    {
+      "via": "Q. S1",
+      "codigo": null
+    },
+    {
+      "via": "R. J",
+      "codigo": null
+    },
+    {
+      "via": "R. P",
+      "codigo": null
+    },
+    {
+      "via": "RETORNO",
+      "codigo": null
+    },
+    {
+      "via": "RETORNO CONJUNTO JOSE TENORIO",
+      "codigo": null
+    },
+    {
+      "via": "RETORNO DENILMA BULHÔES",
+      "codigo": null
+    },
+    {
+      "via": "RETORNO DO VIADUTO JOSEPHA DE MELO",
+      "codigo": "00373"
+    },
+    {
+      "via": "RETORNO VIADUTO DA PRF",
+      "codigo": null
+    },
+    {
+      "via": "RETORNOA V FERNANDES LIMA",
+      "codigo": null
+    },
+    {
+      "via": "RUA 54 CONJUNTO GRACILIANO RAMOS",
+      "codigo": null
+    },
+    {
+      "via": "RUA A | OITO",
+      "codigo": null
+    },
+    {
+      "via": "RUA ALAMEDA DA PAZ",
+      "codigo": null
+    },
+    {
+      "via": "RUA ANGELIM",
+      "codigo": null
+    },
+    {
+      "via": "RUA ANTÔNIO HOLANDA",
+      "codigo": null
+    },
+    {
+      "via": "RUA ARUEIRA",
+      "codigo": null
+    },
+    {
+      "via": "RUA AUGUSTA",
+      "codigo": null
+    },
+    {
+      "via": "RUA B QUINZE",
+      "codigo": null
+    },
+    {
+      "via": "RUA B TRINTA E NOVE",
+      "codigo": null
+    },
+    {
+      "via": "RUA B TRINTA E OITO",
+      "codigo": null
+    },
+    {
+      "via": "RUA BALTAZAR DE MENDONÇA",
+      "codigo": null
+    },
+    {
+      "via": "RUA BARÃO DE MACEIO",
+      "codigo": null
+    },
+    {
+      "via": "RUA BENEDITO AMARO DE MOURA",
+      "codigo": null
+    },
+    {
+      "via": "RUA BOA VISTA - IPIOCA",
+      "codigo": null
+    },
+    {
+      "via": "RUA C | OITENTA E CINCO",
+      "codigo": null
+    },
+    {
+      "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
+      "codigo": null
+    },
+    {
+      "via": "RUA CARLOSG FERRARIO",
+      "codigo": null
+    },
+    {
+      "via": "RUA COMENDADOR JOSE GERALDO DA SILVA",
+      "codigo": null
+    },
+    {
+      "via": "RUA COMENDADOR JOSÉ GERALDO DA SILVA",
+      "codigo": null
+    },
+    {
+      "via": "RUA CORONEL MENDES DA FONSECA",
+      "codigo": null
+    },
+    {
+      "via": "RUA CÔNEGO FERNANDO LYRA",
+      "codigo": null
+    },
+    {
+      "via": "RUA DA PAZ",
+      "codigo": null
+    },
+    {
+      "via": "RUA DANDARA",
+      "codigo": null
+    },
+    {
+      "via": "RUA DANTAS MALTA",
+      "codigo": null
+    },
+    {
+      "via": "RUA DE ACESSO",
+      "codigo": null
+    },
+    {
+      "via": "RUA DESEMBARGADOR BERRETO CARDOSO",
+      "codigo": null
+    },
+    {
+      "via": "RUA DEZENOVE",
+      "codigo": null
+    },
+    {
+      "via": "RUA DEZESSEIS DE SETEMBRO",
+      "codigo": null
+    },
+    {
+      "via": "RUA DO CRAVO",
+      "codigo": "00835"
+    },
+    {
+      "via": "RUA DO LIVRAMENTO",
+      "codigo": null
+    },
+    {
+      "via": "RUA DO SOL",
+      "codigo": null
+    },
+    {
+      "via": "RUA DONA MARIETA QUINTELA CAMPOS TEIXEIRA",
+      "codigo": null
+    },
+    {
+      "via": "RUA DOUTOR JOSÉ AFFONSO DE FARIAS MELLO NETO",
+      "codigo": null
+    },
+    {
+      "via": "RUA DOUTOR PEDRO MARCELO DE OLIVEIRA",
+      "codigo": "06525"
+    },
+    {
+      "via": "RUA DOUTOR SEBASTIÃO DA HORA",
+      "codigo": null
+    },
+    {
+      "via": "RUA DOUTORA NADJA",
+      "codigo": null
+    },
+    {
+      "via": "RUA DOUTORA NOÉLIA LESSA DOS SANTOS",
+      "codigo": null
+    },
+    {
+      "via": "RUA EDUARDO JORGE LOPES NOVAES",
+      "codigo": null
+    },
+    {
+      "via": "RUA ERALDO FERREIRA DA COSTA",
+      "codigo": null
+    },
+    {
+      "via": "RUA ERONILDES DE OLIVEIRA",
+      "codigo": null
+    },
+    {
+      "via": "RUA ESCRITORA MARIA LUÍSA MELO SÁ",
+      "codigo": null
+    },
+    {
+      "via": "RUA ESMERALDINHO MARINHO SPÍNDOLA SOBRINHO",
+      "codigo": null
+    },
+    {
+      "via": "RUA FORMOSA",
+      "codigo": null
+    },
+    {
+      "via": "RUA FRED STONE",
+      "codigo": null
+    },
+    {
+      "via": "RUA GENERAL HERMES",
+      "codigo": null
+    },
+    {
+      "via": "RUA GENILDA DA SILVA PORTO",
+      "codigo": null
+    },
+    {
+      "via": "RUA GETULIO CORRÊA LIMA",
+      "codigo": null
+    },
+    {
+      "via": "RUA GILBERTO VIEIRA LEITE",
+      "codigo": null
+    },
+    {
+      "via": "RUA GOVERNADOR FRANCISCO MELLO",
+      "codigo": null
+    },
+    {
+      "via": "RUA HENRIQUE FRANCISCO BULHÔES",
+      "codigo": null
+    },
+    {
+      "via": "RUA HENRIQUE FRANCISCO BULHÕES",
+      "codigo": null
+    },
+    {
+      "via": "RUA J",
+      "codigo": null
+    },
+    {
+      "via": "RUA JONACY",
+      "codigo": null
+    },
+    {
+      "via": "RUA JORNALISTA LAFAIETE BELO",
+      "codigo": null
+    },
+    {
+      "via": "RUA JORNALISTA OSEIAS ROSAS",
+      "codigo": null
+    },
+    {
+      "via": "RUA JORNALISTA OSÉIAS ROSAS",
+      "codigo": null
+    },
+    {
+      "via": "RUA JOSÉ AUGUSTO SILVA SOUTO",
+      "codigo": null
+    },
+    {
+      "via": "RUA JOSÉ HERMES DAMASCENO",
+      "codigo": null
+    },
+    {
+      "via": "RUA JOÃO CAMERINO",
+      "codigo": "06556"
+    },
+    {
+      "via": "RUA MARQUES DE TAMANDARÉ",
+      "codigo": null
+    },
+    {
+      "via": "RUA MAX DOUGLAS",
+      "codigo": null
+    },
+    {
+      "via": "RUA NILO TORRES",
+      "codigo": null
+    },
+    {
+      "via": "RUA O",
+      "codigo": null
+    },
+    {
+      "via": "RUA OTACÍLIO DE JESUS",
+      "codigo": null
+    },
+    {
+      "via": "RUA OTACÍLIO DES DE JESUS",
+      "codigo": null
+    },
+    {
+      "via": "RUA P",
+      "codigo": null
+    },
+    {
+      "via": "RUA PREFEITO JOATAS MALTA DE ALENCAR",
+      "codigo": "00049"
+    },
+    {
+      "via": "RUA PROFESSOR ANTONIO MÁRIO MAFRA",
+      "codigo": null
+    },
+    {
+      "via": "RUA PROFESSOR ANTÔNIO MÁRIO MAFRA",
+      "codigo": null
+    },
+    {
+      "via": "RUA PROFESSOR DOMINGOS MOEDA",
+      "codigo": null
+    },
+    {
+      "via": "RUA Q",
+      "codigo": null
+    },
+    {
+      "via": "RUA RAD. DJALMA VALENÇA",
+      "codigo": null
+    },
+    {
+      "via": "RUA ROBERT LIRA",
+      "codigo": null
+    },
+    {
+      "via": "RUA SANTOS PACHECO",
+      "codigo": null
+    },
+    {
+      "via": "RUA SENADOR EZECHIAS JERÔNIMO DA ROCHA",
+      "codigo": null
+    },
+    {
+      "via": "RUA TARCISIO DE JESUS",
+      "codigo": null
+    },
+    {
+      "via": "RUA TARCÍSIO DE JESUS",
+      "codigo": null
+    },
+    {
+      "via": "RUA U",
+      "codigo": null
+    },
+    {
+      "via": "RUA X",
+      "codigo": null
+    },
+    {
+      "via": "TERMINAL ALTO DA ALEGRIA",
+      "codigo": null
+    },
+    {
+      "via": "TERMINAL DE CRUZ DAS ALMAS",
+      "codigo": null
+    },
+    {
+      "via": "TERMINAL DENISSON MENEZES",
+      "codigo": null
+    },
+    {
+      "via": "TERMINAL INTEGRADO COLINA DOS EUCALIPTOS",
+      "codigo": "00779"
+    },
+    {
+      "via": "TRAVESSA DA FLORESTA",
+      "codigo": null
+    },
+    {
+      "via": "TRAVESSA DO CRAVO",
+      "codigo": null
+    },
+    {
+      "via": "TRAVESSA ESCRITOR PAULINO SANTIAGO",
+      "codigo": null
+    },
+    {
+      "via": "TRAVESSA EULIANA GUIMARÃES SANTOS DE MELO",
+      "codigo": null
+    },
+    {
+      "via": "TRAVESSA INAILDA FELIX",
+      "codigo": null
+    },
+    {
+      "via": "VIA DE ACESSO A CHÃ NOVA",
+      "codigo": null
+    },
+    {
+      "via": "VIA DE ACESSO Á CHÂ NOVA",
+      "codigo": null
+    },
+    {
+      "via": "VIA PRINCIPAL 2",
+      "codigo": null
+    },
+    {
+      "via": "VIA PRINCIPAL DOIS",
+      "codigo": null
+    },
+    {
+      "via": "VILA BANCARIA",
+      "codigo": null
+    }
+  ]
+}

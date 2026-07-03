@@ -1,5 +1,5 @@
 import { Component, useEffect } from "react";
-import { MapContainer, TileLayer, GeoJSON, useMap, useMapEvents } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, CircleMarker, Popup, Tooltip, useMap, useMapEvents } from "react-leaflet";
 
 export const TILE_STYLES = {
   dark:      { label: "Escuro",   swatch: "#1a202c", url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",                                                              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>' },
@@ -98,7 +98,7 @@ function AutoZoom({ geojson, isLinhaSelected }) {
   return null;
 }
 
-export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle = "dark", geojsonVersion = 0, ruaGeojson = null, onMapClick = null, linhaContexto = null, onContextoAmbos = null }) {
+export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle = "dark", geojsonVersion = 0, ruaGeojson = null, onMapClick = null, linhaContexto = null, onContextoAmbos = null, terminais = [], showTerminais = false }) {
   // key muda somente quando os dados novos chegam (junto com geojsonVersion), nunca antes
   const geoJsonKey = geojsonVersion;
   const tile = TILE_STYLES[tileStyle] ?? TILE_STYLES.dark;
@@ -121,6 +121,21 @@ export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle =
         />
         <AutoZoom geojson={geojson} isLinhaSelected={isLinhaSelected} />
         {onMapClick && <MapClickHandler onMapClick={onMapClick} />}
+        {showTerminais && terminais.map((t) => (
+          <CircleMarker
+            key={t.nome}
+            center={[t.lat, t.lon]}
+            radius={9}
+            pathOptions={{ color: "#f97316", fillColor: "#f97316", fillOpacity: 0.9, weight: 2 }}
+          >
+            <Tooltip direction="top" offset={[0, -10]} opacity={0.95}>
+              <span style={{ fontSize: 12, fontWeight: 600 }}>{t.nome}</span>
+            </Tooltip>
+            <Popup>
+              <strong>{t.nome}</strong>
+            </Popup>
+          </CircleMarker>
+        ))}
         {ruaGeojson && (
           <>
             {/* halo espesso semi-transparente para aparecer por cima das linhas */}

@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 from typing import Any
 
@@ -162,6 +163,12 @@ def horarios_linha(linha_id: str) -> HorariosLinha:
         sabado=HorarioSentido(**horarios.get("sabado", {"ida": [], "volta": []})),
         domingo=HorarioSentido(**horarios.get("domingo", {"ida": [], "volta": []})),
     )
+
+
+@app.get("/terminais")
+def listar_terminais() -> list[dict]:
+    terminais_path = PROJECT_ROOT / "data" / "json" / "terminais.json"
+    return json.loads(terminais_path.read_text(encoding="utf-8"))
 
 
 @app.get("/geojson/linhas")

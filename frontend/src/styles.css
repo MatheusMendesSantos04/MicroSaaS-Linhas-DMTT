@@ -17,7 +17,7 @@
   --radius: 6px;
 }
 
-html, body, #root { height: 100%; }
+html, body, #root { height: 100%; overflow-x: hidden; }
 
 body {
   font-family: 'Segoe UI', system-ui, sans-serif;
@@ -31,6 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 
@@ -591,9 +592,33 @@ body {
   margin-left: auto;
 }
 
-/* ── Mobile ── */
-@media (max-width: 700px) {
+/* ── Tablet (retrato) e Mobile ──
+   Mapa fixo em cima, sidebar ocupa o resto da tela e rola por dentro
+   (sem isso o conteúdo do sidebar é cortado, já que .app-body tem overflow:hidden). */
+@media (max-width: 900px) {
   .app-body { flex-direction: column; }
-  .map-wrapper { height: 55vh; }
-  .sidebar { width: 100%; border-left: none; border-top: 1px solid var(--gray-200); }
+  .map-wrapper { height: 48vh; flex: none; }
+  .sidebar {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    border-left: none;
+    border-top: 1px solid var(--gray-200);
+  }
+
+  .app-header { flex-wrap: wrap; height: auto; min-height: 52px; padding: 8px 12px; }
+  .controls { padding: 8px 12px; }
+
+  /* Largura fixa vira estouro horizontal em telas estreitas */
+  .multiselect-btn { min-width: 0; flex: 1; }
+  .multiselect-panel { width: min(92vw, 480px); }
+
+  .mapa-contexto { width: min(260px, calc(100vw - 24px)); right: 8px; bottom: 44px; }
+}
+
+@media (max-width: 480px) {
+  .app-title { font-size: 14px; }
+  .map-wrapper { height: 40vh; }
+  .horario-input, .dia-select { max-width: 100px; }
+  .control-select { max-width: 100%; }
 }

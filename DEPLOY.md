@@ -17,15 +17,13 @@ Colocar o MicroSaaS Linhas DMTT no ar, usando a hospedagem Hostinger que o usuá
 
 | Item | Valor |
 |---|---|
-| Domínio | `mendesweb.com` |
-| Subdomínio do projeto | `dmtt` (`dmtt.mendesweb.com`) |
-| Pasta do subdomínio | `/home/u958537310/domains/mendesweb.com/public_html/dmtt` |
-| SSH host | `147.93.14.233` |
-| SSH porta | `65002` |
-| SSH usuário | `u958537310` |
+| Domínio | ver `.env` (`DOMINIO`) |
+| Subdomínio do projeto | ver `.env` (`SUBDOMINIO`) |
+| Pasta do subdomínio | ver `.env` (`PASTA_SUBDOMINIO`) |
+| SSH host/porta/usuário/senha | ver `.env` (`SSH_HOST`, `SSH_PORT`, `SSH_USER`, `SSH_PASSWORD`) |
 | Tipo de hospedagem | Compartilhada (CloudLinux + CageFS), **não é VPS** |
 
-> Senha do SSH foi compartilhada em texto puro durante a sessão — **trocar depois de finalizar os testes**.
+> Credenciais reais ficam só em `.env` (fora do git). Este arquivo não deve conter segredos.
 
 ---
 
@@ -146,8 +144,13 @@ especial nenhum.
 
 ## Notas de segurança da sessão
 
-- Senha SSH (`Mendsweb01*`) foi passada em texto puro pelo usuário nesta conversa — recomendação:
-  trocar após concluir os testes, e considerar migrar para autenticação por chave SSH.
+- A senha SSH usada durante os testes foi commitada em texto puro neste arquivo por engano no
+  commit `4a3b8d6` (04/07/2026) e ficou exposta no histórico do GitHub. **Já foi trocada** na
+  Hostinger. Credenciais agora vivem só em `.env` (ignorado pelo git) — nunca escrever segredos
+  neste arquivo.
+- Considerar reescrever o histórico do git (`git filter-repo` ou BFG) para remover a senha antiga
+  do commit `4a3b8d6`, já que ela permanece visível no histórico mesmo após a rotação.
+- Considerar migrar para autenticação por chave SSH.
 - Scripts Python temporários com a senha embutida (usados via `paramiko` para contornar a falta de
   `scp`/`sshpass` interativo no ambiente) foram sempre apagados do disco logo após o uso.
 - Teste de proxy reverso foi feito em pasta isolada (`/dmtt/proxytest/`) e totalmente removido

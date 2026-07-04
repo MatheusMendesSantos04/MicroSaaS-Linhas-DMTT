@@ -2,7 +2,7 @@
 
 > Este arquivo é lido automaticamente pelo Claude Code em toda sessão.
 > Mantenha-o atualizado após cada sessão de trabalho.
-> Última atualização: 08/06/2026 — Sessão 6
+> Última atualização: 04/07/2026 — Sessão 7 (deploy em produção, arquitetura estática)
 
 ---
 
@@ -18,7 +18,9 @@ identificar qual linha estava em determinada rua num determinado horário. O sis
 - Filtrar por horário (±20 min) para identificar o ônibus provável
 - Clicar no mapa para descobrir automaticamente qual rua é e quais linhas a atendem
 
-**Fase atual:** MVP local com dados em JSON. Sem banco de dados ainda.
+**Fase atual:** em produção em `dmtt.mendesweb.com` (Hostinger, hospedagem compartilhada),
+**100% estático** — sem backend rodando em produção. Ver `DEPLOY.md` para o histórico completo
+da decisão (por que PHP foi abandonado em favor de estático particionado).
 
 ---
 
@@ -26,23 +28,46 @@ identificar qual linha estava em determinada rua num determinado horário. O sis
 
 | Camada | Tecnologia |
 |---|---|
-| Backend | Python 3.11+ · FastAPI · Uvicorn · Pydantic |
+| Backend (dev local apenas, sem uso em produção) | Python 3.11+ · FastAPI · Uvicorn · Pydantic |
 | Frontend | React 18 · Vite · Leaflet 1.9 · react-leaflet 4.2 |
-| Dados (agora) | Arquivos JSON locais |
+| Dados (fonte de verdade) | Arquivos JSON locais (`data/json/dados_unificados.json`) |
+| Dados (produção) | JSONs estáticos gerados em `frontend/public/data/`, servidos direto pelo Apache da Hostinger |
 | Dados (futuro) | SQL Server ou banco Hostinger |
+
+**Importante:** o backend Python (`backend/`) continua no repo só para desenvolvimento local /
+referência da lógica original. Quem serve os dados em produção é `frontend/src/staticApi.js`,
+lendo os JSONs de `public/data/` — não há processo de servidor rodando na Hostinger.
 
 ---
 
 ## Como rodar localmente
 
 ```bash
-# Opção 1: duplo-clique em start.bat (abre backend + frontend + browser)
-MicroSaaS-Linhas-DMTT/start.bat
-
-# Opção 2: manual
-cd backend && uvicorn app.main:app --reload   # http://127.0.0.1:8000
+# Frontend (já roda sozinho contra os JSONs estáticos em public/data/, sem precisar do backend)
 cd frontend && npm run dev                    # http://localhost:5173
+
+# Backend Python — opcional, só se for comparar/depurar a lógica original
+cd backend && uvicorn app.main:app --reload   # http://127.0.0.1:8000
 ```
+
+## Como atualizar dados em produção (linhas, trajetos, horários)
+
+```bash
+# 1. Editar a fonte de verdade
+#    data/json/dados_unificados.json / data/json/horarios/horarios.json
+
+# 2. Regenerar os JSONs estáticos consumidos pelo frontend
+python python/gerar_dados_estaticos.py
+
+# 3. Rebuild do frontend
+cd frontend && npm run build
+
+# 4. Deploy via SFTP (lê credenciais de .env, nunca imprime a senha)
+cd .. && python python/deploy_frontend.py
+```
+
+Não precisa reiniciar nada no servidor — é upload de arquivos estáticos. Ver `DEPLOY.md` para
+detalhes do acesso SSH/SFTP.
 
 ---
 
@@ -60,8 +85,12 @@ MicroSaaS-Linhas-DMTT/
 │       └── services/
 │           └── data_loader.py             ← DataStore: carrega JSONs, indexa ruas e horários
 ├── frontend/
+│   ├── public/
+│   │   ├── .htaccess                      ← rewrite para SPA (Hostinger)
+│   │   └── data/                          ← JSONs estáticos consumidos em produção (gerado, não editar à mão)
 │   └── src/
 │       ├── App.jsx                        ← raiz: estado global, callbacks, Nominatim
+│       ├── staticApi.js                   ← lê public/data/*.json e resolve busca/filtro no navegador (substitui o backend em produção)
 │       ├── styles.css                     ← tema dark, layout, todos os componentes
 │       └── components/
 │           ├── MapView.jsx                ← mapa Leaflet + destaque de rua + caixa de contexto
@@ -92,6 +121,9 @@ MicroSaaS-Linhas-DMTT/
 │   ├── extrair_pontos_pdf.py              ← extrai pontos dos PDFs → pontos.json
 │   ├── gerar_kml_pontos.py                ← gera KMLs de IDA/VOLTA a partir de pontos.json
 │   ├── gerar_dados_unificados.py          ← une GPS + itinerario_com_codigos → dados_unificados.json
+│   ├── gerar_dados_estaticos.py           ← dados_unificados.json + horarios.json + terminais.json → frontend/public/data/*.json
+│   ├── deploy_frontend.py                 ← sobe frontend/dist/ pra Hostinger via SFTP (lê .env, nunca imprime senha)
+│   ├── requirements-deploy.txt            ← deps só do deploy (paramiko, python-dotenv)
 │   ├── gerar_relatorios.py                ← gera 3 relatórios de qualidade (data/relatorios/)
 │   └── gerar_relatorio_similares.py       ← nomes similares com sugestão de código DMTT
 ├── resumo-oso/
@@ -104,7 +136,10 @@ MicroSaaS-Linhas-DMTT/
 
 ---
 
-## Endpoints da API (atuais)
+## Endpoints da API (backend Python — só dev local, não usado em produção)
+
+> Em produção o frontend não chama esses endpoints — lê os JSONs de `public/data/` via
+> `staticApi.js`. Esta tabela documenta a lógica original (equivalente 1:1 ao que roda em JS).
 
 | Método | Endpoint | Descrição |
 |---|---|---|
@@ -369,11 +404,12 @@ Fluxo para as 8 novas:
 - [ ] 2 linhas com anotações pendentes no nome (`FALTA FAZER`, `PRECISA DE ALTERAÇÃO`) → remover ou corrigir
 - [ ] 2 linhas sem coordenadas GPS (IDA e VOLTA) → levantamento em campo
 
-### Fase 3 — Qualidade e deploy
-- [ ] CORS configurável via variável de ambiente
-- [ ] Criar `.env.example` para backend e frontend
-- [ ] `docker-compose.yml` para rodar tudo com um comando
-- [ ] Atualizar `.gitignore` (venvs, node_modules, .env)
+### Fase 3 — Deploy ✅ CONCLUÍDA (04/07/2026) — ver `DEPLOY.md`
+- [x] Deploy do frontend em produção (`dmtt.mendesweb.com`, Hostinger)
+- [x] Backend abandonado em favor de arquitetura 100% estática (índice de rua + JSON por linha)
+- [x] `.env` / `.env.example` para credenciais de deploy (fora do git)
+- [ ] Trocar autenticação SSH por chave (em vez de senha)
+- [ ] `docker-compose.yml` para rodar backend local com um comando (opcional, dev only)
 
 ### Fase 4 — Dados de pontos no sistema
 - [ ] Integrar `pontos.json` ao backend (endpoint `/pontos/{codigo}`)
@@ -388,10 +424,11 @@ Fluxo para as 8 novas:
 
 ## Regras de trabalho
 
-- **Não quebrar endpoints existentes** — frontend já consome a API
+- **Produção é 100% estática** — não há backend rodando na Hostinger; o frontend lê `public/data/*.json` via `staticApi.js`
 - **JSON como fonte de verdade agora** — não criar banco de dados ainda
-- **Fonte de dados do backend** — `dados_unificados.json` é o único arquivo lido pelo backend. Edite ele, não o `itinerario_com_codigos.json` diretamente
-- **Reiniciar backend após editar JSON** — uvicorn --reload só observa .py; matar e reiniciar o processo para recarregar JSONs
+- **Fonte de dados** — `dados_unificados.json` é o único arquivo de onde tudo deriva (backend local e geração estática). Edite ele, não o `itinerario_com_codigos.json` diretamente
+- **Depois de editar `dados_unificados.json`/`horarios.json`** — rodar `python python/gerar_dados_estaticos.py`, depois `npm run build` e `python python/deploy_frontend.py` (ver seção "Como atualizar dados em produção"). Se estiver usando o backend Python localmente, reiniciar o uvicorn (--reload só observa .py, não .json)
+- **Nunca commitar segredos** — credenciais de deploy (SSH host/senha) ficam só em `.env` (git-ignored); `DEPLOY.md`/`CLAUDE.md` não devem conter valores reais
 - **Cores:** IDA = `#22c55e` (verde), VOLTA = `#1e40af` (azul) — manter em tudo
 - **Nominatim** — chamadas feitas direto do frontend, sem passar pelo backend
 - **Sem comentários óbvios** — só comentar o "por quê" quando não for óbvio

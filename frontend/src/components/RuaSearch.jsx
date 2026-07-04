@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { sugerirRuas, buscarRuas, buscarRuasComHorario } from "../staticApi";
 
 const SENTIDO_LABEL = { ida: "→ IDA", volta: "← VOLTA" };
 const DIAS_OPCOES = [
@@ -8,7 +9,6 @@ const DIAS_OPCOES = [
 ];
 const DEBOUNCE_MS = 250;
 const MIN_CHARS = 2;
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
 function toTitleCase(str) {
   return str.toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
@@ -29,8 +29,8 @@ export default function RuaSearch({ onSelectLinha, onRuaHighlight, externalQuery
   const [modoHorario, setModoHorario]   = useState(false);
 
   const timerRef      = useRef(null);
-  const sugController = useRef(null);
-  const resController = useRef(null);
+  const sugRequestId  = useRef(0);
+  const resRequestId  = useRef(0);
   const wrapperRef    = useRef(null);
 
   // Reage a clique no mapa (externalQuery vindo do App)
@@ -64,21 +64,17 @@ export default function RuaSearch({ onSelectLinha, onRuaHighlight, externalQuery
     if (q.length < MIN_CHARS) { setSugestoes([]); setShowSugestoes(false); return; }
 
     timerRef.current = setTimeout(async () => {
-      if (sugController.current) sugController.current.abort();
-      sugController.current = new AbortController();
+      const requestId = ++sugRequestId.current;
       setLoadingSug(true);
       try {
-        const res = await fetch(`${API_BASE}/ruas/suggest?q=${encodeURIComponent(q)}&limit=12`, {
-          signal: sugController.current.signal,
-        });
-        if (!res.ok) throw new Error(`Erro ${res.status}`);
-        const data = await res.json();
+        const data = await sugerirRuas(q, 12);
+        if (requestId !== sugRequestId.current) return;
         setSugestoes(data);
         setShowSugestoes(data.length > 0);
-      } catch (err) {
-        if (err.name !== "AbortError") setSugestoes([]);
+      } catch {
+        if (requestId === sugRequestId.current) setSugestoes([]);
       } finally {
-        setLoadingSug(false);
+        if (requestId === sugRequestId.current) setLoadingSug(false);
       }
     }, DEBOUNCE_MS);
 
@@ -89,25 +85,22 @@ export default function RuaSearch({ onSelectLinha, onRuaHighlight, externalQuery
   useEffect(() => {
     if (!ruaSelecionada) { setResultados([]); return; }
 
-    if (resController.current) resController.current.abort();
-    resController.current = new AbortController();
+    const requestId = ++resRequestId.current;
     setLoadingRes(true);
     setError("");
 
-    const url = new URL(`${API_BASE}/ruas/search`);
-    url.searchParams.set("q", ruaSelecionada);
-    url.searchParams.set("limit", "200");
-    if (horario) {
-      url.searchParams.set("horario", horario);
-      url.searchParams.set("dia", dia);
-      url.searchParams.set("janela", "20");
-    }
+    const busca = horario
+      ? buscarRuasComHorario(ruaSelecionada, { horario, dia, janela: 20, limit: 200 })
+      : buscarRuas(ruaSelecionada, { limit: 200 });
 
-    fetch(url.toString(), { signal: resController.current.signal })
-      .then((r) => { if (!r.ok) throw new Error(`Erro ${r.status}`); return r.json(); })
-      .then((data) => { setModoHorario(!!horario); setResultados(data.resultados || []); })
-      .catch((err) => { if (err.name !== "AbortError") setError(err.message); })
-      .finally(() => setLoadingRes(false));
+    busca
+      .then((resultados) => {
+        if (requestId !== resRequestId.current) return;
+        setModoHorario(!!horario);
+        setResultados(resultados || []);
+      })
+      .catch((err) => { if (requestId === resRequestId.current) setError(err.message); })
+      .finally(() => { if (requestId === resRequestId.current) setLoadingRes(false); });
   }, [ruaSelecionada, horario, dia]);
 
   function selecionarRua(rua) {

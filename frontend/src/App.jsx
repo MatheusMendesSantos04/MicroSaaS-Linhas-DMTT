@@ -5,15 +5,9 @@ import LinhaSelector from "./components/LinhaSelector";
 import MapStyleSelector from "./components/MapStyleSelector";
 import MapView from "./components/MapView";
 import RuaSearch from "./components/RuaSearch";
+import { listarLinhas, getTerminais, detalharLinha, geojsonTodasLinhas, geojsonLinha, getHorarios } from "./staticApi";
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 const EMPTY_FC = { type: "FeatureCollection", features: [] };
-
-async function fetchJson(path) {
-  const res = await fetch(`${API_BASE}${path}`);
-  if (!res.ok) throw new Error(`Erro ${res.status} em ${path}`);
-  return res.json();
-}
 
 const NOMINATIM = "https://nominatim.openstreetmap.org";
 
@@ -38,7 +32,7 @@ export default function App() {
   useEffect(() => {
     let active = true;
     setLoading(true);
-    Promise.all([fetchJson("/linhas"), fetchJson("/terminais")])
+    Promise.all([listarLinhas(), getTerminais()])
       .then(([linhasData, terminaisData]) => {
         if (!active) return;
         setLinhas(linhasData.itens || []);
@@ -55,20 +49,18 @@ export default function App() {
     setLoading(true);
     setError("");
 
-    const sentidoQuery = selectedSentido ? `?sentido=${selectedSentido}` : "";
-
     let requests;
     if (selectedLinhaIds.length === 0) {
-      requests = fetchJson(`/geojson/linhas${sentidoQuery}`)
+      requests = geojsonTodasLinhas(selectedSentido)
         .then((mapData) => ({ mapData, detalhe: null }));
     } else if (selectedLinhaIds.length === 1) {
       requests = Promise.all([
-        fetchJson(`/geojson/linhas/${selectedLinhaIds[0]}${sentidoQuery}`),
-        fetchJson(`/linhas/${selectedLinhaIds[0]}`),
+        geojsonLinha(selectedLinhaIds[0], selectedSentido),
+        detalharLinha(selectedLinhaIds[0]),
       ]).then(([mapData, detalhe]) => ({ mapData, detalhe }));
     } else {
       requests = Promise.all(
-        selectedLinhaIds.map((id) => fetchJson(`/geojson/linhas/${id}${sentidoQuery}`))
+        selectedLinhaIds.map((id) => geojsonLinha(id, selectedSentido))
       ).then((results) => ({
         mapData: {
           type: "FeatureCollection",
@@ -96,7 +88,7 @@ export default function App() {
 
     // Horários: apenas quando exatamente 1 linha
     if (selectedLinhaIds.length === 1) {
-      fetchJson(`/horarios/${selectedLinhaIds[0]}`)
+      getHorarios(selectedLinhaIds[0])
         .then((data) => { if (active) setHorarios(data); })
         .catch(() => { if (active) setHorarios(null); });
     } else {

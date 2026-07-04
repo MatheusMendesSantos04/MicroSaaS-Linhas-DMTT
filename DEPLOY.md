@@ -87,58 +87,86 @@ Hospedagem compartilhada da Hostinger **não suporta** rodar um processo Python 
 
 ---
 
-## FASE 3 — Decisão: reescrever o backend em PHP — ✅ DECIDIDO, ⏳ NÃO INICIADO
+## FASE 3 — Reescrever pra PHP — ❌ ABANDONADA (revisão pós-Fase 2)
 
-### Por que PHP, e não "tudo estático no frontend"
+A decisão original desta fase era reescrever o backend em PHP. Ela foi revista **antes de
+começar a implementação** porque a premissa usada para descartar o modelo estático estava errada:
+o comparativo abaixo tratava os "dados" como um bloco único de 11,6 MB, mas na prática só uma
+fatia pequena disso é necessária para a busca cross-line — o resto (coordenadas GPS) só importa
+depois que a linha já foi identificada.
 
-Foi cogitada a ideia de eliminar o backend por completo e portar toda a lógica de busca para
-JavaScript no navegador, servindo os JSONs como arquivos estáticos (custo zero, mesma hospedagem
-do frontend). Essa ideia foi **descartada** depois de medir os dados reais:
+Medição real feita antes de decidir:
 
-| Arquivo | Tamanho |
+| Conteúdo | Tamanho |
 |---|---|
-| `data/json/dados_unificados.json` | **11,6 MB** (104 linhas, 126.438 pontos de GPS) |
-| `data/json/horarios/horarios.json` | 132 KB |
-| `data/json/terminais.json` | 2,5 KB |
+| `dados_unificados.json` completo (104 linhas, 126.438 pontos GPS) | 11,6 MB |
+| Só o índice de rua (nome da via + linha + sentido + código, sem coordenadas) | 652 KB (**55 KB gzip**) |
 
-**Motivo da rejeição do modelo estático:** o recurso central do sistema (buscar por **nome de
-rua** e retornar todas as linhas que passam ali) é uma busca *cross-line* — precisa varrer o
-índice de ruas de todas as 104 linhas. Não dá pra "carregar só a linha selecionada", porque o
-usuário ainda não sabe qual linha é até buscar. Isso obrigaria a mandar o índice de ruas inteiro
-pro navegador de qualquer forma, ou perder a funcionalidade principal do app. Estático funciona
-bem quando o padrão é "ver o item que eu já sei qual é" — aqui o padrão é "descobrir o item a
-partir de dado parcial", que é trabalho de índice/busca no servidor.
+Ou seja: o índice de busca cabe inteiro no navegador sem pesar nada, e as coordenadas de cada
+linha (em média ~58 KB) só são carregadas quando o usuário já sabe qual linha quer ver — o
+padrão exato em que estático funciona bem. Isso elimina a necessidade de qualquer backend.
 
-### Comparativo final (estático vs. PHP)
+### Comparativo revisado (estático particionado vs. PHP)
 
-| Critério | Estático (JS no navegador) | PHP no servidor |
+| Critério | Estático (índice + JSON por linha) | PHP no servidor |
 |---|---|---|
 | Custo extra | Zero | Zero |
-| Suporta busca cross-line sem baixar tudo | Não | Sim |
-| Carregamento inicial | Pesado (vários MB no 1º acesso) | Leve (payload por requisição) |
-| Esforço de port | Reescrever lógica + redesenhar fluxo de dados | Tradução 1:1 da lógica atual |
-| Caminho pra banco de dados futuro (Fase 5 do CLAUDE.md) | Exige reintroduzir servidor do zero | Natural (PHP+MySQL é o padrão da hospedagem) |
-| Atualizar dados | Rebuild + reupload do frontend inteiro | Só sobe o JSON novo |
+| Suporta busca cross-line sem baixar tudo | Sim (índice de 55 KB gzip) | Sim |
+| Manutenção de lógica de negócio | Só em JS, um lugar só | Duplicada (Python do pipeline + PHP do backend) |
+| Atualizar dados | Rodar script de geração + subir só os JSONs de `data/` (sem rebuild do bundle JS) | Subir o JSON novo |
+| Servidor para manter no ar | Nenhum | PHP (mas sem custo extra na Hostinger) |
 
-**Decisão:** reescrever `backend/app/services/data_loader.py` e `backend/app/main.py` em PHP,
-mantendo os mesmos endpoints e contratos de resposta. PHP já roda nativamente nessa hospedagem
-(confirmado: `.cl.selector` tem config de PHP ativa), sem precisar de proxy, VPS ou recurso
-especial nenhum.
+**Decisão final:** ver FASE 3B abaixo.
 
 ---
 
-## Próximos passos (não iniciados)
+## FASE 3B — Estático particionado (índice de rua + JSON por linha) — ✅ CONCLUÍDA (04/07/2026)
 
-- [ ] Portar `normalize_text`, `rua_index`, `codigo_index`, `horario_index` de Python pra PHP.
-- [ ] Portar os endpoints de `main.py` (`/linhas`, `/ruas/search`, `/ruas/codigo/{codigo}`,
-      `/horarios/{id}`, `/geojson/linhas`, `/terminais`) pra scripts PHP equivalentes.
-- [ ] Restringir CORS só para `https://dmtt.mendesweb.com` (nunca `*` em produção).
-- [ ] Decidir estrutura de pastas do backend PHP no servidor (fora de `public_html` ou dentro,
-      dependendo de como a hospedagem expõe scripts PHP).
-- [ ] Atualizar frontend para consumir os novos endpoints PHP (`VITE_API_BASE_URL` ou relativo).
-- [ ] Rebuild + redeploy do frontend apontando pro backend novo.
-- [ ] Testar todos os fluxos (busca por rua, filtro de horário, clique no mapa, seleção de linha).
-- [ ] Trocar a senha SSH usada durante os testes.
+- [x] `python/gerar_dados_estaticos.py` — gera a partir de `dados_unificados.json` +
+      `horarios/horarios.json` + `terminais.json`:
+      `frontend/public/data/{linhas.json, rua_index.json, horarios_por_linha.json,
+      terminais.json, geojson_todas.json, linhas/{id}.json}`.
+- [x] `frontend/src/staticApi.js` — substitui todas as chamadas de API; reimplementa em JS
+      `normalize_text`, busca por substring e janela de horário (±min), validado 1:1 contra a
+      lógica Python (`backend/app/services/data_loader.py`).
+- [x] `App.jsx` e `RuaSearch.jsx` atualizados para usar `staticApi.js` (zero mudança nos demais
+      componentes — mesmo formato de dados que o backend retornava).
+- [x] Testado local e em produção via Playwright headless: mapa geral, busca por rua ("Fernandes
+      Lima" → 48 linhas), filtro de horário (±20 min → 33 linhas), seleção de linha individual,
+      painel de itinerário/horários — sem erros de console, resultado idêntico em ambos.
+- [x] `python/deploy_frontend.py` — script de deploy via SFTP (paramiko), lê credenciais de
+      `.env`, nunca imprime a senha. Sobe `frontend/dist/` inteiro com permissões corretas
+      (755 pastas, 644 arquivos).
+- [x] Deploy em produção confirmado em `dmtt.mendesweb.com` (04/07/2026).
+
+**Backend Python (`backend/`) continua no repo**, sem uso em produção — mantido para
+desenvolvimento local e como referência da lógica original. Nada foi apagado.
+
+### Fluxo de atualização de dados (linhas, trajetos, horários) a partir de agora
+
+```bash
+# 1. Editar a fonte de verdade (como já era)
+#    data/json/dados_unificados.json / data/json/horarios/horarios.json
+
+# 2. Regenerar os JSONs estáticos
+python python/gerar_dados_estaticos.py
+
+# 3. Rebuild do frontend
+cd frontend && npm run build
+
+# 4. Deploy
+cd .. && python python/deploy_frontend.py
+```
+
+Não precisa reiniciar nada no servidor — é upload de arquivos estáticos.
+
+### Próximos passos (backlog, não bloqueiam produção)
+
+- [ ] Trocar autenticação SSH por chave (em vez de senha) — reduz superfície de exposição.
+- [ ] Considerar reescrever o histórico do git para remover a senha antiga exposta no commit
+      `4a3b8d6` (já rotacionada, então não é urgente).
+- [ ] Se o `rua_index.json`/`geojson_todas.json` crescerem muito com novas linhas, reavaliar
+      paginação ou compressão adicional — hoje (104 linhas) está bem dentro do confortável.
 
 ---
 

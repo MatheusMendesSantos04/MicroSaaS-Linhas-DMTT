@@ -19,7 +19,7 @@ export default function LinhasPage() {
   const [detalheLinha, setDetalheLinha] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [mapStyle, setMapStyle] = useState("dark");
+  const [mapStyle, setMapStyle] = useState("light");
   const [geojsonVersion, setGeojsonVersion] = useState(0);
   const [horarios, setHorarios] = useState(null);
   const [ruaGeojson, setRuaGeojson] = useState(null);

@@ -156,6 +156,7 @@ export default function RuaSearch({ onSelectLinha, onRuaHighlight, externalQuery
 
       <div className="search-autocomplete-wrapper" ref={wrapperRef}>
         <div className="search-form">
+          <span className="search-icon" aria-hidden="true">⌕</span>
           <input
             className="search-input"
             value={inputValue}

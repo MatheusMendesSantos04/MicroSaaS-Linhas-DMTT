@@ -9,8 +9,8 @@ export const TILE_STYLES = {
   satellite: { label: "Satélite", swatch: "#3d5a3e", url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",                              attribution: "Tiles &copy; Esri &mdash; Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community" },
 };
 
-const STYLE_IDA = { color: "#22c55e", weight: 4, opacity: 0.9 };
-const STYLE_VOLTA = { color: "#1e40af", weight: 4, opacity: 0.9 };
+const STYLE_IDA = { color: "#16A34A", weight: 4, opacity: 0.9 };
+const STYLE_VOLTA = { color: "#2E64D4", weight: 4, opacity: 0.9 };
 const STYLE_DEFAULT = { color: "#6b7280", weight: 2, opacity: 0.6 };
 
 function featureStyle(feature) {
@@ -126,7 +126,7 @@ export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle =
             key={t.nome}
             center={[t.lat, t.lon]}
             radius={9}
-            pathOptions={{ color: "#f97316", fillColor: "#f97316", fillOpacity: 0.9, weight: 2 }}
+            pathOptions={{ color: "#D98407", fillColor: "#D98407", fillOpacity: 0.9, weight: 2 }}
           >
             <Tooltip direction="top" offset={[0, -10]} opacity={0.95}>
               <span style={{ fontSize: 12, fontWeight: 600 }}>{t.nome}</span>
@@ -142,13 +142,13 @@ export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle =
             <GeoJSON
               key={`halo-${ruaGeojson.features?.[0]?.properties?.place_id}`}
               data={ruaGeojson}
-              style={{ color: "#facc15", weight: 18, opacity: 0.22 }}
+              style={{ color: "#E0A400", weight: 18, opacity: 0.22 }}
             />
             {/* traçado sólido principal */}
             <GeoJSON
               key={`line-${ruaGeojson.features?.[0]?.properties?.place_id}`}
               data={ruaGeojson}
-              style={{ color: "#facc15", weight: 5, opacity: 1 }}
+              style={{ color: "#E0A400", weight: 5, opacity: 1 }}
             />
             <StreetZoom ruaGeojson={ruaGeojson} />
           </>
@@ -165,11 +165,11 @@ export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle =
       {linhaContexto && (
         <div
           className="mapa-contexto"
-          style={{ borderLeftColor: linhaContexto.sentido === "ida" ? "#22c55e" : "#1e40af" }}
+          style={{ borderLeftColor: linhaContexto.sentido === "ida" ? "#16A34A" : "#2E64D4" }}
         >
           <p
             className="contexto-titulo"
-            style={{ color: linhaContexto.sentido === "ida" ? "#22c55e" : "#93c5fd" }}
+            style={{ color: linhaContexto.sentido === "ida" ? "#16A34A" : "#2E64D4" }}
           >
             {linhaContexto.sentido === "ida" ? "→ IDA" : "← VOLTA"} — apenas um sentido exibido
           </p>

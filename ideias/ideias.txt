@@ -1,0 +1,14 @@
+poder baixar mapa e intinerario em forma de pdf
+vizualizar kilometragem do trajeto, separado por ida e volta e os dois sentidos juntos
+visualizar a elevação
+colocar as observações e mensagens presentes no matrix
+
+novo mapa de linhas atualizadas no arquivo KML
+    -ATUALIZAR INTINERARIO DAS ATUALIZAÇÕES DAS LINHAS
+
+    102     209     710     112
+    104     403     716     1024
+    109     501     602     
+    110     603     610     
+    116     704     703     
+    117     709     712     

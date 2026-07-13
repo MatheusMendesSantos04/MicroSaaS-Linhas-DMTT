@@ -112,7 +112,7 @@ export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle =
         scrollWheelZoom
         style={{ height: "100%", width: "100%" }}
       >
-        <TileLayer attribution={tile.attribution} url={tile.url} />
+        <TileLayer attribution={tile.attribution} url={tile.url} crossOrigin="anonymous" />
         <GeoJSON
           key={geoJsonKey}
           data={geojson}

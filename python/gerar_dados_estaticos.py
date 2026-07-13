@@ -16,6 +16,7 @@ import hashlib
 import json
 import re
 import unicodedata
+from math import atan2, cos, radians, sin, sqrt
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -44,6 +45,25 @@ def to_geojson_coords(coordenadas):
     return [[point[1], point[0]] for point in coordenadas if len(point) >= 2]
 
 
+EARTH_RADIUS_KM = 6371.0
+
+
+def haversine_km(p1, p2) -> float:
+    lat1, lon1 = radians(p1[0]), radians(p1[1])
+    lat2, lon2 = radians(p2[0]), radians(p2[1])
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    a = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
+    return 2 * EARTH_RADIUS_KM * atan2(sqrt(a), sqrt(1 - a))
+
+
+def distancia_trajeto_km(coordenadas) -> float:
+    total = 0.0
+    for p1, p2 in zip(coordenadas, coordenadas[1:]):
+        total += haversine_km(p1, p2)
+    return round(total, 2)
+
+
 def main() -> None:
     dados = json.loads(DADOS_UNIFICADOS.read_text(encoding="utf-8"))
     horarios = json.loads(HORARIOS.read_text(encoding="utf-8")) if HORARIOS.exists() else {}
@@ -66,6 +86,9 @@ def main() -> None:
         ida_ruas = ida.get("ruas", [])
         volta_ruas = volta.get("ruas", [])
 
+        dist_ida = distancia_trajeto_km(ida_coords)
+        dist_volta = distancia_trajeto_km(volta_coords)
+
         linhas_resumo.append({
             "id": line_id,
             "nome": nome,
@@ -77,8 +100,9 @@ def main() -> None:
         detalhe = {
             "id": line_id,
             "nome": nome,
-            "ida": {"coordenadas": ida_coords, "ruas": ida_ruas},
-            "volta": {"coordenadas": volta_coords, "ruas": volta_ruas},
+            "ida": {"coordenadas": ida_coords, "ruas": ida_ruas, "distancia_km": dist_ida},
+            "volta": {"coordenadas": volta_coords, "ruas": volta_ruas, "distancia_km": dist_volta},
+            "distancia_km_total": round(dist_ida + dist_volta, 2),
         }
         (OUT_DIR / "linhas" / f"{line_id}.json").write_text(
             json.dumps(detalhe, ensure_ascii=False), encoding="utf-8"

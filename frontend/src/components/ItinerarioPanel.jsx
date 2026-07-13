@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { exportarLinhaPDF } from "../pdfExport";
+
 const MATCH_LABEL = {
   exato: { label: "✓", title: "Match exato", cls: "match-exato" },
   exato_global: { label: "✓", title: "Match exato (global)", cls: "match-exato" },
@@ -33,7 +36,24 @@ function SentidoSection({ titulo, ruas, cor }) {
   );
 }
 
+function DistanciaResumo({ detalheLinha, mostrarIda, mostrarVolta }) {
+  const idaKm = detalheLinha.ida?.distancia_km;
+  const voltaKm = detalheLinha.volta?.distancia_km;
+
+  const partes = [];
+  if (mostrarIda && idaKm) partes.push(`→ IDA ${idaKm} km`);
+  if (mostrarVolta && voltaKm) partes.push(`← VOLTA ${voltaKm} km`);
+  if (mostrarIda && mostrarVolta && detalheLinha.distancia_km_total) {
+    partes.push(`Total ${detalheLinha.distancia_km_total} km`);
+  }
+
+  if (partes.length === 0) return null;
+  return <p className="linha-distancia">{partes.join(" · ")}</p>;
+}
+
 export default function ItinerarioPanel({ detalheLinha, selectedSentido }) {
+  const [exportando, setExportando] = useState(false);
+
   if (!detalheLinha) {
     return (
       <div className="itinerario-panel">
@@ -46,10 +66,25 @@ export default function ItinerarioPanel({ detalheLinha, selectedSentido }) {
   const mostrarIda = selectedSentido !== "volta";
   const mostrarVolta = selectedSentido !== "ida";
 
+  async function handleExportar() {
+    setExportando(true);
+    try {
+      await exportarLinhaPDF(detalheLinha, selectedSentido);
+    } finally {
+      setExportando(false);
+    }
+  }
+
   return (
     <div className="itinerario-panel">
-      <h2 className="sidebar-title">Itinerário</h2>
+      <div className="itinerario-header">
+        <h2 className="sidebar-title">Itinerário</h2>
+        <button className="pdf-btn" onClick={handleExportar} disabled={exportando}>
+          {exportando ? "Gerando…" : "Baixar PDF"}
+        </button>
+      </div>
       <p className="linha-nome-detalhe">{detalheLinha.nome}</p>
+      <DistanciaResumo detalheLinha={detalheLinha} mostrarIda={mostrarIda} mostrarVolta={mostrarVolta} />
 
       {mostrarIda && (
         <SentidoSection titulo="→ IDA" ruas={detalheLinha.ida?.ruas} cor="#16A34A" />

@@ -396,6 +396,53 @@ Fluxo para as 8 novas:
 
 ## Backlog (próximas fases)
 
+### Sessão 8 (pendente) — PDF do itinerário + sincronização total do KML
+
+**1. Exportação em PDF — refazer a captura do mapa**
+
+Estado atual: `frontend/src/pdfExport.js` tira um único screenshot do mapa (`html2canvas` em cima do
+`.leaflet-container`) exatamente como ele está na tela no momento do clique — se o usuário está vendo
+"Ida e Volta" juntos, o PDF sai com as duas rotas sobrepostas no mesmo mapa. O usuário reportou que "não
+está imprimindo o PDF correto" (a reproduzir/detalhar quando retomar — pode ser esse problema de captura
+combinada, ou outro bug ainda não identificado).
+
+O que fazer:
+- [ ] Trocar a captura única por **duas capturas separadas**: uma do trajeto de IDA sozinho, outra do
+      trajeto de VOLTA sozinho — provavelmente setando `selectedSentido` temporariamente pra cada
+      sentido (ou renderizando o `MapView` isolado por sentido) antes de cada `html2canvas`, e montando
+      o PDF com as duas imagens (uma por sentido, cada uma com seu próprio título "→ IDA" / "← VOLTA").
+- [ ] Reproduzir e corrigir o erro relatado ("não está imprimindo o pdf correto") — pedir pro usuário
+      mandar um exemplo do PDF errado ou descrever o que aparece de errado, já que na sessão anterior o
+      teste automatizado (Playwright) não pegou esse problema.
+- [ ] Adicionar um **card visual de quilometragem** no PDF (hoje é só uma linha de texto simples), no
+      formato: `→ IDA 15.9 km · ← VOLTA 15.78 km · Total 31.68 km` — com uma caixa/borda, não só texto
+      corrido, pra ficar consistente com o `.linha-distancia` que já existe na tela.
+
+**2. Sincronização do `Mapa Reconstruido.kml` — modo "confiar 100% no KML"**
+
+Estado atual: `python/sincronizar_mapa_reconstruido.py` só atualiza o trajeto de uma linha se o KML tiver
+**mais pontos** que o já existente (regra de segurança pra nunca piorar a densidade de um traçado bom —
+ver `deve_renomear`/regra de trajeto no próprio script). Isso significa que **edições manuais de rota**
+que o usuário faz no KML (não só adições de pontos, mas correções de traçado que podem ter menos pontos
+que o GPS denso original) **não são aplicadas** — o usuário confirmou que alterou trajetos manualmente no
+KML e viu que o deploy não refletiu essas mudanças.
+
+O que fazer, quando retomar:
+- [ ] Adicionar um modo "força total" ao `sincronizar_mapa_reconstruido.py` (ex.: flag `--forcar` ou uma
+      pergunta ao rodar) que **sempre substitui** a coordenada pela do KML pra qualquer linha presente no
+      arquivo, ignorando a contagem de pontos — já que a intenção agora é "o KML é a fonte da verdade
+      sempre que for re-subido", não só pra preencher trajetos vazios.
+- [ ] Decidir com o usuário: isso deveria ser o **comportamento padrão** do script daqui pra frente (com
+      a regra de "nunca diminuir densidade" virando opcional/desligada), ou continuar como um modo à
+      parte que ele aciona conscientemente? Given que ele edita o KML manualmente e espera que a edição
+      "vença" sempre, o padrão sensato é provavelmente inverter a regra: **KML sempre vence**, e a
+      contagem de pontos deixa de ser critério — mas confirmar antes de mudar o padrão, porque foi essa
+      mesma regra que evitou a perda de precisão nas 15 linhas antigas na sessão anterior.
+- [ ] Continuam valendo as proteções contra colisão de código (linha "0001") e a checagem de nomes que
+      perdem detalhe (`deve_renomear`) — só a regra de trajeto por contagem de pontos deve mudar.
+
+---
+
 ### Qualidade de dados — pendências identificadas (Sessão 4)
 
 - [ ] 148 vias sem código DMTT e sem correspondência no dicionário → ver `data/relatorios/ruas_sem_codigo_e_sem_dicionario.txt`

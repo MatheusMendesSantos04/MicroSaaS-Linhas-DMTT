@@ -387,9 +387,36 @@ body {
 /* ── Itinerário ── */
 .itinerario-panel { border-bottom: 1px solid var(--gray-200); }
 
+.itinerario-header {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 14px 16px 8px;
+  border-bottom: 1px solid var(--gray-100);
+}
+.itinerario-header .sidebar-title { padding: 0; border-bottom: none; }
+
+.pdf-btn {
+  flex-shrink: 0;
+  padding: 4px 10px;
+  font-size: 11px; font-weight: 600;
+  color: var(--gray-800);
+  background: #fff;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.pdf-btn:hover:not(:disabled) { border-color: var(--gold-500); background: var(--gold-50); }
+.pdf-btn:disabled { opacity: 0.6; cursor: default; }
+
 .linha-nome-detalhe {
   padding: 8px 16px; font-size: 12px; font-weight: 600;
   color: var(--gray-600); background: var(--surface-base);
+}
+
+.linha-distancia {
+  padding: 0 16px 8px;
+  font-size: 11px; font-family: 'IBM Plex Mono', monospace;
+  color: var(--gray-400); background: var(--surface-base);
 }
 
 .sentido-section { padding: 0 0 8px; }

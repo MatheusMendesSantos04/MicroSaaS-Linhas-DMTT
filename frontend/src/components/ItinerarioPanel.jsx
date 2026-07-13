@@ -51,7 +51,7 @@ function DistanciaResumo({ detalheLinha, mostrarIda, mostrarVolta }) {
   return <p className="linha-distancia">{partes.join(" · ")}</p>;
 }
 
-export default function ItinerarioPanel({ detalheLinha, selectedSentido }) {
+export default function ItinerarioPanel({ detalheLinha, selectedSentido, mapRef, horarios }) {
   const [exportando, setExportando] = useState(false);
 
   if (!detalheLinha) {
@@ -69,7 +69,7 @@ export default function ItinerarioPanel({ detalheLinha, selectedSentido }) {
   async function handleExportar() {
     setExportando(true);
     try {
-      await exportarLinhaPDF(detalheLinha, selectedSentido);
+      await exportarLinhaPDF(detalheLinha, mapRef?.current, horarios);
     } finally {
       setExportando(false);
     }

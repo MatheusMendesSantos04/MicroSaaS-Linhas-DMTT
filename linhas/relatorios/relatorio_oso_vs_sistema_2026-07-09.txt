@@ -1,0 +1,169 @@
+================================================================================
+RELATORIO — LINHAS ATIVAS (OSO) vs SISTEMA (dados_unificados.json)
+Fonte OSO: resumo de oso 08-07-2026.pdf
+Fonte sistema: data\json\dados_unificados.json
+Gerado em: 09/07/2026 09:55
+================================================================================
+
+[ RESUMO ]
+
+  Linhas ativas no OSO (excl. Catraca de Solo) : 102
+  Linhas no sistema (dados_unificados.json)     : 104
+  Presentes nos dois (OK)                       : 97
+  Ativas no OSO e AUSENTES no sistema           : 4
+  ...das quais excluidas por decisao de projeto : 1
+  No sistema mas NAO ativas no OSO atual        : 7
+  Catraca de Solo (fora do escopo do sistema)   : 2
+
+================================================================================
+[ ATIVAS NO OSO E AUSENTES NO SISTEMA ]  4 linhas
+--------------------------------------------------------------------------------
+Precisam ser incorporadas ao sistema (ver Fase A-F do CLAUDE.md).
+
+  CONVENCIONAL:
+    0112        IPIOCA/TRAPICH-VERGEL(P VDE-POÇO-J. LEÃO                 [CIMA - VIAÇÃO CIDADE DE MACEIÓ LTDA]
+    0612-A      E GOMES/JATIÚCA(VIA CENTRO-PONTA VERDE)                  [SFRA - EMPRESA SÃO FRANCISCO LTDA.]
+
+  INTEGRACAO:
+    1000-A      TRAPICHE/PONTAL(VILA DOS PESCADORES)                     [SFRA - EMPRESA SÃO FRANCISCO LTDA.]
+    1024        TERMINAL ROTARY/TERMINAL CRUZ DAS ALMAS                  [CIMA - VIAÇÃO CIDADE DE MACEIÓ LTDA]
+
+================================================================================
+[ ATIVAS NO OSO, AUSENTES NO SISTEMA, MAS EXCLUIDAS DE PROPOSITO ]  1
+--------------------------------------------------------------------------------
+
+  0006-M      CLIMA BOM/PONTA VERDE (FERNÃO VELHO)                   
+    -> Decisao de projeto registrada no CLAUDE.md: nao sera adicionada ao sistema.
+
+================================================================================
+[ NO SISTEMA MAS NAO ENCONTRADAS COMO ATIVAS NO OSO ]  7 linhas
+--------------------------------------------------------------------------------
+Podem estar descontinuadas, ter mudado de codigo, ou o nome no sistema
+nao bate com o formato de codigo do OSO — checar manualmente.
+
+    0024        0024 - Gruta / Centro / Term. Rotary
+    0221        0221 - Saúde / Cruz das Almas
+    0223        0223 - Ipioca X Vergel Via Mercado
+    0226        0226 - Ipioca X Trapiche via Poço
+    0613        0613 - vergel / Guaxuma
+    0614        0614 - Trapiche / Mangabeiras
+    1000        1000 - Trapiche / Pontal
+
+================================================================================
+[ CATRACA DE SOLO ]  2 linhas (fora do escopo do sistema)
+--------------------------------------------------------------------------------
+
+    0800                                                                 [REAL - REAL TRANSPORTES URBANOS LTDA.]
+    0902                                                                 [REAL - REAL TRANSPORTES URBANOS LTDA.]
+
+================================================================================
+[ STATUS COMPLETO — TODAS AS LINHAS ATIVAS NO OSO ]
+--------------------------------------------------------------------------------
+
+  COD         TIPO              SISTEMA   NOME
+  ---------  ---------------  --------  ---------------------------------------------
+  0012        CONVENCIONAL         OK     CONJ. JOSÉ S. PEIXOTO/CENTRO
+  0014        CONVENCIONAL         OK     C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)
+  0027        CONVENCIONAL         OK     VILA SAEM/CENTRO(PINHEIRO-PITANGUINHA)
+  0033        CONVENCIONAL         OK     JOSÉ TENÓRIO/CENTRO (ROTARY-GRUTA)
+  0036        CONVENCIONAL         OK     DUBEAUX LEÃO/CENTRO
+  0037        CONVENCIONAL         OK     SALVADOR LIRA/CENTRO
+  0039        CONVENCIONAL         OK     CLETO MARQUES LUZ/CENTRO
+  0041        CONVENCIONAL         OK     FEITOSA / CENTRO / PIABAS / C. DAS ALMAS
+  0042        CONVENCIONAL         OK     BEN. BENTES / CENTRO / SALVADOR LIRA
+  0046        CONVENCIONAL         OK     VILLAGE CAMPESTRE II / CENTRO
+  0048        CONVENCIONAL         OK     BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)
+  0051        CONVENCIONAL         OK     SANTOS DUMONT/CENTRO(VIA POÇO)
+  0052        CONVENCIONAL         OK     T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)
+  0053        CONVENCIONAL         OK     GRACILIANO RAMOS/CENTRO(FAROL)
+  0056        CONVENCIONAL         OK     JOÃO SAMPAIO I / CENTRO / FAROL
+  0057        CONVENCIONAL         OK     RIO NOVO / CENTRO / VIA COLINA
+  0058        CONVENCIONAL         OK     FERNÃO VELHO / CENTRO / B. GONZAGA
+  0065        CONVENCIONAL         OK     ROSANE COLLOR / CENTRO (FAROL)
+  0068        CONVENCIONAL         OK     COLINA/CENTRO(SANTA AMÉLIA - FAROL)
+  0069        CONVENCIONAL         OK     CLIMA BOM / CENTRO / FAROL
+  0101        CONVENCIONAL         OK     CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)
+  0102        CONVENCIONAL         OK     JOÃO SAMPAIO/TRAPICHE(ROTARY-JACINTINHO)
+  0104        CONVENCIONAL         OK     BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)
+  0105        CONVENCIONAL         OK     JARD PETROPÓLIS/TRAPICHE/TERM SALV. LYRA
+  0108        CONVENCIONAL         OK     CLIMA BOM / TRAPICHE / BEBEDOURO
+  0109        CONVENCIONAL         OK     C DAS ALMAS/TRAPICHE-VERGEL(P. VDE/POÇO)
+  0110        CONVENCIONAL         OK     GRACILIANO RAMOS/TRAPICHE(T. ROD.)
+  0112        CONVENCIONAL       FALTA    IPIOCA/TRAPICH-VERGEL(P VDE-POÇO-J. LEÃO
+  0113        CONVENCIONAL         OK     T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)
+  0114        CONVENCIONAL         OK     C DAS ALMAS/TRAPICHE(JACINTINHO-J. LEÃO)
+  0115        CONVENCIONAL         OK     CHÃ DA JAQUEIRA/TRAPICHE(CENTRO-PRADO)
+  0116        CONVENCIONAL         OK     JOSÉ TENÓRIO/TRAPICHE(VIA CRUZ DAS ALMAS
+  0117        CONVENCIONAL         OK     VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)
+  0209        CONVENCIONAL         OK     C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO)
+  0214        CONVENCIONAL         OK     HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA
+  0217        CONVENCIONAL         OK     BENEDITO BENTES/MERCADO/FEITOSA
+  0301        CONVENCIONAL         OK     VILLAGE II/C. DA JAQUEIRA(UFAL-COLINA)
+  0401        CONVENCIONAL         OK     
+  0402        CONVENCIONAL         OK     
+  0403        CONVENCIONAL         OK     TRAPICHE/OURO PRETO(JACINTINHO-FAROL)
+  0404        CONVENCIONAL         OK     TRAPICHE/NOVO MUNDO(FAROL-JACINTINHO)
+  0501        CONVENCIONAL         OK     VERGEL/SÃO JORGE(MERCADO-JACINTINHO)
+  0502        CONVENCIONAL         OK     VERGEL/SÃO JORGE(MERCADO-FAROL)
+  0504        CONVENCIONAL         OK     TRAPICHE/SÃO JORGE(PTA VERDE-JACARECICA)
+  0601        CONVENCIONAL         OK     BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)
+  0602        CONVENCIONAL         OK     S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE
+  0603        CONVENCIONAL         OK     VERGEL/MIRANTE(VIA POÇO - PÇA BOMFIM)
+  0604        CONVENCIONAL         OK     EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY
+  0606        CONVENCIONAL         OK     JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)
+  0607        CONVENCIONAL         OK     T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)
+  0610        CONVENCIONAL         OK     CRUZ DAS ALMAS/OURO PRETO (VIA GRUTA)
+  0612        CONVENCIONAL         OK     E GOMES/JATIÚCA (VIA CENTRO-PONTA VERDE)
+  0612-A      CONVENCIONAL       FALTA    E GOMES/JATIÚCA(VIA CENTRO-PONTA VERDE)
+  0615        CONVENCIONAL         OK     E. GOMES/MANGABEIRAS(M. MARCELO/J. MELO)
+  0617        CONVENCIONAL         OK     C DAS ALMAS/IPIOCA(SAÚDE-SAUAÇUHY)
+  0700        CONVENCIONAL         OK     GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)
+  0703        CONVENCIONAL         OK     BENEDITO BENTES/PONTA VERDE
+  0704        CONVENCIONAL         OK     BENEDITO BENTES/PONTA VERDE/FAROL
+  0706        CONVENCIONAL         OK     T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT
+  0707        CONVENCIONAL         OK     GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)
+  0708        CONVENCIONAL         OK     CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC
+  0709        CONVENCIONAL         OK     CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO
+  0710        CONVENCIONAL         OK     CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA
+  0712        CONVENCIONAL         OK     SANTO DUMONT/ PONTA VERDE/ IGUATEMI
+  0714        CONVENCIONAL         OK     RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)
+  0716        CONVENCIONAL         OK     CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL
+  0719        CONVENCIONAL         OK     CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)
+  0720        CONVENCIONAL         OK     DENISSON MENEZES/PONTA VERDE(FAROL)
+  0723        CONVENCIONAL         OK     ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT
+  0727        CONVENCIONAL         OK     EUSTÁQUIO GOMES/PTA VERDE(VILLAGE II)
+  0802        CONVENCIONAL         OK     T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)
+  0900        CONVENCIONAL         OK     CRUZ DAS ALMAS/UFAL (VIA JOSÉ TENÓRIO)
+  0901        CONVENCIONAL         OK     T.I. B. BENTES/T.I. E. GOMES(H. METROP)
+  0903        CONVENCIONAL         OK     T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)
+  0006-M      INTEGRACAO         FALTA    CLIMA BOM/PONTA VERDE (FERNÃO VELHO)
+  0804        INTEGRACAO           OK     CONJ. CIDADE SORRISO I/TER. B. BENTES
+  0805        INTEGRACAO           OK     GUAXUMA/TERMINAL DO BENEDITO BENTES
+  0807        INTEGRACAO           OK     JOSÉ APRÍGIO VILLELA / T.I. B. BENTES
+  0809        INTEGRACAO           OK     SELMA BANDEIRA/TERMINAL BENEDITO BENTES
+  0812        INTEGRACAO           OK     PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES
+  1000-A      INTEGRACAO         FALTA    TRAPICHE/PONTAL(VILA DOS PESCADORES)
+  1000-B      INTEGRACAO           OK     TRAPICHE/PONTAL(VILA DOS PESCADORES)
+  1018        INTEGRACAO           OK     A. DO CRUZEIRO/AL 101 NORTE(ANDRAÚJO)
+  1019        INTEGRACAO           OK     T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)
+  1020        INTEGRACAO           OK     C. DAS ALMAS/SÃO JORGE(JOSEPHA DE MELO)
+  1022        INTEGRACAO           OK     C.DAS ALMAS/ALTO DE GUAXUMA(JACARECICA)
+  1023        INTEGRACAO           OK     C. DAS ALMAS/J. TENÓRIO(L. ÓLEO-MURILÓP)
+  1024        INTEGRACAO         FALTA    TERMINAL ROTARY/TERMINAL CRUZ DAS ALMAS
+  2058        INTEGRACAO           OK     FERNÃO VELHO/COLINA-VIA FEIRINHA-M. NETO
+  4000        INTEGRACAO           OK     
+  4003        INTEGRACAO           OK     T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)
+  4006        INTEGRACAO           OK     TERMINAL MOCAMBO/T.I. BENEDITO BENTES
+  4011        INTEGRACAO           OK     TERM. SAL. LYRA / TERM. INTEG. VIA REC.
+  4013        INTEGRACAO           OK     T.I. EUSTÁQUIO GOMES/FORENE(J SAÚDE)
+  4014        INTEGRACAO           OK     T.I. EUSTÁQUIO GOMES/N JARDIM-JD ROYAL
+  4015        INTEGRACAO           OK     T.I. EUST. GOMES/JD. AMARILIS(FLAMBOYANT
+  0999        LINHA CIDADA         OK     JOÃO SAMPAIO/FLEXAIS-VIA CHÃ DA JAQUEIRA
+  0001-M      MADRUGADAO           OK     VILLAGE II/PONTA VERDE(GRACILIANO RAMOS)
+  0002-M      MADRUGADAO           OK     BENEDITO BENTES/PONTA VERDE (TRAPICHE)
+  0003-M      MADRUGADAO           OK     EUSTÁQUIO GOMES/PONTA VERDE (TRAPICHE)
+  0004-M      MADRUGADAO           OK     OURO PRETO/PONTA VERDE (FEITOSA)
+  0005-M      MADRUGADAO           OK     IPIOCA/PONTAL (PONTA VERDE)
+
+--------------------------------------------------------------------------------
+Gerado por python/comparar_oso_dados_unificados.py

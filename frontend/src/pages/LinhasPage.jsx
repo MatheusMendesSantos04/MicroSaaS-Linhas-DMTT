@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import HorariosPanel from "../components/HorariosPanel";
 import ItinerarioPanel from "../components/ItinerarioPanel";
 import LinhaSelector from "../components/LinhaSelector";
@@ -27,6 +27,7 @@ export default function LinhasPage() {
   const [linhaContexto, setLinhaContexto] = useState(null);
   const [terminais, setTerminais] = useState([]);
   const [showTerminais, setShowTerminais] = useState(false);
+  const mapRef = useRef(null);
 
   // Carrega lista de linhas e terminais ao montar
   useEffect(() => {
@@ -164,7 +165,7 @@ export default function LinhasPage() {
       />
 
       <div className="app-body">
-        <MapView geojson={geojson} isLinhaSelected={selectedLinhaIds.length > 0} linhaId={selectedLinhaIds[0] ?? ""} tileStyle={mapStyle} geojsonVersion={geojsonVersion} ruaGeojson={ruaGeojson} onMapClick={handleMapClick} linhaContexto={selectedLinhaIds.length <= 1 ? linhaContexto : null} onContextoAmbos={handleContextoAmbos} terminais={terminais} showTerminais={showTerminais} />
+        <MapView geojson={geojson} isLinhaSelected={selectedLinhaIds.length > 0} linhaId={selectedLinhaIds[0] ?? ""} tileStyle={mapStyle} geojsonVersion={geojsonVersion} ruaGeojson={ruaGeojson} onMapClick={handleMapClick} linhaContexto={selectedLinhaIds.length <= 1 ? linhaContexto : null} onContextoAmbos={handleContextoAmbos} terminais={terminais} showTerminais={showTerminais} mapRef={mapRef} />
 
         <aside className="sidebar">
           <MapStyleSelector value={mapStyle} onChange={setMapStyle} showTerminais={showTerminais} onToggleTerminais={() => setShowTerminais((v) => !v)} />
@@ -172,6 +173,8 @@ export default function LinhasPage() {
           <ItinerarioPanel
             detalheLinha={detalheLinha}
             selectedSentido={selectedSentido}
+            mapRef={mapRef}
+            horarios={horarios}
           />
           <RuaSearch onSelectLinha={handleSelectLinha} onRuaHighlight={handleRuaHighlight} externalQuery={externalQuery} onLinhaContexto={setLinhaContexto} />
         </aside>

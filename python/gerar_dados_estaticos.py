@@ -19,6 +19,8 @@ import unicodedata
 from math import atan2, cos, radians, sin, sqrt
 from pathlib import Path
 
+from sincronizar_mapa_reconstruido import normalizar_codigo
+
 ROOT = Path(__file__).resolve().parents[1]
 DADOS_UNIFICADOS = ROOT / "data" / "json" / "dados_unificados.json"
 HORARIOS = ROOT / "data" / "json" / "horarios" / "horarios.json"
@@ -129,9 +131,9 @@ def main() -> None:
                     "properties": {"linha_id": line_id, "linha_nome": nome, "sentido": sentido},
                 })
 
-        m = re.match(r"^(\d{4})", nome)
-        if m and m.group(1) in horarios:
-            horarios_por_linha[line_id] = horarios[m.group(1)]
+        codigo_norm = normalizar_codigo(nome)
+        if codigo_norm and codigo_norm in horarios:
+            horarios_por_linha[line_id] = horarios[codigo_norm]
 
     linhas_resumo.sort(key=lambda x: x["nome"])
 

@@ -5,11 +5,15 @@ extrair_coords_kml.py, que só olha uma whitelist).
 
 Regras:
 - Linha nova (código não existe no sistema) -> cria a entrada (sem
-  itinerário de rua — isso continua vindo do Matrix, nunca do KML).
+  itinerário de rua — isso é escrito à mão em dados_unificados.json, nunca
+  vem do KML nem do Matrix).
 - Nome mudou pro mesmo código -> renomeia a chave, preserva as "ruas" já
   cadastradas.
-- Trajeto mudou -> só atualiza coordenadas se o KML tiver MAIS pontos que o
-  já existente (nunca reduz a densidade/precisão de um traçado já bom).
+- Trajeto mudou -> o KML SEMPRE vence. As coordenadas de dados_unificados.json
+  são substituídas pelas do KML sempre que o KML tiver pontos pro sentido,
+  independente de ter mais ou menos pontos que o traçado atual (o KML é a
+  fonte de verdade do traçado a partir de agora — edições manuais de rota,
+  mesmo que reduzam pontos, devem sempre ser aplicadas).
 - Quando há Placemarks duplicados pro mesmo código+sentido no KML (nomes
   variantes / typos), usa o de mais pontos; se algum tiver "(DESATIVADO)"
   no nome, esse tem prioridade sobre a contagem de pontos.
@@ -26,6 +30,7 @@ Uso:
 import json
 import re
 import shutil
+import sys
 import unicodedata
 import xml.etree.ElementTree as ET
 from collections import defaultdict
@@ -37,6 +42,8 @@ KML_PATH = BASE_DIR / "data" / "kml" / "Mapa Reconstruido.kml"
 DU_PATH = BASE_DIR / "data" / "json" / "dados_unificados.json"
 
 NS = {"k": "http://www.opengis.net/kml/2.2"}
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 
 _CODIGO_RE = re.compile(r"^([A-Z]{0,2}\d{1,4})(?:\s*-{0,2}\s*([A-Z]))?(?=[\s\-/]|$)")
@@ -207,7 +214,7 @@ def main():
         if cod:
             du_por_codigo[cod] = chave
 
-    novas, renomeadas, nomes_mantidos, trajeto_atualizado, ignoradas = [], [], [], [], []
+    novas, renomeadas, nomes_mantidos, trajeto_atualizado, inalterados = [], [], [], [], []
 
     for cod, info in sorted(kml_linhas.items()):
         nome_kml = info["nome"]
@@ -233,11 +240,13 @@ def main():
         for sentido in ("ida", "volta"):
             novos_pontos = info[sentido]
             existentes = entrada[sentido]["coordenadas"]
-            if novos_pontos and len(novos_pontos) > len(existentes):
-                entrada[sentido]["coordenadas"] = novos_pontos
-                trajeto_atualizado.append((cod, nome_kml, sentido, len(existentes), len(novos_pontos)))
-            elif novos_pontos:
-                ignoradas.append((cod, nome_kml, sentido, len(existentes), len(novos_pontos)))
+            if not novos_pontos:
+                continue
+            if novos_pontos == existentes:
+                inalterados.append((cod, nome_kml, sentido, len(existentes)))
+                continue
+            entrada[sentido]["coordenadas"] = novos_pontos
+            trajeto_atualizado.append((cod, nome_kml, sentido, len(existentes), len(novos_pontos)))
 
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     bak = DU_PATH.with_suffix(f".{ts}.bak.json")
@@ -261,13 +270,13 @@ def main():
     for cod, atual, kml in nomes_mantidos:
         print(f"  [mantido nome] {cod:<7} atual: '{atual}'  |  KML: '{kml}'")
 
-    print(f"\nTrajetos atualizados ({len(trajeto_atualizado)}):")
+    print(f"\nTrajetos atualizados a partir do KML ({len(trajeto_atualizado)}):")
     for cod, nome, sentido, antes, depois in trajeto_atualizado:
-        print(f"  [TRAJETO+]  {cod:<7} {nome[:48]:<48} {sentido.upper():<5} {antes}pts -> {depois}pts")
+        print(f"  [TRAJETO]   {cod:<7} {nome[:48]:<48} {sentido.upper():<5} {antes}pts -> {depois}pts")
 
-    print(f"\nTrajetos mantidos (KML tinha igual ou menos pontos) ({len(ignoradas)}):")
-    for cod, nome, sentido, antes, depois in ignoradas:
-        print(f"  [mantido]   {cod:<7} {nome[:48]:<48} {sentido.upper():<5} {antes}pts (KML tinha {depois}pts)")
+    print(f"\nTrajetos já idênticos ao KML, sem mudança ({len(inalterados)}):")
+    for cod, nome, sentido, npts in inalterados:
+        print(f"  [=]         {cod:<7} {nome[:48]:<48} {sentido.upper():<5} {npts}pts")
 
     if duplicatas:
         print(f"\n⚠ Placemarks duplicados no KML — resolvidos automaticamente ({len(duplicatas)}):")

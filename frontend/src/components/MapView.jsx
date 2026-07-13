@@ -74,6 +74,18 @@ function StreetZoom({ ruaGeojson }) {
   return null;
 }
 
+export const PANE_LINHA_PRINCIPAL = "linha-principal";
+
+function MainPaneSetup() {
+  const map = useMap();
+  useEffect(() => {
+    if (!map.getPane(PANE_LINHA_PRINCIPAL)) {
+      map.createPane(PANE_LINHA_PRINCIPAL);
+    }
+  }, [map]);
+  return null;
+}
+
 function AutoZoom({ geojson, isLinhaSelected }) {
   const map = useMap();
   useEffect(() => {
@@ -98,7 +110,7 @@ function AutoZoom({ geojson, isLinhaSelected }) {
   return null;
 }
 
-export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle = "dark", geojsonVersion = 0, ruaGeojson = null, onMapClick = null, linhaContexto = null, onContextoAmbos = null, terminais = [], showTerminais = false }) {
+export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle = "dark", geojsonVersion = 0, ruaGeojson = null, onMapClick = null, linhaContexto = null, onContextoAmbos = null, terminais = [], showTerminais = false, mapRef = null }) {
   // key muda somente quando os dados novos chegam (junto com geojsonVersion), nunca antes
   const geoJsonKey = geojsonVersion;
   const tile = TILE_STYLES[tileStyle] ?? TILE_STYLES.dark;
@@ -107,17 +119,21 @@ export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle =
     <div className="map-wrapper">
     <MapErrorBoundary>
       <MapContainer
+        ref={mapRef}
         center={[-9.6658, -35.7353]}
         zoom={12}
         scrollWheelZoom
+        preferCanvas
         style={{ height: "100%", width: "100%" }}
       >
         <TileLayer attribution={tile.attribution} url={tile.url} crossOrigin="anonymous" />
+        <MainPaneSetup />
         <GeoJSON
           key={geoJsonKey}
           data={geojson}
           style={featureStyle}
           onEachFeature={onEachFeature}
+          pane={PANE_LINHA_PRINCIPAL}
         />
         <AutoZoom geojson={geojson} isLinhaSelected={isLinhaSelected} />
         {onMapClick && <MapClickHandler onMapClick={onMapClick} />}

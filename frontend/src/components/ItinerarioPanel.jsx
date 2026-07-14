@@ -39,16 +39,25 @@ function SentidoSection({ titulo, ruas, cor }) {
 function DistanciaResumo({ detalheLinha, mostrarIda, mostrarVolta }) {
   const idaKm = detalheLinha.ida?.distancia_km;
   const voltaKm = detalheLinha.volta?.distancia_km;
+  const totalKm = detalheLinha.distancia_km_total;
 
-  const partes = [];
-  if (mostrarIda && idaKm) partes.push(`→ IDA ${idaKm} km`);
-  if (mostrarVolta && voltaKm) partes.push(`← VOLTA ${voltaKm} km`);
-  if (mostrarIda && mostrarVolta && detalheLinha.distancia_km_total) {
-    partes.push(`Total ${detalheLinha.distancia_km_total} km`);
-  }
+  const stats = [];
+  if (mostrarIda && idaKm) stats.push({ label: "→ IDA", valor: idaKm, cls: "km-stat-ida" });
+  if (mostrarVolta && voltaKm) stats.push({ label: "← VOLTA", valor: voltaKm, cls: "km-stat-volta" });
+  if (mostrarIda && mostrarVolta && totalKm) stats.push({ label: "TOTAL", valor: totalKm, cls: "km-stat-total" });
 
-  if (partes.length === 0) return null;
-  return <p className="linha-distancia">{partes.join(" · ")}</p>;
+  if (stats.length === 0) return null;
+
+  return (
+    <div className="km-card">
+      {stats.map((s) => (
+        <div key={s.label} className={`km-stat ${s.cls}`}>
+          <span className="km-stat-label">{s.label}</span>
+          <span className="km-stat-valor">{s.valor} km</span>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 export default function ItinerarioPanel({ detalheLinha, selectedSentido, mapRef, horarios }) {

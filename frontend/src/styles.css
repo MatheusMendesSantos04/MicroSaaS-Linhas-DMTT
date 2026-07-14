@@ -413,11 +413,42 @@ body {
   color: var(--gray-600); background: var(--surface-base);
 }
 
-.linha-distancia {
-  padding: 0 16px 8px;
-  font-size: 11px; font-family: 'IBM Plex Mono', monospace;
-  color: var(--gray-400); background: var(--surface-base);
+.km-card {
+  display: flex;
+  gap: 1px;
+  margin: 8px 16px 12px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md, 8px);
+  background: var(--gray-200);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
 }
+
+.km-stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 6px;
+  background: #fff;
+}
+
+.km-stat-label {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.04em;
+  color: var(--gray-400);
+}
+
+.km-stat-valor {
+  font-size: 13px; font-weight: 700; font-family: 'IBM Plex Mono', monospace;
+  color: var(--gray-900);
+}
+
+.km-stat-ida .km-stat-label { color: var(--ida); }
+.km-stat-volta .km-stat-label { color: var(--volta); }
+.km-stat-total { background: var(--gold-50); }
+.km-stat-total .km-stat-label { color: var(--gold-700); }
+.km-stat-total .km-stat-valor { color: var(--gold-700); }
 
 .sentido-section { padding: 0 0 8px; }
 

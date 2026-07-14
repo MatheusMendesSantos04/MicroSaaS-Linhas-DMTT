@@ -115,6 +115,45 @@ function renderHorarios(doc, horarios, margin, yStart, pageWidth) {
   return y;
 }
 
+function renderKmCard(doc, detalheLinha, margin, yStart, pageWidth) {
+  const stats = [];
+  if (detalheLinha.ida?.distancia_km) {
+    stats.push({ label: "IDA", valor: `${detalheLinha.ida.distancia_km} km`, cor: [22, 163, 74] });
+  }
+  if (detalheLinha.volta?.distancia_km) {
+    stats.push({ label: "VOLTA", valor: `${detalheLinha.volta.distancia_km} km`, cor: [46, 100, 212] });
+  }
+  if (detalheLinha.distancia_km_total) {
+    stats.push({ label: "TOTAL", valor: `${detalheLinha.distancia_km_total} km`, cor: [126, 92, 9] });
+  }
+  if (stats.length === 0) return yStart;
+
+  const usableWidth = pageWidth - margin * 2;
+  const gap = 3;
+  const boxWidth = (usableWidth - gap * (stats.length - 1)) / stats.length;
+  const boxHeight = 16;
+
+  stats.forEach((s, i) => {
+    const x = margin + i * (boxWidth + gap);
+    doc.setDrawColor(225, 228, 233);
+    doc.setFillColor(255, 255, 255);
+    doc.roundedRect(x, yStart, boxWidth, boxHeight, 2, 2, "FD");
+
+    doc.setFontSize(8);
+    doc.setFont(undefined, "bold");
+    doc.setTextColor(s.cor[0], s.cor[1], s.cor[2]);
+    doc.text(s.label, x + boxWidth / 2, yStart + 6, { align: "center" });
+
+    doc.setFontSize(11);
+    doc.setTextColor(20, 20, 20);
+    doc.text(s.valor, x + boxWidth / 2, yStart + 12.5, { align: "center" });
+  });
+
+  doc.setFont(undefined, "normal");
+  doc.setTextColor(0);
+  return yStart + boxHeight + 6;
+}
+
 function renderSentido(doc, titulo, ruas, margin, yStart) {
   let y = yStart;
   if (!ruas || ruas.length === 0) return y;
@@ -156,16 +195,7 @@ export async function exportarLinhaPDF(detalheLinha, map, horarios) {
   doc.text(`Linhas DMTT — Maceió · gerado em ${dataStr}`, margin, 24);
   doc.setTextColor(0);
 
-  const distParts = [];
-  if (detalheLinha.ida?.distancia_km) distParts.push(`IDA: ${detalheLinha.ida.distancia_km} km`);
-  if (detalheLinha.volta?.distancia_km) distParts.push(`VOLTA: ${detalheLinha.volta.distancia_km} km`);
-  if (detalheLinha.distancia_km_total) distParts.push(`Total: ${detalheLinha.distancia_km_total} km`);
-  if (distParts.length > 0) {
-    doc.setFontSize(10);
-    doc.text(distParts.join("   ·   "), margin, 29);
-  }
-
-  let y = 34;
+  let y = renderKmCard(doc, detalheLinha, margin, 27, pageWidth);
 
   if (map) {
     // esconde a camada "ao vivo" da linha selecionada pra não vazar por trás

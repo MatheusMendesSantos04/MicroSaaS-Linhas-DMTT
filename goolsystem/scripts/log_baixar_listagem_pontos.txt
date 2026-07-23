@@ -1,0 +1,151 @@
+CIMA	30750	0001 - Terminal x Cruzeiro	OK
+CIMA	26694	0002 - Antônio Lins Via Aeroporto	OK
+CIMA	30750	0001 - Terminal x Cruzeiro	pulado (ja existe)
+CIMA	26694	0002 - Antônio Lins Via Aeroporto	pulado (ja existe)
+CIMA	26695	0003 - Jarbas Oiticíca	OK
+CIMA	29628	0004 - Rio Largo via Mata do Rolo	OK
+CIMA	5306	0012 - Jose da Silva Peixoto / Centro	OK
+CIMA	31177	0014 - Cruz das Almas x Centro / J.S. Peixoto	OK
+CIMA	5373	0024 - Gruta / Centro / Term. Rotary	OK
+CIMA	5293	0027 - Vila Saem / Centro	OK
+CIMA	5286	0033 - Jose Tenorio / Centro	OK
+CIMA	5289	0036 - Dubeaux Leao / Centro	OK
+CIMA	5460	0041 - Feitosa X Centro / Farol	OK
+CIMA	31178	0109 - Cruz das Almas x Vergel / Poço - P. Verde	OK
+CIMA	33633	0112 - Ipioca x Vergel/Trapiche	OK
+CIMA	23622	0114 - Cruz das Almas x Trapiche	OK
+CIMA	26310	0116 - José Tenório x Trapiche.	OK
+CIMA	31179	0209 - Cruz das Almas x Vergel / St  Eduardo	OK
+CIMA	5325	0221 - Saúde / Cruz das Almas	OK
+CIMA	9778	0223 - Ipioca X Vergel Via Mercado	OK
+CIMA	13739	0226 - Ipioca x Trapiche via Poço	OK
+CIMA	23704	0403 - Trapiche / Ouro Preto	OK
+CIMA	23705	0404 - Trapiche / Novo Mundo	OK
+CIMA	23710	0501 - Vergel x São Jorge (Via Jacintinho)	OK
+CIMA	23706	0502 - Vergel x São Jorge ( Via Farol)	OK
+CIMA	23707	0504 - Trapiche / São Jorge	OK
+CIMA	25224	0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar)	OK
+CIMA	5320	0603 - Vergel / Mirante	OK
+CIMA	5378	0604 - Eustáquio Gomes / Cruz das Almas	OK
+CIMA	5290	0606 - Jose Tenorio / MCZ Shopping	OK
+CIMA	20001	0610 - Terminal Cruz das Almas x Ouro Preto	OK
+CIMA	23708	0613 - Vergel / Guaxuma	OK
+CIMA	23709	0614 - Trapiche / Mangabeiras	OK
+CIMA	31180	0617 - Cruz das Almas x Ipioca / Saúde	OK
+CIMA	5311	0700 - Gruta / Ponta Verde / Term. Rotary	OK
+CIMA	5418	0708 - Cruz das Almas X Ponta Verde	OK
+CIMA	25301	0900 - Cruz das Almas/UFAL (Via José Tenório)	OK
+CIMA	28199	0950 - Jaraguá/Pontal (Centro - Trapiche)	OK
+CIMA	28200	0951 - Jaraguá/Joaquim Leão (Ponta Grossa-Vergel)	OK
+CIMA	28201	0952 - Jaraguá/José Tenório (Jacintinho - São Jorge)	OK
+CIMA	28202	0953 - Jaraguá/Ipioca (Ponta Verde - Jacarecica)	OK
+CIMA	28203	0954 - Jaraguá/Ouro Preto (Feitosa - Serraria)	OK
+CIMA	28024	1000 - Trapiche / Pontal	OK
+CIMA	29654	1018 - Alto do Cruzeiro / AL 101 Norte (Andraújo)	OK
+CIMA	8121	1019 - Alto de Ipioca	OK
+CIMA	31181	1020 - Cruz das Almas x São Jorge	OK
+CIMA	31182	1022 - Cruz das Almas x Guaxuma / Jacarecica	OK
+CIMA	31183	1023 - Cruz das Almas x José Tenório / Lad. do Óleo	OK
+CIMA	33634	1024 - Rotary x Cruz das Almas	OK
+CIMA	28343	4000 - Circular Ufal	OK
+CIMA	25161	M004 - MADRUGÃO - OURO PRETO/PONTA VERDE	OK
+CIMA	25162	M005 - MADRUGÃO - IPIOCA/PONTAL	OK
+REAL	22431	0001 - Circular Cruzeiro do Sul	OK
+REAL	26605	0002 - Antônio Lins (Via Aeroporto)	OK
+REAL	26606	0003 - Jarbas Oiticica	OK
+REAL	29625	0004 - Rio Largo (Mata do Rolo)	OK
+REAL	5287	0037 - Salvador Lyra / Centro	OK
+REAL	5288	0039 - Cleto Marques / Centro	OK
+REAL	5367	0042 - T.I. Benedito Bentes / Centro	OK
+REAL	5385	0046 - Village II / Centro	OK
+REAL	5401	0048 - T.I. Benedito Bentes / Centro (Via Josefa de Melo)	OK
+REAL	5405	0052 - T.I Eustáquio Gomes / Centro	OK
+REAL	5386	0053 - Graciliano Ramos / Centro	OK
+REAL	5403	0104 - T.I. Benedito Bentes / Trapiche	OK
+REAL	5457	0105 - Salvador Lyra / Trapiche (Via Jardim Petrópolis)	OK
+REAL	5413	0110 - Graciliano Ramos / Trapiche	OK
+REAL	25159	0111 - T.I Eustáquio Gomes / Trapiche (Via Poço)	OK
+REAL	25160	0113 - T.I Eustáquio Gomes / Trapiche	OK
+REAL	5414	0117 - Village II / Trapiche	OK
+REAL	5395	0214 - Henrique Equelman / Vergel	OK
+REAL	8133	0217 - T.I Benedito Bentes / Mercado	OK
+REAL	19840	0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar)	OK
+REAL	5282	0602 - Salvador Lyra / Maceió Shopping	OK
+REAL	5412	0607 - T.I Eustáquio Gomes / Maceió Shopping	OK
+REAL	22177	0612 - Eustáquio Gomes / Jatiúca	OK
+REAL	26311	0615 - Eustáquio Gomes / Mangabeiras	OK
+REAL	5400	0703 - T.I. Benedito Bentes / Ponta Verde (Via Gruta)	OK
+REAL	5388	0704 - T.I. Benedito Bentes / Ponta Verde (Via Santa Lúcia)	OK
+REAL	5425	0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho)	OK
+REAL	5415	0707 - Graciliano Ramos / Ponta Verde	OK
+REAL	5416	0717 - Village II / Ponta Verde	OK
+REAL	26684	0720 - Denisson Menezes / Ponta Verde	OK
+REAL	25223	0727 - T.I Eustáquio Gomes / Ponta Verde (Via Village II)	OK
+REAL	5391	0804 - T.I. Benedito Bentes / Cidade Sorriso I	OK
+REAL	5392	0805 - T.I. Benedito Bentes / Guaxuma	OK
+REAL	5584	0807 - T.I. Benedito Bentes / Aprígio Vilela	OK
+REAL	25286	0808 - T.I. Benedito Bentes / Cachoeira do Meirim	OK
+REAL	5393	0809 - T.I. Benedito Bentes / Selma Bandeira	OK
+REAL	5394	0812 - T.I. Benedito Bentes / Carminha	OK
+REAL	17467	0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital Metropolitano)	OK
+REAL	5389	0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)	OK
+REAL	28219	0960 - T.I. Benedito Bentes / Jaraguá (Santa Lúcia - Farol)	OK
+REAL	28220	0961 - T.I. Benedito Bentes / Jaraguá (Rota do Mar - C. das Almas)	OK
+REAL	28221	0962 - Eustáquio Gomes / Jaraguá (Forene - Via Expressa - Jacintinho)	OK
+REAL	28222	0963 - Village II / Jaraguá (Graciliano Ramos - Farol)	OK
+REAL	28223	0964 - Salvador Lyra / Jaraguá (Cleto Marques Farol)	OK
+REAL	30479	0965 - EVENTOS - T.I. Benedito Bentes / Mocambo	OK
+REAL	30480	0966 - EVENTOS - T.I. Benedito Bentes / Carminha	OK
+REAL	30481	0967 - EVENTOS - T.I. Benedito Bentes / Aprígio Vilela	OK
+REAL	30482	0968 - EVENTOS - T.I. Benedito Bentes / Selma Bandeira	OK
+REAL	28020	1000 - Trapiche / Pontal	OK
+REAL	28316	4000 - Circular Ufal	OK
+REAL	10124	4003 - T.I Eustáquio Gomes / Grand Jardim	OK
+REAL	8137	4005 - T.I. Benedito Bentes / Frei Damião	OK
+REAL	8138	4006 - T.I. Benedito Bentes / Mocambo	OK
+REAL	8213	4011 - Salvador Lyra / T.I. Benedito Bentes (Via Recantos)	OK
+REAL	28302	4013 - T.I Eustáquio Gomes / Forene (J. Saúde)	OK
+REAL	28303	4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal	OK
+REAL	28347	4015 - T.I Eustáquio Gomes / Jardim Amarílis. (via Flamboyants)	OK
+REAL	25155	M001 - Madrugadão Village II	OK
+REAL	25156	M002 - Madrugadão Benedito Bentes	OK
+REAL	25157	M003 - Madrugadão Eustáquio Gomes	OK
+SFRA	28393	0001 - Circular Cruzeiro do Sul	OK
+SFRA	28398	0002 - Antônio Lins (Via Aeroporto)	OK
+SFRA	28395	0003 - Jarbas Oiticica	OK
+SFRA	29651	004 - Rio Largo - Mata do Rolo	OK
+SFRA	5396	006 - Clima Bom / Ponta Verde	OK
+SFRA	5344	051 - Santos Dumont via Bomba do Gozaga / Farol / Centro	OK
+SFRA	5614	056 - João Sampaio / Centro	OK
+SFRA	5330	057 - Rio Novo / Centro via Farol	OK
+SFRA	5329	058 - Fernão Velho / Centro via Farol	OK
+SFRA	5346	065 - Rosane Collor / Centro	OK
+SFRA	5398	068 - Colina / Poço	OK
+SFRA	5331	069 - Clima Bom / Centro	OK
+SFRA	28025	1000 - Trapiche / Pontal	OK
+SFRA	5355	101 - Chã da Jaqueira / Trapiche via João Sampaio - Bom Parto	OK
+SFRA	23024	102 - João Sampaio x trapiche via Rotary - Jacintinho	OK
+SFRA	5354	108 - Clima Bom via Colina / Trapiche	OK
+SFRA	5352	115 - CHÃ DA JAQUEIRA TRAPICHE (via centro - prado)	OK
+SFRA	26696	2058 - FERNÃO VELHO - COLINA - VIA FEIRINHA	OK
+SFRA	29999	301 - VILLAGE II/CHÃ DA JAQUEIRA	OK
+SFRA	28392	4000 - Circular Ufal	OK
+SFRA	5616	401 - Circular Bairros I	OK
+SFRA	5617	402 - Circular Bairros II	OK
+SFRA	25531	612 - E. Gomes / Jatiuca	OK
+SFRA	5343	709 - Chã da Jaqueira / Ponta Verde	OK
+SFRA	5342	710 - Chã da Jaqueira / Ponta Verde	OK
+SFRA	5332	711 - UFAL via Colina / cambona / Jaragua / Ponta Verde	OK
+SFRA	5426	712 - Santos Dumont X Ponta Verde / Farol	OK
+SFRA	5328	714 - Rio Novo / Ponta Verde via Jacintinho	OK
+SFRA	5348	716 - Clima Bom / Ponta Verde	OK
+SFRA	5350	719 - Chã nova / Ponta Verde	OK
+SFRA	5339	723 - Rosane Collor / Ponta verde via Bom Parto - Jacintinho	OK
+SFRA	5397	802 - Colina / Benedito Bentes	OK
+SFRA	27098	955 - CLIMA BOM (FAROL - ROSANE COLLOR - VERÃO MASSAYÓ)	OK
+SFRA	27099	956 - RIO NOVO (BEBEDOURO - SANTA AMÉLIA - VERÃO MASSAYÓ)	OK
+SFRA	27100	957 - SANTOS DUMONT (FAROL - TABULEIRO - VERÃO MASSAYÓ)	OK
+SFRA	27101	958 - COLINA (FAROL - FEIRINHA - VERÃO MASSAYÓ)	OK
+SFRA	27102	959 - CHÃ DA JAQUEIRA (FAROL - JOÃO SAMPAIO - VERÃO MASSAYÓ)	OK
+SFRA	17364	997 - Transbordo VLT / Bebedouro - Bom Parto	OK
+SFRA	25506	999 - João Sampaio/Flexais-via Chã da Jaqueira	OK

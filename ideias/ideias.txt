@@ -1,7 +1,3 @@
-
- 06pqoder baixar mapa e intinerario em forma de pdf
-vizualizar kilometragem do trajeto, separado por ida e volta e os dois sentidos juntos
-visualizar a elevação
 colocar as observações e mensagens presentes no matrix
 
 novo mapa de linhas atualizadas no arquivo KML
@@ -12,5 +8,18 @@ novo mapa de linhas atualizadas no arquivo KML
     109     501     602     
     110     603     610     
     116     704     703     
-    117     709     712     zsa 
-    ,
+    117     709     712     
+
+
+
+ATUALIZAR LINHAS PASSANDO NA AVENIDA COMENDADOR GUSTAVO PAIVA
+
+
+
+
+
+
+TODA PARTE QUE TIVER...
+
+AVENIDA DUQUE DE CAXIAS = AVENIDA DA PAZ
+AVENIDA DA PAZ E ENTRA RUA DO IMPERADOR, DEPOIS TEM A PRAÇA SINIBU

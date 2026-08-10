@@ -1,0 +1,1214 @@
+Pares fuzzy unicos no projeto inteiro (deduplicados) -- 202 pares
+Ordenado por quantas linhas usam esse par (mais impactante primeiro).
+
+==============================================================================
+[0.67]  em 12 linha(s)
+  MANUAL:  AVENIDA GOVERNADOR AFRÂNIO LAGES
+  SISTEMA: AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE
+  linhas: 0012 - 0012 - Jose da Silva Peixoto / Centro; 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD); 0052 - 0052 - T.I Eustáquio Gomes / Centro; 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto; 0108 - 0108 - Clima Bom via Colina / Trapiche; 0110 - 0110 - Graciliano Ramos / Trapiche ...
+
+==============================================================================
+[0.60]  em 11 linha(s)
+  MANUAL:  PARQUE RODOLFO LINS
+  SISTEMA: PARQUE RODOLFO LINS (PRAÇA DO PIRULITO)
+  linhas: 0024 - 0024 - Gruta / Centro / Term. Rotary (DESATIVADO); 0048 - 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo); 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis); 0401 - 0401 - Circular Bairros I - FALTA FAZER; 0403 - 0403 - Trapiche / Ouro Preto; 0404 - 0404 - Trapiche / Novo Mundo ...
+
+==============================================================================
+[1.00]  em 10 linha(s)
+  MANUAL:  AVENIDA COMENDADOR COMENDADOR GUSTAVO PAIVA
+  SISTEMA: AVENIDA COMENDADOR GUSTAVO PAIVA
+  linhas: 0024 - 0024 - Gruta / Centro / Term. Rotary (DESATIVADO); 0041 - 0041 - Feitosa X Centro / Farol; 0048 - 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo); 0116 - 0116 - José Tenório X Trapiche; 0221 - 0221 - Saúde / Cruz das Almas; 0223 - 0223 - Ipioca X Vergel Via Mercado ...
+
+==============================================================================
+[0.75]  em 10 linha(s)
+  MANUAL:  AVENIDA PROFESSOR LOUREIRO
+  SISTEMA: AVENIDA PROFESSOR CLAUDIOM LOUREIRO
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto; 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis); 0108 - 0108 - Clima Bom via Colina / Trapiche; 0113 - 0113 - T.I Eustáquio Gomes / Trapiche; 0114 - 0114 - Cruz das Alamas X Trapiche; 0214 - 0214 - Henrique Equelman / Vergel ...
+
+==============================================================================
+[0.60]  em 10 linha(s)
+  MANUAL:  AVENIDA JUCA SAMPAIO - MAC 204
+  SISTEMA: AVENIDA JUCA SAMPAIO
+  linhas: 0024 - 0024 - Gruta / Centro / Term. Rotary (DESATIVADO); 0401 - 0401 - Circular Bairros I - FALTA FAZER; 0501 - 0501 - Vergel X São Jorge (Via Jacintinho); 0502 - 0502 - Vergel X São Jorge ( Via Farol); 0604 - 0604 Eustáquio Gomes / Cruz das Almas; 0615 - 0615 - Eustáquio Gomes / Mangabeiras ...
+
+==============================================================================
+[0.67]  em 9 linha(s)
+  MANUAL:  TERMINAL TRAPICHE DA BARRA
+  SISTEMA: TERMINAL DO TRAPICHE
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto; 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho; 0104 - 0104 - T.I Benedito Bentes / Trapiche; 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis); 0108 - 0108 - Clima Bom via Colina / Trapiche; 0110 - 0110 - Graciliano Ramos / Trapiche ...
+
+==============================================================================
+[0.50]  em 9 linha(s)
+  MANUAL:  RUA X - CJ EUSTAQUIO GOMESI
+  SISTEMA: RUA X - CJ EUSTAQUIO GOMES
+  linhas: 0052 - 0052 - T.I Eustáquio Gomes / Centro; 0604 - 0604 Eustáquio Gomes / Cruz das Almas; 0607 - 0607 - T.I. Eustáquio Gomes / Maceió Shopping; 0727 - 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II); 0901 - 0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital); 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) ...
+
+==============================================================================
+[0.75]  em 8 linha(s)
+  MANUAL:  RUA PEDRO MONTEIRO
+  SISTEMA: RUA DOUTOR PEDRO MONTEIRO
+  linhas: 0024 - 0024 - Gruta / Centro / Term. Rotary (DESATIVADO); 0048 - 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo); 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis); 0116 - 0116 - José Tenório X Trapiche; 0223 - 0223 - Ipioca X Vergel Via Mercado; 0226 - 0226 - Ipioca X Trapiche via Poço ...
+
+==============================================================================
+[0.50]  em 8 linha(s)
+  MANUAL:  RUA AUGUSTA
+  SISTEMA: RUA LADISLAU NETO - RUA AUGUSTA
+  linhas: 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD); 0051 - 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro; 0052 - 0052 - T.I Eustáquio Gomes / Centro; 0068 - 0068 - Colina / Poço; 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto; 0113 - 0113 - T.I Eustáquio Gomes / Trapiche ...
+
+==============================================================================
+[0.50]  em 8 linha(s)
+  MANUAL:  RUA BARÃO DE MACEIÓ
+  SISTEMA: RUA BARÃO DE ALAGOAS
+  linhas: 0051 - 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro; 0068 - 0068 - Colina / Poço; 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto; 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis); 0108 - 0108 - Clima Bom via Colina / Trapiche; 0113 - 0113 - T.I Eustáquio Gomes / Trapiche ...
+
+==============================================================================
+[0.50]  em 8 linha(s)
+  MANUAL:  RUA COMENDADOR CALAÇA
+  SISTEMA: AVENIDA COMENDADOR CALAÇA
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho; 0117 - 0117 - Village II / Trapiche; 0226 - 0226 - Ipioca X Trapiche via Poço; 0501 - 0501 - Vergel X São Jorge (Via Jacintinho); 0703 - 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta); 0706 - 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) ...
+
+==============================================================================
+[0.60]  em 7 linha(s)
+  MANUAL:  AVENIDA GOVERNADOR TEOBALDO BARBOSA
+  SISTEMA: AVENIDA GOVERNADOR THEOBALDO BARBOSA
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho; 0104 - 0104 - T.I Benedito Bentes / Trapiche; 0113 - 0113 - T.I Eustáquio Gomes / Trapiche; 0114 - 0114 - Cruz das Alamas X Trapiche; 0403 - 0403 - Trapiche / Ouro Preto; 0404 - 0404 - Trapiche / Novo Mundo ...
+
+==============================================================================
+[0.60]  em 7 linha(s)
+  MANUAL:  RUA JORNALISTA OSEAS ROSAS
+  SISTEMA: RUA JORNALISTA OSÉIAS ROSAS
+  linhas: 0108 - 0108 - Clima Bom via Colina / Trapiche; 0110 - 0110 - Graciliano Ramos / Trapiche; 0113 - 0113 - T.I Eustáquio Gomes / Trapiche; 0114 - 0114 - Cruz das Alamas X Trapiche; 0115 - 0115 - Chã da Jaqueira Trapiche (via centro - prado); 0504 - 0504 - Trapiche / São Jorge ...
+
+==============================================================================
+[0.60]  em 6 linha(s)
+  MANUAL:  AVENIDA IND CICERO TOLEDO
+  SISTEMA: AVENIDA INDI. CICERO TOLEDO
+  linhas: 0700 - 0700 - Gruta / Ponta Verde / Term. Rotary; 0703 - 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta); 0706 - 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho); 0708 - 0708 - Cruz das Almas x Ponta Verde; 0712 - 0712 - Santos Durmont X Ponta Verde / Farol; 0714 - 0714 - Rio Novo / Ponta Verde via Jacintinho
+
+==============================================================================
+[0.40]  em 6 linha(s)
+  MANUAL:  PRAÇA DO PIRULITO
+  SISTEMA: PARQUE RODOLFO LINS (PRAÇA DO PIRULITO)
+  linhas: 0104 - 0104 - T.I Benedito Bentes / Trapiche; 0110 - 0110 - Graciliano Ramos / Trapiche; 0117 - 0117 - Village II / Trapiche; 0223 - 0223 - Ipioca X Vergel Via Mercado; 0226 - 0226 - Ipioca X Trapiche via Poço; 0603 - 0603 - Vergel / Mirante
+
+==============================================================================
+[0.80]  em 5 linha(s)
+  MANUAL:  AVENIDA LOURIVAL MELO MOTA
+  SISTEMA: AVENIDA LOURIVAL MELO MOTA - BR 104
+  linhas: 0113 - 0113 - T.I Eustáquio Gomes / Trapiche; 0604 - 0604 Eustáquio Gomes / Cruz das Almas; 0607 - 0607 - T.I. Eustáquio Gomes / Maceió Shopping; 0615 - 0615 - Eustáquio Gomes / Mangabeiras; 0720 - 0720 - Denisson Menezes / Ponta Verde
+
+==============================================================================
+[0.67]  em 5 linha(s)
+  MANUAL:  AVENIDA EMPRESÁRIO LOURIVAL LOBO FERREIRA
+  SISTEMA: AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA
+  linhas: 0056 - 0056 - João Sampaio / Centro; 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto; 0709 - 0709 - Chã da Jaqueira / Ponta Verde; 0710 - 0710 - Chã da Jaqueira/ Ponta Verde; 0719 - 0719 - Chã nova / Ponta Verde
+
+==============================================================================
+[0.67]  em 5 linha(s)
+  MANUAL:  TRAVESSA SETE DE SETEMBRO
+  SISTEMA: TRAVESSA 7 DE SETEMBRO
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho; 0110 - 0110 - Graciliano Ramos / Trapiche; 0117 - 0117 - Village II / Trapiche; 0226 - 0226 - Ipioca X Trapiche via Poço; 0603 - 0603 - Vergel / Mirante
+
+==============================================================================
+[0.50]  em 5 linha(s)
+  MANUAL:  RUA DO LIVRAMENTO
+  SISTEMA: RUA SENADOR MENDONCA - RUA DO LIVRAMENTO
+  linhas: 0068 - 0068 - Colina / Poço; 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis); 0113 - 0113 - T.I Eustáquio Gomes / Trapiche; 0114 - 0114 - Cruz das Alamas X Trapiche; 0115 - 0115 - Chã da Jaqueira Trapiche (via centro - prado)
+
+==============================================================================
+[0.40]  em 5 linha(s)
+  MANUAL:  RUA DOUTOR BAPTISTA ACCIOLY
+  SISTEMA: RUA BATISTA ACCIOLY
+  linhas: 0110 - 0110 - Graciliano Ramos / Trapiche; 0116 - 0116 - José Tenório X Trapiche; 0226 - 0226 - Ipioca X Trapiche via Poço; 0704 - 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia); 0716 - 0716 - Clima bom / Ponta Verde
+
+==============================================================================
+[1.00]  em 4 linha(s)
+  MANUAL:  AVENIDA DOUTOR FERNANDO DO COUTO MALTA
+  SISTEMA: AVENIDA DOUTOR FERNANDO COUTO MALTA
+  linhas: 0053 - 0053 - Graciliano Ramos / Centro; 0110 - 0110 - Graciliano Ramos / Trapiche; 0707 - 0707 - Graciliano Ramos / Ponta Verde; 0727 - 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II)
+
+==============================================================================
+[1.00]  em 4 linha(s)
+  MANUAL:  AVENIDA JOSEFA MELO
+  SISTEMA: AVENIDA JOSEFA DE MELO
+  linhas: 0501 - 0501 - Vergel X São Jorge (Via Jacintinho); 0502 - 0502 - Vergel X São Jorge ( Via Farol); 0504 - 0504 - Trapiche / São Jorge; 0900 - 0900 - Cruz das Almas/UFAL (Via José Tenório)
+
+==============================================================================
+[0.75]  em 4 linha(s)
+  MANUAL:  PONTO DE RETORNOS JORGE
+  SISTEMA: PONTO DE RETORNOS SÃO JORGE
+  linhas: 0501 - 0501 - Vergel X São Jorge (Via Jacintinho); 0502 - 0502 - Vergel X São Jorge ( Via Farol); 0504 - 0504 - Trapiche / São Jorge; 0900 - 0900 - Cruz das Almas/UFAL (Via José Tenório)
+
+==============================================================================
+[0.60]  em 4 linha(s)
+  MANUAL:  RUA PONTES DE MIRANDA
+  SISTEMA: RUA DOUTOR LUIS PONTES DE MIRANDA
+  linhas: 0116 - 0116 - José Tenório X Trapiche; 0226 - 0226 - Ipioca X Trapiche via Poço; 0401 - 0401 - Circular Bairros I - FALTA FAZER; 0613 - 0613 - vergel / Guaxuma
+
+==============================================================================
+[0.60]  em 4 linha(s)
+  MANUAL:  RUA SENADOR ARNON DE MELO
+  SISTEMA: RUA SENADOR ARNON DE MELLO
+  linhas: 0117 - 0117 - Village II / Trapiche; 0727 - 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II); 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene); 1000 - 1000 - Trapiche / Pontal
+
+==============================================================================
+[0.60]  em 4 linha(s)
+  MANUAL:  AVENIDA DOUTOR FÁBIO WANDERLEY
+  SISTEMA: RUA DOUTOR FÁBIO WANDERLEY
+  linhas: 0607 - 0607 - T.I. Eustáquio Gomes / Maceió Shopping; 0615 - 0615 - Eustáquio Gomes / Mangabeiras; 0706 - 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho); 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+
+==============================================================================
+[0.60]  em 4 linha(s)
+  MANUAL:  AVENIDA DEPULTADO HUMBERTO MENDES
+  SISTEMA: AVENIDA DEPUTADO HUMBERTO MENDES
+  linhas: 0704 - 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia); 0709 - 0709 - Chã da Jaqueira / Ponta Verde; 0710 - 0710 - Chã da Jaqueira/ Ponta Verde; 0716 - 0716 - Clima bom / Ponta Verde
+
+==============================================================================
+[0.50]  em 4 linha(s)
+  MANUAL:  RUA GENERAL HERMES
+  SISTEMA: AVENIDA GENERAL HERMES
+  linhas: 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD); 0052 - 0052 - T.I Eustáquio Gomes / Centro; 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto; 0114 - 0114 - Cruz das Alamas X Trapiche
+
+==============================================================================
+[0.75]  em 3 linha(s)
+  MANUAL:  TERMINAL PARAÍSO DO HORTO
+  SISTEMA: TERMINAL CONJUNTO PARAISO DO HORTO
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto; 0115 - 0115 - Chã da Jaqueira Trapiche (via centro - prado); 0710 - 0710 - Chã da Jaqueira/ Ponta Verde
+
+==============================================================================
+[0.75]  em 3 linha(s)
+  MANUAL:  RUA BOA VISTA
+  SISTEMA: RUA BOA VISTA - P GROSSA
+  linhas: 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis); 0110 - 0110 - Graciliano Ramos / Trapiche; 0113 - 0113 - T.I Eustáquio Gomes / Trapiche
+
+==============================================================================
+[0.75]  em 3 linha(s)
+  MANUAL:  AVENIDA MENDONÇA JUNIOR
+  SISTEMA: AVENIDA MENDONÇA JUNIOR - AVENIDA ROTARY
+  linhas: 0115 - 0115 - Chã da Jaqueira Trapiche (via centro - prado); 0714 - 0714 - Rio Novo / Ponta Verde via Jacintinho; 0723 - 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO
+
+==============================================================================
+[0.75]  em 3 linha(s)
+  MANUAL:  AVENIDA HUMBERTO MENDES
+  SISTEMA: AVENIDA DEPUTADO HUMBERTO MENDES
+  linhas: 0117 - 0117 - Village II / Trapiche; 0602 - 0602 - Salvador Lyra / Maeió Shopping; 0704 - 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia)
+
+==============================================================================
+[0.67]  em 3 linha(s)
+  MANUAL:  AVENIDA DOUTOR ANDRÉ PAPINE GOÉS
+  SISTEMA: AVENIDA DOUTOR ANDRÉ PAPINE GÓISS
+  linhas: 0053 - 0053 - Graciliano Ramos / Centro; 0110 - 0110 - Graciliano Ramos / Trapiche; 0707 - 0707 - Graciliano Ramos / Ponta Verde
+
+==============================================================================
+[0.67]  em 3 linha(s)
+  MANUAL:  RUA JORNALISTA JAIMEA DE AMORIM MIRANDA
+  SISTEMA: RUA JORNALISTA JAIME DE AMORIM MIRANDA
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho; 0110 - 0110 - Graciliano Ramos / Trapiche; 0117 - 0117 - Village II / Trapiche
+
+==============================================================================
+[0.60]  em 3 linha(s)
+  MANUAL:  RUA BENEDITO CALAÇA LOUREIRO
+  SISTEMA: AVENIDA BENEDITO CALAÇA LOUREIRO
+  linhas: 0046 - 0046 - Village II / Centro; 0727 - 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II); 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+
+==============================================================================
+[0.50]  em 3 linha(s)
+  MANUAL:  AVENIDA ROTARY - AVENIDA MENDONÇA JÚNIOR
+  SISTEMA: AVENIDA ROTARY
+  linhas: 0033 - 0033 Jose Tenorio / Centro; 0068 - 0068 - Colina / Poço; 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[0.50]  em 3 linha(s)
+  MANUAL:  RUA RIO DO MEIO
+  SISTEMA: ESTRADA DO RIO DO MEIO
+  linhas: 0037 - 0037 - Salvador Lyra / Centro; 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis); 4011 - 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos)
+
+==============================================================================
+[0.50]  em 3 linha(s)
+  MANUAL:  TERMINAL CONJ VILLAGE II
+  SISTEMA: TERMINAL CONJUNTO VILLAGE II
+  linhas: 0117 - 0117 - Village II / Trapiche; 0727 - 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II); 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+
+==============================================================================
+[0.50]  em 3 linha(s)
+  MANUAL:  RUA ESMERALDINAM SPINDOLA SOBRINHO
+  SISTEMA: RUA ESMERALDINO MARINHO SPINDOLA SOBRINHO
+  linhas: 0117 - 0117 - Village II / Trapiche; 0706 - 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho); 0727 - 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II)
+
+==============================================================================
+[0.50]  em 3 linha(s)
+  MANUAL:  RUA JACY MELO
+  SISTEMA: RUA JACI MELO
+  linhas: 0117 - 0117 - Village II / Trapiche; 0602 - 0602 - Salvador Lyra / Maeió Shopping; 0707 - 0707 - Graciliano Ramos / Ponta Verde
+
+==============================================================================
+[0.40]  em 3 linha(s)
+  MANUAL:  AVENIDA BENEDITO BENTES
+  SISTEMA: TERMINAL INTEGRADO BENEDITO BENTES
+  linhas: 0042 - 0042 - T.I. Benedito Bentes / Centro; 0048 - 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo); 0104 - 0104 - T.I Benedito Bentes / Trapiche
+
+==============================================================================
+[0.40]  em 3 linha(s)
+  MANUAL:  RUA CORONEL MENDES DA FONSECA
+  SISTEMA: RUA CORONEL PARANHOS
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho; 0104 - 0104 - T.I Benedito Bentes / Trapiche; 0110 - 0110 - Graciliano Ramos / Trapiche
+
+==============================================================================
+[1.00]  em 2 linha(s)
+  MANUAL:  TERMINAL CONJUNTO JOAO SAMPAIO
+  SISTEMA: TERMINAL CONJUNTO JOAO SAMPAIO I
+  linhas: 0056 - 0056 - João Sampaio / Centro; 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[1.00]  em 2 linha(s)
+  MANUAL:  RUA EMANI DA ROCHA CAVALCANTE PASSOS
+  SISTEMA: RUA EMANI ROCHA CAVALCANTE PASSOS
+  linhas: 0065 - 0065 - Rosane Collor / Centro(farol); 0108 - 0108 - Clima Bom via Colina / Trapiche
+
+==============================================================================
+[1.00]  em 2 linha(s)
+  MANUAL:  AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS
+  SISTEMA: AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS - AMELIA ROSAS - AMELIA ROSAS
+  linhas: 0223 - 0223 - Ipioca X Vergel Via Mercado; 0504 - 0504 - Trapiche / São Jorge
+
+==============================================================================
+[1.00]  em 2 linha(s)
+  MANUAL:  AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS - AMELIA ROSAS
+  SISTEMA: AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS - AMELIA ROSAS
+  linhas: 0602 - 0602 - Salvador Lyra / Maeió Shopping; 0610 - 0610 - Terminal Cruz das Almas X Ouro Preto
+
+==============================================================================
+[1.00]  em 2 linha(s)
+  MANUAL:  TERMINAL CONJUNTO JOAO SAMPAIO I
+  SISTEMA: TERMINAL CONJUNTO JOAO SAMPAIO
+  linhas: 0709 - 0709 - Chã da Jaqueira / Ponta Verde; 0999 - 0999 - João Sampaio / Flexais-Via Chã da Jaqueira
+
+==============================================================================
+[1.00]  em 2 linha(s)
+  MANUAL:  AVENIDA WALTER DE ANANIAS
+  SISTEMA: AVENIDA WALTER ANANIAS
+  linhas: 0710 - 0710 - Chã da Jaqueira/ Ponta Verde; 0720 - 0720 - Denisson Menezes / Ponta Verde
+
+==============================================================================
+[0.83]  em 2 linha(s)
+  MANUAL:  AVENIDA DOUTOR MILTON HENIO DE GOUVEIA
+  SISTEMA: AVENIDA DOUTOR MILTON HÊNIO NETTO DE GOUVEIA
+  linhas: 0036 - 0036 - DUBEAUX LEÃO / CENTRO; 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis)
+
+==============================================================================
+[0.83]  em 2 linha(s)
+  MANUAL:  AVENIDA DOUTOR ANTONIOG DE B - AMELIA ROSAS
+  SISTEMA: AVENIDA DOUTOR ANTONIOG DE BARROS - AMELIA ROSAS
+  linhas: 0401 - 0401 - Circular Bairros I - FALTA FAZER; 0612 - 0612 - Eustáquio Gomes / Jatiúca
+
+==============================================================================
+[0.80]  em 2 linha(s)
+  MANUAL:  TERMINAL COLINA DOS EUCALIPTOS
+  SISTEMA: TERMINAL INTEGRADO COLINA DOS EUCALIPTOS
+  linhas: 0065 - 0065 - Rosane Collor / Centro(farol); 0068 - 0068 - Colina / Poço
+
+==============================================================================
+[0.75]  em 2 linha(s)
+  MANUAL:  RUA PROFESSOR VIRGÍNIO
+  SISTEMA: RUA PROFESSOR VIRGÍNIO DE CAMPOS
+  linhas: 0027 - 0027 - Vila Saem / Centro; 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+
+==============================================================================
+[0.75]  em 2 linha(s)
+  MANUAL:  TERMINAL BENEDITO BENTES
+  SISTEMA: TERMINAL INTEGRADO BENEDITO BENTES
+  linhas: 0048 - 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo); 0104 - 0104 - T.I Benedito Bentes / Trapiche
+
+==============================================================================
+[0.75]  em 2 linha(s)
+  MANUAL:  RUA CLETO CAMPELO
+  SISTEMA: RUA BONFIM - CLETO CAMPELO
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho; 0104 - 0104 - T.I Benedito Bentes / Trapiche
+
+==============================================================================
+[0.75]  em 2 linha(s)
+  MANUAL:  RUA JORNALISTA LAFAIETE BELO
+  SISTEMA: RUA LAFAIETE BELO
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho; 0104 - 0104 - T.I Benedito Bentes / Trapiche
+
+==============================================================================
+[0.75]  em 2 linha(s)
+  MANUAL:  TERMINAL OSMAN LOUREIRO
+  SISTEMA: AVENIDA B TERMINAL OSMAN LOUREIRO
+  linhas: 0108 - 0108 - Clima Bom via Colina / Trapiche; 0716 - 0716 - Clima bom / Ponta Verde
+
+==============================================================================
+[0.75]  em 2 linha(s)
+  MANUAL:  AVENIDA BENEDITO LOUREIRO
+  SISTEMA: AVENIDA BENEDITO CALAÇA LOUREIRO
+  linhas: 0117 - 0117 - Village II / Trapiche; 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+
+==============================================================================
+[0.67]  em 2 linha(s)
+  MANUAL:  AVENIDA JOSÉ HAILTON DOS SANTOS
+  SISTEMA: AVENIDA JOSÉ AILTON DOS SANTOS
+  linhas: 0046 - 0046 - Village II / Centro; 0117 - 0117 - Village II / Trapiche
+
+==============================================================================
+[0.67]  em 2 linha(s)
+  MANUAL:  RUA ENGENHEIRO CORINTHO CAMPELO DA PAZ
+  SISTEMA: AVENIDA ENGENHEIRO CORINTHO CAMPELO DA PAZ
+  linhas: 0051 - 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro; 0712 - 0712 - Santos Durmont X Ponta Verde / Farol
+
+==============================================================================
+[0.67]  em 2 linha(s)
+  MANUAL:  RUA EMANI DA ROCHA CAVALCANTE PASSOS
+  SISTEMA: RUA ERMANI DA ROCHA CAVALCANTE PASSOS
+  linhas: 0108 - 0108 - Clima Bom via Colina / Trapiche; 0802 - 0802 - Colina / Benedito Bentes
+
+==============================================================================
+[0.67]  em 2 linha(s)
+  MANUAL:  AVENIDA DOUTOR ANDRÉ PAPINI GOÉS
+  SISTEMA: AVENIDA DOUTOR ANDRÉ PAPINI GÓIS
+  linhas: 0707 - 0707 - Graciliano Ramos / Ponta Verde; 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+
+==============================================================================
+[0.60]  em 2 linha(s)
+  MANUAL:  AVENIDA JORN. MARCIO CANUTO
+  SISTEMA: AVENIDA JORNALISTA MÁRCIO CANUTO
+  linhas: 0024 - 0024 - Gruta / Centro / Term. Rotary (DESATIVADO); 0727 - 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II)
+
+==============================================================================
+[0.60]  em 2 linha(s)
+  MANUAL:  RUA SEN MENDONCA - RUA DO LIVRAMENTO
+  SISTEMA: RUA SENADOR MENDONCA - RUA DO LIVRAMENTO
+  linhas: 0214 - 0214 - Henrique Equelman / Vergel; 0404 - 0404 - Trapiche / Novo Mundo
+
+==============================================================================
+[0.60]  em 2 linha(s)
+  MANUAL:  RUA JOAO CALHEIRO GATO
+  SISTEMA: RUA JOÃO CALHEIROS GATO
+  linhas: 0403 - 0403 - Trapiche / Ouro Preto; 0404 - 0404 - Trapiche / Novo Mundo
+
+==============================================================================
+[0.60]  em 2 linha(s)
+  MANUAL:  RUA NORMA PIMENTEL DA COSTA
+  SISTEMA: AVENIDA NORMA PIMENTEL DA COSTA
+  linhas: 0704 - 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia); 0812 - 0812 T.I. Benedito Bentes / Carminha
+
+==============================================================================
+[0.60]  em 2 linha(s)
+  MANUAL:  TERMINAL CONJ. GRACILIANO RAMOS
+  SISTEMA: TERMINAL CONJUNTO GRACILIANO RAMOS
+  linhas: 0707 - 0707 - Graciliano Ramos / Ponta Verde; 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  RUA CLETO CAMPELO
+  SISTEMA: AVENIDA CLETO CAMPELO
+  linhas: 0012 - 0012 - Jose da Silva Peixoto / Centro; 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  RUA ITAPUÃ
+  SISTEMA: RUA LANE IV ALDO NA VY - RUA ITAPUA
+  linhas: 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD); 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  RUA DOUTOR LAURO MACHADO COSTA
+  SISTEMA: RUA PROFESSOR LAURO COSTA
+  linhas: 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD); 0041 - 0041 - Feitosa X Centro / Farol
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  AVENIDA JOSEPHA DE MELO
+  SISTEMA: AVENIDA JOSEFA DE MELO
+  linhas: 0024 - 0024 - Gruta / Centro / Term. Rotary (DESATIVADO); 0615 - 0615 - Eustáquio Gomes / Mangabeiras
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  AVENIDA CARLOS GOMES DE BARROS
+  SISTEMA: RUA DOUTOR CARLOS GOMES DE BARROS
+  linhas: 0037 - 0037 - Salvador Lyra / Centro; 0602 - 0602 - Salvador Lyra / Maeió Shopping
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  RUA BAPTISTA ACCIOLY
+  SISTEMA: RUA BATISTA ACCIOLY
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho; 0117 - 0117 - Village II / Trapiche
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  VILLA SENHOR DO BONFIM
+  SISTEMA: PRAÇA SENHOR DO BONFIM
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho; 0104 - 0104 - T.I Benedito Bentes / Trapiche
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  RUA DO RIO DO MEIO
+  SISTEMA: ESTRADA DO RIO DO MEIO
+  linhas: 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis); 0602 - 0602 - Salvador Lyra / Maeió Shopping
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  AVENIDA GEN HERMES
+  SISTEMA: AVENIDA GENERAL HERMES
+  linhas: 0217 - 0217 - T.I. Benedito Bentes / Mercado; 0401 - 0401 - Circular Bairros I - FALTA FAZER
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  RUA BATISTA ACIOLI
+  SISTEMA: RUA BATISTA ACCIOLY
+  linhas: 0501 - 0501 - Vergel X São Jorge (Via Jacintinho); 0720 - 0720 - Denisson Menezes / Ponta Verde
+
+==============================================================================
+[0.50]  em 2 linha(s)
+  MANUAL:  AVENIDO MENINO MARCELO
+  SISTEMA: AVENIDA MENINO MARCELO
+  linhas: 0802 - 0802 - Colina / Benedito Bentes; 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+
+==============================================================================
+[0.40]  em 2 linha(s)
+  MANUAL:  RUA DEMERVAL MACÁRIO
+  SISTEMA: RUA DEMERV ALAMEDA MACARIO
+  linhas: 0012 - 0012 - Jose da Silva Peixoto / Centro; 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)
+
+==============================================================================
+[0.40]  em 2 linha(s)
+  MANUAL:  RUA JORNALISTA OSÉIAS ROSAS
+  SISTEMA: RUA OSEAS ROSAS
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto; 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  RUA R, G
+  SISTEMA: RUA B
+  linhas: 0033 - 0033 Jose Tenorio / Centro
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  RUA G
+  SISTEMA: RUA B
+  linhas: 0033 - 0033 Jose Tenorio / Centro
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  RUA MAJOR ALVARO EUSTERIO DA SILVA
+  SISTEMA: RUA MAJOR ALVARO EUSTERIO O DA SILVA
+  linhas: 0041 - 0041 - Feitosa X Centro / Farol
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  AVENIDA ROTARY - AVENIDA MENDONÇA JÚNIOR
+  SISTEMA: AVENIDA MENDONÇA JUNIOR - AVENIDA ROTARY
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  RUA PERIMETRAL 2
+  SISTEMA: RUA PERIMETRAL 4
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  AVENIDA B
+  SISTEMA: AVENIDA C
+  linhas: 0108 - 0108 - Clima Bom via Colina / Trapiche
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  RUA DE CAMARAGIBE
+  SISTEMA: RUA CAMARAGIBE
+  linhas: 0403 - 0403 - Trapiche / Ouro Preto
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  RUA CEARA
+  SISTEMA: RUA DO CEARÁ
+  linhas: 0504 - 0504 - Trapiche / São Jorge
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  AVENIDA JORGE DE LIMA
+  SISTEMA: AVENIDA JORGE LIMA
+  linhas: 0719 - 0719 - Chã nova / Ponta Verde
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  ALAMEDA JOSÉ LOPES ALBUQUERQUE
+  SISTEMA: ALAMEDA JOSÉ LOPES DE ALBUQUERQUE
+  linhas: 0719 - 0719 - Chã nova / Ponta Verde
+
+==============================================================================
+[1.00]  em 1 linha(s)
+  MANUAL:  TERMINAL DA COLINA
+  SISTEMA: TERMINAL COLINA
+  linhas: 0723 - 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO
+
+==============================================================================
+[0.83]  em 1 linha(s)
+  MANUAL:  RUA ANTÔNIO REGINALDO PONTES LIMA
+  SISTEMA: RUA JOSÉ ANTÔNIO REGINALDO PONTES LIMA
+  linhas: 0041 - 0041 - Feitosa X Centro / Farol
+
+==============================================================================
+[0.80]  em 1 linha(s)
+  MANUAL:  AVENIDA BRIGADEIRO EDUARDO GOMES DE BRITO
+  SISTEMA: AVENIDA BRIGADEIRO EDUARDO GOMES
+  linhas: 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)
+
+==============================================================================
+[0.80]  em 1 linha(s)
+  MANUAL:  RUA ABELARDO PONTES LIMA
+  SISTEMA: RUA DOUTOR ABELARDO PONTES LIMA
+  linhas: 0024 - 0024 - Gruta / Centro / Term. Rotary (DESATIVADO)
+
+==============================================================================
+[0.80]  em 1 linha(s)
+  MANUAL:  RUA LUIS PONTES DE MIRANDA
+  SISTEMA: RUA DOUTOR LUIS PONTES DE MIRANDA
+  linhas: 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis)
+
+==============================================================================
+[0.80]  em 1 linha(s)
+  MANUAL:  RUA PROFESSOR LAURO MACHADO COSTA
+  SISTEMA: RUA PROFESSOR LAURO COSTA
+  linhas: 0604 - 0604 Eustáquio Gomes / Cruz das Almas
+
+==============================================================================
+[0.80]  em 1 linha(s)
+  MANUAL:  RUA DOUTOR LAURO COSTA
+  SISTEMA: RUA DOUTOR LAURO MACHADO COSTA
+  linhas: 0900 - 0900 - Cruz das Almas/UFAL (Via José Tenório)
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  AVENIDA PRESIDENTE GETULIO VARGAS
+  SISTEMA: AVENIDA GETULIO VARGAS
+  linhas: 0033 - 0033 Jose Tenorio / Centro
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  RUA NILO TORRES
+  SISTEMA: RUA NILO PEÇANHA TORRES
+  linhas: 0033 - 0033 Jose Tenorio / Centro
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  LARGO DELMIRO GOUVEIA
+  SISTEMA: LARGO DELMIRO GOUVEIA - ROTARY
+  linhas: 0033 - 0033 Jose Tenorio / Centro
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  RUA JOÃO CANÚTO DA SILVA
+  SISTEMA: RUA JOÃO CANUTO
+  linhas: 0041 - 0041 - Feitosa X Centro / Farol
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  RUA DOUTOR IVALDO MARINHO
+  SISTEMA: RUA IVALDO MARINHO
+  linhas: 0041 - 0041 - Feitosa X Centro / Farol
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  RUA SENADOR ARNON DE MELLO
+  SISTEMA: RUA ARNON DE MELLO
+  linhas: 0046 - 0046 - Village II / Centro
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  RUA VEREADOR HERMÍNIO CARDOSO
+  SISTEMA: RUA HERMÍNIO CARDOSO
+  linhas: 0057 - 0057 - Rio Novo / Centro Via Farol
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  TERMINAL ROSANE COLLOR
+  SISTEMA: TERMINAL CONJ ROSANE COLLOR
+  linhas: 0065 - 0065 - Rosane Collor / Centro(farol)
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  TERMINAL JOAO SAMPAIO
+  SISTEMA: TERMINAL CONJUNTO JOAO SAMPAIO I
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  TERMINAL GRACILIANO RAMOS
+  SISTEMA: TERMINAL CONJUNTO GRACILIANO RAMOS
+  linhas: 0110 - 0110 - Graciliano Ramos / Trapiche
+
+==============================================================================
+[0.75]  em 1 linha(s)
+  MANUAL:  AVENIDA IND CÍCERO TOLEDO
+  SISTEMA: AVENIDA CICERO TOLEDO
+  linhas: 0612 - 0612 - Eustáquio Gomes / Jatiúca
+
+==============================================================================
+[0.71]  em 1 linha(s)
+  MANUAL:  RUA JORNALISTA JOSE NILTON DE OLIVEIRA CORREIA
+  SISTEMA: RUA JORNALISTA JOSE NILTON DE OLIV CORREIA
+  linhas: 0114 - 0114 - Cruz das Alamas X Trapiche
+
+==============================================================================
+[0.71]  em 1 linha(s)
+  MANUAL:  AVENIDA DOUTOR MILTO HÊNIO NETTO DE GOUVEIA
+  SISTEMA: AVENIDA DOUTOR MILTON HÊNIO NETTO DE GOUVEIA
+  linhas: 0117 - 0117 - Village II / Trapiche
+
+==============================================================================
+[0.71]  em 1 linha(s)
+  MANUAL:  AVENIDA GOV AFRANIO LAGES - LESTE OESTE
+  SISTEMA: AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE
+  linhas: 0401 - 0401 - Circular Bairros I - FALTA FAZER
+
+==============================================================================
+[0.71]  em 1 linha(s)
+  MANUAL:  AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS
+  SISTEMA: AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS
+  linhas: 0704 - 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia)
+
+==============================================================================
+[0.71]  em 1 linha(s)
+  MANUAL:  RUA DONA MANETA QUINTELA CAMPOS TEIXEIRA
+  SISTEMA: RUA DONA MARIETA QUINTELA CAMPOS TEIXEIRA
+  linhas: 0723 - 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA JOSÉ JORGE DE MELO GONÇALES
+  SISTEMA: RUA JOSÉ JORGE DE MELO GONÇALVES
+  linhas: 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  LADEIRA DOUTOR GERALDO MELO DOS SANTOS
+  SISTEMA: LADEIRA GERALDO SANTOS MELO
+  linhas: 0051 - 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA DOUTOR MILTON HENIO GOUVEIA
+  SISTEMA: AVENIDA DOUTOR MILTON HENIO DE GOUVEIA
+  linhas: 0052 - 0052 - T.I Eustáquio Gomes / Centro
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  ROTATORIA DO VIADUTO DA PRF
+  SISTEMA: VIADUTO DA PRF
+  linhas: 0053 - 0053 - Graciliano Ramos / Centro
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  ACESSO AOS CONJUNTOS PETRÓPOLIS I,II,III
+  SISTEMA: ACESSO AOS CONJ. PETRÓPOLIS I,II,III
+  linhas: 0056 - 0056 - João Sampaio / Centro
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA DO SOL
+  SISTEMA: RUA RECANTO DO SOL
+  linhas: 0069 - 0069 - Clima Bom / Centro
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA DEZESSEIS DE SETEMBRO
+  SISTEMA: RUA 19 DE SETEMBRO
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA SETE DE SETEMBRO
+  SISTEMA: RUA 19 DE SETEMBRO
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA MAJOR ISIDÓRO JERÔNIMO DA ROCHA
+  SISTEMA: RUA MAJOR ISIDÓRO JERÔNIMO DA ROCH
+  linhas: 0114 - 0114 - Cruz das Alamas X Trapiche
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA ANTONIO ZEFERIONO DOS SANTOS
+  SISTEMA: RUA ANTÔNIO ZEFERINO DOS SANTOS
+  linhas: 0707 - 0707 - Graciliano Ramos / Ponta Verde
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA ESMERALDINAM MARINHO SPINDOLA SOBRINHO
+  SISTEMA: RUA ESMERALDINHO MARINHO SPÍNDOLA SOBRINHO
+  linhas: 0708 - 0708 - Cruz das Almas x Ponta Verde
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA ERMANIDA ROCHA CAVALCANTE PASSOS
+  SISTEMA: RUA ERMANI DA ROCHA CAVALCANTE PASSOS
+  linhas: 0714 - 0714 - Rio Novo / Ponta Verde via Jacintinho
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA PROFESSOR JOSÉ DA SILVA CAMERINO
+  SISTEMA: RUA PROFESSOR JOSÉ DA SILVEIRA CAMERINO
+  linhas: 0723 - 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  AVENIDA DOUTOR ANDRÉ PAPINE GOÉIS
+  SISTEMA: AVENIDA DOUTOR ANDRÉ PAPINE GÓISS
+  linhas: 0727 - 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II)
+
+==============================================================================
+[0.67]  em 1 linha(s)
+  MANUAL:  RUA JOSE AILTON DOS SANTOS
+  SISTEMA: RUA JOSE MAILTON DOS SANTOS
+  linhas: 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+
+==============================================================================
+[0.62]  em 1 linha(s)
+  MANUAL:  AVENIDA DOUTOR ANTONIOG DE BARROS - AMELIA ROSAS
+  SISTEMA: AVENIDA DOUTOR ANTONIO GOMES DE BARROS - AMELIA ROSAS - AMELIA ROSAS - AMELIA ROSAS
+  linhas: 0601 - 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar)
+
+==============================================================================
+[0.62]  em 1 linha(s)
+  MANUAL:  RUA ALV ARO MELO LADEIRA S JORGE-P CHALITA
+  SISTEMA: RUA ALVARO MELO LADEIRA S JORGE-P CHALITA
+  linhas: 0900 - 0900 - Cruz das Almas/UFAL (Via José Tenório)
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA PASTOR EUSÍCO CALHEIROS
+  SISTEMA: RUA PASTOR EURÍCO CALHEIROS
+  linhas: 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA DOM SANTINO COUTINHO
+  SISTEMA: RUA DON SANTINO COUTINHO
+  linhas: 0027 - 0027 - Vila Saem / Centro
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  LOT BRISA DA SERRARIA
+  SISTEMA: LOT BRISA DA SERRARIA III T J TENORIO
+  linhas: 0033 - 0033 Jose Tenorio / Centro
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA LUÍS BINA XAVIER
+  SISTEMA: RUA LUIZ BINA XAVIER
+  linhas: 0036 - 0036 - DUBEAUX LEÃO / CENTRO
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  AVENIDA FRANCISCO AFONSO DE MELO
+  SISTEMA: RUA FRANCISCO AFONSO DE MELO
+  linhas: 0042 - 0042 - T.I. Benedito Bentes / Centro
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA DOUTOR MIGUEL OMENA
+  SISTEMA: AVENIDA DOUTOR MIGUEL OMENA
+  linhas: 0048 - 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo)
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  AVENIDA DONA CONSTANCA DE GÓES MONTEIRO
+  SISTEMA: AVENIDA DONA CONSTANÇA
+  linhas: 0048 - 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo)
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA COMENDADOR GUSTAVO PAIVA
+  SISTEMA: AVENIDA COMENDADOR GUSTAVO PAIVA
+  linhas: 0048 - 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo)
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  TERMINAL SANTOS DUMONT
+  SISTEMA: TERMINAL NOVO HORIZONTE - SANTOS DUMONT
+  linhas: 0051 - 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA ESTRADA ARNOUMAR CHAGAS
+  SISTEMA: RUA ESTUDANTE ARNOUMAR CHAGAS
+  linhas: 0065 - 0065 - Rosane Collor / Centro(farol)
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA ANTONIO SILVA
+  SISTEMA: RUA ANTONIO SILVA - OSMAN LOUREIRO
+  linhas: 0069 - 0069 - Clima Bom / Centro
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RAU DESEMBARGADOR CARLOS DE GUSMÃO
+  SISTEMA: RAU DES. CARLOS DE GUSMÃO
+  linhas: 0105 - 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis)
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA LUIZ DE FRAGANÇA VERGETTI
+  SISTEMA: RUA LUIZ DE FRANÇA VERGETTI
+  linhas: 0116 - 0116 - José Tenório X Trapiche
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA HOÃO OMENA DE ANDRADE
+  SISTEMA: RUA JOÃO OMENA DE ANDRADE
+  linhas: 0226 - 0226 - Ipioca X Trapiche via Poço
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  AVENIDA GOV LAMENHA FILHO
+  SISTEMA: AVENIDA GOVERNADOR LAMENHA FILHO
+  linhas: 0401 - 0401 - Circular Bairros I - FALTA FAZER
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  AVENIDA ERENALDO LINS CAVALCANTE
+  SISTEMA: AVENIDA ERALDO LINS CAVALCANTE
+  linhas: 0404 - 0404 - Trapiche / Novo Mundo
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA CAPITÃO MARINHO FALCÃO
+  SISTEMA: AVENIDA CAPITAO MARINHO FALCAO
+  linhas: 0606 - 0606 - Jose Tenorio / MCZ Shopping
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  AVENIDA ARIOSVALDO PEREIRA CINTRA
+  SISTEMA: RUA ARIOSVALDO PEREIRA CINTRA
+  linhas: 0610 - 0610 - Terminal Cruz das Almas X Ouro Preto
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  AVENIDA DEPUTADO JOSE LAGES
+  SISTEMA: RUA DEPUTADO JOSÉ LAGES
+  linhas: 0613 - 0613 - vergel / Guaxuma
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA ESC PAULINO SANTIAGO
+  SISTEMA: RUA ESCRITOR PAULINO SANTIAGO
+  linhas: 0613 - 0613 - vergel / Guaxuma
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA CARNAVALESCO JOSÉ TEÓFANES
+  SISTEMA: AVENIDA CARNAVALESCO JOSÉ TEOFANES
+  linhas: 0712 - 0712 - Santos Durmont X Ponta Verde / Farol
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  AVENIDA FREI DAMIÃO DE BOZZANO
+  SISTEMA: AVENIDA FREI DAMIAO DE BOZANO
+  linhas: 0720 - 0720 - Denisson Menezes / Ponta Verde
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA JORNALISTA LAFEITO BELO
+  SISTEMA: RUA JORNALISTA LAFAIETE BELO
+  linhas: 0723 - 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA SENADOR TEOTÔNIO VIELA
+  SISTEMA: RUA SENADOR TEOTÔNIO VILELA
+  linhas: 0727 - 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II)
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  RUA DOUTOR OSVALDO CRUZ
+  SISTEMA: RUA DOUTOR OSWALDO CRUZ
+  linhas: 0999 - 0999 - João Sampaio / Flexais-Via Chã da Jaqueira
+
+==============================================================================
+[0.60]  em 1 linha(s)
+  MANUAL:  TERMINAL CONJ. JOAO SAMPAIO I
+  SISTEMA: TERMINAL CONJUNTO JOAO SAMPAIO I
+  linhas: 0999 - 0999 - João Sampaio / Flexais-Via Chã da Jaqueira
+
+==============================================================================
+[0.57]  em 1 linha(s)
+  MANUAL:  RUA DOUTOR MILTON HÊNIO NETO DE GOUVEIA
+  SISTEMA: AVENIDA DOUTOR MILTON HENIO DE GOUVEIA
+  linhas: 0052 - 0052 - T.I Eustáquio Gomes / Centro
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA ARIOSV ALDO PEREIRA CINTRA
+  SISTEMA: RUA ARIOSVALDO PEREIRA CINTRA
+  linhas: 0024 - 0024 - Gruta / Centro / Term. Rotary (DESATIVADO)
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA DO SOL
+  SISTEMA: RUA B
+  linhas: 0033 - 0033 Jose Tenorio / Centro
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA PROJETADA A - B
+  SISTEMA: RUA B
+  linhas: 0033 - 0033 Jose Tenorio / Centro
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  AVENIDA TANCRÊDO NEVES
+  SISTEMA: RUA TANCRÊDO NEVES
+  linhas: 0046 - 0046 - Village II / Centro
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA DO SOL
+  SISTEMA: RUA 01
+  linhas: 0046 - 0046 - Village II / Centro
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA 20 A
+  SISTEMA: RUA DO COMÉRCIO
+  linhas: 0056 - 0056 - João Sampaio / Centro
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  CONJUNTO COLINA DOS EUCALIPTOS
+  SISTEMA: TERMINAL INTEGRADO COLINA DOS EUCALIPTOS
+  linhas: 0057 - 0057 - Rio Novo / Centro Via Farol
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA JOSÉ BONOFÁCIO
+  SISTEMA: RUA SÃO JOSÉ
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA SANTOS PACHECO
+  SISTEMA: AVENIDA SANTOS PACHECO
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA ANTÔNIO CLAUDINO
+  SISTEMA: AVENIDA ANTONIO CLAUDINO
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA SÃO LUIZ
+  SISTEMA: RUA SÃO BENEDITO
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  ALAMEDA A DOIS
+  SISTEMA: ALAMEDA A 2
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  TRAVESSA SENHOR DO BONFIM
+  SISTEMA: PRAÇA SENHOR DO BONFIM
+  linhas: 0104 - 0104 - T.I Benedito Bentes / Trapiche
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  TERMINAL COLINA DOS EUCALIPTOS
+  SISTEMA: TERMINAL COLINA
+  linhas: 0108 - 0108 - Clima Bom via Colina / Trapiche
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  AAVENIDA SIQUEIRA CAMPOS
+  SISTEMA: AVENIDA SIQUEIRA CAMPOS
+  linhas: 0108 - 0108 - Clima Bom via Colina / Trapiche
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  VILA SENHOR DO BONFIM
+  SISTEMA: PRAÇA SENHOR DO BONFIM
+  linhas: 0110 - 0110 - Graciliano Ramos / Trapiche
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RU CEARA
+  SISTEMA: RUA DO CEARÁ
+  linhas: 0116 - 0116 - José Tenório X Trapiche
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  VILLA SENHOR DO BONFIM
+  SISTEMA: VILA SENHOR DO BONFIM
+  linhas: 0226 - 0226 - Ipioca X Trapiche via Poço
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  AVENIDA DURVALA GUIMARAES
+  SISTEMA: AVENIDA DURVAL GUIMARAES
+  linhas: 0504 - 0504 - Trapiche / São Jorge
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  AVENUE EVILASIO SORIANO
+  SISTEMA: AVENIDA EVILÁSIO SORIANO
+  linhas: 0613 - 0613 - vergel / Guaxuma
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA LAFAIETE PACHECO
+  SISTEMA: RUA LAFAYETE PACHECO
+  linhas: 0614 - 0614 - Trapiche / Mangabeiras
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA COMENDADOR LUIS JARDIM
+  SISTEMA: RUA COMENDADOR LUIZ JARDIM FRANCA
+  linhas: 0700 - 0700 - Gruta / Ponta Verde / Term. Rotary
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  AVENIDA JUCACA SAMPAIO
+  SISTEMA: AVENIDA JUCA SAMPAIO
+  linhas: 0707 - 0707 - Graciliano Ramos / Ponta Verde
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  TRAVESSA ILAILDA FELIX
+  SISTEMA: TRAVESSA INAILDA FELIX
+  linhas: 0712 - 0712 - Santos Durmont X Ponta Verde / Farol
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  VILLA SENHOR DO BONFIM
+  SISTEMA: TRAVESSA SENHOR DO BONFIM
+  linhas: 0723 - 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA SALVADOR CALMOM
+  SISTEMA: RUA SALVADOR CALMON
+  linhas: 0723 - 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  VIA SECUNDARIA AVENIDAFERNANDES LIMA
+  SISTEMA: VIA SECUNDARIA AVENIDA FERNANDES LIMA
+  linhas: 0900 - 0900 - Cruz das Almas/UFAL (Via José Tenório)
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUA TRANVERSAL UFAL 2
+  SISTEMA: RUA TRANSVERSAL UFAL 2
+  linhas: 0901 - 0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital)
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  RUUA ALAMEDA DA PAZ
+  SISTEMA: RUA ALAMEDA DA PAZ
+  linhas: 0903 - 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene)
+
+==============================================================================
+[0.50]  em 1 linha(s)
+  MANUAL:  AVENIDA ANTENOR CLAUDINO
+  SISTEMA: AVENIDA ANTONIO CLAUDINO
+  linhas: 0999 - 0999 - João Sampaio / Flexais-Via Chã da Jaqueira
+
+==============================================================================
+[0.43]  em 1 linha(s)
+  MANUAL:  TERMINAL CLIMA BOM
+  SISTEMA: TERMINAL CLIMA BOM(RUA NSA SRA DA CONCEIÇÃO)
+  linhas: 0108 - 0108 - Clima Bom via Colina / Trapiche
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RETORNO GUSTAVO PAIVA
+  SISTEMA: AVENIDA COMENDADOR GUSTAVO PAIVA
+  linhas: 0014C - 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA MIGUEL OMENA
+  SISTEMA: AVENIDA DOUTOR MIGUEL OMENA
+  linhas: 0024 - 0024 - Gruta / Centro / Term. Rotary (DESATIVADO)
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA MANOEL MENEZES
+  SISTEMA: RUA MANOEL MAIA NOBRE
+  linhas: 0027 - 0027 - Vila Saem / Centro
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA JOSÉ DE MELO
+  SISTEMA: RUA PROFESSOR JOSE PAULINO
+  linhas: 0041 - 0041 - Feitosa X Centro / Farol
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA JOÃO CANÚTO DA SILVA
+  SISTEMA: RUA JOAO PESSOA
+  linhas: 0041 - 0041 - Feitosa X Centro / Farol
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA CORONEL MENDES DA FONSECA
+  SISTEMA: RUA CORONEL MENEZES
+  linhas: 0048 - 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo)
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA JOÃO LINS CALHEIROS
+  SISTEMA: RUA JOAO PESSOA
+  linhas: 0057 - 0057 - Rio Novo / Centro Via Farol
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA CARLOS GUIDO FERRARIO
+  SISTEMA: RUA CARLOSG FERRARIO
+  linhas: 0069 - 0069 - Clima Bom / Centro
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA PERIMETRAL 2
+  SISTEMA: RUA PERIMETRAL 5 CONJ J SAMPAIO I (6510)
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA PERIMETRAL 3
+  SISTEMA: RUA PERIMETRAL 5 CONJ J SAMPAIO I (6510)
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA A | QUATORZE
+  SISTEMA: RUA QUATORZE A - CONJ. JOÃO SAMPAIO I
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA PERIMETRAL 5
+  SISTEMA: RUA PERIMETRAL 5 CONJ J SAMPAIO I (6510)
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA PERIMETRAL 4
+  SISTEMA: RUA PERIMETRAL 5 CONJ J SAMPAIO I (6510)
+  linhas: 0101 - 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  RUA JOÃO OMENA DE ANDRADE
+  SISTEMA: RUA 14 A - JOAO SAMPAIOI
+  linhas: 0102 - 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho
+
+==============================================================================
+[0.40]  em 1 linha(s)
+  MANUAL:  TERMINAL OSMAM LOUREIRO
+  SISTEMA: AVENIDA B TERMINAL OSMAN LOUREIRO
+  linhas: 0108 - 0108 - Clima Bom via Colina / Trapiche

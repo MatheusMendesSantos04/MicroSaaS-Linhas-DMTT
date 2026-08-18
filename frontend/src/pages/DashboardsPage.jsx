@@ -4,7 +4,7 @@ const TIPO_LABEL = { publico: "Público", interno: "Interno" };
 
 export default function DashboardsPage() {
   return (
-    <div className="page-content">
+    <div className="page-content page-content--wide">
       <h1 className="page-title">Dashboards — GEPOT</h1>
       <p className="page-subtitle">
         Relatórios e indicadores do setor, publicados no Power BI.

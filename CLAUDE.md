@@ -396,6 +396,23 @@ Fluxo para as 8 novas:
 
 ## Backlog (próximas fases)
 
+### Dashboards (GEPOT) — autenticação para dashboards "interno" (futuro, NÃO implementar ainda)
+
+`frontend/src/pages/DashboardsPage.jsx` + `frontend/src/dashboardsConfig.js` listam os dashboards do
+Power BI em cards (`/dashboards`). Cada entrada tem um campo `tipo`: `"publico"` (link de "Publicar na
+Web" do Power BI, sem login — qualquer um que abrir o link acessa) ou `"interno"` (compartilhamento
+autenticado do Power BI, só quem tem conta na organização acessa).
+
+Hoje os dois tipos se comportam igual no site: o card só abre o link em nova aba (`target="_blank"`),
+sem nenhuma barreira própria do MicroSaaS — a proteção de um dashboard `"interno"` depende inteiramente
+do próprio Power BI pedir login.
+
+**Ideia futura (decidida, mas ainda NÃO deve ser implementada):** quando um dashboard for `tipo:
+"interno"`, o usuário deve digitar uma senha *no próprio site* antes de conseguir abrir o link — uma
+camada de senha simples do lado do MicroSaaS, adicional ao login do Power BI. Ainda não foi definido
+como/onde essa senha seria armazenada nem o fluxo de UI. Só documentar por enquanto; não construir nada
+disso até receber instrução explícita pra retomar.
+
 ### Sessão 8 (pendente) — PDF do itinerário + sincronização total do KML
 
 **1. Exportação em PDF — refazer a captura do mapa**

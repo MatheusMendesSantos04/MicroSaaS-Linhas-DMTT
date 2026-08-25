@@ -1,0 +1,1642 @@
+==============================================================================
+1. RUAS REPETIDAS DENTRO DA MESMA LINHA/SENTIDO
+==============================================================================
+Total: 244 ocorrencias
+
+[CONSECUTIVAS -- provavel erro] 0027 - Vila Saem / Centro (volta)
+    "RUA PROFESSOR JOSÉ DA SILVEIRA CAMERINO" aparece nas posicoes [28, 29]
+[nao consecutivas -- pode ser trajeto real] 0012 - Jose da Silva Peixoto / Centro (ida)
+    "AVENIDA GOVERNADOR AFRÂNIO LAGES" aparece nas posicoes [7, 11]
+[nao consecutivas -- pode ser trajeto real] 0012 - Jose da Silva Peixoto / Centro (ida)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [8, 10]
+[nao consecutivas -- pode ser trajeto real] 0012 - Jose da Silva Peixoto / Centro (volta)
+    "AVENIDA GOVERNADOR AFRÂNIO LAGES" aparece nas posicoes [7, 9]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida)
+    "TRAVESSA CLETO CAMPELO" aparece nas posicoes [9, 17]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida)
+    "RUA DO ENCANTO" aparece nas posicoes [10, 16]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida)
+    "RUA JOSÉ JORGE DE MELO GONÇALES" aparece nas posicoes [11, 15]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida)
+    "AVENIDA GOVERNADOR AFRÂNIO LAGES" aparece nas posicoes [19, 23]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [20, 22]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "AVENIDA GOVERNADOR AFRÂNIO LAGES" aparece nas posicoes [5, 9]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [6, 8]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "TRAVESSA CLETO CAMPELO" aparece nas posicoes [11, 27]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "RUA DO ENCANTO" aparece nas posicoes [12, 19, 26]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "RUA JOSÉ JORGE DE MELO GONÇALVES" aparece nas posicoes [13, 18, 20, 25]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "RUA TRÊS" aparece nas posicoes [14, 21]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "RUA PAU DARCO" aparece nas posicoes [15, 22]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "TERMINAL DO JOSÉ DA SILVA PEIXOTO" aparece nas posicoes [16, 23]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "RUA DEMERVAL MACÁRIO" aparece nas posicoes [17, 24]
+[nao consecutivas -- pode ser trajeto real] 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [31, 35]
+[nao consecutivas -- pode ser trajeto real] 0027 - Vila Saem / Centro (ida)
+    "AVENIDA FERNANDES LIMA" aparece nas posicoes [6, 14, 26]
+[nao consecutivas -- pode ser trajeto real] 0027 - Vila Saem / Centro (ida)
+    "RUA MIGUEL PALMEIRA" aparece nas posicoes [7, 13]
+[nao consecutivas -- pode ser trajeto real] 0027 - Vila Saem / Centro (volta)
+    "AVENIDA FERNANDES LIMA" aparece nas posicoes [6, 10, 20]
+[nao consecutivas -- pode ser trajeto real] 0033 Jose Tenorio / Centro (ida)
+    "RUA NILO TORRES" aparece nas posicoes [6, 14]
+[nao consecutivas -- pode ser trajeto real] 0033 Jose Tenorio / Centro (ida)
+    "RUA CONSELHEIRO JOSÉ BARBOSA" aparece nas posicoes [7, 13]
+[nao consecutivas -- pode ser trajeto real] 0033 Jose Tenorio / Centro (ida)
+    "RUA ROBERTO SÍMONSEN" aparece nas posicoes [8, 12]
+[nao consecutivas -- pode ser trajeto real] 0033 Jose Tenorio / Centro (volta)
+    "RUA NILO TORRES" aparece nas posicoes [10, 18]
+[nao consecutivas -- pode ser trajeto real] 0033 Jose Tenorio / Centro (volta)
+    "RUA CONSELHEIRO JOSÉ BARBOSA" aparece nas posicoes [11, 17]
+[nao consecutivas -- pode ser trajeto real] 0033 Jose Tenorio / Centro (volta)
+    "RUA ROBERTO SIMONSEN" aparece nas posicoes [12, 16]
+[nao consecutivas -- pode ser trajeto real] 0041 - Feitosa X Centro / Farol (ida)
+    "AVENIDA COMENDADOR COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [2, 4]
+[nao consecutivas -- pode ser trajeto real] 0041 - Feitosa X Centro / Farol (ida)
+    "AVENIDA JUCA SAMPAIO" aparece nas posicoes [5, 15, 19]
+[nao consecutivas -- pode ser trajeto real] 0041 - Feitosa X Centro / Farol (ida)
+    "RUA PASTOR EURÍCO CALHEIROS" aparece nas posicoes [6, 13]
+[nao consecutivas -- pode ser trajeto real] 0041 - Feitosa X Centro / Farol (ida)
+    "RUA MARIA CECÍLIA DA ROCHA" aparece nas posicoes [7, 14]
+[nao consecutivas -- pode ser trajeto real] 0041 - Feitosa X Centro / Farol (ida)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [20, 23]
+[nao consecutivas -- pode ser trajeto real] 0041 - Feitosa X Centro / Farol (volta)
+    "AVENIDA JUCA SAMPAIO" aparece nas posicoes [12, 19]
+[nao consecutivas -- pode ser trajeto real] 0041 - Feitosa X Centro / Farol (volta)
+    "AVENIDA COMENDADOR COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [20, 25, 27]
+[nao consecutivas -- pode ser trajeto real] 0046 - Village II / Centro (ida)
+    "AVENIDA TANCRÊDO NEVES" aparece nas posicoes [5, 8]
+[nao consecutivas -- pode ser trajeto real] 0052 - T.I Eustáquio Gomes / Centro (ida)
+    "AVENIDA DURVAL DE GÓES MONTEIRO" aparece nas posicoes [6, 8]
+[nao consecutivas -- pode ser trajeto real] 0052 - T.I Eustáquio Gomes / Centro (ida)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [18, 21]
+[nao consecutivas -- pode ser trajeto real] 0052 - T.I Eustáquio Gomes / Centro (volta)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [7, 10]
+[nao consecutivas -- pode ser trajeto real] 0052 - T.I Eustáquio Gomes / Centro (volta)
+    "AVENIDA MENINO MARCELO" aparece nas posicoes [15, 19]
+[nao consecutivas -- pode ser trajeto real] 0056 - João Sampaio / Centro (ida)
+    "AVENIDA GALBA NOVAES DE CASTRO" aparece nas posicoes [5, 7]
+[nao consecutivas -- pode ser trajeto real] 0057 - Rio Novo / Centro Via Farol (volta)
+    "AVENIDA JORGE MONTENEGRO DE BARROS" aparece nas posicoes [14, 18]
+[nao consecutivas -- pode ser trajeto real] 0068 - Colina / Poço (volta)
+    "AVENIDA FERNANDES LIMA" aparece nas posicoes [11, 15]
+[nao consecutivas -- pode ser trajeto real] 0069 - Clima Bom / Centro (ida)
+    "RUA EDUARDO JORGE LOPES NOVAES" aparece nas posicoes [1, 5]
+[nao consecutivas -- pode ser trajeto real] 0069 - Clima Bom / Centro (ida)
+    "RUA JOSE GONZAGA DE ALMEIDA" aparece nas posicoes [9, 13]
+[nao consecutivas -- pode ser trajeto real] 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida)
+    "AVENIDA EMPRESÁRIO LOURIVAL LOBO FERREIRA" aparece nas posicoes [9, 11, 13]
+[nao consecutivas -- pode ser trajeto real] 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta)
+    "AVENIDA FERNANDES LIMA" aparece nas posicoes [18, 22]
+[nao consecutivas -- pode ser trajeto real] 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta)
+    "AVENIDA DENILMA BULHÕES" aparece nas posicoes [31, 35]
+[nao consecutivas -- pode ser trajeto real] 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta)
+    "AVENIDA EMPRESARIO LOURIVAL LOBO FERREIRA" aparece nas posicoes [37, 39, 42]
+[nao consecutivas -- pode ser trajeto real] 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta)
+    "RUA PREFEITO JOATAS MALTA DE ALENCAR" aparece nas posicoes [40, 45]
+[nao consecutivas -- pode ser trajeto real] 0104 - T.I Benedito Bentes / Trapiche (volta)
+    "AVENIDA SENADOR RUI PALMEIRA" aparece nas posicoes [0, 4, 6]
+[nao consecutivas -- pode ser trajeto real] 0104 - T.I Benedito Bentes / Trapiche (volta)
+    "RUA BENJAMIN CONSTANT" aparece nas posicoes [1, 7]
+[nao consecutivas -- pode ser trajeto real] 0104 - T.I Benedito Bentes / Trapiche (volta)
+    "AVENIDA SIQUEIRA CAMPOS" aparece nas posicoes [2, 8]
+[nao consecutivas -- pode ser trajeto real] 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta)
+    "AVENIDA DURVAL DE GÓES MONTEIRO" aparece nas posicoes [20, 26, 30]
+[nao consecutivas -- pode ser trajeto real] 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta)
+    "RUA PROFESSOR ANTONIO NEMESIO DE ALBUQUERQUE" aparece nas posicoes [21, 25]
+[nao consecutivas -- pode ser trajeto real] 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta)
+    "RUA DOUTOR JOSÉ CAMELO JÚNIOR" aparece nas posicoes [22, 24]
+[nao consecutivas -- pode ser trajeto real] 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta)
+    "AVENIDA NAÇÕES UNIDAS" aparece nas posicoes [27, 29]
+[nao consecutivas -- pode ser trajeto real] 0108 - Clima Bom via Colina / Trapiche (ida)
+    "AVENIDA JORGE MONTENEGRO DE BARROS" aparece nas posicoes [15, 25]
+[nao consecutivas -- pode ser trajeto real] 0108 - Clima Bom via Colina / Trapiche (ida)
+    "RUA EMANI DA ROCHA CAVALCANTE PASSOS" aparece nas posicoes [17, 19]
+[nao consecutivas -- pode ser trajeto real] 0108 - Clima Bom via Colina / Trapiche (ida)
+    "AVENIDA SIQUEIRA CAMPOS" aparece nas posicoes [43, 45]
+[nao consecutivas -- pode ser trajeto real] 0108 - Clima Bom via Colina / Trapiche (volta)
+    "AVENIDA FERNANDES LIMA" aparece nas posicoes [22, 26]
+[nao consecutivas -- pode ser trajeto real] 0108 - Clima Bom via Colina / Trapiche (volta)
+    "AVENIDA JORGE MONTENEGRO DE BARROS" aparece nas posicoes [34, 43]
+[nao consecutivas -- pode ser trajeto real] 0108 - Clima Bom via Colina / Trapiche (volta)
+    "RUA EMANI DA ROCHA CAVALCANTE PASSOS" aparece nas posicoes [42, 46]
+[nao consecutivas -- pode ser trajeto real] 0108 - Clima Bom via Colina / Trapiche (volta)
+    "RUA EDUARDO JORGE LOPES NOVAES" aparece nas posicoes [56, 60]
+[nao consecutivas -- pode ser trajeto real] 0109 - Cruz das Almas (ida)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [2, 4]
+[nao consecutivas -- pode ser trajeto real] 0109 - Cruz das Almas (ida)
+    "AVENIDA SENADOR RUI PALMEIRA" aparece nas posicoes [15, 17, 21]
+[nao consecutivas -- pode ser trajeto real] 0109 - Cruz das Almas (volta)
+    "AVENIDA VIEIRA PERDIGÃO" aparece nas posicoes [6, 8]
+[nao consecutivas -- pode ser trajeto real] 0110 - Graciliano Ramos / Trapiche (ida)
+    "AVENIDA MENINO MARCELO" aparece nas posicoes [4, 14]
+[nao consecutivas -- pode ser trajeto real] 0110 - Graciliano Ramos / Trapiche (ida)
+    "RUA JACI MELO" aparece nas posicoes [9, 11]
+[nao consecutivas -- pode ser trajeto real] 0110 - Graciliano Ramos / Trapiche (ida)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [18, 21]
+[nao consecutivas -- pode ser trajeto real] 0110 - Graciliano Ramos / Trapiche (ida)
+    "AVENIDA SIQUEIRA CAMPOS" aparece nas posicoes [31, 37]
+[nao consecutivas -- pode ser trajeto real] 0110 - Graciliano Ramos / Trapiche (volta)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [33, 35, 37]
+[nao consecutivas -- pode ser trajeto real] 0110 - Graciliano Ramos / Trapiche (volta)
+    "AVENIDA MENINO MARCELO" aparece nas posicoes [41, 49]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida)
+    "AL 101 NORTE - IPIOCA" aparece nas posicoes [1, 3]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida)
+    "AVENIDA GUSTAVO PAIVA" aparece nas posicoes [12, 17]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+    "AVENIDA SENADOR RUI PALMEIRA" aparece nas posicoes [1, 5]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+    "AVENIDA SILVESTRE PERICLES ( R. FORMOSA )" aparece nas posicoes [2, 14]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+    "AVENIDA GUSTAVO PAIVA" aparece nas posicoes [39, 44]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+    "AL 101 NORTE - IPIOCA" aparece nas posicoes [53, 55]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida)
+    "AL 101 NORTE - IPIOCA" aparece nas posicoes [1, 3]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida)
+    "AVENIDA GUSTAVO PAIVA" aparece nas posicoes [11, 16]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta)
+    "AVENIDA SENADOR RUI PALMEIRA" aparece nas posicoes [2, 6, 10]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta)
+    "RUA FORMOSA" aparece nas posicoes [5, 13]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta)
+    "AVENIDA SIQUEIRA CAMPOS" aparece nas posicoes [7, 11]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta)
+    "AVENIDA GUSTAVO PAIVA" aparece nas posicoes [36, 41]
+[nao consecutivas -- pode ser trajeto real] 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta)
+    "AL 101 NORTE - IPIOCA" aparece nas posicoes [50, 52]
+[nao consecutivas -- pode ser trajeto real] 0113 - T.I Eustáquio Gomes / Trapiche (ida)
+    "AVENIDA MONTE CASTELO" aparece nas posicoes [14, 18]
+[nao consecutivas -- pode ser trajeto real] 0113 - T.I Eustáquio Gomes / Trapiche (ida)
+    "AVENIDA SENADOR RUI PALMEIRA" aparece nas posicoes [19, 27]
+[nao consecutivas -- pode ser trajeto real] 0113 - T.I Eustáquio Gomes / Trapiche (volta)
+    "AVENIDA SENADOR RUI PALMEIRA" aparece nas posicoes [1, 9]
+[nao consecutivas -- pode ser trajeto real] 0113 - T.I Eustáquio Gomes / Trapiche (volta)
+    "RUA FORMOSA" aparece nas posicoes [6, 17]
+[nao consecutivas -- pode ser trajeto real] 0113 - T.I Eustáquio Gomes / Trapiche (volta)
+    "AVENIDA MONTE CASTELO" aparece nas posicoes [10, 14]
+[nao consecutivas -- pode ser trajeto real] 0114 - Cruz das Alamas X Trapiche (ida)
+    "AVENIDA GOVERNADOR AFRANIO LAGES" aparece nas posicoes [18, 20]
+[nao consecutivas -- pode ser trajeto real] 0114 - Cruz das Alamas X Trapiche (ida)
+    "AVENIDA SENADOR RUI PALMEIRA" aparece nas posicoes [30, 34]
+[nao consecutivas -- pode ser trajeto real] 0114 - Cruz das Alamas X Trapiche (volta)
+    "AVENIDA GOVERNADOR AFRÂNIO LAGES" aparece nas posicoes [16, 18]
+[nao consecutivas -- pode ser trajeto real] 0114 - Cruz das Alamas X Trapiche (volta)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [23, 33]
+[nao consecutivas -- pode ser trajeto real] 0115 - Chã da Jaqueira Trapiche (via centro - prado) (volta)
+    "AVENIDA FERNANDES LIMA" aparece nas posicoes [15, 19]
+[nao consecutivas -- pode ser trajeto real] 0116 - José Tenório X Trapiche (ida)
+    "AVENIDA JUCA SAMPAIO" aparece nas posicoes [6, 8]
+[nao consecutivas -- pode ser trajeto real] 0117 - Village II / Trapiche (ida)
+    "AVENIDA MENINO MARCELO" aparece nas posicoes [12, 22]
+[nao consecutivas -- pode ser trajeto real] 0117 - Village II / Trapiche (ida)
+    "AVENIDA SIQUEIRA CAMPOS" aparece nas posicoes [40, 46]
+[nao consecutivas -- pode ser trajeto real] 0117 - Village II / Trapiche (volta)
+    "AVENIDA VIEIRA PERDIGÃO" aparece nas posicoes [5, 7]
+[nao consecutivas -- pode ser trajeto real] 0117 - Village II / Trapiche (volta)
+    "AVENIDA MENINO MARCELO" aparece nas posicoes [38, 41, 53]
+[nao consecutivas -- pode ser trajeto real] 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [2, 4]
+[nao consecutivas -- pode ser trajeto real] 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (volta)
+    "RUA FORMOSA" aparece nas posicoes [6, 12]
+[nao consecutivas -- pode ser trajeto real] 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (volta)
+    "AVENIDA VIEIRA PERDIGÃO" aparece nas posicoes [13, 15]
+[nao consecutivas -- pode ser trajeto real] 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (volta)
+    "RUA PEDRO PAULINO" aparece nas posicoes [28, 35]
+[nao consecutivas -- pode ser trajeto real] 0214 - Henrique Equelman / Vergel (volta)
+    "RUA P - CONJ HENRIQUE HEQUELMAN" aparece nas posicoes [25, 28]
+[nao consecutivas -- pode ser trajeto real] 0217 - T.I. Benedito Bentes / Mercado (ida)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [9, 12]
+[nao consecutivas -- pode ser trajeto real] 0223 - Ipioca X Vergel Via Mercado (volta)
+    "RUA SANTO ANTÔNIO" aparece nas posicoes [2, 7]
+[nao consecutivas -- pode ser trajeto real] 0223 - Ipioca X Vergel Via Mercado (volta)
+    "AVENIDA PROFESSOR LOUREIRO" aparece nas posicoes [3, 8]
+[nao consecutivas -- pode ser trajeto real] 0223 - Ipioca X Vergel Via Mercado (volta)
+    "RUA FORMOSA" aparece nas posicoes [4, 9]
+[nao consecutivas -- pode ser trajeto real] 0223 - Ipioca X Vergel Via Mercado (volta)
+    "AVENIDA ALMIRANTE ÁLVARO CALHEIROS" aparece nas posicoes [27, 31]
+[nao consecutivas -- pode ser trajeto real] 0223 - Ipioca X Vergel Via Mercado (volta)
+    "AVENIDA JOÃO DAVINO" aparece nas posicoes [28, 33]
+[nao consecutivas -- pode ser trajeto real] 0223 - Ipioca X Vergel Via Mercado (volta)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [29, 34, 38]
+[nao consecutivas -- pode ser trajeto real] 0226 - Ipioca X Trapiche via Poço (ida)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [9, 13]
+[nao consecutivas -- pode ser trajeto real] 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida)
+    "AVENIDA PAULO HOLANDA" aparece nas posicoes [4, 8]
+[nao consecutivas -- pode ser trajeto real] 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida)
+    "AVENIDA LOURIVAL MELO MOTA" aparece nas posicoes [5, 9, 11]
+[nao consecutivas -- pode ser trajeto real] 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida)
+    "AVENIDA PRINCIPAL DA UFAL" aparece nas posicoes [6, 10]
+[nao consecutivas -- pode ser trajeto real] 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida)
+    "RUA EMANI DA ROCHA CAVALCANTE PASSOS" aparece nas posicoes [23, 27]
+[nao consecutivas -- pode ser trajeto real] 0301 - VILLAGE II / CHÃ DA JAQUEIRA (volta)
+    "RUA EMANI ROCHA CAVALCANTE PASSOS" aparece nas posicoes [13, 18]
+[nao consecutivas -- pode ser trajeto real] 0401 - Circular Bairros I (ida)
+    "RUA BOA VISTA" aparece nas posicoes [3, 24]
+[nao consecutivas -- pode ser trajeto real] 0401 - Circular Bairros I (ida)
+    "AVENIDA GOVERNADOR AFRANIO LAGES" aparece nas posicoes [14, 35]
+[nao consecutivas -- pode ser trajeto real] 0401 - Circular Bairros I (ida)
+    "AVENIDA FERNANDES LIMA" aparece nas posicoes [17, 28]
+[nao consecutivas -- pode ser trajeto real] 0401 - Circular Bairros I (ida)
+    "RUA CAMARAGIBE" aparece nas posicoes [25, 27]
+[nao consecutivas -- pode ser trajeto real] 0401 - Circular Bairros I (volta)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [1, 3]
+[nao consecutivas -- pode ser trajeto real] 0402 - Circular Barros  (ida)
+    "AVENIDA WALTER ANANIAS" aparece nas posicoes [18, 25]
+[nao consecutivas -- pode ser trajeto real] 0402 - Circular Barros  (ida)
+    "AVENIDA JUCA SAMPAIO" aparece nas posicoes [41, 45]
+[nao consecutivas -- pode ser trajeto real] 0402 - Circular Barros  (volta)
+    "AVENIDA GOVERNADOR AFRÂNIO LAGES" aparece nas posicoes [2, 15]
+[nao consecutivas -- pode ser trajeto real] 0402 - Circular Barros  (volta)
+    "AVENIDA FERNANDES LIMA" aparece nas posicoes [5, 14]
+[nao consecutivas -- pode ser trajeto real] 0403 - Trapiche / Ouro Preto (ida)
+    "RUA FORMOSA" aparece nas posicoes [4, 15]
+[nao consecutivas -- pode ser trajeto real] 0403 - Trapiche / Ouro Preto (ida)
+    "AVENIDA NELSON MARINHO DE ARAÚJO" aparece nas posicoes [46, 48, 50]
+[nao consecutivas -- pode ser trajeto real] 0404 - Trapiche / Novo Mundo (ida)
+    "RUA FORMOSA" aparece nas posicoes [4, 10]
+[nao consecutivas -- pode ser trajeto real] 0404 - Trapiche / Novo Mundo (ida)
+    "RUA DO SOL" aparece nas posicoes [14, 18]
+[nao consecutivas -- pode ser trajeto real] 0501 - Vergel X São Jorge (Via Jacintinho) (ida)
+    "RUA SANTA AMÁLIA" aparece nas posicoes [49, 53]
+[nao consecutivas -- pode ser trajeto real] 0501 - Vergel X São Jorge (Via Jacintinho) (volta)
+    "AVENIDA JUCA SAMPAIO" aparece nas posicoes [4, 7]
+[nao consecutivas -- pode ser trajeto real] 0502 - Vergel X São Jorge ( Via Farol) (ida)
+    "RUA NILO TORRES" aparece nas posicoes [22, 29]
+[nao consecutivas -- pode ser trajeto real] 0502 - Vergel X São Jorge ( Via Farol) (ida)
+    "RUA CONSELHEIRO JOSÉ BARBOSA" aparece nas posicoes [23, 28]
+[nao consecutivas -- pode ser trajeto real] 0502 - Vergel X São Jorge ( Via Farol) (ida)
+    "RUA SANTA AMÁLIA" aparece nas posicoes [33, 37]
+[nao consecutivas -- pode ser trajeto real] 0502 - Vergel X São Jorge ( Via Farol) (volta)
+    "RUA NILO TORRES" aparece nas posicoes [8, 16]
+[nao consecutivas -- pode ser trajeto real] 0502 - Vergel X São Jorge ( Via Farol) (volta)
+    "RUA CONSELHEIRO JOSÉ BARBOSA" aparece nas posicoes [9, 15]
+[nao consecutivas -- pode ser trajeto real] 0504 - Trapiche / São Jorge (volta)
+    "RUA SANTA AMÁLIA" aparece nas posicoes [5, 8]
+[nao consecutivas -- pode ser trajeto real] 0504 - Trapiche / São Jorge (volta)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [11, 15, 22]
+[nao consecutivas -- pode ser trajeto real] 0603 - Vergel / Mirante (ida)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [33, 41]
+[nao consecutivas -- pode ser trajeto real] 0603 - Vergel / Mirante (ida)
+    "RUA JOAO CANUTO DA SILVA" aparece nas posicoes [36, 40]
+[nao consecutivas -- pode ser trajeto real] 0604 Eustáquio Gomes / Cruz das Almas (ida)
+    "AVENIDA JUCA SAMPAIO" aparece nas posicoes [15, 17]
+[nao consecutivas -- pode ser trajeto real] 0604 Eustáquio Gomes / Cruz das Almas (volta)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [3, 5]
+[nao consecutivas -- pode ser trajeto real] 0606 - Jose Tenorio / MCZ Shopping (ida)
+    "RUA NILO TORRES" aparece nas posicoes [6, 12]
+[nao consecutivas -- pode ser trajeto real] 0606 - Jose Tenorio / MCZ Shopping (ida)
+    "RUA ROBERTO SÍMONSEN" aparece nas posicoes [7, 11]
+[nao consecutivas -- pode ser trajeto real] 0606 - Jose Tenorio / MCZ Shopping (volta)
+    "RUA NILO TORRES" aparece nas posicoes [15, 21]
+[nao consecutivas -- pode ser trajeto real] 0606 - Jose Tenorio / MCZ Shopping (volta)
+    "RUA ROBERTO SIMONSEN" aparece nas posicoes [16, 20]
+[nao consecutivas -- pode ser trajeto real] 0606 - Jose Tenorio / MCZ Shopping (volta)
+    "AVENIDA PRESIDENTE GETULIO VARGAS" aparece nas posicoes [28, 35]
+[nao consecutivas -- pode ser trajeto real] 0610 - Terminal Cruz das Almas X Ouro Preto (ida)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [3, 5]
+[nao consecutivas -- pode ser trajeto real] 0610 - Terminal Cruz das Almas X Ouro Preto (volta)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [28, 32, 34]
+[nao consecutivas -- pode ser trajeto real] 0612 - Eustáquio Gomes / Jatiúca (volta)
+    "AVENIDA GOVERNADOR AFRANIO LAGES" aparece nas posicoes [5, 8]
+[nao consecutivas -- pode ser trajeto real] 0614 - Trapiche / Mangabeiras (ida)
+    "RUA FORMOSA" aparece nas posicoes [4, 10]
+[nao consecutivas -- pode ser trajeto real] 0615 - Eustáquio Gomes / Mangabeiras (volta)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [4, 8]
+[nao consecutivas -- pode ser trajeto real] 0700 - Gruta / Ponta Verde / Term. Rotary (ida)
+    "TRAVESSA SENHOR DO BONFIM" aparece nas posicoes [16, 21]
+[nao consecutivas -- pode ser trajeto real] 0700 - Gruta / Ponta Verde / Term. Rotary (volta)
+    "AVENIDA MENINO MARCELO" aparece nas posicoes [18, 20]
+[nao consecutivas -- pode ser trajeto real] 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (ida)
+    "AVENIDA DONA CONSTANCA DE GÓES MONTEIRO" aparece nas posicoes [25, 34]
+[nao consecutivas -- pode ser trajeto real] 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (ida)
+    "AVENIDA MENINO MARCELO" aparece nas posicoes [6, 12]
+[nao consecutivas -- pode ser trajeto real] 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (ida)
+    "TRAVESSA SENHOR DO BONFIM" aparece nas posicoes [19, 24]
+[nao consecutivas -- pode ser trajeto real] 0707 - Graciliano Ramos / Ponta Verde (ida)
+    "AVENIDA MENINO MARCELO" aparece nas posicoes [4, 14]
+[nao consecutivas -- pode ser trajeto real] 0707 - Graciliano Ramos / Ponta Verde (volta)
+    "AVENIDA MENINO MARCELO" aparece nas posicoes [22, 33]
+[nao consecutivas -- pode ser trajeto real] 0708 - Cruz das Almas x Ponta Verde (ida)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [2, 4]
+[nao consecutivas -- pode ser trajeto real] 0708 - Cruz das Almas x Ponta Verde (ida)
+    "AVENIDA JUCA SAMPAIO" aparece nas posicoes [5, 8]
+[nao consecutivas -- pode ser trajeto real] 0708 - Cruz das Almas x Ponta Verde (ida)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [9, 12]
+[nao consecutivas -- pode ser trajeto real] 0708 - Cruz das Almas x Ponta Verde (ida)
+    "TRAVESSA SENHOR DO BONFIM" aparece nas posicoes [14, 19]
+[nao consecutivas -- pode ser trajeto real] 0708 - Cruz das Almas x Ponta Verde (volta)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [11, 13]
+[nao consecutivas -- pode ser trajeto real] 0708 - Cruz das Almas x Ponta Verde (volta)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [17, 19, 22]
+[nao consecutivas -- pode ser trajeto real] 0709 - Chã da Jaqueira / Ponta Verde (ida)
+    "AVENIDA EMPRESARIO LOURIVAL LOBO FERREIRA" aparece nas posicoes [4, 13]
+[nao consecutivas -- pode ser trajeto real] 0709 - Chã da Jaqueira / Ponta Verde (ida)
+    "RUA PERIMETRAL 3" aparece nas posicoes [7, 12]
+[nao consecutivas -- pode ser trajeto real] 0709 - Chã da Jaqueira / Ponta Verde (volta)
+    "RUA PERIMETRAL 3" aparece nas posicoes [18, 23]
+[nao consecutivas -- pode ser trajeto real] 0712 - Santos Durmont X Ponta Verde / Farol (ida)
+    "AVENIDA DEPUTADO HUMBERTO MENDES" aparece nas posicoes [16, 21]
+[nao consecutivas -- pode ser trajeto real] 0712 - Santos Durmont X Ponta Verde / Farol (ida)
+    "AVENIDA DA PAZ" aparece nas posicoes [17, 22]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (ida)
+    "RUA ESTUDANTE ARNOUMAR CHAGAS" aparece nas posicoes [13, 17]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (ida)
+    "RUA ERMANIDA ROCHA CAVALCANTE PASSOS" aparece nas posicoes [14, 16]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (ida)
+    "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE" aparece nas posicoes [26, 30]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (ida)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [27, 29]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (ida)
+    "TRAVESSA SENHOR DO BONFIM" aparece nas posicoes [31, 36]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (volta)
+    "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE" aparece nas posicoes [6, 10]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (volta)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [7, 9]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (volta)
+    "AVENIDA FERNANDES LIMA" aparece nas posicoes [14, 18]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (volta)
+    "AVENIDA JORGEM DE BARROS- SANTA AMELIA" aparece nas posicoes [26, 28]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (volta)
+    "RUA ESTUDANTE ARNOUMAR CHAGAS" aparece nas posicoes [29, 33]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (volta)
+    "RUA ERMANIDA ROCHA CAVALCANTE PASSOS" aparece nas posicoes [30, 32]
+[nao consecutivas -- pode ser trajeto real] 0714 - Rio Novo / Ponta Verde via Jacintinho (volta)
+    "RUA BOA VISTA" aparece nas posicoes [44, 46]
+[nao consecutivas -- pode ser trajeto real] 0716 - Clima bom / Ponta Verde (ida)
+    "RUA JOSE GONZAGA DE ALMEIDA" aparece nas posicoes [5, 9, 14]
+[nao consecutivas -- pode ser trajeto real] 0716 - Clima bom / Ponta Verde (volta)
+    "RUA JOSE GONZAGA DE ALMEIDA" aparece nas posicoes [22, 26]
+[nao consecutivas -- pode ser trajeto real] 0719 - Chã nova / Ponta Verde (ida)
+    "AVENIDA JORGE DE LIMA" aparece nas posicoes [4, 6]
+[nao consecutivas -- pode ser trajeto real] 0719 - Chã nova / Ponta Verde (ida)
+    "AVENIDA GALBA NOVAES DE CASTRO" aparece nas posicoes [7, 20]
+[nao consecutivas -- pode ser trajeto real] 0719 - Chã nova / Ponta Verde (volta)
+    "AVENIDA GALBA NOVAES DE CASTRO" aparece nas posicoes [13, 21, 34]
+[nao consecutivas -- pode ser trajeto real] 0719 - Chã nova / Ponta Verde (volta)
+    "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA" aparece nas posicoes [14, 20]
+[nao consecutivas -- pode ser trajeto real] 0719 - Chã nova / Ponta Verde (volta)
+    "ALAMEDA JOSÉ LOPES DE ALBUQUERQUE" aparece nas posicoes [15, 19]
+[nao consecutivas -- pode ser trajeto real] 0719 - Chã nova / Ponta Verde (volta)
+    "AVENIDA DENILMA BULHÕES" aparece nas posicoes [16, 18, 22, 24]
+[nao consecutivas -- pode ser trajeto real] 0719 - Chã nova / Ponta Verde (volta)
+    "RETORNO" aparece nas posicoes [17, 23]
+[nao consecutivas -- pode ser trajeto real] 0720 - Denisson Menezes / Ponta Verde (ida)
+    "AVENIDA LOURIVAL MELO MOTA - BR 104" aparece nas posicoes [11, 13]
+[nao consecutivas -- pode ser trajeto real] 0720 - Denisson Menezes / Ponta Verde (volta)
+    "AVENIDA ALICE CAROLINE" aparece nas posicoes [24, 26]
+[nao consecutivas -- pode ser trajeto real] 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+    "RUA EMANI ROCHA CAVALCANTE PASSOS" aparece nas posicoes [9, 13]
+[nao consecutivas -- pode ser trajeto real] 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+    "AVENIDA GOVERNADOR AFRÂNIO LAGES" aparece nas posicoes [28, 30, 34]
+[nao consecutivas -- pode ser trajeto real] 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+    "AVENIDA GOVERNADOR LAMENHA FILHO" aparece nas posicoes [31, 33]
+[nao consecutivas -- pode ser trajeto real] 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+    "TRAVESSA SENHOR DO BONFIM" aparece nas posicoes [35, 40]
+[nao consecutivas -- pode ser trajeto real] 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta)
+    "AVENIDA GOVERNADOR AFRANIO LAGES" aparece nas posicoes [18, 20]
+[nao consecutivas -- pode ser trajeto real] 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta)
+    "AVENIDA FERNANDES LIMA" aparece nas posicoes [24, 28]
+[nao consecutivas -- pode ser trajeto real] 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta)
+    "RUA EMANI ROCHA CAVALCANTE PASSOS" aparece nas posicoes [41, 44]
+[nao consecutivas -- pode ser trajeto real] 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida)
+    "AVENIDA ALICE CAROLINA" aparece nas posicoes [12, 14]
+[nao consecutivas -- pode ser trajeto real] 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida)
+    "AVENIDA TANCREDO NEVES" aparece nas posicoes [18, 22]
+[nao consecutivas -- pode ser trajeto real] 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta)
+    "AVENIDA DA PAZ" aparece nas posicoes [4, 6]
+[nao consecutivas -- pode ser trajeto real] 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta)
+    "AVENIDA TANCREDO NEVES" aparece nas posicoes [28, 31]
+[nao consecutivas -- pode ser trajeto real] 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta)
+    "AVENIDA ALICE CAROLINA" aparece nas posicoes [35, 37]
+[nao consecutivas -- pode ser trajeto real] 0802 - Colina / Benedito Bentes (volta)
+    "RUA DOUTOR JOÃO CRISÓSTOMO DE FARIAS" aparece nas posicoes [9, 12]
+[nao consecutivas -- pode ser trajeto real] 0802 - Colina / Benedito Bentes (volta)
+    "RUA JOSE GONZAGA DE ALMEIDA" aparece nas posicoes [10, 13]
+[nao consecutivas -- pode ser trajeto real] 0807 - T.I. Benedito Bentes / Aprígio (ida)
+    "AVENIDA ROTA DO MAR" aparece nas posicoes [17, 22]
+[nao consecutivas -- pode ser trajeto real] 0807 - T.I. Benedito Bentes / Aprígio (ida)
+    "CONJUNTO MORADA DO PLANALTO" aparece nas posicoes [19, 21]
+[nao consecutivas -- pode ser trajeto real] 0807 - T.I. Benedito Bentes / Aprígio (volta)
+    "AVENIDA ROTA DO MAR" aparece nas posicoes [4, 10]
+[nao consecutivas -- pode ser trajeto real] 0807 - T.I. Benedito Bentes / Aprígio (volta)
+    "CONJUNTO MORADA DO PLANALTO" aparece nas posicoes [7, 9]
+[nao consecutivas -- pode ser trajeto real] 0809 - T.I. Benedito Bentes / Selma Bandeira (ida)
+    "AVENIDA DOUTOR LUIZ ROCHA TOLEDO" aparece nas posicoes [7, 9]
+[nao consecutivas -- pode ser trajeto real] 0809 - T.I. Benedito Bentes / Selma Bandeira (volta)
+    "AVENIDA DOUTOR LUIZ ROCHA TOLEDO" aparece nas posicoes [5, 8]
+[nao consecutivas -- pode ser trajeto real] 0812 T.I. Benedito Bentes / Carminha (ida)
+    "AVENIDA MUNDAÚ" aparece nas posicoes [5, 8]
+[nao consecutivas -- pode ser trajeto real] 0812 T.I. Benedito Bentes / Carminha (volta)
+    "RUA HENRIQUE FRANCISCO BULHÔES" aparece nas posicoes [1, 5]
+[nao consecutivas -- pode ser trajeto real] 0900 - Cruz das Almas/UFAL (Via José Tenório) (ida)
+    "RUA SÃO FRANCISCO DE ASSIS" aparece nas posicoes [17, 21]
+[nao consecutivas -- pode ser trajeto real] 0900 - Cruz das Almas/UFAL (Via José Tenório) (ida)
+    "RUA CAMARAGIBE" aparece nas posicoes [18, 22]
+[nao consecutivas -- pode ser trajeto real] 0900 - Cruz das Almas/UFAL (Via José Tenório) (volta)
+    "RUA CAMARAGIBE" aparece nas posicoes [9, 13]
+[nao consecutivas -- pode ser trajeto real] 0900 - Cruz das Almas/UFAL (Via José Tenório) (volta)
+    "RUA SÃO FRANCISCO DE ASSIS" aparece nas posicoes [10, 14]
+[nao consecutivas -- pode ser trajeto real] 0900 - Cruz das Almas/UFAL (Via José Tenório) (volta)
+    "AVENIDA PRESIDENTE GETULIO VARGAS" aparece nas posicoes [17, 23]
+[nao consecutivas -- pode ser trajeto real] 0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital) (ida)
+    "AVENIDA LOURIVAL MELO MOTA - BR 104" aparece nas posicoes [7, 10]
+[nao consecutivas -- pode ser trajeto real] 0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital) (volta)
+    "AVENIDA LOURIVAL MELO MOTA - BR 104" aparece nas posicoes [4, 6]
+[nao consecutivas -- pode ser trajeto real] 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+    "AVENIDA TANCREDO NEVES" aparece nas posicoes [14, 35]
+[nao consecutivas -- pode ser trajeto real] 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+    "AVENIDA ALICE CAROLINE" aparece nas posicoes [21, 23]
+[nao consecutivas -- pode ser trajeto real] 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+    "AVENIDA LOURIVAL MELO MOTA - BR 104" aparece nas posicoes [29, 38]
+[nao consecutivas -- pode ser trajeto real] 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+    "AVENIDA ENGENHEIRO CORINTHO CAMPELO DA PAZ" aparece nas posicoes [31, 36]
+[nao consecutivas -- pode ser trajeto real] 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (volta)
+    "AVENIDA LOURIVAL MELO MOTA - BR 104" aparece nas posicoes [4, 6]
+[nao consecutivas -- pode ser trajeto real] 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (volta)
+    "AVENIDA ALICE CAROLINE" aparece nas posicoes [12, 14]
+[nao consecutivas -- pode ser trajeto real] 1020 - Cruz das Almas X São Jorge (volta)
+    "RUA SANTA AMÁLIA" aparece nas posicoes [3, 5]
+[nao consecutivas -- pode ser trajeto real] 1020 - Cruz das Almas X São Jorge (volta)
+    "AVENIDA JOSEFA DE MELO" aparece nas posicoes [4, 7]
+[nao consecutivas -- pode ser trajeto real] 1022 - Cruz da Almas X Guaxuma (ida)
+    "AL 101 NORTE - GUAXUMA" aparece nas posicoes [4, 6]
+[nao consecutivas -- pode ser trajeto real] 1023 - Cruz das Almas X Jose Tenorio (ida)
+    "AVENIDA PRESIDENTE GETULIO VARGAS" aparece nas posicoes [8, 13]
+[nao consecutivas -- pode ser trajeto real] 1023 - Cruz das Almas X Jose Tenorio (volta)
+    "AVENIDA PRESIDENTE GETULIO VARGAS" aparece nas posicoes [2, 5]
+[nao consecutivas -- pode ser trajeto real] 1023 - Cruz das Almas X Jose Tenorio (volta)
+    "AVENIDA NELSON MARINHO DE ARAÚJO" aparece nas posicoes [6, 8]
+[nao consecutivas -- pode ser trajeto real] 1023 - Cruz das Almas X Jose Tenorio (volta)
+    "AVENIDA JUCA SAMPAIO" aparece nas posicoes [11, 13]
+[nao consecutivas -- pode ser trajeto real] 1023 - Cruz das Almas X Jose Tenorio (volta)
+    "AVENIDA COMENDADOR GUSTAVO PAIVA" aparece nas posicoes [14, 18, 20]
+[nao consecutivas -- pode ser trajeto real] 1024 - Rotary X Cruz das Almas  (ida)
+    "AVENIDA JOSEFA DE MELO" aparece nas posicoes [10, 13]
+[nao consecutivas -- pode ser trajeto real] 1024 - Rotary X Cruz das Almas  (volta)
+    "AVENIDA PRESIDENTE ROOSEVELT" aparece nas posicoes [8, 13]
+[nao consecutivas -- pode ser trajeto real] 1024 - Rotary X Cruz das Almas  (volta)
+    "AVENIDA MENINO MARCELO" aparece nas posicoes [9, 12]
+[nao consecutivas -- pode ser trajeto real] 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos) (ida)
+    "AVENIDA CACHOEIRA DO MEIRIM" aparece nas posicoes [4, 12]
+[nao consecutivas -- pode ser trajeto real] 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos) (volta)
+    "AVENIDA CACHOEIRA DO MEIRIM" aparece nas posicoes [5, 12]
+
+==============================================================================
+2. ABREVIACOES USADAS NO ARQUIVO (padronizar via busca-e-substitui)
+==============================================================================
+
+==============================================================================
+3. NOMES PARECIDOS -- PROVAVEL MESMA RUA, GRAFIA DIFERENTE (dentro do manual)
+==============================================================================
+Total: 230 grupos
+
+--- grupo com 6 variantes, 124 ocorrencias no total ---
+    "AVENIDA FERNANDES LIMA"  (96x)  ex: 0012 - Jose da Silva Peixoto / Centro (ida); 0027 - Vila Saem / Centro (ida); 0027 - Vila Saem / Centro (ida) ... +93
+    "AVENIDA MOREIRA LIMA"  (22x)  ex: 0012 - Jose da Silva Peixoto / Centro (volta); 0027 - Vila Saem / Centro (volta); 0033 Jose Tenorio / Centro (volta) ... +19
+    "AVENIDA JORGE DE LIMA"  (3x)  ex: 0719 - Chã nova / Ponta Verde (ida); 0719 - Chã nova / Ponta Verde (ida); 0719 - Chã nova / Ponta Verde (volta)
+    "RETORNOA V FERNANDES LIMA"  (1x)  ex: 0900 - Cruz das Almas/UFAL (Via José Tenório) (volta)
+    "VIA SECUNDARIA AVENIDA FERNANDES LIMA"  (1x)  ex: 0900 - Cruz das Almas/UFAL (Via José Tenório) (volta)
+    "AVENIDA JORGE LIMA"  (1x)  ex: 0719 - Chã nova / Ponta Verde (volta)
+
+--- grupo com 5 variantes, 95 ocorrencias no total ---
+    "AVENIDA COMENDADOR GUSTAVO PAIVA"  (71x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta) ... +68
+    "AVENIDA COMENDADOR COMENDADOR GUSTAVO PAIVA"  (14x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0041 - Feitosa X Centro / Farol (ida) ... +11
+    "AVENIDA GUSTAVO PAIVA"  (8x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta) ... +5
+    "AVENIDE COMENDADOR GUSTAVO PAIVA"  (1x)  ex: 0617 - Cruz das Almas X Ipioca / Saúde (volta)
+    "RUA COMENDADOR GUSTAVO PAIVA"  (1x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta)
+
+--- grupo com 15 variantes, 92 ocorrencias no total ---
+    "AVENIDA DA PAZ"  (30x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta) ... +27
+    "AVENIDA B"  (13x)  ex: 0004 - Rio Largo via Mata do Rolo (volta); 0065 - Rosane Collor / Centro(farol) (ida); 0065 - Rosane Collor / Centro(farol) (volta) ... +10
+    "AVENIDA C"  (9x)  ex: 0065 - Rosane Collor / Centro(farol) (ida); 0065 - Rosane Collor / Centro(farol) (volta); 0108 - Clima Bom via Colina / Trapiche (ida) ... +6
+    "AVENIDA MUNDAÚ"  (9x)  ex: 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar) (ida); 0804 T.I. Benedito Bentes / Cidade Sorriso I (ida); 0804 T.I. Benedito Bentes / Cidade Sorriso I (volta) ... +6
+    "AVENIDA A"  (8x)  ex: 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar) (ida); 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar) (volta); 0804 T.I. Benedito Bentes / Cidade Sorriso I (ida) ... +5
+    "AVENIDA BRASIL"  (6x)  ex: 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida); 0606 - Jose Tenorio / MCZ Shopping (volta); 0613 - vergel / Guaxuma (DESATIVADO) (volta) ... +3
+    "AVENIDA BETEL"  (4x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (ida); 0036 - DUBEAUX LEÃO / CENTRO (volta); 0039 - Dubeaux Leao / Centro (ida) ... +1
+    "AVENIDA TABULEIRO"  (2x)  ex: 4006 - T.I Benedito Bentes / Mocambo (ida); 4006 - T.I Benedito Bentes / Mocambo (volta)
+    "AVENIDA CAETÉS"  (2x)  ex: 0807 - T.I. Benedito Bentes / Aprígio (ida); 0807 - T.I. Benedito Bentes / Aprígio (volta)
+    "AVENIDA PRATAGY"  (2x)  ex: 4006 - T.I Benedito Bentes / Mocambo (ida); 4006 - T.I Benedito Bentes / Mocambo (volta)
+    "AVENIDA DO FUTURO"  (2x)  ex: 0809 - T.I. Benedito Bentes / Selma Bandeira (ida); 0809 - T.I. Benedito Bentes / Selma Bandeira (volta)
+    "AVENIDA GUAXUMA"  (2x)  ex: 0805 - T.I. Benedito Bentes / Guaxuma (ida); 0805 - T.I. Benedito Bentes / Guaxuma (volta)
+    "AVENIDA LITORÂNEA"  (1x)  ex: 0114 - Cruz das Alamas X Trapiche (ida)
+    "AVENIDA ALAMEDA C UM"  (1x)  ex: 0710 - Chã da Jaqueira/ Ponta Verde (ida)
+    "AVENIDA JAQUEIRAS"  (1x)  ex: 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+
+--- grupo com 24 variantes, 91 ocorrencias no total ---
+    "RUA I"  (12x)  ex: 0110 - Graciliano Ramos / Trapiche (ida); 0110 - Graciliano Ramos / Trapiche (volta); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida) ... +9
+    "RUA 01"  (11x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0117 - Village II / Trapiche (ida) ... +8
+    "RUA B"  (10x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (volta) ... +7
+    "RUA F"  (9x)  ex: 0033 Jose Tenorio / Centro (volta); 0052 - T.I Eustáquio Gomes / Centro (volta); 0116 - José Tenório X Trapiche (volta) ... +6
+    "RUA H"  (6x)  ex: 0502 - Vergel X São Jorge ( Via Farol) (ida); 0502 - Vergel X São Jorge ( Via Farol) (volta); 0504 - Trapiche / São Jorge (ida) ... +3
+    "RUA G"  (5x)  ex: 0033 Jose Tenorio / Centro (volta); 0606 - Jose Tenorio / MCZ Shopping (volta); 0807 - T.I. Benedito Bentes / Aprígio (ida) ... +2
+    "RUA K UM"  (4x)  ex: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta); 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida); 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (volta) ... +1
+    "RUA E"  (4x)  ex: 0052 - T.I Eustáquio Gomes / Centro (volta); 0117 - Village II / Trapiche (volta); 0809 - T.I. Benedito Bentes / Selma Bandeira (ida) ... +1
+    "RUA L"  (4x)  ex: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta); 0812 T.I. Benedito Bentes / Carminha (volta); 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (volta) ... +1
+    "RUA P"  (3x)  ex: 0214 - Henrique Equelman / Vergel (ida); 0807 - T.I. Benedito Bentes / Aprígio (ida); 0807 - T.I. Benedito Bentes / Aprígio (volta)
+    "RUA J"  (3x)  ex: 0214 - Henrique Equelman / Vergel (ida); 0807 - T.I. Benedito Bentes / Aprígio (ida); 0807 - T.I. Benedito Bentes / Aprígio (volta)
+    "RUA C - D"  (3x)  ex: 0033 Jose Tenorio / Centro (volta); 0116 - José Tenório X Trapiche (volta); 0900 - Cruz das Almas/UFAL (Via José Tenório) (volta)
+    "RUA A7"  (2x)  ex: 0807 - T.I. Benedito Bentes / Aprígio (ida); 0807 - T.I. Benedito Bentes / Aprígio (volta)
+    "RUA A - B"  (2x)  ex: 0116 - José Tenório X Trapiche (volta); 0900 - Cruz das Almas/UFAL (Via José Tenório) (volta)
+    "RUA Q"  (2x)  ex: 0807 - T.I. Benedito Bentes / Aprígio (ida); 0807 - T.I. Benedito Bentes / Aprígio (volta)
+    "RUA X"  (2x)  ex: 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (ida); 4003 - T.I Eustáquio gomes / Grand Jardim (volta)
+    "RUA O"  (2x)  ex: 0807 - T.I. Benedito Bentes / Aprígio (ida); 0807 - T.I. Benedito Bentes / Aprígio (volta)
+    "RUA R, G"  (1x)  ex: 0033 Jose Tenorio / Centro (volta)
+    "RUA 20 A"  (1x)  ex: 0056 - João Sampaio / Centro (ida)
+    "RUA B 38 B"  (1x)  ex: 0812 T.I. Benedito Bentes / Carminha (volta)
+    "RUA F, G"  (1x)  ex: 0606 - Jose Tenorio / MCZ Shopping (volta)
+    "RUA C-54"  (1x)  ex: 0805 - T.I. Benedito Bentes / Guaxuma (volta)
+    "RUA DA FLORESTA"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (volta)
+    "RUA U"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+
+--- grupo com 9 variantes, 81 ocorrencias no total ---
+    "RUA BARÃO DE ATALAIA"  (21x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida); 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida) ... +18
+    "RUA BARÃO DE PENEDO"  (17x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta) ... +14
+    "RUA BARÃO DE ANADIA"  (16x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta) ... +13
+    "RUA BARÃO DE ALAGOAS"  (9x)  ex: 0068 - Colina / Poço (volta); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta); 0108 - Clima Bom via Colina / Trapiche (volta) ... +6
+    "RUA BARÃO DE MACEIÓ"  (6x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (volta); 0068 - Colina / Poço (volta); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta) ... +3
+    "RUA BARÃO DE JARAGUÁ"  (4x)  ex: 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (volta); 0716 - Clima bom / Ponta Verde (volta); 0720 - Denisson Menezes / Ponta Verde (volta) ... +1
+    "RUA BARÃO DE MACEIO"  (4x)  ex: 0108 - Clima Bom via Colina / Trapiche (volta); 0115 - Chã da Jaqueira Trapiche (via centro - prado) (volta); 0401 - Circular Bairros I (ida) ... +1
+    "RUA BARAO DE ANADIA"  (2x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+    "RUA BARAO DE PENEDO"  (2x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 8 variantes, 68 ocorrencias no total ---
+    "AVENIDA JUCA SAMPAIO"  (51x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0033 Jose Tenorio / Centro (volta) ... +48
+    "AVENIDA JUCA NUNES"  (9x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0116 - José Tenório X Trapiche (volta); 0117 - Village II / Trapiche (volta) ... +6
+    "AVENIDA JUCA SAMPAIO - MAC 204"  (3x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0707 - Graciliano Ramos / Ponta Verde (volta); 0708 - Cruz das Almas x Ponta Verde (volta)
+    "AVENIDA GERALDO SAMPAIO"  (1x)  ex: 0807 - T.I. Benedito Bentes / Aprígio (volta)
+    "AVENIDA JUCA SAMPAIO -"  (1x)  ex: 0404 - Trapiche / Novo Mundo (volta)
+    "AVENIDA JUCA SAMPAIO "  (1x)  ex: 0700 - Gruta / Ponta Verde / Term. Rotary (ida)
+    "AVENIDA SAMPAIO MARQUES"  (1x)  ex: 0504 - Trapiche / São Jorge (ida)
+    "AVENIDA JUCACA SAMPAIO"  (1x)  ex: 0707 - Graciliano Ramos / Ponta Verde (ida)
+
+--- grupo com 2 variantes, 64 ocorrencias no total ---
+    "AVENIDA MENINO MARCELO"  (62x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0033 Jose Tenorio / Centro (ida) ... +59
+    "AVENIDO MENINO MARCELO"  (2x)  ex: 0802 - Colina / Benedito Bentes (volta); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (volta)
+
+--- grupo com 6 variantes, 64 ocorrencias no total ---
+    "AL 101 NORTE - GUAXUMA"  (19x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida) ... +16
+    "AL 101 NORTE - IPIOCA"  (16x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta) ... +13
+    "AL 101 NORTE - PESCARIA"  (12x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida) ... +9
+    "AL 101 NORTE - PRATAGY"  (12x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida) ... +9
+    "AL - 101 NORTE"  (3x)  ex: 0221 - Saúde / Cruz das Almas (ida); 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar) (ida); 0601 - T.I. Benedito Bentes / Jatiúca (Via Rota do Mar) (volta)
+    "101 NORTE - IPIOCA"  (2x)  ex: 1019 - Alto de Ipioca (ida); 1019 - Alto de Ipioca (volta)
+
+--- grupo com 4 variantes, 62 ocorrencias no total ---
+    "TRAVESSA SENHOR DO BONFIM"  (28x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0110 - Graciliano Ramos / Trapiche (volta) ... +25
+    "PRAÇA SENHOR DO BONFIM"  (24x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (ida); 0104 - T.I Benedito Bentes / Trapiche (volta) ... +21
+    "VILA SENHOR DO BONFIM"  (6x)  ex: 0110 - Graciliano Ramos / Trapiche (volta); 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (volta); 0613 - vergel / Guaxuma (DESATIVADO) (ida) ... +3
+    "VILLA SENHOR DO BONFIM"  (4x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0226 - Ipioca X Trapiche via Poço (volta) ... +1
+
+--- grupo com 5 variantes, 59 ocorrencias no total ---
+    "AVENIDA COMENDADOR LEÃO"  (31x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta) ... +28
+    "AVENIDA COMENDADOR CALAÇA"  (17x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida); 0104 - T.I Benedito Bentes / Trapiche (ida) ... +14
+    "RUA COMENDADOR CALAÇA"  (9x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida); 0117 - Village II / Trapiche (volta); 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida) ... +6
+    "AVENIDA COMENDADOR CALACA"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida)
+    "AVENIDA COMENDADOR LEAO"  (1x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 2 variantes, 58 ocorrencias no total ---
+    "AVENIDA DURVAL DE GÓES MONTEIRO"  (57x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (ida); 0036 - DUBEAUX LEÃO / CENTRO (volta); 0037 - Salvador Lyra / Centro (ida) ... +54
+    "AVENIDA DURVAL DE GOES MONTEIRO"  (1x)  ex: 0042 - T.I. Benedito Bentes / Centro (ida)
+
+--- grupo com 3 variantes, 50 ocorrencias no total ---
+    "AVENIDA GOVERNADOR AFRANIO LAGES"  (22x)  ex: 0012 - Jose da Silva Peixoto / Centro (ida); 0012 - Jose da Silva Peixoto / Centro (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida) ... +19
+    "AVENIDA GOVERNADOR AFRÂNIO LAGES"  (20x)  ex: 0012 - Jose da Silva Peixoto / Centro (ida); 0012 - Jose da Silva Peixoto / Centro (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida) ... +17
+    "AVENIDA GOVERNADOR AFRANIO LAGES - LESTE OESTE"  (8x)  ex: 0041 - Feitosa X Centro / Farol (ida); 0041 - Feitosa X Centro / Farol (volta); 0714 - Rio Novo / Ponta Verde via Jacintinho (ida) ... +5
+
+--- grupo com 2 variantes, 49 ocorrencias no total ---
+    "AVENIDA SENADOR RUI PALMEIRA"  (48x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida) ... +45
+    "RUA SENADOR RUI PALMEIRA"  (1x)  ex: 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (ida)
+
+--- grupo com 3 variantes, 49 ocorrencias no total ---
+    "AVENIDA ÁLVARO OTACÍLIO"  (45x)  ex: 0109 - Cruz das Almas (volta); 0114 - Cruz das Alamas X Trapiche (volta); 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida) ... +42
+    "AVENIDA ALVARO DE OTACILIO"  (3x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta); 0401 - Circular Bairros I (volta)
+    "AVENIDA ALVARO OTACILIO"  (1x)  ex: 0607 - T.I. Eustáquio Gomes / Maceió Shopping (ida)
+
+--- grupo com 7 variantes, 48 ocorrencias no total ---
+    "RUA SANTO ANTÔNIO"  (34x)  ex: 0058 Fernão Velho / Centro via Farol (volta); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta) ... +31
+    "RUA SANTO ANTONIO"  (5x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta) ... +2
+    "RUA ANTONIO SILVA"  (2x)  ex: 0069 - Clima Bom / Centro (ida); 0069 - Clima Bom / Centro (volta)
+    "RUA ANTÔNIO CLAUDINO"  (2x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (volta)
+    "RUA ANTÔNIO HOLANDA"  (2x)  ex: 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida); 0802 - Colina / Benedito Bentes (volta)
+    "RUA ANTÔNIO FÉLIX"  (2x)  ex: 1018 - Alto do Cruzeiro / AL 101 Norte (Andraújo) (ida); 1018 - Alto do Cruzeiro / AL 101 Norte (Andraújo) (volta)
+    "RUA ANTONIO MURTA"  (1x)  ex: 0027 - Vila Saem / Centro (ida)
+
+--- grupo com 4 variantes, 47 ocorrencias no total ---
+    "RUA PEDRO PAULINO"  (29x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0110 - Graciliano Ramos / Trapiche (volta) ... +26
+    "RUA PEDRO MONTEIRO"  (8x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida) ... +5
+    "RUA SÃO PEDRO"  (8x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0117 - Village II / Trapiche (ida) ... +5
+    "RUA PEDRO COUTINHO"  (2x)  ex: 0004 - Rio Largo via Mata do Rolo (ida); 0004 - Rio Largo via Mata do Rolo (volta)
+
+--- grupo com 2 variantes, 46 ocorrencias no total ---
+    "AVENIDA SIQUEIRA CAMPOS"  (45x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida); 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida) ... +42
+    "AAVENIDA SIQUEIRA CAMPOS"  (1x)  ex: 0108 - Clima Bom via Colina / Trapiche (volta)
+
+--- grupo com 6 variantes, 42 ocorrencias no total ---
+    "RUA SANTA CRUZ"  (14x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida); 0602 - Salvador Lyra / Maeió Shopping (ida) ... +11
+    "RUA SANTA LUZIA"  (14x)  ex: 0004 - Rio Largo via Mata do Rolo (ida); 0027 - Vila Saem / Centro (ida); 0027 - Vila Saem / Centro (volta) ... +11
+    "RUA SANTA AMÁLIA"  (11x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (ida); 0501 - Vergel X São Jorge (Via Jacintinho) (ida); 0502 - Vergel X São Jorge ( Via Farol) (ida) ... +8
+    "RUA SANTA MARIANA"  (1x)  ex: 0214 - Henrique Equelman / Vergel (volta)
+    "RUA SANTA LUIZA"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (volta)
+    "RUA SANTA RITA"  (1x)  ex: 0027 - Vila Saem / Centro (ida)
+
+--- grupo com 2 variantes, 42 ocorrencias no total ---
+    "AVENIDA VIEIRA PERDIGÃO"  (38x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta) ... +35
+    "AVENIDA VIEIRA PERDIGAO"  (4x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida); 0402 - Circular Barros  (ida) ... +1
+
+--- grupo com 3 variantes, 41 ocorrencias no total ---
+    "TERMINAL DE CRUZ DAS ALMAS"  (26x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0041 - Feitosa X Centro / Farol (ida) ... +23
+    "TERMINAL CRUZ DAS ALMAS"  (13x)  ex: 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida); 0603 - Vergel / Mirante (ida); 0604 Eustáquio Gomes / Cruz das Almas (ida) ... +10
+    "TERMINAL DE CRUZ DAS ALMAS(RUA JOÃO ULISSES)"  (2x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 2 variantes, 41 ocorrencias no total ---
+    "TERMINAL TRAPICHE DA BARRA"  (26x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida) ... +23
+    "TERMINAL DO TRAPICHE"  (15x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta) ... +12
+
+--- grupo com 2 variantes, 40 ocorrencias no total ---
+    "RUA DO COMERCIO"  (33x)  ex: 0012 - Jose da Silva Peixoto / Centro (ida); 0012 - Jose da Silva Peixoto / Centro (volta); 0027 - Vila Saem / Centro (ida) ... +30
+    "RUA DO COMÉRCIO"  (7x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (ida); 0042 - T.I. Benedito Bentes / Centro (ida); 0042 - T.I. Benedito Bentes / Centro (volta) ... +4
+
+--- grupo com 5 variantes, 40 ocorrencias no total ---
+    "RUA JOÃO CANUTO DA SILVA"  (12x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida) ... +9
+    "RUA JOAO CANUTO DA SILVA"  (11x)  ex: 0504 - Trapiche / São Jorge (ida); 0603 - Vergel / Mirante (ida); 0603 - Vergel / Mirante (ida) ... +8
+    "RUA JOÃO CANÚTO DA SILVA"  (9x)  ex: 0041 - Feitosa X Centro / Farol (ida); 0041 - Feitosa X Centro / Farol (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta) ... +6
+    "RUA JOAO CANUTO"  (6x)  ex: 0221 - Saúde / Cruz das Almas (volta); 0223 - Ipioca X Vergel Via Mercado (ida); 0226 - Ipioca X Trapiche via Poço (ida) ... +3
+    "RUA JOÃO CANUTO"  (2x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 2 variantes, 40 ocorrencias no total ---
+    "AVENIDA WALTER ANANIAS"  (38x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta) ... +35
+    "AVENIDA WALTER DE ANANIAS"  (2x)  ex: 0710 - Chã da Jaqueira/ Ponta Verde (ida); 0720 - Denisson Menezes / Ponta Verde (volta)
+
+--- grupo com 3 variantes, 39 ocorrencias no total ---
+    "AVENIDA MOREIRA E SILVA"  (36x)  ex: 0012 - Jose da Silva Peixoto / Centro (ida); 0027 - Vila Saem / Centro (ida); 0033 Jose Tenorio / Centro (ida) ... +33
+    "AVENIDA JOSÉ MANHÃES"  (2x)  ex: 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida); 4013 - T.I. Eustáquio Gomes / Forene (J. Saúde) (ida)
+    "AVENIDA JOSÉ DA SILVA"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (volta)
+
+--- grupo com 2 variantes, 39 ocorrencias no total ---
+    "AVENIDA MONTE CASTELO"  (28x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0109 - Cruz das Almas (volta) ... +25
+    "TRAVESSA MONTE CASTELO"  (11x)  ex: 0109 - Cruz das Almas (volta); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta) ... +8
+
+--- grupo com 2 variantes, 37 ocorrencias no total ---
+    "AVENIDA LOURIVAL MELO MOTA"  (21x)  ex: 0004 - Rio Largo via Mata do Rolo (ida); 0004 - Rio Largo via Mata do Rolo (volta); 0046 - Village II / Centro (ida) ... +18
+    "AVENIDA LOURIVAL MELO MOTA - BR 104"  (16x)  ex: 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (ida); 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (volta); 0720 - Denisson Menezes / Ponta Verde (ida) ... +13
+
+--- grupo com 2 variantes, 36 ocorrencias no total ---
+    "RUA DO SOL"  (30x)  ex: 0012 - Jose da Silva Peixoto / Centro (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0027 - Vila Saem / Centro (volta) ... +27
+    "RUA RECANTO DO SOL"  (6x)  ex: 0069 - Clima Bom / Centro (ida); 0069 - Clima Bom / Centro (volta); 0108 - Clima Bom via Colina / Trapiche (ida) ... +3
+
+--- grupo com 2 variantes, 36 ocorrencias no total ---
+    "AVENIDA MUNIZ FALCÃO"  (29x)  ex: 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida) ... +26
+    "RUA MUNIZ FALCÃO"  (7x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0116 - José Tenório X Trapiche (ida); 0116 - José Tenório X Trapiche (volta) ... +4
+
+--- grupo com 4 variantes, 36 ocorrencias no total ---
+    "RUA PERIMETRAL 3"  (14x)  ex: 0056 - João Sampaio / Centro (ida); 0056 - João Sampaio / Centro (volta); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida) ... +11
+    "RUA PERIMETRAL 2"  (8x)  ex: 0056 - João Sampaio / Centro (volta); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta) ... +5
+    "RUA PERIMETRAL 4"  (7x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0709 - Chã da Jaqueira / Ponta Verde (ida) ... +4
+    "RUA PERIMETRAL 5"  (7x)  ex: 0056 - João Sampaio / Centro (volta); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0709 - Chã da Jaqueira / Ponta Verde (ida) ... +4
+
+--- grupo com 4 variantes, 35 ocorrencias no total ---
+    "RUA MELO MORAIS"  (25x)  ex: 0027 - Vila Saem / Centro (ida); 0033 Jose Tenorio / Centro (ida); 0036 - DUBEAUX LEÃO / CENTRO (ida) ... +22
+    "RUA JACI MELO"  (7x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (ida); 0110 - Graciliano Ramos / Trapiche (ida); 0110 - Graciliano Ramos / Trapiche (ida) ... +4
+    "RUA JACY MELO"  (2x)  ex: 0117 - Village II / Trapiche (volta); 0707 - Graciliano Ramos / Ponta Verde (volta)
+    "RUA HAMILTON MORAIS"  (1x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (volta)
+
+--- grupo com 9 variantes, 35 ocorrencias no total ---
+    "RUA SÃO JOÃO"  (10x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0115 - Chã da Jaqueira Trapiche (via centro - prado) (ida) ... +7
+    "RUA SÃO PAULO"  (6x)  ex: 0057 - Rio Novo / Centro Via Farol (volta); 0058 Fernão Velho / Centro via Farol (volta); 0065 - Rosane Collor / Centro(farol) (volta) ... +3
+    "RUA SÃO FRANCISCO"  (6x)  ex: 0214 - Henrique Equelman / Vergel (volta); 0401 - Circular Bairros I (ida); 0402 - Circular Barros  (volta) ... +3
+    "RUA SÃO LUIZ"  (5x)  ex: 0041 - Feitosa X Centro / Farol (ida); 0041 - Feitosa X Centro / Farol (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta) ... +2
+    "RUA SÃO BENEDITO"  (3x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0707 - Graciliano Ramos / Ponta Verde (volta)
+    "RUA SÃO CAETANO"  (2x)  ex: 0214 - Henrique Equelman / Vergel (ida); 0214 - Henrique Equelman / Vergel (volta)
+    "RUA SÃO FÉLIX"  (1x)  ex: 0613 - vergel / Guaxuma (DESATIVADO) (ida)
+    "RUA SAO LUIZ"  (1x)  ex: 0709 - Chã da Jaqueira / Ponta Verde (volta)
+    "RUA SAO FELIX"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 3 variantes, 35 ocorrencias no total ---
+    "TERMINAL INTEGRADO BENEDITO BENTES"  (32x)  ex: 0042 - T.I. Benedito Bentes / Centro (ida); 0042 - T.I. Benedito Bentes / Centro (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta) ... +29
+    "TERMINAL BENEDITO BENTES"  (2x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida); 0104 - T.I Benedito Bentes / Trapiche (ida)
+    "BENEDITO BENTES"  (1x)  ex: 0214 - Henrique Equelman / Vergel (ida)
+
+--- grupo com 6 variantes, 34 ocorrencias no total ---
+    "RUA DOUTOR PASSOS DE MIRANDA"  (15x)  ex: 0027 - Vila Saem / Centro (ida); 0068 - Colina / Poço (ida); 0068 - Colina / Poço (volta) ... +12
+    "RUA DOUTOR LUIS PONTES DE MIRANDA"  (8x)  ex: 0104 - T.I Benedito Bentes / Trapiche (ida); 0117 - Village II / Trapiche (ida); 0223 - Ipioca X Vergel Via Mercado (ida) ... +5
+    "RUA DOUTOR PONTES DE MIRANDA"  (6x)  ex: 0057 - Rio Novo / Centro Via Farol (ida); 0057 - Rio Novo / Centro Via Farol (volta); 0058 Fernão Velho / Centro via Farol (ida) ... +3
+    "RUA DOUTOR LUÍS PONTES DE MIRANDA"  (3x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida); 0109 - Cruz das Almas (ida); 0110 - Graciliano Ramos / Trapiche (ida)
+    "RUA DOUTOR LUÍS PONTOS DE MIRANDA"  (1x)  ex: 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida)
+    "RUA DOUTOR LUIZ PONTES DE MIRANDA"  (1x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 2 variantes, 34 ocorrencias no total ---
+    "AVENIDA BENEDITO BENTES"  (32x)  ex: 0042 - T.I. Benedito Bentes / Centro (ida); 0042 - T.I. Benedito Bentes / Centro (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida) ... +29
+    "AVENIDA BENEDITO LOUREIRO"  (2x)  ex: 0117 - Village II / Trapiche (volta); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (volta)
+
+--- grupo com 4 variantes, 33 ocorrencias no total ---
+    "TERMINAL INTEGRADO EUSTÁQUIO GOMES"  (28x)  ex: 0052 - T.I Eustáquio Gomes / Centro (ida); 0052 - T.I Eustáquio Gomes / Centro (volta); 0113 - T.I Eustáquio Gomes / Trapiche (ida) ... +25
+    "RUA X - CJ EUSTAQUIO GOMES"  (3x)  ex: 0113 - T.I Eustáquio Gomes / Trapiche (ida); 0612 - Eustáquio Gomes / Jatiúca (ida); 0615 - Eustáquio Gomes / Mangabeiras (ida)
+    "TERMINAL EUSTAQUIO GOMES"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (volta)
+    "TERMINAL EUSTÁQUIO GOMES"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (ida)
+
+--- grupo com 2 variantes, 33 ocorrencias no total ---
+    "AVENIDA NORMA PIMENTEL DA COSTA"  (31x)  ex: 0042 - T.I. Benedito Bentes / Centro (ida); 0042 - T.I. Benedito Bentes / Centro (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida) ... +28
+    "RUA NORMA PIMENTEL DA COSTA"  (2x)  ex: 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (volta); 0812 T.I. Benedito Bentes / Carminha (volta)
+
+--- grupo com 2 variantes, 32 ocorrencias no total ---
+    "RUA B TRINTA E OITO"  (22x)  ex: 0042 - T.I. Benedito Bentes / Centro (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0104 - T.I Benedito Bentes / Trapiche (volta) ... +19
+    "RUA B TRINTA E NOVE"  (10x)  ex: 0042 - T.I. Benedito Bentes / Centro (ida); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida); 0104 - T.I Benedito Bentes / Trapiche (ida) ... +7
+
+--- grupo com 3 variantes, 31 ocorrencias no total ---
+    "RUA CLETO CAMPELO"  (18x)  ex: 0012 - Jose da Silva Peixoto / Centro (ida); 0012 - Jose da Silva Peixoto / Centro (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida) ... +15
+    "AVENIDA CLETO CAMPELO"  (7x)  ex: 0114 - Cruz das Alamas X Trapiche (ida); 0117 - Village II / Trapiche (ida); 0404 - Trapiche / Novo Mundo (volta) ... +4
+    "TRAVESSA CLETO CAMPELO"  (6x)  ex: 0012 - Jose da Silva Peixoto / Centro (ida); 0012 - Jose da Silva Peixoto / Centro (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida) ... +3
+
+--- grupo com 3 variantes, 30 ocorrencias no total ---
+    "RUA DOUTOR FÁBIO WANDERLEY"  (23x)  ex: 0052 - T.I Eustáquio Gomes / Centro (ida); 0052 - T.I Eustáquio Gomes / Centro (volta); 0113 - T.I Eustáquio Gomes / Trapiche (ida) ... +20
+    "AVENIDA DOUTOR FÁBIO WANDERLEY"  (6x)  ex: 0004 - Rio Largo via Mata do Rolo (ida); 0004 - Rio Largo via Mata do Rolo (volta); 0607 - T.I. Eustáquio Gomes / Maceió Shopping (ida) ... +3
+    "AVENIDA DOUTOR FABIO WANDERLEY"  (1x)  ex: 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (volta)
+
+--- grupo com 4 variantes, 30 ocorrencias no total ---
+    "RUA DOUTOR LAURO MACHADO COSTA"  (15x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0041 - Feitosa X Centro / Farol (volta); 0109 - Cruz das Almas (volta) ... +12
+    "RUA PROFESSOR LAURO COSTA"  (8x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida) ... +5
+    "RUA DOUTOR MANOEL MACHADO"  (6x)  ex: 0057 - Rio Novo / Centro Via Farol (ida); 0057 - Rio Novo / Centro Via Farol (volta); 0058 Fernão Velho / Centro via Farol (ida) ... +3
+    "RUA DOUTOR LAURO COSTA"  (1x)  ex: 0900 - Cruz das Almas/UFAL (Via José Tenório) (volta)
+
+--- grupo com 5 variantes, 30 ocorrencias no total ---
+    "AVENIDA DONA CONSTANCA DE GÓES MONTEIRO"  (19x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0109 - Cruz das Almas (volta); 0116 - José Tenório X Trapiche (volta) ... +16
+    "AVENIDA DONA CONSTANÇA DE GÓES MONTEIRO"  (4x)  ex: 0114 - Cruz das Alamas X Trapiche (volta); 0612 - Eustáquio Gomes / Jatiúca (volta); 0614 - Trapiche / Mangabeiras (volta) ... +1
+    "AVENIDA DONA CONSTANCA"  (3x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0223 - Ipioca X Vergel Via Mercado (volta); 0613 - vergel / Guaxuma (DESATIVADO) (ida)
+    "AVENIDA DONA CONSTANCA DE GOES MONTEIRO"  (2x)  ex: 0226 - Ipioca X Trapiche via Poço (volta); 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (volta)
+    "AVENIDA DONA CONSTANÇA"  (2x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 5 variantes, 30 ocorrencias no total ---
+    "RUA MARQUÊS DE ABRANTES"  (10x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida) ... +7
+    "RUA SAMPAIO MARQUES"  (8x)  ex: 0612 - Eustáquio Gomes / Jatiúca (ida); 0700 - Gruta / Ponta Verde / Term. Rotary (ida); 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta) (ida) ... +5
+    "RUA MARQUÊS DE TAMANDARÉ"  (6x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (volta); 0037 - Salvador Lyra / Centro (volta); 0042 - T.I. Benedito Bentes / Centro (volta) ... +3
+    "RUA MARQUÊS DE POMBAL"  (5x)  ex: 0403 - Trapiche / Ouro Preto (ida); 0403 - Trapiche / Ouro Preto (volta); 0404 - Trapiche / Novo Mundo (volta) ... +2
+    "RUA MARQUES DE POMBAL"  (1x)  ex: 0404 - Trapiche / Novo Mundo (ida)
+
+--- grupo com 2 variantes, 29 ocorrencias no total ---
+    "AVENIDA ALMIRANTE ÁLVARO CALHEIROS"  (27x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0109 - Cruz das Almas (volta) ... +24
+    "AVENIDA ALMIRANTE ALVARO CALHEIROS"  (2x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 3 variantes, 29 ocorrencias no total ---
+    "RUA BOA VISTA"  (26x)  ex: 0057 - Rio Novo / Centro Via Farol (ida); 0057 - Rio Novo / Centro Via Farol (volta); 0069 - Clima Bom / Centro (ida) ... +23
+    "RUA BOA VISTA - IPIOCA"  (2x)  ex: 1019 - Alto de Ipioca (ida); 1019 - Alto de Ipioca (volta)
+    "RUA BOA VISTA - P GROSSA"  (1x)  ex: 0716 - Clima bom / Ponta Verde (ida)
+
+--- grupo com 2 variantes, 28 ocorrencias no total ---
+    "RUA BUARQUE DE MACÊDO"  (19x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta) ... +16
+    "RUA BUARQUE DE MACEDO"  (9x)  ex: 0104 - T.I Benedito Bentes / Trapiche (volta); 0109 - Cruz das Almas (volta); 0110 - Graciliano Ramos / Trapiche (volta) ... +6
+
+--- grupo com 2 variantes, 28 ocorrencias no total ---
+    "RUA CORONEL PARANHOS"  (20x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (ida) ... +17
+    "RUA CORONEL CAHET"  (8x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0108 - Clima Bom via Colina / Trapiche (ida); 0113 - T.I Eustáquio Gomes / Trapiche (ida) ... +5
+
+--- grupo com 4 variantes, 27 ocorrencias no total ---
+    "RUA EMANI DA ROCHA CAVALCANTE PASSOS"  (11x)  ex: 0057 - Rio Novo / Centro Via Farol (volta); 0065 - Rosane Collor / Centro(farol) (ida); 0065 - Rosane Collor / Centro(farol) (volta) ... +8
+    "RUA EMANI ROCHA CAVALCANTE PASSOS"  (11x)  ex: 0057 - Rio Novo / Centro Via Farol (ida); 0065 - Rosane Collor / Centro(farol) (ida); 0065 - Rosane Collor / Centro(farol) (volta) ... +8
+    "RUA ERMANIDA ROCHA CAVALCANTE PASSOS"  (4x)  ex: 0714 - Rio Novo / Ponta Verde via Jacintinho (ida); 0714 - Rio Novo / Ponta Verde via Jacintinho (ida); 0714 - Rio Novo / Ponta Verde via Jacintinho (volta) ... +1
+    "RUA ERMANI DA ROCHA CAVALCANTE PASSOS"  (1x)  ex: 0301 - VILLAGE II / CHÃ DA JAQUEIRA (volta)
+
+--- grupo com 4 variantes, 26 ocorrencias no total ---
+    "AVENIDA PRESIDENTE GETULIO VARGAS"  (22x)  ex: 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (volta); 0116 - José Tenório X Trapiche (ida) ... +19
+    "AVENIDA GETULIO VARGAS"  (2x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta)
+    "AVENIDA GETÚLIO VARGAS"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (volta)
+    "AVENIDA PRESIDENTE GETÚLIO VARGAS"  (1x)  ex: 0214 - Henrique Equelman / Vergel (volta)
+
+--- grupo com 2 variantes, 26 ocorrencias no total ---
+    "LADEIRA GERALDO SANTOS MELO"  (21x)  ex: 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida); 0602 - Salvador Lyra / Maeió Shopping (ida); 0602 - Salvador Lyra / Maeió Shopping (volta) ... +18
+    "LADEIRA DOUTOR GERALDO MELO DOS SANTOS"  (5x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida); 0606 - Jose Tenorio / MCZ Shopping (ida); 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta) (ida) ... +2
+
+--- grupo com 3 variantes, 25 ocorrencias no total ---
+    "AVENIDA PROFESSOR LOUREIRO"  (21x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta); 0108 - Clima Bom via Colina / Trapiche (volta) ... +18
+    "AVENIDA PROFESSOR CLAUDIOM LOUREIRO"  (2x)  ex: 0226 - Ipioca X Trapiche via Poço (ida); 0403 - Trapiche / Ouro Preto (ida)
+    "AVENIDA PROFESSOR CLAUDIO M. LOUREIRO"  (2x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 4 variantes, 22 ocorrencias no total ---
+    "AVENIDA JOSEFA DE MELO"  (13x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0501 - Vergel X São Jorge (Via Jacintinho) (ida) ... +10
+    "AVENIDA JOSEFA MELO"  (5x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (ida); 0502 - Vergel X São Jorge ( Via Farol) (ida); 0504 - Trapiche / São Jorge (volta) ... +2
+    "AVENIDA JOSEPHA DE MELO"  (3x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0615 - Eustáquio Gomes / Mangabeiras (ida)
+    "RETORNO JOSEPHA DE MELO"  (1x)  ex: 0504 - Trapiche / São Jorge (volta)
+
+--- grupo com 4 variantes, 22 ocorrencias no total ---
+    "PRAÇA SAO VICENTE"  (10x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta) ... +7
+    "PRAÇA SÃO VICENTE"  (5x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0109 - Cruz das Almas (volta) ... +2
+    "PRAÇA SAO JOSE"  (5x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida); 0057 - Rio Novo / Centro Via Farol (ida); 0057 - Rio Novo / Centro Via Farol (volta) ... +2
+    "PRAÇA SÃO JOSÉ"  (2x)  ex: 0058 Fernão Velho / Centro via Farol (ida); 0058 Fernão Velho / Centro via Farol (volta)
+
+--- grupo com 2 variantes, 22 ocorrencias no total ---
+    "RUA DOUTOR PEDRO MONTEIRO"  (13x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida); 0104 - T.I Benedito Bentes / Trapiche (ida) ... +10
+    "RUA DOUTOR PEDRO MARCELO DE OLIVEIRA"  (9x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta) ... +6
+
+--- grupo com 3 variantes, 22 ocorrencias no total ---
+    "AVENIDA EMPRESARIO LOURIVAL LOBO FERREIRA"  (9x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta) ... +6
+    "AVENIDA EMPRESARIAL LOURIVAL LOBO FERREIRA"  (7x)  ex: 0056 - João Sampaio / Centro (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta) ... +4
+    "AVENIDA EMPRESÁRIO LOURIVAL LOBO FERREIRA"  (6x)  ex: 0056 - João Sampaio / Centro (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta) ... +3
+
+--- grupo com 2 variantes, 21 ocorrencias no total ---
+    "RUA SETE DE SETEMBRO"  (20x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0057 - Rio Novo / Centro Via Farol (ida); 0058 Fernão Velho / Centro via Farol (ida) ... +17
+    "RUA SETE A"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (volta)
+
+--- grupo com 2 variantes, 21 ocorrencias no total ---
+    "AVENIDA SANTOS PACHECO"  (12x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0068 - Colina / Poço (ida) ... +9
+    "RUA SANTOS PACHECO"  (9x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0109 - Cruz das Almas (volta) ... +6
+
+--- grupo com 3 variantes, 21 ocorrencias no total ---
+    "AVENIDA TANCREDO NEVES"  (15x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida) ... +12
+    "RUA TANCRÊDO NEVES"  (5x)  ex: 0046 - Village II / Centro (volta); 0117 - Village II / Trapiche (ida); 0117 - Village II / Trapiche (volta) ... +2
+    "AVENIDA TANCRÊDO NEVES"  (1x)  ex: 0046 - Village II / Centro (ida)
+
+--- grupo com 3 variantes, 21 ocorrencias no total ---
+    "ROTATORIA DO VIADUTO DA PRF"  (10x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida); 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (volta); 0052 - T.I Eustáquio Gomes / Centro (ida) ... +7
+    "VIADUTO DA PRF"  (9x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0113 - T.I Eustáquio Gomes / Trapiche (ida) ... +6
+    "RETORNO VIADUTO DA PRF"  (2x)  ex: 0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital) (volta); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (volta)
+
+--- grupo com 3 variantes, 20 ocorrencias no total ---
+    "RUA PROFESSOR JOSÉ DA SILVEIRA CAMERINO"  (16x)  ex: 0027 - Vila Saem / Centro (ida); 0027 - Vila Saem / Centro (volta); 0027 - Vila Saem / Centro (volta) ... +13
+    "RUA PROFESSOR JOSÉ PAULINO"  (3x)  ex: 0012 - Jose da Silva Peixoto / Centro (volta); 0041 - Feitosa X Centro / Farol (volta); 0401 - Circular Bairros I (ida)
+    "RUA PROFESSOR JOSÉ DA SILVA CAMERINO"  (1x)  ex: 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 4 variantes, 20 ocorrencias no total ---
+    "RUA DEZESSEIS DE SETEMBRO"  (17x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida); 0109 - Cruz das Almas (ida) ... +14
+    "RUA 7 DE SETEMBRO(CENTRO)"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+    "RUA 7 DE SETEMBRO"  (1x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta)
+    "RUA 16 DE SETEMBRO"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 4 variantes, 20 ocorrencias no total ---
+    "RUA JORNALISTA OSEAS ROSAS"  (7x)  ex: 0108 - Clima Bom via Colina / Trapiche (ida); 0109 - Cruz das Almas (ida); 0110 - Graciliano Ramos / Trapiche (ida) ... +4
+    "RUA JORNALISTA OSEIAS ROSAS"  (6x)  ex: 0104 - T.I Benedito Bentes / Trapiche (volta); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida); 0116 - José Tenório X Trapiche (ida) ... +3
+    "RUA JORNALISTA OSÉIAS ROSAS"  (4x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida); 0108 - Clima Bom via Colina / Trapiche (volta) ... +1
+    "RUA JORNALISTA OSÉAS ROSAS"  (3x)  ex: 0401 - Circular Bairros I (volta); 0504 - Trapiche / São Jorge (volta); 0614 - Trapiche / Mangabeiras (volta)
+
+--- grupo com 3 variantes, 20 ocorrencias no total ---
+    "TERMINAL DO VERGEL"  (15x)  ex: 0109 - Cruz das Almas (ida); 0109 - Cruz das Almas (volta); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida) ... +12
+    "TERMINAL VERGEL DO LAGO"  (4x)  ex: 0502 - Vergel X São Jorge ( Via Farol) (ida); 0502 - Vergel X São Jorge ( Via Farol) (volta); 0603 - Vergel / Mirante (ida) ... +1
+    "TERMINAL DO VERGEL(PRAÇA DO CRUZEIRO)"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 2 variantes, 19 ocorrencias no total ---
+    "RUA PASTOR EURÍCO CALHEIROS"  (18x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida); 0041 - Feitosa X Centro / Farol (ida); 0041 - Feitosa X Centro / Farol (ida) ... +15
+    "RUA PASTOR EUSÍCO CALHEIROS"  (1x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+
+--- grupo com 5 variantes, 19 ocorrencias no total ---
+    "AVENIDA DOUTOR ABELARDO PONTES LIMA"  (12x)  ex: 0109 - Cruz das Almas (ida); 0113 - T.I Eustáquio Gomes / Trapiche (ida); 0113 - T.I Eustáquio Gomes / Trapiche (volta) ... +9
+    "RUA DOUTOR ABELARDO PONTES LIMA"  (3x)  ex: 0214 - Henrique Equelman / Vergel (ida); 0700 - Gruta / Ponta Verde / Term. Rotary (volta); 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta) (ida)
+    "RUA ANTÔNIO REGINALDO PONTES LIMA"  (2x)  ex: 0041 - Feitosa X Centro / Farol (ida); 0041 - Feitosa X Centro / Farol (volta)
+    " DOUTOR ABELARDO PONTES LIMA"  (1x)  ex: 1024 - Rotary X Cruz das Almas  (volta)
+    "RUA ABELARDO PONTES LIMA"  (1x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta)
+
+--- grupo com 6 variantes, 19 ocorrencias no total ---
+    "5 ROTATORIA DO CONJ JARDIM ROYAL"  (5x)  ex: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta); 4003 - T.I Eustáquio gomes / Grand Jardim (volta) ... +2
+    "3 ROTATORIA DO CONJ JARDIM ROYAL"  (5x)  ex: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta); 4003 - T.I Eustáquio gomes / Grand Jardim (volta) ... +2
+    "4 ROTATORIA DO CONJ JARDIM ROYAL"  (5x)  ex: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta); 4003 - T.I Eustáquio gomes / Grand Jardim (volta) ... +2
+    "SAIDA DO CONJ JARDIM ROYAL"  (2x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida); 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (volta)
+    "VIA DE LIGACAO AO CONJ JARDIM ROYAL"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+    "JARDIM ROYAL ROTATORIA III"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+
+--- grupo com 4 variantes, 18 ocorrencias no total ---
+    "RUA PADRE CÍCERO"  (6x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0214 - Henrique Equelman / Vergel (ida) ... +3
+    "RUA PADRE CICERO ROMAO BATISTA"  (5x)  ex: 0117 - Village II / Trapiche (volta); 0403 - Trapiche / Ouro Preto (volta); 0404 - Trapiche / Novo Mundo (volta) ... +2
+    "RUA PADRE CICERO ROMÃO BATISTA"  (4x)  ex: 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (volta); 0403 - Trapiche / Ouro Preto (ida); 0404 - Trapiche / Novo Mundo (ida) ... +1
+    "RUA PADRE CICERO"  (3x)  ex: 0117 - Village II / Trapiche (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta)
+
+--- grupo com 2 variantes, 18 ocorrencias no total ---
+    "RUA ZADIR ÍNDIO"  (14x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta) ... +11
+    "RUA ZADIR INDIO"  (4x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta); 0402 - Circular Barros  (ida) ... +1
+
+--- grupo com 2 variantes, 18 ocorrencias no total ---
+    "RUA JOSÉ GONZAGA DE ALMEIDA"  (11x)  ex: 0065 - Rosane Collor / Centro(farol) (ida); 0065 - Rosane Collor / Centro(farol) (volta); 0069 - Clima Bom / Centro (ida) ... +8
+    "RUA JOSE GONZAGA DE ALMEIDA"  (7x)  ex: 0069 - Clima Bom / Centro (ida); 0069 - Clima Bom / Centro (volta); 0108 - Clima Bom via Colina / Trapiche (volta) ... +4
+
+--- grupo com 2 variantes, 17 ocorrencias no total ---
+    "RUA PADRE SIZENANDO SILVA"  (16x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida); 0104 - T.I Benedito Bentes / Trapiche (ida) ... +13
+    "RUA PADRE SIZEANANDO SILVA"  (1x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta)
+
+--- grupo com 3 variantes, 17 ocorrencias no total ---
+    "RUA ROBERTO SIMONSEN"  (9x)  ex: 0033 Jose Tenorio / Centro (volta); 0033 Jose Tenorio / Centro (volta); 0502 - Vergel X São Jorge ( Via Farol) (volta) ... +6
+    "AVENIDA ROBERTO SIMONSEN"  (4x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0502 - Vergel X São Jorge ( Via Farol) (ida) ... +1
+    "RUA ROBERTO SÍMONSEN"  (4x)  ex: 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (ida); 0606 - Jose Tenorio / MCZ Shopping (ida) ... +1
+
+--- grupo com 2 variantes, 17 ocorrencias no total ---
+    "RUA DESEMBARGADOR CARLOS DE GUSMÃO"  (16x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (ida); 0036 - DUBEAUX LEÃO / CENTRO (volta); 0037 - Salvador Lyra / Centro (ida) ... +13
+    "RAU DESEMBARGADOR CARLOS DE GUSMÃO"  (1x)  ex: 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta)
+
+--- grupo com 2 variantes, 17 ocorrencias no total ---
+    "AVENIDA ALICE CAROLINE"  (9x)  ex: 0117 - Village II / Trapiche (ida); 0117 - Village II / Trapiche (volta); 0720 - Denisson Menezes / Ponta Verde (ida) ... +6
+    "AVENIDA ALICE CAROLINA"  (8x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida) ... +5
+
+--- grupo com 2 variantes, 17 ocorrencias no total ---
+    "RUA SALVADOR CALMON"  (16x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0110 - Graciliano Ramos / Trapiche (volta) ... +13
+    "RUA SALVADOR CALMOM"  (1x)  ex: 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 2 variantes, 17 ocorrencias no total ---
+    "RUA JANGADEIROS ALAGOANOS"  (16x)  ex: 0109 - Cruz das Almas (volta); 0223 - Ipioca X Vergel Via Mercado (volta); 0402 - Circular Barros  (ida) ... +13
+    "RUA JANGADEIROS ALAGOANO"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 2 variantes, 16 ocorrencias no total ---
+    "RUA AUGUSTA"  (14x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (volta); 0052 - T.I Eustáquio Gomes / Centro (volta) ... +11
+    "RUA LADISLAU NETO - RUA AUGUSTA"  (2x)  ex: 0217 - T.I. Benedito Bentes / Mercado (volta); 0404 - Trapiche / Novo Mundo (ida)
+
+--- grupo com 3 variantes, 16 ocorrencias no total ---
+    "AVENIDA ROTARY - AVENIDA MENDONÇA JÚNIOR"  (12x)  ex: 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (volta); 0068 - Colina / Poço (volta) ... +9
+    "AVENIDA MENDONÇA JUNIOR"  (3x)  ex: 0115 - Chã da Jaqueira Trapiche (via centro - prado) (volta); 0714 - Rio Novo / Ponta Verde via Jacintinho (volta); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta)
+    "AVENIDA MENDONÇA JUNIOR - AVENIDA ROTARY"  (1x)  ex: 0108 - Clima Bom via Colina / Trapiche (volta)
+
+--- grupo com 2 variantes, 16 ocorrencias no total ---
+    "RUA NOSSA SENHORA DA APARECIDA"  (10x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (ida); 0036 - DUBEAUX LEÃO / CENTRO (volta); 0052 - T.I Eustáquio Gomes / Centro (ida) ... +7
+    "RUA NOSSA SENHORA DA CONCEIÇÃO"  (6x)  ex: 0069 - Clima Bom / Centro (ida); 0069 - Clima Bom / Centro (volta); 0108 - Clima Bom via Colina / Trapiche (ida) ... +3
+
+--- grupo com 4 variantes, 16 ocorrencias no total ---
+    "AVENIDA DOUTOR JULIO MARQUES LUZ"  (6x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0602 - Salvador Lyra / Maeió Shopping (volta); 0610 - Terminal Cruz das Almas X Ouro Preto (volta) ... +3
+    "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA"  (5x)  ex: 0223 - Ipioca X Vergel Via Mercado (ida); 0223 - Ipioca X Vergel Via Mercado (volta); 0504 - Trapiche / São Jorge (ida) ... +2
+    "AVENIDA DOUTOR JÚLIO MARQUES LUZ"  (4x)  ex: 0109 - Cruz das Almas (volta); 0114 - Cruz das Alamas X Trapiche (volta); 0401 - Circular Bairros I (volta) ... +1
+    "AVENIDA DOUTOR JULIO MARQUES LUZ - AV. JATIUCA"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 3 variantes, 15 ocorrencias no total ---
+    "RUA SÁ E ALBUQUERQUE"  (10x)  ex: 0504 - Trapiche / São Jorge (volta); 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (volta); 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (ida) ... +7
+    "RUA CASSIANO DE ALBUQUERQUE"  (4x)  ex: 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (ida); 0707 - Graciliano Ramos / Ponta Verde (ida); 0708 - Cruz das Almas x Ponta Verde (ida) ... +1
+    "RUA ALBUQUERQUE LINS"  (1x)  ex: 0027 - Vila Saem / Centro (ida)
+
+--- grupo com 2 variantes, 15 ocorrencias no total ---
+    "RUA COMENDADOR PALMEIRA"  (13x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida); 0401 - Circular Bairros I (ida) ... +10
+    "RUA COMENDADOR VASCONCELOS"  (2x)  ex: 0058 Fernão Velho / Centro via Farol (ida); 0058 Fernão Velho / Centro via Farol (volta)
+
+--- grupo com 2 variantes, 15 ocorrencias no total ---
+    "RUA COMENDADOR JOSÉ GERALDO DA SILVA"  (13x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (ida) ... +10
+    "RUA COMENDADOR JOSE GERALDO DA SILVA"  (2x)  ex: 0403 - Trapiche / Ouro Preto (ida); 0700 - Gruta / Ponta Verde / Term. Rotary (ida)
+
+--- grupo com 2 variantes, 15 ocorrencias no total ---
+    "AVENIDA MINISTRO MÁRIO ANDREAZZA"  (13x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (ida); 0109 - Cruz das Almas (ida) ... +10
+    "AVENIDA MINISTRO MARIO ANDREAZA"  (2x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 2 variantes, 15 ocorrencias no total ---
+    "AVENIDA GOVERNADOR TEOBALDO BARBOSA"  (14x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (ida); 0109 - Cruz das Almas (ida) ... +11
+    "AVENIDA GOV TEOBALDO BARBOSA"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 3 variantes, 15 ocorrencias no total ---
+    "TRAVESSA SETE DE SETEMBRO"  (9x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0110 - Graciliano Ramos / Trapiche (volta) ... +6
+    "TRAVESSA 7 DE SETEMBRO"  (4x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta); 0116 - José Tenório X Trapiche (volta) ... +1
+    "TRAVESSA SETE DE STEMBRO"  (2x)  ex: 0403 - Trapiche / Ouro Preto (ida); 0501 - Vergel X São Jorge (Via Jacintinho) (ida)
+
+--- grupo com 5 variantes, 15 ocorrencias no total ---
+    "1 ROTATORIA - JARDIM ROYAL"  (6x)  ex: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta); 4003 - T.I Eustáquio gomes / Grand Jardim (ida) ... +3
+    "ACESSO JARDIM ROYAL"  (6x)  ex: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta); 4003 - T.I Eustáquio gomes / Grand Jardim (ida) ... +3
+    "JARDIM ROYAL ROTATORIA 1"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+    "JARDIM ROYAL ROTATORIA IV"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+    "JARDIM ROYAL ROTATORIA II"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+
+--- grupo com 3 variantes, 14 ocorrencias no total ---
+    "AVENIDA JORNALISTA MARCIO CANUTO"  (10x)  ex: 0110 - Graciliano Ramos / Trapiche (ida); 0116 - José Tenório X Trapiche (ida); 0117 - Village II / Trapiche (ida) ... +7
+    "AVENIDA JORNALISTA MÁRCIO CANUTO"  (3x)  ex: 0033 Jose Tenorio / Centro (volta); 0052 - T.I Eustáquio Gomes / Centro (ida); 0700 - Gruta / Ponta Verde / Term. Rotary (ida)
+    "AVENIDA JORN. MARCIO CANUTO"  (1x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida)
+
+--- grupo com 5 variantes, 14 ocorrencias no total ---
+    "AVENIDA CARLOS GOMES DE BARROS"  (4x)  ex: 0037 - Salvador Lyra / Centro (ida); 0037 - Salvador Lyra / Centro (volta); 0602 - Salvador Lyra / Maeió Shopping (ida) ... +1
+    "AVENIDA DOUTOR ANTONIO GOMES DE BARROS"  (4x)  ex: 0401 - Circular Bairros I (volta); 0504 - Trapiche / São Jorge (volta); 0610 - Terminal Cruz das Almas X Ouro Preto (volta) ... +1
+    "AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS"  (3x)  ex: 0402 - Circular Barros  (ida); 0602 - Salvador Lyra / Maeió Shopping (volta); 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (ida)
+    "AVENIDA HUMBERTO GOMES DE BARROS"  (2x)  ex: 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos) (ida); 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos) (volta)
+    "AVENIDA DOUTOR ÂNTONIO GOMES DE BARROS"  (1x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 3 variantes, 14 ocorrencias no total ---
+    "TERMINAL COLINA DOS EUCALIPTOS"  (8x)  ex: 0065 - Rosane Collor / Centro(farol) (ida); 0065 - Rosane Collor / Centro(farol) (volta); 0068 - Colina / Poço (ida) ... +5
+    "TERMINAL INTEGRADO COLINA DOS EUCALIPTOS"  (4x)  ex: 0057 - Rio Novo / Centro Via Farol (ida); 0057 - Rio Novo / Centro Via Farol (volta); 0802 - Colina / Benedito Bentes (ida) ... +1
+    "CONJUNTO COLINA DOS EUCALIPTOS"  (2x)  ex: 0057 - Rio Novo / Centro Via Farol (ida); 0057 - Rio Novo / Centro Via Farol (volta)
+
+--- grupo com 2 variantes, 14 ocorrencias no total ---
+    "RUA CÔNEGO COSTA"  (13x)  ex: 0068 - Colina / Poço (ida); 0068 - Colina / Poço (volta); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida) ... +10
+    "RUA CONEGO COSTA"  (1x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida)
+
+--- grupo com 2 variantes, 14 ocorrencias no total ---
+    "AL 101 NORTE - MIRANTE DA SEREIA"  (12x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida) ... +9
+    "MIRANTE DA SEREIA"  (2x)  ex: 0603 - Vergel / Mirante (ida); 0603 - Vergel / Mirante (volta)
+
+--- grupo com 4 variantes, 14 ocorrencias no total ---
+    "RUA PROFESSOR JOÃO ULYSSES MOREIRA"  (5x)  ex: 0223 - Ipioca X Vergel Via Mercado (ida); 0226 - Ipioca X Trapiche via Poço (ida); 0226 - Ipioca X Trapiche via Poço (volta) ... +2
+    "RUA JOÃO ULISSES MOREIRA"  (5x)  ex: 0610 - Terminal Cruz das Almas X Ouro Preto (ida); 0610 - Terminal Cruz das Almas X Ouro Preto (volta); 0613 - vergel / Guaxuma (DESATIVADO) (ida) ... +2
+    "RUA PROFESSOR JOÃO ULISSES MOREIRA"  (3x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+    "RUA PROFESSOR ULISSES MOREIRA"  (1x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 2 variantes, 14 ocorrencias no total ---
+    "RUA CAMARAGIBE"  (13x)  ex: 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida); 0401 - Circular Bairros I (ida); 0401 - Circular Bairros I (ida) ... +10
+    "RUA DE CAMARAGIBE"  (1x)  ex: 0403 - Trapiche / Ouro Preto (volta)
+
+--- grupo com 2 variantes, 13 ocorrencias no total ---
+    "AVENIDA BRIGADEIRO EDUARDO GOMES DE BRITO"  (8x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0041 - Feitosa X Centro / Farol (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta) ... +5
+    "AVENIDA BRIGADEIRO EDUARDO GOMES"  (5x)  ex: 0114 - Cruz das Alamas X Trapiche (ida); 0114 - Cruz das Alamas X Trapiche (volta); 0504 - Trapiche / São Jorge (ida) ... +2
+
+--- grupo com 2 variantes, 13 ocorrencias no total ---
+    "AVENIDA PAULO HOLANDA"  (10x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida) ... +7
+    "AVENIDA ANTÔNIO HOLANDA"  (3x)  ex: 0065 - Rosane Collor / Centro(farol) (ida); 0108 - Clima Bom via Colina / Trapiche (ida); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 2 variantes, 13 ocorrencias no total ---
+    "RUA DOUTOR BAPTISTA ACCIOLY"  (8x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0110 - Graciliano Ramos / Trapiche (volta) ... +5
+    "RUA BAPTISTA ACCIOLY"  (5x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0117 - Village II / Trapiche (volta); 0501 - Vergel X São Jorge (Via Jacintinho) (ida) ... +2
+
+--- grupo com 4 variantes, 13 ocorrencias no total ---
+    "RUA CARLOS GUIDO FERRÁRIO LÔBO"  (8x)  ex: 0065 - Rosane Collor / Centro(farol) (ida); 0065 - Rosane Collor / Centro(farol) (volta); 0108 - Clima Bom via Colina / Trapiche (ida) ... +5
+    "RUA CARLOS GUIDO FERRARIO LOBO"  (3x)  ex: 0716 - Clima bom / Ponta Verde (volta); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta); 0802 - Colina / Benedito Bentes (volta)
+    "RUA CARLOS GUIDO FERRARIO"  (1x)  ex: 0069 - Clima Bom / Centro (volta)
+    "RUA CARLOS GUIDO FERRÁRIO LOBÔ"  (1x)  ex: 0069 - Clima Bom / Centro (ida)
+
+--- grupo com 2 variantes, 13 ocorrencias no total ---
+    "PRAÇA SINIMBU"  (12x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0109 - Cruz das Almas (volta) ... +9
+    "PRACA SINIMBU"  (1x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (ida)
+
+--- grupo com 3 variantes, 13 ocorrencias no total ---
+    "AVENIDA DEPUTADO HUMBERTO MENDES"  (7x)  ex: 0602 - Salvador Lyra / Maeió Shopping (ida); 0610 - Terminal Cruz das Almas X Ouro Preto (volta); 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta) (ida) ... +4
+    "AVENIDA DEPULTADO HUMBERTO MENDES"  (4x)  ex: 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (volta); 0709 - Chã da Jaqueira / Ponta Verde (volta); 0710 - Chã da Jaqueira/ Ponta Verde (volta) ... +1
+    "AVENIDA HUMBERTO MENDES"  (2x)  ex: 0117 - Village II / Trapiche (volta); 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (ida)
+
+--- grupo com 2 variantes, 12 ocorrencias no total ---
+    "RUA PAU BRASIL"  (7x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0115 - Chã da Jaqueira Trapiche (via centro - prado) (ida) ... +4
+    "RUA PAU DARCO"  (5x)  ex: 0012 - Jose da Silva Peixoto / Centro (ida); 0012 - Jose da Silva Peixoto / Centro (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida) ... +2
+
+--- grupo com 4 variantes, 12 ocorrencias no total ---
+    "RUA JOSÉ JORGE DE MELO GONÇALVES"  (5x)  ex: 0012 - Jose da Silva Peixoto / Centro (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta) ... +2
+    "RUA JOSÉ DE MELO"  (3x)  ex: 0041 - Feitosa X Centro / Farol (volta); 0604 Eustáquio Gomes / Cruz das Almas (ida); 0708 - Cruz das Almas x Ponta Verde (volta)
+    "RUA JOSÉ JORGE DE MELO GONÇALES"  (3x)  ex: 0012 - Jose da Silva Peixoto / Centro (ida); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida)
+    "RUA JOSÉ CORRÊA DE MELO"  (1x)  ex: 0214 - Henrique Equelman / Vergel (ida)
+
+--- grupo com 5 variantes, 12 ocorrencias no total ---
+    "RUA MANOEL INÁCIO"  (7x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0115 - Chã da Jaqueira Trapiche (via centro - prado) (ida) ... +4
+    "RUA DENISSON MENEZES 2"  (2x)  ex: 0720 - Denisson Menezes / Ponta Verde (ida); 0720 - Denisson Menezes / Ponta Verde (volta)
+    "RUA MANOEL INACIO"  (1x)  ex: 0710 - Chã da Jaqueira/ Ponta Verde (volta)
+    "RUA CORONEL MENEZES"  (1x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida)
+    "RUA MANOEL MENEZES"  (1x)  ex: 0027 - Vila Saem / Centro (volta)
+
+--- grupo com 3 variantes, 12 ocorrencias no total ---
+    "RUA JOÃO LINS CALHEIROS"  (5x)  ex: 0039 - Dubeaux Leao / Centro (ida); 0057 - Rio Novo / Centro Via Farol (volta); 0065 - Rosane Collor / Centro(farol) (volta) ... +2
+    "RUA JOÃO CALHEIROS GATO"  (4x)  ex: 0223 - Ipioca X Vergel Via Mercado (ida); 0501 - Vergel X São Jorge (Via Jacintinho) (ida); 0501 - Vergel X São Jorge (Via Jacintinho) (volta) ... +1
+    "RUA JOAO CALHEIROS GATO"  (3x)  ex: 0223 - Ipioca X Vergel Via Mercado (volta); 0403 - Trapiche / Ouro Preto (volta); 0502 - Vergel X São Jorge ( Via Farol) (ida)
+
+--- grupo com 4 variantes, 12 ocorrencias no total ---
+    "TERMINAL VILLAGE CAMPESTRE"  (4x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida) ... +1
+    "TERMINAL CONJ VILLAGE II"  (4x)  ex: 0117 - Village II / Trapiche (ida); 0117 - Village II / Trapiche (volta); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida) ... +1
+    "TERMINAL CONJUNTO VILLAGE CAMPESTRE"  (2x)  ex: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta)
+    "TERMINAL CONJUNTO VILLAGE II"  (2x)  ex: 0720 - Denisson Menezes / Ponta Verde (ida); 0720 - Denisson Menezes / Ponta Verde (volta)
+
+--- grupo com 3 variantes, 12 ocorrencias no total ---
+    "RUA SILVÉRIO JORGE"  (9x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta) ... +6
+    "RUA SILVERIO JORGE"  (2x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (ida); 0613 - vergel / Guaxuma (DESATIVADO) (ida)
+    "RUA SILVEIRO JORGE"  (1x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 5 variantes, 12 ocorrencias no total ---
+    "RUA DO CEARA"  (5x)  ex: 0068 - Colina / Poço (ida); 0104 - T.I Benedito Bentes / Trapiche (ida); 0117 - Village II / Trapiche (volta) ... +2
+    "RUA DO CEARÁ"  (4x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0115 - Chã da Jaqueira Trapiche (via centro - prado) (volta) ... +1
+    "RU CEARA"  (1x)  ex: 0116 - José Tenório X Trapiche (volta)
+    "RUA CEARA"  (1x)  ex: 0504 - Trapiche / São Jorge (ida)
+    "RU CEARÁ"  (1x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 4 variantes, 12 ocorrencias no total ---
+    "TERMINAL PARAÍSO DO HORTO"  (6x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0115 - Chã da Jaqueira Trapiche (via centro - prado) (ida) ... +3
+    "CONJUNTO PARAISO DO HORTO"  (4x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0115 - Chã da Jaqueira Trapiche (via centro - prado) (ida) ... +1
+    "TERMINAL PARAISO DO HORTO"  (1x)  ex: 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida)
+    "TERMINAL CONJUNTO PARAISO DO HORTO"  (1x)  ex: 0710 - Chã da Jaqueira/ Ponta Verde (ida)
+
+--- grupo com 2 variantes, 12 ocorrencias no total ---
+    "PRAÇA GUIMARAES PASSOS"  (10x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0116 - José Tenório X Trapiche (volta); 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (volta) ... +7
+    "PRAÇA GUIMARÃES PASSOS"  (2x)  ex: 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida)
+
+--- grupo com 2 variantes, 11 ocorrencias no total ---
+    "RUA ITAPUÃ"  (10x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida); 0104 - T.I Benedito Bentes / Trapiche (ida) ... +7
+    "RUA ITAPUA"  (1x)  ex: 0114 - Cruz das Alamas X Trapiche (ida)
+
+--- grupo com 2 variantes, 11 ocorrencias no total ---
+    "RUA FERNANDES DE BARROS"  (10x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (ida); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0068 - Colina / Poço (ida) ... +7
+    "RUA FERNANDO DE BARROS"  (1x)  ex: 0052 - T.I Eustáquio Gomes / Centro (volta)
+
+--- grupo com 4 variantes, 11 ocorrencias no total ---
+    "RUA MÁRIO PALMEIRA JÚNIOR"  (4x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0116 - José Tenório X Trapiche (volta); 0602 - Salvador Lyra / Maeió Shopping (volta) ... +1
+    "RUA MARIO PALMEIRA JUNIOR"  (3x)  ex: 0223 - Ipioca X Vergel Via Mercado (volta); 0615 - Eustáquio Gomes / Mangabeiras (volta); 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (volta)
+    "RUA MÁRIO PALMEIRA JUNIOR"  (3x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0109 - Cruz das Almas (volta); 0226 - Ipioca X Trapiche via Poço (volta)
+    "RUA MARIO PALMEIRA JÚNIOR"  (1x)  ex: 0603 - Vergel / Mirante (ida)
+
+--- grupo com 3 variantes, 11 ocorrencias no total ---
+    "RUA DOUTOR LUIS DE BARROS"  (5x)  ex: 0214 - Henrique Equelman / Vergel (ida); 0214 - Henrique Equelman / Vergel (volta); 0502 - Vergel X São Jorge ( Via Farol) (volta) ... +2
+    "RUA DOUTOR LUÍS DE BARROS"  (4x)  ex: 0109 - Cruz das Almas (ida); 0113 - T.I Eustáquio Gomes / Trapiche (ida); 0603 - Vergel / Mirante (ida) ... +1
+    "RUA DOUTOR LUIS DE MASCARENHAS"  (2x)  ex: 0027 - Vila Saem / Centro (ida); 0027 - Vila Saem / Centro (volta)
+
+--- grupo com 3 variantes, 11 ocorrencias no total ---
+    "RUA JAIRO MARQUÊS LUZ"  (5x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (volta); 0110 - Graciliano Ramos / Trapiche (ida); 0110 - Graciliano Ramos / Trapiche (volta) ... +2
+    "RUA JAIRO MARQUES LUZ"  (4x)  ex: 0602 - Salvador Lyra / Maeió Shopping (ida); 0602 - Salvador Lyra / Maeió Shopping (volta); 0707 - Graciliano Ramos / Ponta Verde (ida) ... +1
+    "RUA JAÍRO MARQUÊS LUZ"  (2x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (ida); 0039 - Dubeaux Leao / Centro (volta)
+
+--- grupo com 2 variantes, 11 ocorrencias no total ---
+    "TRAVESSA GOVERNADOR LUIZ CAVALCANTE"  (10x)  ex: 0037 - Salvador Lyra / Centro (ida); 0037 - Salvador Lyra / Centro (volta); 0110 - Graciliano Ramos / Trapiche (ida) ... +7
+    "AVENIDA TRAVESSA GOVERNADOR LUIZ CAVALCANTE"  (1x)  ex: 0602 - Salvador Lyra / Maeió Shopping (volta)
+
+--- grupo com 2 variantes, 11 ocorrencias no total ---
+    "RUA ANTÔNIO ZEFERINO DOS SANTOS"  (10x)  ex: 0041 - Feitosa X Centro / Farol (ida); 0041 - Feitosa X Centro / Farol (volta); 0104 - T.I Benedito Bentes / Trapiche (ida) ... +7
+    "RUA ANTONIO ZEFERIONO DOS SANTOS"  (1x)  ex: 0707 - Graciliano Ramos / Ponta Verde (ida)
+
+--- grupo com 3 variantes, 11 ocorrencias no total ---
+    "ALAMEDA A DOIS"  (7x)  ex: 0056 - João Sampaio / Centro (volta); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta) ... +4
+    "ALAMEDA C UM"  (2x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta)
+    "ALAMEDA B"  (2x)  ex: 1000 - Trapiche / Pontal (ida); 1000 - Trapiche / Pontal (volta)
+
+--- grupo com 2 variantes, 11 ocorrencias no total ---
+    "VIA PRINCIPAL DOIS"  (9x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida) ... +6
+    "VIA PRINCIPAL 2"  (2x)  ex: 0301 - VILLAGE II / CHÃ DA JAQUEIRA (volta); 0709 - Chã da Jaqueira / Ponta Verde (volta)
+
+--- grupo com 3 variantes, 11 ocorrencias no total ---
+    "AVENIDA DENILMA BULHÕES"  (8x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta) ... +5
+    "AVENIDA GERALDO BULHÔES"  (2x)  ex: 0214 - Henrique Equelman / Vergel (ida); 0214 - Henrique Equelman / Vergel (volta)
+    "RETORNO DENILMA BULHÔES"  (1x)  ex: 0719 - Chã nova / Ponta Verde (ida)
+
+--- grupo com 3 variantes, 11 ocorrencias no total ---
+    "AVENIDA IND CICERO TOLEDO"  (7x)  ex: 0504 - Trapiche / São Jorge (ida); 0700 - Gruta / Ponta Verde / Term. Rotary (ida); 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta) (ida) ... +4
+    "AVENIDA INDI CÍCERO TOLEDO"  (3x)  ex: 0504 - Trapiche / São Jorge (volta); 0707 - Graciliano Ramos / Ponta Verde (volta); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta)
+    "AVENIDA IND CÍCERO TOLEDO"  (1x)  ex: 0612 - Eustáquio Gomes / Jatiúca (ida)
+
+--- grupo com 2 variantes, 10 ocorrencias no total ---
+    "TRAVESSA CRISTÓVÃO COLOMBO"  (9x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0403 - Trapiche / Ouro Preto (ida) ... +6
+    "TRAVESSA CRISTOVÃO COLOMBO"  (1x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 4 variantes, 10 ocorrencias no total ---
+    "TERMINAL JOSÉ TENÓRIO"  (6x)  ex: 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (volta); 0606 - Jose Tenorio / MCZ Shopping (ida) ... +3
+    "RETORNO JOSE TENORIO"  (2x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0403 - Trapiche / Ouro Preto (ida)
+    "RETORNO CONJUNTO JOSE TENORIO"  (1x)  ex: 0700 - Gruta / Ponta Verde / Term. Rotary (volta)
+    "RETORNO CONJUNTO JOSÉ TENORIO"  (1x)  ex: 1024 - Rotary X Cruz das Almas  (volta)
+
+--- grupo com 2 variantes, 10 ocorrencias no total ---
+    "RUA CONSELHEIRO JOSÉ BARBOSA"  (8x)  ex: 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (volta) ... +5
+    "RUA CONSELHEIRO JOSÉ BEZERRA"  (2x)  ex: 0027 - Vila Saem / Centro (ida); 0027 - Vila Saem / Centro (volta)
+
+--- grupo com 4 variantes, 10 ocorrencias no total ---
+    "TERMINAL CONJUNTO GRACILIANO RAMOS"  (4x)  ex: 0053 - Graciliano Ramos / Centro (ida); 0053 - Graciliano Ramos / Centro (volta); 0707 - Graciliano Ramos / Ponta Verde (ida) ... +1
+    "TERMINAL CONJ. GRACILIANO RAMOS"  (2x)  ex: 0707 - Graciliano Ramos / Ponta Verde (volta); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (volta)
+    "RUA 54 CONJUNTO GRACILIANO RAMOS"  (2x)  ex: 0720 - Denisson Menezes / Ponta Verde (ida); 0720 - Denisson Menezes / Ponta Verde (volta)
+    "TERMINAL GRACILIANO RAMOS"  (2x)  ex: 0110 - Graciliano Ramos / Trapiche (ida); 0110 - Graciliano Ramos / Trapiche (volta)
+
+--- grupo com 5 variantes, 10 ocorrencias no total ---
+    "TERMINAL CONJUNTO JOAO SAMPAIO"  (5x)  ex: 0056 - João Sampaio / Centro (ida); 0056 - João Sampaio / Centro (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida) ... +2
+    "TERMINAL CONJUNTO JOAO SAMPAIO I"  (2x)  ex: 0709 - Chã da Jaqueira / Ponta Verde (ida); 0999 - João Sampaio / Flexais-Via Chã da Jaqueira (ida)
+    "TERMINAL JOÃO SAMPAIO"  (1x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida)
+    "TERMINAL JOAO SAMPAIO"  (1x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta)
+    "TERMINAL CONJ. JOAO SAMPAIO I"  (1x)  ex: 0999 - João Sampaio / Flexais-Via Chã da Jaqueira (volta)
+
+--- grupo com 3 variantes, 10 ocorrencias no total ---
+    "RETORNO"  (7x)  ex: 0056 - João Sampaio / Centro (volta); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta); 0708 - Cruz das Almas x Ponta Verde (ida) ... +4
+    "RETORNO DO ATACADAO"  (2x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (ida); 0502 - Vergel X São Jorge ( Via Farol) (ida)
+    "RETORNO UFAL"  (1x)  ex: 0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital) (ida)
+
+--- grupo com 2 variantes, 10 ocorrencias no total ---
+    "RUA DO LIVRAMENTO"  (9x)  ex: 0068 - Colina / Poço (volta); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta); 0108 - Clima Bom via Colina / Trapiche (volta) ... +6
+    "RUA SEN MENDONCA - RUA DO LIVRAMENTO"  (1x)  ex: 0214 - Henrique Equelman / Vergel (volta)
+
+--- grupo com 3 variantes, 10 ocorrencias no total ---
+    "RUA JORNALISTA LAFAIETE BELO"  (8x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0110 - Graciliano Ramos / Trapiche (volta) ... +5
+    "RUA LAFAIETE BELO"  (1x)  ex: 0404 - Trapiche / Novo Mundo (volta)
+    "RUA JORNALISTA LAFEITO BELO"  (1x)  ex: 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 2 variantes, 10 ocorrencias no total ---
+    "LOTEAMENTO SAUACHUY(TERMINAL IPIOCA)"  (6x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida) ... +3
+    "LOTEAMENTO SAUACHUY"  (4x)  ex: 0223 - Ipioca X Vergel Via Mercado (ida); 0223 - Ipioca X Vergel Via Mercado (volta); 0226 - Ipioca X Trapiche via Poço (ida) ... +1
+
+--- grupo com 2 variantes, 10 ocorrencias no total ---
+    "AVENIDA JOSÉ AÍRTON GONDIM LAMENHA"  (8x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (ida); 0501 - Vergel X São Jorge (Via Jacintinho) (volta); 0502 - Vergel X São Jorge ( Via Farol) (ida) ... +5
+    "AVENIDA JOSE AIRTON GONDIM LAMENHA"  (2x)  ex: 1020 - Cruz das Almas X São Jorge (ida); 1020 - Cruz das Almas X São Jorge (volta)
+
+--- grupo com 2 variantes, 9 ocorrencias no total ---
+    "PARQUE RODOLFO LINS"  (8x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida) ... +5
+    "PARQUE RODOLFO LINS (PÇA DO PIRULITO)"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 2 variantes, 9 ocorrencias no total ---
+    "RUA ARIOSVALDO PEREIRA CINTRA"  (8x)  ex: 0214 - Henrique Equelman / Vergel (volta); 0401 - Circular Bairros I (ida); 0402 - Circular Barros  (volta) ... +5
+    "RUA ARIOSV ALDO PEREIRA CINTRA"  (1x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta)
+
+--- grupo com 2 variantes, 9 ocorrencias no total ---
+    "LARGO DELMIRO GOUVEIA - ROTARY"  (5x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0502 - Vergel X São Jorge ( Via Farol) (ida); 0502 - Vergel X São Jorge ( Via Farol) (volta) ... +2
+    "LARGO DELMIRO GOUVEIA"  (4x)  ex: 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (volta); 0606 - Jose Tenorio / MCZ Shopping (ida) ... +1
+
+--- grupo com 2 variantes, 9 ocorrencias no total ---
+    "RUA SENADOR ARNON DE MELO"  (7x)  ex: 0046 - Village II / Centro (volta); 0117 - Village II / Trapiche (ida); 0117 - Village II / Trapiche (volta) ... +4
+    "RUA SENADOR ARNON DE MELLO"  (2x)  ex: 0046 - Village II / Centro (ida); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+
+--- grupo com 2 variantes, 9 ocorrencias no total ---
+    "AVENIDA JOSÉ AILTON DOS SANTOS"  (5x)  ex: 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (volta); 0720 - Denisson Menezes / Ponta Verde (ida) ... +2
+    "AVENIDA JOSÉ HAILTON DOS SANTOS"  (4x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0117 - Village II / Trapiche (ida) ... +1
+
+--- grupo com 2 variantes, 9 ocorrencias no total ---
+    "RUA DOUTOR OSWALDO CRUZ"  (8x)  ex: 0068 - Colina / Poço (ida); 0068 - Colina / Poço (volta); 0108 - Clima Bom via Colina / Trapiche (ida) ... +5
+    "RUA DOUTOR OSVALDO CRUZ"  (1x)  ex: 0999 - João Sampaio / Flexais-Via Chã da Jaqueira (volta)
+
+--- grupo com 3 variantes, 9 ocorrencias no total ---
+    "AVENIDA B TERMINAL OSMAN LOUREIRO"  (5x)  ex: 0301 - VILLAGE II / CHÃ DA JAQUEIRA (volta); 0716 - Clima bom / Ponta Verde (volta); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida) ... +2
+    "TERMINAL OSMAN LOUREIRO"  (3x)  ex: 0108 - Clima Bom via Colina / Trapiche (ida); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida); 0716 - Clima bom / Ponta Verde (ida)
+    "TERMINAL OSMAM LOUREIRO"  (1x)  ex: 0108 - Clima Bom via Colina / Trapiche (volta)
+
+--- grupo com 2 variantes, 9 ocorrencias no total ---
+    "RUA QUINTINO BOCAIÚVA"  (8x)  ex: 0223 - Ipioca X Vergel Via Mercado (ida); 0401 - Circular Bairros I (volta); 0504 - Trapiche / São Jorge (volta) ... +5
+    "RUA QUINTINO BOCAIUVA"  (1x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 3 variantes, 9 ocorrencias no total ---
+    "AVENIDA CAPITAO MARINHO FALCAO"  (6x)  ex: 0613 - vergel / Guaxuma (DESATIVADO) (ida); 0613 - vergel / Guaxuma (DESATIVADO) (volta); 0700 - Gruta / Ponta Verde / Term. Rotary (volta) ... +3
+    "RUA CAPITÃO MARINHO FALCÃO"  (2x)  ex: 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida); 0606 - Jose Tenorio / MCZ Shopping (volta)
+    "RUA CAPITAO MARINHO FALCAO"  (1x)  ex: 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta) (volta)
+
+--- grupo com 4 variantes, 8 ocorrencias no total ---
+    "RUA JOSÉ BONIFÁCIO"  (4x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0052 - T.I Eustáquio Gomes / Centro (volta); 0217 - T.I. Benedito Bentes / Mercado (volta) ... +1
+    "RUA JOSÉ DE ALENCAR"  (2x)  ex: 0027 - Vila Saem / Centro (ida); 0027 - Vila Saem / Centro (volta)
+    "RUA JOSÉ VIEIRA"  (1x)  ex: 0069 - Clima Bom / Centro (volta)
+    "RUA JOSÉ BONOFÁCIO"  (1x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta)
+
+--- grupo com 2 variantes, 8 ocorrencias no total ---
+    "RUA GENERAL HERMES"  (5x)  ex: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0052 - T.I Eustáquio Gomes / Centro (volta); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta) ... +2
+    "AVENIDA GENERAL HERMES"  (3x)  ex: 0108 - Clima Bom via Colina / Trapiche (volta); 0114 - Cruz das Alamas X Trapiche (volta); 0401 - Circular Bairros I (ida)
+
+--- grupo com 4 variantes, 8 ocorrencias no total ---
+    "LOT BRISA DA SERRARIA"  (3x)  ex: 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (volta); 0606 - Jose Tenorio / MCZ Shopping (ida)
+    "LOT BRISA DA SERRARIA III T J TENORIO"  (2x)  ex: 0116 - José Tenório X Trapiche (ida); 0116 - José Tenório X Trapiche (volta)
+    "LOTEAMENTO BRISA DA SERRARIA"  (2x)  ex: 1023 - Cruz das Almas X Jose Tenorio (ida); 1023 - Cruz das Almas X Jose Tenorio (volta)
+    "LOT BRISA DA SERRARIA III"  (1x)  ex: 0606 - Jose Tenorio / MCZ Shopping (volta)
+
+--- grupo com 2 variantes, 8 ocorrencias no total ---
+    "TERMINAL ROTARY"  (7x)  ex: 0033 Jose Tenorio / Centro (ida); 0033 Jose Tenorio / Centro (volta); 0606 - Jose Tenorio / MCZ Shopping (ida) ... +4
+    "TERMINAL DA ROTARY"  (1x)  ex: 1024 - Rotary X Cruz das Almas  (ida)
+
+--- grupo com 5 variantes, 8 ocorrencias no total ---
+    "AVENIDA DOUTOR MILTON HENIO DE GOUVEIA"  (3x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (ida); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta)
+    "AVENIDA DOUTOR MILTON HÊNIO NETTO DE GOUVEIA"  (2x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (volta); 0117 - Village II / Trapiche (ida)
+    "RUA DOUTOR MILTON HENIO GOUVEIA"  (1x)  ex: 0052 - T.I Eustáquio Gomes / Centro (volta)
+    "AVENIDA DOUTOR MILTO HÊNIO NETTO DE GOUVEIA"  (1x)  ex: 0117 - Village II / Trapiche (volta)
+    "RUA DOUTOR MILTON HÊNIO NETO DE GOUVEIA"  (1x)  ex: 0052 - T.I Eustáquio Gomes / Centro (ida)
+
+--- grupo com 2 variantes, 8 ocorrencias no total ---
+    "RUA ISAIAS ALVES NICACIO"  (5x)  ex: 0052 - T.I Eustáquio Gomes / Centro (ida); 0052 - T.I Eustáquio Gomes / Centro (volta); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida) ... +2
+    "RUA ISAIAS ALVES NICÁCIO"  (3x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (ida); 0707 - Graciliano Ramos / Ponta Verde (ida); 0707 - Graciliano Ramos / Ponta Verde (volta)
+
+--- grupo com 2 variantes, 8 ocorrencias no total ---
+    "AVENIDA FRANCISCO AFONSO DE MELLO"  (7x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (volta); 0037 - Salvador Lyra / Centro (volta); 0052 - T.I Eustáquio Gomes / Centro (ida) ... +4
+    "AVENIDA FRANCISCO AFONSO DE MELO"  (1x)  ex: 0042 - T.I. Benedito Bentes / Centro (volta)
+
+--- grupo com 3 variantes, 8 ocorrencias no total ---
+    "RUA RIO DO MEIO"  (5x)  ex: 0037 - Salvador Lyra / Centro (ida); 0037 - Salvador Lyra / Centro (volta); 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida) ... +2
+    "RUA DO RIO DO MEIO"  (2x)  ex: 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (volta); 0602 - Salvador Lyra / Maeió Shopping (ida)
+    "ESTRADA DO RIO DO MEIO"  (1x)  ex: 0602 - Salvador Lyra / Maeió Shopping (volta)
+
+--- grupo com 2 variantes, 8 ocorrencias no total ---
+    "AVENIDA DOUTOR FERNANDO DO COUTO MALTA"  (6x)  ex: 0053 - Graciliano Ramos / Centro (ida); 0110 - Graciliano Ramos / Trapiche (ida); 0707 - Graciliano Ramos / Ponta Verde (ida) ... +3
+    "AVENIDA DOUTOR FERNANDO COUTO MALTA"  (2x)  ex: 0053 - Graciliano Ramos / Centro (volta); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (volta)
+
+--- grupo com 2 variantes, 8 ocorrencias no total ---
+    "RUA JOÃO OMENA DE ANDRADE"  (7x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0110 - Graciliano Ramos / Trapiche (volta) ... +4
+    "RUA HOÃO OMENA DE ANDRADE"  (1x)  ex: 0226 - Ipioca X Trapiche via Poço (volta)
+
+--- grupo com 2 variantes, 8 ocorrencias no total ---
+    "ESTRADA DA SAUDE"  (6x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (ida); 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida) ... +3
+    "ESTRADA DA SAÚDE"  (2x)  ex: 0221 - Saúde / Cruz das Almas (ida); 0221 - Saúde / Cruz das Almas (volta)
+
+--- grupo com 2 variantes, 7 ocorrencias no total ---
+    "LADEIRA CORONEL ALVES MATA"  (6x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0403 - Trapiche / Ouro Preto (ida) ... +3
+    "LADEIRA CORONEL ALVES DA MATA"  (1x)  ex: 1024 - Rotary X Cruz das Almas  (volta)
+
+--- grupo com 4 variantes, 7 ocorrencias no total ---
+    "RUA MIGUEL PALMEIRA"  (3x)  ex: 0027 - Vila Saem / Centro (ida); 0027 - Vila Saem / Centro (ida); 0027 - Vila Saem / Centro (volta)
+    "RUA SÃO MIGUEL"  (2x)  ex: 1019 - Alto de Ipioca (ida); 1019 - Alto de Ipioca (volta)
+    "RUA MIGUEL OMENA"  (1x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida)
+    "RUA DOUTOR MIGUEL OMENA"  (1x)  ex: 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (ida)
+
+--- grupo com 2 variantes, 7 ocorrencias no total ---
+    "RUA SENADOR EZEQUIAS DA ROCHA"  (5x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0615 - Eustáquio Gomes / Mangabeiras (volta) ... +2
+    "RUA SENADOR EZECHIAS JERÔNIMO DA ROCHA"  (2x)  ex: 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (volta); 1024 - Rotary X Cruz das Almas  (volta)
+
+--- grupo com 2 variantes, 7 ocorrencias no total ---
+    "RUA HAVAÍ"  (6x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta); 0048 - T.I Benedito Bentes / Centro (Via Josefa de Melo) (volta); 0615 - Eustáquio Gomes / Mangabeiras (volta) ... +3
+    "RUA HAVAI"  (1x)  ex: 1020 - Cruz das Almas X São Jorge (ida)
+
+--- grupo com 2 variantes, 7 ocorrencias no total ---
+    "RUA TRANSVERSAL UFAL 2"  (6x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida) ... +3
+    "RUA TRANVERSAL UFAL 2"  (1x)  ex: 0901 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Hospital) (volta)
+
+--- grupo com 3 variantes, 7 ocorrencias no total ---
+    "AVENIDA DOUTOR ANDRÉ PAPINE GOÉS"  (4x)  ex: 0053 - Graciliano Ramos / Centro (ida); 0053 - Graciliano Ramos / Centro (volta); 0110 - Graciliano Ramos / Trapiche (volta) ... +1
+    "AVENIDA DOUTOR ANDRÉ PAPINI GOÉS"  (2x)  ex: 0707 - Graciliano Ramos / Ponta Verde (ida); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (volta)
+    "AVENIDA DOUTOR ANDRÉ PAPINE GOÉIS"  (1x)  ex: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta)
+
+--- grupo com 2 variantes, 7 ocorrencias no total ---
+    "AVENIDA ERALDO LINS CAVALCANTE"  (6x)  ex: 0116 - José Tenório X Trapiche (volta); 0214 - Henrique Equelman / Vergel (ida); 0403 - Trapiche / Ouro Preto (ida) ... +3
+    "AVENIDA ERENALDO LINS CAVALCANTE"  (1x)  ex: 0404 - Trapiche / Novo Mundo (ida)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "RUA DEPUTADO GONÇALO TAVARES"  (3x)  ex: 0403 - Trapiche / Ouro Preto (ida); 0404 - Trapiche / Novo Mundo (ida); 0404 - Trapiche / Novo Mundo (volta)
+    "RUA DEPUTADO SILOÉ TAVARES"  (3x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida); 0700 - Gruta / Ponta Verde / Term. Rotary (ida); 1024 - Rotary X Cruz das Almas  (ida)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "RUA PROFESSOR VIRGÍNIO"  (4x)  ex: 0027 - Vila Saem / Centro (ida); 0027 - Vila Saem / Centro (volta); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta) ... +1
+    "RUA PROFESSOR VIRGINIO"  (2x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "RUA ENGENHEIRO OTÁVIO CABRAL"  (4x)  ex: 0033 Jose Tenorio / Centro (volta); 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida); 0604 Eustáquio Gomes / Cruz das Almas (ida) ... +1
+    "RUA ENGENHEIRO OTAVIO CABRAL"  (2x)  ex: 0068 - Colina / Poço (volta); 0502 - Vergel X São Jorge ( Via Farol) (ida)
+
+--- grupo com 3 variantes, 6 ocorrencias no total ---
+    "RUA PROJETADA"  (3x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0812 T.I. Benedito Bentes / Carminha (ida)
+    "RUA PROJETADA A - B"  (2x)  ex: 0033 Jose Tenorio / Centro (volta); 0606 - Jose Tenorio / MCZ Shopping (volta)
+    "RUA PROJETADA A-B"  (1x)  ex: 1023 - Cruz das Almas X Jose Tenorio (ida)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "RUA BENEDITO CALAÇA LOUREIRO"  (5x)  ex: 0046 - Village II / Centro (ida); 0046 - Village II / Centro (volta); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida) ... +2
+    "AVENIDA BENEDITO CALAÇA LOUREIRO"  (1x)  ex: 0117 - Village II / Trapiche (ida)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "AVENIDA ENGENHEIRO CORINTHO CAMPELO DA PAZ"  (3x)  ex: 0712 - Santos Durmont X Ponta Verde / Farol (volta); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+    "RUA ENGENHEIRO CORINTHO CAMPELO DA PAZ"  (3x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida); 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (volta); 0712 - Santos Durmont X Ponta Verde / Farol (ida)
+
+--- grupo com 3 variantes, 6 ocorrencias no total ---
+    "RUA EDGAR DE GÓES DE MONTEIRO"  (3x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (volta); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (volta)
+    "RUA EDGAR DE GÓES DE MONTEIRO - BR 316"  (2x)  ex: 0712 - Santos Durmont X Ponta Verde / Farol (volta); 0802 - Colina / Benedito Bentes (volta)
+    "TRAVESSA EDGAR DE GÓES MONTEIRO"  (1x)  ex: 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "RUA SEBASTIÃO CORRÊIA DA ROCHA"  (4x)  ex: 0056 - João Sampaio / Centro (ida); 0056 - João Sampaio / Centro (volta); 0709 - Chã da Jaqueira / Ponta Verde (ida) ... +1
+    "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA"  (2x)  ex: 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (volta)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "TERMINAL FERNAO VELHO"  (5x)  ex: 0057 - Rio Novo / Centro Via Farol (ida); 0057 - Rio Novo / Centro Via Farol (volta); 0058 Fernão Velho / Centro via Farol (volta) ... +2
+    "TERMINAL FERNÃO VELHO"  (1x)  ex: 0058 Fernão Velho / Centro via Farol (ida)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "RUA JORNALISTA JAIMEA DE AMORIM MIRANDA"  (5x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (volta); 0110 - Graciliano Ramos / Trapiche (volta) ... +2
+    "RUA JORNALISTA JAIME DE AMORIM MIRANDA"  (1x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (ida)
+
+--- grupo com 3 variantes, 6 ocorrencias no total ---
+    "RUA DEPUTADO JOSÉ LAGES"  (4x)  ex: 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida); 0401 - Circular Bairros I (volta); 0606 - Jose Tenorio / MCZ Shopping (volta) ... +1
+    "AVENIDA DEPUTADO JOSE LAGES"  (1x)  ex: 0613 - vergel / Guaxuma (DESATIVADO) (volta)
+    "AVENIDA DEPUTADO JOSÉ LAGES"  (1x)  ex: 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta) (volta)
+
+--- grupo com 4 variantes, 6 ocorrencias no total ---
+    "RUA OTACÍLIO DES DE JESUS"  (2x)  ex: 0214 - Henrique Equelman / Vergel (ida); 0214 - Henrique Equelman / Vergel (volta)
+    "RUA OTACÍLIO DE JESUS"  (2x)  ex: 0214 - Henrique Equelman / Vergel (ida); 0214 - Henrique Equelman / Vergel (volta)
+    "RUA TARCISIO DE JESUS"  (1x)  ex: 0214 - Henrique Equelman / Vergel (volta)
+    "RUA TARCÍSIO DE JESUS"  (1x)  ex: 0214 - Henrique Equelman / Vergel (ida)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "RUA MARIA VITÓRIA DE FRANÇA CHAVES"  (4x)  ex: 0401 - Circular Bairros I (volta); 0614 - Trapiche / Mangabeiras (volta); 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (ida) ... +1
+    "RUA MARIA VITORIA DE FRANÇA CHAVES"  (2x)  ex: 0707 - Graciliano Ramos / Ponta Verde (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "RUA DOUTOR LESSA DE AZEVEDO"  (5x)  ex: 0504 - Trapiche / São Jorge (volta); 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (volta); 0716 - Clima bom / Ponta Verde (volta) ... +2
+    "RUA DOUTOR JOAO DE AZEVEDO FILHO"  (1x)  ex: 0604 Eustáquio Gomes / Cruz das Almas (ida)
+
+--- grupo com 2 variantes, 6 ocorrencias no total ---
+    "AVENIDA MARÍLIA MENDONÇA"  (4x)  ex: 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta); 4015 - T.I. Eustáquio Gomes / Jardim Amarílis. (via Flamboyantes) (ida) ... +1
+    "RETORNO DA AVENIDA MARILIA MENDONCA"  (2x)  ex: 4015 - T.I. Eustáquio Gomes / Jardim Amarílis. (via Flamboyantes) (ida); 4015 - T.I. Eustáquio Gomes / Jardim Amarílis. (via Flamboyantes) (volta)
+
+--- grupo com 2 variantes, 5 ocorrencias no total ---
+    "TRAVESSA TOBIAS BARRETO"  (3x)  ex: 0068 - Colina / Poço (ida); 0068 - Colina / Poço (volta); 0999 - João Sampaio / Flexais-Via Chã da Jaqueira (volta)
+    "TRAVESSA JOSÉ BARRETO"  (2x)  ex: 0027 - Vila Saem / Centro (ida); 0027 - Vila Saem / Centro (volta)
+
+--- grupo com 2 variantes, 5 ocorrencias no total ---
+    "RUA SENADOR TEOTÔNIO VIELA"  (3x)  ex: 0046 - Village II / Centro (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta)
+    "RUA SENADOR TEOTÔNIO VILELA"  (2x)  ex: 0046 - Village II / Centro (volta); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+
+--- grupo com 3 variantes, 5 ocorrencias no total ---
+    "AVENIDA CARNAVALESCO JOSÉ TEOFANES"  (2x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (volta); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+    "RUA CARNAVALESCO JOSÉ TEÓFANES"  (2x)  ex: 0712 - Santos Durmont X Ponta Verde / Farol (ida); 0712 - Santos Durmont X Ponta Verde / Farol (volta)
+    "AVENIDA CARNAVALESCO JOSÉ TEÓFANES"  (1x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida)
+
+--- grupo com 2 variantes, 5 ocorrencias no total ---
+    "RUA ESTRADA AMOUMAR CHAGAS"  (3x)  ex: 0057 - Rio Novo / Centro Via Farol (ida); 0065 - Rosane Collor / Centro(farol) (ida); 0301 - VILLAGE II / CHÃ DA JAQUEIRA (ida)
+    "RUA ESTRADA ARNOUMAR CHAGAS"  (2x)  ex: 0057 - Rio Novo / Centro Via Farol (volta); 0065 - Rosane Collor / Centro(farol) (volta)
+
+--- grupo com 3 variantes, 5 ocorrencias no total ---
+    "AVENIDA ANTÔNIO CLAUDINO"  (2x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (ida); 0115 - Chã da Jaqueira Trapiche (via centro - prado) (ida)
+    "AVENIDA ANTONIO CLAUDINO"  (2x)  ex: 0115 - Chã da Jaqueira Trapiche (via centro - prado) (volta); 0999 - João Sampaio / Flexais-Via Chã da Jaqueira (volta)
+    "AVENIDA ANTENOR CLAUDINO"  (1x)  ex: 0999 - João Sampaio / Flexais-Via Chã da Jaqueira (ida)
+
+--- grupo com 3 variantes, 5 ocorrencias no total ---
+    "RUA PONTES DE MIRANDA"  (3x)  ex: 0116 - José Tenório X Trapiche (ida); 0226 - Ipioca X Trapiche via Poço (ida); 0613 - vergel / Guaxuma (DESATIVADO) (volta)
+    "RUA LUIS PONTES DE MIRANDA"  (1x)  ex: 0105 - Salvador Lyra / Trapiche ( Via Jardim Petrópolis) (ida)
+    "RUA LUIZ PONTES DE MIRANDA"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 2 variantes, 5 ocorrencias no total ---
+    "RUA MARIA ANTONIETA TEIXEIRA LEITE"  (4x)  ex: 0109 - Cruz das Almas (volta); 0114 - Cruz das Alamas X Trapiche (ida); 0603 - Vergel / Mirante (ida) ... +1
+    "RUA MARIA ANTÔNIETA TEXEIRA LEITE"  (1x)  ex: 0604 Eustáquio Gomes / Cruz das Almas (ida)
+
+--- grupo com 3 variantes, 5 ocorrencias no total ---
+    "RUA ESMERALDINAM SPINDOLA SOBRINHO"  (3x)  ex: 0117 - Village II / Trapiche (volta); 0706 - T.I Eustáquio Gomes / Ponta Verde (Via Jacintinho) (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (volta)
+    "RUA ESMERALDINAM MARINHO SPINDOLA SOBRINHO"  (1x)  ex: 0708 - Cruz das Almas x Ponta Verde (ida)
+    "RUA ESMERALDINHO MARINHO SPÍNDOLA SOBRINHO"  (1x)  ex: 0707 - Graciliano Ramos / Ponta Verde (volta)
+
+--- grupo com 3 variantes, 5 ocorrencias no total ---
+    "RUA P - CONJ HENRIQUE HEQUELMAN"  (3x)  ex: 0214 - Henrique Equelman / Vergel (ida); 0214 - Henrique Equelman / Vergel (volta); 0214 - Henrique Equelman / Vergel (volta)
+    "RUA SÃO FRANCISCO - CONJ HENRIQUE HEQUELMAN"  (1x)  ex: 0214 - Henrique Equelman / Vergel (ida)
+    "RUA J - CONJ HENRIQUE HEQUELMAN"  (1x)  ex: 0214 - Henrique Equelman / Vergel (volta)
+
+--- grupo com 2 variantes, 5 ocorrencias no total ---
+    "RUA ARTUR VITAL DA SILVA"  (4x)  ex: 0214 - Henrique Equelman / Vergel (volta); 0401 - Circular Bairros I (ida); 0610 - Terminal Cruz das Almas X Ouro Preto (ida) ... +1
+    "RUA ARTHUR VITAL DA SILVA"  (1x)  ex: 0402 - Circular Barros  (volta)
+
+--- grupo com 3 variantes, 5 ocorrencias no total ---
+    "RUA ELOI DE LEMOS FRANCA"  (3x)  ex: 0214 - Henrique Equelman / Vergel (volta); 0610 - Terminal Cruz das Almas X Ouro Preto (ida); 0703 - T.I Benedito Bentes / Ponta Verde (Via Gruta) (volta)
+    "RUA ELÓI DE LEMOS FRANCA"  (1x)  ex: 0401 - Circular Bairros I (ida)
+    "RUA ELÓI DE FRANÇA"  (1x)  ex: 0402 - Circular Barros  (volta)
+
+--- grupo com 2 variantes, 5 ocorrencias no total ---
+    "AVENIDA RUI BARBOSA"  (3x)  ex: 0502 - Vergel X São Jorge ( Via Farol) (ida); 0504 - Trapiche / São Jorge (volta); 1020 - Cruz das Almas X São Jorge (volta)
+    "RUA RUI BARBOSA"  (2x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (ida); 1024 - Rotary X Cruz das Almas  (ida)
+
+--- grupo com 4 variantes, 5 ocorrencias no total ---
+    "VIA INTERNA CONJ MACEIO I - D"  (2x)  ex: 4003 - T.I Eustáquio gomes / Grand Jardim (ida); 4003 - T.I Eustáquio gomes / Grand Jardim (volta)
+    "VIA PRINCIPAL CONJ MACEIO I - A"  (1x)  ex: 4003 - T.I Eustáquio gomes / Grand Jardim (ida)
+    "VIA PRINCIPAL CONJ MACEIO I - B"  (1x)  ex: 4003 - T.I Eustáquio gomes / Grand Jardim (ida)
+    "VIA INTERNA DO CONJ MACEIO I - C"  (1x)  ex: 4003 - T.I Eustáquio gomes / Grand Jardim (ida)
+
+--- grupo com 3 variantes, 4 ocorrencias no total ---
+    "RUA B QUINZE"  (2x)  ex: 0214 - Henrique Equelman / Vergel (ida); 0214 - Henrique Equelman / Vergel (volta)
+    "RUA QUINZE DE SETEMBRO"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (volta)
+    "RUA QUINZE DE AGOSTO"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (volta)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "TERMINAL DO JOSÉ DA SILVA PEIXOTO"  (3x)  ex: 0012 - Jose da Silva Peixoto / Centro (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta); 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) (volta)
+    "TERMINAL DO JOSÉ PEIXOTO DA SILVA"  (1x)  ex: 0012 - Jose da Silva Peixoto / Centro (ida)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "AVENIDA SANTA RITA DE CÁSSIA"  (3x)  ex: 0012 - Jose da Silva Peixoto / Centro (volta); 0041 - Feitosa X Centro / Farol (volta); 0401 - Circular Bairros I (ida)
+    "RUA SANTA RITA DE CÁSSIA"  (1x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "TERMINAL SANTOS DUMONT"  (2x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida); 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (volta)
+    "TERMINAL NOVO HORIZONTE - SANTOS DUMONT"  (2x)  ex: 0712 - Santos Durmont X Ponta Verde / Farol (ida); 0712 - Santos Durmont X Ponta Verde / Farol (volta)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "TRAVESSA INAILDA FELIX"  (3x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (ida); 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (volta); 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+    "TRAVESSA ILAILDA FELIX"  (1x)  ex: 0712 - Santos Durmont X Ponta Verde / Farol (ida)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "TERMINAL DO RIO NOVO"  (2x)  ex: 0057 - Rio Novo / Centro Via Farol (ida); 0057 - Rio Novo / Centro Via Farol (volta)
+    "TERMINMAL RIO NOVO"  (2x)  ex: 0714 - Rio Novo / Ponta Verde via Jacintinho (ida); 0714 - Rio Novo / Ponta Verde via Jacintinho (volta)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "TERMINAL CONJ ROSANE COLLOR"  (2x)  ex: 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta)
+    "TERMINAL ROSANE COLLOR"  (2x)  ex: 0065 - Rosane Collor / Centro(farol) (ida); 0065 - Rosane Collor / Centro(farol) (volta)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "RUA DONA MARIETA QUINTELA CAMPOS TEIXEIRA"  (3x)  ex: 0065 - Rosane Collor / Centro(farol) (ida); 0065 - Rosane Collor / Centro(farol) (volta); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+    "RUA DONA MANETA QUINTELA CAMPOS TEIXEIRA"  (1x)  ex: 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "RUA PROFESSOR ANTONIO MÁRIO MAFRA"  (2x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta)
+    "RUA PROFESSOR ANTÔNIO MÁRIO MAFRA"  (2x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "ALAMEDA JOSÉ LOPES DE ALBUQUERQUE"  (3x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (volta); 0719 - Chã nova / Ponta Verde (volta); 0719 - Chã nova / Ponta Verde (volta)
+    "ALAMEDA JOSÉ LOPES ALBUQUERQUE"  (1x)  ex: 0719 - Chã nova / Ponta Verde (ida)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "RUA DOUTOR VIRGILIO GUEDES"  (3x)  ex: 0102 - João Sampaio X Trapiche Via Rotary - Jacintinho (volta); 0104 - T.I Benedito Bentes / Trapiche (ida); 0117 - Village II / Trapiche (ida)
+    "RUA DOUTOR VÍRGILIO GUEDES"  (1x)  ex: 0110 - Graciliano Ramos / Trapiche (ida)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "AVENIDA CELESTE BEZERRA DE MENEZES"  (2x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (ida); 0502 - Vergel X São Jorge ( Via Farol) (ida)
+    "AVENIDA CELESTE BEZERRA"  (2x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (volta); 0502 - Vergel X São Jorge ( Via Farol) (volta)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "LOTEAMENTO BELA VISTA - GUAXUMA"  (2x)  ex: 1022 - Cruz da Almas X Guaxuma (ida); 1022 - Cruz da Almas X Guaxuma (volta)
+    "LOTEAMENTO BELA VISTA"  (2x)  ex: 0613 - vergel / Guaxuma (DESATIVADO) (ida); 0613 - vergel / Guaxuma (DESATIVADO) (volta)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "PRAÇA DOIS LEÕES"  (3x)  ex: 0704 - T.I Benedito Bentes / Ponta Verde (Via Santa Lúcia) (volta); 0716 - Clima bom / Ponta Verde (volta); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta)
+    "PRAÇA DOIS LEOES"  (1x)  ex: 0720 - Denisson Menezes / Ponta Verde (volta)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "TERMINAL COLINA"  (3x)  ex: 0714 - Rio Novo / Ponta Verde via Jacintinho (ida); 0714 - Rio Novo / Ponta Verde via Jacintinho (volta); 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (volta)
+    "TERMINAL DA COLINA"  (1x)  ex: 0723 - Rosane Collor / Ponta Verde via Bom Parto - Jacintinho | PRECISA DE ALTERAÇÃO (ida)
+
+--- grupo com 2 variantes, 4 ocorrencias no total ---
+    "RUA TRANSVERSAL DENISSON MENEZES 2"  (2x)  ex: 0720 - Denisson Menezes / Ponta Verde (ida); 0720 - Denisson Menezes / Ponta Verde (volta)
+    "RUA 2 - CONJ DENISSON MENEZES"  (2x)  ex: 0720 - Denisson Menezes / Ponta Verde (ida); 0720 - Denisson Menezes / Ponta Verde (volta)
+
+--- grupo com 3 variantes, 4 ocorrencias no total ---
+    "RUA DA PAZ"  (2x)  ex: 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos) (ida); 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos) (volta)
+    "RUA ALAMEDA DA PAZ"  (1x)  ex: 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+    "RUUA ALAMEDA DA PAZ"  (1x)  ex: 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (volta)
+
+--- grupo com 2 variantes, 3 ocorrencias no total ---
+    "AVENIDA TEOTÔNIO BRANDÃO VILELA"  (2x)  ex: 0004 - Rio Largo via Mata do Rolo (ida); 0004 - Rio Largo via Mata do Rolo (volta)
+    "AVENIDA TEOTÔNIO BRANDÃO VIELA"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (ida)
+
+--- grupo com 2 variantes, 3 ocorrencias no total ---
+    "AVENIDA INTENDENTE JÚLIO CALHEIROS"  (2x)  ex: 0004 - Rio Largo via Mata do Rolo (ida); 0004 - Rio Largo via Mata do Rolo (volta)
+    "RUA INTENDENTE JÚLIO CALHEIROS"  (1x)  ex: 0004 - Rio Largo via Mata do Rolo (volta)
+
+--- grupo com 3 variantes, 3 ocorrencias no total ---
+    "RUA CORONEL FRANCISCO SILVA"  (1x)  ex: 0027 - Vila Saem / Centro (ida)
+    "RUA CORONEL JOSE FRANCISCO VIEIRA"  (1x)  ex: 0108 - Clima Bom via Colina / Trapiche (ida)
+    "RUA CORONEL JOSÉ FRANCISCO VIÊIRA"  (1x)  ex: 0101 - Chã da Jaquiera / Trapiche via João Sampaio - Bom Parto (ida)
+
+--- grupo com 2 variantes, 3 ocorrencias no total ---
+    "TRAVESSA ELIZEU GOMES DE SENA"  (2x)  ex: 0051 - Santos Durmont Via Bomba do Gonzaga / Farol / Centro (volta); 0712 - Santos Durmont X Ponta Verde / Farol (volta)
+    "RUA ELIZEU GOMES DE SENA"  (1x)  ex: 0712 - Santos Durmont X Ponta Verde / Farol (ida)
+
+--- grupo com 2 variantes, 3 ocorrencias no total ---
+    "RUA LAGOA SECA"  (2x)  ex: 0056 - João Sampaio / Centro (volta); 0709 - Chã da Jaqueira / Ponta Verde (volta)
+    "RETORNO DA LAGOA SECA"  (1x)  ex: 0052 - T.I Eustáquio Gomes / Centro (ida)
+
+--- grupo com 2 variantes, 3 ocorrencias no total ---
+    "RUA OLIVEIRA E SILVA"  (2x)  ex: 0109 - Cruz das Almas (volta); 0226 - Ipioca X Trapiche via Poço (volta)
+    "RUA ERONILDES DE OLIVEIRA"  (1x)  ex: 0301 - VILLAGE II / CHÃ DA JAQUEIRA (volta)
+
+--- grupo com 2 variantes, 3 ocorrencias no total ---
+    "AVENIDA DOUTOR ANDRÉ PAPINI GOIS"  (2x)  ex: 0110 - Graciliano Ramos / Trapiche (ida); 0727 - T.I Eustáquio Gomes / Ponta Verde (via Village II) (ida)
+    "AVENIDA DOUTOR ANDRÉ PAPINI GÓIS"  (1x)  ex: 0903 - T.I. Benedito Bentes / T.I. Eustáquio Gomes (Via Forene) (ida)
+
+--- grupo com 2 variantes, 3 ocorrencias no total ---
+    "PRAÇA TENENTE MOISES SILVA FILHO"  (2x)  ex: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO (volta); 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+    "PRAÇA TENENTE MOISÉS SILVA FILHO"  (1x)  ex: 0613 - vergel / Guaxuma (DESATIVADO) (volta)
+
+--- grupo com 3 variantes, 3 ocorrencias no total ---
+    "RUA LUIZ DE FRANÇA VERGETTI"  (1x)  ex: 0606 - Jose Tenorio / MCZ Shopping (ida)
+    "RUA LUIZ DE FRAGANÇA VERGETTI"  (1x)  ex: 0116 - José Tenório X Trapiche (ida)
+    "RUA LUIZ DE FRANCA VERGETTI"  (1x)  ex: 1023 - Cruz das Almas X Jose Tenorio (volta)
+
+--- grupo com 3 variantes, 3 ocorrencias no total ---
+    "AVENIDA EVILÁSIO SORIANO"  (1x)  ex: 0504 - Trapiche / São Jorge (volta)
+    "AVENUE EVILASIO SORIANO"  (1x)  ex: 0613 - vergel / Guaxuma (DESATIVADO) (volta)
+    "AVENUE EVILÁSIO SORIANO"  (1x)  ex: 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida)
+
+--- grupo com 2 variantes, 3 ocorrencias no total ---
+    "AVENIDA GOVERNADOR CARLOS LACERDA"  (2x)  ex: 0504 - Trapiche / São Jorge (volta); 0613 - vergel / Guaxuma (DESATIVADO) (volta)
+    "RUA GOVERNADOR CARLOS LACERDA"  (1x)  ex: 0209 - 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) (ida)
+
+--- grupo com 3 variantes, 3 ocorrencias no total ---
+    "PRAÇA DOUTOR MANOEL VALENTE DE LIMA"  (1x)  ex: 0603 - Vergel / Mirante (ida)
+    "PRAÇA DOUTOR MANOEL DUARTE"  (1x)  ex: 0610 - Terminal Cruz das Almas X Ouro Preto (volta)
+    "PRACA DOUTOR MANOEL VALENTE DE LIMA"  (1x)  ex: 0501 - Vergel X São Jorge (Via Jacintinho) (ida)
+
+--- grupo com 2 variantes, 3 ocorrencias no total ---
+    "RUA HENRIQUE FRANCISCO BULHÕES"  (2x)  ex: 0812 T.I. Benedito Bentes / Carminha (ida); 0812 T.I. Benedito Bentes / Carminha (volta)
+    "RUA HENRIQUE FRANCISCO BULHÔES"  (1x)  ex: 0812 T.I. Benedito Bentes / Carminha (volta)
+
+--- grupo com 3 variantes, 3 ocorrencias no total ---
+    "NOVO JARDIM ROTATORIA IV"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+    "NOVO JARDIM ROTATORIA III"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+    "NOVO JARDIM ROTATORIA II"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "AVENIDA ARYOSVALDO PEREIRA CINTRA"  (1x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (ida)
+    "AVENIDA ARIOSVALDO PEREIRA CINTRA"  (1x)  ex: 0610 - Terminal Cruz das Almas X Ouro Preto (ida)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "AVENIDA DUQUE DE CAXIAS (AV. DA PAZ)"  (1x)  ex: 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO (volta)
+    "AVENIDA DUQUE DE CAXIAS"  (1x)  ex: 0024 - Gruta / Centro / Term. Rotary (DESATIVADO) (volta)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "RUA ACARAU"  (1x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (volta)
+    "RUA ACARAÚ"  (1x)  ex: 0036 - DUBEAUX LEÃO / CENTRO (ida)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "RUA MAJOR ÁLVARO EUSTÓRGIO DE OLIVEIRA E SILVA"  (1x)  ex: 0402 - Circular Barros  (ida)
+    "RUA MAJOR ALVARO EUSTERIO DA SILVA"  (1x)  ex: 0041 - Feitosa X Centro / Farol (ida)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "RUA ÍRIS ALAGOENSE"  (1x)  ex: 0108 - Clima Bom via Colina / Trapiche (ida)
+    "RUA IRIS ALAGOENSE"  (1x)  ex: 0714 - Rio Novo / Ponta Verde via Jacintinho (ida)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "RUA ARAÚJO BIVAR"  (1x)  ex: 0614 - Trapiche / Mangabeiras (ida)
+    "RUA ARAUJO BIVAR"  (1x)  ex: 0402 - Circular Barros  (ida)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "RUA DJALMA FRAGOSO DE ALENCAR"  (1x)  ex: 0719 - Chã nova / Ponta Verde (ida)
+    "RUA DJALMA FRAGOSO DE ALENÇAR"  (1x)  ex: 0719 - Chã nova / Ponta Verde (volta)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "VIA DE ACESSO Á CHÂ NOVA"  (1x)  ex: 0719 - Chã nova / Ponta Verde (ida)
+    "VIA DE ACESSO A CHÃ NOVA"  (1x)  ex: 0719 - Chã nova / Ponta Verde (volta)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "TERMINAL DENISSON MENEZES"  (1x)  ex: 0720 - Denisson Menezes / Ponta Verde (volta)
+    "CONJUNTO DENISSON MENEZES"  (1x)  ex: 0720 - Denisson Menezes / Ponta Verde (ida)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "AVENIDA FREI DAMIÃO DE BOZZANO"  (1x)  ex: 0720 - Denisson Menezes / Ponta Verde (ida)
+    "AVENIDA FREI DAMIÃO DE BOZANO"  (1x)  ex: 0720 - Denisson Menezes / Ponta Verde (volta)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "Q. G"  (1x)  ex: 0807 - T.I. Benedito Bentes / Aprígio (ida)
+    "Q G"  (1x)  ex: 0807 - T.I. Benedito Bentes / Aprígio (volta)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "Q. K"  (1x)  ex: 0807 - T.I. Benedito Bentes / Aprígio (ida)
+    "Q K"  (1x)  ex: 0807 - T.I. Benedito Bentes / Aprígio (volta)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "AVENIDA ANTÔNIO LISBOA DE AMORIM"  (1x)  ex: 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos) (volta)
+    "AVENIDA ANTONIO LISBOA DE AMORIM"  (1x)  ex: 4011 - Salvador Lyra / T.I. Benedito Bentes (via Recantos) (ida)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "CORREDOR DE TRANSP CONJ NOVO JARDIM"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+    "CORREDOR DE TRANSP JARDIM ROYAL"  (1x)  ex: 4014 - T.I Eustáquio Gomes / Novo Jardim - J. Royal (ida)
+
+--- grupo com 2 variantes, 2 ocorrencias no total ---
+    "GRAND JARDIM FLAMBOYANT"  (1x)  ex: 4015 - T.I. Eustáquio Gomes / Jardim Amarílis. (via Flamboyantes) (volta)
+    "RUA DE ACESSO AO GRAND JARDIM FLAMBOYANT"  (1x)  ex: 4015 - T.I. Eustáquio Gomes / Jardim Amarílis. (via Flamboyantes) (volta)

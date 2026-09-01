@@ -1,6 +1,6 @@
 import { TILE_STYLES } from "./MapView";
 
-export default function MapStyleSelector({ value, onChange, showTerminais, onToggleTerminais }) {
+export default function MapStyleSelector({ value, onChange, showTerminais, onToggleTerminais, showZonas, onToggleZonas }) {
   return (
     <div className="map-style-panel">
       <p className="sidebar-title">Estilo do Mapa</p>
@@ -26,6 +26,14 @@ export default function MapStyleSelector({ value, onChange, showTerminais, onTog
           <span className="terminais-swatch" />
           <span>Terminais</span>
           <span className="terminais-toggle-check">{showTerminais ? "✓" : ""}</span>
+        </button>
+        <button
+          className={`terminais-toggle-btn${showZonas ? " terminais-toggle-btn--active" : ""}`}
+          onClick={onToggleZonas}
+        >
+          <span className="terminais-swatch" style={{ background: "transparent", border: "2px solid #D98407" }} />
+          <span>Zonas (bairros)</span>
+          <span className="terminais-toggle-check">{showZonas ? "✓" : ""}</span>
         </button>
       </div>
     </div>

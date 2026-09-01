@@ -17,8 +17,11 @@ Saída:
 
 import json
 import re
+import sys
 from collections import defaultdict
 from pathlib import Path
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 import pdfplumber
 
@@ -30,14 +33,33 @@ OUT_PATH = BASE / "data/json/vias_por_bairro.json"
 # ── 1. Parsear PDF → {codigo: bairro} ────────────────────────────────────────
 
 # "ALTO DA ALEGRIA 00748 RUA EM PROJETO ... 0000 0001"
-# bairro = só letras/espaços (sem dígitos), depois vem o código de 5 dígitos
-RE_BAIRRO = re.compile(
-    r"^([A-Z][A-Z\s/\-\'\.]+?)\s+(\d{5})\s+.+?\s+\d{4}\s+\d{4}\s*$"
-)
+# bairro = tudo antes do primeiro codigo de 5 digitos (nao exige mais os dois
+# grupos de 4 digitos finais no fim da linha -- fragil, falhava silenciosamente
+# quando a extracao do PDF perdia/alterava espacamento no fim da linha)
+RE_BAIRRO = re.compile(r"^([^\d]+?)\s+(\d{5})\s+(.*)$")
 # "00749 RUA EM PROJETO ... 0000 0001"
-RE_ENTRY = re.compile(r"^(\d{5})\s+.+?\s+\d{4}\s+\d{4}\s*$")
+RE_ENTRY = re.compile(r"^(\d{5})\s+(.*)$")
 
-SKIP = re.compile(r"^(Sub-Total|Bairro|P.gina|\d{2}/\d{2}/\d{4}|N.*Inicial)")
+SKIP = re.compile(r"^(Sub-Total|Bairro|P.gina|\d{2}/\d{2}/\d{4}|N.*Inicial|VIAS POR BAIRRO|ViaPorBairro|\d{2}:\d{2}:\d{2}$|TOTAL:)")
+
+# a fonte embutida no PDF da DMTT nao tem ToUnicode CMap valido pra algumas
+# letras acentuadas -- pdfplumber (e qualquer lib de extracao estrutural)
+# devolve U+FFFD nelas. Corrigido a mao, conferido letra a letra contra a
+# leitura visual do PDF (Read tool renderiza certo, so a extracao de texto erra).
+CORRECAO_BAIRRO = {
+    "CANA�": "CANAÃ",
+    "CH� DA JAQUEIRA": "CHÃ DA JAQUEIRA",
+    "CH� DE BEBEDOURO": "CHÃ DE BEBEDOURO",
+    "FERN�O VELHO": "FERNÃO VELHO",
+    "GAR�A TORTA": "GARÇA TORTA",
+    "JARAGU�": "JARAGUÁ",
+    "JATI�CA": "JATIÚCA",
+    "PAJU�ARA": "PAJUÇARA",
+    "PO�O": "POÇO",
+    "SANTA AM�LIA": "SANTA AMÉLIA",
+    "SANTA L�CIA": "SANTA LÚCIA",
+    "S�O JORGE": "SÃO JORGE",
+}
 
 codigo_bairro: dict[str, str] = {}   # "00270" → "ANTARES"
 
@@ -60,7 +82,7 @@ with pdfplumber.open(PDF_PATH) as pdf:
             # Linha que começa com texto de bairro + código
             m = RE_BAIRRO.match(linha)
             if m:
-                bairro_atual = m.group(1).strip()
+                bairro_atual = CORRECAO_BAIRRO.get(m.group(1).strip(), m.group(1).strip())
                 codigo_bairro[m.group(2)] = bairro_atual
 
 print(f"[PDF] {len(codigo_bairro)} codigos mapeados para {len(set(codigo_bairro.values()))} bairros")

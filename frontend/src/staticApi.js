@@ -68,6 +68,10 @@ export async function getTerminais() {
   return loadJson(`${DATA_BASE}/terminais.json`);
 }
 
+export async function getZonas() {
+  return loadJson(`${DATA_BASE}/zonas.json`);
+}
+
 export async function detalharLinha(id) {
   return getLinhaDetalhe(id);
 }

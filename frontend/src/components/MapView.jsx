@@ -1,11 +1,13 @@
 import { Component, useEffect } from "react";
 import { MapContainer, TileLayer, GeoJSON, CircleMarker, Popup, Tooltip, useMap, useMapEvents } from "react-leaflet";
 
+const ESRI_ATTR = "Tiles &copy; Esri &mdash; Esri, HERE, Garmin, FAO, NOAA, USGS, &copy; OpenStreetMap contributors, GIS User Community";
+
 export const TILE_STYLES = {
-  dark:      { label: "Escuro",   swatch: "#1a202c", url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",                                                              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>' },
-  light:     { label: "Claro",    swatch: "#e8f0f7", url: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",                                                             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>' },
+  dark:      { label: "Escuro",   swatch: "#1a202c", url: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",                attribution: ESRI_ATTR, maxNativeZoom: 16, labelsUrl: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}" },
+  light:     { label: "Claro",    swatch: "#e8f0f7", url: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",               attribution: ESRI_ATTR, maxNativeZoom: 16, labelsUrl: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}" },
   standard:  { label: "Padrão",   swatch: "#aacf9f", url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",                                                                         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' },
-  voyager:   { label: "Voyager",  swatch: "#e0d8c8", url: "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",                                                   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>' },
+  voyager:   { label: "Ruas",     swatch: "#e0d8c8", url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",                           attribution: ESRI_ATTR, maxNativeZoom: 19 },
   satellite: { label: "Satélite", swatch: "#3d5a3e", url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",                              attribution: "Tiles &copy; Esri &mdash; Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community" },
 };
 
@@ -26,6 +28,13 @@ function onEachFeature(feature, layer) {
     const dir = sentido === "ida" ? "→ IDA" : sentido === "volta" ? "← VOLTA" : "";
     layer.bindPopup(`<strong>${linha_nome}</strong><br/>${dir}`);
   }
+}
+
+const STYLE_ZONA = { color: "#D98407", weight: 2, fillColor: "#D98407", fillOpacity: 0.12 };
+
+function onEachZona(feature, layer) {
+  const nome = feature?.properties?.nome;
+  if (nome) layer.bindTooltip(nome, { sticky: true, className: "zona-tooltip" });
 }
 
 class MapErrorBoundary extends Component {
@@ -110,7 +119,7 @@ function AutoZoom({ geojson, isLinhaSelected }) {
   return null;
 }
 
-export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle = "dark", geojsonVersion = 0, ruaGeojson = null, onMapClick = null, linhaContexto = null, onContextoAmbos = null, terminais = [], showTerminais = false, mapRef = null }) {
+export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle = "dark", geojsonVersion = 0, ruaGeojson = null, onMapClick = null, linhaContexto = null, onContextoAmbos = null, terminais = [], showTerminais = false, zonas = null, showZonas = false, mapRef = null }) {
   // key muda somente quando os dados novos chegam (junto com geojsonVersion), nunca antes
   const geoJsonKey = geojsonVersion;
   const tile = TILE_STYLES[tileStyle] ?? TILE_STYLES.dark;
@@ -126,7 +135,10 @@ export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle =
         preferCanvas
         style={{ height: "100%", width: "100%" }}
       >
-        <TileLayer attribution={tile.attribution} url={tile.url} crossOrigin="anonymous" />
+        <TileLayer attribution={tile.attribution} url={tile.url} maxNativeZoom={tile.maxNativeZoom} maxZoom={19} crossOrigin="anonymous" />
+        {tile.labelsUrl && (
+          <TileLayer url={tile.labelsUrl} maxNativeZoom={tile.maxNativeZoom} maxZoom={19} crossOrigin="anonymous" />
+        )}
         <MainPaneSetup />
         <GeoJSON
           key={geoJsonKey}
@@ -137,6 +149,9 @@ export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle =
         />
         <AutoZoom geojson={geojson} isLinhaSelected={isLinhaSelected} />
         {onMapClick && <MapClickHandler onMapClick={onMapClick} />}
+        {showZonas && zonas && (
+          <GeoJSON data={zonas} style={STYLE_ZONA} onEachFeature={onEachZona} />
+        )}
         {showTerminais && terminais.map((t) => (
           <CircleMarker
             key={t.nome}

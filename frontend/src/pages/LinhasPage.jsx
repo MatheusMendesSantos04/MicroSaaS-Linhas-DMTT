@@ -5,7 +5,7 @@ import LinhaSelector from "../components/LinhaSelector";
 import MapStyleSelector from "../components/MapStyleSelector";
 import MapView from "../components/MapView";
 import RuaSearch from "../components/RuaSearch";
-import { listarLinhas, getTerminais, detalharLinha, geojsonTodasLinhas, geojsonLinha, getHorarios } from "../staticApi";
+import { listarLinhas, getTerminais, getZonas, detalharLinha, geojsonTodasLinhas, geojsonLinha, getHorarios } from "../staticApi";
 
 const EMPTY_FC = { type: "FeatureCollection", features: [] };
 
@@ -27,17 +27,20 @@ export default function LinhasPage() {
   const [linhaContexto, setLinhaContexto] = useState(null);
   const [terminais, setTerminais] = useState([]);
   const [showTerminais, setShowTerminais] = useState(false);
+  const [zonas, setZonas] = useState(null);
+  const [showZonas, setShowZonas] = useState(false);
   const mapRef = useRef(null);
 
   // Carrega lista de linhas e terminais ao montar
   useEffect(() => {
     let active = true;
     setLoading(true);
-    Promise.all([listarLinhas(), getTerminais()])
-      .then(([linhasData, terminaisData]) => {
+    Promise.all([listarLinhas(), getTerminais(), getZonas()])
+      .then(([linhasData, terminaisData, zonasData]) => {
         if (!active) return;
         setLinhas(linhasData.itens || []);
         setTerminais(terminaisData || []);
+        setZonas(zonasData || null);
       })
       .catch((err) => { if (active) setError(err.message); })
       .finally(() => { if (active) setLoading(false); });
@@ -165,10 +168,10 @@ export default function LinhasPage() {
       />
 
       <div className="app-body">
-        <MapView geojson={geojson} isLinhaSelected={selectedLinhaIds.length > 0} linhaId={selectedLinhaIds[0] ?? ""} tileStyle={mapStyle} geojsonVersion={geojsonVersion} ruaGeojson={ruaGeojson} onMapClick={handleMapClick} linhaContexto={selectedLinhaIds.length <= 1 ? linhaContexto : null} onContextoAmbos={handleContextoAmbos} terminais={terminais} showTerminais={showTerminais} mapRef={mapRef} />
+        <MapView geojson={geojson} isLinhaSelected={selectedLinhaIds.length > 0} linhaId={selectedLinhaIds[0] ?? ""} tileStyle={mapStyle} geojsonVersion={geojsonVersion} ruaGeojson={ruaGeojson} onMapClick={handleMapClick} linhaContexto={selectedLinhaIds.length <= 1 ? linhaContexto : null} onContextoAmbos={handleContextoAmbos} terminais={terminais} showTerminais={showTerminais} zonas={zonas} showZonas={showZonas} mapRef={mapRef} />
 
         <aside className="sidebar">
-          <MapStyleSelector value={mapStyle} onChange={setMapStyle} showTerminais={showTerminais} onToggleTerminais={() => setShowTerminais((v) => !v)} />
+          <MapStyleSelector value={mapStyle} onChange={setMapStyle} showTerminais={showTerminais} onToggleTerminais={() => setShowTerminais((v) => !v)} showZonas={showZonas} onToggleZonas={() => setShowZonas((v) => !v)} />
           <HorariosPanel horarios={horarios} selectedLinhaId={selectedLinhaIds[0] ?? ""} />
           <ItinerarioPanel
             detalheLinha={detalheLinha}

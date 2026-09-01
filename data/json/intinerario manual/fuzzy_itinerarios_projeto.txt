@@ -1,0 +1,2 @@
+Pares fuzzy unicos no projeto inteiro (deduplicados) -- 0 pares
+Ordenado por quantas linhas usam esse par (mais impactante primeiro).

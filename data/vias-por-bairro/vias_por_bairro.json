@@ -253,20 +253,12 @@
       "codigo": "00475"
     },
     {
-      "via": "ESTACÃO FERROVIARIA - C.B.T.U.",
-      "codigo": "00623"
-    },
-    {
       "via": "LADEIRA DO BRITO",
       "codigo": "00117"
     },
     {
       "via": "LADEIRA DOS MARTÍRIOS",
       "codigo": "00123"
-    },
-    {
-      "via": "PARQUE RODOLFO LINS (PRAÇA DO PIRULITO)",
-      "codigo": "00412"
     },
     {
       "via": "PRAÇA DOS PALMARES",
@@ -355,10 +347,6 @@
     {
       "via": "RUA ZADIR ÍNDIO",
       "codigo": "06197"
-    },
-    {
-      "via": "TRAVESSA 7 DE SETEMBRO",
-      "codigo": "00903"
     }
   ],
   "CHÃ DA JAQUEIRA": [
@@ -404,6 +392,10 @@
     }
   ],
   "CIDADE UNIVERSITARIA": [
+    {
+      "via": "1 ROTATORIA - JARDIM ROYAL",
+      "codigo": "06444"
+    },
     {
       "via": "1° ROTATÓRIA - JARDIM ROYAL",
       "codigo": "06444"
@@ -485,7 +477,7 @@
       "codigo": "06412"
     },
     {
-      "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+      "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
       "codigo": "06689"
     },
     {
@@ -863,6 +855,10 @@
       "codigo": "06270"
     },
     {
+      "via": "RUA DOUTOR JOAO DE AZEVEDO FILHO",
+      "codigo": "06497"
+    },
+    {
       "via": "RUA DOUTOR JOÃO DE AZEVEDO FILHO",
       "codigo": "06497"
     },
@@ -1043,10 +1039,6 @@
       "codigo": "06475"
     },
     {
-      "via": "RUA GERMANO LOPES CORDEIRO",
-      "codigo": "00556"
-    },
-    {
       "via": "RUA HUGO CORRÊA PAES",
       "codigo": "00468"
     },
@@ -1097,14 +1089,6 @@
     {
       "via": "ESTRADA DA SAÚDE",
       "codigo": "00226"
-    },
-    {
-      "via": "ITINERÁRIO IDA - PONTA VERDE",
-      "codigo": "06720"
-    },
-    {
-      "via": "ITINERÁRIO IDA - POÇO",
-      "codigo": "06718"
     },
     {
       "via": "LAD. MANOEL FLORENTINO LOPES DOS SANTOS",
@@ -1359,10 +1343,6 @@
       "codigo": "00217"
     },
     {
-      "via": "AVENIDA JOÃO JOSÉ P. DE L. FILHO",
-      "codigo": "06114"
-    },
-    {
       "via": "RUA I - CONJ CLIMERIO SARMENTO",
       "codigo": "06258"
     },
@@ -1443,10 +1423,6 @@
       "codigo": "06144"
     },
     {
-      "via": "RUA VENERAVEL JOAO VIEIRA CHAGAS",
-      "codigo": "00508"
-    },
-    {
       "via": "VIADUTO INDL. JOAO LYRA",
       "codigo": "06665"
     }
@@ -1478,10 +1454,6 @@
     }
   ],
   "PAJUÇARA": [
-    {
-      "via": "PRAÇA DA LIBERDADE",
-      "codigo": "00246"
-    },
     {
       "via": "PRAÇA LIONS",
       "codigo": "00250"
@@ -1647,10 +1619,6 @@
     {
       "via": "RUA SANTO ANTÔNIO",
       "codigo": "00282"
-    },
-    {
-      "via": "VILA KENNEDY",
-      "codigo": "00478"
     }
   ],
   "PONTA VERDE": [
@@ -1743,7 +1711,7 @@
       "codigo": "00198"
     },
     {
-      "via": "PRAÇA GUIMARÃES PASSOS",
+      "via": "PRAÇA GUIMARAES PASSOS",
       "codigo": "06189"
     },
     {
@@ -1765,10 +1733,6 @@
     {
       "via": "RUA ESCRITOR PAULINO SANTIAGO",
       "codigo": "00519"
-    },
-    {
-      "via": "RUA ESMERALDINO MARINHO SPÍNDOLA SOBRINHO",
-      "codigo": "06202"
     },
     {
       "via": "RUA JORNALISTA JAIME DE AMORIM MIRANDA",
@@ -1805,10 +1769,6 @@
     {
       "via": "RUA TITO DE BARROS",
       "codigo": "06675"
-    },
-    {
-      "via": "TRAVESSA JOATAN",
-      "codigo": "06326"
     },
     {
       "via": "TRAVESSA MARAVILHA",
@@ -2001,6 +1961,10 @@
       "codigo": "00802"
     },
     {
+      "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+      "codigo": "00174"
+    },
+    {
       "via": "RUA A - B",
       "codigo": "06226"
     },
@@ -2115,6 +2079,10 @@
     {
       "via": "RETORNO DA LAGOA SECA",
       "codigo": "00670"
+    },
+    {
+      "via": "ROTATORIA DO VIADUTO DA PRF",
+      "codigo": "06590"
     },
     {
       "via": "ROTATÓRIA DO VIADUTO DA PRF",
@@ -2243,10 +2211,6 @@
       "codigo": "00028"
     },
     {
-      "via": "ITINERÁRIO VOLTA - PONTA VERDE",
-      "codigo": "06719"
-    },
-    {
       "via": "RUA BENJAMIN CONSTANT",
       "codigo": "00511"
     },
@@ -2283,18 +2247,6 @@
     {
       "via": "AVENIDA SENADOR RUI PALMEIRA",
       "codigo": "00458"
-    },
-    {
-      "via": "ITINERÁRIO VOLTA - JOAQUIM LEÃO",
-      "codigo": "06722"
-    },
-    {
-      "via": "ITINERÁRIO VOLTA - POÇO",
-      "codigo": "06717"
-    },
-    {
-      "via": "ITINRERÁRIO IDA - VERGEL",
-      "codigo": "06721"
     },
     {
       "via": "PRAÇA TENENTE MOISÉS SILVA FILHO",
@@ -2471,10 +2423,6 @@
       "codigo": null
     },
     {
-      "via": "AVENIDA PROFESSOR CLAUDIOM LOUREIRO",
-      "codigo": null
-    },
-    {
       "via": "AVENIDA PROFESSOR LOUREIRO",
       "codigo": null
     },
@@ -2636,6 +2584,10 @@
     },
     {
       "via": "RETORNO AVENIDA FERNANDES LIMA",
+      "codigo": null
+    },
+    {
+      "via": "RETORNO CONJUNTO JOSE TENORIO",
       "codigo": null
     },
     {
@@ -2843,6 +2795,10 @@
       "codigo": null
     },
     {
+      "via": "RUA DOUTOR LUIS PONTES DE MIRANDA",
+      "codigo": null
+    },
+    {
       "via": "RUA DOUTOR SEBASTIÃO DA HORA",
       "codigo": null
     },
@@ -2880,6 +2836,10 @@
     },
     {
       "via": "RUA ESCRITORA MARIA LUÍSA MELO SÁ",
+      "codigo": null
+    },
+    {
+      "via": "RUA ESMERALDINO MARINHO SPÍNDOLA SOBRINHO",
       "codigo": null
     },
     {
@@ -2964,6 +2924,10 @@
     },
     {
       "via": "RUA JOSÉ AUGUSTO SILVA SOUTO",
+      "codigo": null
+    },
+    {
+      "via": "RUA JOSÉ DE MELO",
       "codigo": null
     },
     {
@@ -3208,6 +3172,10 @@
     },
     {
       "via": "TRAVESSA INAILDA FELIX",
+      "codigo": null
+    },
+    {
+      "via": "TRAVESSA JOATAN",
       "codigo": null
     },
     {

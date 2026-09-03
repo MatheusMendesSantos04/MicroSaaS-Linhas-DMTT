@@ -1,0 +1,637 @@
+{
+  "bairros": {
+    "Antares": [
+      {
+        "codigo_proposto": "0001",
+        "via": "AVENIDA DOUTOR MILTON HÊNIO NETTO DE GOUVEIA"
+      },
+      {
+        "codigo_proposto": "0002",
+        "via": "Q W1"
+      },
+      {
+        "codigo_proposto": "0003",
+        "via": "Q. S1"
+      },
+      {
+        "codigo_proposto": "0004",
+        "via": "RUA DEZENOVE"
+      },
+      {
+        "codigo_proposto": "0005",
+        "via": "RUA MAX DOUGLAS"
+      }
+    ],
+    "Benedito Bentes": [
+      {
+        "codigo_proposto": "0006",
+        "via": "Q E1"
+      },
+      {
+        "codigo_proposto": "0007",
+        "via": "Q I1"
+      },
+      {
+        "codigo_proposto": "0008",
+        "via": "Q K"
+      },
+      {
+        "codigo_proposto": "0009",
+        "via": "RUA A | OITO"
+      },
+      {
+        "codigo_proposto": "0010",
+        "via": "RUA ANGELIM"
+      },
+      {
+        "codigo_proposto": "0011",
+        "via": "RUA ARUEIRA"
+      },
+      {
+        "codigo_proposto": "0012",
+        "via": "RUA B TRINTA E OITO"
+      },
+      {
+        "codigo_proposto": "0013",
+        "via": "RUA GENILDA DA SILVA PORTO"
+      },
+      {
+        "codigo_proposto": "0014",
+        "via": "RUA HENRIQUE FRANCISCO BULHÕES"
+      },
+      {
+        "codigo_proposto": "0015",
+        "via": "RUA SETE A"
+      },
+      {
+        "codigo_proposto": "0016",
+        "via": "RUA TARCÍSIO DE JESUS"
+      }
+    ],
+    "Bom Parto": [
+      {
+        "codigo_proposto": "0017",
+        "via": "RUA GENERAL HERMES"
+      }
+    ],
+    "Centro": [
+      {
+        "codigo_proposto": "0018",
+        "via": "RUA AUGUSTA"
+      },
+      {
+        "codigo_proposto": "0019",
+        "via": "RUA BARÃO DE MACEIÓ"
+      },
+      {
+        "codigo_proposto": "0020",
+        "via": "RUA DO LIVRAMENTO"
+      },
+      {
+        "codigo_proposto": "0021",
+        "via": "RUA DO SOL"
+      },
+      {
+        "codigo_proposto": "0022",
+        "via": "RUA JOAO PESSOA"
+      },
+      {
+        "codigo_proposto": "0023",
+        "via": "RUA PEDRO MONTEIRO"
+      },
+      {
+        "codigo_proposto": "0024",
+        "via": "RUA PROFESSOR DOMINGOS MOEDA"
+      },
+      {
+        "codigo_proposto": "0025",
+        "via": "RUA SANTOS PACHECO"
+      },
+      {
+        "codigo_proposto": "0026",
+        "via": "TRAVESSA SETE DE SETEMBRO"
+      }
+    ],
+    "Chã da Jaqueira": [
+      {
+        "codigo_proposto": "0027",
+        "via": "RUA ANTÔNIO CLAUDINO"
+      },
+      {
+        "codigo_proposto": "0028",
+        "via": "RUA JONACY"
+      }
+    ],
+    "Cidade Universitária": [
+      {
+        "codigo_proposto": "0029",
+        "via": "AVENIDA DOUTOR FERNANDO DO COUTO MALTA"
+      },
+      {
+        "codigo_proposto": "0030",
+        "via": "AVENIDA JOSÉ HAILTON DOS SANTOS"
+      },
+      {
+        "codigo_proposto": "0031",
+        "via": "AVENIDA LOURIVAL MELO MOTA"
+      },
+      {
+        "codigo_proposto": "0032",
+        "via": "CORREDOR D"
+      },
+      {
+        "codigo_proposto": "0033",
+        "via": "Q | 1"
+      },
+      {
+        "codigo_proposto": "0034",
+        "via": "RUA 54 CONJUNTO GRACILIANO RAMOS"
+      },
+      {
+        "codigo_proposto": "0035",
+        "via": "RUA BENEDITO CALAÇA LOUREIRO"
+      },
+      {
+        "codigo_proposto": "0036",
+        "via": "RUA HERMITON DO AMARAL"
+      },
+      {
+        "codigo_proposto": "0037",
+        "via": "RUA J"
+      },
+      {
+        "codigo_proposto": "0038",
+        "via": "RUA O"
+      },
+      {
+        "codigo_proposto": "0039",
+        "via": "RUA P"
+      },
+      {
+        "codigo_proposto": "0040",
+        "via": "RUA Q"
+      },
+      {
+        "codigo_proposto": "0041",
+        "via": "RUA R, G"
+      },
+      {
+        "codigo_proposto": "0042",
+        "via": "RUA SENADOR ARNON DE MELO"
+      },
+      {
+        "codigo_proposto": "0043",
+        "via": "RUA U"
+      },
+      {
+        "codigo_proposto": "0044",
+        "via": "RUA X"
+      },
+      {
+        "codigo_proposto": "0045",
+        "via": "SAIDA DO CONJUNTO JARDIM ROYAL"
+      }
+    ],
+    "Clima Bom": [
+      {
+        "codigo_proposto": "0046",
+        "via": "RUA ANTONIO SILVA"
+      },
+      {
+        "codigo_proposto": "0047",
+        "via": "RUA ANTÔNIO HOLANDA"
+      },
+      {
+        "codigo_proposto": "0048",
+        "via": "RUA DOUTORA NADJA"
+      },
+      {
+        "codigo_proposto": "0049",
+        "via": "RUA EDGAR DE GÓES DE MONTEIRO"
+      },
+      {
+        "codigo_proposto": "0050",
+        "via": "RUA EDUARDO JORGE LOPES NOVAES"
+      },
+      {
+        "codigo_proposto": "0051",
+        "via": "RUA ERONILDES DE OLIVEIRA"
+      },
+      {
+        "codigo_proposto": "0052",
+        "via": "TERMINAL OSMAN LOUREIRO"
+      }
+    ],
+    "Cruz das Almas": [
+      {
+        "codigo_proposto": "0053",
+        "via": "RUA FRED STONE"
+      },
+      {
+        "codigo_proposto": "0054",
+        "via": "RUA PONTES DE MIRANDA"
+      },
+      {
+        "codigo_proposto": "0055",
+        "via": "RUA SENADOR EZECHIAS JERÔNIMO DA ROCHA"
+      },
+      {
+        "codigo_proposto": "0056",
+        "via": "TERMINAL DE CRUZ DAS ALMAS"
+      }
+    ],
+    "Farol": [
+      {
+        "codigo_proposto": "0057",
+        "via": "BR 104"
+      },
+      {
+        "codigo_proposto": "0058",
+        "via": "RUA AFONSO PENA"
+      },
+      {
+        "codigo_proposto": "0059",
+        "via": "RUA PROFESSOR ANTÔNIO MÁRIO MAFRA"
+      }
+    ],
+    "Feitosa": [
+      {
+        "codigo_proposto": "0060",
+        "via": "RUA ANTÔNIO REGINALDO PONTES LIMA"
+      },
+      {
+        "codigo_proposto": "0061",
+        "via": "RUA MAJOR ÁLVARO EUSTÓRGIO DE OLIVEIRA E SILVA"
+      }
+    ],
+    "Fernão Velho": [
+      {
+        "codigo_proposto": "0062",
+        "via": "AVENIDA DOUTOR ALBERTO PLÁCIDO"
+      },
+      {
+        "codigo_proposto": "0063",
+        "via": "RUA DE ACESSO"
+      }
+    ],
+    "Gruta de Lourdes": [
+      {
+        "codigo_proposto": "0064",
+        "via": "RUA NILO TORRES"
+      }
+    ],
+    "Ipioca": [
+      {
+        "codigo_proposto": "0065",
+        "via": "ALTO DE IPIOCA"
+      }
+    ],
+    "Jacarecica": [
+      {
+        "codigo_proposto": "0066",
+        "via": "CONJUNTO JACARECICA"
+      },
+      {
+        "codigo_proposto": "0067",
+        "via": "ESTRADA JACARECICA PARA"
+      }
+    ],
+    "Jacintinho": [
+      {
+        "codigo_proposto": "0068",
+        "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES"
+      },
+      {
+        "codigo_proposto": "0069",
+        "via": "RUA DEMERVAL MACÁRIO"
+      },
+      {
+        "codigo_proposto": "0070",
+        "via": "RUA FORMOSA"
+      }
+    ],
+    "Jaraguá": [
+      {
+        "codigo_proposto": "0071",
+        "via": "RUA BATISTA ACIOLI"
+      },
+      {
+        "codigo_proposto": "0072",
+        "via": "RUA DESEMBARGADOR PAULO DA ROCHA MENDES"
+      }
+    ],
+    "Jardim Petrópolis I": [
+      {
+        "codigo_proposto": "0073",
+        "via": "Q G"
+      },
+      {
+        "codigo_proposto": "0074",
+        "via": "RUA PROFESSOR ANTONIO NEMESIO DE ALBUQUERQUE"
+      }
+    ],
+    "Jatiúca": [
+      {
+        "codigo_proposto": "0075",
+        "via": "AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS"
+      },
+      {
+        "codigo_proposto": "0076",
+        "via": "RUA GOVERNADOR CARLOS LACERDA"
+      }
+    ],
+    "Levada": [
+      {
+        "codigo_proposto": "0077",
+        "via": "RUA DEZESSEIS DE SETEMBRO"
+      }
+    ],
+    "Mangabeiras": [
+      {
+        "codigo_proposto": "0078",
+        "via": "RUA JOSÉ DE MELO"
+      }
+    ],
+    "Pajuçara": [
+      {
+        "codigo_proposto": "0079",
+        "via": "RUA ALMEIDA GUIMARÃES"
+      }
+    ],
+    "Pinheiro": [
+      {
+        "codigo_proposto": "0080",
+        "via": "RUA MANOEL MENEZES"
+      },
+      {
+        "codigo_proposto": "0081",
+        "via": "RUA RICARDO CESAR DE MELO"
+      }
+    ],
+    "Pitanguinha": [
+      {
+        "codigo_proposto": "0082",
+        "via": "RUA CORONEL PACHÊCO RAMALHO"
+      }
+    ],
+    "Ponta Grossa": [
+      {
+        "codigo_proposto": "0083",
+        "via": "RUA BALTAZAR DE MENDONÇA"
+      }
+    ],
+    "Ponta Verde": [
+      {
+        "codigo_proposto": "0084",
+        "via": "AVENIDA PROFESSOR SANDOVAL ARROXELAS"
+      },
+      {
+        "codigo_proposto": "0085",
+        "via": "RUA DEPUTADO JOSÉ LAGES"
+      },
+      {
+        "codigo_proposto": "0086",
+        "via": "RUA JOÃO GUALBERTO PEREIRA DO CARMO"
+      }
+    ],
+    "Poço": [
+      {
+        "codigo_proposto": "0087",
+        "via": "RUA ESMERALDINO MARINHO SPÍNDOLA SOBRINHO"
+      },
+      {
+        "codigo_proposto": "0088",
+        "via": "RUA JORNALISTA LAFAIETE BELO"
+      },
+      {
+        "codigo_proposto": "0089",
+        "via": "TRAVESSA ESCRITOR PAULINO SANTIAGO"
+      },
+      {
+        "codigo_proposto": "0090",
+        "via": "VILA BANCARIA"
+      }
+    ],
+    "Prado": [
+      {
+        "codigo_proposto": "0091",
+        "via": "RUA CORONEL MENDES DA FONSECA"
+      },
+      {
+        "codigo_proposto": "0092",
+        "via": "RUA MIGUEL OMENA"
+      }
+    ],
+    "Rio Novo": [
+      {
+        "codigo_proposto": "0093",
+        "via": "TRAVESSA DO CRAVO"
+      }
+    ],
+    "Santa Amélia": [
+      {
+        "codigo_proposto": "0094",
+        "via": "ALAMEDA C UM"
+      },
+      {
+        "codigo_proposto": "0095",
+        "via": "TERMINAL COLINA DOS EUCALIPTOS"
+      },
+      {
+        "codigo_proposto": "0096",
+        "via": "TRAVESSA DA FLORESTA"
+      }
+    ],
+    "Santa Lúcia": [
+      {
+        "codigo_proposto": "0097",
+        "via": "RUA JOSÉ HERMES DAMASCENO"
+      }
+    ],
+    "Santos Dumont": [
+      {
+        "codigo_proposto": "0098",
+        "via": "AVENIDA EDUARDO TADEU LOPES DA SILVA"
+      },
+      {
+        "codigo_proposto": "0099",
+        "via": "TRAVESSA INAILDA FELIX"
+      }
+    ],
+    "Serraria": [
+      {
+        "codigo_proposto": "0100",
+        "via": "AVENIDA DEPUTADO EDSON LINS"
+      },
+      {
+        "codigo_proposto": "0101",
+        "via": "ESTRADA DO GAMA"
+      },
+      {
+        "codigo_proposto": "0102",
+        "via": "RETORNO CONJUNTO JOSE TENORIO"
+      },
+      {
+        "codigo_proposto": "0103",
+        "via": "RETORNO CONJUNTO JOSÉ TENÓRIO"
+      },
+      {
+        "codigo_proposto": "0104",
+        "via": "RUA PROJETADA A - B"
+      },
+      {
+        "codigo_proposto": "0105",
+        "via": "TERMINAL JOSÉ TENÓRIO"
+      }
+    ],
+    "Tabuleiro dos Martins": [
+      {
+        "codigo_proposto": "0106",
+        "via": "AVENIDA CARLOS GOMES DE BARROS"
+      },
+      {
+        "codigo_proposto": "0107",
+        "via": "RUA ERALDO FERREIRA DA COSTA"
+      },
+      {
+        "codigo_proposto": "0108",
+        "via": "RUA GILBERTO VIEIRA LEITE"
+      }
+    ],
+    "Trapiche da Barra": [
+      {
+        "codigo_proposto": "0109",
+        "via": "TERMINAL TRAPICHE DA BARRA"
+      }
+    ],
+    "Vergel do Lago": [
+      {
+        "codigo_proposto": "0110",
+        "via": "AVENIDA GOVERNADOR THEOBALDO BARBOSA"
+      }
+    ]
+  },
+  "precisa_revisar": [
+    "ACESSO AOS CONJUNTOS PETRÓPOLIS I,II,III",
+    "ALAMEDA A DOIS",
+    "ALAMEDA ALMIRANTE MANOEL MENDES - RETORNO",
+    "ALAMEDA DAS AMENDOEIRAS",
+    "AVENIDA ALICE CAROLINA",
+    "AVENIDA BENEDITO LOUREIRO",
+    "AVENIDA BOSQUE DA CIMEIRA",
+    "AVENIDA BRIGADEIRO EDUARDO GOMES DE BRITO",
+    "AVENIDA CAETÉS",
+    "AVENIDA CELESTE BEZERRA DE MENEZES",
+    "AVENIDA DEPUTADO JOSÉ LAGES",
+    "AVENIDA DO FUTURO",
+    "AVENIDA DOUTOR ABELARDO PONTES LIMA",
+    "AVENIDA DOUTOR LUIZ ROCHA TOLEDO",
+    "AVENIDA FREI DAMIÃO DE BOZANO",
+    "AVENIDA GEN HERMES",
+    "AVENIDA GERALDO BULHÔES",
+    "AVENIDA GERALDO SAMPAIO",
+    "AVENIDA GOVERNADOR TEOBALDO BARBOSA",
+    "AVENIDA IND CÍCERO TOLEDO",
+    "AVENIDA INTENDENTE JÚLIO CALHEIROS",
+    "AVENIDA JORGE DE LIMA",
+    "AVENIDA JORNALISTA TEÓFILO ALVEZ LINS",
+    "AVENIDA JOSÉ DA SILVA",
+    "AVENIDA PROFESSOR LOUREIRO",
+    "AVENIDA ROTA DO MAR",
+    "AVENIDA TEOTÔNIO BRANDÃO VILELA",
+    "AVENIDA VAZ DE CASTRO",
+    "BASILIANO APRIGIO DE OLIVEIRA",
+    "CONJUNTO CIDADE SORRISOI",
+    "CONJUNTO ELIAS PONTES BOMFIM",
+    "CONJUNTO MORADA DO PLANALTO",
+    "CONJUNTO SONHO DE ANTONIO DUARTE",
+    "CORREDOR DE TRANSPORTE CONJUNTO NOVO JARDIM",
+    "CORREDOR DE TRANSPORTE JARDIM ROYAL",
+    "ESTRADA DA ANTIGA GRANJA",
+    "ESTRADA DA GOIABEIRA",
+    "ESTRADA DUAS BOCAS",
+    "LOTEAMENTO BELA VISTA - GUAXUMA",
+    "LOTEAMENTO BRISA DA SERRARIA",
+    "PARQUE DO PIRULITO",
+    "PARQUE RODOLFO LINS",
+    "PARQUI RIO BRANCO",
+    "PONTO DE RETORNO SAO JORGE",
+    "PRAÇA ALOÍSO BRANCO",
+    "PRAÇA DO PIRULITO",
+    "PRAÇA DOUTOR CAIO ÁGUIAR PÔRTO",
+    "PRECISO DE AJUSTE",
+    "REAVESSA INAILDA FELIX DE O SANTOS",
+    "RETORNO",
+    "RETORNO AVENIDA DA PAZ",
+    "RETORNO AVENIDA FERNANDES LIMA",
+    "RETORNO GUSTAVO PAIVA",
+    "RETORNO JOSEFA DE MELO",
+    "RETORNO VIADUTO DA PRF",
+    "ROTATORIA",
+    "ROTATORIA COMENDAR GUSTAVO PAIVA",
+    "RUA 20 A",
+    "RUA A | QUARTOZE",
+    "RUA ALAMEDA DA PAZ",
+    "RUA ALVARO MELO LADEIRA SAO JORGE",
+    "RUA B QUINZE",
+    "RUA B TRINTA E NOVE",
+    "RUA BENEDITO AMARO DE MOURA",
+    "RUA C | OITENTA E CINCO",
+    "RUA COMENDADOR JOSÉ GERALDO DA SILVA",
+    "RUA COMENDADOR VASCONCELOS",
+    "RUA CÔNEGO FERNANDO LYRA",
+    "RUA DANDARA",
+    "RUA DANTAS MALTA",
+    "RUA DESEMBARGADOR BERRETO CARDOSO",
+    "RUA DOM SANTINO COUTINHO",
+    "RUA DONA MARIETA QUINTELA CAMPOS TEIXEIRA",
+    "RUA DOUTOR BAPTISTA ACCIOLY",
+    "RUA DOUTOR IVALDO MARINHO",
+    "RUA DOUTOR JOSÉ AFFONSO DE FARIAS MELLO NETO",
+    "RUA DOUTOR LUIS PONTES DE MIRANDA",
+    "RUA DOUTOR SEBASTIÃO DA HORA",
+    "RUA DOUTORA NOÉLIA LESSA DOS SANTOS",
+    "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+    "RUA ERNESTO LÚCIO",
+    "RUA ESCRITORA MARIA LUÍSA MELO SÁ",
+    "RUA ESTRADA ARNOUMAR CHAGAS",
+    "RUA EUCLIDES AFONSO DE MELO",
+    "RUA EXPEDITO VITOR FERREIRA",
+    "RUA GETULIO CORRÊA LIMA",
+    "RUA GOVERNADOR FRANCISCO MELLO",
+    "RUA JONH RICHARDOM CORDEIRO",
+    "RUA JORNALISTA JOSE NILTON DE OLIVEIRA CORREIA",
+    "RUA JORNALISTA OSÉIAS ROSAS",
+    "RUA JOSÉ AUGUSTO SILVA SOUTO",
+    "RUA JOSÉ FERREIRA TAVARES",
+    "RUA LAFAIETE PACHECO",
+    "RUA LUIZ DE FRAGANÇA VERGETTI",
+    "RUA LUÍS BINA XAVIER",
+    "RUA MAJOR ISIDÓRO JERÔNIMO DA ROCHA",
+    "RUA MANOEL ZACARIAS DE AMORIM",
+    "RUA MARIA VITÓRIA DE FRANÇA RUA SENADOR TEOTÔNIO VILELACHAVES",
+    "RUA OTACÍLIO DE JESUS",
+    "RUA PEDRO COUTINHO",
+    "RUA QUINZE DE AGOSTO",
+    "RUA QUINZE DE SETEMBRO",
+    "RUA RAD. DJALMA VALENÇA",
+    "RUA RIO DO MEIO",
+    "RUA ROBERT LIRA",
+    "RUA SEIS A",
+    "TERMINAL ALTO DA ALEGRIA",
+    "TERMINAL CONJUNTO JOÃO SAMPAIO I",
+    "TERMINAL DENISSON MENEZES",
+    "TERMINAL DO JOSÉ DA SILVA PEIXOTO",
+    "TERMINAL DO RIO NOVO",
+    "TERMINAL GOIABEIRA",
+    "TERMINAL PARAÍSO DO HORTO",
+    "TERMINAL ROSANE COLLOR",
+    "TERMINAL SANTOS DUMONT",
+    "TERMINAL VILA SAEM",
+    "TRAVESSA EULIANA GUIMARÃES SANTOS DE MELO",
+    "TRAVESSA JOATAN",
+    "TRAVESSA SARGENTO ARISTEU MAGALHÃES",
+    "VIA DE ACESSO À CHÂ NOVA",
+    "VIA PRINCIPAL DOIS"
+  ]
+}

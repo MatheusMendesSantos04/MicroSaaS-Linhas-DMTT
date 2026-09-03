@@ -1,0 +1,32 @@
+{
+    "bairros":{
+        "CIDADE UNIVERSITÁRIA":[
+            "1 ROTATORIA - JARDIM ROYAL",
+            "1° ROTATÓRIA - JARDIM ROYAL",
+            "2 ROTATORIA - JARD ROYAL",
+            "3 ROTATORIA DO CONJ JARDIM ROYAL",
+            "4 ROTATORIA DO CONJ JARDIM ROYAL",
+            "5 ROTATORIA DO CONJ JARDIM ROYAL",
+            "ACESSO AO GRAN JARDIM AMARILIS",
+            ""
+            
+        ],
+        "BENEDITO BENTES":[
+            "ACESSO AO CONJ MOACIR ANDRADE",
+            ""
+        ],
+
+        "GARÇA TORTA":[
+            "AL 101 NORTE - GARÇA TORTA"
+        ],
+
+        "GUAXUMA":[
+            "AL 101 NORTE - GUAXUMA"
+        ],
+
+        "IPIOCA":[
+            "AL 101 NORTE - IPIOCA",
+            "AL 101 NORTE - MIRANTE DA SEREIA"
+        ]        
+    }
+}

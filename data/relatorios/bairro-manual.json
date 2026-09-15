@@ -8,12 +8,97 @@
             "4 ROTATORIA DO CONJ JARDIM ROYAL",
             "5 ROTATORIA DO CONJ JARDIM ROYAL",
             "ACESSO AO GRAN JARDIM AMARILIS",
-            ""
+            "ALAMEDA DAS AMENDOEIRAS",
+            "ALAMEDA DOS ANTÚRIOS",
+            "AVENIDA B",
+            "AVENIDA ALICE CAROLINA",
+            "AVENIDA BENEDITO LOUREIRO",
+            "AVENIDA BOSQUE DA CIMEIRA",
+            "AVENIDA DOUTOR ANDRÉ PAPINI GÓIS",
+            "AVENIDA DOUTOR FERNANDO DO COUTO MALTA",
+            "AVENIDA EMPRESÁRIO NELSON OLIVEIRA MENEZES",
+            "AVENIDA FREI DAMIÃO DE BOZANO",
+            "AVENIDA GRAN JARDIM",
+            "AVENIDA INTENDENTE JÚLIO CALHEIROS",
+            "AVENIDA JAQUEIRAS",
+            "AVENIDA JOSÉ HAILTON DOS SANTOS",
+            "AVENIDA JOSÉ MOURA ROCHA",
+            "AVENIDA JÚLIA CAMELO DE FREITAS",
+            "AVENIDA LOURIVAL MELO MOTA",
+            "AVENIDA MARÍLIA MENDONÇA",
+            "AVENIDA PAULO HOLANDA",
+            "AVENIDA PRINCIPAÇ DA UFAL",
+            "AVENIDA ROSIVALDO FERREIRA MENDES",
+            "AVENIDA SENADOR TEOTÔNIO VILELA",
+            "AVENIDA TEOTÔNIO VILELA",
+            "RUA 01",
+            "RUA 2 - CONJUNTO DENISSON MENEZES",
+            "RUA 54 CONJUNTO GRACILIANO RAMOS",
+            "RUA ALAMEDA DA PAZ",
+            "RUA BENEDITO CALAÇA LOUREIRO",
+            "RUA DAS MANGUEIRAS",
+            "RUA DE ACESSO AO GRAND JARDIM FLAMBOYANT",
+            "RUA DENISSON MENEZES 2",
+            "RUA DOS PINHAIS",
+            "RUA DOUTOR CLEANTHO DE MOURA RIZZO",
+            "RUA DOUTOR JURACI PEREIRA"
+
+
+            
+
+
+            
+
             
         ],
         "BENEDITO BENTES":[
             "ACESSO AO CONJ MOACIR ANDRADE",
-            ""
+            "AVENIDA A - BENEDITO BENTES",
+            "AVENIDA ANTÔNIO LISBOA DE AMORIM",
+            "AVENIDA BENEDITO BENTES",
+            "AVENIDA CACHOEIRA DO MEIRIM",
+            "AVENIDA CAETÉS",
+            "AVENIDA DO FUTURO",
+            "AVENIDA DOUTOR LUIZ ROCHA TOLEDO",
+            "AVENIDA GARÇA TORTA",
+            "AVENIDA GERALDO BULHÕES",
+            "AVENIDA GERALDO SAMPAIO",
+            "AVENIDA GUAXUMA",
+            "AVENIDA HUMBERTO GOMES DE BARROS",
+            "AVENIDA MUNDAÚ",
+            "AVENIDA NORMA PIMENTEL DA COSTA",
+            "AVENIDA PRATAGY",
+            "AVENIDA ROTA DO MAR",
+            "AVENIDA SENADOR CARLOS LYRA",
+            "AVENIDA TABULEIRO",
+            "Q G - BENEDITO BENTES",
+            "Q | 1 - BENEDITO BENTES",
+            "RUA H - BENEDITO BENTES",
+            "Q K - BENEDITO BENTES",
+            "RUA G - BENEDITO BENTES",
+            "RUA A7 - BENEDITO BENTES",
+            "RUA Q - BENEDITO BENTES",
+            "RUA P - BENEDITO BENTES",
+            "RUA J - BENEDITO BENTES",
+            "RUA O - BENEDITO BENTES",
+            "Q. S1 - BENEDITO BENTES",
+            "Q W1 - BENEDITO BENTES",
+            "RUA ANGELIM",
+            "RUA ARUEIRA",
+            "RUA B - BENEDITO BENTES",
+            "RUA B 38 B",
+            "RUA B QUINZE",
+            "RUA B TRINTA E NOVE",
+            "RUA B TRINTA E OITO",
+            "RUA BENEDITO AMARO DE MOURA",
+            "RUA E - BENEDITO BENTES",
+            "RUA C | OITENTA E CINCO",
+            "RUA C08",
+            "RUA C-54",
+            "RUA CAINHA",
+            "RUA DANDARA",
+            "RUA DENIZ AGRA"
+          
         ],
 
         "GARÇA TORTA":[
@@ -21,12 +106,444 @@
         ],
 
         "GUAXUMA":[
-            "AL 101 NORTE - GUAXUMA"
+            "AL 101 NORTE - GUAXUMA",
+            "LOTEAMENTO BELA VISTA - GUAXUMA",
+            "RUA ALTO BELA VISTA"
         ],
 
         "IPIOCA":[
             "AL 101 NORTE - IPIOCA",
-            "AL 101 NORTE - MIRANTE DA SEREIA"
-        ]        
+            "AL 101 NORTE - MIRANTE DA SEREIA",
+            "AL 101 NORTE - PRATAGY",
+            "ALTO DE IPIOCA",
+            "LAD. MANOEL FLORENTINO LOPES DOS SANTOS",
+            "LOTEAMENTO SAUACHUY(TERMINAL IPIOCA)",
+            "PRAÇA FLORIANO PEIXOTO - IPIOCA",
+            "RUA BOA VISTA - IPIOCA"
+        ],
+        "PESACARIA":[
+            "AL 101 NORTE - PESCARIA"
+        ],
+        "RIACHO DOCE":[
+            "AL 101 NORTE - RIACHO DOCE",
+            "RUA ANTÔNIO FÉLIX",
+            ""
+        ],
+
+        "JARDIM PETROPOLIS I":[
+            "AVENIDA FRANCISCO AFONSO DE MELLO"
+        ],
+        "JARDIM PETROPOLIS II":[
+            "ALAMEDA A DOIS",
+            "ALAMEDA JOSÉ LOPES DE ALBUQUERQUE",
+            "ALAMEDA C UM",
+            "AVEINDA DENILMA BULHÕES",
+            "AVENIDA EMPRESÁRIO LOURIVAL LOBO FERREIRA",
+            "AVENIDA GALBA NOVAES DE CASTRO",
+            "AVENIDA JORGE DE LIMA",
+            "RUA A | OITO",
+            "RUA A | QUATOZE",
+            "RUA PERIMETRAL 3",
+            "RUA DE ACESSO - JARDIM PETROPOLIS II",
+            "RUA DJALMA FRANGOSO DE ALENCAR",
+            "RUA DOUTOR JOSÉ CAMELO JÚNIOR"
+
+
+        ],
+        "TABULEIRO DO MARTINS":[
+            "ALAMEDA ALMIRANTE MENDES - RETORNO",
+            "AVENIDA BETEL",
+            "AVENIDA CARLOS GOMES DE BARROS",
+            "AVENIDA DURVAL DE GÓES MONTEIRO",
+            "AVENIDA JORNALISTA TOBIAS GRANJA",
+            "AVENIDA JOSÉ AILTON DOS SANTOS",
+            "AVENIDA NAÇÕES UNIDAS",
+            "AVENIDA OSVALDO RAMOS",
+            "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA",
+            "AVENIDA VEREADOR DÁRIO MARSÍGLIA",
+            "RUA ACARAÚ",
+            "RUA DA CODEAL",
+            "RUA DESEMBARGADOR CARLOS DE GUSMÃO",
+            "RUA DO CRUZEIRO",
+            "RUA DONA MARIETA QUINTELA CAMPOS TEIXEIRA",
+            "RUA DOUTOR EURICO AYRES",
+            "RUA DOUTOR FÁBIO WANDERLEY",
+            "RUA DOUTOR JOSÉ AFFONSO DE FARIAS MELLO NETO"
+
+
+
+        ],
+        "PONTAL DA BARRA":[
+            "ALAMEDA B - TERMINAL PONTAL DA BARRA",
+            "AVENIDA ASSIS CHATEAUBRIAND",
+            "RUA ALIPIO BARBOSA DA SILVA"
+        ],
+        
+        "FAROL":[
+            "ALAMEDA DOUTOR MOACYR TAVARES LOPES",
+            "AVENIDA COMENDADOR FRANCISCO AMORIM LEÃO",
+            "AVENIDA DOM ANTÔNIO BRANDÃO",
+            "AVENIDA FERNANDES LIMA",
+            "AVENIDA MOREIRA E SILVA",
+            "AVENIDA SANTA RITA DE CÁSSIA",
+            "AVENIDA TOMÁS ESPÍNDOLA",
+            "LADEIRA GERALDO SANTOS MELO",
+            "PRAÇA DO CENTENARIO",
+            "RUA AFONSO PENA",
+            "RUA CLAUIO LIVIO",
+            "RUA COMENDADOR FIRMO LOPES",
+            "RUA COMENDADOR PALMEIRA",
+            "RUA CORONEL LIMA ROCHA",
+            "RUA DESEMBARGADOR TENÓRIO",
+            "RUA DOM SANTINO COUTINHO",
+            "RUA DOM VITAL",
+            "RUA DOUTOR ALBINO MAGALHAES",
+            "RUA DOUTOR JOÃO DE AZEVEDO FILHO"
+
+
+        ],
+
+        "CHÃ DA JAQUEIRA":[
+            "ALAMEDA F TRÊS",
+            "AVENIDA ANTÔNIO CLAUDINO",
+            "ESTRADA DA ANTIGA GRANJA",
+            "LADEIRA VEREADOR JORGE OMENA",
+            "RUA ANTÔNIO CLAUDINO",
+            "RUA DANTAS MALTA",
+            "RUA DO ARAME"
+
+        ],
+        "CLIMA BOM":[
+            "AVENIDA B - TERMINAL OSMAN LOUREIRO",
+            "AVENIDA ANTÔNIO HOLANDA",
+            "AVENIDA C",
+            "AVENIDA GENERAL WALFRIDO JERÔNIMO DA ROCHA",
+            "AVENIDA JORNALISTA TEÓFILO ALVEZ LINS",
+            "AVENIDA POETA LUIZ GONZAGA BARROSO",
+            "RUA ANTONIO SILVA - OSMAN LOUREIRO",
+            "RUA ANTÔNIO HOLANDA",
+            "RUA BOA VISTA - CLIMA BOM",
+            "RUA CARLOS GUIDO FERRÁRIO LÔBO",
+            "RUA DEZENOVE",
+            "RUA DOUTOR JOÃO CRISOÓSTOMO DE FARIAS",
+            ""
+
+
+            
+            
+        ],
+        "MANGABEIRAS":[
+            "AVENIDA ALMIRANTE ÁLVARO CALHEIROS",
+            "AVENIDA EVILÁSIO SORIANO",
+            "AVENIDA GOVERNADOR OSMAN LOUREIRO",
+            "AVENIDA JOÃO DAVINO",
+            "MACEIÓ SHOPPING"
+        ],
+        "PRADO":[
+            "AVENIDA AMAZONAS",
+            "RUA DO CEARÁ"
+        ],
+        "SANTA LÚCIA":[
+            "AVENIDA BELMIRO AMORIM",
+            "RUA CORONEL PEDRO PIERRE BRAGA"
+
+        ],
+        "POÇO":[
+            "AVENIDA BRASIL",
+            "AVENIDA CAPITÃO MARINHO FALCÃO",
+            "AVENIDA CID SCALA",
+            "AVENIDA COMENDADOR CALAÇA",
+            "AVENIDA COMENDADOR LEÃO",
+            "AVENIDA HUMBERTO MENDES",
+            "AVENIDA DONA CONSTANÇA DE GÓES MONTEIRO",
+            "AVENIDA PROFESSOR SANTOS FERRAZ",
+            "BOMBA DA MARIETA",
+            "PRAÇA 13 DE MAIO",
+            "PRAÇA DA MARAVILHA",
+            "PRAÇA GUIMARAES PASSOS",
+            "PRAÇA SENHOR DO BONFIM",
+            "RUA 13 DE MAIO",
+            "RUA AURELINA LIMA DA SILVA",
+            "RUA BARÃO DE ATALAIA",
+            "RUA CASSIANO DE ALBUQUERQUE"
+
+
+        ],
+
+        "CRUZ DAS ALMAS":[
+            "AVENIDA BRIGADEIRO EDUARDO GOMES DE BRITO",
+            "AVENIDA COMENDADOR GUSTAVO PAIVA",
+            "AVENIDA ROBERTO MASCARENHAS BRITO",
+            "RUA BACHAREL VIRGÍLIO DA ROCHA MARQUES",
+            "RUA CAMARAGIBE - CRUZ DAS ALMAS",
+            "RUA DOUTOR LAURO MACHADO COSTA"
+
+        ],
+        
+        "SANTOS DUMONT":[
+            "AVENIDA CARNAVALESCO JOSÉ TEOFANES",
+            "AVENIDA DOUTOR DUDA CALADO",
+            "AVENIDA EDUARDO TADEU LOPES DA SILVA",
+            "AVENIDA ENGENHEIRO CORINTHO CAMPELO DA PAZ",
+            "AVENIDA JOSÉ MANHÃES",
+            "TRAVESSA INAILDA FELIX DE O SANTOS"
+        ],
+        
+        "LEVADA":[
+            "AVENIDA CELESTE BEZERRA",
+            "PRAÇA DAS GRAÇAS",
+            "RUA COMENDADOR TEIXEIRAS BASTOS",
+            "RUA CORONEL CAHET",
+            "RUA DEZESSEIS DE SETEMBRO"
+
+        ],
+        
+        "JACINTINHO":[
+            "AVENIDA CLETO CAMPELO",
+            "RUA ANTÔNIO REGINALDO PONTES LIMA",
+            "RUA ANTÔNIO ZEFERINO DOS SANTOS",
+            "RUA APOLÔNIA ROCHA DOS SANTOS",
+            "RUA CLETO CAMPELO",
+            "RUA COMENDADOR JOSÉ GERALDO DA SILVA",
+            "RUA CORONEL PARANHAS",
+            "RUA DEMERVAL MACÁRIO",
+            "RUA DO ENCANTO",
+            "RUA DOUTOR IVALDO MARINHO"
+        ],
+
+        "SÃO JORGE":[
+            "AVENIDA CORONEL SALUSTIANO SARMENTO",
+            "AVENIDA JOSEFA DE MELO",
+            "AVENIDA JOSÉ AÍRTON GONDIM LAMENHA",
+            "AVENIDA RUI BARBOSA",
+            "RUA H - SAO JORGE"
+
+        ],
+
+        "CENTRO":[
+            "AVENIDA DA PAZ",
+            "AVENIDA MOREIRA LIMA",
+            "AVENIDA SANTOS PACHECO",
+            "AVENIDA VIEIRA PERDIGÃO",
+            "LADEIRA DO BRITO",
+            "LADEIRO DOS MARTÍRIOS",
+            "PRAÇA DO PIRULITO",
+            "PARQUE RODOLFO LINS",
+            "PRAÇA DOS PALMARES",
+            "PRAÇA DOUTOR MANOEL VALENTE DE LIMA",
+            "PRAÇA SINIMBU",
+            "PRAÇA SÃO VICENTE",
+            "RUA 2 DE DEZEMBRO",
+            "RUA AUGUSTA",
+            "RUA BARÃO DE ALAGOAS",
+            "RUA BARÃO DE ANADIA",
+            "RUA BARÃO DE MACEIÓ",
+            "RUA BARÃO DE PENEDO",
+            "RUA BARÃO JOSÉ MIGUEL",
+            "RUA CORONEL MENDES DA FONSECA",
+            "RUA CORONEL MENEZES",
+            "RUA DIAS CABRAL",
+            "RUA DO COMÉRCIO",
+            "RUA DO IMPERADOR",
+            "RUA DO LIVRAMENTO",
+            "RUA DO SOL",
+            "RUA DOUTOR LUIS PONTES DE MIRANDA"
+
+
+
+
+        ],
+
+        "SERRARIA":[
+            "AVENIDA DEPUTADO EDSON LINS",
+            "AVENIDA ERALDO LINS CAVALCANTE",
+            "AVENIDA NELSON MARINHO DE ARAÚJO",
+            "BASILIANO APRIGIO DE OLIVEIRA",
+            "RUA ADOLFO GUSTAVO",
+            "RUA PROJETADA A - B",
+            "RUA C - D",
+            "RUA"
+            
+        ],
+        "PONTA VERDE":[
+            "AVENIDA DEPUTADO JOSÉ LAGES",
+            "AVENIDA DURVAL GUIMARAES",
+            "AVENIDA PROFESSOR SANDOVAL ARROXELAS",
+            "AVENIDA SENADOR RUI PALMEIRA",
+            "AVENIDA ÁLVARO OTACÍLIO",
+            ""
+        ],
+
+        "GRUTA DE LURDES":[
+            "AVENIDA ROTARY - AVENIDA MENDONÇA JÚNIOR",
+            "LADEIRA CORONEL ALVES MATA",
+            "LARGO DELMIRO GOUVEIA - ROTARY",
+            "RUA ANTÔNIO MENEZES DE ARAÚJO LEMOS",
+            "RUA ARIOSVALDO PEREIRA CINTRA",
+            "RUA ARTUR VITAL DA SILVA",
+            "RUA B - GRUTA DE LOURDES",
+            "RUA COMENDADOR LUIZ JARDIM FRANCA",
+            "RUA CONSELHEIRO JOSÉ BARBOSA",
+            "RUA DEPUTADO SILOÉ TAVARES",
+            "RUA DESEMBARGADOR BARRETO CARDOSO",
+            ""
+        ],
+
+        "VERGEL":[
+            "AVENIDA DOUTOR ABELARDO PONTES LIMA",
+            "AVENIDA GOVERNADOR TEOBALDO BARBOSA",
+            "AVENIDA MINISTRO MÁRIO ANDREAZA",
+            "AVENIDA MONTE CASTELO",
+            "PRAÇA TENENTE MOISÉS SILVA FILHO",
+            "RUA BENJAMIM CONSTANT",
+            "RUA DOUTOR LUÍS DE BARROS"
+            
+        ],
+
+        "FERNÃO VELHO":[
+            "AVENIDA DOUTOR ALBERTO PLÁCIDO",
+            "AVENIDA WALDEMAR RUFINO DOS SANTOS-GOIABEIRA",
+            "RUA COMENDADOR VASCONCELOS",
+            "TERMINAL GOIABEIRA",
+            "RUA DA PRAIA",
+            "RUA DOUTOR PONTES DE MIRANDA"
+        ],
+
+        "JATIÚCA":[
+            "AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS",
+            "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
+            "RUA DEPUTADO JOSÉ LAGES"
+        ],
+
+        "ANTARES":[
+            "AVENIDA DOUTOR MILTON HÊNIO NETTO DE GOUVEIA",
+            "RUA F - ANTARES",
+            "RUA E - ANTARES"
+
+        ],
+
+        "BOM PARTO":[
+            "AVENIDA FRANCISCO DE MENEZES",
+            "RUA GENERAL HERMES"
+        ],
+
+        "JACARECICA":[
+            "AVENIDA GENERAL LUIZ DE FRANÇA ALBUQUERQUE",
+            "AVENIDA LITORÂNEA",
+            "AVENIDA PIERRE CHALITA",
+
+        ],
+
+        "FEITOSA":[
+            "AVENIDA GOVERNADOR AFRÂNIO LAGES",
+            "AVENIDA GOVERNADOR LAMENHA FILHO",
+            "AVENIDA JONH RICHARDSON CORDEIRO",
+            "AVENIDA OTONIEL PIMENTEL SANTOS",
+            "RUA ANA LOPES CAHET"
+        ],
+
+        "JARAGUÁ":[
+            "AVENIDA IND CÍCERO TOLEDO",
+            "AVENIDA JUCA NUNES",
+            "AVENIDA WALTER ANANIAS",
+            "PRAÇA DOIS LEÕES",
+            "PRAÇA DOUTOR MANOEL DUARTE",
+            "PRAÇA MARCILIO DIAS",
+            "RUA BARÃO DE JARAGUÁ",
+            "RUA BATISTA ACIOLY",
+            "RUA DESEMBARGADOR PAULO DA ROCHA MENDES",
+            "RUA DO URUGUAI",
+            "RUA DOUTOR BAPTISTA ACCIOLY"
+
+        ],
+
+        "SANTA AMÉLIA":[
+            "AVENIDA JORGE MONTENEGRO DE BARROS",
+            "RUA ALMEIDA GUIMARÃES",
+            "RUA DA FLORESTA"
+        ],
+
+        "BARRO DURO":[
+            "AVENIDA JORNALISTA MÁRCIO CANUTO",
+            "AVENIDA JUCA SAMPAIO",
+            "AVENIDA PRESIDENTE ROOSEVELT",
+            "RUA DEPUTADO GONÇALO TAVARES"
+
+        ],
+
+        "TRAPICHE DA BARRA":[
+            "AVENIDA ROBERTO PONTES LIMA",
+            "AVENIDA SIQUEIRA CAMPOS",
+            "RUA CORONEL JOSÉ FRANCISCO VIÊIRA",
+            "RUA CÔNEGO FERNANDO LYRA"
+        ],
+
+        "OURO PRETO":[
+            "AVENIDAVALENTIM DOS SANTOS DINIZ",
+            "RUA BOA VISTA - OURO PRETO"
+
+        ],
+
+        "BEBEDOURO":[
+            "LADEIRA OSWALDO CRUZ",
+            "LADEIRA PROFESSOR BENEDITO SILVA",
+            "PRAÇA LUCENA MARANHÃO",
+            "PRAÇA NOSSA SENHORA DAS DORES FLEXAIS",
+            "RUA CÔNEGO COSTA",
+            "RUA DA LIBERDADE",
+            "RUA DOUTOR ANTÔNIO NUNES LEITE"
+        ],
+
+        "PAJUÇARA":[
+            "PRAÇA LIONS",
+            "RUA ARAÚJO BIVAR",
+            "RUA DOUTOR LESSA DE AZEVEDO"
+        ],
+
+        "PONTA GROSSA":[
+            "PRAÇA SANTO ANTONIO",
+            "RUA BALTAZAR DE MENDONÇA",
+            "RUA FORMOSA - PONTA GROSSA",
+            "RUA CABO REIS",
+            "RUA CLÁUDIO MANOEL",
+            ""
+            
+        ],
+
+        "PINHEIRO":[
+            "RUA ALBUQUERQUE LINS",
+            "RUA ANTENOR GOMES DE OLIVEIRA",
+            "RUA ANTÔNIO MURTA",
+            "RUA CONSELHEIRO JOSÉ BEZERRA",
+            "RUA DOUTOR LUIS DE MASCARENHAS"
+        ],
+
+        "PONTA DA TERRA":[
+            "RUA ALMIRANTE MASCARENHAS",
+            "RUA DOMINGOS LORDSLEEN",
+            "RUA DOUTOR JOSÉ MILTON CORREIA"
+        ],
+
+        "CANAÃ":[
+            "RUA ANADIA",
+            "RUA CAMARAGIBE - CANAÃ"
+        ],
+
+        "RIO NOVO":[
+            "RUA BOA VISTA - RIO NOVO",
+            "RUA DA AREIA",
+            "RUA DO ALECRIM",
+
+        ],
+
+        "PITANGUINHA":[
+            "RUA CORONEL PACHÊCO RAMALHO",
+            "RUA DEZ DE NOVEMBRO"
+        ]
+
+
+        
+
+
     }
 }

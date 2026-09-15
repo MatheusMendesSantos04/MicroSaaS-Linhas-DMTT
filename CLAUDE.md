@@ -2,8 +2,25 @@
 
 > Este arquivo é lido automaticamente pelo Claude Code em toda sessão.
 > Mantenha-o atualizado após cada sessão de trabalho.
-> Última atualização: 03/09/2026 — Sessão 9 (pipeline itinerário manual, zonas, tiles, KML)
+> Última atualização: 15/09/2026 (status check — sem transcript das sessões entre 03/09 e 15/09,
+> conteúdo abaixo verificado direto nos arquivos, não narrado de memória)
 > Ver seção **"Sessão 9 — resumo pra quem chega agora"** logo abaixo pra contexto rápido.
+
+## ⚠️ Pipeline desatualizado (achado em 15/09/2026)
+
+`itinerario_completo.json` foi editado por último em **14/09**, mas `itinerario_mesclado.json`,
+`dados_unificados.json` e os JSONs estáticos do frontend (`frontend/public/data/`) ainda são de
+**02/09** — ou seja, **~12 dias de edições no manual nunca foram propagadas pro sistema**. Antes
+de qualquer outra coisa, rodar o pipeline (ver item 2 da seção "Sessão 9" abaixo) e confirmar com
+o usuário se há algo mais recente que ele queira aplicar primeiro.
+
+Também: `data/relatorios/bairro-manual.json` está com JSON **inválido no momento** (vírgula sobrando
+antes de um `]`, por volta da linha 434 — típico de edição manual ainda em andamento). Se for ler
+esse arquivo programaticamente, tratar/avisar sobre isso antes de assumir que carrega direto.
+Progresso desse arquivo: **47 bairros** já têm pelo menos uma via listada (era só 5 em 03/09).
+`data/relatorios/lista_todas_vias.txt` caiu de 776 para **410 linhas** — provavelmente reflete vias
+já classificadas sendo removidas da lista "pendente", mas isso não foi confirmado com o usuário
+nesta atualização (documentar, não assumir o motivo exato até perguntar).
 
 ---
 

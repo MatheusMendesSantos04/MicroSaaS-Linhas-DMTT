@@ -878,9 +878,9 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "RUA TEN FRANCISCO DE OLIVEIRA",
-          "codigo": "00487",
-          "match": "exato_sem_complemento"
+          "via": "RUA TENENTE FRANCISCO DE OLIVEIRA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA SANTA LUZIA",
@@ -908,7 +908,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA ANTONIO MURTA",
+          "via": "RUA ANTÔNIO MURTA",
           "codigo": "06695",
           "match": "exato"
         },
@@ -1440,9 +1440,9 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA TEN FRANCISCO DE OLIVEIRA",
-          "codigo": "00487",
-          "match": "exato_sem_complemento"
+          "via": "RUA TENENTE FRANCISCO DE OLIVEIRA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TRAVESSA JOSÉ BARRETO",
@@ -2635,7 +2635,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JONH RICHARDOM CORDEIRO",
+          "via": "AVENIDA JONH RICHARDSON CORDEIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -3857,7 +3857,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA MARIA VITÓRIA DE FRANÇA RUA SENADOR TEOTÔNIO VILELACHAVES",
+          "via": "AVENIDA SENADOR TEOTÔNIO VILELA",
           "codigo": null,
           "match": "manual"
         },
@@ -3867,9 +3867,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SÃO PEDRO",
-          "codigo": "00807",
-          "match": "exato"
+          "via": "RUA SÃO PEDRO - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA TANCREDO NEVES",
@@ -4246,7 +4246,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA SÃO PEDRO",
+          "via": "RUA SÃO PEDRO - CIDADE UNIVERSITÁRIA",
           "codigo": null,
           "match": "manual"
         },
@@ -4256,7 +4256,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA SENADOR TEOTÔNIO VILELA",
+          "via": "AVENIDA SENADOR TEOTÔNIO VILELA",
           "codigo": null,
           "match": "manual"
         },
@@ -4654,7 +4654,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA MIGUEL OMENA",
+          "via": "AVENIDA DOUTOR MIGUEL OMENA",
           "codigo": null,
           "match": "manual"
         },
@@ -5771,7 +5771,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -7037,7 +7037,7 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA F",
+          "via": "RUA F - ANTARES",
           "codigo": null,
           "match": "manual"
         },
@@ -7047,7 +7047,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA E",
+          "via": "RUA E - ANTARES",
           "codigo": null,
           "match": "manual"
         },
@@ -7729,12 +7729,12 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO",
+          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO I",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA 20 A",
+          "via": "RUA A | OITO",
           "codigo": null,
           "match": "manual"
         },
@@ -8112,11 +8112,6 @@
           "match": "manual"
         },
         {
-          "via": "RETORNO",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
           "via": "ALAMEDA A DOIS",
           "codigo": null,
           "match": "manual"
@@ -8137,7 +8132,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO",
+          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO I",
           "codigo": null,
           "match": "manual"
         }
@@ -8572,17 +8567,12 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato_global"
-        },
-        {
-          "via": "RUA DA AREIA",
+          "via": "RUA BOA VISTA - RIO NOVO",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "PRECISO DE AJUSTE",
+          "via": "RUA DA AREIA",
           "codigo": null,
           "match": "manual"
         },
@@ -8617,7 +8607,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
           "codigo": null,
           "match": "manual"
         },
@@ -8657,9 +8647,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DURVAL DE GÓES MONTEIRO",
@@ -9203,7 +9193,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
           "codigo": null,
           "match": "manual"
         },
@@ -9243,9 +9233,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato_global"
+          "via": "RUA BOA VISTA - RIO NOVO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DO ALECRIM",
@@ -9520,7 +9510,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
           "codigo": null,
           "match": "manual"
         },
@@ -9560,9 +9550,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DURVAL DE GÓES MONTEIRO",
@@ -9942,7 +9932,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
           "codigo": null,
           "match": "manual"
         },
@@ -10355,7 +10345,7 @@
           "match": "exato"
         },
         {
-          "via": "PRAÇA LUCENA MARANHAO",
+          "via": "PRAÇA LUCENA MARANHÃO",
           "codigo": "00571",
           "match": "exato"
         },
@@ -10420,7 +10410,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         }
@@ -10687,7 +10677,7 @@
       ],
       "ruas": [
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -10977,7 +10967,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA MUNIZ FALCÃO",
+          "via": "AVENIDA MUNIZ FALCÃO - CLIMA BOM",
           "codigo": null,
           "match": "manual"
         },
@@ -10992,7 +10982,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - CLIMA BOM",
           "codigo": null,
           "match": "manual"
         },
@@ -11012,12 +11002,12 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA B",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA ANTONIO SILVA",
+          "via": "RUA ANTONIO SILVA - OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -11032,9 +11022,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DURVAL DE GÓES MONTEIRO",
@@ -11283,12 +11273,12 @@
           "match": "exato"
         },
         {
-          "via": "RUA ANTONIO SILVA",
+          "via": "RUA ANTONIO SILVA - OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "AVENIDA B",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -11323,9 +11313,9 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA MUNIZ FALCÃO",
-          "codigo": "06705",
-          "match": "exato"
+          "via": "AVENIDA MUNIZ FALCÃO - CLIMA BOM",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TERMINAL CLIMA BOM",
@@ -11817,7 +11807,7 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -11872,7 +11862,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO",
+          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO I",
           "codigo": null,
           "match": "manual"
         },
@@ -11892,7 +11882,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PROJETADA",
+          "via": "RUA PROJETADA - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -11982,7 +11972,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -12482,7 +12472,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -12597,7 +12587,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PROJETADA",
+          "via": "RUA PROJETADA - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -12662,7 +12652,7 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -13036,12 +13026,12 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO",
+          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO I",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA A | QUARTOZE",
+          "via": "RUA A | QUATORZE",
           "codigo": null,
           "match": "manual"
         },
@@ -13056,7 +13046,7 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -13924,12 +13914,12 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -13989,7 +13979,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
           "codigo": null,
           "match": "manual"
         },
@@ -14194,7 +14184,7 @@
           "match": "exato"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -14229,7 +14219,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO",
+          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO I",
           "codigo": null,
           "match": "manual"
         }
@@ -14753,14 +14743,14 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA GOVERNADOR TEOBALDO BARBOSA",
@@ -15446,7 +15436,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
           "codigo": null,
           "match": "manual"
         },
@@ -15526,7 +15516,7 @@
           "match": "manual"
         },
         {
-          "via": "VILA BANCARIA",
+          "via": "VILA DOS BANCARIOS",
           "codigo": null,
           "match": "manual"
         },
@@ -16081,7 +16071,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUIS PONTES DE MIRANDA",
+          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
           "codigo": null,
           "match": "manual"
         },
@@ -16111,7 +16101,7 @@
           "match": "manual"
         },
         {
-          "via": "PRAÇA DAS GRACAS",
+          "via": "PRAÇA DAS GRAÇAS",
           "codigo": "00073",
           "match": "exato"
         },
@@ -16126,7 +16116,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -16785,7 +16775,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -16805,9 +16795,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DO LIVRAMENTO",
@@ -16880,16 +16870,6 @@
           "match": "exato"
         },
         {
-          "via": "ROTATORIA",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "RUA DOUTOR JOSÉ CAMELO JÚNIOR",
-          "codigo": "00706",
-          "match": "exato"
-        },
-        {
           "via": "RUA PROFESSOR ANTONIO NEMESIO DE ALBUQUERQUE",
           "codigo": null,
           "match": "manual"
@@ -16898,16 +16878,6 @@
           "via": "AVENIDA DURVAL DE GÓES MONTEIRO",
           "codigo": "00154",
           "match": "fuzzy"
-        },
-        {
-          "via": "AVENIDA NAÇÕES UNIDAS",
-          "codigo": "06517",
-          "match": "exato"
-        },
-        {
-          "via": "RETORNO",
-          "codigo": null,
-          "match": "manual"
         },
         {
           "via": "AVENIDA NAÇÕES UNIDAS",
@@ -17291,9 +17261,9 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA MUNIZ FALCÃO",
-          "codigo": "06705",
-          "match": "exato"
+          "via": "AVENIDA MUNIZ FALCÃO - CLIMA BOM",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA RECANTO DO SOL",
@@ -17331,12 +17301,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA B",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "TERMINAL OSMAN LOUREIRO",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -17486,7 +17451,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -17967,9 +17932,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato_global"
+          "via": "RUA BOA VISTA - PONTA GROSSA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CABO REIS",
@@ -17987,9 +17952,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DO LIVRAMENTO",
@@ -18127,9 +18092,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA SÃO PAULO",
@@ -18177,12 +18142,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL OSMAN LOUREIRO",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "AVENIDA B",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -18212,9 +18172,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA MUNIZ FALCÃO",
-          "codigo": "06705",
-          "match": "exato"
+          "via": "AVENIDA MUNIZ FALCÃO - CLIMA BOM",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA RECANTO DO SOL",
@@ -18694,9 +18654,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA I",
-          "codigo": "06237",
-          "match": "exato_global"
+          "via": "RUA I - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TRAVESSA GOVERNADOR LUIZ CAVALCANTE",
@@ -18844,7 +18804,7 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -19556,9 +19516,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato_global"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -19636,9 +19596,9 @@
           "match": "exato"
         },
         {
-          "via": "VILA BANCARIA",
+          "via": "VILA DOS BANCARIOS",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
@@ -19731,9 +19691,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA I",
-          "codigo": "06237",
-          "match": "exato_global"
+          "via": "RUA I - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA MENINO MARCELO",
@@ -20098,12 +20058,12 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -20420,14 +20380,14 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA GOVERNADOR TEOBALDO BARBOSA",
@@ -20480,9 +20440,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DO LIVRAMENTO",
@@ -21163,9 +21123,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA GOVERNADOR TEOBALDO BARBOSA",
@@ -21690,7 +21650,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -21710,9 +21670,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DO LIVRAMENTO",
@@ -21795,9 +21755,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA I",
-          "codigo": "06237",
-          "match": "exato_global"
+          "via": "RUA I - JATIÚCA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DONA CONSTANÇA DE GÓES MONTEIRO",
@@ -22453,9 +22413,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DO LIVRAMENTO",
@@ -22934,9 +22894,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA MUNIZ FALCÃO",
-          "codigo": "00162",
-          "match": "exato"
+          "via": "AVENIDA MUNIZ FALCÃO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORNALISTA MÁRCIO CANUTO",
@@ -23455,9 +23415,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -23620,9 +23580,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA MUNIZ FALCÃO",
-          "codigo": "00162",
-          "match": "exato"
+          "via": "AVENIDA MUNIZ FALCÃO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ADOLFO GUSTAVO",
@@ -23645,9 +23605,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA A - B",
-          "codigo": "06226",
-          "match": "exato"
+          "via": "RUA PROJETADA A - B",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA C - D",
@@ -23655,9 +23615,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA F",
-          "codigo": "06245",
-          "match": "exato"
+          "via": "RUA F - SERRARIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "LOTEAMENTO BRISA DA SERRARIA",
@@ -24001,9 +23961,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SÃO PEDRO",
-          "codigo": "00807",
-          "match": "exato_global"
+          "via": "RUA SÃO PEDRO - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA TANCREDO NEVES",
@@ -24046,9 +24006,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA I",
-          "codigo": "06237",
-          "match": "exato_global"
+          "via": "RUA I - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TRAVESSA GOVERNADOR LUIZ CAVALCANTE",
@@ -24784,9 +24744,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato_global"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -24794,14 +24754,19 @@
           "match": "exato_global"
         },
         {
+          "via": "AVENIDA WALTER ANANIAS",
+          "codigo": "00280",
+          "match": "exato"
+        },
+        {
           "via": "RUA DO URUGUAI",
           "codigo": "00247",
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA JUCA NUNES",
-          "codigo": "00917",
-          "match": "exato_global"
+          "via": "RUA SILVÉRIO JORGE",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR BAPTISTA ACCIOLY",
@@ -24814,7 +24779,12 @@
           "match": "exato"
         },
         {
-          "via": "RUA ESMERALDINO MARINHO SPÍNDOLA SOBRINHO",
+          "via": "RUA JOÃO OMENA DE ANDRADE",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "AVENIDA CID SCALA",
           "codigo": null,
           "match": "manual"
         },
@@ -24822,16 +24792,6 @@
           "via": "RUA PEDRO PAULINO",
           "codigo": "00209",
           "match": "exato"
-        },
-        {
-          "via": "AVENIDA WALTER ANANIAS",
-          "codigo": "00280",
-          "match": "exato"
-        },
-        {
-          "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
-          "codigo": null,
-          "match": "manual"
         },
         {
           "via": "AVENIDA COMENDADOR CALAÇA",
@@ -24864,9 +24824,9 @@
           "match": "exato"
         },
         {
-          "via": "VILA BANCARIA",
+          "via": "VILA DOS BANCARIOS",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
@@ -24919,14 +24879,19 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA F",
-          "codigo": "06137",
-          "match": "exato_global"
+          "via": "RUA F - ANTARES",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA E",
-          "codigo": "06674",
-          "match": "exato_sem_complemento"
+          "via": "RUA JOSÉ FERREIRA TAVARES",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "RUA E - ANTARES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA MENINO MARCELO",
@@ -24984,9 +24949,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA I",
-          "codigo": "06237",
-          "match": "exato_global"
+          "via": "RUA I - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA MENINO MARCELO",
@@ -25024,9 +24989,9 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA SÃO PEDRO",
-          "codigo": "00807",
-          "match": "exato_global"
+          "via": "RUA SÃO PEDRO - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA SENADOR ARNON DE MELO",
@@ -25427,12 +25392,12 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA P",
+          "via": "RUA P - ANTARES",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA J",
+          "via": "RUA J - ANTARES",
           "codigo": null,
           "match": "manual"
         },
@@ -25467,9 +25432,9 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "AVENIDA DOUTOR ABELARDO PONTES LIMA",
+          "via": "RUA DOUTOR ABELARDO PONTES LIMA - GRUTA DE LOURDES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA FERNANDES LIMA",
@@ -25507,9 +25472,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA RAD. DJALMA VALENÇA",
+          "via": "RUA RADIALISTA DJALMA VALENÇA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA JOSÉ CORRÊA DE MELO",
@@ -25910,9 +25875,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DO LIVRAMENTO",
@@ -26534,11 +26499,6 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA GEN HERMES",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES",
           "codigo": null,
           "match": "manual"
@@ -26956,7 +26916,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -26971,7 +26931,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -27061,14 +27021,14 @@
           "match": "manual"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - OURO PRETO",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CANAÃ",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA VALENTIM DOS SANTOS DINIZ",
@@ -27076,9 +27036,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CANAÃ",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA FERNANDES LIMA",
@@ -27518,7 +27478,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA I",
+          "via": "RUA I - JATIÚCA",
           "codigo": null,
           "match": "manual"
         },
@@ -28050,9 +28010,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA PADRE CICERO ROMÃO BATISTA",
@@ -28080,9 +28040,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DO LIVRAMENTO",
@@ -28165,14 +28125,14 @@
           "match": "exato"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CANAÃ",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato"
+          "via": "RUA BOA VISTA - OURO PRETO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA RIO GRANDE DO SUL",
@@ -28626,9 +28586,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA MUNIZ FALCÃO",
-          "codigo": "00162",
-          "match": "exato"
+          "via": "AVENIDA MUNIZ FALCÃO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORNALISTA MÁRCIO CANUTO",
@@ -28736,9 +28696,9 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA GOVERNADOR TEOBALDO BARBOSA",
@@ -29624,9 +29584,9 @@
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA CELESTE BEZERRA DE MENEZES",
+          "via": "AVENIDA CELESTE BEZERRA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA JOÃO CALHEIROS GATO",
@@ -29644,12 +29604,12 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "PARQUE DO PIRULITO",
+          "via": "PRAÇA DO PIRULITO",
           "codigo": null,
           "match": "manual"
         },
@@ -29714,9 +29674,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -30517,7 +30477,7 @@
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA CELESTE BEZERRA DE MENEZES",
+          "via": "AVENIDA CELESTE BEZERRA",
           "codigo": null,
           "match": "manual"
         },
@@ -31046,9 +31006,9 @@
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA CELESTE BEZERRA DE MENEZES",
+          "via": "AVENIDA CELESTE BEZERRA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA JOÃO CALHEIROS GATO",
@@ -31066,9 +31026,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DO LIVRAMENTO",
@@ -31161,9 +31121,9 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "RUA B",
-          "codigo": "06526",
-          "match": "exato_global"
+          "via": "RUA B - GRUTA DE LOURDES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CONSELHEIRO JOSÉ BARBOSA",
@@ -31226,7 +31186,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA H",
+          "via": "RUA H - SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -31625,7 +31585,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA H",
+          "via": "RUA H - SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -31680,7 +31640,7 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "RUA B",
+          "via": "RUA B - GRUTA DE LOURDES",
           "codigo": null,
           "match": "manual"
         },
@@ -31735,7 +31695,7 @@
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA CELESTE BEZERRA DE MENEZES",
+          "via": "AVENIDA CELESTE BEZERRA",
           "codigo": null,
           "match": "manual"
         },
@@ -32110,9 +32070,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -32235,7 +32195,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA H",
+          "via": "RUA H - SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -32654,7 +32614,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA H",
+          "via": "RUA H - SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -32734,9 +32694,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CRUZ DAS ALMAS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA EVILÁSIO SORIANO",
@@ -32769,9 +32729,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA I - CONJ CLIMERIO SARMENTO",
-          "codigo": "06258",
-          "match": "exato"
+          "via": "RUA I - JATIÚCA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS",
@@ -33135,19 +33095,14 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA A",
-          "codigo": "06603",
-          "match": "exato"
+          "via": "AVENIDA A - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA ROTA DO MAR",
           "codigo": null,
           "match": "nao_encontrado"
-        },
-        {
-          "via": "AL - 101 NORTE",
-          "codigo": "00596",
-          "match": "exato_global"
         },
         {
           "via": "AVENIDA GENERAL LUIZ DE FRANÇA ALBUQUERQUE",
@@ -33165,7 +33120,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA I",
+          "via": "RUA I - JATIÚCA",
           "codigo": null,
           "match": "manual"
         },
@@ -33430,19 +33385,14 @@
           "match": "fuzzy"
         },
         {
-          "via": "AL - 101 NORTE",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
           "via": "AVENIDA ROTA DO MAR",
           "codigo": null,
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA A",
-          "codigo": "06603",
-          "match": "exato"
+          "via": "AVENIDA A - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA MAX DOUGLAS",
@@ -34607,9 +34557,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -34673,6 +34623,11 @@
         },
         {
           "via": "TRAVESSA SETE DE SETEMBRO",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
           "codigo": null,
           "match": "manual"
         },
@@ -35092,7 +35047,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "PRAÇA DAS GRACAS",
+          "via": "PRAÇA DAS GRAÇAS",
           "codigo": "00073",
           "match": "exato"
         },
@@ -35675,7 +35630,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR JOAO DE AZEVEDO FILHO",
+          "via": "RUA DOUTOR JOÃO DE AZEVEDO FILHO",
           "codigo": "06497",
           "match": "exato"
         },
@@ -36687,9 +36642,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA MUNIZ FALCÃO",
-          "codigo": "00162",
-          "match": "exato"
+          "via": "AVENIDA MUNIZ FALCÃO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA NILO TORRES",
@@ -36712,9 +36667,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA B",
-          "codigo": "06526",
-          "match": "exato_global"
+          "via": "RUA B - GRUTA DE LOURDES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ROBERTO SÍMONSEN",
@@ -36787,9 +36742,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -37287,9 +37242,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA B",
-          "codigo": "06526",
-          "match": "exato_global"
+          "via": "RUA B - GRUTA DE LOURDES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ROBERTO SÍMONSEN",
@@ -37347,19 +37302,19 @@
           "match": "manual"
         },
         {
-          "via": "RUA F",
-          "codigo": "06245",
-          "match": "exato"
+          "via": "RUA F - SERRARIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA F, G",
-          "codigo": "06245",
-          "match": "fuzzy"
+          "via": "RUA F, G - SERRARIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA G",
-          "codigo": "06236",
-          "match": "exato_global"
+          "via": "RUA G - SERRARIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ARIOSVALDO PEREIRA CINTRA",
@@ -38606,14 +38561,14 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato"
+          "via": "RUA BOA VISTA - OURO PRETO",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CANAÃ",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA VALENTIM DOS SANTOS DINIZ",
@@ -39708,9 +39663,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA MUNIZ FALCÃO",
-          "codigo": "00162",
-          "match": "exato"
+          "via": "AVENIDA MUNIZ FALCÃO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORNALISTA MÁRCIO CANUTO",
@@ -39733,9 +39688,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA I",
-          "codigo": "06237",
-          "match": "exato_global"
+          "via": "RUA I - JATIÚCA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DONA CONSTANÇA DE GÓES MONTEIRO",
@@ -40478,9 +40433,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA B",
-          "codigo": "06526",
-          "match": "exato"
+          "via": "RUA B - GRUTA DE LOURDES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ROBERTO SÍMONSEN",
@@ -41028,7 +40983,7 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RETORNO CONJUNTO JOSE TENORIO",
+          "via": "RETORNO CONJUNTO JOSÉ TENÓRIO",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -41431,7 +41386,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DOUTOR ABELARDO PONTES LIMA",
+          "via": "RUA DOUTOR ABELARDO PONTES LIMA - GRUTA DE LOURDES",
           "codigo": null,
           "match": "manual"
         },
@@ -42415,7 +42370,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA SENADOR RUI PALMEIRA",
+          "via": "RUA SENADOR RUI PALMEIRA - PONTA VERDE",
           "codigo": null,
           "match": "manual"
         },
@@ -42793,7 +42748,12 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
+          "via": "RUA 13 DE MAIO",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "RUA JOÃO OMENA DE ANDRADE",
           "codigo": null,
           "match": "manual"
         },
@@ -43312,9 +43272,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA X",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR JURACI PEREIRA",
@@ -43337,9 +43297,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA I",
-          "codigo": "06237",
-          "match": "exato_global"
+          "via": "RUA I - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TRAVESSA GOVERNADOR LUIZ CAVALCANTE",
@@ -44221,9 +44181,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA I - CONJ CLIMERIO SARMENTO",
-          "codigo": "06258",
-          "match": "exato"
+          "via": "RUA I - JATIÚCA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TRAVESSA GOVERNADOR LUIZ CAVALCANTE",
@@ -44824,9 +44784,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA I - CONJ CLIMERIO SARMENTO",
-          "codigo": "06258",
-          "match": "exato"
+          "via": "RUA I - JATIÚCA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA MENINO MARCELO",
@@ -45433,9 +45393,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RETORNO",
+          "via": "RETORNO PARQUE SHOPPING",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
@@ -46389,9 +46349,9 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL CONJ MUTIRAO",
-          "codigo": "00679",
-          "match": "exato"
+          "via": "TERMINAL CONJUNTO MUTIRÃO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DO ARAME",
@@ -46399,9 +46359,9 @@
           "match": "exato"
         },
         {
-          "via": "LADEIRA VER JORGE OMENA",
-          "codigo": "06305",
-          "match": "exato"
+          "via": "LADEIRA VEREADOR JORGE OMENA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "ALAMEDA F TRÊS",
@@ -46901,7 +46861,12 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
+          "via": "RUA 13 DE MAIO",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "RUA JOÃO OMENA DE ANDRADE",
           "codigo": null,
           "match": "manual"
         },
@@ -46981,12 +46946,12 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO",
-          "codigo": "00601",
-          "match": "fuzzy"
+          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO I",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA A | QUARTOZE",
+          "via": "RUA A | QUATORZE",
           "codigo": null,
           "match": "manual"
         },
@@ -47001,7 +46966,7 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -47011,9 +46976,9 @@
           "match": "exato"
         },
         {
-          "via": "TERMINAL CONJ MUTIRAO",
-          "codigo": "00679",
-          "match": "exato"
+          "via": "TERMINAL CONJUNTO MUTIRÃO",
+          "codigo": null,
+          "match": "manual"
         }
       ]
     }
@@ -47353,11 +47318,6 @@
           "match": "manual"
         },
         {
-          "via": "RUA JONACY",
-          "codigo": null,
-          "match": "nao_encontrado"
-        },
-        {
           "via": "RUA PAU BRASIL",
           "codigo": "00107",
           "match": "exato"
@@ -47383,14 +47343,24 @@
           "match": "exato"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "RUA PREFEITO JOATAS MALTA DE ALENCAR",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "AVENIDA ALAMEDA C UM",
-          "codigo": "00757",
-          "match": "fuzzy"
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "ALAMEDA ALMIRANTE MANOEL MENDES - RETORNO",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "ALAMEDA C UM",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA EMPRESÁRIO LOURIVAL LOBO FERREIRA",
@@ -47866,7 +47836,12 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
+          "via": "RUA 13 DE MAIO",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "RUA JOÃO OMENA DE ANDRADE",
           "codigo": null,
           "match": "manual"
         },
@@ -47911,9 +47886,9 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA MANOEL INÁCIO",
@@ -48330,9 +48305,9 @@
           "match": "manual"
         },
         {
-          "via": "BR 316",
-          "codigo": "00287",
-          "match": "exato"
+          "via": "AVENIDA LOURIVAL MELO MOTA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "VIADUTO DA PRF",
@@ -48380,29 +48355,14 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DA PAZ",
-          "codigo": "00804",
+          "via": "RUA PEDRO PAULINO",
+          "codigo": "00209",
           "match": "exato_global"
         },
         {
           "via": "RUA DO URUGUAI",
           "codigo": "00247",
           "match": "exato_global"
-        },
-        {
-          "via": "RUA PEDRO PAULINO",
-          "codigo": "00209",
-          "match": "exato_global"
-        },
-        {
-          "via": "AVENIDA CID SCALA",
-          "codigo": "00211",
-          "match": "exato_global"
-        },
-        {
-          "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
-          "codigo": "00208",
-          "match": "fuzzy"
         },
         {
           "via": "AVENIDA DA PAZ",
@@ -48413,11 +48373,6 @@
           "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": null,
           "match": "manual"
-        },
-        {
-          "via": "RUA SÁ E ALBUQUERQUE",
-          "codigo": "00241",
-          "match": "exato_global"
         },
         {
           "via": "RUA SAMPAIO MARQUES",
@@ -48777,7 +48732,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "REAVESSA INAILDA FELIX DE O SANTOS",
+          "via": "TRAVESSA INAILDA FELIX DE O SANTOS",
           "codigo": null,
           "match": "manual"
         },
@@ -49520,9 +49475,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato_global"
+          "via": "RUA BOA VISTA - RIO NOVO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DO ALECRIM",
@@ -49565,7 +49520,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
           "codigo": null,
           "match": "manual"
         },
@@ -49575,9 +49530,9 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA JORGEM DE BARROS- SANTA AMELIA",
-          "codigo": "00382",
-          "match": "fuzzy"
+          "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
+          "codigo": "00836",
+          "match": "exato_global"
         },
         {
           "via": "RUA ESTUDANTE ARNOUMAR CHAGAS",
@@ -49590,9 +49545,9 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL COLINA",
-          "codigo": "06287",
-          "match": "exato"
+          "via": "TERMINAL COLINA DOS EUCALIPTOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
@@ -50516,9 +50471,9 @@
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA JORGEM DE BARROS- SANTA AMELIA",
-          "codigo": "00382",
-          "match": "fuzzy"
+          "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
+          "codigo": "00836",
+          "match": "exato_global"
         },
         {
           "via": "CONJUNTO MEDEIROS NETO",
@@ -50526,9 +50481,9 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "AVENIDA JORGEM DE BARROS- SANTA AMELIA",
-          "codigo": "00382",
-          "match": "fuzzy"
+          "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
+          "codigo": "00836",
+          "match": "exato_global"
         },
         {
           "via": "RUA ESTUDANTE ARNOUMAR CHAGAS",
@@ -50541,9 +50496,9 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL COLINA",
-          "codigo": "06287",
-          "match": "exato"
+          "via": "TERMINAL COLINA DOS EUCALIPTOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
@@ -50566,7 +50521,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
           "codigo": null,
           "match": "manual"
         },
@@ -50606,9 +50561,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato_global"
+          "via": "RUA BOA VISTA - RIO NOVO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DO ALECRIM",
@@ -50616,9 +50571,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato_global"
+          "via": "RUA BOA VISTA - RIO NOVO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TERMINAL DO RIO NOVO",
@@ -50883,9 +50838,9 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA MUNIZ FALCÃO",
-          "codigo": "00162",
-          "match": "exato_global"
+          "via": "AVENIDA MUNIZ FALCÃO - CLIMA BOM",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA RECANTO DO SOL",
@@ -50913,7 +50868,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - CLIMA BOM",
           "codigo": null,
           "match": "manual"
         },
@@ -50933,12 +50888,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA B",
-          "codigo": "06102",
-          "match": "exato_sem_complemento"
-        },
-        {
-          "via": "TERMINAL OSMAN LOUREIRO",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -50953,9 +50903,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DURVAL DE GÓES MONTEIRO",
@@ -51424,12 +51374,17 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA WALTER ANANIAS",
-          "codigo": "00280",
-          "match": "exato"
+          "via": "RUA 13 DE MAIO",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "AVENIDA DEPUTADO HUMBERTO MENDES",
+          "via": "RUA JOÃO OMENA DE ANDRADE",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "AVENIDA CID SCALA",
           "codigo": null,
           "match": "manual"
         },
@@ -51499,12 +51454,7 @@
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA B",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "TERMINAL OSMAN LOUREIRO",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -51544,9 +51494,9 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA MUNIZ FALCÃO",
-          "codigo": "06705",
-          "match": "exato"
+          "via": "AVENIDA MUNIZ FALCÃO - CLIMA BOM",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TERMINAL CLIMA BOM",
@@ -51955,9 +51905,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA DE ACESSO",
+          "via": "RUA DE ACESSO - JARDIM PETROPOLIS II",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORGE DE LIMA",
@@ -52090,9 +52040,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "06308",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -52666,16 +52616,6 @@
           "match": "exato"
         },
         {
-          "via": "RETORNO",
-          "codigo": null,
-          "match": "nao_encontrado"
-        },
-        {
-          "via": "AVENIDA DENILMA BULHÕES",
-          "codigo": "06320",
-          "match": "exato"
-        },
-        {
           "via": "ALAMEDA JOSÉ LOPES DE ALBUQUERQUE",
           "codigo": "00775",
           "match": "exato"
@@ -52696,27 +52636,17 @@
           "match": "exato"
         },
         {
-          "via": "RETORNO",
-          "codigo": null,
-          "match": "nao_encontrado"
-        },
-        {
-          "via": "AVENIDA DENILMA BULHÕES",
-          "codigo": "06320",
-          "match": "exato"
-        },
-        {
           "via": "RUA PERIMETRAL 4",
           "codigo": "06319",
           "match": "contem"
         },
         {
-          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO",
-          "codigo": "00601",
-          "match": "fuzzy"
+          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO I",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA A | QUARTOZE",
+          "via": "RUA A | QUATORZE",
           "codigo": null,
           "match": "manual"
         },
@@ -52761,9 +52691,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA DE ACESSO",
+          "via": "RUA DE ACESSO - JARDIM PETROPOLIS II",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORGE DE LIMA",
@@ -53091,9 +53021,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA 2 - CONJ DENISSON MENEZES",
-          "codigo": "06694",
-          "match": "exato"
+          "via": "RUA 2 - CONJUNTO DENISSON MENEZES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA FREI DAMIÃO DE BOZANO",
@@ -53597,7 +53527,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA BATISTA ACIOLI",
+          "via": "RUA BATISTA ACIOLY",
           "codigo": null,
           "match": "manual"
         },
@@ -53697,9 +53627,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA 2 - CONJ DENISSON MENEZES",
-          "codigo": "06694",
-          "match": "exato"
+          "via": "RUA 2 - CONJUNTO DENISSON MENEZES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA 54 CONJUNTO GRACILIANO RAMOS",
@@ -54304,12 +54234,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA B",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "TERMINAL OSMAN LOUREIRO",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -54344,7 +54269,7 @@
           "match": "exato"
         },
         {
-          "via": "TERMINAL COLINA",
+          "via": "TERMINAL COLINA DOS EUCALIPTOS",
           "codigo": null,
           "match": "manual"
         },
@@ -54420,16 +54345,6 @@
         },
         {
           "via": "RUA PROFESSOR ANTÔNIO MÁRIO MAFRA",
-          "codigo": null,
-          "match": "nao_encontrado"
-        },
-        {
-          "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "RETORNO",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -55261,16 +55176,6 @@
           "match": "manual"
         },
         {
-          "via": "RETORNO",
-          "codigo": null,
-          "match": "nao_encontrado"
-        },
-        {
-          "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
           "via": "RUA PROFESSOR ANTÔNIO MÁRIO MAFRA",
           "codigo": null,
           "match": "nao_encontrado"
@@ -55346,9 +55251,9 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JORGEM DE BARROS- SANTA AMELIA",
-          "codigo": "00382",
-          "match": "fuzzy"
+          "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA GILBERTO VIEIRA LEITE",
@@ -55376,9 +55281,9 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL COLINA",
-          "codigo": "06287",
-          "match": "exato_global"
+          "via": "TERMINAL COLINA DOS EUCALIPTOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESTUDANTE ARNOUMAR CHAGAS",
@@ -55406,12 +55311,7 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "AVENIDA B",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "TERMINAL OSMAN LOUREIRO",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -55936,7 +55836,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA MARIA VITÓRIA DE FRANÇA RUA SENADOR TEOTÔNIO VILELACHAVES",
+          "via": "AVENIDA SENADOR TEOTÔNIO VILELA",
           "codigo": null,
           "match": "manual"
         },
@@ -55946,9 +55846,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SÃO PEDRO",
-          "codigo": "06677",
-          "match": "exato"
+          "via": "RUA SÃO PEDRO - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA TANCREDO NEVES",
@@ -56820,9 +56720,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA SÃO PEDRO",
-          "codigo": "06677",
-          "match": "exato"
+          "via": "RUA SÃO PEDRO - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA SENADOR ARNON DE MELO",
@@ -56830,7 +56730,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA MARIA VITÓRIA DE FRANÇA RUA SENADOR TEOTÔNIO VILELACHAVES",
+          "via": "AVENIDA SENADOR TEOTÔNIO VILELA",
           "codigo": null,
           "match": "manual"
         },
@@ -56895,9 +56795,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA L",
-          "codigo": "06641",
-          "match": "exato_sem_complemento"
+          "via": "RUA L - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA K UM",
@@ -57066,9 +56966,9 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA JORGEM DE BARROS- SANTA AMELIA",
-          "codigo": "00382",
-          "match": "fuzzy"
+          "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA GILBERTO VIEIRA LEITE",
@@ -57359,12 +57259,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA B",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "TERMINAL OSMAN LOUREIRO",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -57556,9 +57451,9 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA A",
-          "codigo": "06385",
-          "match": "exato_global"
+          "via": "AVENIDA A - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "ACESSO AO CONJ MOACIR ANDRADE",
@@ -57566,7 +57461,7 @@
           "match": "exato"
         },
         {
-          "via": "CONJUNTO CIDADE SORRISOI",
+          "via": "CONJUNTO CIDADE SORRISO I",
           "codigo": null,
           "match": "manual"
         }
@@ -57713,7 +57608,7 @@
       ],
       "ruas": [
         {
-          "via": "CONJUNTO CIDADE SORRISOI",
+          "via": "CONJUNTO CIDADE SORRISO I",
           "codigo": null,
           "match": "manual"
         },
@@ -57723,9 +57618,9 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA A",
-          "codigo": "06385",
-          "match": "exato_global"
+          "via": "AVENIDA A - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA MAX DOUGLAS",
@@ -57881,6 +57776,11 @@
           "via": "RUA C | OITENTA E CINCO",
           "codigo": null,
           "match": "nao_encontrado"
+        },
+        {
+          "via": "RUA C-54",
+          "codigo": null,
+          "match": "manual"
         }
       ]
     },
@@ -58551,59 +58451,59 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA A",
-          "codigo": "06385",
-          "match": "exato_global"
-        },
-        {
-          "via": "Q G",
+          "via": "AVENIDA A - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "Q I1",
+          "via": "Q G - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA H",
-          "codigo": "00342",
-          "match": "exato"
-        },
-        {
-          "via": "Q K",
+          "via": "Q | 1 - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA G",
-          "codigo": "06236",
-          "match": "exato_global"
-        },
-        {
-          "via": "RUA A7",
-          "codigo": "06082",
-          "match": "fuzzy_global"
-        },
-        {
-          "via": "RUA Q",
+          "via": "RUA H - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA P",
+          "via": "Q K - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA J",
+          "via": "RUA G - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA O",
+          "via": "RUA A7 - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
+        },
+        {
+          "via": "RUA Q - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "RUA P - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "RUA J - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "RUA O - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA ROTA DO MAR",
@@ -58646,9 +58546,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "Q. S1",
+          "via": "Q. S1 - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA BENEDITO AMARO DE MOURA",
@@ -58656,9 +58556,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "Q W1",
+          "via": "Q W1 - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         }
       ]
     },
@@ -59179,9 +59079,9 @@
       ],
       "ruas": [
         {
-          "via": "Q W1",
+          "via": "Q W1 - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA BENEDITO AMARO DE MOURA",
@@ -59234,59 +59134,59 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA O",
+          "via": "RUA O - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA J",
+          "via": "RUA J - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA P",
+          "via": "RUA P - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA Q",
+          "via": "RUA Q - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA A7",
-          "codigo": "06082",
-          "match": "fuzzy_global"
-        },
-        {
-          "via": "RUA G",
-          "codigo": "06236",
-          "match": "exato_global"
-        },
-        {
-          "via": "Q K",
+          "via": "RUA A7 - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "RUA H",
-          "codigo": "00342",
-          "match": "exato"
-        },
-        {
-          "via": "Q | 1",
+          "via": "RUA G - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "Q G",
+          "via": "Q K - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
-          "via": "AVENIDA A",
-          "codigo": "06385",
-          "match": "exato_global"
+          "via": "RUA H - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "Q | 1 - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "Q G - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "AVENIDA A - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA MAX DOUGLAS",
@@ -59530,79 +59430,66 @@
         {
           "via": "TERMINAL INTEGRADO BENEDITO BENTES",
           "codigo": "00354",
-          "via_pdf": "TERMINAL INTEGRADO BENEDITO BENTES",
           "match": "exato"
         },
         {
           "via": "AVENIDA NORMA PIMENTEL DA COSTA",
           "codigo": "06097",
-          "via_pdf": "AV. NORMA PIMENTEL DA COSTA",
           "match": "exato"
         },
         {
           "via": "RUA JUSSARA",
           "codigo": "00355",
-          "via_pdf": "RUA JUÇARA",
           "match": "fuzzy"
         },
         {
           "via": "RUA B TRINTA E OITO",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
           "via": "AVENIDA BENEDITO BENTES",
           "codigo": "00408",
-          "via_pdf": "AV. BENEDITO BENTES",
           "match": "exato"
         },
         {
           "via": "AVENIDA MUNDAÚ",
           "codigo": "00407",
-          "via_pdf": "AV. MUNDAU",
           "match": "exato"
         },
         {
-          "via": "AVENIDA A",
-          "codigo": "06385",
-          "via_pdf": "AV. A",
-          "match": "exato_global"
+          "via": "AVENIDA A - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DOUTOR LUIZ ROCHA TOLEDO",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA E",
-          "codigo": "06674",
-          "via_pdf": "R. E (ACESSO AO CONJ. SELMA BANDEIRA)",
-          "match": "exato_sem_complemento"
+          "via": "RUA E - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DOUTOR LUIZ ROCHA TOLEDO",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
           "via": "AVENIDA DO FUTURO",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
           "via": "AVENIDA SENADOR CARLOS LYRA",
           "codigo": "06405",
-          "via_pdf": "AV. GOV . CARLOS LACERDA",
           "match": "fuzzy_global"
         },
         {
           "via": "RUA ROBERT LIRA",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         }
       ]
@@ -59822,97 +59709,81 @@
         {
           "via": "RUA ROBERT LIRA",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
           "via": "RUA ARUEIRA",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
           "via": "RUA ANGELIM",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
           "via": "AVENIDA SENADOR CARLOS LYRA",
           "codigo": "06405",
-          "via_pdf": "AV. GOV . CARLOS LACERDA",
           "match": "fuzzy_global"
         },
         {
           "via": "AVENIDA DO FUTURO",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
           "via": "AVENIDA DOUTOR LUIZ ROCHA TOLEDO",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA B",
-          "codigo": "06526",
-          "via_pdf": "RUA B",
-          "match": "exato_global"
+          "via": "RUA B - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA E",
-          "codigo": "06674",
-          "via_pdf": "R. E (ACESSO AO CONJ. SELMA BANDEIRA)",
-          "match": "exato_sem_complemento"
+          "via": "RUA E - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DOUTOR LUIZ ROCHA TOLEDO",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA A",
-          "codigo": "06385",
-          "via_pdf": "AV. A",
-          "match": "exato_global"
+          "via": "AVENIDA A - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA MAX DOUGLAS",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
           "via": "AVENIDA BENEDITO BENTES",
           "codigo": "00408",
-          "via_pdf": "AV. BENEDITO BENTES",
           "match": "exato"
         },
         {
           "via": "RUA B TRINTA E OITO",
           "codigo": null,
-          "via_pdf": null,
           "match": "nao_encontrado"
         },
         {
           "via": "RUA CAINHA",
           "codigo": "00625",
-          "via_pdf": "RUA CAINHA",
           "match": "exato"
         },
         {
           "via": "AVENIDA NORMA PIMENTEL DA COSTA",
           "codigo": "06097",
-          "via_pdf": "AV. NORMA PIMENTEL DA COSTA",
           "match": "exato"
         },
         {
           "via": "TERMINAL INTEGRADO BENEDITO BENTES",
           "codigo": "00354",
-          "via_pdf": "TERMINAL INTEGRADO BENEDITO BENTES",
           "match": "exato"
         }
       ]
@@ -60155,9 +60026,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA PROJETADA",
-          "codigo": "06315",
-          "match": "exato_global"
+          "via": "RUA PROJETADA - BENEDITO BENTES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA MUNDAÚ",
@@ -60387,19 +60258,19 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA F",
-          "codigo": "06137",
-          "match": "exato_global"
-        },
-        {
-          "via": "RUA L",
-          "codigo": "06641",
-          "match": "exato_sem_complemento"
-        },
-        {
-          "via": "Q E1",
+          "via": "RUA F - BENEDITO BENTES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
+        },
+        {
+          "via": "RUA L - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "Q E1 - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA HENRIQUE FRANCISCO BULHÕES",
@@ -61131,6 +61002,11 @@
           "match": "exato"
         },
         {
+          "via": "RUA H - SAO JORGE",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
           "via": "AVENIDA JOSÉ AÍRTON GONDIM LAMENHA",
           "codigo": "06620",
           "match": "exato"
@@ -61141,7 +61017,12 @@
           "match": "manual"
         },
         {
-          "via": "RUA ALVARO MELO LADEIRA S JORGE-P CHALITA",
+          "via": "RUA G - SAO JORGE",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "RUA ALVARO MELO LADEIRA SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -61171,14 +61052,14 @@
           "match": "exato"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CANAÃ",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato_global"
+          "via": "RUA BOA VISTA - OURO PRETO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA RIO GRANDE DO SUL",
@@ -61191,9 +61072,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CANAÃ",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA VALENTIM DOS SANTOS DINIZ",
@@ -62048,9 +61929,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CANAÃ",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA SÃO FRANCISCO DE ASSIS",
@@ -62063,14 +61944,14 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato_global"
+          "via": "RUA BOA VISTA - OURO PRETO",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CANAÃ",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA SÃO FRANCISCO DE ASSIS",
@@ -62103,9 +61984,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA A - B",
-          "codigo": "06226",
-          "match": "exato_global"
+          "via": "RUA PROJETADA A - B",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA C - D",
@@ -62113,9 +61994,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA F",
-          "codigo": "06245",
-          "match": "exato"
+          "via": "RUA F - SERRARIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
@@ -62128,12 +62009,12 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA G",
-          "codigo": "06236",
-          "match": "exato_global"
+          "via": "RUA G - SERRARIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA ALVARO MELO LADEIRA S JORGE-P CHALITA",
+          "via": "RUA ALVARO MELO LADEIRA SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -63011,9 +62892,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA SÃO PEDRO",
-          "codigo": "00807",
-          "match": "exato"
+          "via": "RUA SÃO PEDRO - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA SENADOR ARNON DE MELO",
@@ -63021,9 +62902,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SENADOR TEOTÔNIO VILELA",
-          "codigo": "00505",
-          "match": "fuzzy"
+          "via": "AVENIDA SENADOR TEOTÔNIO VILELA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA ALICE CAROLINA",
@@ -63477,9 +63358,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SÃO PEDRO",
-          "codigo": "00807",
-          "match": "exato"
+          "via": "RUA SÃO PEDRO - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA TANCREDO NEVES",
@@ -63810,9 +63691,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA PREFEITO JOATAS MALTA DE ALENCAR",
@@ -64092,9 +63973,9 @@
           "match": "exato"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA EMPRESÁRIO LOURIVAL LOBO FERREIRA",
@@ -64122,12 +64003,12 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA A | QUARTOZE",
+          "via": "RUA A | QUATORZE",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO",
+          "via": "TERMINAL CONJUNTO JOÃO SAMPAIO I",
           "codigo": null,
           "match": "manual"
         }
@@ -64262,7 +64143,7 @@
           "match": "exato"
         },
         {
-          "via": "CONJUNTO SONHO DE ANTONIO DUARTE",
+          "via": "CONJUNTO SONHO DE ANTÔNIO DUARTE",
           "codigo": null,
           "match": "manual"
         },
@@ -64413,7 +64294,7 @@
           "match": "exato"
         },
         {
-          "via": "CONJUNTO SONHO DE ANTONIO DUARTE",
+          "via": "CONJUNTO SONHO DE ANTÔNIO DUARTE",
           "codigo": null,
           "match": "manual"
         },
@@ -64931,7 +64812,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - IPIOCA",
           "codigo": null,
           "match": "manual"
         },
@@ -65376,7 +65257,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - IPIOCA",
           "codigo": null,
           "match": "manual"
         },
@@ -65592,24 +65473,24 @@
           "match": "exato"
         },
         {
-          "via": "VIA PRINCIPAL CONJ MACEIO I - A",
-          "codigo": "06531",
-          "match": "exato"
+          "via": "VIA PRINCIPAL CONJUNTO MACEIO I - A",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL CONJ MACEIO I - B",
-          "codigo": "06532",
-          "match": "exato"
+          "via": "VIA PRINCIPAL CONJUNTO MACEIO I - B",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "VIA INTERNA DO CONJ MACEIO I - C",
-          "codigo": "06533",
-          "match": "exato"
+          "via": "VIA INTERNA DO CONJUNTO MACEIO I - C",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "VIA INTERNA CONJ MACEIO I - D",
-          "codigo": "06534",
-          "match": "exato"
+          "via": "VIA INTERNA CONJUNTO MACEIO I - D",
+          "codigo": null,
+          "match": "manual"
         }
       ]
     },
@@ -65798,9 +65679,9 @@
       ],
       "ruas": [
         {
-          "via": "VIA INTERNA CONJ MACEIO I - D",
-          "codigo": "06534",
-          "match": "exato"
+          "via": "VIA INTERNA CONJUNTO MACEIO I - D",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA BOSQUE DA CIMEIRA",
@@ -65818,9 +65699,9 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "VIA DE ACESSO AO COND JD DAS TULIPAS",
-          "codigo": "06553",
-          "match": "exato"
+          "via": "VIA DE ACESSO AO CONDOMÍNIO JARDIM DAS TULIPAS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "5 ROTATORIA DO CONJ JARDIM ROYAL",
@@ -65858,9 +65739,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA X",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR FÁBIO WANDERLEY",
@@ -66361,9 +66242,9 @@
           "match": "exato_global"
         },
         {
-          "via": "VIA PRINCIPAL COND RECANTO DOS SONHOS",
-          "codigo": "06238",
-          "match": "exato"
+          "via": "VIA PRINCIPAL CONDOMÍNIO RECANTO DOS SONHOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA CACHOEIRA DO MEIRIM",
@@ -66612,9 +66493,9 @@
           "match": "exato"
         },
         {
-          "via": "VIA PRINCIPAL COND RECANTO DOS SONHOS",
-          "codigo": "06238",
-          "match": "exato"
+          "via": "VIA PRINCIPAL CONDOMÍNIO RECANTO DOS SONHOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA ASSIS CHATEAUBRIAND",
@@ -66759,19 +66640,19 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA B",
-          "codigo": "06102",
-          "match": "exato_sem_complemento"
+          "via": "AVENIDA B - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA F",
-          "codigo": "06137",
-          "match": "exato_global"
+          "via": "RUA F - CIDADE UNIVERSITARIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA PRESIDENTE GETULIO VARGAS",
-          "codigo": "06689",
-          "match": "fuzzy"
+          "via": "RUA PRESIDENTE GETÚLIO VARGAS - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JOSÉ MOURA ROCHA",
@@ -67050,9 +66931,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA U",
+          "via": "RUA UM",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA K UM",
@@ -67065,9 +66946,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA DOUTOR CLEANTHO DE MOURA RIZZO G JARDIM",
-          "codigo": "06707",
-          "match": "exato"
+          "via": "RUA DOUTOR CLEANTHO DE MOURA RIZZO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA GRAN JARDIM",
@@ -67090,9 +66971,9 @@
           "match": "exato"
         },
         {
-          "via": "VIA DE LIGACAO AO CONJ JARDIM ROYAL",
-          "codigo": "06660",
-          "match": "exato"
+          "via": "VIA DE LIGAÇÃO AO CONJUNTO JARDIM ROYAL",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "CORREDOR DE TRANSPORTE JARDIM ROYAL",
@@ -67115,9 +66996,9 @@
           "match": "exato"
         },
         {
-          "via": "JARDIM ROYAL ROTATORIA 1",
-          "codigo": "06339",
-          "match": "exato"
+          "via": "JARDIM ROYAL ROTATORIA I",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "SAIDA DO CONJUNTO JARDIM ROYAL",
@@ -67309,9 +67190,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA L",
-          "codigo": "06641",
-          "match": "exato_sem_complemento"
+          "via": "RUA L - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA K UM",
@@ -67637,7 +67518,7 @@
           "match": "exato"
         },
         {
-          "via": "RETORNO DA AVENIDA MARILIA MENDONCA",
+          "via": "RETORNO DA AVENIDA MARÍLIA MENDONÇA",
           "codigo": "06700",
           "match": "exato"
         }
@@ -67960,7 +67841,7 @@
       ],
       "ruas": [
         {
-          "via": "RETORNO DA AVENIDA MARILIA MENDONCA",
+          "via": "RETORNO DA AVENIDA MARÍLIA MENDONÇA",
           "codigo": "06700",
           "match": "exato"
         },
@@ -68025,9 +67906,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA L",
-          "codigo": "06641",
-          "match": "exato_sem_complemento"
+          "via": "RUA L - CIDADE UNIVERSITÁRIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA K UM",
@@ -68302,7 +68183,7 @@
           "match": "fuzzy_60"
         },
         {
-          "via": "AVENIDA B",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -68347,9 +68228,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - TABULEIRO DOS MARTINS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DURVAL DE GÓES MONTEIRO",
@@ -68696,7 +68577,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA B",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -69152,12 +69033,7 @@
           "match": "fuzzy_60"
         },
         {
-          "via": "AVENIDA B",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "TERMINAL OSMAN LOUREIRO",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -69227,9 +69103,9 @@
           "match": "fuzzy_68"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
-          "match": "sem_match"
+          "match": "manual"
         },
         {
           "via": "ALAMEDA F TRÊS",
@@ -69665,7 +69541,7 @@
           "match": "fuzzy_72"
         },
         {
-          "via": "VIA PRINCIPAL DOIS",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -69740,12 +69616,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA B",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "TERMINAL OSMAN LOUREIRO",
+          "via": "AVENIDA B - TERMINAL OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -71493,7 +71364,7 @@
           "match": "fuzzy_77"
         },
         {
-          "via": "RUA BATISTA ACCIOLY",
+          "via": "RUA BATISTA ACIOLY",
           "codigo": "06169",
           "via_pdf": "RUA BATISTA ACIOLY",
           "match": "fuzzy_76"
@@ -71523,7 +71394,7 @@
           "match": "fuzzy_65"
         },
         {
-          "via": "AVENIDA INDI CÍCERO TOLEDO",
+          "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": "00240",
           "via_pdf": "AV. CICERO TOLEDO",
           "match": "fuzzy_77"
@@ -71715,13 +71586,13 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA SENADOR ARNON DE MELLO",
+          "via": "RUA SENADOR ARNON DE MELO",
           "codigo": "00044",
           "via_pdf": "RUA SENADOR. ARNON DE MELO(VILLAGE II)",
           "match": "fuzzy_66"
         },
         {
-          "via": "AVENIDA ALICE CAROLINE",
+          "via": "AVENIDA ALICE CAROLINA",
           "codigo": "06585",
           "via_pdf": "AV. ALICE CAROLINA",
           "match": "fuzzy_56"
@@ -72073,7 +71944,7 @@
           "match": "fuzzy_73"
         },
         {
-          "via": "AVENIDA ALICE CAROLINE",
+          "via": "AVENIDA ALICE CAROLINA",
           "codigo": "06585",
           "via_pdf": "AV. ALICE CAROLINA",
           "match": "fuzzy_56"
@@ -72097,7 +71968,7 @@
           "match": "sem_match"
         },
         {
-          "via": "ROTATÓRIA DO VIADUTO DA PRF",
+          "via": "ROTATORIA DO VIADUTO DA PRF",
           "codigo": "06590",
           "via_pdf": "ROTATÓRIA DO VIADUTO DA PRF",
           "match": "exato"
@@ -72121,7 +71992,7 @@
           "match": "fuzzy_83"
         },
         {
-          "via": "ROTATÓRIA DO VIADUTO DA PRF",
+          "via": "ROTATORIA DO VIADUTO DA PRF",
           "codigo": "06590",
           "via_pdf": "ROTATÓRIA DO VIADUTO DA PRF",
           "match": "exato"
@@ -73175,7 +73046,7 @@
           "match": "sem_match"
         },
         {
-          "via": "AVENIDA INDI CÍCERO TOLEDO",
+          "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": "00240",
           "via_pdf": "AV. CICERO TOLEDO",
           "match": "fuzzy_77"
@@ -73361,10 +73232,10 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA E",
+          "via": "RUA E - BENEDITO BENTES",
           "codigo": "06674",
           "via_pdf": "R. E (ACESSO AO CONJ. SELMA BANDEIRA)",
-          "match": "fuzzy_72"
+          "match": "manual"
         },
         {
           "via": "AVENIDA A",
@@ -74829,7 +74700,7 @@
           "match": "sem_match"
         },
         {
-          "via": "AVENIDA INDI CÍCERO TOLEDO",
+          "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": "00240",
           "via_pdf": "AV. CICERO TOLEDO",
           "match": "fuzzy_77"
@@ -74997,7 +74868,7 @@
           "match": "sem_match"
         },
         {
-          "via": "ROTATÓRIA DO VIADUTO DA PRF",
+          "via": "ROTATORIA DO VIADUTO DA PRF",
           "codigo": "06590",
           "via_pdf": "ROTATÓRIA DO VIADUTO DA PRF",
           "match": "exato"
@@ -75021,7 +74892,7 @@
           "match": "fuzzy_83"
         },
         {
-          "via": "ROTATÓRIA DO VIADUTO DA PRF",
+          "via": "ROTATORIA DO VIADUTO DA PRF",
           "codigo": "06590",
           "via_pdf": "ROTATÓRIA DO VIADUTO DA PRF",
           "match": "exato"
@@ -75375,7 +75246,7 @@
           "match": "exato"
         },
         {
-          "via": "1° ROTATÓRIA - JARDIM ROYAL",
+          "via": "1 ROTATORIA - JARDIM ROYAL",
           "codigo": "06444",
           "via_pdf": "1° ROTATÓRIA - JARDIM ROYAL",
           "match": "exato"
@@ -76883,7 +76754,7 @@
           "match": "fuzzy_67"
         },
         {
-          "via": "AVENIDA GOVERNADOR THEOBALDO BARBOSA",
+          "via": "AVENIDA GOVERNADOR TEOBALDO BARBOSA",
           "codigo": null,
           "via_pdf": null,
           "match": "sem_match"
@@ -76943,7 +76814,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA SENADOR ARNON DE MELLO",
+          "via": "RUA SENADOR ARNON DE MELO",
           "codigo": "06374",
           "via_pdf": "RUA SENADOR ARNON DE MELLO",
           "match": "exato"
@@ -77003,7 +76874,7 @@
           "match": "fuzzy_65"
         },
         {
-          "via": "AVENIDA INDI CÍCERO TOLEDO",
+          "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": "00240",
           "via_pdf": "AV. CICERO TOLEDO",
           "match": "fuzzy_77"
@@ -78122,11 +77993,6 @@
           "match": "fuzzy_77"
         },
         {
-          "via": "ROTATORIA COMENDAR GUSTAVO PAIVA",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
           "via": "AVENIDA JUCA SAMPAIO",
           "codigo": null,
           "match": "sem_match"
@@ -78788,7 +78654,7 @@
           "match": "fuzzy_77"
         },
         {
-          "via": "RETORNO GUSTAVO PAIVA",
+          "via": "RETORNO PARQUE SHOPPING",
           "codigo": null,
           "match": "manual"
         },
@@ -79185,7 +79051,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -79555,7 +79421,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -80042,9 +79908,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato"
+          "via": "RUA CAMARAGIBE - CRUZ DAS ALMAS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA EVILÁSIO SORIANO",
@@ -80100,11 +79966,6 @@
           "via": "AVENIDA COMENDADOR LEÃO",
           "codigo": "00196",
           "match": "fuzzy_78"
-        },
-        {
-          "via": "PRAÇA ALOÍSO BRANCO",
-          "codigo": null,
-          "match": "manual"
         },
         {
           "via": "AVENIDA COMENDADOR CALAÇA",
@@ -80574,7 +80435,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -80604,7 +80465,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -80669,9 +80530,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "06406",
-          "match": "fuzzy_62"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -81675,7 +81536,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA SENADOR ARNON DE MELLO",
+          "via": "RUA SENADOR ARNON DE MELO",
           "codigo": "06374",
           "via_pdf": "RUA SENADOR ARNON DE MELLO",
           "match": "exato"
@@ -82591,7 +82452,7 @@
           "match": "fuzzy_57"
         },
         {
-          "via": "ROTATÓRIA DO VIADUTO DA PRF",
+          "via": "ROTATORIA DO VIADUTO DA PRF",
           "codigo": "06590",
           "via_pdf": "ROTATÓRIA DO VIADUTO DA PRF",
           "match": "exato"
@@ -82623,7 +82484,7 @@
       ],
       "ruas": [
         {
-          "via": "ROTATÓRIA DO VIADUTO DA PRF",
+          "via": "ROTATORIA DO VIADUTO DA PRF",
           "codigo": "06590",
           "via_pdf": "ROTATÓRIA DO VIADUTO DA PRF",
           "match": "exato"
@@ -82901,11 +82762,6 @@
           "match": "manual"
         },
         {
-          "via": "BR 104",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
           "via": "AVENIDA TEOTÔNIO BRANDÃO VILELA",
           "codigo": null,
           "match": "manual"
@@ -83178,7 +83034,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS - RIO LARGO",
           "codigo": null,
           "match": "manual"
         },
@@ -83238,27 +83094,17 @@
           "match": "manual"
         },
         {
-          "via": "BR 104",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
           "via": "AVENIDA LOURIVAL MELO MOTA",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "AVENIDA B",
+          "via": "AVENIDA B - CIDADE UNIVERSITÁRIA",
           "codigo": null,
           "match": "manual"
         },
         {
           "via": "RUA DOUTOR FÁBIO WANDERLEY",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "RUA SEIS A",
           "codigo": null,
           "match": "manual"
         },
@@ -84357,7 +84203,7 @@
           "match": "fuzzy_65"
         },
         {
-          "via": "AVENIDA INDI CÍCERO TOLEDO",
+          "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": "00240",
           "via_pdf": "AV. CICERO TOLEDO",
           "match": "fuzzy_77"
@@ -84537,7 +84383,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "00174",
           "via_pdf": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
           "match": "exato"
@@ -84549,7 +84395,7 @@
           "match": "fuzzy_82"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "00174",
           "via_pdf": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
           "match": "exato"
@@ -85975,14 +85821,9 @@
       ],
       "ruas": [
         {
-          "via": "RUA COM LUIZJ FRANCA",
-          "codigo": "06076",
-          "match": "fuzzy_global"
-        },
-        {
-          "via": "RUA B",
-          "codigo": "06526",
-          "match": "exato"
+          "via": "RUA B - GRUTA DE LOURDES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ROBERTO SÍMONSEN",
@@ -86025,9 +85866,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA MUNIZ FALCÃO",
-          "codigo": "00162",
-          "match": "exato"
+          "via": "AVENIDA MUNIZ FALCÃO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORNALISTA MÁRCIO CANUTO",
@@ -86085,7 +85926,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA MIGUEL OMENA",
+          "via": "AVENIDA DOUTOR MIGUEL OMENA",
           "codigo": null,
           "match": "manual"
         },
@@ -86587,9 +86428,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -86717,9 +86558,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA ANTONIO MENEZESA LEMOS",
-          "codigo": "06166",
-          "match": "exato"
+          "via": "RUA ANTÔNIO MENEZES DE ARAÚJO LEMOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA HUGO CORRÊA PAES",
@@ -86740,11 +86581,6 @@
           "via": "LARGO DELMIRO GOUVEIA - ROTARY",
           "codigo": "06350",
           "match": "exato"
-        },
-        {
-          "via": "RUA COM LUIZJ FRANCA",
-          "codigo": "06076",
-          "match": "fuzzy_global"
         }
       ]
     }
@@ -87030,9 +86866,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA B",
-          "codigo": "06526",
-          "match": "exato"
+          "via": "RUA B - GRUTA DE LOURDES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ROBERTO SÍMONSEN",
@@ -87389,9 +87225,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA B",
-          "codigo": "06526",
-          "match": "exato"
+          "via": "RUA B - GRUTA DE LOURDES",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ROBERTO SÍMONSEN",
@@ -87449,17 +87285,17 @@
           "match": "exato"
         },
         {
-          "via": "RUA F",
-          "codigo": "06245",
-          "match": "exato"
-        },
-        {
-          "via": "RUA R, G",
+          "via": "RUA F - SERRARIA",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA G",
+          "via": "RUA R, G - SERRARIA",
+          "codigo": null,
+          "match": "manual"
+        },
+        {
+          "via": "RUA G - SERRARIA",
           "codigo": null,
           "match": "manual"
         },
@@ -87866,7 +87702,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -88248,7 +88084,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -90267,7 +90103,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA CAMARAGIBE",
+          "via": "RUA CAMARAGIBE - CRUZ DAS ALMAS",
           "codigo": null,
           "match": "manual"
         },
@@ -90323,11 +90159,6 @@
         },
         {
           "via": "AVENIDA COMENDADOR LEÃO",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "PRAÇA ALOÍSO BRANCO",
           "codigo": null,
           "match": "manual"
         },
@@ -90807,7 +90638,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -90837,7 +90668,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -90902,7 +90733,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
           "codigo": null,
           "match": "manual"
         },
@@ -91274,11 +91105,6 @@
         {
           "via": "ESTRADA DA SAÚDE",
           "codigo": "00226",
-          "match": "exato"
-        },
-        {
-          "via": "AL - 101 NORTE",
-          "codigo": "00596",
           "match": "exato"
         },
         {
@@ -92249,9 +92075,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA I",
-          "codigo": "06237",
-          "match": "exato_global"
+          "via": "RUA I - JATIÚCA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS",
@@ -92319,14 +92145,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
-        },
-        {
-          "via": "PARQUI RIO BRANCO",
-          "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DEZESSEIS DE SETEMBRO",
@@ -92968,9 +92789,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA DO CEARÁ",
@@ -92993,9 +92814,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -93562,7 +93383,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "PRAÇA DAS GRACAS",
+          "via": "PRAÇA DAS GRAÇAS",
           "codigo": "00073",
           "match": "exato"
         },
@@ -93991,9 +93812,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -94061,9 +93882,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -94842,9 +94663,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA PADRE CICERO ROMÃO BATISTA",
@@ -94872,34 +94693,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA BALTAZAR DE MENDONÇA",
-          "codigo": null,
-          "match": "nao_encontrado"
-        },
-        {
-          "via": "RUA DO CEARÁ",
-          "codigo": "06557",
-          "match": "exato_global"
-        },
-        {
-          "via": "RUA JOÃO CALHEIROS GATO",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
-        },
-        {
-          "via": "RUA SANTO ANTÔNIO",
-          "codigo": "00282",
-          "match": "exato"
-        },
-        {
-          "via": "AVENIDA PROFESSOR LOUREIRO",
-          "codigo": null,
-          "match": "manual"
-        },
-        {
-          "via": "RUA FORMOSA",
-          "codigo": null,
-          "match": "nao_encontrado"
         },
         {
           "via": "PARQUE RODOLFO LINS",
@@ -94947,9 +94743,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato_global"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -94977,9 +94773,9 @@
           "match": "exato"
         },
         {
-          "via": "VILA BANCARIA",
+          "via": "VILA DOS BANCARIOS",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
@@ -95097,9 +94893,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato"
+          "via": "RUA BOA VISTA - OURO PRETO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "PONTO DE RETORNO OURO PRETO",
@@ -95330,14 +95126,14 @@
           "match": "exato"
         },
         {
-          "via": "RUA BOA VISTA",
-          "codigo": "06426",
-          "match": "exato"
+          "via": "RUA BOA VISTA - OURO PRETO",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CANAÃ",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PIAÇABUÇU",
@@ -95365,9 +95161,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CANAÃ",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA VALENTIM DOS SANTOS DINIZ",
@@ -95425,9 +95221,9 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA GOVERNADOR TEOBALDO BARBOSA",
@@ -96228,9 +96024,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -96288,9 +96084,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "00381",
-          "match": "exato_global"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -96769,9 +96565,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA CAMARAGIBE",
-          "codigo": "00811",
-          "match": "exato_sem_complemento"
+          "via": "RUA CAMARAGIBE - CRUZ DAS ALMAS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA EVILÁSIO SORIANO",
@@ -96829,11 +96625,6 @@
           "match": "exato"
         },
         {
-          "via": "PRAÇA ALOÍSO BRANCO",
-          "codigo": null,
-          "match": "nao_encontrado"
-        },
-        {
           "via": "BOMBA DA MARIETA",
           "codigo": "00212",
           "match": "exato"
@@ -96889,7 +96680,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "PRAÇA DAS GRACAS",
+          "via": "PRAÇA DAS GRAÇAS",
           "codigo": "00073",
           "match": "exato"
         },
@@ -97252,9 +97043,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "RUA PADRE CICERO ROMÃO BATISTA",
@@ -97282,9 +97073,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "PRAÇA DO PIRULITO",
@@ -97337,7 +97128,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
           "codigo": null,
           "match": "manual"
         },
@@ -97709,7 +97500,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA I",
+          "via": "RUA I - JATIÚCA",
           "codigo": null,
           "match": "manual"
         },
@@ -97834,9 +97625,9 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
-          "match": "nao_encontrado"
+          "match": "manual"
         },
         {
           "via": "AVENIDA GOVERNADOR TEOBALDO BARBOSA",
@@ -98879,9 +98670,9 @@
           "match": "exato"
         },
         {
-          "via": "ALAMEDA B",
-          "codigo": "06373",
-          "match": "exato_sem_complemento"
+          "via": "ALAMEDA B - TERMINAL PONTAL DA BARRA",
+          "codigo": null,
+          "match": "manual"
         }
       ]
     },
@@ -99010,9 +98801,9 @@
       ],
       "ruas": [
         {
-          "via": "ALAMEDA B",
-          "codigo": "06373",
-          "match": "exato_sem_complemento"
+          "via": "ALAMEDA B - TERMINAL PONTAL DA BARRA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ALIPIO BARBOSA DA SILVA",
@@ -99020,12 +98811,7 @@
           "match": "exato"
         },
         {
-          "via": "PRAÇA DOUTOR CAIO ÁGUIAR PÔRTO",
-          "codigo": null,
-          "match": "nao_encontrado"
-        },
-        {
-          "via": "RUA SENADOR ARNON DE MELO",
+          "via": "RUA SENADOR ARNON DE MELO - PONTAL DA BARRA",
           "codigo": null,
           "match": "manual"
         },
@@ -99667,9 +99453,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA F",
-          "codigo": "06245",
-          "match": "exato"
+          "via": "RUA F - SERRARIA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
@@ -100563,7 +100349,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA B",
+          "via": "RUA B - GRUTA DE LOURDES",
           "codigo": null,
           "match": "manual"
         },
@@ -101069,7 +100855,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA DOUTOR ABELARDO PONTES LIMA",
+          "via": "RUA DOUTOR ABELARDO PONTES LIMA - GRUTA DE LOURDES",
           "codigo": null,
           "match": "manual"
         },
@@ -102265,7 +102051,7 @@
           "match": "fuzzy_66"
         },
         {
-          "via": "RUA FORMOSA",
+          "via": "RUA FORMOSA - PONTA GROSSA",
           "codigo": null,
           "match": "manual"
         },
@@ -102320,9 +102106,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA SETE DE SETEMBRO",
-          "codigo": "06308",
-          "match": "exato"
+          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -102855,12 +102641,12 @@
           "match": "manual"
         },
         {
-          "via": "RUA BOA VISTA",
+          "via": "RUA BOA VISTA - OURO PRETO",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA CAMARAGIBE",
+          "via": "RUA CAMARAGIBE - CANAÃ",
           "codigo": null,
           "match": "manual"
         },
@@ -102923,6 +102709,219 @@
           "via": "TERMINAL TRAPICHE DA BARRA",
           "codigo": null,
           "match": "manual"
+        }
+      ]
+    }
+  },
+  "1001 - Circular Cruz das Almas": {
+    "ida": {
+      "coordenadas": [
+        [
+          -9.63017895884424,
+          -35.69674160379204
+        ],
+        [
+          -9.63060722108006,
+          -35.69672613954589
+        ],
+        [
+          -9.630402908477546,
+          -35.69934952058596
+        ],
+        [
+          -9.630394011029134,
+          -35.69945537791831
+        ],
+        [
+          -9.628635538791283,
+          -35.69840274958224
+        ],
+        [
+          -9.627810784365634,
+          -35.69794483100213
+        ],
+        [
+          -9.62732983226488,
+          -35.69769497046224
+        ],
+        [
+          -9.627262637257035,
+          -35.69772501430656
+        ],
+        [
+          -9.627209619462121,
+          -35.69780597531059
+        ],
+        [
+          -9.627470824816529,
+          -35.69794504157969
+        ],
+        [
+          -9.628077071236145,
+          -35.69820205899379
+        ],
+        [
+          -9.628327892889494,
+          -35.69830206666251
+        ],
+        [
+          -9.628943097851629,
+          -35.6986356775429
+        ],
+        [
+          -9.63048008143612,
+          -35.69956458998576
+        ],
+        [
+          -9.632512290425328,
+          -35.70071886925278
+        ],
+        [
+          -9.633226624986134,
+          -35.70111979757046
+        ],
+        [
+          -9.633755620313785,
+          -35.70148651828269
+        ],
+        [
+          -9.6354221962683,
+          -35.70258094500186
+        ],
+        [
+          -9.637141592462058,
+          -35.703748448599
+        ],
+        [
+          -9.637912824717889,
+          -35.70421134367133
+        ],
+        [
+          -9.638788629991208,
+          -35.70417973730342
+        ],
+        [
+          -9.638658358453107,
+          -35.7013711363017
+        ],
+        [
+          -9.638486642856856,
+          -35.69861516994986
+        ]
+      ],
+      "ruas": [
+        {
+          "via": "TERMINAL DE CRUZ DAS ALMAS",
+          "codigo": "00906",
+          "match": "exato"
+        },
+        {
+          "via": "RUA JOÃO CANÚTO DA SILVA",
+          "codigo": "00221",
+          "match": "exato"
+        },
+        {
+          "via": "AVENIDA COMENDADOR GUSTAVO PAIVA",
+          "codigo": "00206",
+          "match": "exato"
+        },
+        {
+          "via": "RUA JOSÉ DE MELO",
+          "codigo": "06212",
+          "match": "exato"
+        },
+        {
+          "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
+          "codigo": "00703",
+          "match": "exato"
+        }
+      ]
+    },
+    "volta": {
+      "coordenadas": [
+        [
+          -9.638510934283731,
+          -35.69845933913868
+        ],
+        [
+          -9.63848774726124,
+          -35.69825088771692
+        ],
+        [
+          -9.637605945902687,
+          -35.69811167263171
+        ],
+        [
+          -9.636285069907782,
+          -35.69806176049004
+        ],
+        [
+          -9.635816483331173,
+          -35.69782512198486
+        ],
+        [
+          -9.634638316812094,
+          -35.69766441540832
+        ],
+        [
+          -9.631930196568035,
+          -35.69646716130988
+        ],
+        [
+          -9.630618391137,
+          -35.69594704971741
+        ],
+        [
+          -9.63054842097798,
+          -35.69644058742136
+        ],
+        [
+          -9.630493340380085,
+          -35.69730184245503
+        ],
+        [
+          -9.629910802701469,
+          -35.69721018514926
+        ],
+        [
+          -9.629865131433293,
+          -35.69670588674832
+        ],
+        [
+          -9.630224268447297,
+          -35.6967070051779
+        ]
+      ],
+      "ruas": [
+        {
+          "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
+          "codigo": "00703",
+          "match": "exato"
+        },
+        {
+          "via": "AVENIDA BRIGADEIRO EDUARDO GOMES DE BRITO",
+          "codigo": "00223",
+          "match": "exato"
+        },
+        {
+          "via": "RUA JOÃO CANÚTO DA SILVA",
+          "codigo": "00221",
+          "match": "exato"
+        },
+        {
+          "via": "RUA MARIA ANTÔNIETA TEIXEIRA LEITE",
+          "codigo": "06357",
+          "match": "exato"
+        },
+        {
+          "via": "RUA DOUTOR LAURO MACHADO COSTA",
+          "codigo": "00580",
+          "match": "exato"
+        },
+        {
+          "via": "TERMINAL DE CRUZ DAS ALMAS",
+          "codigo": "00906",
+          "match": "exato"
         }
       ]
     }

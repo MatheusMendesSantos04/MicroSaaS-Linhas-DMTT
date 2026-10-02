@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { exportarLinhaPDF } from "../pdfExport";
 
 const MATCH_LABEL = {
@@ -36,6 +36,25 @@ function SentidoSection({ titulo, ruas, cor }) {
   );
 }
 
+function CountUp({ valor }) {
+  const alvo = Number(valor);
+  const casas = (String(valor).split(".")[1] || "").length;
+  const [n, setN] = useState(0);
+  useEffect(() => {
+    if (!isFinite(alvo) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) { setN(alvo); return; }
+    let raf;
+    const t0 = performance.now();
+    const passo = (t) => {
+      const p = Math.min(1, (t - t0) / 1100);
+      setN(alvo * (1 - Math.pow(1 - p, 4)));
+      if (p < 1) raf = requestAnimationFrame(passo);
+    };
+    raf = requestAnimationFrame(passo);
+    return () => cancelAnimationFrame(raf);
+  }, [alvo]);
+  return <>{isFinite(alvo) ? n.toFixed(casas) : valor}</>;
+}
+
 function DistanciaResumo({ detalheLinha, mostrarIda, mostrarVolta }) {
   const idaKm = detalheLinha.ida?.distancia_km;
   const voltaKm = detalheLinha.volta?.distancia_km;
@@ -53,7 +72,7 @@ function DistanciaResumo({ detalheLinha, mostrarIda, mostrarVolta }) {
       {stats.map((s) => (
         <div key={s.label} className={`km-stat ${s.cls}`}>
           <span className="km-stat-label">{s.label}</span>
-          <span className="km-stat-valor">{s.valor} km</span>
+          <span className="km-stat-valor"><CountUp valor={s.valor} /> km</span>
         </div>
       ))}
     </div>

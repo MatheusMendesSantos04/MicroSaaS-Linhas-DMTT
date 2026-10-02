@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Linhas DMTT — rascunho do novo layout</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --ink:#0a0a0a; --ink-2:#171717; --ink-3:#262626;
+  --yellow:#f2c200; --yellow-hi:#ffd83a; --yellow-soft:#fff4c2; --yellow-ink:#3d2f00;
+  --canvas:#f5f5f5; --alt:#fafafa; --paper:#fff; --hair:#e5e5e5; --mid:#737373; --mid-dark:#a3a3a3;
+  --ida:#16a34a; --volta:#2e64d4; --rua:#e0a400;
+  --r-card:24px; --r-ctl:18px; --r-nest:10px;
+  --shadow:0 0 0 1px rgba(23,23,23,.05),0 1px 3px rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);
+  --shadow-lift:0 0 0 1px rgba(23,23,23,.06),0 12px 28px -8px rgba(0,0,0,.22),0 4px 8px -4px rgba(0,0,0,.12);
+  --font:'Geist',ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:'Geist Mono',ui-monospace,Consolas,monospace;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font:400 14px/1.43 var(--font);color:var(--ink);background:var(--canvas);-webkit-font-smoothing:antialiased;font-feature-settings:"ss01" on,"cv11" on;overflow-x:hidden}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer;border:0;background:none}
+:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(242,194,0,.45)}
+
+/* ── Topbar ── */
+.top{position:sticky;top:0;z-index:50;height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 24px;
+  background:rgba(10,10,10,.95);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);color:#fff;transition:height .3s var(--ease)}
+.top::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--yellow) 18%,var(--yellow) 82%,transparent);opacity:.75}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{width:38px;height:34px;object-fit:contain;filter:drop-shadow(0 0 10px rgba(242,194,0,.35))}
+.brand b{display:block;font-size:15px;font-weight:600;letter-spacing:-.2px;line-height:1.1}
+.brand span{display:block;font-size:10.5px;font-weight:500;letter-spacing:.14em;color:var(--yellow)}
+.nav{display:flex;gap:4px;padding:4px;border-radius:999px;background:rgba(255,255,255,.06);box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+.nav button{padding:7px 16px;border-radius:999px;color:var(--mid-dark);font-weight:500;font-size:13.5px;transition:color .2s,background .3s var(--ease),transform .15s}
+.nav button:hover{color:#fff}
+.nav button:active{transform:scale(.96)}
+.nav button[aria-current="page"]{background:var(--yellow);color:var(--ink);box-shadow:0 0 18px -2px rgba(242,194,0,.55)}
+
+/* ── Páginas ── */
+.view{display:none}
+.view.on{display:block}
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s var(--ease) forwards;animation-delay:calc(var(--i,0)*70ms)}
+@keyframes rise{to{opacity:1;transform:none}}
+
+/* ── Linhas ── */
+.linhas{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;padding:16px;height:calc(100vh - 64px);min-height:620px}
+.stage{display:flex;flex-direction:column;gap:12px;min-width:0}
+.toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.field-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--mid)}
+.select{display:flex;align-items:center;gap:10px;height:40px;padding:0 14px;border-radius:var(--r-ctl);background:var(--paper);box-shadow:var(--shadow);min-width:250px;font-weight:500;transition:box-shadow .25s}
+.select:hover{box-shadow:var(--shadow-lift)}
+.select i{margin-left:auto;color:var(--mid);font-style:normal;font-size:11px}
+.seg{display:inline-flex;padding:4px;border-radius:var(--r-ctl);background:#e9e9e9}
+.seg button{height:32px;padding:0 14px;border-radius:calc(var(--r-ctl) - 4px);font-weight:500;color:var(--mid);transition:all .3s var(--ease)}
+.seg button.on{background:var(--paper);color:var(--ink);box-shadow:var(--shadow)}
+.btn{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 18px;border-radius:var(--r-ctl);font-weight:500;transition:transform .2s var(--ease),box-shadow .3s,background .2s}
+.btn:active{transform:scale(.97)}
+.btn-ink{background:var(--ink);color:#fafafa;margin-left:auto}
+.btn-ink:hover{background:var(--ink-3);box-shadow:0 8px 20px -6px rgba(0,0,0,.5)}
+.btn-yellow{background:var(--yellow);color:var(--ink);box-shadow:0 0 0 0 rgba(242,194,0,.5)}
+.btn-yellow:hover{background:var(--yellow-hi);box-shadow:0 8px 24px -6px rgba(242,194,0,.7);transform:translateY(-1px)}
+.km{display:flex;align-items:center;gap:12px;height:40px;padding:0 14px;border-radius:var(--r-ctl);background:var(--paper);box-shadow:var(--shadow);font-size:13px;white-space:nowrap}
+.km b{font-family:var(--mono);font-weight:600}
+.km .i{color:var(--ida)} .km .v{color:var(--volta)}
+.km .t{padding-left:14px;border-left:1px solid var(--hair)}
+
+.map{position:relative;flex:1;border-radius:var(--r-card);overflow:hidden;background:#ece8df;box-shadow:var(--shadow),inset 0 0 0 1px rgba(0,0,0,.05);min-height:420px}
+.map svg.base{position:absolute;inset:0;width:100%;height:100%}
+.route{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:var(--len,2000);stroke-dashoffset:var(--len,2000);animation:draw 2.2s var(--ease) .3s forwards}
+.route.volta{animation-delay:.9s}
+@keyframes draw{to{stroke-dashoffset:0}}
+.glass{background:rgba(255,255,255,.72);backdrop-filter:blur(14px) saturate(1.5);-webkit-backdrop-filter:blur(14px) saturate(1.5);box-shadow:0 0 0 1px rgba(255,255,255,.6) inset,0 8px 24px -8px rgba(0,0,0,.25);border-radius:var(--r-ctl)}
+.zoom{position:absolute;top:16px;left:16px;display:flex;flex-direction:column;overflow:hidden}
+.zoom button{width:38px;height:38px;font-size:18px;font-weight:500;transition:background .2s}
+.zoom button:hover{background:rgba(242,194,0,.35)}
+.zoom button+button{border-top:1px solid rgba(0,0,0,.08)}
+.legend{position:absolute;left:16px;bottom:16px;display:flex;gap:14px;padding:8px 14px;font-size:12px;font-weight:500}
+.legend span::before{content:"";display:inline-block;width:18px;height:4px;border-radius:2px;margin-right:6px;vertical-align:middle;background:var(--c)}
+.ctx{position:absolute;right:16px;bottom:16px;max-width:290px;padding:12px 14px;border-left:3px solid var(--rua);border-radius:var(--r-nest) var(--r-ctl) var(--r-ctl) var(--r-nest)}
+.ctx b{display:block;font-size:12px;color:var(--yellow-ink)}
+.ctx p{font-size:12.5px;color:#404040;margin:2px 0 8px}
+.pin{position:absolute;width:14px;height:14px;border-radius:50%;background:var(--yellow);border:2px solid var(--ink);box-shadow:0 0 0 0 rgba(242,194,0,.7);animation:ping 2.2s infinite}
+@keyframes ping{70%{box-shadow:0 0 0 14px rgba(242,194,0,0)}100%{box-shadow:0 0 0 0 rgba(242,194,0,0)}}
+
+/* painel lateral escuro */
+.side{position:relative;display:flex;flex-direction:column;gap:18px;padding:20px;border-radius:var(--r-card);background:var(--ink);color:#fafafa;overflow:auto;box-shadow:0 20px 40px -20px rgba(0,0,0,.6)}
+.glow{--mx:50%;--my:0%}
+.glow::before{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;opacity:0;transition:opacity .4s;
+  background:radial-gradient(260px circle at var(--mx) var(--my),rgba(242,194,0,.16),transparent 70%)}
+.glow:hover::before{opacity:1}
+.side h3{font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--mid-dark);margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{height:30px;padding:0 12px;border-radius:999px;background:var(--ink-2);box-shadow:inset 0 0 0 1px #2e2e2e;color:#d4d4d4;font-size:12.5px;font-weight:500;transition:all .25s var(--ease)}
+.chip:hover{box-shadow:inset 0 0 0 1px var(--yellow);color:#fff}
+.chip.on{background:var(--yellow);color:var(--ink);box-shadow:0 0 16px -4px rgba(242,194,0,.6)}
+.input{display:flex;align-items:center;gap:8px;height:40px;padding:0 14px;border-radius:var(--r-ctl);background:var(--ink-2);box-shadow:inset 0 0 0 1px #2a2a2a;color:var(--mid-dark);transition:box-shadow .25s}
+.input:focus-within{box-shadow:inset 0 0 0 1px var(--yellow),0 0 0 3px rgba(242,194,0,.2)}
+.input input{flex:1;background:none;border:0;outline:none;color:#fff;min-width:0}
+.input input::placeholder{color:#737373}
+.step{display:flex;gap:10px;align-items:flex-start;padding:7px 0;font-size:12.5px;line-height:1.35;border-bottom:1px solid #1f1f1f;transition:transform .25s var(--ease),color .2s;color:#d4d4d4}
+.step:hover{transform:translateX(4px);color:#fff}
+.step .d{flex:none;width:8px;height:8px;border-radius:50%;margin-top:5px;background:var(--c,#555)}
+.step code{margin-left:auto;font-family:var(--mono);font-size:11px;padding:1px 7px;border-radius:999px;background:var(--ink-3);color:var(--yellow)}
+.dirhead{display:flex;align-items:center;gap:8px;margin:14px 0 4px;font-weight:600;font-size:13px}
+.dirhead i{width:22px;height:4px;border-radius:2px;background:var(--c)}
+
+/* ── Conteúdo claro (Bairros / Dashboards) ── */
+.page{max-width:1280px;margin:0 auto;padding:36px 24px 64px}
+.crumbs{font-size:13px;color:var(--mid);margin-bottom:10px}
+.crumbs b{color:var(--ink);font-weight:500}
+h1.title{font-size:36px;line-height:1.11;font-weight:600;letter-spacing:-.9px}
+.sub{color:var(--mid);margin:8px 0 22px;max-width:640px;font-size:15px}
+.tabs{display:inline-flex;gap:4px;padding:4px;border-radius:var(--r-ctl);background:#e9e9e9;margin-bottom:18px}
+.tabs button{height:34px;padding:0 16px;border-radius:calc(var(--r-ctl) - 4px);font-weight:500;color:var(--mid);transition:all .3s var(--ease)}
+.tabs button.on{background:var(--ink);color:#fff;box-shadow:0 6px 14px -6px rgba(0,0,0,.5)}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.in{display:flex;align-items:center;gap:8px;height:42px;padding:0 14px;border-radius:var(--r-ctl);background:#ececec;flex:1;min-width:260px;color:var(--mid);transition:all .25s}
+.in:focus-within{background:var(--paper);box-shadow:0 0 0 1px var(--ink),0 0 0 4px rgba(242,194,0,.4)}
+.in input{flex:1;background:none;border:0;outline:none;color:var(--ink)}
+.res{font-size:12px;color:var(--mid);margin:6px 0 16px}
+.card{background:var(--paper);border-radius:var(--r-card);box-shadow:var(--shadow);overflow:hidden;transition:transform .45s var(--ease),box-shadow .45s var(--ease);position:relative}
+.card.hover:hover{transform:translateY(-4px);box-shadow:var(--shadow-lift)}
+.bairro{margin-bottom:14px}
+.bh{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:linear-gradient(180deg,var(--alt),#f1f1f1);border-bottom:1px solid var(--hair)}
+.bh h2{font-size:14px;font-weight:600;letter-spacing:.02em;display:flex;align-items:center;gap:10px}
+.bh h2::before{content:"";width:6px;height:18px;border-radius:3px;background:var(--yellow)}
+.faixa{font-family:var(--mono);font-size:12px;color:var(--mid)}
+.vias{columns:2 340px;list-style:none}
+.via{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 20px;border-bottom:1px solid #f0f0f0;break-inside:avoid;font-size:13.5px;transition:background .2s,padding .3s var(--ease)}
+.via:hover{background:var(--yellow-soft);padding-left:26px}
+.codes{display:inline-flex;gap:6px;flex:none}
+.code{font-family:var(--mono);font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--ink);color:#fafafa;transition:transform .2s}
+.code.m{background:var(--yellow);color:var(--ink)}
+.code:hover{transform:scale(1.08)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.cover{aspect-ratio:16/10;background:var(--ink);position:relative;overflow:hidden;display:flex;align-items:flex-end;gap:7px;padding:22px 22px 0}
+.cover::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 0%,rgba(242,194,0,.28),transparent 55%);transition:opacity .4s}
+.cover i{flex:1;border-radius:6px 6px 0 0;background:linear-gradient(180deg,var(--yellow),#b38f00);height:var(--h);transform-origin:bottom;transform:scaleY(0);animation:grow 1s var(--ease) forwards;animation-delay:calc(var(--k)*60ms + .3s);opacity:.95}
+@keyframes grow{to{transform:scaleY(1)}}
+.cb{padding:18px 20px 20px}
+.ch{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.ch b{font-size:14px;font-weight:600;letter-spacing:.01em}
+.badge{font-size:11.5px;font-weight:500;padding:2px 9px;border-radius:999px;background:#ececec;color:#171717}
+.badge.solid{background:var(--ink);color:#fafafa}
+.badge.y{background:var(--yellow-soft);color:var(--yellow-ink);box-shadow:inset 0 0 0 1px rgba(242,194,0,.5)}
+.cb p{color:var(--mid);margin:8px 0 12px;font-size:13.5px}
+.cb ul{list-style:none;display:grid;gap:5px;margin-bottom:16px;font-size:13px}
+.cb li::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--yellow);margin-right:9px}
+.go{font-weight:600;display:inline-flex;gap:6px;align-items:center}
+.go span{transition:transform .3s var(--ease)}
+.card:hover .go span{transform:translateX(5px)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);margin-bottom:18px}
+.stat{padding:20px 22px}
+.stat+.stat{border-left:1px solid var(--hair)}
+.stat small{display:block;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mid);margin-bottom:6px}
+.stat .val{font-size:40px;font-weight:600;letter-spacing:-2px;line-height:1.05;font-variant-numeric:tabular-nums}
+.stat .val em{font-style:normal;color:var(--yellow);-webkit-text-stroke:0;background:var(--ink);padding:0 8px;border-radius:12px;margin-left:4px;font-size:.7em}
+.stat p{color:var(--mid);font-size:13px;margin-top:4px}
+.draft-tag{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:90;padding:6px 14px;border-radius:999px;background:var(--ink);color:#fafafa;font-size:12px;box-shadow:0 10px 30px -8px rgba(0,0,0,.5)}
+.draft-tag b{color:var(--yellow)}
+/* ── Responsivo ── */
+@media (max-width:1100px){
+  .linhas{grid-template-columns:minmax(0,1fr) 300px}
+  .select{min-width:200px}
+  .km{font-size:12.5px;gap:10px}
+}
+@media (max-width:900px){
+  .linhas{grid-template-columns:1fr;height:auto;padding:12px}
+  .map{flex:none;min-height:56vh}
+  .side{max-height:none;overflow:visible}
+  .btn-ink{margin-left:0}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat:nth-child(3){border-left:0}
+  .stat:nth-child(n+3){border-top:1px solid var(--hair)}
+}
+@media (max-width:640px){
+  body{padding-bottom:88px}
+  .top{height:56px!important;padding:0 14px;backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--ink)}
+  .brand b{font-size:14px}
+  /* navegação vira barra flutuante no rodapé */
+  .nav{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;justify-content:space-between;padding:5px;
+    background:rgba(10,10,10,.94);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    box-shadow:0 14px 34px -10px rgba(0,0,0,.55),inset 0 0 0 1px rgba(255,255,255,.1)}
+  .nav button{flex:1;padding:11px 2px;font-size:12.5px;text-align:center}
+  .toolbar{gap:10px}
+  .toolbar>div,.toolbar>.km{flex:1 1 100%}
+  .select{min-width:0;width:100%}
+  .seg{display:flex;width:100%}
+  .seg button{flex:1;padding:0 6px}
+  .km{height:auto;flex-wrap:wrap;padding:10px 14px;gap:4px 14px;align-self:stretch!important}
+  .km .t{border-left:0;padding-left:0}
+  .btn-ink{width:100%;justify-content:center;align-self:stretch!important}
+  .map{min-height:64vh;border-radius:20px}
+  .zoom{top:12px;left:12px}
+  .legend{left:12px;bottom:12px;padding:6px 12px;gap:10px;font-size:11.5px}
+  .ctx{left:12px;right:12px;bottom:56px;max-width:none;padding:10px 12px}
+  .ctx p{display:none}
+  .ctx b{margin-bottom:8px}
+  .side{padding:16px;border-radius:20px}
+  .page{padding:22px 14px 40px}
+  h1.title{font-size:28px;letter-spacing:-.6px}
+  .sub{font-size:14px}
+  .tabs{display:flex;overflow-x:auto;max-width:100%;scrollbar-width:none}
+  .tabs button{white-space:nowrap;flex:1}
+  .filters .in,.filters .select{flex:1 1 100%;min-width:0}
+  .card{border-radius:20px}
+  .bh{padding:12px 16px;flex-wrap:wrap;gap:4px}
+  .vias{columns:1}
+  .via{padding:10px 16px;align-items:flex-start}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{padding:16px}
+  .stat .val{font-size:30px;letter-spacing:-1.2px}
+  .grid{grid-template-columns:1fr}
+  .draft-tag{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-delay:0ms!important;transition:none!important}.route{stroke-dashoffset:0}.reveal{opacity:1;transform:none}.cover i{transform:none}}
+</style>
+</head>
+<body>
+
+<header class="top" id="top">
+  <div class="brand">
+    <img src="../frontend/src/assets/logo-policiamento-viario.png" alt="">
+    <div><b>Linhas DMTT</b><span>MACEIÓ</span></div>
+  </div>
+  <nav class="nav" id="nav">
+    <button data-v="linhas" aria-current="page">Linhas</button>
+    <button data-v="bairros">Bairros</button>
+    <button data-v="dash">Dashboards</button>
+    <button data-v="sobre">Sobre</button>
+  </nav>
+</header>
+
+<!-- ═════════ LINHAS ═════════ -->
+<main class="view on" id="v-linhas">
+  <div class="linhas">
+    <section class="stage">
+      <div class="toolbar reveal" style="--i:0">
+        <div><div class="field-label" style="margin-bottom:4px">Linha</div>
+          <div class="select"><span>1001 — Circular Cruz das Almas</span><i>▾</i></div></div>
+        <div><div class="field-label" style="margin-bottom:4px">Sentido</div>
+          <div class="seg" id="sent"><button class="on">Ida e Volta</button><button>→ Ida</button><button>← Volta</button></div></div>
+        <div class="km" style="align-self:flex-end"><span class="i">→ IDA <b data-n="15.9" data-d="1">0</b> km</span><span class="v">← VOLTA <b data-n="15.78" data-d="2">0</b> km</span><span class="t">Total <b data-n="31.68" data-d="2">0</b> km</span></div>
+        <button class="btn btn-ink" style="align-self:flex-end">Exportar PDF</button>
+      </div>
+
+      <div class="map reveal" style="--i:2">
+        <svg class="base" viewBox="0 0 1000 620" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <pattern id="blocks" width="46" height="38" patternUnits="userSpaceOnUse"><rect x="3" y="3" width="40" height="32" rx="4" fill="#e3ded2"/></pattern>
+            <filter id="halo"><feGaussianBlur stdDeviation="6"/></filter>
+          </defs>
+          <rect width="1000" height="620" fill="#ece8df"/>
+          <rect width="1000" height="620" fill="url(#blocks)" opacity=".8"/>
+          <path d="M0 470 C 140 430 220 520 380 500 S 640 560 760 600 L 760 620 L 0 620Z" fill="#bcd7e8"/>
+          <path d="M520 0 C 540 90 480 140 520 230 S 640 330 700 420 S 860 520 1000 500 L1000 620 L 780 620 C 700 540 600 480 560 380 S 440 160 430 0Z" fill="#c9e0ee" opacity=".9"/>
+          <g stroke="#fff" stroke-width="9" fill="none" stroke-linecap="round" opacity=".95">
+            <path d="M40 120 H 960"/><path d="M60 260 H 900"/><path d="M120 380 H 820"/>
+            <path d="M200 40 V 560"/><path d="M360 20 V 520"/><path d="M640 30 V 470"/><path d="M820 60 V 440"/>
+            <path d="M0 200 L 1000 330" stroke-width="6"/>
+          </g>
+          <g stroke="#f0cd6a" stroke-width="3" fill="none" opacity=".9"><path d="M20 560 C 300 420 600 330 980 80"/></g>
+          <!-- destaque de rua -->
+          <path d="M360 120 H 640" stroke="#e0a400" stroke-width="22" stroke-linecap="round" opacity=".28" fill="none"/>
+          <path d="M360 120 H 640" stroke="#e0a400" stroke-width="6" stroke-linecap="round" fill="none"/>
+          <!-- rotas -->
+          <path class="route" style="--len:1900" stroke="#16a34a" stroke-width="6.5" d="M200 520 V 380 H 360 V 260 H 640 V 120 H 820 V 380"/>
+          <path class="route volta" style="--len:1900" stroke="#2e64d4" stroke-width="6.5" d="M820 380 H 640 V 260 H 360 V 380 H 200 V 520" transform="translate(5 5)"/>
+        </svg>
+        <span class="pin" style="left:19%;top:83%"></span>
+        <span class="pin" style="left:81%;top:61%"></span>
+
+        <div class="glass zoom"><button>+</button><button>−</button></div>
+        <div class="glass legend"><span style="--c:var(--ida)">IDA</span><span style="--c:var(--volta)">VOLTA</span><span style="--c:var(--rua)">Rua</span></div>
+        <div class="glass ctx"><b>→ IDA — apenas um sentido exibido</b><p><strong>1001 Circular Cruz das Almas</strong> atende <em>Rua João Canúto da Silva</em> somente nesse sentido.</p><button class="btn btn-yellow" style="height:32px;padding:0 14px;font-size:12.5px">Ver os dois sentidos</button></div>
+      </div>
+    </section>
+
+    <aside class="side glow reveal" style="--i:3">
+      <div><h3>Estilo do mapa</h3>
+        <div class="chips" id="estilo"><button class="chip on">Mapa</button><button class="chip">Satélite</button><button class="chip">Híbrido</button><button class="chip">Claro</button><button class="chip">Escuro</button></div></div>
+      <div><h3>Camadas</h3>
+        <div class="chips" id="camadas"><button class="chip on">● Terminais</button><button class="chip">○ Zonas (bairros)</button></div></div>
+      <div><h3>Buscar por rua</h3>
+        <label class="input">⌕<input placeholder="Ex.: Fernandes Lima"><kbd style="font-family:var(--mono);font-size:11px;color:#737373">⌘K</kbd></label></div>
+      <div style="flex:1;min-height:0">
+        <h3>Itinerário</h3>
+        <div class="dirhead" style="--c:var(--ida)"><i></i>IDA</div>
+        <div class="step" style="--c:var(--yellow)"><span class="d"></span>TERMINAL DE CRUZ DAS ALMAS<code>00906</code></div>
+        <div class="step" style="--c:var(--ida)"><span class="d"></span>RUA JOÃO CANÚTO DA SILVA<code>00221</code></div>
+        <div class="step" style="--c:var(--ida)"><span class="d"></span>AVENIDA COMENDADOR GUSTAVO PAIVA<code>00206</code></div>
+        <div class="step" style="--c:var(--ida)"><span class="d"></span>RUA JOSÉ DE MELO<code>06212</code></div>
+        <div class="step" style="--c:var(--ida)"><span class="d"></span>RUA PADRE LUIZ AMÉRICO GALVÃO<code>00703</code></div>
+        <div class="dirhead" style="--c:var(--volta)"><i></i>VOLTA</div>
+        <div class="step" style="--c:var(--volta)"><span class="d"></span>RUA PADRE LUIZ AMÉRICO GALVÃO<code>00703</code></div>
+        <div class="step" style="--c:var(--volta)"><span class="d"></span>AVENIDA BRIGADEIRO EDUARDO GOMES DE BRITO<code>00223</code></div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<!-- ═════════ BAIRROS ═════════ -->
+<main class="view" id="v-bairros">
+  <div class="page">
+    <div class="crumbs reveal" style="--i:0">DMTT <span>›</span> <b>Bairros</b></div>
+    <h1 class="title reveal" style="--i:1">Bairros e códigos de vias</h1>
+    <p class="sub reveal" style="--i:2">717 vias em 50 bairros (379 com código no Matrix, marcado com “M”). Busque por nome de via, bairro ou código.</p>
+    <div class="tabs reveal" style="--i:3"><button class="on">Bairros (novos códigos)</button><button>Códigos do Matrix</button></div>
+    <div class="filters reveal" style="--i:4"><label class="in">⌕<input placeholder="Ex.: Fernandes Lima, Jaraguá ou 0123"></label><div class="select" style="min-width:230px">Todos os bairros <i>▾</i></div></div>
+    <p class="res reveal" style="--i:4">717 via(s) em 50 bairro(s)</p>
+
+    <section class="card bairro reveal" style="--i:5"><div class="bh"><h2>ALTO DA ALEGRIA</h2><span class="faixa">0001 – 0003 · 3 vias</span></div>
+      <ul class="vias">
+        <li class="via"><span>RUA SÃO CAETANO</span><span class="codes"><span class="code m">M 00771 / 00815</span><span class="code">0001</span></span></li>
+        <li class="via"><span>RUA SÃO FRANCISCO DE ASSIS</span><span class="codes"><span class="code m">M 00326 / 00816</span><span class="code">0002</span></span></li>
+        <li class="via"><span>TERMINAL ALTO DA ALEGRIA</span><span class="codes"><span class="code">0003</span></span></li>
+      </ul></section>
+    <section class="card bairro reveal" style="--i:6"><div class="bh"><h2>ANTARES</h2><span class="faixa">0004 – 0012 · 9 vias</span></div>
+      <ul class="vias">
+        <li class="via"><span>AVENIDA DOUTOR MILTON HÊNIO NETTO DE GOUVEIA</span><span class="codes"><span class="code">0004</span></span></li>
+        <li class="via"><span>AVENIDA JORNALISTA TOBIAS GRANJA</span><span class="codes"><span class="code m">M 00483</span><span class="code">0005</span></span></li>
+        <li class="via"><span>AVENIDA MENINO MARCELO</span><span class="codes"><span class="code">0006</span></span></li>
+        <li class="via"><span>RUA ISAIAS ALVES NICÁCIO</span><span class="codes"><span class="code m">M 06638</span><span class="code">0009</span></span></li>
+        <li class="via"><span>RUA J - ANTARES</span><span class="codes"><span class="code">0010</span></span></li>
+        <li class="via"><span>RUA JOSÉ FERREIRA TAVARES</span><span class="codes"><span class="code">0011</span></span></li>
+      </ul></section>
+  </div>
+</main>
+
+<!-- ═════════ DASHBOARDS ═════════ -->
+<main class="view" id="v-dash">
+  <div class="page">
+    <div class="crumbs reveal" style="--i:0">DMTT <span>›</span> <b>Dashboards</b></div>
+    <h1 class="title reveal" style="--i:1">Dashboards — GEPOT</h1>
+    <p class="sub reveal" style="--i:2">Relatórios e indicadores do setor, publicados no Power BI.</p>
+
+    <section class="card stats reveal" style="--i:3">
+      <div class="stat"><small>Embarques</small><div class="val" data-n="122">0</div><p>3 dias selecionados</p></div>
+      <div class="stat"><small>Viagens</small><div class="val" data-n="110">0</div><p>5 sem leitura do GPS</p></div>
+      <div class="stat"><small>Média por viagem</small><div class="val" data-n="1.2" data-d="1">0</div><p>embarques por viagem lida</p></div>
+      <div class="stat"><small>Dia mais cheio</small><div class="val">sex 25</div><p>78 embarques · sexta-feira</p></div>
+    </section>
+
+    <div class="grid">
+      <a class="card hover glow reveal" style="--i:4"><div class="cover"><i style="--h:80%;--k:0"></i><i style="--h:30%;--k:1"></i><i style="--h:38%;--k:2"></i><i style="--h:62%;--k:3"></i><i style="--h:48%;--k:4"></i></div>
+        <div class="cb"><div class="ch"><b>EMBARQUES — LINHA 4003</b><span class="badge y">Público</span></div>
+        <p>Embarques na volta da linha 4003 no ponto da Reserva das Águas, de 25 a 27/09/2026.</p>
+        <ul><li>Embarques por dia</li><li>Embarques por horário de saída</li><li>Lista de viagens</li></ul>
+        <span class="go">Abrir dashboard <span>→</span></span></div></a>
+      <a class="card hover glow reveal" style="--i:5"><div class="cover"><i style="--h:40%;--k:0"></i><i style="--h:70%;--k:1"></i><i style="--h:55%;--k:2"></i><i style="--h:90%;--k:3"></i><i style="--h:65%;--k:4"></i></div>
+        <div class="cb"><div class="ch"><b>DETALHAMENTO POR LINHA</b><span class="badge y">Público</span></div>
+        <p>Cumprimento de itinerário e transporte de passageiros, por linha.</p>
+        <ul><li>Índice de partidas realizadas</li><li>Índice de partidas pontuais</li><li>Total de passageiros</li></ul>
+        <span class="go">Abrir dashboard <span>→</span></span></div></a>
+      <a class="card hover glow reveal" style="--i:6"><div class="cover"><i style="--h:60%;--k:0"></i><i style="--h:52%;--k:1"></i><i style="--h:78%;--k:2"></i><i style="--h:44%;--k:3"></i><i style="--h:84%;--k:4"></i></div>
+        <div class="cb"><div class="ch"><b>PASSE LIVRE ESTUDANTIL</b><span class="badge solid">Interno</span></div>
+        <p>Acompanhamento da gratuidade no transporte público de Maceió.</p>
+        <ul><li>Total de gratuidade</li><li>Custo total</li><li>Gratuidade e custo por empresa</li></ul>
+        <span class="go">Abrir dashboard <span>→</span></span></div></a>
+    </div>
+  </div>
+</main>
+
+<main class="view" id="v-sobre">
+  <div class="page" style="max-width:860px">
+    <div class="crumbs reveal" style="--i:0">DMTT <span>›</span> <b>Sobre</b></div>
+    <h1 class="title reveal" style="--i:1">Sobre o sistema</h1>
+    <p class="sub reveal" style="--i:2">O <strong>Linhas DMTT</strong> é um sistema da DMTT para consulta de itinerários de ônibus, criado pelo setor GEPOT. (Página de texto — mesmo padrão de tipografia e cartões.)</p>
+  </div>
+</main>
+
+<div class="draft-tag"><b>RASCUNHO</b> · dados fictícios, só para avaliar o visual</div>
+
+<script>
+const $ = (s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* contagem animada */
+function countUp(root){
+  $$('[data-n]',root).forEach(el=>{
+    const to=+el.dataset.n, d=+(el.dataset.d||0), t0=performance.now(), dur=reduce?1:1300;
+    const f=t=>{const p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,4);el.textContent=(to*e).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});if(p<1)requestAnimationFrame(f)};
+    requestAnimationFrame(f);
+  });
+}
+/* troca de página: reinicia as animações de entrada */
+function show(v){
+  $$('.view').forEach(x=>x.classList.toggle('on',x.id==='v-'+v));
+  $$('#nav button').forEach(b=>b.toggleAttribute('aria-current',b.dataset.v===v) , 0);
+  $$('#nav button').forEach(b=>{b.dataset.v===v?b.setAttribute('aria-current','page'):b.removeAttribute('aria-current')});
+  const root=$('#v-'+v);
+  $$('.reveal,.route,.cover i',root).forEach(el=>{el.style.animation='none';el.offsetWidth;el.style.animation=''});
+  countUp(root); scrollTo({top:0});
+}
+$$('#nav button').forEach(b=>b.onclick=()=>show(b.dataset.v));
+
+/* chips / segmentados */
+$$('#sent button').forEach(b=>b.onclick=()=>{$$('#sent button').forEach(x=>x.classList.remove('on'));b.classList.add('on')});
+$$('#estilo .chip').forEach(b=>b.onclick=()=>{$$('#estilo .chip').forEach(x=>x.classList.remove('on'));b.classList.add('on')});
+$$('#camadas .chip').forEach(b=>b.onclick=()=>b.classList.toggle('on'));
+$$('.tabs button').forEach(b=>b.onclick=()=>{$$('.tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on')});
+
+/* brilho amarelo que segue o mouse */
+$$('.glow').forEach(el=>el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect();el.style.setProperty('--mx',(e.clientX-r.left)+'px');el.style.setProperty('--my',(e.clientY-r.top)+'px')}));
+
+/* topbar encolhe ao rolar */
+addEventListener('scroll',()=>{if(innerWidth>640)$('#top').style.height=scrollY>20?'54px':'64px'},{passive:true});
+
+countUp(document);
+if(location.hash.length>1&&$('#v-'+location.hash.slice(1)))show(location.hash.slice(1));
+</script>
+</body>
+</html>

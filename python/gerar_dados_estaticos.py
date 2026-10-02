@@ -150,6 +150,12 @@ def main() -> None:
     (OUT_DIR / "terminais.json").write_text(
         json.dumps(terminais, ensure_ascii=False), encoding="utf-8"
     )
+    bairro_codigo = ROOT / "data" / "json" / "bairros" / "bairro-codigo.json"
+    if bairro_codigo.exists():
+        (OUT_DIR / "bairro_codigo.json").write_bytes(bairro_codigo.read_bytes())
+    matrix_codigos = ROOT / "data" / "json" / "bairros" / "matrix-codigos.json"
+    if matrix_codigos.exists():
+        (OUT_DIR / "matrix_codigos.json").write_bytes(matrix_codigos.read_bytes())
     (OUT_DIR / "geojson_todas.json").write_text(
         json.dumps({"type": "FeatureCollection", "features": features_todas}, ensure_ascii=False),
         encoding="utf-8",

@@ -1,18 +1,22 @@
-import { Component, useEffect } from "react";
-import { MapContainer, TileLayer, GeoJSON, CircleMarker, Popup, Tooltip, useMap, useMapEvents } from "react-leaflet";
+import { Component, useEffect, useMemo, useRef, useState } from "react";
+import { MapContainer, TileLayer, GeoJSON, CircleMarker, Popup, useMap, useMapEvents } from "react-leaflet";
 
 const ESRI_ATTR = "Tiles &copy; Esri &mdash; Esri, HERE, Garmin, FAO, NOAA, USGS, &copy; OpenStreetMap contributors, GIS User Community";
 
+const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services";
+const ESRI_IMG_ATTR = "Tiles &copy; Esri &mdash; Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community";
+
 export const TILE_STYLES = {
-  dark:      { label: "Escuro",   swatch: "#1a202c", url: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",                attribution: ESRI_ATTR, maxNativeZoom: 16, labelsUrl: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}" },
-  light:     { label: "Claro",    swatch: "#e8f0f7", url: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",               attribution: ESRI_ATTR, maxNativeZoom: 16, labelsUrl: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}" },
-  standard:  { label: "Padrão",   swatch: "#aacf9f", url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",                                                                         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' },
-  voyager:   { label: "Ruas",     swatch: "#e0d8c8", url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",                           attribution: ESRI_ATTR, maxNativeZoom: 19 },
-  satellite: { label: "Satélite", swatch: "#3d5a3e", url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",                              attribution: "Tiles &copy; Esri &mdash; Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community" },
+  voyager:   { label: "Mapa",     swatch: "#f2efe9", url: `${ESRI}/World_Street_Map/MapServer/tile/{z}/{y}/{x}`,        attribution: ESRI_ATTR, maxNativeZoom: 19 },
+  satellite: { label: "Satélite", swatch: "#3d5a3e", url: `${ESRI}/World_Imagery/MapServer/tile/{z}/{y}/{x}`,           attribution: ESRI_IMG_ATTR, maxNativeZoom: 19 },
+  hybrid:    { label: "Híbrido",  swatch: "linear-gradient(135deg,#3d5a3e 55%,#e8e8e8 55%)", url: `${ESRI}/World_Imagery/MapServer/tile/{z}/{y}/{x}`, attribution: ESRI_IMG_ATTR, maxNativeZoom: 19, labelsUrls: [`${ESRI}/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}`, `${ESRI}/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}`], satelliteLike: true },
+  light:     { label: "Claro",    swatch: "#e8f0f7", url: `${ESRI}/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}`, attribution: ESRI_ATTR, maxNativeZoom: 16, labelsUrls: [`${ESRI}/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}`] },
+  dark:      { label: "Escuro",   swatch: "#1a202c", url: `${ESRI}/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}`,  attribution: ESRI_ATTR, maxNativeZoom: 16, labelsUrls: [`${ESRI}/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}`] },
+  standard:  { label: "OpenStreetMap", swatch: "#aacf9f", url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' },
 };
 
-const STYLE_IDA = { color: "#16A34A", weight: 4, opacity: 0.9 };
-const STYLE_VOLTA = { color: "#2E64D4", weight: 4, opacity: 0.9 };
+const STYLE_IDA = { color: "#16A34A", weight: 5, opacity: 0.95, lineCap: "round", lineJoin: "round" };
+const STYLE_VOLTA = { color: "#2E64D4", weight: 5, opacity: 0.95, lineCap: "round", lineJoin: "round" };
 const STYLE_DEFAULT = { color: "#6b7280", weight: 2, opacity: 0.6 };
 
 function featureStyle(feature) {
@@ -30,11 +34,82 @@ function onEachFeature(feature, layer) {
   }
 }
 
-const STYLE_ZONA = { color: "#D98407", weight: 2, fillColor: "#D98407", fillOpacity: 0.12 };
+const STYLE_ZONA = { color: "#B38F00", weight: 2, fillColor: "#F2C200", fillOpacity: 0.14 };
 
-function onEachZona(feature, layer) {
-  const nome = feature?.properties?.nome;
-  if (nome) layer.bindTooltip(nome, { sticky: true, className: "zona-tooltip" });
+const STYLE_ZONA_HOVER = { color: "#0A0A0A", weight: 2.5, fillColor: "#F2C200", fillOpacity: 0.34 };
+
+function anelContem(lng, lat, anel) {
+  let dentro = false;
+  for (let i = 0, j = anel.length - 1; i < anel.length; j = i++) {
+    const [xi, yi] = anel[i], [xj, yj] = anel[j];
+    if ((yi > lat) !== (yj > lat) && lng < ((xj - xi) * (lat - yi)) / (yj - yi) + xi) dentro = !dentro;
+  }
+  return dentro;
+}
+
+function poligonoContem(lng, lat, coords) {
+  return anelContem(lng, lat, coords[0]) && !coords.slice(1).some((buraco) => anelContem(lng, lat, buraco));
+}
+
+function zonaContem(lng, lat, geom) {
+  if (!geom) return false;
+  if (geom.type === "Polygon") return poligonoContem(lng, lat, geom.coordinates);
+  if (geom.type === "MultiPolygon") return geom.coordinates.some((poly) => poligonoContem(lng, lat, poly));
+  return false;
+}
+
+// As rotas são desenhadas em canvas por cima de tudo e engolem os eventos do mouse, então zonas e
+// terminais não recebem hover próprio. Aqui o hover é resolvido pelo mapa: terminal mais próximo
+// (raio em pixels) tem prioridade; senão, a zona sob o cursor.
+function HoverInfo({ zonas, showZonas, terminais, showTerminais }) {
+  const map = useMap();
+  const [info, setInfo] = useState(null);
+  const pendente = useRef(null);
+  const agendado = useRef(false);
+
+  const features = useMemo(() => (zonas?.features || []).filter((f) => f.properties?.nome), [zonas]);
+
+  useMapEvents({
+    mousemove(e) {
+      pendente.current = e;
+      if (agendado.current) return;
+      agendado.current = true;
+      requestAnimationFrame(() => {
+        agendado.current = false;
+        const ev = pendente.current;
+        if (!ev) return;
+        const { lat, lng } = ev.latlng;
+        const { x, y } = ev.containerPoint;
+        let achado = null;
+        if (showTerminais) {
+          let melhor = 14;
+          for (const t of terminais) {
+            const p = map.latLngToContainerPoint([t.lat, t.lon]);
+            const d = Math.hypot(p.x - x, p.y - y);
+            if (d < melhor) { melhor = d; achado = { tipo: "Terminal", nome: t.nome }; }
+          }
+        }
+        if (!achado && showZonas) {
+          const f = features.find((ft) => zonaContem(lng, lat, ft.geometry));
+          if (f) achado = { tipo: "Bairro / zona", nome: f.properties.nome, feature: f };
+        }
+        setInfo(achado ? { ...achado, x, y } : null);
+      });
+    },
+    mouseout() { pendente.current = null; setInfo(null); },
+  });
+
+  return (
+    <>
+      {info?.feature && <GeoJSON key={info.nome} data={info.feature} style={STYLE_ZONA_HOVER} interactive={false} />}
+      {info && (
+        <div className="map-hover-tip" style={{ left: info.x, top: info.y }}>
+          <span className="map-hover-tip-tipo">{info.tipo}</span>
+          <span className="map-hover-tip-nome">{info.nome}</span>
+        </div>
+      )}
+    </>
+  );
 }
 
 class MapErrorBoundary extends Component {
@@ -119,10 +194,10 @@ function AutoZoom({ geojson, isLinhaSelected }) {
   return null;
 }
 
-export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle = "dark", geojsonVersion = 0, ruaGeojson = null, onMapClick = null, linhaContexto = null, onContextoAmbos = null, terminais = [], showTerminais = false, zonas = null, showZonas = false, mapRef = null }) {
+export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle = "voyager", geojsonVersion = 0, ruaGeojson = null, onMapClick = null, linhaContexto = null, onContextoAmbos = null, terminais = [], showTerminais = false, zonas = null, showZonas = false, mapRef = null }) {
   // key muda somente quando os dados novos chegam (junto com geojsonVersion), nunca antes
   const geoJsonKey = geojsonVersion;
-  const tile = TILE_STYLES[tileStyle] ?? TILE_STYLES.dark;
+  const tile = TILE_STYLES[tileStyle] ?? TILE_STYLES.voyager;
 
   return (
     <div className="map-wrapper">
@@ -135,11 +210,12 @@ export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle =
         preferCanvas
         style={{ height: "100%", width: "100%" }}
       >
-        <TileLayer attribution={tile.attribution} url={tile.url} maxNativeZoom={tile.maxNativeZoom} maxZoom={19} crossOrigin="anonymous" />
-        {tile.labelsUrl && (
-          <TileLayer url={tile.labelsUrl} maxNativeZoom={tile.maxNativeZoom} maxZoom={19} crossOrigin="anonymous" />
-        )}
+        <TileLayer key={tileStyle} attribution={tile.attribution} url={tile.url} maxNativeZoom={tile.maxNativeZoom} maxZoom={19} crossOrigin="anonymous" />
+        {tile.labelsUrls?.map((u) => (
+          <TileLayer key={u} url={u} maxNativeZoom={tile.maxNativeZoom} maxZoom={19} crossOrigin="anonymous" />
+        ))}
         <MainPaneSetup />
+        <HoverInfo zonas={zonas} showZonas={showZonas} terminais={terminais} showTerminais={showTerminais} />
         <GeoJSON
           key={geoJsonKey}
           data={geojson}
@@ -150,18 +226,15 @@ export default function MapView({ geojson, isLinhaSelected, linhaId, tileStyle =
         <AutoZoom geojson={geojson} isLinhaSelected={isLinhaSelected} />
         {onMapClick && <MapClickHandler onMapClick={onMapClick} />}
         {showZonas && zonas && (
-          <GeoJSON data={zonas} style={STYLE_ZONA} onEachFeature={onEachZona} />
+          <GeoJSON data={zonas} style={STYLE_ZONA} interactive={false} />
         )}
         {showTerminais && terminais.map((t) => (
           <CircleMarker
             key={t.nome}
             center={[t.lat, t.lon]}
             radius={9}
-            pathOptions={{ color: "#D98407", fillColor: "#D98407", fillOpacity: 0.9, weight: 2 }}
+            pathOptions={{ color: "#0A0A0A", fillColor: "#F2C200", fillOpacity: 1, weight: 2.5 }}
           >
-            <Tooltip direction="top" offset={[0, -10]} opacity={0.95}>
-              <span style={{ fontSize: 12, fontWeight: 600 }}>{t.nome}</span>
-            </Tooltip>
             <Popup>
               <strong>{t.nome}</strong>
             </Popup>

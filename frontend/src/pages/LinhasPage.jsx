@@ -19,7 +19,7 @@ export default function LinhasPage() {
   const [detalheLinha, setDetalheLinha] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [mapStyle, setMapStyle] = useState("light");
+  const [mapStyle, setMapStyle] = useState("voyager");
   const [geojsonVersion, setGeojsonVersion] = useState(0);
   const [horarios, setHorarios] = useState(null);
   const [ruaGeojson, setRuaGeojson] = useState(null);
@@ -170,7 +170,8 @@ export default function LinhasPage() {
       <div className="app-body">
         <MapView geojson={geojson} isLinhaSelected={selectedLinhaIds.length > 0} linhaId={selectedLinhaIds[0] ?? ""} tileStyle={mapStyle} geojsonVersion={geojsonVersion} ruaGeojson={ruaGeojson} onMapClick={handleMapClick} linhaContexto={selectedLinhaIds.length <= 1 ? linhaContexto : null} onContextoAmbos={handleContextoAmbos} terminais={terminais} showTerminais={showTerminais} zonas={zonas} showZonas={showZonas} mapRef={mapRef} />
 
-        <aside className="sidebar">
+        <aside className="sidebar" onPointerMove={(e) => { const r = e.currentTarget.getBoundingClientRect(); e.currentTarget.style.setProperty("--mx", `${e.clientX - r.left}px`); e.currentTarget.style.setProperty("--my", `${e.clientY - r.top}px`); }}>
+          <span className="sidebar-glow" aria-hidden="true" />
           <MapStyleSelector value={mapStyle} onChange={setMapStyle} showTerminais={showTerminais} onToggleTerminais={() => setShowTerminais((v) => !v)} showZonas={showZonas} onToggleZonas={() => setShowZonas((v) => !v)} />
           <HorariosPanel horarios={horarios} selectedLinhaId={selectedLinhaIds[0] ?? ""} />
           <ItinerarioPanel

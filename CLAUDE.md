@@ -2,25 +2,205 @@
 
 > Este arquivo é lido automaticamente pelo Claude Code em toda sessão.
 > Mantenha-o atualizado após cada sessão de trabalho.
-> Última atualização: 15/09/2026 (status check — sem transcript das sessões entre 03/09 e 15/09,
-> conteúdo abaixo verificado direto nos arquivos, não narrado de memória)
-> Ver seção **"Sessão 9 — resumo pra quem chega agora"** logo abaixo pra contexto rápido.
+> Última atualização: 02/10/2026 — ver seção **"Sessão 11"** logo abaixo pra contexto da sessão
+> mais recente; depois **"Sessão 10"** e **"Sessão 9"** pra contexto mais antigo ainda válido.
 
-## ⚠️ Pipeline desatualizado (achado em 15/09/2026)
+## Sessão 11 (02/10/2026) — resumo pra quem chega agora
 
-`itinerario_completo.json` foi editado por último em **14/09**, mas `itinerario_mesclado.json`,
-`dados_unificados.json` e os JSONs estáticos do frontend (`frontend/public/data/`) ainda são de
-**02/09** — ou seja, **~12 dias de edições no manual nunca foram propagadas pro sistema**. Antes
-de qualquer outra coisa, rodar o pipeline (ver item 2 da seção "Sessão 9" abaixo) e confirmar com
-o usuário se há algo mais recente que ele queira aplicar primeiro.
+Sessão longa e variada. Tudo abaixo está **só local** (localhost:5173) — **NADA foi pra produção**
+(`dmtt.mendesweb.com` continua com a versão antiga, inclusive o mapa quebrado do CARTO).
 
-Também: `data/relatorios/bairro-manual.json` está com JSON **inválido no momento** (vírgula sobrando
-antes de um `]`, por volta da linha 434 — típico de edição manual ainda em andamento). Se for ler
-esse arquivo programaticamente, tratar/avisar sobre isso antes de assumir que carrega direto.
-Progresso desse arquivo: **47 bairros** já têm pelo menos uma via listada (era só 5 em 03/09).
-`data/relatorios/lista_todas_vias.txt` caiu de 776 para **410 linhas** — provavelmente reflete vias
-já classificadas sendo removidas da lista "pendente", mas isso não foi confirmado com o usuário
-nesta atualização (documentar, não assumir o motivo exato até perguntar).
+### 1. Pipeline de dados FOI RODADO (o aviso de "pipeline desatualizado" da sessão anterior caiu)
+Ordem usada: `sincronizar_mapa_reconstruido.py` → `mesclar_itinerarios.py` →
+`aplicar_itinerarios_mesclado.py` → `gerar_dados_estaticos.py`. Sistema: **114 linhas**.
+- **Linha 1001 (Circular Cruz das Almas) adicionada**: itinerário no `itinerario_completo.json`
+  (nomes expandidos, mesmo padrão do manual), traçado IDA/VOLTA no `Mapa Reconstruido.kml` (pastas
+  IDA e VOLTA), e os códigos DMTT das vias preenchidos à mão no `dados_unificados.json` a partir do
+  PDF oficial (00906, 00221, 00206, 06212, 00703, 00223, 06357, 00580).
+- **OSO de 02/10/2026** comparada: `python python/comparar_oso_pdf.py "<pdf>"` (lê o PDF direto,
+  sem lista fixa; substitui o uso de `comparar_nova_oso.py` pra OSOs novas). Faltavam só 0004-M e
+  0006-M — a **0004-M é a `M004`** do sistema (só o formato do código muda), então só a **0006-M**
+  falta, e o usuário disse que **não vai fazer agora**.
+- **Ainda pendentes:** variantes da **0112** (pulada no `aplicar`); chave `402 - Circular Bairros II`
+  (sem o zero, deveria ser `0402`); marcar **0024 e 0614** como desativadas (não estão na OSO nova;
+  0221/0223/0226/0613 já estão marcadas); ambiguidade da **0001** no KML.
+
+### 2. Diagnóstico manual × sistema (relatório: `data/relatorios/diagnostico_manual_x_sistema.txt`)
+92 linhas têm itinerário idêntico ao manual. As diferenças reais:
+- **Códigos repetidos no sistema (2 entradas, GPS diferente):** 0014, 0109, 0209, 0617, 0612/0612 A,
+  1000/1000 A. (0109/0209/0617 são 2 trajetos GPS de propósito.)
+- **4 entradas SEM itinerário nenhum** (aparecem no site com mapa e painel vazio): 0014 (a 2ª,
+  "Cruz das Almas X Centro / J.S. Peixoto"), 0112, 0612 A, 1000 A.
+- **9 entradas só no sistema** (madrugadões 0001–0005-M, 1000-B, 2058, 4000, `402`): **56 vias** só
+  existem nelas — vêm de dados antigos do Matrix, nunca passaram pelo manual. É daí que vêm nomes
+  sem bairro tipo "RUA E", "AVENIDA A/B", "ALAMEDA B", "RUA SÃO PEDRO", "RUA SETE DE SETEMBRO".
+- **2.268 de 6.037 vias do sistema sem código DMTT.**
+
+### 3. Correções de grafia / duplicatas (relatório: `data/relatorios/vias_quase_duplicadas.txt`)
+- Busca por "rua e" mostrava uma "RUA E" solta (da 0002-M): renomeada pra
+  `RUA E - BENEDITO BENTES` direto no `dados_unificados.json` (backup
+  `data/json/dados_unificados.antes_rua_e.bak.json`).
+- Pares quase iguais (typos) padronizados nos 3 arquivos (manual, sistema, bairro-manual): Alice
+  CAROLINA, Arnon de MELO, Batista ACIOLY, TEOBALDO Barbosa, IND Cícero Toledo, Tabuleiro dos
+  MARTINS, Rua A | QUATORZE, + variantes só de acento (Luís Pontes de Miranda, Rotatoria do Viaduto
+  da PRF, Presidente Getulio Vargas, João de Azevedo Filho, 1 Rotatoria - Jardim Royal).
+- **José AILTON x José HAILTON dos Santos NÃO foram unificados** — estão em bairros diferentes
+  (Cidade Universitária / Tabuleiro do Martins) e têm códigos Matrix distintos (provável trechos
+  diferentes). Reverter só se o usuário disser que é typo.
+- **Não são duplicatas (não mexer):** rotatórias I–IV do Jardim Royal/Novo Jardim, Otacílio x
+  Tarcísio de Jesus, "Q G" x "Rua G" do Benedito Bentes.
+- Backups pré-troca: `data/json/_backup_grafias/` (apagar quando o usuário confirmar).
+- **Vias sem bairro nas linhas fora do manual ainda a corrigir:** `AVENIDA A` (0002-M, só candidato
+  "Benedito Bentes"), `ALAMEDA B` (1000-B, só "Terminal Pontal da Barra"); `AVENIDA B`, `RUA SÃO
+  PEDRO`, `RUA SETE DE SETEMBRO` são ambíguas (perguntar). A solução definitiva é colocar essas
+  linhas no `itinerario_completo.json`.
+- **Lição:** `itinerario_completo.json` e `bairro-manual.json` têm formatação própria (editados à
+  mão, CRLF, listas com 1 item por linha) — **alterar por substituição de TEXTO (regex sobre os
+  literais de string), nunca reserializar com `json.dump`** (reformata o arquivo todo). Rodar antes
+  em modo simulação e validar com `json.loads` + `validar_bairro_manual.py`.
+
+### 4. Bairros × códigos (tudo em `data/json/bairros/`)
+- `bairro-manual.json` **foi movido** de `data/relatorios/` pra cá (validador
+  `validar_bairro_manual.py` já aponta pro novo caminho; hoje 0 problemas).
+- **`bairro-codigo.json`** (gerado por `python python/gerar_bairro_codigo.py`): 50 bairros em ordem
+  alfabética (ignorando acento), vias de cada bairro em ordem alfabética, **código novo sequencial
+  contínuo 0001–0715** (715 vias, sem duplicadas/vazias). ⚠️ **Os códigos dependem da posição
+  alfabética: qualquer via/bairro novo desloca todos os seguintes** — congelar o manual antes de usar
+  esses códigos no sistema. Eles mudaram 1–2 posições na limpeza de duplicatas desta sessão.
+- **`matrix-codigos.json`** (gerado por `python python/extrair_codigos_matrix.py`): os 1.495
+  códigos de via do Matrix, extraídos de `data/pdf-intinerarios-por-via-todas-linhas/
+  sre_relatorio_via_logradouro-codigo-das-ruas.pdf`. Cada item tem `via` (abreviações expandidas:
+  AV.→AVENIDA, R.→RUA, DR.→DOUTOR, CONJ.→CONJUNTO, etc.) e `via_original` (como está no Matrix).
+  Iniciais de nome (J., B.) e abreviações de sobrenome ficam como estão (não dá pra expandir sem
+  adivinhar).
+- **`python python/atualizar_bairro_com_matrix.py`** cruza os dois por nome normalizado e grava
+  `codigo_matrix`/`via_matrix` em cada via do `bairro-codigo.json`: **379 de 715 casam**. Gera
+  `bairro-matrix-candidatos.txt` (117 casamentos aproximados ≥0.85, **NÃO aplicados** — alguns
+  errados, ex. AVENIDA x RUA Getúlio Vargas) e `bairro-sem-matrix.txt`. O código novo sequencial
+  **não** é substituído pelo do Matrix (decisão em aberto: usar o do Matrix como principal?).
+- **`python python/gerar_pdf_bairro_codigo.py`** → `bairro-codigo.pdf` (20 páginas, bairro →
+  vias com código). Fica **desatualizado se o manual mudar** — regerar.
+- Ordem pra regerar tudo depois de mexer no `bairro-manual.json`: `gerar_bairro_codigo.py` →
+  `atualizar_bairro_com_matrix.py` → `gerar_pdf_bairro_codigo.py` → `gerar_dados_estaticos.py`
+  (este copia `bairro-codigo.json` e `matrix-codigos.json` pra `frontend/public/data/`).
+- **Página `/bairros`** (`frontend/src/pages/BairrosPage.jsx`) com 2 abas: "Bairros (novos
+  códigos)" — cartões por bairro, selo preto com o código novo e selo amarelo "M 00771" com o do
+  Matrix, busca por via/bairro/código — e "Códigos do Matrix" (1.495 códigos, busca, mostra no
+  máximo 300 por vez, tooltip com o nome original abreviado).
+
+### 5. Dashboards
+- Novo card **"EMBARQUES — LINHA 4003"** (ponto da Reserva das Águas, 25–27/09/2026): HTML autônomo
+  em `frontend/public/dashboards/embarques-4003.html` (origem: `I:\embarques - linhas futuras\
+  PASSAGEIROS 4003\dados\dashboard_4003_25-27set.html`), capa gerada com Edge headless
+  (`msedge --headless=new --screenshot`) em `frontend/src/assets/dashboards/embarques-4003.png`.
+  O HTML usa só fonte Geist (Google Fonts) e a lib Motion (jsDelivr) por CDN.
+- Marcado `tipo: "publico"` — **qualquer pessoa com o link acessa** (tem número de carro e dados
+  por viagem). A camada de senha pra dashboards "interno" continua só como ideia (ver Backlog).
+
+### 6. REDESIGN: layout preto + amarelo da logo (aplicado no app, só local)
+- **Paleta:** preto `#0A0A0A` + amarelo `#F2C200` (estimado da logo, ~`#F0C000`) + neutros do
+  shadcn (canvas `#F5F5F5`, papel `#FFF`, borda `#E5E5E5`). Amarelo **nunca como texto sobre
+  branco** (contraste) — só preenchimento com texto preto. **Cores funcionais do mapa intactas:**
+  IDA `#16A34A`, VOLTA `#2E64D4`, destaque de rua `#E0A400`.
+- **Estrutura:** navbar preta com filete amarelo e navegação em pílulas (ativa = amarela); conteúdo
+  claro; painel lateral (sidebar) **preto** com brilho amarelo que segue o mouse; mapa e painel em
+  cartões de 24px; controles do Leaflet e legenda/caixa de contexto em "vidro fosco".
+- **Página Sobre REMOVIDA** (rota, link e `SobrePage.jsx`).
+- **Fonte:** Geist + Geist Mono **hospedadas no site** (`@fontsource-variable/geist`,
+  `@fontsource-variable/geist-mono`, importadas no `styles.css`) — não dependem do Google Fonts.
+- `frontend/src/styles.css` foi **reescrito inteiro** (mesmos nomes de classe dos componentes).
+  Efeitos: entrada escalonada, hover com elevação, contagem animada dos km (`CountUp` em
+  `ItinerarioPanel.jsx`), foco amarelo; tudo desligado com `prefers-reduced-motion`.
+- **Responsivo:** ≤900px o mapa fica em cima e a página inteira rola; ≤640px a navegação vira barra
+  flutuante preta no rodapé. Contêiner de página ocupa a largura toda (barra de rolagem na borda da
+  janela), conteúdo centralizado por padding (`--w`).
+- **Armadilha de z-index:** `.controls` precisa de `position: relative; z-index: 20`, senão a lista
+  do seletor de linhas fica ATRÁS do mapa (animação de entrada cria contexto de empilhamento).
+- **Rascunho estático** (aprovado) em `ideias/rascunho-novo-layout.html` (dados fictícios).
+- Mapa: padrão agora **"Mapa"** (Esri World_Street_Map); estilos Mapa / Satélite / **Híbrido**
+  (satélite + rótulos de transporte e lugares) / Claro / Escuro / OpenStreetMap. Terminais e zonas
+  usam o amarelo da marca.
+- **Hover de zona/terminal (nome do bairro/terminal):** as rotas são desenhadas em canvas por cima
+  de tudo e engolem os eventos do mouse, então tooltips por camada NUNCA funcionaram. Resolvido no
+  nível do mapa (`HoverInfo` em `MapView.jsx`): terminal mais próximo (14px) tem prioridade, senão
+  point-in-polygon contra `zonas.json`; mostra etiqueta preta com contorno amarelo e realça a zona.
+  Não existe hover no celular (não testado em toque).
+
+### 7. Armadilhas de ambiente (Windows) descobertas
+- **PowerShell estraga aspas** em `python -c "..."` longos — gravar o script num arquivo (scratchpad)
+  e rodar. Heredoc bash com texto longo também falhou uma vez; escrever o arquivo com a ferramenta
+  Write é mais seguro. Em regex dentro de string normal, `\b` vira caractere de controle: usar raw.
+- **Edge headless** tem largura mínima (~500px: capturas "de celular" saem cortadas) e não termina
+  animações com `--virtual-time-budget`; usar `--force-prefers-reduced-motion` pra capturar o estado
+  final. Pra testar celular de verdade, usar o painel do navegador com `resize_window` mobile.
+- Console do Windows mostra acentos quebrados (cp1252) — os arquivos estão em UTF-8; usar
+  `PYTHONIOENCODING=utf-8`.
+- Aviso do VSCode ("content is newer" → Overwrite) continua valendo pros arquivos editados à mão.
+
+### 8. O que falta pra publicar (decisões com o usuário)
+Nada disso foi deployado. Um deploy leva junto: mapa Esri (corrige "API KEY REQUIRED"), página
+Bairros, dashboard 4003, dados atualizados (1001 etc.) e o redesign. **Perguntar antes:** (a) esconder
+o toggle "Zonas (bairros)" (o usuário pediu pra não publicar essa feature)? (b) dashboard 4003 público
+tudo bem? Passos: `npm run build` → `python python/deploy_frontend.py` (SSH costuma estar bloqueado na
+rede do escritório). Rodar `vite build` localmente só atualiza `dist/` (ignorado pelo git).
+
+### 9. Pendências abertas (resumo)
+0112; entradas vazias/duplicadas (0014 2ª, 0612 A, 1000 A); chave `402`→`0402`; 0024/0614
+desativadas?; 0006-M (adiado); colocar madrugadões/1000-B/2058/4000 no manual (56 vias pra revisar);
+`AVENIDA A`/`ALAMEDA B` sem bairro; 2.268 vias sem código; 117 candidatos Matrix; usar código Matrix
+como principal?; hover em tela de toque; Zonas (bairros) segue pausado.
+
+---
+
+## Sessão 10 — resumo pra quem chega agora
+
+Sessão focada inteiramente em finalizar e validar `data/relatorios/bairro-manual.json` (o
+mapeamento manual bairro→vias mencionado no item 8 da Sessão 9). Pontos essenciais:
+
+1. **`data/relatorios/bairro-manual.json` está FINALIZADO e validado** — 724 vias classificadas
+   em 50 bairros, cobrindo **100%** das vias únicas do `itinerario_completo.json` (0 faltando,
+   0 duplicadas em mais de um bairro, 0 divergência de grafia). Continua sendo um documento
+   **interno/de referência** — não sobe pro sistema nem pra produção (serve pra planejar códigos
+   novos pras vias sem código DMTT oficial, conforme já documentado na Sessão 9).
+2. **Script novo: `python/validar_bairro_manual.py`** — compara `bairro-manual.json` com
+   `itinerario_completo.json` e reporta 3 coisas: (a) vias no bairro-manual sem correspondência
+   exata no itinerário (possível erro de digitação ou via que não vem de nenhuma linha de
+   ônibus), (b) vias do itinerário ausentes no bairro-manual, (c) vias que aparecem em mais de um
+   bairro. Rodar esse script sempre que o usuário disser que mexeu em qualquer um dos dois
+   arquivos — ele é rápido (alguns segundos) e pega regressão na hora.
+3. **Ciclo de correção usado (repetir se o bairro-manual precisar de nova rodada de limpeza):**
+   - Rodar `validar_bairro_manual.py`, olhar os "sem correspondência exata" com score alto
+     (≥0.90) ou tag `acento/pontuacao` — esses são candidatos fortes a erro de digitação real.
+   - **Nunca aplicar correção só pelo score** — sempre checar se os dois nomes não são pessoas/
+     lugares genuinamente diferentes antes de substituir (ex.: "RUA CLÁUDIO MANOEL" ≠ "RUA
+     CLAUDIO LIVIO", mesmo com score 0.74 — são pessoas diferentes). Ver lição da sessão anterior
+     sobre o incidente Otacílio/Tarcísio (fuzzy match alto não garante que é a mesma via).
+   - Pra vias "faltando" (existem no itinerário mas não em nenhum bairro), usar o contexto de
+     ruas vizinhas na mesma linha/sentido do `itinerario_completo.json` pra sugerir o bairro mais
+     provável — funciona bem pra nomes próprios, mas nomes genéricos tipo "RUA G", "RUA I",
+     "RETORNO" tendem a ser ruas **diferentes** repetidas em vários bairros (não dá pra assumir
+     um bairro só com segurança nesses casos — sempre perguntar ao usuário).
+4. **⚠️ Cuidado com conflito de save do VSCode nesse arquivo.** Durante a sessão, o usuário tinha
+   o `bairro-manual.json` aberto no editor desde ANTES de eu aplicar uma correção via script. Ao
+   tentar salvar depois, o VSCode mostrou "Failed to save: The content of the file is newer" —
+   se o usuário clicar **"Overwrite"** nesse diálogo, ele sobrescreve com a versão antiga do
+   buffer do editor e **desfaz qualquer correção aplicada por script entre a abertura do arquivo
+   e aquele save**, silenciosamente. Isso aconteceu aqui e precisou de uma segunda rodada pra
+   reconciliar. Sempre que for editar esse arquivo (ou qualquer um que o usuário possa ter aberto
+   no editor) via script, **avisar o usuário pra recarregar o arquivo no editor antes de editar
+   nele de novo**, ou pelo menos checar `mtime` antes/depois de cada round-trip de edição pra
+   detectar esse tipo de conflito cedo.
+5. **`itinerario_completo.json` também foi editado nesta sessão** (expansão de abreviações tipo
+   "CONJ"→"CONJUNTO", "TEN"→"TENENTE", e acentos restaurados em várias vias). Isso significa que
+   qualquer correção de grafia aplicada no bairro-manual precisa usar a grafia **atual** do
+   itinerário como referência, não uma versão memorizada de sessões anteriores — sempre reler o
+   arquivo antes de assumir qual é "a grafia certa".
+6. **Pipeline de produção (`mesclar_itinerarios.py` → `aplicar_itinerarios_mesclado.py` →
+   `gerar_dados_estaticos.py`) NÃO foi rodado nesta sessão** — o trabalho foi todo no
+   bairro-manual.json (documento à parte, não entra no pipeline). Ver aviso no topo do arquivo:
+   o sistema está ~1 mês desatualizado em relação ao `itinerario_completo.json` atual.
+7. Usuário mencionou que o próximo passo é **"os testes"** — sem detalhes ainda do que isso
+   envolve. Perguntar no início da próxima sessão se não houver contexto adicional.
 
 ---
 
@@ -66,12 +246,13 @@ Sessão longa (várias conversas seguidas). Pontos essenciais pra continuar sem 
    `python/gerar_pdf_vias_bairro.py`. Sempre copiar o JSON gerado pra
    `data/vias-por-bairro/vias_por_bairro.json` antes de rodar o PDF (os dois scripts usam caminhos
    diferentes pro mesmo JSON, não foi unificado ainda).
-8. **`data/relatorios/bairro-manual.json`** — o usuário começou a montar, na mão, um mapeamento
-   bairro→vias próprio (separado do sistema, não sobe pra produção), pra criar códigos NOVOS pras
-   ~231 vias que não têm código DMTT. Ainda em andamento, poucos bairros preenchidos. Existe um
-   relatório de apoio com sugestão automática de bairro por geocodificação:
-   `data/relatorios/vias_sem_codigo_bairro_sugerido.{json,txt}` (gerado por
-   `python/sugerir_bairro_vias_sem_codigo.py` — demora ~15-20min, rate limit do Nominatim).
+8. **`data/relatorios/bairro-manual.json`** — mapeamento manual bairro→vias (separado do sistema,
+   não sobe pra produção), pra criar códigos NOVOS pras vias que não têm código DMTT.
+   **FINALIZADO e validado na Sessão 10** (ver seção própria acima) — 724 vias, 50 bairros,
+   100% de cobertura contra o itinerario_completo.json. Existe um relatório de apoio com sugestão
+   automática de bairro por geocodificação: `data/relatorios/vias_sem_codigo_bairro_sugerido.{json,txt}`
+   (gerado por `python/sugerir_bairro_vias_sem_codigo.py` — demora ~15-20min, rate limit do
+   Nominatim) — usado como ponto de partida, mas o arquivo final foi todo revisado à mão.
 9. **Pendências específicas em aberto:**
    - Linha **0112** — manual tem 2 variantes com o mesmo código, sistema só tem 1 entrada. Precisa
      decisão do usuário de como estruturar antes de aplicar (fica sempre pulada no
@@ -227,7 +408,12 @@ MicroSaaS-Linhas-DMTT/
 │   ├── gerar_zonas_estaticas.py           ← pasta ZONAS do KML → frontend/public/data/zonas.json
 │   ├── ordenar_kml_por_linha.py           ← copia do KML com IDA/VOLTA ordenados por código de linha (pra abrir no Google Earth)
 │   ├── colorir_kml.py                     ← aplica cor fixa verde/azul (IDA/VOLTA) num KML, corrige cores quebradas do Google Earth
-│   └── sugerir_bairro_vias_sem_codigo.py  ← geocodifica vias sem código DMTT e sugere bairro (Nominatim + zonas.json)
+│   ├── sugerir_bairro_vias_sem_codigo.py  ← geocodifica vias sem código DMTT e sugere bairro (Nominatim + zonas.json)
+│   ├── comparar_oso_pdf.py                ← lê PDF do Resumo OSO e lista linhas que faltam no manual e/ou no sistema
+│   ├── extrair_codigos_matrix.py          ← PDF do Matrix → data/json/bairros/matrix-codigos.json (nomes expandidos)
+│   ├── gerar_bairro_codigo.py             ← bairro-manual.json → bairro-codigo.json (códigos sequenciais 0001…)
+│   ├── atualizar_bairro_com_matrix.py     ← cruza bairro-codigo × matrix-codigos (campo codigo_matrix)
+│   └── gerar_pdf_bairro_codigo.py         ← bairro-codigo.json → bairro-codigo.pdf
 ├── resumo-oso/
 │   ├── sp_relatorio_resumooso.pdf         ← PDF fonte do OSO (22/05/2026)
 │   ├── extrair_resumo_oso.py              ← extrai linhas por tipo de serviço do PDF

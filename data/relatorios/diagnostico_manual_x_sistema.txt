@@ -1,0 +1,38 @@
+=== 1. CODIGOS DE LINHA REPETIDOS (mais de uma entrada) ===
+-- no SISTEMA (dados_unificados.json):
+  0014: 0014 - C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD) | 0014 - Cruz das Almas X Centro / J.S. Peixoto
+  0109: 0109 - C DAS ALMAS/TRAPICHE-VERGEL(P. VDE/POÇO) | 0109 - Cruz das Almas X Vergel / Poço - P. Verde
+  0209: 0209 - C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO) | 0209 - Cruz das Almas X Vergel
+  0612: 0612 - Eustáquio Gomes / Jatiúca | 0612 A - Eustáquio Gomes / Jatiúca
+  0617: 0617 - C DAS ALMAS/IPIOCA(SAÚDE-SAUAÇUHY) | 0617 - Cruz das Almas x Ipioca / Saúde
+  1000: 1000 - Trapiche / Pontal (DESATIVADO) | 1000 A - Trapiche / Pontal
+-- no MANUAL (itinerario_completo.json):
+  0112: 0112 - Ipioca X Vergel (Ida Ponta Verde / Volta Poço) - PRECISA DE ALTERAÇÃO | 0112 - Ipioca X Trapiche (Ida Poço / Volta Ponta Verde) - PRECISA DE ALTERAÇÃO
+
+=== 2. LINHAS EM UM LADO SO ===
+-- so no manual: 0402
+-- so no sistema: 0001M, 0002M, 0003M, 0004M, 0005M, 1000B, 2058, 4000, 402 - 
+
+=== 3. LINHAS NOS DOIS LADOS: ITINERARIO IGUAL OU DIFERENTE? (comparando ordem das vias, ignorando acento/caixa) ===
+  iguais: 92 | diferentes: 7
+  DIF 0014 codigo duplicado: nao da pra comparar 1:1
+  DIF 0109 codigo duplicado: nao da pra comparar 1:1
+  DIF 0112 codigo duplicado: nao da pra comparar 1:1
+  DIF 0209 codigo duplicado: nao da pra comparar 1:1
+  DIF 0612 codigo duplicado: nao da pra comparar 1:1
+  DIF 0617 codigo duplicado: nao da pra comparar 1:1
+  DIF 1000 codigo duplicado: nao da pra comparar 1:1
+
+=== 4. MESMA VIA ESCRITA DE JEITOS DIFERENTES (no sistema) — parecem iguais mas nao sao ===
+  5 vias com mais de uma grafia no sistema (so acento/caixa/pontuacao)
+   RUA DOUTOR LUÍS PONTES DE MIRANDA (15x) | RUA DOUTOR LUIS PONTES DE MIRANDA (1x)
+   ROTATORIA DO VIADUTO DA PRF (10x) | ROTATÓRIA DO VIADUTO DA PRF (6x)
+   AVENIDA PRESIDENTE GETULIO VARGAS (25x) | AVENIDA PRESIDENTE GETÚLIO VARGAS (2x)
+   RUA DOUTOR JOAO DE AZEVEDO FILHO (1x) | RUA DOUTOR JOÃO DE AZEVEDO FILHO (1x)
+   1 ROTATORIA - JARDIM ROYAL (6x) | 1° ROTATÓRIA - JARDIM ROYAL (1x)
+
+=== 5. NOMES DE VIA SO NO SISTEMA (nao existem em nenhum lugar do manual) ===
+  vias unicas no manual: 717 | no sistema: 770 | so no sistema: 56 | so no manual: 3
+  dessas 56, 56 aparecem em linhas que nem estao no manual (madrugadoes etc.)
+
+=== 6. LINHAS DO MANUAL ONDE O SISTEMA ESTA DIFERENTE — O QUE MUDA (1as diferencas) ===

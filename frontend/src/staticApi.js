@@ -68,6 +68,18 @@ export async function getTerminais() {
   return loadJson(`${DATA_BASE}/terminais.json`);
 }
 
+let bairroCodigoPromise = null;
+export function getBairroCodigo() {
+  if (!bairroCodigoPromise) bairroCodigoPromise = loadJson(`${DATA_BASE}/bairro_codigo.json`);
+  return bairroCodigoPromise;
+}
+
+let matrixCodigosPromise = null;
+export function getMatrixCodigos() {
+  if (!matrixCodigosPromise) matrixCodigosPromise = loadJson(`${DATA_BASE}/matrix_codigos.json`);
+  return matrixCodigosPromise;
+}
+
 export async function getZonas() {
   return loadJson(`${DATA_BASE}/zonas.json`);
 }

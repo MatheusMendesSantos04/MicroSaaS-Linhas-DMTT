@@ -31,7 +31,7 @@ export default function MapStyleSelector({ value, onChange, showTerminais, onTog
           className={`terminais-toggle-btn${showZonas ? " terminais-toggle-btn--active" : ""}`}
           onClick={onToggleZonas}
         >
-          <span className="terminais-swatch" style={{ background: "transparent", border: "2px solid #D98407" }} />
+          <span className="terminais-swatch" style={{ background: "transparent", border: "2px solid #F2C200" }} />
           <span>Zonas (bairros)</span>
           <span className="terminais-toggle-check">{showZonas ? "✓" : ""}</span>
         </button>

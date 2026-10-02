@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style><title>Painel Reserva das Águas</title></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
+<style>
+:root {
+  --canvas: #f5f5f5;
+  --paper: #ffffff;
+  --alt: #fafafa;
+  --ink: #0a0a0a;
+  --ink-soft: #171717;
+  --mid: #737373;
+  --hair: #e5e5e5;
+  --ember: #e7000b;
+  --s-a: #171717;
+  --heat-0: #fafafa; --heat-1: #e5e5e5; --heat-2: #bdbdbd; --heat-3: #8a8a8a; --heat-4: #4a4a4a; --heat-5: #171717;
+  --r-card: 24px; --r-ctl: 18px; --r-nest: 10px; --r-sm: 6px;
+  --shadow: 0 0 0 1px rgba(23,23,23,.05), 0 1px 3px rgba(0,0,0,.1), 0 1px 2px -1px rgba(0,0,0,.1);
+  --font: 'Geist', ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --tabbar-h: 64px;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--canvas); color: var(--ink); font: 400 14px/1.43 var(--font);
+  font-feature-settings: "ss01" on, "cv11" on; -webkit-font-smoothing: antialiased;
+}
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+h1, h2, h3, p { margin: 0; }
+.num { font-variant-numeric: tabular-nums; }
+
+/* ── Shell ─────────────────────────────────────────────── */
+.app { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 24px; padding-inline: 16px; padding-block: 16px 48px; }
+.side { position: sticky; top: 16px; align-self: start; background: var(--alt); border-radius: var(--r-card); padding: 16px; display: flex; flex-direction: column; gap: 24px; min-height: calc(100vh - 32px); }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand-mark { width: 36px; height: 36px; border-radius: var(--r-nest); background: var(--ink); color: var(--alt); display: grid; place-items: center; font-weight: 600; font-size: 12px; letter-spacing: -.02em; flex: none; }
+.brand b { display: block; font-weight: 600; line-height: 1.2; }
+.brand span { color: var(--mid); font-size: 13px; }
+.nav { display: flex; flex-direction: column; gap: 4px; }
+.nav button { display: flex; align-items: center; gap: 12px; height: 40px; padding: 0 12px; border: 0; border-radius: var(--r-ctl); background: transparent; color: var(--mid); font-weight: 500; text-align: left; transition: background .15s, color .15s; }
+.nav button:hover { background: var(--canvas); color: var(--ink); }
+.nav button[aria-current="page"] { background: var(--canvas); color: var(--ink); }
+.nav svg, .search svg, .tabbar svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.side-foot { margin-top: auto; display: flex; flex-direction: column; gap: 12px; }
+.kv { display: flex; flex-direction: column; gap: 2px; }
+.kv small { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--mid); font-weight: 500; }
+.kv span { font-size: 14px; }
+
+.main { min-width: 0; display: flex; flex-direction: column; gap: 16px; }
+.topbar-mobile { display: none; }
+.crumbs { display: flex; align-items: center; gap: 8px; color: var(--mid); font-size: 14px; }
+.crumbs svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 1.5; }
+.crumbs b { color: var(--ink); font-weight: 400; }
+.head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; padding-block: 8px 4px; }
+.head h1 { font-size: 30px; line-height: 1.2; font-weight: 600; letter-spacing: -.75px; text-wrap: balance; }
+.head p { color: var(--mid); margin-top: 4px; max-width: 62ch; }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* ── Preview banner (dados de exemplo) ───────────────────── */
+.preview { display: flex; align-items: flex-start; gap: 10px; background: var(--alt); border: 1px dashed #c9c9c9; border-radius: var(--r-nest); padding: 10px 14px; color: var(--ink-soft); font-size: 13px; }
+.preview svg { width: 16px; height: 16px; stroke: var(--mid); fill: none; stroke-width: 1.6; margin-top: 1px; flex: none; }
+.preview b { font-weight: 600; }
+.preview span.mid { color: var(--mid); }
+
+/* ── Building blocks ──────────────────────────────────── */
+.badge { display: inline-flex; align-items: center; gap: 6px; height: 24px; padding: 2px 8px; border-radius: var(--r-ctl); font-size: 12px; font-weight: 500; white-space: nowrap; background: var(--canvas); color: var(--ink-soft); }
+.badge.solid { background: var(--ink-soft); color: var(--alt); }
+.badge.out { background: transparent; border: 1px solid var(--hair); color: var(--ink); }
+.badge.err { background: transparent; border: 1px solid var(--ember); color: var(--ember); }
+.dot { width: 8px; height: 8px; border-radius: 50%; flex: none; display: inline-block; }
+.card { background: var(--paper); border: 1px solid var(--hair); border-radius: var(--r-card); box-shadow: var(--shadow); padding: 20px; min-width: 0; }
+.ch { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 12px 16px; margin-bottom: 16px; }
+.ch h2 { font-size: 18px; line-height: 1.56; font-weight: 600; letter-spacing: -.025em; }
+.ch p { color: var(--mid); max-width: 68ch; }
+.ch-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.legend { display: flex; gap: 16px; flex-wrap: wrap; color: var(--ink-soft); font-size: 13px; font-weight: 500; }
+.legend span { display: inline-flex; align-items: center; gap: 8px; }
+.legend i { width: 12px; height: 12px; border-radius: 4px; display: inline-block; }
+
+.seg { display: inline-flex; gap: 2px; padding: 3px; background: var(--canvas); border-radius: var(--r-ctl); flex-wrap: wrap; }
+.seg button { height: 30px; padding: 0 12px; border: 0; border-radius: 15px; background: transparent; color: var(--mid); font-size: 13px; font-weight: 500; white-space: nowrap; transition: background .15s, color .15s; }
+.seg button:hover { color: var(--ink); }
+.seg button[aria-pressed="true"] { background: var(--paper); color: var(--ink); box-shadow: var(--shadow); }
+.chip { height: 32px; padding: 0 12px; border-radius: var(--r-ctl); border: 1px solid var(--hair); background: var(--paper); color: var(--ink); font-size: 13px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; transition: background .15s, color .15s, border-color .15s; flex: none; }
+.chip small { color: var(--mid); font-size: 12px; font-weight: 400; }
+.chip:hover { border-color: #d4d4d4; }
+.chip[aria-pressed="true"] { background: var(--ink-soft); border-color: var(--ink-soft); color: var(--alt); }
+.chip[aria-pressed="true"] small { color: #a3a3a3; }
+.btn { height: 36px; padding: 0 16px; border-radius: var(--r-ctl); border: 0; background: var(--ink); color: var(--alt); font-size: 14px; font-weight: 500; }
+.btn.ghost { background: var(--canvas); color: var(--ink); }
+
+/* ── Filters ──────────────────────────────────────────── */
+.filters { display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: flex-end; }
+.fgroup { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.fgroup > label, .lbl { font-size: 12px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; color: var(--mid); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips.scroller { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px 2px; }
+.chips.scroller::-webkit-scrollbar { display: none; }
+
+/* ── Stats ────────────────────────────────────────────── */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding: 0; }
+.stat { padding: 20px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.stat + .stat { border-left: 1px solid var(--hair); }
+.stat .lbl { display: block; }
+.stat .val { font-size: 36px; line-height: 1.11; font-weight: 600; letter-spacing: -.9px; font-variant-numeric: tabular-nums; margin-top: 4px; }
+.stat .help { color: var(--mid); }
+
+/* ── Charts ───────────────────────────────────────────── */
+.chart { width: 100%; position: relative; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { font-family: var(--font); font-size: 12px; fill: var(--mid); font-variant-numeric: tabular-nums; }
+.chart text.v { fill: var(--ink); font-weight: 600; }
+.chart text.x { fill: var(--ink); font-size: 13px; font-weight: 500; }
+.chart .grid { stroke: var(--hair); stroke-width: 1; }
+.chart .axis { stroke: #d4d4d4; stroke-width: 1; }
+.chart .bar { transform-box: fill-box; transform-origin: 50% 100%; }
+.chart .hit { fill: transparent; cursor: default; }
+.chart .hit[data-act] { cursor: pointer; }
+.chart .hit:hover { fill: rgba(10,10,10,.035); }
+.chart .dim { opacity: .3; transition: opacity .2s; }
+.chart .sel-ring { fill: none; stroke: var(--ink); stroke-width: 1; stroke-dasharray: 3 3; }
+.tip { position: fixed; z-index: 30; pointer-events: none; min-width: 168px; max-width: 260px; background: var(--paper); border: 1px solid var(--hair); border-radius: var(--r-nest); box-shadow: 0 4px 12px rgba(0,0,0,.08), var(--shadow); padding: 10px 12px; font-size: 13px; }
+.tip b { display: block; font-weight: 600; margin-bottom: 6px; }
+.tip .r { display: flex; justify-content: space-between; gap: 16px; color: var(--ink-soft); }
+.tip .r span:first-child { display: inline-flex; align-items: center; gap: 8px; }
+.tip .r em { font-style: normal; font-weight: 600; font-variant-numeric: tabular-nums; }
+.tip .m { color: var(--mid); margin-top: 6px; font-size: 12px; }
+
+/* ── Tables ───────────────────────────────────────────── */
+.scroll { overflow: auto; max-width: 100%; border-radius: var(--r-nest); -webkit-overflow-scrolling: touch; }
+.scroll.tall { max-height: 520px; }
+table { border-collapse: separate; border-spacing: 0; width: 100%; }
+.tbl th, .tbl td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--hair); white-space: nowrap; }
+.tbl th { position: sticky; top: 0; z-index: 2; background: var(--paper); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--mid); font-weight: 500; }
+.tbl th button { all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 4px; }
+.tbl th button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; border-radius: 4px; }
+.tbl th button:hover, .tbl th[aria-sort] button { color: var(--ink); }
+.tbl .n { text-align: right; font-variant-numeric: tabular-nums; }
+.tbl tbody tr:hover td { background: var(--alt); }
+.tbl td .sub { color: var(--mid); }
+.mini { display: inline-block; width: 64px; height: 6px; border-radius: 3px; background: var(--canvas); vertical-align: middle; margin-left: 10px; overflow: hidden; }
+.mini i { display: block; height: 100%; background: var(--ink-soft); border-radius: 3px; }
+.tools { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.search { display: flex; align-items: center; gap: 8px; height: 36px; padding: 0 10px; min-width: 200px; flex: 1 1 200px; max-width: 360px; background: var(--canvas); border-radius: var(--r-ctl); border: 1px solid transparent; color: var(--mid); }
+.search:focus-within { border-color: var(--hair); background: var(--paper); }
+.search input { flex: 1; min-width: 0; border: 0; background: transparent; outline: 0; color: var(--ink); }
+.search input::placeholder { color: var(--mid); }
+.kbd { font-size: 12px; border: 1px solid var(--hair); border-radius: var(--r-sm); padding: 0 6px; background: var(--paper); color: var(--mid); }
+
+/* ── Heatmap (grade de partidas) ──────────────────────── */
+.hm-wrap { display: flex; flex-direction: column; gap: 24px; }
+.hm-title { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-bottom: 12px; }
+.hm-title h3 { font-size: 16px; font-weight: 600; letter-spacing: -.01em; }
+.hm { font-variant-numeric: tabular-nums; }
+.hm th, .hm td { padding: 0; height: 32px; text-align: center; font-size: 13px; border-bottom: 1px solid var(--paper); border-right: 1px solid var(--paper); }
+.hm thead th { position: sticky; top: 0; z-index: 3; background: var(--paper); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--mid); font-weight: 500; height: 36px; padding: 0 8px; white-space: nowrap; }
+.hm th.rowh { position: sticky; left: 0; z-index: 2; background: var(--paper); text-align: left; padding: 0 12px 0 0; white-space: nowrap; font-weight: 500; color: var(--ink); min-width: 96px; }
+.hm th.rowh small { color: var(--mid); font-weight: 400; margin-left: 8px; }
+.hm thead th.rowh { z-index: 4; }
+.hm td.c { min-width: 84px; cursor: default; font-weight: 500; }
+.hm td.avg, .hm th.avg { padding: 0 12px; font-weight: 600; background: var(--paper); color: var(--ink); min-width: 72px; }
+.hm td.none { background: var(--paper); color: var(--mid); background-image: repeating-linear-gradient(135deg, transparent 0 5px, var(--hair) 5px 6px); }
+.hm td.nol { background: var(--paper); color: var(--ember); font-weight: 600; }
+.hm tbody tr:hover td.c { outline: 1px solid var(--ink); outline-offset: -1px; }
+.hm tr.tot td, .hm tr.tot th { border-top: 1px solid var(--hair); font-weight: 600; background: var(--paper); height: 36px; }
+.ramp { display: inline-flex; align-items: center; gap: 8px; color: var(--mid); font-size: 12px; }
+.ramp i { width: 20px; height: 12px; display: inline-block; border: 1px solid var(--hair); }
+.ramp i:first-of-type { border-radius: 6px 0 0 6px; } .ramp i:last-of-type { border-radius: 0 6px 6px 0; }
+.hm-foot { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 12px; align-items: center; color: var(--mid); }
+
+.empty { text-align: center; padding: 56px 20px; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.empty h2 { font-size: 18px; font-weight: 600; letter-spacing: -.025em; }
+.empty p { color: var(--mid); max-width: 44ch; }
+details.note { padding: 0 4px; color: var(--mid); }
+details.note summary { cursor: pointer; font-weight: 500; color: var(--ink); height: 32px; display: flex; align-items: center; }
+details.note ul { margin: 4px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 4px; max-width: 78ch; }
+
+.view { animation: rise .28s cubic-bezier(.22, 1, .36, 1); display: flex; flex-direction: column; gap: 16px; }
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* ── Bottom tab bar (mobile only) ─────────────────────── */
+.tabbar { display: none; }
+
+@media (max-width: 760px) {
+  .app { grid-template-columns: minmax(0, 1fr); gap: 12px; padding-inline: 12px; padding-block: 0 calc(var(--tabbar-h) + 16px); }
+  .side { display: none; }
+  .topbar-mobile { display: flex; align-items: center; gap: 10px; position: sticky; top: 0; z-index: 10; margin: 0 -12px; padding: 10px 12px calc(10px + env(safe-area-inset-top, 0px)); padding-top: calc(10px + env(safe-area-inset-top, 0px)); background: var(--canvas); border-bottom: 1px solid var(--hair); }
+  .topbar-mobile .brand-mark { width: 30px; height: 30px; font-size: 11px; }
+  .topbar-mobile b { font-size: 14px; font-weight: 600; }
+  .topbar-mobile span { display: none; }
+  .crumbs { display: none; }
+  .head h1 { font-size: 22px; letter-spacing: -.5px; }
+  .head p { font-size: 13px; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stat { padding: 14px; }
+  .stat:nth-child(3) { border-left: 0; border-top: 1px solid var(--hair); }
+  .stat:nth-child(4) { border-top: 1px solid var(--hair); }
+  .stat .val { font-size: 26px; }
+  .card { padding: 14px; border-radius: 20px; }
+  .filters { gap: 12px; align-items: stretch; }
+  .fgroup { width: 100%; }
+  .rank li { grid-template-columns: 20px 76px minmax(0, 1fr) 48px; gap: 8px; }
+  .tabbar { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--paper); border-top: 1px solid var(--hair); padding: 6px 8px calc(6px + env(safe-area-inset-bottom, 0px)); gap: 4px; }
+  .tabbar button { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 6px 4px; border: 0; background: transparent; border-radius: var(--r-nest); color: var(--mid); font-size: 11px; font-weight: 500; }
+  .tabbar button[aria-current="page"] { color: var(--ink); }
+  .tabbar button[aria-current="page"] svg { stroke: var(--ink); }
+}
+@media (min-width: 761px) {
+  .fgroup.grow { flex: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .view { animation: none; }
+  * { transition: none !important; }
+}
+</style>
+
+<div class="app">
+  <aside class="side">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">4003</div>
+      <div><b>Reserva das Águas</b><span>Ponto único</span></div>
+    </div>
+    <nav class="nav" aria-label="Visões" id="nav">
+      <button data-act="view" data-v="geral">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Visão geral</button>
+      <button data-act="view" data-v="hora">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Por horário</button>
+      <button data-act="view" data-v="viagens">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Viagens</button>
+    </nav>
+    <div class="side-foot">
+      <div class="kv"><small>Período</small><span>25 a 27/09/2026</span></div>
+      <div class="kv"><small>Sentido</small><span>Volta, ponto exclusivo</span></div>
+      <div class="kv"><small>Ponto</small><span>PN527852000 (Alameda das Amendoeiras)</span></div>
+      <div class="kv"><small>Status</small><span>Dados reais · com grade oficial</span></div>
+    </div>
+  </aside>
+
+  <div class="topbar-mobile">
+    <div class="brand-mark" aria-hidden="true">4003</div>
+    <b id="mtitle">Visão geral</b>
+  </div>
+
+  <main class="main">
+    <nav class="crumbs" aria-label="Caminho">
+      <span>Linha 4003</span>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg>
+      <span>Reserva das Águas</span>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg>
+      <b id="crumb">Visão geral</b>
+    </nav>
+
+    <header class="head">
+      <div>
+        <h1>Embarques no ponto da Reserva</h1>
+        <p>Ponto PN527852000, exclusivo da Reserva das Águas. Cada validação de cartão conta uma vez só, na passagem mais próxima — mesmo critério usado desde o início, mesmo com pontos vizinhos a poucos segundos de distância.</p>
+      </div>
+      <div class="badges">
+        <span class="badge solid" id="b-viagens">110 viagens</span>
+        <span class="badge out">25 a 27/09/2026</span>
+      </div>
+    </header>
+
+    <section class="card filters" aria-label="Filtros">
+      <div class="fgroup grow">
+        <label id="l-dias">Dias</label>
+        <div class="chips scroller" id="f-dias" role="group" aria-labelledby="l-dias"></div>
+      </div>
+      <div class="fgroup">
+        <label id="l-faixa">Horário de saída</label>
+        <div class="seg" id="f-faixa" role="group" aria-labelledby="l-faixa"></div>
+      </div>
+    </section>
+
+    <div id="view" class="view"></div>
+  </main>
+</div>
+
+<nav class="tabbar" aria-label="Visões (mobile)" id="tabbar">
+  <button data-act="view" data-v="geral">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Geral</button>
+  <button data-act="view" data-v="hora">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Horário</button>
+  <button data-act="view" data-v="viagens">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Viagens</button>
+</nav>
+
+<div id="tip" class="tip" role="tooltip" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/motion@11.18.2/dist/motion.js"></script>
+<script>
+const D = {"trips":[{"d":"2026-09-25","n":1,"pos":"001A","prev":"03:55","tail":false,"real":"03:56:21","dif":1,"carro":4187,"emb":3,"dup":true},{"d":"2026-09-25","n":4,"pos":"001A","prev":"04:29","tail":false,"real":"04:27:57","dif":-1,"carro":4187,"emb":8,"dup":true},{"d":"2026-09-25","n":7,"pos":"001A","prev":"05:04","tail":false,"real":"05:05:14","dif":1,"carro":4187,"emb":10,"dup":true},{"d":"2026-09-25","n":10,"pos":"001A","prev":"05:38","tail":false,"real":"05:37:09","dif":-1,"carro":4187,"emb":12,"dup":true},{"d":"2026-09-25","n":13,"pos":"001A","prev":"06:13","tail":false,"real":"06:15:17","dif":2,"carro":4187,"emb":11,"dup":true},{"d":"2026-09-25","n":16,"pos":"002A","prev":"06:59","tail":false,"real":"07:00:13","dif":1,"carro":4188,"emb":10,"dup":true},{"d":"2026-09-25","n":19,"pos":"003A","prev":"07:51","tail":false,"real":"07:55:46","dif":5,"carro":4206,"emb":3,"dup":true},{"d":"2026-09-25","n":22,"pos":"001A","prev":"08:44","tail":false,"real":"08:44:30","dif":1,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-25","n":25,"pos":"002A","prev":"09:36","tail":false,"real":"09:36:58","dif":1,"carro":4188,"emb":3,"dup":true},{"d":"2026-09-25","n":28,"pos":"001A","prev":"10:29","tail":false,"real":"10:32:10","dif":3,"carro":4187,"emb":3,"dup":true},{"d":"2026-09-25","n":31,"pos":"001A","prev":"11:09","tail":false,"real":"11:10:49","dif":2,"carro":4187,"emb":2,"dup":true},{"d":"2026-09-25","n":34,"pos":"001A","prev":"11:43","tail":false,"real":"11:44:01","dif":1,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-25","n":37,"pos":"001A","prev":"12:18","tail":false,"real":"12:21:07","dif":3,"carro":4187,"emb":3,"dup":true},{"d":"2026-09-25","n":40,"pos":"001A","prev":"12:52","tail":false,"real":"12:56:47","dif":5,"carro":4187,"emb":1,"dup":true},{"d":"2026-09-25","n":43,"pos":"001A","prev":"13:27","tail":false,"real":"13:24:26","dif":-3,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-25","n":46,"pos":"001B","prev":"14:15","tail":false,"real":"14:17:49","dif":3,"carro":4187,"emb":1,"dup":true},{"d":"2026-09-25","n":49,"pos":"002B","prev":"15:07","tail":false,"real":null,"dif":null,"carro":4188,"emb":null,"dup":null},{"d":"2026-09-25","n":52,"pos":"003B","prev":"15:57","tail":false,"real":"15:55:53","dif":-1,"carro":4449,"emb":1,"dup":true},{"d":"2026-09-25","n":55,"pos":"003B","prev":"16:38","tail":false,"real":"16:37:46","dif":0,"carro":4449,"emb":1,"dup":true},{"d":"2026-09-25","n":58,"pos":"003B","prev":"17:18","tail":false,"real":"17:26:32","dif":9,"carro":4449,"emb":1,"dup":true},{"d":"2026-09-25","n":60,"pos":"002B","prev":"17:45","tail":false,"real":"17:45:47","dif":1,"carro":4188,"emb":0,"dup":true},{"d":"2026-09-25","n":62,"pos":"001B","prev":"18:12","tail":false,"real":"18:15:56","dif":4,"carro":4422,"emb":2,"dup":true},{"d":"2026-09-25","n":64,"pos":"003B","prev":"18:39","tail":false,"real":"18:52:52","dif":14,"carro":4449,"emb":1,"dup":false},{"d":"2026-09-25","n":66,"pos":"002B","prev":"19:06","tail":false,"real":"19:13:00","dif":7,"carro":4188,"emb":0,"dup":true},{"d":"2026-09-25","n":68,"pos":"002B","prev":"19:46","tail":false,"real":"19:49:28","dif":3,"carro":4188,"emb":0,"dup":true},{"d":"2026-09-25","n":70,"pos":"001B","prev":"20:26","tail":false,"real":"20:27:55","dif":2,"carro":4422,"emb":0,"dup":false},{"d":"2026-09-25","n":71,"pos":"003B","prev":"20:46","tail":false,"real":"20:50:05","dif":4,"carro":4449,"emb":0,"dup":true},{"d":"2026-09-25","n":72,"pos":"001B","prev":"21:06","tail":false,"real":"21:09:55","dif":4,"carro":4422,"emb":0,"dup":true},{"d":"2026-09-25","n":73,"pos":"002B","prev":"21:26","tail":false,"real":"21:29:31","dif":4,"carro":4188,"emb":0,"dup":true},{"d":"2026-09-25","n":74,"pos":"001B","prev":"21:46","tail":false,"real":"21:47:34","dif":2,"carro":4422,"emb":0,"dup":true},{"d":"2026-09-25","n":75,"pos":"002B","prev":"22:04","tail":false,"real":"22:06:33","dif":3,"carro":4188,"emb":0,"dup":true},{"d":"2026-09-25","n":76,"pos":"001B","prev":"22:24","tail":false,"real":"22:28:50","dif":5,"carro":4422,"emb":0,"dup":true},{"d":"2026-09-25","n":77,"pos":"002B","prev":"22:44","tail":false,"real":"22:44:09","dif":0,"carro":4188,"emb":2,"dup":true},{"d":"2026-09-25","n":78,"pos":"003B","prev":"23:02","tail":false,"real":"23:04:44","dif":3,"carro":4449,"emb":0,"dup":true},{"d":"2026-09-25","n":79,"pos":"003B","prev":"23:32","tail":false,"real":"23:32:37","dif":1,"carro":4449,"emb":0,"dup":true},{"d":"2026-09-25","n":80,"pos":"003B","prev":"00:02","tail":true,"real":"00:07:42","dif":6,"carro":4449,"emb":0,"dup":true},{"d":"2026-09-25","n":81,"pos":"003B","prev":"00:32","tail":true,"real":"00:36:16","dif":4,"carro":4449,"emb":0,"dup":true},{"d":"2026-09-25","n":82,"pos":"003B","prev":"01:02","tail":true,"real":null,"dif":null,"carro":4449,"emb":null,"dup":null},{"d":"2026-09-26","n":1,"pos":"001A","prev":"04:30","tail":false,"real":"04:31:04","dif":1,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":4,"pos":"001A","prev":"05:04","tail":false,"real":"05:03:26","dif":-1,"carro":4195,"emb":1,"dup":true},{"d":"2026-09-26","n":7,"pos":"001A","prev":"05:39","tail":false,"real":"05:40:09","dif":1,"carro":4195,"emb":2,"dup":false},{"d":"2026-09-26","n":10,"pos":"001A","prev":"06:13","tail":false,"real":"06:14:46","dif":2,"carro":4195,"emb":2,"dup":true},{"d":"2026-09-26","n":13,"pos":"002A","prev":"07:00","tail":false,"real":"07:01:50","dif":2,"carro":4179,"emb":3,"dup":true},{"d":"2026-09-26","n":16,"pos":"003A","prev":"07:52","tail":false,"real":"07:52:07","dif":0,"carro":4206,"emb":2,"dup":true},{"d":"2026-09-26","n":19,"pos":"001A","prev":"08:45","tail":false,"real":"08:45:43","dif":1,"carro":4195,"emb":2,"dup":true},{"d":"2026-09-26","n":22,"pos":"002A","prev":"09:37","tail":false,"real":"09:40:13","dif":3,"carro":4187,"emb":1,"dup":false},{"d":"2026-09-26","n":25,"pos":"001A","prev":"10:30","tail":false,"real":"10:34:42","dif":5,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":28,"pos":"001A","prev":"11:10","tail":false,"real":"11:10:49","dif":1,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":31,"pos":"001A","prev":"11:44","tail":false,"real":"11:48:33","dif":5,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":34,"pos":"001A","prev":"12:19","tail":false,"real":"12:21:49","dif":3,"carro":4195,"emb":1,"dup":true},{"d":"2026-09-26","n":37,"pos":"001A","prev":"12:53","tail":false,"real":"12:54:06","dif":1,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":40,"pos":"001A","prev":"13:28","tail":false,"real":"13:29:13","dif":1,"carro":4195,"emb":1,"dup":true},{"d":"2026-09-26","n":43,"pos":"001A","prev":"14:02","tail":false,"real":"14:03:51","dif":2,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":46,"pos":"001B","prev":"14:50","tail":false,"real":"14:57:04","dif":7,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":49,"pos":"001B","prev":"15:25","tail":false,"real":"15:36:56","dif":12,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":52,"pos":"001B","prev":"15:59","tail":false,"real":"16:11:11","dif":12,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":55,"pos":"001B","prev":"16:40","tail":false,"real":"16:43:44","dif":4,"carro":4195,"emb":1,"dup":true},{"d":"2026-09-26","n":58,"pos":"001B","prev":"17:20","tail":false,"real":"17:18:50","dif":-1,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":60,"pos":"003B","prev":"17:47","tail":false,"real":"17:45:03","dif":-2,"carro":4206,"emb":0,"dup":true},{"d":"2026-09-26","n":62,"pos":"002B","prev":"18:14","tail":false,"real":"18:15:03","dif":1,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-26","n":64,"pos":"001B","prev":"18:41","tail":false,"real":"18:46:32","dif":6,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":66,"pos":"003B","prev":"19:15","tail":false,"real":"19:19:29","dif":4,"carro":4206,"emb":1,"dup":true},{"d":"2026-09-26","n":68,"pos":"003B","prev":"19:55","tail":false,"real":null,"dif":null,"carro":4206,"emb":null,"dup":null},{"d":"2026-09-26","n":70,"pos":"003B","prev":"20:35","tail":false,"real":"20:35:57","dif":1,"carro":4206,"emb":0,"dup":true},{"d":"2026-09-26","n":71,"pos":"001B","prev":"20:55","tail":false,"real":"20:58:45","dif":4,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":72,"pos":"002B","prev":"21:15","tail":false,"real":"21:17:31","dif":3,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-26","n":73,"pos":"001B","prev":"21:35","tail":false,"real":"21:35:22","dif":0,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":74,"pos":"002B","prev":"21:55","tail":false,"real":"21:55:23","dif":0,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-26","n":75,"pos":"001B","prev":"22:15","tail":false,"real":"22:15:33","dif":1,"carro":4195,"emb":0,"dup":true},{"d":"2026-09-26","n":76,"pos":"002B","prev":"22:33","tail":false,"real":"22:37:51","dif":5,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-26","n":77,"pos":"003B","prev":"22:53","tail":false,"real":"22:56:43","dif":4,"carro":4206,"emb":0,"dup":true},{"d":"2026-09-26","n":78,"pos":"003B","prev":"23:28","tail":false,"real":"23:30:10","dif":2,"carro":4206,"emb":0,"dup":true},{"d":"2026-09-26","n":79,"pos":"003B","prev":"00:03","tail":true,"real":"00:07:05","dif":4,"carro":4206,"emb":0,"dup":true},{"d":"2026-09-26","n":80,"pos":"003B","prev":"00:38","tail":true,"real":null,"dif":null,"carro":4206,"emb":null,"dup":null},{"d":"2026-09-26","n":1001,"pos":"extra","tail":false,"prev":"06:44","real":"06:43:45","dif":null,"carro":4206,"emb":1,"dup":false,"extra":true},{"d":"2026-09-26","n":1002,"pos":"extra","tail":false,"prev":"18:08","real":"18:07:37","dif":null,"carro":4195,"emb":2,"dup":true,"extra":true},{"d":"2026-09-27","n":1,"pos":"001A","prev":"05:00","tail":false,"real":"05:01:39","dif":2,"carro":4187,"emb":1,"dup":true},{"d":"2026-09-27","n":3,"pos":"001A","prev":"05:35","tail":false,"real":"05:37:19","dif":2,"carro":4187,"emb":3,"dup":true},{"d":"2026-09-27","n":5,"pos":"001A","prev":"06:10","tail":false,"real":"06:12:17","dif":2,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":7,"pos":"001A","prev":"06:45","tail":false,"real":"06:46:36","dif":2,"carro":4187,"emb":3,"dup":true},{"d":"2026-09-27","n":9,"pos":"001A","prev":"07:20","tail":false,"real":"07:22:18","dif":2,"carro":4187,"emb":0,"dup":false},{"d":"2026-09-27","n":11,"pos":"001A","prev":"07:55","tail":false,"real":"07:56:55","dif":2,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":13,"pos":"001A","prev":"08:30","tail":false,"real":"08:33:32","dif":4,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":15,"pos":"002A","prev":"09:22","tail":false,"real":"09:24:20","dif":2,"carro":4211,"emb":0,"dup":true},{"d":"2026-09-27","n":17,"pos":"001A","prev":"10:32","tail":false,"real":"10:38:45","dif":7,"carro":4187,"emb":4,"dup":true},{"d":"2026-09-27","n":19,"pos":"001A","prev":"11:42","tail":false,"real":"11:47:22","dif":5,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":21,"pos":"001A","prev":"12:17","tail":false,"real":"12:18:18","dif":1,"carro":4187,"emb":1,"dup":true},{"d":"2026-09-27","n":23,"pos":"001A","prev":"12:52","tail":false,"real":"12:55:52","dif":4,"carro":4187,"emb":2,"dup":true},{"d":"2026-09-27","n":25,"pos":"001A","prev":"13:27","tail":false,"real":"13:28:30","dif":2,"carro":4187,"emb":2,"dup":true},{"d":"2026-09-27","n":27,"pos":"001A","prev":"14:02","tail":false,"real":"14:02:12","dif":0,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":29,"pos":"001B","prev":"14:45","tail":false,"real":"14:47:55","dif":3,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":31,"pos":"001B","prev":"15:27","tail":false,"real":"15:28:59","dif":2,"carro":4187,"emb":1,"dup":true},{"d":"2026-09-27","n":33,"pos":"001B","prev":"16:02","tail":false,"real":"16:12:03","dif":10,"carro":4187,"emb":2,"dup":true},{"d":"2026-09-27","n":35,"pos":"001B","prev":"16:42","tail":false,"real":"16:41:46","dif":0,"carro":4187,"emb":2,"dup":true},{"d":"2026-09-27","n":37,"pos":"001B","prev":"17:22","tail":false,"real":"17:23:44","dif":2,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":38,"pos":"002B","prev":"17:42","tail":false,"real":"17:45:38","dif":4,"carro":4635,"emb":1,"dup":true},{"d":"2026-09-27","n":39,"pos":"001B","prev":"18:02","tail":false,"real":"18:05:28","dif":3,"carro":4187,"emb":1,"dup":true},{"d":"2026-09-27","n":40,"pos":"002B","prev":"18:22","tail":false,"real":"18:25:12","dif":3,"carro":4635,"emb":1,"dup":true},{"d":"2026-09-27","n":41,"pos":"001B","prev":"18:42","tail":false,"real":"18:45:20","dif":3,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":42,"pos":"002B","prev":"19:02","tail":false,"real":"19:05:17","dif":3,"carro":4635,"emb":0,"dup":true},{"d":"2026-09-27","n":43,"pos":"002B","prev":"19:42","tail":false,"real":"19:45:33","dif":4,"carro":4635,"emb":0,"dup":true},{"d":"2026-09-27","n":44,"pos":"002B","prev":"20:22","tail":false,"real":"20:27:32","dif":6,"carro":4635,"emb":0,"dup":true},{"d":"2026-09-27","n":45,"pos":"001B","prev":"21:02","tail":false,"real":"21:05:04","dif":3,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":46,"pos":"001B","prev":"21:42","tail":false,"real":"21:40:51","dif":-1,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":47,"pos":"001B","prev":"22:20","tail":false,"real":"22:23:00","dif":3,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":48,"pos":"002B","prev":"22:40","tail":false,"real":"22:41:35","dif":2,"carro":4635,"emb":0,"dup":true},{"d":"2026-09-27","n":49,"pos":"001B","prev":"23:00","tail":false,"real":"23:02:01","dif":2,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":50,"pos":"002B","prev":"23:20","tail":false,"real":"23:20:01","dif":0,"carro":4635,"emb":0,"dup":true},{"d":"2026-09-27","n":51,"pos":"001B","prev":"23:40","tail":false,"real":"23:39:51","dif":0,"carro":4187,"emb":0,"dup":true},{"d":"2026-09-27","n":52,"pos":"002B","prev":"00:00","tail":true,"real":null,"dif":null,"carro":4635,"emb":null,"dup":null}],"grade":{"util":[{"n":1,"pos":"001A","prev":"03:55","tail":false},{"n":4,"pos":"001A","prev":"04:29","tail":false},{"n":7,"pos":"001A","prev":"05:04","tail":false},{"n":10,"pos":"001A","prev":"05:38","tail":false},{"n":13,"pos":"001A","prev":"06:13","tail":false},{"n":16,"pos":"002A","prev":"06:59","tail":false},{"n":19,"pos":"003A","prev":"07:51","tail":false},{"n":22,"pos":"001A","prev":"08:44","tail":false},{"n":25,"pos":"002A","prev":"09:36","tail":false},{"n":28,"pos":"001A","prev":"10:29","tail":false},{"n":31,"pos":"001A","prev":"11:09","tail":false},{"n":34,"pos":"001A","prev":"11:43","tail":false},{"n":37,"pos":"001A","prev":"12:18","tail":false},{"n":40,"pos":"001A","prev":"12:52","tail":false},{"n":43,"pos":"001A","prev":"13:27","tail":false},{"n":46,"pos":"001B","prev":"14:15","tail":false},{"n":49,"pos":"002B","prev":"15:07","tail":false},{"n":52,"pos":"003B","prev":"15:57","tail":false},{"n":55,"pos":"003B","prev":"16:38","tail":false},{"n":58,"pos":"003B","prev":"17:18","tail":false},{"n":60,"pos":"002B","prev":"17:45","tail":false},{"n":62,"pos":"001B","prev":"18:12","tail":false},{"n":64,"pos":"003B","prev":"18:39","tail":false},{"n":66,"pos":"002B","prev":"19:06","tail":false},{"n":68,"pos":"002B","prev":"19:46","tail":false},{"n":70,"pos":"001B","prev":"20:26","tail":false},{"n":71,"pos":"003B","prev":"20:46","tail":false},{"n":72,"pos":"001B","prev":"21:06","tail":false},{"n":73,"pos":"002B","prev":"21:26","tail":false},{"n":74,"pos":"001B","prev":"21:46","tail":false},{"n":75,"pos":"002B","prev":"22:04","tail":false},{"n":76,"pos":"001B","prev":"22:24","tail":false},{"n":77,"pos":"002B","prev":"22:44","tail":false},{"n":78,"pos":"003B","prev":"23:02","tail":false},{"n":79,"pos":"003B","prev":"23:32","tail":false},{"n":80,"pos":"003B","prev":"00:02","tail":true},{"n":81,"pos":"003B","prev":"00:32","tail":true},{"n":82,"pos":"003B","prev":"01:02","tail":true}],"sabado":[{"n":1,"pos":"001A","prev":"04:30","tail":false},{"n":4,"pos":"001A","prev":"05:04","tail":false},{"n":7,"pos":"001A","prev":"05:39","tail":false},{"n":10,"pos":"001A","prev":"06:13","tail":false},{"n":13,"pos":"002A","prev":"07:00","tail":false},{"n":16,"pos":"003A","prev":"07:52","tail":false},{"n":19,"pos":"001A","prev":"08:45","tail":false},{"n":22,"pos":"002A","prev":"09:37","tail":false},{"n":25,"pos":"001A","prev":"10:30","tail":false},{"n":28,"pos":"001A","prev":"11:10","tail":false},{"n":31,"pos":"001A","prev":"11:44","tail":false},{"n":34,"pos":"001A","prev":"12:19","tail":false},{"n":37,"pos":"001A","prev":"12:53","tail":false},{"n":40,"pos":"001A","prev":"13:28","tail":false},{"n":43,"pos":"001A","prev":"14:02","tail":false},{"n":46,"pos":"001B","prev":"14:50","tail":false},{"n":49,"pos":"001B","prev":"15:25","tail":false},{"n":52,"pos":"001B","prev":"15:59","tail":false},{"n":55,"pos":"001B","prev":"16:40","tail":false},{"n":58,"pos":"001B","prev":"17:20","tail":false},{"n":60,"pos":"003B","prev":"17:47","tail":false},{"n":62,"pos":"002B","prev":"18:14","tail":false},{"n":64,"pos":"001B","prev":"18:41","tail":false},{"n":66,"pos":"003B","prev":"19:15","tail":false},{"n":68,"pos":"003B","prev":"19:55","tail":false},{"n":70,"pos":"003B","prev":"20:35","tail":false},{"n":71,"pos":"001B","prev":"20:55","tail":false},{"n":72,"pos":"002B","prev":"21:15","tail":false},{"n":73,"pos":"001B","prev":"21:35","tail":false},{"n":74,"pos":"002B","prev":"21:55","tail":false},{"n":75,"pos":"001B","prev":"22:15","tail":false},{"n":76,"pos":"002B","prev":"22:33","tail":false},{"n":77,"pos":"003B","prev":"22:53","tail":false},{"n":78,"pos":"003B","prev":"23:28","tail":false},{"n":79,"pos":"003B","prev":"00:03","tail":true},{"n":80,"pos":"003B","prev":"00:38","tail":true}],"domingo":[{"n":1,"pos":"001A","prev":"05:00","tail":false},{"n":3,"pos":"001A","prev":"05:35","tail":false},{"n":5,"pos":"001A","prev":"06:10","tail":false},{"n":7,"pos":"001A","prev":"06:45","tail":false},{"n":9,"pos":"001A","prev":"07:20","tail":false},{"n":11,"pos":"001A","prev":"07:55","tail":false},{"n":13,"pos":"001A","prev":"08:30","tail":false},{"n":15,"pos":"002A","prev":"09:22","tail":false},{"n":17,"pos":"001A","prev":"10:32","tail":false},{"n":19,"pos":"001A","prev":"11:42","tail":false},{"n":21,"pos":"001A","prev":"12:17","tail":false},{"n":23,"pos":"001A","prev":"12:52","tail":false},{"n":25,"pos":"001A","prev":"13:27","tail":false},{"n":27,"pos":"001A","prev":"14:02","tail":false},{"n":29,"pos":"001B","prev":"14:45","tail":false},{"n":31,"pos":"001B","prev":"15:27","tail":false},{"n":33,"pos":"001B","prev":"16:02","tail":false},{"n":35,"pos":"001B","prev":"16:42","tail":false},{"n":37,"pos":"001B","prev":"17:22","tail":false},{"n":38,"pos":"002B","prev":"17:42","tail":false},{"n":39,"pos":"001B","prev":"18:02","tail":false},{"n":40,"pos":"002B","prev":"18:22","tail":false},{"n":41,"pos":"001B","prev":"18:42","tail":false},{"n":42,"pos":"002B","prev":"19:02","tail":false},{"n":43,"pos":"002B","prev":"19:42","tail":false},{"n":44,"pos":"002B","prev":"20:22","tail":false},{"n":45,"pos":"001B","prev":"21:02","tail":false},{"n":46,"pos":"001B","prev":"21:42","tail":false},{"n":47,"pos":"001B","prev":"22:20","tail":false},{"n":48,"pos":"002B","prev":"22:40","tail":false},{"n":49,"pos":"001B","prev":"23:00","tail":false},{"n":50,"pos":"002B","prev":"23:20","tail":false},{"n":51,"pos":"001B","prev":"23:40","tail":false},{"n":52,"pos":"002B","prev":"00:00","tail":true}]},"dias":["2026-09-25","2026-09-26","2026-09-27"],"semGrade":false};
+
+/* ── Utilidades ─────────────────────────────────────────── */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const f0 = n => Math.round(n).toLocaleString('pt-BR');
+const f1 = n => n.toLocaleString('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const pad = n => String(n).padStart(2, '0');
+const DOW = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sab'];
+const TIPO = { util: 'Sexta-feira', sabado: 'Sábado', domingo: 'Domingo' };
+
+const di = iso => {
+  const [y, m, d] = iso.split('-').map(Number);
+  const w = new Date(y, m - 1, d).getDay();
+  return { iso, d, m, w, lab: `${DOW[w]} ${d}`, full: `${DOW[w]}, ${pad(d)}/${pad(m)}`, tipo: w === 0 ? 'domingo' : w === 6 ? 'sabado' : 'util' };
+};
+const DAYS = D.dias.map(di);
+const DAY = Object.fromEntries(DAYS.map(d => [d.iso, d]));
+const hourOf = t => (+t.prev.slice(0, 2)) + (t.tail ? 24 : 0);
+const minOf = t => hourOf(t) * 60 + (+t.prev.slice(3, 5));
+const faixaOf = t => { const h = hourOf(t); return h < 7 ? 'a' : h < 10 ? 'b' : h < 17 ? 'c' : 'd'; };
+const FAIXAS = [['todas', 'Todas'], ['a', 'Até 7h'], ['b', '7 às 10h'], ['c', '10 às 17h'], ['d', 'Depois das 17h']];
+const hasRead = t => t.emb != null;
+const hLab = h => h >= 24 ? `${h - 24}h` : `${h}h`;
+
+const S = { view: 'geral', days: new Set(D.dias), faixa: 'todas', sel: null, modeDia: 'grafico', modeHora: 'grafico', metric: 'total', q: '', sort: { k: 'd', dir: 1 } };
+const inFilt = t => S.days.has(t.d) && (S.faixa === 'todas' || faixaOf(t) === S.faixa);
+const rowsF = () => D.trips.filter(inFilt);
+
+/* ── Motion (opcional: a página funciona sem) ───────────── */
+const MO = window.Motion;
+const REDUCE = matchMedia('(prefers-reduced-motion: reduce)').matches;
+function countUp(el, to, dec) {
+  const fmt = dec ? f1 : f0;
+  el.textContent = fmt(to);
+  if (!MO || REDUCE || to === 0) return;
+  try { MO.animate(0, to, { duration: .7, ease: [.22, 1, .36, 1], onUpdate: v => { el.textContent = fmt(v); } }); } catch (e) {}
+}
+function growBars(root) {
+  if (!MO || REDUCE) return;
+  const bars = $$('.bar', root);
+  if (!bars.length) return;
+  try { MO.animate(bars, { transform: ['scaleY(0)', 'scaleY(1)'] }, { duration: .55, delay: MO.stagger(.02), ease: [.22, 1, .36, 1] }); } catch (e) {}
+}
+
+/* ── Tooltip ────────────────────────────────────────────── */
+const tipEl = $('#tip');
+let TIPS = [], TIP_BASE = 0;
+const addTip = html => TIPS.push(html) - 1;
+function showTip(html, x, y) {
+  tipEl.innerHTML = html; tipEl.hidden = false;
+  const w = tipEl.offsetWidth, h = tipEl.offsetHeight;
+  let l = x + 14, t = y + 14;
+  if (l + w > innerWidth - 8) l = x - w - 14;
+  if (t + h > innerHeight - 8) t = y - h - 14;
+  tipEl.style.left = Math.max(8, l) + 'px'; tipEl.style.top = Math.max(8, t) + 'px';
+}
+const hideTip = () => { tipEl.hidden = true; };
+document.addEventListener('pointermove', e => {
+  const el = e.target.closest && e.target.closest('[data-t]');
+  if (el && TIPS[+el.dataset.t]) showTip(TIPS[+el.dataset.t], e.clientX, e.clientY); else if (!e.target.closest('.linehit')) hideTip();
+});
+document.addEventListener('pointerleave', hideTip);
+document.addEventListener('touchstart', e => {
+  const el = e.target.closest && e.target.closest('[data-t]');
+  if (el && TIPS[+el.dataset.t]) { const t = e.touches[0]; showTip(TIPS[+el.dataset.t], t.clientX, t.clientY); setTimeout(hideTip, 2200); }
+}, { passive: true });
+const trow = (color, label, v) => `<div class="r"><span>${color ? `<i class="dot" style="background:${color}"></i>` : ''}${label}</span><em>${v}</em></div>`;
+
+/* ── Escalas e desenho SVG ──────────────────────────────── */
+function axis(max) {
+  const steps = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000];
+  const step = steps.find(s => max / s <= 5) || 1000;
+  return { max: Math.max(step, Math.ceil(max / step) * step), step };
+}
+const rt = (x, y, w, h, r) => { r = Math.min(r, h, w / 2); return `M${x},${y + h}V${y + r}Q${x},${y} ${x + r},${y}H${x + w - r}Q${x + w},${y} ${x + w},${y + r}V${y + h}Z`; };
+const svgOpen = (W, H, label) => `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(label)}">`;
+function gridY(ax, yv, l, W) {
+  let s = '';
+  for (let v = 0; v <= ax.max; v += ax.step) s += `<line class="${v === 0 ? 'axis' : 'grid'}" x1="${l}" x2="${W}" y1="${yv(v)}" y2="${yv(v)}"/><text x="${l - 8}" y="${yv(v) + 4}" text-anchor="end">${f0(v)}</text>`;
+  return s;
+}
+
+/* ── Agregações ─────────────────────────────────────────── */
+function aggDias(rows) {
+  return DAYS.filter(d => S.days.has(d.iso)).map(d => {
+    const r = rows.filter(t => t.d === d.iso);
+    const tot = r.reduce((s, t) => s + (t.emb || 0), 0);
+    return { d, r, tot, n: r.length, nr: r.filter(hasRead).length };
+  });
+}
+function aggHoras(rows) {
+  const m = new Map();
+  rows.forEach(t => { const h = hourOf(t); if (!m.has(h)) m.set(h, { h, tot: 0, n: 0, nr: 0 }); const o = m.get(h); o.tot += t.emb || 0; o.n++; if (hasRead(t)) o.nr++; });
+  const hs = []; for (let h = 3; h <= 23; h++) hs.push(h);
+  return hs.map(h => m.get(h) || { h, tot: 0, n: 0, nr: 0 });
+}
+
+/* ── Gráfico: embarques por dia ─────────────────────────── */
+function drawDias(el, ag) {
+  const W = Math.max(280, el.clientWidth), H = 300, l = 40, r = 8, t = 28, b = 52;
+  const ax = axis(Math.max(...ag.map(a => a.tot), 1)); const yv = v => t + (H - t - b) * (1 - v / ax.max);
+  const slot = (W - l - r) / Math.max(1, ag.length), bw = Math.min(72, slot * .5);
+  let s = svgOpen(W, H, 'Embarques por dia') + gridY(ax, yv, l, W - r);
+  ag.forEach((a, i) => {
+    const cx = l + slot * i + slot / 2, x = cx - bw / 2, dim = S.sel && S.sel !== a.d.iso;
+    const ti = addTip(`<b>${a.d.full}/2026 — ${TIPO[a.d.tipo]}</b>` + trow('var(--s-a)', 'Embarques', f0(a.tot)) + `<div class="m">${a.n} viagens · média ${a.nr ? f1(a.tot / a.nr) : '—'} por viagem</div><div class="m">Toque para ver as viagens do dia</div>`);
+    s += `<g class="${dim ? 'dim' : ''}">${a.tot > 0 ? `<path class="bar" d="${rt(x, yv(a.tot), bw, yv(0) - yv(a.tot), 8)}" fill="var(--s-a)"/>` : ''}</g>`;
+    s += `<text class="v" x="${cx}" y="${yv(a.tot) - 8}" text-anchor="middle">${f0(a.tot)}</text>`;
+    s += `<text class="x" x="${cx}" y="${H - b + 22}" text-anchor="middle">${a.d.lab}</text><text x="${cx}" y="${H - b + 40}" text-anchor="middle">${TIPO[a.d.tipo]}</text>`;
+    if (S.sel === a.d.iso) s += `<rect class="sel-ring" x="${x - 10}" y="${t - 20}" width="${bw + 20}" height="${H - t - b + 20}" rx="12"/>`;
+    s += `<rect class="hit" data-t="${ti}" data-act="sel-day" data-v="${a.d.iso}" x="${l + slot * i + 2}" y="${t - 20}" width="${slot - 4}" height="${H - t - b + 20}" rx="10" tabindex="0" role="button" aria-label="${a.d.full}: ${f0(a.tot)} embarques"/>`;
+  });
+  el.innerHTML = s + '</svg>';
+}
+function tableDias(el, ag) {
+  el.innerHTML = `<div class="scroll"><table class="tbl"><thead><tr><th>Dia</th><th class="n">Viagens</th><th class="n">Total</th><th class="n">Média por viagem</th></tr></thead><tbody>` +
+    ag.map(a => `<tr><td>${a.d.full} — ${TIPO[a.d.tipo]}</td><td class="n">${a.n}</td><td class="n"><b>${f0(a.tot)}</b></td><td class="n">${a.nr ? f1(a.tot / a.nr) : '—'}</td></tr>`).join('') + '</tbody></table></div>';
+}
+
+/* ── Gráfico: por horário ────────────────────────────────── */
+function drawHoras(el, hs) {
+  const W = Math.max(280, el.clientWidth), H = 300, l = 40, r = 8, t = 28, b = 36;
+  const vals = hs.map(o => S.metric === 'media' ? (o.nr ? o.tot / o.nr : 0) : o.tot);
+  const ax = axis(Math.max(...vals, 1)); const yv = v => t + (H - t - b) * (1 - v / ax.max);
+  const slot = (W - l - r) / hs.length, bw = Math.min(30, slot * .62);
+  const fmt = S.metric === 'media' ? f1 : f0;
+  const top3 = new Set(vals.map((v, i) => [v, i]).sort((a, b) => b[0] - a[0]).slice(0, 3).filter(x => x[0] > 0).map(x => x[1]));
+  const every = slot < 24 ? 2 : 1;
+  let s = svgOpen(W, H, 'Embarques por horário de saída') + gridY(ax, yv, l, W - r);
+  hs.forEach((o, i) => {
+    const cx = l + slot * i + slot / 2, x = cx - bw / 2, v = vals[i];
+    const ti = addTip(`<b>Saídas entre ${hLab(o.h)} e ${hLab(o.h + 1)}</b>` + trow('var(--s-a)', S.metric === 'media' ? 'Média por viagem' : 'Total', fmt(v)) + `<div class="m">${o.n} viagens${o.n - o.nr ? ` · ${o.n - o.nr} sem leitura` : ''}</div>`);
+    if (v > 0) s += `<path class="bar" d="${rt(x, yv(v), bw, yv(0) - yv(v), 6)}" fill="var(--s-a)"/>`;
+    if (top3.has(i) || (slot >= 30 && v > 0)) s += `<text class="v" x="${cx}" y="${yv(v) - 6}" text-anchor="middle">${fmt(v)}</text>`;
+    if (i % every === 0) s += `<text x="${cx}" y="${H - b + 20}" text-anchor="middle">${hLab(o.h)}</text>`;
+    s += `<rect class="hit" data-t="${ti}" x="${l + slot * i}" y="${t - 16}" width="${slot}" height="${H - t - b + 16}" rx="6"/>`;
+  });
+  el.innerHTML = s + '</svg>';
+}
+function tableHoras(el, hs) {
+  const fmt = S.metric === 'media' ? f1 : f0;
+  el.innerHTML = `<div class="scroll tall"><table class="tbl"><thead><tr><th>Saída entre</th><th class="n">Viagens</th><th class="n">${S.metric === 'media' ? 'Média por viagem' : 'Total'}</th></tr></thead><tbody>` +
+    hs.filter(o => o.n).map(o => `<tr><td>${hLab(o.h)} e ${hLab(o.h + 1)}</td><td class="n">${o.n}</td><td class="n"><b>${fmt(S.metric === 'media' ? (o.nr ? o.tot / o.nr : 0) : o.tot)}</b></td></tr>`).join('') + '</tbody></table></div>';
+}
+
+/* ── Grade de partidas (mapa de calor) — 1 coluna por data ── */
+function heatBin(v, max) { if (v <= 0) return 0; const f = v / max; return f <= .2 ? 1 : f <= .4 ? 2 : f <= .6 ? 3 : f <= .8 ? 4 : 5; }
+function heatmap(tipo, dias, byKey) {
+  const grade = D.grade[tipo].filter(g => S.faixa === 'todas' || faixaOf({ prev: g.prev, tail: g.tail }) === S.faixa);
+  if (!grade.length || !dias.length) return '';
+  const cells = [];
+  grade.forEach(g => dias.forEach(d => { const t = byKey.get(d.iso + '|' + g.n); if (t && hasRead(t)) cells.push(t.emb); }));
+  const max = Math.max(...cells, 1);
+  const colTot = dias.map(() => 0);
+  const body = grade.map(g => {
+    let sum = 0, cnt = 0;
+    const tds = dias.map((d, ci) => {
+      const t = byKey.get(d.iso + '|' + g.n);
+      if (!t) return `<td class="c none" data-t="${addTip(`<b>${g.prev} · ${d.full}</b><div class="m">Sem saída registrada no GPS neste dia.</div>`)}">—</td>`;
+      if (!hasRead(t)) return `<td class="c nol" data-t="${addTip(`<b>${g.prev} · ${d.full}</b><div class="m">${t.real ? `Saiu às ${t.real.slice(0, 5)} (carro ${t.carro}), mas o GPS não leu o ponto.` : 'O Cumprimento de Partidas registra essa partida como realizada, mas o GPS não registrou nenhuma passagem pelo ponto.'}</div>`)}">s/l</td>`;
+      const v = t.emb; sum += v; cnt++; colTot[ci] += v;
+      const k = heatBin(v, max);
+      const tip = addTip(`<b>${g.prev} · ${d.full}</b>` + trow('var(--s-a)', 'Embarques', f0(v)) + `<div class="m">Saída real ${t.real.slice(0, 5)} · carro ${t.carro} · ${t.dif > 0 ? '+' : ''}${t.dif} min</div>`);
+      return `<td class="c" style="background:var(--heat-${k});color:${k >= 4 ? '#fafafa' : 'var(--ink)'}" data-t="${tip}">${f0(v)}</td>`;
+    }).join('');
+    return `<tr><th class="rowh" scope="row">${g.prev}<small>${g.pos}</small></th>${tds}<td class="avg num">${cnt ? f1(sum / cnt) : '—'}</td></tr>`;
+  }).join('');
+  const head = `<tr><th class="rowh" scope="col">Horário previsto</th>${dias.map(d => `<th scope="col">${d.lab}</th>`).join('')}<th class="avg" scope="col">Média</th></tr>`;
+  const foot = `<tr class="tot"><th class="rowh" scope="row">Total</th>${colTot.map(v => `<td>${f0(v)}</td>`).join('')}<td class="avg">${f0(colTot.reduce((a, b) => a + b, 0))}</td></tr>`;
+  return `<div class="hm-title"><h3>${TIPO[tipo]}</h3><span class="badge out">${grade.length} partidas</span></div><div class="scroll tall"><table class="hm" aria-label="Embarques por horário previsto e dia"><thead>${head}</thead><tbody>${body}</tbody><tfoot>${foot}</tfoot></table></div>`;
+}
+function heatBlocks() {
+  const byKey = new Map(D.trips.map(t => [t.d + '|' + t.n, t]));
+  const tipos = ['util', 'sabado', 'domingo'].filter(tp => DAYS.some(d => S.days.has(d.iso) && d.tipo === tp));
+  return tipos.map(tp => heatmap(tp, DAYS.filter(d => S.days.has(d.iso) && d.tipo === tp), byKey)).filter(Boolean).join('');
+}
+
+/* ── Visões ─────────────────────────────────────────────── */
+const seg = (act, opts, cur, label) => `<div class="seg" role="group" aria-label="${label}">${opts.map(([v, t]) => `<button data-act="${act}" data-v="${v}" aria-pressed="${cur === v}">${t}</button>`).join('')}</div>`;
+const stat = (lbl, html, help) => `<div class="stat"><span class="lbl">${lbl}</span><div class="val">${html}</div><span class="help">${help}</span></div>`;
+const notes = () => `<details class="note"><summary>Como ler os números</summary><ul>
+  <li>Estes são os <b>dados reais</b> de 25 a 27/09, do ponto PN527852000. O horário previsto e a posição (001A, 002A...) vêm do Cumprimento de Partidas de cada dia, já filtrado para o atendimento Reserva das Águas.</li>
+  <li>O ônibus passa 2 vezes por esse ponto em cada viagem (um laço de uns 40 a 90 segundos). As duas passagens contam juntas como uma viagem só, e os embarques das duas são somados.</li>
+  <li>Embarque é a validação de cartão do mesmo carro até 90 segundos da saída do ponto, atribuída a uma única passagem — a mais próxima no tempo, disputando com todos os outros pontos do trajeto (o PN527852000 fica a poucos segundos de Jardim das Amendoeiras, PNG3, PNG6 e outros).</li>
+  <li>"Sem leitura" é quando o Cumprimento registra a partida como realizada, mas o GPS não registrou nenhuma passagem pelo ponto naquele horário (5 casos nos 3 dias); "1 passagem" é quando só uma das duas passagens do laço foi lida.</li>
+  <li>"Extra" é uma saída real do ponto que não corresponde a nenhuma partida programada (2 casos, ambos no sábado).</li></ul></details>`;
+const emptyView = () => `<section class="card empty"><h2>Nada para mostrar com esses filtros</h2><p>Nenhuma viagem saiu nos dias e no horário escolhidos.</p><button class="btn" data-act="reset">Limpar filtros</button></section>`;
+
+function viewGeral() {
+  const rows = rowsF(); if (!rows.length) return emptyView();
+  const ag = aggDias(rows);
+  const T = rows.reduce((s, t) => s + (t.emb || 0), 0), nr = rows.filter(hasRead).length, sl = rows.length - nr;
+  const top = ag.reduce((m, a) => a.tot > m.tot ? a : m, ag[0]);
+  return `
+  <section class="card stats" aria-label="Resumo">
+    ${stat('Embarques', `<span data-count="${T}">${f0(T)}</span>`, `${DAYS.filter(d=>S.days.has(d.iso)).length} dia(s) selecionado(s)`)}
+    ${stat('Viagens', `<span data-count="${rows.length}">${rows.length}</span>`, sl ? `${sl} sem leitura do GPS` : 'todas com leitura do GPS')}
+    ${stat('Média por viagem', `<span data-count="${nr ? T / nr : 0}" data-dec="1">${nr ? f1(T / nr) : '—'}</span>`, 'embarques por viagem lida')}
+    ${stat('Dia mais cheio', top.d.lab, `${f0(top.tot)} embarques · ${TIPO[top.d.tipo]}`)}
+  </section>
+  <section class="card">
+    <header class="ch"><div><h2>Embarques por dia</h2><p>${S.sel ? `Dia selecionado: ${DAY[S.sel].full}. ` : ''}Toque numa barra para listar as viagens daquele dia.</p></div>
+      <div class="ch-tools">${seg('mode-dia', [['grafico', 'Gráfico'], ['tabela', 'Tabela']], S.modeDia, 'Formato')}</div></header>
+    <div class="chart" id="c-dia"></div>
+  </section>
+  <section class="card">
+    <header class="ch"><div><h2>Viagens</h2><p id="t-desc"></p></div>
+      <div class="tools"><label class="search" for="q"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><input id="q" type="search" placeholder="Buscar horário ou carro" value="${esc(S.q)}" autocomplete="off"><span class="kbd" aria-hidden="true">/</span></label>
+      ${S.sel ? `<button class="btn ghost" data-act="sel-day" data-v="${S.sel}">Ver todos os dias</button>` : ''}</div></header>
+    <div class="scroll tall" id="c-trips"></div>
+  </section>${notes()}`;
+}
+
+function tripsTable() {
+  let rows = rowsF();
+  if (S.sel) rows = rows.filter(t => t.d === S.sel);
+  const q = S.q.trim().toLowerCase().replace(':', '');
+  if (q) rows = rows.filter(t => String(t.carro).includes(q) || t.prev.replace(':', '').includes(q));
+  const { k, dir } = S.sort;
+  const key = { d: t => t.d + String(minOf(t) + 10000), prev: t => minOf(t), real: t => t.real, carro: t => t.carro, emb: t => t.emb || 0 }[k];
+  rows = rows.slice().sort((x, y) => { const a = key(x), b = key(y); return (a < b ? -1 : a > b ? 1 : minOf(x) - minOf(y)) * dir; });
+  const max = Math.max(...rows.map(t => t.emb || 0), 1);
+  const th = (kk, lbl, cls = '') => `<th class="${cls}" ${S.sort.k === kk ? `aria-sort="${S.sort.dir > 0 ? 'ascending' : 'descending'}"` : ''}><button data-act="sort" data-v="${kk}">${lbl}${S.sort.k === kk ? (S.sort.dir > 0 ? ' ↑' : ' ↓') : ''}</button></th>`;
+  const body = rows.map(t => {
+    const d = DAY[t.d], v = t.emb || 0;
+    const tag = (t.extra ? '<span class="badge out">extra</span> ' : '') + (hasRead(t) ? '' : '<span class="badge err">sem leitura</span>') + (t.dup === false ? ' <span class="badge out">1 passagem</span>' : '');
+    const real = t.real ? t.real.slice(0, 5) + (t.dif != null ? ` <span class="sub">${t.dif > 0 ? '+' : ''}${t.dif} min</span>` : '') : '<span class="sub">—</span>';
+    return `<tr><td><b class="num">${t.prev}</b> <span class="sub">${t.pos}</span> ${tag}</td><td>${d.full}</td><td class="num">${real}</td><td class="num">${t.carro}</td><td class="n">${hasRead(t) ? `<b>${f0(v)}</b><span class="mini"><i style="width:${(v / max * 100).toFixed(0)}%"></i></span>` : '<span class="sub">—</span>'}</td></tr>`;
+  }).join('') || `<tr><td colspan="5" class="sub" style="padding:32px;text-align:center">Nenhuma viagem encontrada para essa busca.</td></tr>`;
+  $('#t-desc').textContent = `${rows.length} viagens${S.sel ? ' em ' + DAY[S.sel].full : ''}. Toque no título de uma coluna para ordenar.`;
+  $('#c-trips').innerHTML = `<table class="tbl"><thead><tr>${th('prev', 'Horário previsto')}${th('d', 'Dia')}${th('real', 'Saída real')}${th('carro', 'Carro')}${th('emb', 'Embarques', 'n')}</tr></thead><tbody>${body}</tbody></table>`;
+}
+
+function viewHora() {
+  const rows = rowsF(); if (!rows.length) return emptyView();
+  const hs = aggHoras(rows);
+  const vals = hs.map(o => o.tot);
+  const bi = vals.indexOf(Math.max(...vals));
+  const early = rows.filter(t => hourOf(t) < 7), tE = early.reduce((s, t) => s + (t.emb || 0), 0), T = rows.reduce((s, t) => s + (t.emb || 0), 0);
+  return `
+  <section class="card stats" aria-label="Resumo">
+    ${stat('Horário mais cheio', `<span>${hLab(hs[bi].h)}</span>`, `${f0(vals[bi])} embarques`)}
+    ${stat('Até 7h', `<span data-count="${T ? tE / T * 100 : 0}">${T ? f0(tE / T * 100) : 0}</span>%`, `${f0(tE)} de ${f0(T)} embarques`)}
+    ${stat('Viagens', `<span data-count="${rows.length}">${rows.length}</span>`, `${new Set(rows.map(t => t.prev)).size} horários diferentes`)}
+    ${stat('Dias na grade', `<span>${DAYS.filter(d => S.days.has(d.iso)).length}</span>`, 'sexta, sábado e domingo')}
+  </section>
+  <section class="card">
+    <header class="ch"><div><h2>Embarques por horário de saída</h2><p>Soma dos dias selecionados, agrupada pela hora da partida programada.</p></div>
+      <div class="ch-tools">${seg('metric', [['total', 'Total'], ['media', 'Média por viagem']], S.metric, 'Métrica')}${seg('mode-hora', [['grafico', 'Gráfico'], ['tabela', 'Tabela']], S.modeHora, 'Formato')}</div></header>
+    <div class="chart" id="c-hora"></div>
+  </section>
+  <section class="card">
+    <header class="ch"><div><h2>Grade de partidas</h2><p>Cada linha é um horário programado; cada coluna, um dos 3 dias. Quanto mais escuro, mais embarques.</p></div>
+      <div class="ramp" aria-hidden="true">menos ${[0, 1, 2, 3, 4, 5].map(k => `<i style="background:var(--heat-${k})"></i>`).join('')} mais</div></header>
+    <div class="hm-wrap">${heatBlocks()}</div>
+    <div class="hm-foot"><span class="badge err">s/l</span><span>saiu, mas o GPS não leu o ponto</span><span class="badge out">—</span><span>não saiu naquele dia</span></div>
+  </section>${notes()}`;
+}
+
+function viewViagens() {
+  const rows = rowsF(); if (!rows.length) return emptyView();
+  return `
+  <section class="card">
+    <header class="ch"><div><h2>Todas as viagens</h2><p id="t-desc2"></p></div>
+      <div class="tools"><label class="search" for="q2"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><input id="q2" type="search" placeholder="Buscar horário ou carro" value="${esc(S.q)}" autocomplete="off"></label></div></header>
+    <div class="scroll tall" id="c-trips2"></div>
+  </section>${notes()}`;
+}
+function tripsTable2() {
+  let rows = rowsF();
+  const q = S.q.trim().toLowerCase().replace(':', '');
+  if (q) rows = rows.filter(t => String(t.carro).includes(q) || t.prev.replace(':', '').includes(q));
+  rows = rows.slice().sort((a, b) => a.d === b.d ? minOf(a) - minOf(b) : (a.d < b.d ? -1 : 1));
+  const max = Math.max(...rows.map(t => t.emb || 0), 1);
+  const body = rows.map(t => {
+    const d = DAY[t.d], v = t.emb || 0;
+    const tag = (t.extra ? '<span class="badge out">extra</span> ' : '') + (hasRead(t) ? '' : '<span class="badge err">sem leitura</span>') + (t.dup === false ? ' <span class="badge out">1 passagem</span>' : '');
+    const real = t.real ? t.real.slice(0, 5) + (t.dif != null ? ` <span class="sub">${t.dif > 0 ? '+' : ''}${t.dif} min</span>` : '') : '<span class="sub">—</span>';
+    return `<tr><td>${d.full} <span class="sub">${TIPO[d.tipo]}</span></td><td><b class="num">${t.prev}</b> <span class="sub">${t.pos}</span></td><td class="num">${real}</td><td class="num">${t.carro}</td><td>${tag}</td><td class="n">${hasRead(t) ? `<b>${f0(v)}</b><span class="mini"><i style="width:${(v / max * 100).toFixed(0)}%"></i></span>` : '<span class="sub">—</span>'}</td></tr>`;
+  }).join('') || `<tr><td colspan="6" class="sub" style="padding:32px;text-align:center">Nenhuma viagem encontrada.</td></tr>`;
+  $('#t-desc2').textContent = `${rows.length} viagens no período selecionado, em ordem cronológica.`;
+  $('#c-trips2').innerHTML = `<table class="tbl"><thead><tr><th>Dia</th><th>Horário previsto</th><th>Saída real</th><th>Carro</th><th>Status</th><th class="n">Embarques</th></tr></thead><tbody>${body}</tbody></table>`;
+}
+
+/* ── Render ─────────────────────────────────────────────── */
+const NAV = { geral: 'Visão geral', hora: 'Por horário', viagens: 'Viagens' };
+const sameSet = arr => arr.length === S.days.size && arr.every(d => S.days.has(d.iso));
+function buildFilters() {
+  $('#f-dias').innerHTML = `<button class="chip" data-act="preset" data-v="todos">Todos</button>` +
+    DAYS.map(d => `<button class="chip" data-act="day" data-v="${d.iso}">${DOW[d.w]} <small>${pad(d.d)}/${pad(d.m)}</small></button>`).join('');
+  $('#f-faixa').innerHTML = FAIXAS.map(([v, t]) => `<button data-act="faixa" data-v="${v}">${t}</button>`).join('');
+}
+function syncChrome() {
+  $$('#nav button, #tabbar button').forEach(b => b.setAttribute('aria-current', b.dataset.v === S.view ? 'page' : 'false'));
+  $('#crumb').textContent = NAV[S.view]; $('#mtitle').textContent = NAV[S.view];
+  $$('#f-dias .chip').forEach(b => b.setAttribute('aria-pressed', b.dataset.act === 'day' ? S.days.has(b.dataset.v) : sameSet(DAYS)));
+  $$('#f-faixa button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === S.faixa));
+}
+function drawCharts(animate) {
+  const root = $('#view');
+  if (!rowsF().length) return;
+  TIPS.length = TIP_BASE;
+  let el;
+  if ((el = $('#c-dia'))) { const ag = aggDias(rowsF()); S.modeDia === 'grafico' ? drawDias(el, ag) : tableDias(el, ag); }
+  if ((el = $('#c-hora'))) { const hs = aggHoras(rowsF()); S.modeHora === 'grafico' ? drawHoras(el, hs) : tableHoras(el, hs); }
+  if (animate) growBars(root);
+}
+function render(animate = true) {
+  if (S.sel && !S.days.has(S.sel)) S.sel = null;
+  TIPS = []; hideTip(); syncChrome();
+  const v = $('#view');
+  const html = S.view === 'geral' ? viewGeral() : S.view === 'hora' ? viewHora() : viewViagens();
+  v.classList.remove('view'); void v.offsetWidth; v.classList.add('view');
+  v.innerHTML = html;
+  TIP_BASE = TIPS.length;
+  if ($('#c-trips')) tripsTable();
+  if ($('#c-trips2')) tripsTable2();
+  drawCharts(animate);
+  $$('[data-count]', v).forEach(el => countUp(el, +el.dataset.count, !!el.dataset.dec));
+  $('#b-viagens').textContent = `${rowsF().length} viagens`;
+}
+
+/* ── Eventos ────────────────────────────────────────────── */
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-act]'); if (!b) return;
+  const v = b.dataset.v;
+  switch (b.dataset.act) {
+    case 'view': S.view = v; S.sel = null; break;
+    case 'day': if (S.days.has(v)) { if (S.days.size > 1) S.days.delete(v); } else S.days.add(v); break;
+    case 'preset': S.days = new Set(D.dias); break;
+    case 'faixa': S.faixa = v; break;
+    case 'metric': S.metric = v; break;
+    case 'mode-dia': S.modeDia = v; break;
+    case 'mode-hora': S.modeHora = v; break;
+    case 'sel-day': S.sel = S.sel === v ? null : v; if (S.sel) S.view = 'geral'; break;
+    case 'sort': S.sort = S.sort.k === v ? { k: v, dir: -S.sort.dir } : { k: v, dir: 1 }; tripsTable(); return;
+    case 'reset': S.days = new Set(D.dias); S.faixa = 'todas'; S.sel = null; break;
+  }
+  render(b.dataset.act !== 'sel-day');
+  if (b.dataset.act === 'view') $('#view').scrollIntoView({ block: 'start', behavior: REDUCE ? 'auto' : 'smooth' });
+});
+document.addEventListener('keydown', e => {
+  if ((e.key === 'Enter' || e.key === ' ') && e.target.matches && e.target.matches('.hit[data-act]')) { e.preventDefault(); e.target.dispatchEvent(new MouseEvent('click', { bubbles: true })); }
+  if (e.key === '/' && !/input|textarea/i.test(document.activeElement.tagName) && $('#q')) { e.preventDefault(); $('#q').focus(); }
+});
+document.addEventListener('input', e => {
+  if (e.target.id === 'q') { S.q = e.target.value; tripsTable(); }
+  if (e.target.id === 'q2') { S.q = e.target.value; tripsTable2(); }
+});
+let lastW = 0;
+new ResizeObserver(() => { const w = $('#view').clientWidth; if (Math.abs(w - lastW) > 2) { lastW = w; drawCharts(false); } }).observe($('#view'));
+
+buildFilters(); render();
+</script>
+</body></html>

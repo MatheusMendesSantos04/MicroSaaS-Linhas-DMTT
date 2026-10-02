@@ -8,8 +8,24 @@ import detalhamentoPorLinha from "./assets/dashboards/detalhamento-por-linha.png
 import passeLivreEstudantil from "./assets/dashboards/passe-livre-estudantil.png";
 import domingoLivreCidadao from "./assets/dashboards/domingo-livre-cidadao.png";
 import onibusDaMulher from "./assets/dashboards/onibus-da-mulher.png";
+import embarques4003 from "./assets/dashboards/embarques-4003.png";
+
+const base = import.meta.env.BASE_URL;
 
 export const DASHBOARDS = [
+  {
+    titulo: "EMBARQUES — LINHA 4003",
+    descricao: "Embarques na volta da linha 4003 no ponto da Reserva das Águas, de 25 a 27/09/2026.",
+    indicadores: [
+      "Embarques por dia",
+      "Embarques por horário de saída",
+      "Lista de viagens",
+      "Média de embarques por viagem",
+    ],
+    imagem: embarques4003,
+    link: `${base}dashboards/embarques-4003.html`,
+    tipo: "publico",
+  },
   {
     titulo: "DETALHAMENTO POR LINHA",
     descricao: "Cumprimento de itinerário e transporte de passageiros, por linha.",

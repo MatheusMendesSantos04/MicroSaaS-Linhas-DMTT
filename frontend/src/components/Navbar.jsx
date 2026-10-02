@@ -17,8 +17,8 @@ export default function Navbar() {
       </div>
       <nav className="navbar-links">
         <NavLink to="/" end className={linkClass}>Linhas</NavLink>
+        <NavLink to="/bairros" className={linkClass}>Bairros</NavLink>
         <NavLink to="/dashboards" className={linkClass}>Dashboards</NavLink>
-        <NavLink to="/sobre" className={linkClass}>Sobre</NavLink>
       </nav>
     </header>
   );

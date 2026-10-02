@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import LinhasPage from "./pages/LinhasPage";
 import DashboardsPage from "./pages/DashboardsPage";
-import SobrePage from "./pages/SobrePage";
+import BairrosPage from "./pages/BairrosPage";
 
 export default function App() {
   return (
@@ -10,8 +10,8 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<LinhasPage />} />
+        <Route path="/bairros" element={<BairrosPage />} />
         <Route path="/dashboards" element={<DashboardsPage />} />
-        <Route path="/sobre" element={<SobrePage />} />
       </Routes>
     </div>
   );

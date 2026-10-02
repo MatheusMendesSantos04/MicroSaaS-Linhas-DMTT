@@ -1,0 +1,8 @@
+Vias no bairro-manual.json: 724
+Vias unicas no itinerario_completo.json: 718
+
+=== Vias no bairro-manual SEM correspondencia exata no itinerario_completo.json (0) ===
+
+=== Vias do itinerario_completo.json QUE FALTAM no bairro-manual.json (0) ===
+
+=== Vias que aparecem em MAIS DE UM bairro no bairro-manual.json (0) ===

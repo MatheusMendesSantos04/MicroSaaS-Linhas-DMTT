@@ -290,7 +290,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": null,
           "match": "manual"
         },
@@ -591,7 +591,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -923,7 +923,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA CORONEL JOSÉ FRANCISCO VIEIRA",
+          "via": "RUA CORONEL JOSÉ FRANCISCO VIÊIRA",
           "codigo": null,
           "match": "manual"
         },
@@ -973,7 +973,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA CLÁUDIO LIVIO",
+          "via": "RUA CLAUDIO LIVIO",
           "codigo": "00336",
           "match": "exato"
         },
@@ -983,7 +983,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUÍS DE MASCARENHAS",
+          "via": "RUA DOUTOR LUIS DE MASCARENHAS",
           "codigo": "06580",
           "match": "exato"
         },
@@ -1350,7 +1350,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUÍS DE MASCARENHAS",
+          "via": "RUA DOUTOR LUIS DE MASCARENHAS",
           "codigo": "06580",
           "match": "exato"
         },
@@ -1360,7 +1360,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA CLÁUDIO LIVIO",
+          "via": "RUA CLAUDIO LIVIO",
           "codigo": "00336",
           "match": "exato"
         },
@@ -1395,7 +1395,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA CORONEL PACHECO RAMALHO",
+          "via": "RUA CORONEL PACHÊCO RAMALHO",
           "codigo": null,
           "match": "manual"
         },
@@ -2550,7 +2550,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -2575,7 +2575,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -2610,7 +2610,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -2655,7 +2655,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -3013,7 +3013,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -3063,7 +3063,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -3079,8 +3079,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -3093,7 +3093,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -4620,8 +4620,8 @@
         },
         {
           "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "PRAÇA SÃO JOSÉ",
@@ -4630,8 +4630,8 @@
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CORONEL MENDES DA FONSECA",
@@ -5194,8 +5194,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -5208,7 +5208,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -5527,7 +5527,7 @@
           "match": "manual"
         },
         {
-          "via": "TRAVESSA INAILDA FÉLIX",
+          "via": "TRAVESSA INAILDA FELIX",
           "codigo": null,
           "match": "manual"
         },
@@ -5841,7 +5841,7 @@
           "match": "manual"
         },
         {
-          "via": "TRAVESSA INAILDA FÉLIX",
+          "via": "TRAVESSA INAILDA FELIX",
           "codigo": null,
           "match": "manual"
         },
@@ -6365,7 +6365,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
@@ -6455,7 +6455,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -6997,7 +6997,7 @@
           "match": "exato"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -7277,9 +7277,9 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA DOUTOR FERNANDO COUTO MALTA",
-          "codigo": "06468",
-          "match": "exato"
+          "via": "AVENIDA DOUTOR FERNANDO DO COUTO MALTA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA MENINO MARCELO",
@@ -7513,9 +7513,9 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA DOUTOR FERNANDO COUTO MALTA",
-          "codigo": "06468",
-          "match": "exato"
+          "via": "AVENIDA DOUTOR FERNANDO DO COUTO MALTA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DOUTOR ANDRÉ PAPINI GÓIS",
@@ -7769,7 +7769,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA SEBASTIÃO CORREIA DA ROCHA",
+          "via": "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA",
           "codigo": null,
           "match": "manual"
         },
@@ -8092,7 +8092,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA SEBASTIÃO CORREIA DA ROCHA",
+          "via": "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA",
           "codigo": null,
           "match": "manual"
         },
@@ -8607,9 +8607,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "ESTRADA DA GOIABEIRA",
@@ -8638,13 +8638,13 @@
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA SETE DE SETEMBRO - TABULEIRO DOS MARTINS",
@@ -9128,7 +9128,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA EDUARDO PINHEIRO LOBO",
+          "via": "RUA EDUARDO PINHEIRO LÔBO",
           "codigo": null,
           "match": "manual"
         },
@@ -9153,9 +9153,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
@@ -9174,8 +9174,8 @@
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
@@ -9193,9 +9193,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TERMINAL FERNÃO VELHO",
@@ -9510,9 +9510,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "ESTRADA DA GOIABEIRA",
@@ -9932,9 +9932,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TERMINAL FERNÃO VELHO",
@@ -10296,13 +10296,13 @@
       "ruas": [
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESTUDANTE ARNOUMAR CHAGAS",
@@ -10823,8 +10823,8 @@
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         }
       ]
     }
@@ -10997,7 +10997,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": null,
           "match": "manual"
         },
@@ -11007,7 +11007,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA ANTÔNIO SILVA - OSMAN LOUREIRO",
+          "via": "RUA ANTONIO SILVA - OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -11243,7 +11243,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA EDUARDO PINHEIRO LOBO",
+          "via": "RUA EDUARDO PINHEIRO LÔBO",
           "codigo": "06625",
           "match": "exato"
         },
@@ -11273,7 +11273,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA ANTÔNIO SILVA - OSMAN LOUREIRO",
+          "via": "RUA ANTONIO SILVA - OSMAN LOUREIRO",
           "codigo": null,
           "match": "manual"
         },
@@ -11283,7 +11283,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": null,
           "match": "manual"
         },
@@ -11807,7 +11807,7 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -11882,7 +11882,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PROJETADA - JARDIM PETRÓPOLIS II",
+          "via": "RUA PROJETADA - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -11977,7 +11977,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA CORONEL JOSÉ FRANCISCO VIEIRA",
+          "via": "RUA CORONEL JOSÉ FRANCISCO VIÊIRA",
           "codigo": "00421",
           "match": "exato"
         },
@@ -12587,7 +12587,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PROJETADA - JARDIM PETRÓPOLIS II",
+          "via": "RUA PROJETADA - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -12652,7 +12652,7 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -13046,7 +13046,7 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -13924,7 +13924,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA DOUTOR VIRGÍLIO GUEDES",
+          "via": "RUA DOUTOR VÍRGILIO GUEDES",
           "codigo": "00029",
           "match": "exato"
         },
@@ -13980,8 +13980,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -14044,7 +14044,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -14070,8 +14070,8 @@
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
-          "codigo": "00238",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CORONEL PARANHOS",
@@ -14094,7 +14094,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -14184,7 +14184,7 @@
           "match": "exato"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -14733,7 +14733,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR VIRGÍLIO GUEDES",
+          "via": "RUA DOUTOR VÍRGILIO GUEDES",
           "codigo": "00029",
           "match": "fuzzy"
         },
@@ -15437,8 +15437,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -15522,8 +15522,8 @@
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
-          "codigo": "00238",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CORONEL PARANHOS",
@@ -15546,7 +15546,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": null,
           "match": "manual"
         },
@@ -16072,13 +16072,13 @@
         },
         {
           "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CORONEL MENDES DA FONSECA",
@@ -16860,7 +16860,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA PROFESSOR ANTÔNIO NEMESIO DE ALBUQUERQUE",
+          "via": "RUA PROFESSOR ANTONIO NEMESIO DE ALBUQUERQUE",
           "codigo": null,
           "match": "manual"
         },
@@ -16870,7 +16870,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PROFESSOR ANTÔNIO NEMESIO DE ALBUQUERQUE",
+          "via": "RUA PROFESSOR ANTONIO NEMESIO DE ALBUQUERQUE",
           "codigo": null,
           "match": "manual"
         },
@@ -17296,7 +17296,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -17321,9 +17321,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
@@ -17336,19 +17336,19 @@
           "match": "exato"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA GENERAL WALFRIDO JERÔNIMO DA ROCHA",
@@ -17456,7 +17456,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA CORONEL JOSÉ FRANCISCO VIEIRA",
+          "via": "RUA CORONEL JOSÉ FRANCISCO VIÊIRA",
           "codigo": "06294",
           "match": "exato"
         },
@@ -18102,9 +18102,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
@@ -18118,13 +18118,13 @@
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESCRITORA MARIA LUÍSA MELO SÁ",
@@ -18147,7 +18147,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -18644,9 +18644,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DOUTOR FERNANDO COUTO MALTA",
-          "codigo": "06468",
-          "match": "exato"
+          "via": "AVENIDA DOUTOR FERNANDO DO COUTO MALTA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA MENINO MARCELO",
@@ -18729,7 +18729,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -18799,7 +18799,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR VIRGÍLIO GUEDES",
+          "via": "RUA DOUTOR VÍRGILIO GUEDES",
           "codigo": "00029",
           "match": "fuzzy_global"
         },
@@ -19517,8 +19517,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -19602,8 +19602,8 @@
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
-          "codigo": "00238",
-          "match": "exato"
+          "codigo": null,
+          "match": "nao_encontrado"
         },
         {
           "via": "RUA COMENDADOR JOSÉ GERALDO DA SILVA",
@@ -19621,7 +19621,7 @@
           "match": "exato"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -19958,7 +19958,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": "06128",
           "match": "contem"
         },
@@ -20993,7 +20993,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato"
         },
@@ -21023,7 +21023,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA JORNALISTA JOSÉ NILTON DE OLIVEIRA CORREIA",
+          "via": "RUA JORNALISTA JOSE NILTON DE OLIVEIRA CORREIA",
           "codigo": null,
           "match": "manual"
         },
@@ -21048,7 +21048,7 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -21083,7 +21083,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -21715,7 +21715,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -21735,7 +21735,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -21750,7 +21750,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": null,
           "match": "manual"
         },
@@ -21790,7 +21790,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato"
         },
@@ -22879,7 +22879,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -22909,7 +22909,7 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -22934,14 +22934,14 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "via": "RUA PONTES DE MIRANDA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -23520,7 +23520,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -23595,7 +23595,7 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -24081,7 +24081,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -24161,7 +24161,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR VIRGÍLIO GUEDES",
+          "via": "RUA DOUTOR VÍRGILIO GUEDES",
           "codigo": "00029",
           "match": "fuzzy_global"
         },
@@ -24745,8 +24745,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -24830,8 +24830,8 @@
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
-          "codigo": "00238",
-          "match": "exato"
+          "codigo": null,
+          "match": "nao_encontrado"
         },
         {
           "via": "RUA CORONEL PARANHOS",
@@ -24849,7 +24849,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -24974,7 +24974,7 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA PADRE CÍCERO ROMÃO BATISTA",
+          "via": "RUA PADRE CICERO ROMÃO BATISTA",
           "codigo": "06362",
           "match": "exato"
         },
@@ -25357,7 +25357,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA GERALDO BULHÕES",
+          "via": "AVENIDA GERALDO BULHÔES",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -25422,7 +25422,7 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -25467,7 +25467,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA FÉLIX BANDEIRA",
+          "via": "RUA FELIX BANDEIRA",
           "codigo": "00065",
           "match": "exato"
         },
@@ -25477,12 +25477,12 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOSÉ DE MELO",
+          "via": "RUA JOSÉ CORRÊA DE MELO",
           "codigo": "06212",
           "match": "fuzzy_global"
         },
         {
-          "via": "RUA GETÚLIO CORRÊA LIMA",
+          "via": "RUA GETULIO CORRÊA LIMA",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -25935,7 +25935,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA ELÓI DE LEMOS FRANÇA",
+          "via": "RUA ELÓI DE LEMOS FRANCA",
           "codigo": "00437",
           "match": "exato"
         },
@@ -25950,7 +25950,7 @@
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -26015,7 +26015,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA GERALDO BULHÕES",
+          "via": "AVENIDA GERALDO BULHÔES",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -26279,7 +26279,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -26504,7 +26504,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -26996,7 +26996,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA ELÓI DE LEMOS FRANÇA",
+          "via": "RUA ELÓI DE LEMOS FRANCA",
           "codigo": "00437",
           "match": "exato"
         },
@@ -27086,7 +27086,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": null,
           "match": "manual"
         }
@@ -27413,7 +27413,7 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -27473,7 +27473,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": null,
           "match": "manual"
         },
@@ -27578,9 +27578,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "via": "RUA PEDRO MONTEIRO",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -28015,7 +28015,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PADRE CÍCERO ROMÃO BATISTA",
+          "via": "RUA PADRE CICERO ROMÃO BATISTA",
           "codigo": "06362",
           "match": "exato_global"
         },
@@ -28571,7 +28571,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -28632,8 +28632,8 @@
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
-          "codigo": "00238",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA COMENDADOR CALAÇA",
@@ -28691,7 +28691,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PADRE CÍCERO ROMÃO BATISTA",
+          "via": "RUA PADRE CICERO ROMÃO BATISTA",
           "codigo": "06362",
           "match": "exato_global"
         },
@@ -29675,8 +29675,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -29734,7 +29734,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -29760,8 +29760,8 @@
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
-          "codigo": "00238",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CORONEL PARANHOS",
@@ -29784,7 +29784,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -29849,7 +29849,7 @@
           "match": "exato"
         },
         {
-          "via": "PONTO DE RETORNO SÃO JORGE",
+          "via": "PONTO DE RETORNO SAO JORGE",
           "codigo": null,
           "match": "manual"
         }
@@ -30352,7 +30352,7 @@
       ],
       "ruas": [
         {
-          "via": "PONTO DE RETORNO SÃO JORGE",
+          "via": "PONTO DE RETORNO SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -30443,13 +30443,13 @@
         },
         {
           "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CORONEL MENDES DA FONSECA",
@@ -31116,7 +31116,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA COMENDADOR LUIZ JARDIM FRANÇA",
+          "via": "RUA COMENDADOR LUIZ JARDIM FRANCA",
           "codigo": "06076",
           "match": "fuzzy_global"
         },
@@ -31186,7 +31186,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA H - SÃO JORGE",
+          "via": "RUA H - SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -31196,7 +31196,7 @@
           "match": "exato"
         },
         {
-          "via": "PONTO DE RETORNO SÃO JORGE",
+          "via": "PONTO DE RETORNO SAO JORGE",
           "codigo": null,
           "match": "manual"
         }
@@ -31575,7 +31575,7 @@
       ],
       "ruas": [
         {
-          "via": "PONTO DE RETORNO SÃO JORGE",
+          "via": "PONTO DE RETORNO SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -31585,7 +31585,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA H - SÃO JORGE",
+          "via": "RUA H - SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -31635,7 +31635,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA COMENDADOR LUIZ JARDIM FRANÇA",
+          "via": "RUA COMENDADOR LUIZ JARDIM FRANCA",
           "codigo": "06076",
           "match": "fuzzy_global"
         },
@@ -32125,7 +32125,7 @@
           "match": "contem"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": null,
           "match": "manual"
         },
@@ -32135,7 +32135,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": "00217",
           "match": "exato"
         },
@@ -32165,7 +32165,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato_global"
         },
@@ -32185,7 +32185,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA ÁLVARO MELO LADEIRA SÃO JORGE",
+          "via": "RUA ALVARO MELO LADEIRA SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -32195,7 +32195,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA H - SÃO JORGE",
+          "via": "RUA H - SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -32205,7 +32205,7 @@
           "match": "exato"
         },
         {
-          "via": "PONTO DE RETORNO SÃO JORGE",
+          "via": "PONTO DE RETORNO SAO JORGE",
           "codigo": null,
           "match": "manual"
         }
@@ -32604,7 +32604,7 @@
       ],
       "ruas": [
         {
-          "via": "PONTO DE RETORNO SÃO JORGE",
+          "via": "PONTO DE RETORNO SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -32614,7 +32614,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA H - SÃO JORGE",
+          "via": "RUA H - SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -32674,7 +32674,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato_global"
         },
@@ -32685,8 +32685,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -32724,7 +32724,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": "00217",
           "match": "exato"
         },
@@ -32744,7 +32744,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DURVAL GUIMARÃES",
+          "via": "AVENIDA DURVAL GUIMARAES",
           "codigo": "00371",
           "match": "fuzzy"
         },
@@ -32795,13 +32795,13 @@
         },
         {
           "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CORONEL MENDES DA FONSECA",
@@ -33115,7 +33115,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": "00217",
           "match": "exato"
         },
@@ -33829,7 +33829,7 @@
           "match": "contem"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -34082,7 +34082,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": null,
           "match": "manual"
         },
@@ -34628,8 +34628,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -34698,8 +34698,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -34712,7 +34712,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -34732,7 +34732,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -34752,7 +34752,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "fuzzy"
         },
@@ -34987,7 +34987,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "fuzzy"
         },
@@ -35600,7 +35600,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
@@ -35670,7 +35670,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -35686,8 +35686,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -35700,7 +35700,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -36117,7 +36117,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -36627,7 +36627,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -36743,8 +36743,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -37287,7 +37287,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -37322,7 +37322,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -37539,7 +37539,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
@@ -38084,7 +38084,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato_global"
         },
@@ -38139,7 +38139,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA ELÓI DE LEMOS FRANÇA",
+          "via": "RUA ELÓI DE LEMOS FRANCA",
           "codigo": "00437",
           "match": "exato"
         },
@@ -38646,7 +38646,7 @@
           "match": "contem"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -38656,7 +38656,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": null,
           "match": "manual"
         },
@@ -38692,8 +38692,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -38706,7 +38706,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -39023,7 +39023,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": "06128",
           "match": "contem"
         },
@@ -39123,7 +39123,7 @@
           "match": "contem"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -39336,7 +39336,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": null,
           "match": "manual"
         },
@@ -39366,7 +39366,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -39386,7 +39386,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR ALBINO MAGALHÃES",
+          "via": "RUA DOUTOR ALBINO MAGALHAES",
           "codigo": "06270",
           "match": "fuzzy_global"
         },
@@ -39638,7 +39638,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": "06128",
           "match": "contem"
         },
@@ -39683,7 +39683,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": null,
           "match": "manual"
         },
@@ -40015,7 +40015,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -40463,7 +40463,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -40583,7 +40583,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -40924,8 +40924,8 @@
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
-          "codigo": "00238",
-          "match": "exato"
+          "codigo": null,
+          "match": "nao_encontrado"
         },
         {
           "via": "RUA CORONEL PARANHOS",
@@ -40953,7 +40953,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -40993,7 +40993,7 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -41371,7 +41371,7 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -41471,7 +41471,7 @@
           "match": "contem"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -41820,7 +41820,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA ELÓI DE LEMOS FRANÇA",
+          "via": "RUA ELÓI DE LEMOS FRANCA",
           "codigo": "00437",
           "match": "exato"
         },
@@ -41835,7 +41835,7 @@
           "match": "exato_global"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -42325,7 +42325,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -42703,7 +42703,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DURVAL GUIMARÃES",
+          "via": "AVENIDA DURVAL GUIMARAES",
           "codigo": "00371",
           "match": "fuzzy"
         },
@@ -43272,7 +43272,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
@@ -43467,7 +43467,7 @@
           "match": "contem"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -44171,9 +44171,9 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA DOUTOR FERNANDO COUTO MALTA",
-          "codigo": "06468",
-          "match": "exato"
+          "via": "AVENIDA DOUTOR FERNANDO DO COUTO MALTA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA MENINO MARCELO",
@@ -44281,7 +44281,7 @@
           "match": "exato"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -44674,7 +44674,7 @@
           "match": "contem"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -44709,7 +44709,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -44794,9 +44794,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "AVENIDA DOUTOR FERNANDO COUTO MALTA",
-          "codigo": "06468",
-          "match": "exato"
+          "via": "AVENIDA DOUTOR FERNANDO DO COUTO MALTA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DOUTOR ANDRÉ PAPINI GÓIS",
@@ -45383,7 +45383,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato_global"
         },
@@ -45433,7 +45433,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -45478,7 +45478,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -45563,7 +45563,7 @@
           "match": "contem"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -45992,8 +45992,8 @@
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
-          "codigo": "00238",
-          "match": "exato"
+          "codigo": null,
+          "match": "nao_encontrado"
         },
         {
           "via": "RUA CORONEL PARANHOS",
@@ -46016,7 +46016,7 @@
           "match": "exato"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -46036,7 +46036,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -46057,8 +46057,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -46071,7 +46071,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -46424,7 +46424,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA SEBASTIÃO CORREIA DA ROCHA",
+          "via": "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA",
           "codigo": null,
           "match": "manual"
         },
@@ -46841,7 +46841,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DURVAL GUIMARÃES",
+          "via": "AVENIDA DURVAL GUIMARAES",
           "codigo": "00371",
           "match": "fuzzy"
         },
@@ -46906,7 +46906,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA SEBASTIÃO CORREIA DA ROCHA",
+          "via": "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA",
           "codigo": null,
           "match": "manual"
         },
@@ -46966,7 +46966,7 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -47348,7 +47348,7 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -47811,7 +47811,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DURVAL GUIMARÃES",
+          "via": "AVENIDA DURVAL GUIMARAES",
           "codigo": "00371",
           "match": "fuzzy"
         },
@@ -47886,7 +47886,7 @@
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -48295,7 +48295,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "TRAVESSA INAILDA FÉLIX",
+          "via": "TRAVESSA INAILDA FELIX",
           "codigo": null,
           "match": "manual"
         },
@@ -48395,7 +48395,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -48732,7 +48732,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "TRAVESSA INAILDA FÉLIX DE O SANTOS",
+          "via": "TRAVESSA INAILDA FELIX DE O SANTOS",
           "codigo": null,
           "match": "manual"
         },
@@ -49520,9 +49520,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "ESTRADA DA GOIABEIRA",
@@ -49540,19 +49540,19 @@
           "match": "exato"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESTUDANTE ARNOUMAR CHAGAS",
@@ -49610,7 +49610,7 @@
           "match": "exato_global"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -49705,7 +49705,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -50356,7 +50356,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "MACEIÓ SHOPPING",
+          "via": "MACEIO SHOPPING",
           "codigo": "00459",
           "match": "exato_sem_complemento"
         },
@@ -50381,7 +50381,7 @@
           "match": "exato_global"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -50406,7 +50406,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR ALBINO MAGALHÃES",
+          "via": "RUA DOUTOR ALBINO MAGALHAES",
           "codigo": "06270",
           "match": "fuzzy_global"
         },
@@ -50491,19 +50491,19 @@
           "match": "exato"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESTUDANTE ARNOUMAR CHAGAS",
@@ -50521,9 +50521,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "via": "RUA DOUTOR PONTES DE MIRANDA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TERMINAL FERNÃO VELHO",
@@ -50883,7 +50883,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -50893,7 +50893,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA ANTÔNIO SILVA - OSMAN LOUREIRO",
+          "via": "RUA ANTONIO SILVA - OSMAN LOUREIRO",
           "codigo": "00900",
           "match": "exato_global"
         },
@@ -50968,7 +50968,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -50988,7 +50988,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "MACEIÓ SHOPPING",
+          "via": "MACEIO SHOPPING",
           "codigo": "00459",
           "match": "exato_sem_complemento"
         },
@@ -51334,7 +51334,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DURVAL GUIMARÃES",
+          "via": "AVENIDA DURVAL GUIMARAES",
           "codigo": "00371",
           "match": "fuzzy"
         },
@@ -51419,7 +51419,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA EDUARDO PINHEIRO LOBO",
+          "via": "RUA EDUARDO PINHEIRO LÔBO",
           "codigo": "06625",
           "match": "exato"
         },
@@ -51449,7 +51449,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA ANTÔNIO SILVA - OSMAN LOUREIRO",
+          "via": "RUA ANTONIO SILVA - OSMAN LOUREIRO",
           "codigo": "00900",
           "match": "exato_global"
         },
@@ -51459,7 +51459,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -51890,12 +51890,12 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA DJALMA FRAGOSO DE ALENCAR",
+          "via": "RUA DJALMA FRAGOSO DE ALENÇAR",
           "codigo": "06314",
           "match": "exato"
         },
         {
-          "via": "VIA DE ACESSO À CHÃ NOVA",
+          "via": "VIA DE ACESSO À CHÂ NOVA",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -51905,7 +51905,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA DE ACESSO - JARDIM PETRÓPOLIS II",
+          "via": "RUA DE ACESSO - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -52041,8 +52041,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -52526,7 +52526,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DURVAL GUIMARÃES",
+          "via": "AVENIDA DURVAL GUIMARAES",
           "codigo": "00371",
           "match": "fuzzy"
         },
@@ -52691,7 +52691,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA DE ACESSO - JARDIM PETRÓPOLIS II",
+          "via": "RUA DE ACESSO - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -52701,12 +52701,12 @@
           "match": "manual"
         },
         {
-          "via": "VIA DE ACESSO À CHÃ NOVA",
+          "via": "VIA DE ACESSO À CHÂ NOVA",
           "codigo": null,
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA DJALMA FRAGOSO DE ALENCAR",
+          "via": "RUA DJALMA FRAGOSO DE ALENÇAR",
           "codigo": "06314",
           "match": "exato"
         },
@@ -53136,7 +53136,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -53156,7 +53156,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "MACEIÓ SHOPPING",
+          "via": "MACEIO SHOPPING",
           "codigo": "00459",
           "match": "exato_sem_complemento"
         },
@@ -53482,7 +53482,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DURVAL GUIMARÃES",
+          "via": "AVENIDA DURVAL GUIMARAES",
           "codigo": "00371",
           "match": "fuzzy"
         },
@@ -54229,7 +54229,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -54254,9 +54254,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DOUTORA NOÉLIA LESSA DOS SANTOS",
@@ -54270,13 +54270,13 @@
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA GENERAL WALFRIDO JERÔNIMO DA ROCHA",
@@ -54359,7 +54359,7 @@
           "match": "exato_global"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -54404,7 +54404,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -54429,7 +54429,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "MACEIÓ SHOPPING",
+          "via": "MACEIO SHOPPING",
           "codigo": "00459",
           "match": "exato_sem_complemento"
         },
@@ -55086,7 +55086,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DURVAL GUIMARÃES",
+          "via": "AVENIDA DURVAL GUIMARAES",
           "codigo": "00371",
           "match": "fuzzy"
         },
@@ -55142,8 +55142,8 @@
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
-          "codigo": "00238",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CORONEL PARANHOS",
@@ -55166,7 +55166,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -55276,14 +55276,14 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESTUDANTE ARNOUMAR CHAGAS",
@@ -55291,9 +55291,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESCRITORA MARIA LUÍSA MELO SÁ",
@@ -55316,7 +55316,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -55771,7 +55771,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
@@ -55881,9 +55881,9 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DOUTOR FERNANDO COUTO MALTA",
-          "codigo": "06468",
-          "match": "exato"
+          "via": "AVENIDA DOUTOR FERNANDO DO COUTO MALTA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA MENINO MARCELO",
@@ -55946,7 +55946,7 @@
           "match": "fuzzy_global"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato_global"
         },
@@ -56615,7 +56615,7 @@
           "match": "contem"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -56655,7 +56655,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -56690,9 +56690,9 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "AVENIDA DOUTOR FERNANDO COUTO MALTA",
-          "codigo": "06468",
-          "match": "exato"
+          "via": "AVENIDA DOUTOR FERNANDO DO COUTO MALTA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA DOUTOR ANDRÉ PAPINI GÓIS",
@@ -56952,13 +56952,13 @@
       "ruas": [
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESTUDANTE ARNOUMAR CHAGAS",
@@ -57254,7 +57254,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -57274,9 +57274,9 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESTUDANTE ARNOUMAR CHAGAS",
@@ -57285,8 +57285,8 @@
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         }
       ]
     }
@@ -60957,7 +60957,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato_global"
         },
@@ -61002,7 +61002,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA H - SÃO JORGE",
+          "via": "RUA H - SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -61012,17 +61012,17 @@
           "match": "exato"
         },
         {
-          "via": "PONTO DE RETORNO SÃO JORGE",
+          "via": "PONTO DE RETORNO SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA G - SÃO JORGE",
+          "via": "RUA G - SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA ÁLVARO MELO LADEIRA SÃO JORGE",
+          "via": "RUA ALVARO MELO LADEIRA SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -61032,7 +61032,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -61969,7 +61969,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -61999,7 +61999,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -62014,7 +62014,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA ÁLVARO MELO LADEIRA SÃO JORGE",
+          "via": "RUA ALVARO MELO LADEIRA SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -62029,7 +62029,7 @@
           "match": "exato"
         },
         {
-          "via": "PONTO DE RETORNO SÃO JORGE",
+          "via": "PONTO DE RETORNO SAO JORGE",
           "codigo": null,
           "match": "manual"
         },
@@ -62446,7 +62446,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
@@ -62962,7 +62962,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "TRAVESSA INAILDA FÉLIX",
+          "via": "TRAVESSA INAILDA FELIX",
           "codigo": null,
           "match": "nao_encontrado"
         },
@@ -63283,7 +63283,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
@@ -63373,7 +63373,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PADRE CÍCERO ROMÃO BATISTA",
+          "via": "RUA PADRE CICERO ROMÃO BATISTA",
           "codigo": "06362",
           "match": "exato"
         },
@@ -63403,9 +63403,9 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA DOUTOR FERNANDO COUTO MALTA",
-          "codigo": "06468",
-          "match": "exato"
+          "via": "AVENIDA DOUTOR FERNANDO DO COUTO MALTA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA MENINO MARCELO",
@@ -63691,7 +63691,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -63973,7 +63973,7 @@
           "match": "exato"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -64153,7 +64153,7 @@
           "match": "exato"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "fuzzy"
         }
@@ -64284,7 +64284,7 @@
       ],
       "ruas": [
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "fuzzy"
         },
@@ -65443,7 +65443,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
@@ -65473,22 +65473,22 @@
           "match": "exato"
         },
         {
-          "via": "VIA PRINCIPAL CONJUNTO MACEIÓ I - A",
+          "via": "VIA PRINCIPAL CONJUNTO MACEIO I - A",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "VIA PRINCIPAL CONJUNTO MACEIÓ I - B",
+          "via": "VIA PRINCIPAL CONJUNTO MACEIO I - B",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "VIA INTERNA DO CONJUNTO MACEIÓ I - C",
+          "via": "VIA INTERNA DO CONJUNTO MACEIO I - C",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "VIA INTERNA CONJUNTO MACEIÓ I - D",
+          "via": "VIA INTERNA CONJUNTO MACEIO I - D",
           "codigo": null,
           "match": "manual"
         }
@@ -65679,7 +65679,7 @@
       ],
       "ruas": [
         {
-          "via": "VIA INTERNA CONJUNTO MACEIÓ I - D",
+          "via": "VIA INTERNA CONJUNTO MACEIO I - D",
           "codigo": null,
           "match": "manual"
         },
@@ -65739,7 +65739,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
@@ -66630,12 +66630,12 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
         {
-          "via": "RUA ZAFIRA ATAIDE CERQUEIRA-LOT J SAÚDE",
+          "via": "RUA ZAFIRA ATAIDE CERQUEIRA-LOT J SAUDE",
           "codigo": "06715",
           "match": "exato"
         },
@@ -66645,7 +66645,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA F - CIDADE UNIVERSITÁRIA",
+          "via": "RUA F - CIDADE UNIVERSITARIA",
           "codigo": null,
           "match": "manual"
         },
@@ -67468,7 +67468,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": null,
           "match": "manual"
         },
@@ -68178,7 +68178,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": "00589",
           "match": "fuzzy_60"
         },
@@ -68203,9 +68203,9 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
@@ -68219,13 +68219,13 @@
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA SETE DE SETEMBRO - TABULEIRO DOS MARTINS",
@@ -68517,7 +68517,7 @@
           "match": "fuzzy_83"
         },
         {
-          "via": "RUA EDUARDO PINHEIRO LOBO",
+          "via": "RUA EDUARDO PINHEIRO LÔBO",
           "codigo": null,
           "match": "sem_match"
         },
@@ -68542,9 +68542,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESTRADA ARNOUMAR CHAGAS",
@@ -68553,13 +68553,13 @@
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESCRITORA MARIA LUÍSA MELO SÁ",
@@ -68582,7 +68582,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": "00589",
           "match": "fuzzy_60"
         },
@@ -69028,7 +69028,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": "00589",
           "match": "fuzzy_60"
         },
@@ -69053,9 +69053,9 @@
           "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
@@ -69069,13 +69069,13 @@
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA GENERAL WALFRIDO JERÔNIMO DA ROCHA",
@@ -69088,7 +69088,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA SEBASTIÃO CORREIA DA ROCHA",
+          "via": "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA",
           "codigo": null,
           "match": "manual"
         },
@@ -69103,7 +69103,7 @@
           "match": "fuzzy_68"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -69541,7 +69541,7 @@
           "match": "fuzzy_72"
         },
         {
-          "via": "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+          "via": "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
           "codigo": null,
           "match": "manual"
         },
@@ -69556,7 +69556,7 @@
           "match": "fuzzy_83"
         },
         {
-          "via": "AVENIDA SEBASTIÃO CORREIA DA ROCHA",
+          "via": "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA",
           "codigo": "00436",
           "match": "fuzzy_75"
         },
@@ -69571,9 +69571,9 @@
           "match": "fuzzy_82"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA JORGE MONTENEGRO DE BARROS",
@@ -69587,18 +69587,18 @@
         },
         {
           "via": "TERMINAL COLINA DOS EUCALIPTOS",
-          "codigo": "00779",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
-          "via": "RUA EMANI ROCHA CAVALCANTE PASSOS",
-          "codigo": "00543",
-          "match": "exato"
+          "via": "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA ESCRITORA MARIA LUÍSA MELO SÁ",
@@ -69621,7 +69621,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA CARLOS GUIDO FERRÁRIO LOBO",
+          "via": "RUA CARLOS GUIDO FERRÁRIO LÔBO",
           "codigo": "00589",
           "match": "fuzzy_60"
         },
@@ -69891,7 +69891,7 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "00221",
           "match": "exato_sem_complemento"
         },
@@ -70387,7 +70387,7 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -70584,7 +70584,7 @@
           "match": "fuzzy_77"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -71274,9 +71274,9 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         },
         {
@@ -71288,7 +71288,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -71396,7 +71396,7 @@
         {
           "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": "00240",
-          "via_pdf": "AV. CÍCERO TOLEDO",
+          "via_pdf": "AV. CICERO TOLEDO",
           "match": "fuzzy_77"
         },
         {
@@ -71424,15 +71424,15 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
-          "via_pdf": "RUA ENG. MÁRIO DE GUSMÃO",
+          "via_pdf": "RUA ENG. MARIO DE GUSMAO",
           "match": "fuzzy_74"
         },
         {
           "via": "AVENIDA ÁLVARO OTACÍLIO",
           "codigo": "00237",
-          "via_pdf": "AV. ÁLVARO DE OTACILIO",
+          "via_pdf": "AV. ALVARO DE OTACILIO",
           "match": "fuzzy_75"
         },
         {
@@ -71454,7 +71454,7 @@
           "match": "fuzzy_75"
         },
         {
-          "via": "RUA JORNALISTA LAFAIETE BELO",
+          "via": "RUA LAFAIETE BELO",
           "codigo": "00238",
           "via_pdf": "RUA LAFAIETE BELO",
           "match": "exato"
@@ -71468,7 +71468,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -71478,9 +71478,9 @@
           "match": "fuzzy_60"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         },
         {
@@ -71492,7 +71492,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -71502,7 +71502,7 @@
           "match": "fuzzy_77"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "via_pdf": "RUA PASTOR EURICO CALHEIROS",
           "match": "exato"
@@ -71570,11 +71570,11 @@
         {
           "via": "RUA PADRE CÍCERO",
           "codigo": "00297",
-          "via_pdf": "RUA PADRE CÍCERO",
+          "via_pdf": "RUA PADRE CICERO",
           "match": "exato"
         },
         {
-          "via": "RUA TANCREDO NEVES",
+          "via": "RUA TANCRÊDO NEVES",
           "codigo": "00538",
           "via_pdf": "RUA TANCREDO NEVES",
           "match": "exato"
@@ -71952,7 +71952,7 @@
         {
           "via": "AVENIDA JOSÉ AILTON DOS SANTOS",
           "codigo": "00828",
-          "via_pdf": "AV. JOSÉ AILTON DOS SANTOS",
+          "via_pdf": "AV. JOSE AILTON DOS SANTOS",
           "match": "fuzzy_86"
         },
         {
@@ -72024,7 +72024,7 @@
         {
           "via": "RUA ANTÔNIO ZEFERINO DOS SANTOS",
           "codigo": "00741",
-          "via_pdf": "RUA ANTÔNIO ZEFERINO DOS SANTOS",
+          "via_pdf": "RUA ANTONIO ZEFERINO DOS SANTOS",
           "match": "exato"
         },
         {
@@ -72042,7 +72042,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -72052,9 +72052,9 @@
           "match": "fuzzy_60"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         }
       ]
@@ -72890,9 +72890,9 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         },
         {
@@ -72904,7 +72904,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -72968,15 +72968,15 @@
           "match": "sem_match"
         },
         {
-          "via": "PRAÇA SANTO ANTÔNIO",
+          "via": "PRAÇA SANTO ANTONIO",
           "codigo": "00653",
-          "via_pdf": "PRAÇA SANTO ANTÔNIO",
+          "via_pdf": "PRAÇA SANTO ANTONIO",
           "match": "exato"
         },
         {
           "via": "RUA SANTO ANTÔNIO",
           "codigo": "00282",
-          "via_pdf": "RUA SANTO ANTÔNIO",
+          "via_pdf": "RUA SANTO ANTONIO",
           "match": "exato"
         },
         {
@@ -73016,9 +73016,9 @@
           "match": "fuzzy_78"
         },
         {
-          "via": "PÇA. AFRÂNIO JORGE",
+          "via": "PÇA. AFRANIO JORGE",
           "codigo": "00048",
-          "via_pdf": "PÇA. AFRÂNIO JORGE",
+          "via_pdf": "PÇA. AFRANIO JORGE",
           "match": "exato"
         },
         {
@@ -73048,7 +73048,7 @@
         {
           "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": "00240",
-          "via_pdf": "AV. CÍCERO TOLEDO",
+          "via_pdf": "AV. CICERO TOLEDO",
           "match": "fuzzy_77"
         },
         {
@@ -73076,21 +73076,21 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
-          "via_pdf": "RUA ENG. MÁRIO DE GUSMÃO",
+          "via_pdf": "RUA ENG. MARIO DE GUSMAO",
           "match": "fuzzy_74"
         },
         {
           "via": "AVENIDA ÁLVARO OTACÍLIO",
           "codigo": "00237",
-          "via_pdf": "AV. ÁLVARO DE OTACILIO",
+          "via_pdf": "AV. ALVARO DE OTACILIO",
           "match": "fuzzy_75"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": "00217",
-          "via_pdf": "AV. DR. JÚLIO MARQUES LUZ - AV. JATIÚCA",
+          "via_pdf": "AV. DR. JULIO MARQUES LUZ - AV. JATIUCA",
           "match": "fuzzy_75"
         },
         {
@@ -73102,7 +73102,7 @@
         {
           "via": "AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS - AMELIA ROSAS",
           "codigo": "00218",
-          "via_pdf": "AV. DR. ANTÔNIO G. DE B. - AMÉLIA ROSAS",
+          "via_pdf": "AV. DR. ANTONIO G. DE B. - AMÉLIA ROSAS",
           "match": "fuzzy_62"
         },
         {
@@ -73114,19 +73114,19 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
-          "via": "VIADUTO INDL. JOÃO LYRA",
+          "via": "VIADUTO INDL. JOAO LYRA",
           "codigo": "06665",
-          "via_pdf": "VIADUTO INDL. JOÃO LYRA",
+          "via_pdf": "VIADUTO INDL. JOAO LYRA",
           "match": "exato"
         },
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -73136,9 +73136,9 @@
           "match": "fuzzy_60"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         },
         {
@@ -73150,7 +73150,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -73160,9 +73160,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR ALBINO MAGALHÃES",
+          "via": "RUA DOUTOR ALBINO MAGALHAES",
           "codigo": "06270",
-          "via_pdf": "RUA ALBINO MAGALHÃES",
+          "via_pdf": "RUA ALBINO MAGALHAES",
           "match": "fuzzy_80"
         },
         {
@@ -73192,7 +73192,7 @@
         {
           "via": "RUA DESEMBARGADOR CARLOS DE GUSMÃO",
           "codigo": "00516",
-          "via_pdf": "RUA DESEMB. CARLOS DE GUSMÃO",
+          "via_pdf": "RUA DESEMB. CARLOS DE GUSMAO",
           "match": "fuzzy_75"
         },
         {
@@ -73712,7 +73712,7 @@
         {
           "via": "RUA DESEMBARGADOR CARLOS DE GUSMÃO",
           "codigo": "00516",
-          "via_pdf": "RUA DESEMB. CARLOS DE GUSMÃO",
+          "via_pdf": "RUA DESEMB. CARLOS DE GUSMAO",
           "match": "fuzzy_75"
         },
         {
@@ -73748,7 +73748,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -73758,9 +73758,9 @@
           "match": "fuzzy_60"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         }
       ]
@@ -74532,9 +74532,9 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         },
         {
@@ -74546,7 +74546,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -74610,15 +74610,15 @@
           "match": "sem_match"
         },
         {
-          "via": "PRAÇA SANTO ANTÔNIO",
+          "via": "PRAÇA SANTO ANTONIO",
           "codigo": "00653",
-          "via_pdf": "PRAÇA SANTO ANTÔNIO",
+          "via_pdf": "PRAÇA SANTO ANTONIO",
           "match": "exato"
         },
         {
           "via": "RUA SANTO ANTÔNIO",
           "codigo": "00282",
-          "via_pdf": "RUA SANTO ANTÔNIO",
+          "via_pdf": "RUA SANTO ANTONIO",
           "match": "exato"
         },
         {
@@ -74658,9 +74658,9 @@
           "match": "fuzzy_78"
         },
         {
-          "via": "PÇA. AFRÂNIO JORGE",
+          "via": "PÇA. AFRANIO JORGE",
           "codigo": "00048",
-          "via_pdf": "PÇA. AFRÂNIO JORGE",
+          "via_pdf": "PÇA. AFRANIO JORGE",
           "match": "exato"
         },
         {
@@ -74702,7 +74702,7 @@
         {
           "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": "00240",
-          "via_pdf": "AV. CÍCERO TOLEDO",
+          "via_pdf": "AV. CICERO TOLEDO",
           "match": "fuzzy_77"
         },
         {
@@ -74730,21 +74730,21 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
-          "via_pdf": "RUA ENG. MÁRIO DE GUSMÃO",
+          "via_pdf": "RUA ENG. MARIO DE GUSMAO",
           "match": "fuzzy_74"
         },
         {
           "via": "AVENIDA ÁLVARO OTACÍLIO",
           "codigo": "00237",
-          "via_pdf": "AV. ÁLVARO DE OTACILIO",
+          "via_pdf": "AV. ALVARO DE OTACILIO",
           "match": "fuzzy_75"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": "00217",
-          "via_pdf": "AV. DR. JÚLIO MARQUES LUZ - AV. JATIÚCA",
+          "via_pdf": "AV. DR. JULIO MARQUES LUZ - AV. JATIUCA",
           "match": "fuzzy_75"
         },
         {
@@ -74756,7 +74756,7 @@
         {
           "via": "AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS - AMELIA ROSAS",
           "codigo": "00218",
-          "via_pdf": "AV. DR. ANTÔNIO G. DE B. - AMÉLIA ROSAS",
+          "via_pdf": "AV. DR. ANTONIO G. DE B. - AMÉLIA ROSAS",
           "match": "fuzzy_62"
         },
         {
@@ -74768,19 +74768,19 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
-          "via": "VIADUTO INDL. JOÃO LYRA",
+          "via": "VIADUTO INDL. JOAO LYRA",
           "codigo": "06665",
-          "via_pdf": "VIADUTO INDL. JOÃO LYRA",
+          "via_pdf": "VIADUTO INDL. JOAO LYRA",
           "match": "exato"
         },
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -74790,9 +74790,9 @@
           "match": "fuzzy_60"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         },
         {
@@ -74804,7 +74804,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -74814,9 +74814,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR ALBINO MAGALHÃES",
+          "via": "RUA DOUTOR ALBINO MAGALHAES",
           "codigo": "06270",
-          "via_pdf": "RUA ALBINO MAGALHÃES",
+          "via_pdf": "RUA ALBINO MAGALHAES",
           "match": "fuzzy_80"
         },
         {
@@ -74852,7 +74852,7 @@
         {
           "via": "RUA DESEMBARGADOR CARLOS DE GUSMÃO",
           "codigo": "00516",
-          "via_pdf": "RUA DESEMB. CARLOS DE GUSMÃO",
+          "via_pdf": "RUA DESEMB. CARLOS DE GUSMAO",
           "match": "fuzzy_75"
         },
         {
@@ -74912,7 +74912,7 @@
         {
           "via": "TERMINAL INTEGRADO EUSTÁQUIO GOMES",
           "codigo": "00526",
-          "via_pdf": "TERMINAL INTEGRADO EUSTÁQUIO GOMES",
+          "via_pdf": "TERMINAL INTEGRADO EUSTAQUIO GOMES",
           "match": "exato"
         }
       ]
@@ -75224,7 +75224,7 @@
         {
           "via": "TERMINAL INTEGRADO EUSTÁQUIO GOMES",
           "codigo": "00526",
-          "via_pdf": "TERMINAL INTEGRADO EUSTÁQUIO GOMES",
+          "via_pdf": "TERMINAL INTEGRADO EUSTAQUIO GOMES",
           "match": "exato"
         },
         {
@@ -75234,7 +75234,7 @@
           "match": "fuzzy_84"
         },
         {
-          "via": "RUA X - CJ EUSTÁQUIO GOMES",
+          "via": "RUA X - CJ EUSTAQUIO GOMES",
           "codigo": "06128",
           "via_pdf": "RUA X - CJ. EUSTÁQUIO GOMES I",
           "match": "exato_sem_complemento"
@@ -75264,7 +75264,7 @@
           "match": "exato"
         },
         {
-          "via": "VIA PRINCIPAL CONJ MACEIÓ I - A",
+          "via": "VIA PRINCIPAL CONJ MACEIO I - A",
           "codigo": "06531",
           "via_pdf": "VIA PRINCIPAL CONJ. MACEIÓ I - A",
           "match": "exato"
@@ -75284,7 +75284,7 @@
         {
           "via": "TERMINAL DA FORENE",
           "codigo": "00614",
-          "via_pdf": "TERMINAL DA FORENE (AV. JOSÉ MANHAES)",
+          "via_pdf": "TERMINAL DA FORENE (AV. JOSE MANHAES)",
           "match": "fuzzy_87"
         },
         {
@@ -75332,7 +75332,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -75342,9 +75342,9 @@
           "match": "fuzzy_60"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         }
       ]
@@ -76580,9 +76580,9 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         },
         {
@@ -76594,25 +76594,25 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
-          "via": "VIADUTO INDL. JOÃO LYRA",
+          "via": "VIADUTO INDL. JOAO LYRA",
           "codigo": "06665",
-          "via_pdf": "VIADUTO INDL. JOÃO LYRA",
+          "via_pdf": "VIADUTO INDL. JOAO LYRA",
           "match": "exato"
         },
         {
           "via": "AVENIDA ALMIRANTE ÁLVARO CALHEIROS",
           "codigo": "00469",
-          "via_pdf": "AV. ALMIRANTE ÁLVARO CALHEIROS",
+          "via_pdf": "AV. ALMIRANTE ALVARO CALHEIROS",
           "match": "fuzzy_84"
         },
         {
           "via": "AVENIDA ÁLVARO OTACÍLIO",
           "codigo": "00237",
-          "via_pdf": "AV. ÁLVARO DE OTACILIO",
+          "via_pdf": "AV. ALVARO DE OTACILIO",
           "match": "fuzzy_75"
         },
         {
@@ -76696,7 +76696,7 @@
         {
           "via": "RUA SANTO ANTÔNIO",
           "codigo": "00282",
-          "via_pdf": "RUA SANTO ANTÔNIO",
+          "via_pdf": "RUA SANTO ANTONIO",
           "match": "exato"
         },
         {
@@ -76714,7 +76714,7 @@
         {
           "via": "RUA SÃO FÉLIX",
           "codigo": "00052",
-          "via_pdf": "R. SÃO FÉLIX",
+          "via_pdf": "R. SAO FELIX",
           "match": "fuzzy_80"
         },
         {
@@ -76750,7 +76750,7 @@
         {
           "via": "AVENIDA MINISTRO MÁRIO ANDREAZZA",
           "codigo": "06376",
-          "via_pdf": "AV MINISTRO MÁRIO ANDREAZA",
+          "via_pdf": "AV MINISTRO MARIO ANDREAZA",
           "match": "fuzzy_67"
         },
         {
@@ -76876,7 +76876,7 @@
         {
           "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": "00240",
-          "via_pdf": "AV. CÍCERO TOLEDO",
+          "via_pdf": "AV. CICERO TOLEDO",
           "match": "fuzzy_77"
         },
         {
@@ -76912,7 +76912,7 @@
         {
           "via": "AVENIDA ALMIRANTE ÁLVARO CALHEIROS",
           "codigo": "00469",
-          "via_pdf": "AV. ALMIRANTE ÁLVARO CALHEIROS",
+          "via_pdf": "AV. ALMIRANTE ALVARO CALHEIROS",
           "match": "fuzzy_84"
         },
         {
@@ -76954,7 +76954,7 @@
         {
           "via": "ESTRADA DA SAÚDE",
           "codigo": "00226",
-          "via_pdf": "ESTRADA DA SAÚDE",
+          "via_pdf": "ESTRADA DA SAUDE",
           "match": "exato"
         },
         {
@@ -77450,7 +77450,7 @@
         {
           "via": "ESTRADA DA SAÚDE",
           "codigo": "00226",
-          "via_pdf": "ESTRADA DA SAÚDE",
+          "via_pdf": "ESTRADA DA SAUDE",
           "match": "exato"
         },
         {
@@ -77508,9 +77508,9 @@
           "match": "fuzzy_78"
         },
         {
-          "via": "PÇA. AFRÂNIO JORGE",
+          "via": "PÇA. AFRANIO JORGE",
           "codigo": "00048",
-          "via_pdf": "PÇA. AFRÂNIO JORGE",
+          "via_pdf": "PÇA. AFRANIO JORGE",
           "match": "exato"
         },
         {
@@ -77556,7 +77556,7 @@
           "match": "fuzzy_74"
         },
         {
-          "via": "RUA JOÃO PESSOA",
+          "via": "RUA JOAO PESSOA",
           "codigo": null,
           "via_pdf": null,
           "match": "sem_match"
@@ -77570,7 +77570,7 @@
         {
           "via": "AVENIDA DOM ANTÔNIO BRANDÃO",
           "codigo": "00119",
-          "via_pdf": "AV. DOM ANTÔNIO BRANDÃO",
+          "via_pdf": "AV. DOM ANTONIO BRANDAO",
           "match": "fuzzy_83"
         },
         {
@@ -77594,7 +77594,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -77604,9 +77604,9 @@
           "match": "fuzzy_60"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         }
       ]
@@ -77983,7 +77983,7 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato"
         },
@@ -77998,7 +77998,7 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -78078,7 +78078,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -78504,7 +78504,7 @@
           "match": "manual"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         },
@@ -78614,7 +78614,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -78630,8 +78630,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -78644,7 +78644,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato"
         },
@@ -78966,7 +78966,7 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "00221",
           "match": "exato"
         },
@@ -79506,7 +79506,7 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "fuzzy_74"
         },
@@ -79516,7 +79516,7 @@
           "match": "fuzzy_75"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": "00217",
           "match": "fuzzy_75"
         },
@@ -79547,8 +79547,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -79561,7 +79561,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -79878,7 +79878,7 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "00221",
           "match": "exato"
         },
@@ -79899,8 +79899,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -80440,7 +80440,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PADRE CÍCERO ROMÃO BATISTA",
+          "via": "RUA PADRE CICERO ROMÃO BATISTA",
           "codigo": "06362",
           "match": "exato"
         },
@@ -80531,8 +80531,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -80600,7 +80600,7 @@
           "match": "fuzzy_75"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -80853,7 +80853,7 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "00221",
           "match": "exato"
         },
@@ -80873,7 +80873,7 @@
           "match": "exato"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "exato"
         },
@@ -81192,7 +81192,7 @@
           "match": "exato"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "exato"
         },
@@ -81212,7 +81212,7 @@
           "match": "fuzzy_77"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -81954,7 +81954,7 @@
           "match": "fuzzy_82"
         },
         {
-          "via": "RUA SETE DE SETEMBRO - CENTRO",
+          "via": "RUA SETE DE SETEMBRO",
           "codigo": "06308",
           "via_pdf": "RUA SETE DE SETEMBRO",
           "match": "exato"
@@ -81968,7 +81968,7 @@
         {
           "via": "RUA SÃO PAULO",
           "codigo": "00285",
-          "via_pdf": "RUA SÃO PAULO",
+          "via_pdf": "RUA SAO PAULO",
           "match": "exato"
         },
         {
@@ -81990,7 +81990,7 @@
           "match": "fuzzy_69"
         },
         {
-          "via": "TERMINAL COLINA DOS EUCALIPTOS",
+          "via": "TERMINAL INTEGRADO COLINA DOS EUCALIPTOS",
           "codigo": "00779",
           "via_pdf": "TERMINAL INTEGRADO COL.DOS EUCALIPTOS",
           "match": "fuzzy_82"
@@ -82242,7 +82242,7 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL COLINA DOS EUCALIPTOS",
+          "via": "TERMINAL INTEGRADO COLINA DOS EUCALIPTOS",
           "codigo": "00779",
           "via_pdf": "TERMINAL INTEGRADO COL.DOS EUCALIPTOS",
           "match": "fuzzy_82"
@@ -82310,7 +82310,7 @@
         {
           "via": "PRAÇA SÃO JOSÉ",
           "codigo": "00265",
-          "via_pdf": "PRAÇA SÃO JOSÉ",
+          "via_pdf": "PRAÇA SAO JOSE",
           "match": "exato"
         },
         {
@@ -82322,7 +82322,7 @@
         {
           "via": "PRAÇA SÃO JOSÉ",
           "codigo": "00265",
-          "via_pdf": "PRAÇA SÃO JOSÉ",
+          "via_pdf": "PRAÇA SAO JOSE",
           "match": "exato"
         },
         {
@@ -83034,7 +83034,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS - RIO LARGO",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS - RIO LARGO",
           "codigo": null,
           "match": "manual"
         },
@@ -84143,9 +84143,9 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         },
         {
@@ -84157,7 +84157,7 @@
         {
           "via": "AVENIDA GOVERNADOR AFRÂNIO LAGES - LESTE OESTE",
           "codigo": "00161",
-          "via_pdf": "AV. GOV. AFRÂNIO LAGES - LESTE/OESTE",
+          "via_pdf": "AV. GOV. AFRANIO LAGES - LESTE/OESTE",
           "match": "fuzzy_72"
         },
         {
@@ -84205,7 +84205,7 @@
         {
           "via": "AVENIDA IND CÍCERO TOLEDO",
           "codigo": "00240",
-          "via_pdf": "AV. CÍCERO TOLEDO",
+          "via_pdf": "AV. CICERO TOLEDO",
           "match": "fuzzy_77"
         },
         {
@@ -84233,21 +84233,21 @@
           "match": "exato_sem_complemento"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
-          "via_pdf": "RUA ENG. MÁRIO DE GUSMÃO",
+          "via_pdf": "RUA ENG. MARIO DE GUSMAO",
           "match": "fuzzy_74"
         },
         {
           "via": "AVENIDA ÁLVARO OTACÍLIO",
           "codigo": "00237",
-          "via_pdf": "AV. ÁLVARO DE OTACILIO",
+          "via_pdf": "AV. ALVARO DE OTACILIO",
           "match": "fuzzy_75"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": "00217",
-          "via_pdf": "AV. DR. JÚLIO MARQUES LUZ - AV. JATIÚCA",
+          "via_pdf": "AV. DR. JULIO MARQUES LUZ - AV. JATIUCA",
           "match": "fuzzy_75"
         },
         {
@@ -84257,21 +84257,21 @@
           "match": "fuzzy_71"
         },
         {
-          "via": "RUA ENG. PAULO BRANDÃO NOGUEIR",
+          "via": "RUA ENG. PAULO BRANDAO NOGUEIR",
           "codigo": "00800",
-          "via_pdf": "RUA ENG. PAULO BRANDÃO NOGUEIR",
+          "via_pdf": "RUA ENG. PAULO BRANDAO NOGUEIR",
           "match": "exato"
         },
         {
           "via": "AVENIDA ALMIRANTE ÁLVARO CALHEIROS",
           "codigo": "00469",
-          "via_pdf": "AV. ALMIRANTE ÁLVARO CALHEIROS",
+          "via_pdf": "AV. ALMIRANTE ALVARO CALHEIROS",
           "match": "fuzzy_84"
         },
         {
           "via": "AVENIDA ÁLVARO OTACÍLIO",
           "codigo": "00237",
-          "via_pdf": "AV. ÁLVARO DE OTACILIO",
+          "via_pdf": "AV. ALVARO DE OTACILIO",
           "match": "fuzzy_75"
         },
         {
@@ -84287,7 +84287,7 @@
           "match": "fuzzy_84"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "via_pdf": "RUA JOÃO CANUTO DA SILVA",
           "match": "exato"
@@ -84299,7 +84299,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA JOSÉ DE MELO",
+          "via": "RUA JOSÉ CORRÊA DE MELO",
           "codigo": "06212",
           "via_pdf": "RUA JOSÉ DE MELO",
           "match": "exato"
@@ -84311,7 +84311,7 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "via_pdf": "RUA JOÃO CANUTO DA SILVA",
           "match": "exato"
@@ -84371,9 +84371,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA ÁLVARO MELO LADEIRA S JORGE-P CHALITA",
+          "via": "RUA ALVARO MELO LADEIRA S JORGE-P CHALITA",
           "codigo": "06141",
-          "via_pdf": "R. ÁLVARO MELO (LAD. S. JORGE-P. CHALITA",
+          "via_pdf": "R. ALVARO MELO (LAD. S. JORGE-P. CHALITA",
           "match": "fuzzy_76"
         },
         {
@@ -84383,7 +84383,7 @@
           "match": "exato"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "00174",
           "via_pdf": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
           "match": "exato"
@@ -84395,7 +84395,7 @@
           "match": "fuzzy_82"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "00174",
           "via_pdf": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
           "match": "exato"
@@ -84683,9 +84683,9 @@
           "match": "exato"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
-          "via_pdf": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via_pdf": "TERMINAL RODOVIARIO DE MACEIO",
           "match": "exato"
         }
       ]
@@ -85856,7 +85856,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": null,
           "match": "manual"
         },
@@ -85907,8 +85907,8 @@
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -86429,8 +86429,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -86528,7 +86528,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": null,
           "match": "manual"
         },
@@ -86826,7 +86826,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": null,
           "match": "manual"
         },
@@ -87305,7 +87305,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": null,
           "match": "manual"
         },
@@ -87617,7 +87617,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -87648,13 +87648,13 @@
         },
         {
           "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -88169,7 +88169,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": null,
           "match": "manual"
         },
@@ -88179,7 +88179,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": null,
           "match": "manual"
         },
@@ -88210,8 +88210,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -88224,7 +88224,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -90073,7 +90073,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -90094,8 +90094,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -90174,13 +90174,13 @@
         },
         {
           "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CORONEL MENDES DA FONSECA",
@@ -90643,7 +90643,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PADRE CÍCERO ROMÃO BATISTA",
+          "via": "RUA PADRE CICERO ROMÃO BATISTA",
           "codigo": null,
           "match": "manual"
         },
@@ -90734,8 +90734,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -90803,7 +90803,7 @@
           "match": "manual"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": null,
           "match": "manual"
         },
@@ -91128,7 +91128,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "fuzzy"
         },
@@ -91417,7 +91417,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -91437,7 +91437,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "fuzzy"
         },
@@ -92025,7 +92025,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "fuzzy"
         },
@@ -92060,7 +92060,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -92070,7 +92070,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": "00217",
           "match": "exato"
         },
@@ -92090,7 +92090,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DURVAL GUIMARÃES",
+          "via": "AVENIDA DURVAL GUIMARAES",
           "codigo": "00371",
           "match": "fuzzy"
         },
@@ -92136,8 +92136,8 @@
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "AVENIDA VIEIRA PERDIGÃO",
@@ -92884,7 +92884,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -92894,7 +92894,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": "00217",
           "match": "exato"
         },
@@ -92954,7 +92954,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato_global"
         },
@@ -92974,7 +92974,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "fuzzy"
         },
@@ -93303,7 +93303,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "fuzzy"
         },
@@ -93333,7 +93333,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -93358,14 +93358,14 @@
           "match": "exato_global"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "via": "RUA PONTES DE MIRANDA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
-          "codigo": "00013",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA CORONEL MENDES DA FONSECA",
@@ -93883,8 +93883,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -93957,7 +93957,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "MACEIÓ SHOPPING",
+          "via": "MACEIO SHOPPING",
           "codigo": "00459",
           "match": "exato_sem_complemento"
         },
@@ -93997,7 +93997,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -94012,7 +94012,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": "00480",
           "match": "fuzzy"
         },
@@ -94668,7 +94668,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PADRE CÍCERO ROMÃO BATISTA",
+          "via": "RUA PADRE CICERO ROMÃO BATISTA",
           "codigo": "06362",
           "match": "exato_global"
         },
@@ -94744,8 +94744,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -94779,8 +94779,8 @@
         },
         {
           "via": "RUA JORNALISTA LAFAIETE BELO",
-          "codigo": "00238",
-          "match": "exato"
+          "codigo": null,
+          "match": "nao_encontrado"
         },
         {
           "via": "RUA CORONEL PARANHOS",
@@ -94803,7 +94803,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -94838,7 +94838,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "06689",
           "match": "fuzzy_global"
         },
@@ -95216,7 +95216,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PADRE CÍCERO ROMÃO BATISTA",
+          "via": "RUA PADRE CICERO ROMÃO BATISTA",
           "codigo": "06362",
           "match": "exato_global"
         },
@@ -96085,8 +96085,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -96149,7 +96149,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "PRAÇA GUIMARÃES PASSOS",
+          "via": "PRAÇA GUIMARAES PASSOS",
           "codigo": "06189",
           "match": "exato"
         },
@@ -96209,7 +96209,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -96550,7 +96550,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato_global"
         },
@@ -96650,9 +96650,9 @@
           "match": "exato"
         },
         {
-          "via": "RUA DOUTOR LUÍS PONTES DE MIRANDA",
-          "codigo": "00012",
-          "match": "exato"
+          "via": "RUA PONTES DE MIRANDA",
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA DOUTOR PEDRO MONTEIRO",
@@ -97048,7 +97048,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PADRE CÍCERO ROMÃO BATISTA",
+          "via": "RUA PADRE CICERO ROMÃO BATISTA",
           "codigo": "06362",
           "match": "exato_global"
         },
@@ -97129,8 +97129,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -97188,7 +97188,7 @@
           "match": "contem"
         },
         {
-          "via": "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+          "via": "RUA ENGENHEIRO MARIO DE GUSMAO",
           "codigo": "00245",
           "match": "exato"
         },
@@ -97495,7 +97495,7 @@
           "match": "nao_encontrado"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": null,
           "match": "manual"
         },
@@ -97520,7 +97520,7 @@
           "match": "fuzzy"
         },
         {
-          "via": "AVENIDA DURVAL GUIMARÃES",
+          "via": "AVENIDA DURVAL GUIMARAES",
           "codigo": "00371",
           "match": "fuzzy"
         },
@@ -97620,7 +97620,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA PADRE CÍCERO ROMÃO BATISTA",
+          "via": "RUA PADRE CICERO ROMÃO BATISTA",
           "codigo": "06362",
           "match": "exato_global"
         },
@@ -98038,7 +98038,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -98058,7 +98058,7 @@
           "match": "manual"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": null,
           "match": "manual"
         },
@@ -98509,7 +98509,7 @@
           "match": "manual"
         },
         {
-          "via": "AL 101 NORTE - GARÇA TORTA",
+          "via": "AL 101 NORTE - GARCA TORTA",
           "codigo": null,
           "match": "manual"
         },
@@ -98529,7 +98529,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -99398,7 +99398,7 @@
           "match": "sem_match"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "06356",
           "match": "exato"
         },
@@ -99433,7 +99433,7 @@
           "match": "fuzzy_84"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "00174",
           "match": "exato"
         },
@@ -99458,7 +99458,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "00174",
           "match": "exato"
         },
@@ -99850,7 +99850,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "00174",
           "match": "exato"
         },
@@ -99865,7 +99865,7 @@
           "match": "sem_match"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": "00174",
           "match": "exato"
         },
@@ -99900,7 +99900,7 @@
           "match": "fuzzy_56"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -99916,8 +99916,8 @@
         },
         {
           "via": "RUA JOSÉ DE MELO",
-          "codigo": "06212",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -99930,7 +99930,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -100379,7 +100379,7 @@
           "match": "manual"
         },
         {
-          "via": "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+          "via": "AVENIDA PRESIDENTE GETULIO VARGAS",
           "codigo": null,
           "match": "manual"
         },
@@ -100780,7 +100780,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": null,
           "match": "manual"
         },
@@ -102107,8 +102107,8 @@
         },
         {
           "via": "RUA SETE DE SETEMBRO - CENTRO",
-          "codigo": "06308",
-          "match": "exato"
+          "codigo": null,
+          "match": "manual"
         },
         {
           "via": "RUA BUARQUE DE MACÊDO",
@@ -102181,7 +102181,7 @@
           "match": "fuzzy_75"
         },
         {
-          "via": "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+          "via": "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
           "codigo": null,
           "match": "manual"
         },
@@ -102216,7 +102216,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA PASTOR EURICO CALHEIROS",
+          "via": "RUA PASTOR EURÍCO CALHEIROS",
           "codigo": "00181",
           "match": "exato"
         },
@@ -102266,7 +102266,7 @@
           "match": "exato"
         },
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": "00185",
           "match": "exato"
         }
@@ -102581,7 +102581,7 @@
       ],
       "ruas": [
         {
-          "via": "TERMINAL RODOVIARIO DE MACEIÓ",
+          "via": "TERMINAL RODOVIARIO DE MACEIO",
           "codigo": null,
           "match": "manual"
         },
@@ -102601,7 +102601,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA DOUTOR ALBINO MAGALHÃES",
+          "via": "RUA DOUTOR ALBINO MAGALHAES",
           "codigo": null,
           "match": "manual"
         },
@@ -102616,7 +102616,7 @@
           "match": "manual"
         },
         {
-          "via": "RUA ELÓI DE LEMOS FRANÇA",
+          "via": "RUA ELÓI DE LEMOS FRANCA",
           "codigo": null,
           "match": "manual"
         },
@@ -102816,7 +102816,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "00221",
           "match": "exato"
         },
@@ -102904,7 +102904,7 @@
           "match": "exato"
         },
         {
-          "via": "RUA JOÃO CANUTO DA SILVA",
+          "via": "RUA JOÃO CANÚTO DA SILVA",
           "codigo": "00221",
           "match": "exato"
         },

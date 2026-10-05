@@ -15,7 +15,7 @@
             "TRAVESSA SARGENTO ARISTEU MAGALHÃES",
             "AVENIDA TEOTÔNIO BRANDÃO VILELA",
             "RUA EUCLIDES AFONSO DE MELO",
-            "AVENIDA PRESIDENTE GETÚLIO VARGAS - RIO LARGO"
+            "AVENIDA PRESIDENTE GETULIO VARGAS - RIO LARGO"
 
 
         ],
@@ -36,7 +36,7 @@
             "AVENIDA BENEDITO LOUREIRO",
             "AVENIDA BOSQUE DA CIMEIRA",
             "AVENIDA DOUTOR ANDRÉ PAPINI GÓIS",
-            "AVENIDA DOUTOR FERNANDO COUTO MALTA",
+            "AVENIDA DOUTOR FERNANDO DO COUTO MALTA",
             "AVENIDA EMPRESÁRIO NELSON OLIVEIRA MENEZES",
             "AVENIDA FREI DAMIÃO DE BOZANO",
             "AVENIDA GRAN JARDIM",
@@ -60,7 +60,7 @@
             "RUA DOS PINHAIS",
             "RUA DOUTOR CLEANTHO DE MOURA RIZZO",
             "RUA DOUTOR JURACI PEREIRA",
-            "RUA F - CIDADE UNIVERSITÁRIA",
+            "RUA F - CIDADE UNIVERSITARIA",
             "RUA JOANA D'ARC",
             "RUA K UM",
             "RUA L - CIDADE UNIVERSITÁRIA",
@@ -70,7 +70,7 @@
             "RUA TRANSVERSAL DENISSON MENEZES 2",
             "RUA TRANSVERSAL UFAL 2",
             "RUA UM",
-            "RUA X - CJ EUSTÁQUIO GOMES",
+            "RUA X - CJ EUSTAQUIO GOMES",
             "SAIDA DO CONJUNTO JARDIM ROYAL",
             "TERMINAL CONJUNTO GRACILIANO RAMOS",
             "TERMINAL CONJUNTO VILLAGE II",
@@ -78,10 +78,10 @@
             "TERMINAL INTEGRADO EUSTÁQUIO GOMES",
             "VIA DE ACESSO AO CONDOMÍNIO JARDIM DAS TULIPAS",
             "VIA DE LIGAÇÃO AO CONJUNTO JARDIM ROYAL",
-            "VIA INTERNA CONJUNTO MACEIÓ I - D",
-            "VIA INTERNA DO CONJUNTO MACEIÓ I - C",
-            "VIA PRINCIPAL CONJUNTO MACEIÓ I - A",
-            "VIA PRINCIPAL CONJUNTO MACEIÓ I - B",
+            "VIA INTERNA CONJUNTO MACEIO I - D",
+            "VIA INTERNA DO CONJUNTO MACEIO I - C",
+            "VIA PRINCIPAL CONJUNTO MACEIO I - A",
+            "VIA PRINCIPAL CONJUNTO MACEIO I - B",
             "VIA PRINCIPAL JARDIM DAS PALMEIRAS",
             "CORREDOR DE TRANSPORTE CONJUNTO NOVO JARDIM",
             "CORREDOR DE TRANSPORTE JARDIM ROYAL",        
@@ -116,7 +116,7 @@
             "AVENIDA DO FUTURO",
             "AVENIDA DOUTOR LUIZ ROCHA TOLEDO",
             "AVENIDA GARÇA TORTA",
-            "AVENIDA GERALDO BULHÕES",
+            "AVENIDA GERALDO BULHÔES",
             "AVENIDA GERALDO SAMPAIO",
             "AVENIDA GUAXUMA",
             "AVENIDA HUMBERTO GOMES DE BARROS",
@@ -179,7 +179,7 @@
         ],
 
         "GARÇA TORTA":[
-            "AL 101 NORTE - GARÇA TORTA",
+            "AL 101 NORTE - GARCA TORTA",
             "ESTRADA DA GROTA DO ANDRAUJO"
         ],
 
@@ -210,10 +210,10 @@
             "CONJUNTO SONHO DE ANTÔNIO DUARTE"
         ],
 
-        "JARDIM PETRÓPOLIS I":[
+        "JARDIM PETROPOLIS I":[
             "AVENIDA FRANCISCO AFONSO DE MELLO"
         ],
-        "JARDIM PETRÓPOLIS II":[
+        "JARDIM PETROPOLIS II":[
             "ALAMEDA A DOIS",
             "ALAMEDA JOSÉ LOPES DE ALBUQUERQUE",
             "ALAMEDA C UM",
@@ -224,20 +224,20 @@
             "RUA A | OITO",
             "RUA A | QUATORZE",
             "RUA PERIMETRAL 3",
-            "RUA DE ACESSO - JARDIM PETRÓPOLIS II",
+            "RUA DE ACESSO - JARDIM PETROPOLIS II",
             "RUA DOUTOR JOSÉ CAMELO JÚNIOR",
             "RUA PERIMETRAL 2",
             "RUA PERIMETRAL 4",
             "RUA PERIMETRAL 5",
-            "RUA PROFESSOR ANTÔNIO NEMESIO DE ALBUQUERQUE",
-            "RUA PROJETADA - JARDIM PETRÓPOLIS II",
+            "RUA PROFESSOR ANTONIO NEMESIO DE ALBUQUERQUE",
+            "RUA PROJETADA - JARDIM PETROPOLIS II",
             "RUA WILSON PRAXEDES",
             "TERMINAL CHÃ NOVA",
             "TERMINAL CONJUNTO JOÃO SAMPAIO I",
-            "VIA DE ACESSO À CHÃ NOVA",
-            "VIA PRINCIPAL DOIS - JARDIM PETRÓPOLIS II",
+            "VIA DE ACESSO À CHÂ NOVA",
+            "VIA PRINCIPAL DOIS - JARDIM PETROPOLIS II",
             "ACESSO AOS CONJUNTOS PETRÓPOLIS I,II,III",
-            "RUA DJALMA FRAGOSO DE ALENCAR"
+            "RUA DJALMA FRAGOSO DE ALENÇAR"
 
 
         ],
@@ -249,7 +249,7 @@
             "AVENIDA JOSÉ AILTON DOS SANTOS",
             "AVENIDA NAÇÕES UNIDAS",
             "AVENIDA OSVALDO RAMOS",
-            "AVENIDA SEBASTIÃO CORREIA DA ROCHA",
+            "AVENIDA SEBASTIÃO CORRÊIA DA ROCHA",
             "AVENIDA VEREADOR DÁRIO MARSÍGLIA",
             "RUA ACARAÚ",
             "RUA DA CODEAL",
@@ -260,7 +260,7 @@
             "RUA DOUTOR FÁBIO WANDERLEY",
             "RUA DOUTOR JOSÉ AFFONSO DE FARIAS MELLO NETO",
             "RUA EDGAR DE GÓES DE MONTEIRO",
-            "RUA EDUARDO PINHEIRO LOBO",
+            "RUA EDUARDO PINHEIRO LÔBO",
             "RUA HAMILTON MORAIS",
             "RUA J - CONJ HENRIQUE HEQUELMAN",
             "RUA JACI MELO",
@@ -309,14 +309,14 @@
             "LADEIRA GERALDO SANTOS MELO",
             "PRAÇA DO CENTENARIO",
             "RUA AFONSO PENA",
-            "RUA CLÁUDIO LIVIO",
+            "RUA CLAUDIO LIVIO",
             "RUA COMENDADOR FIRMO LOPES",
             "RUA COMENDADOR PALMEIRA",
             "RUA CORONEL LIMA ROCHA",
             "RUA DESEMBARGADOR TENÓRIO",
             "RUA DOM SANTINO COUTINHO",
             "RUA DOM VITAL",
-            "RUA DOUTOR ALBINO MAGALHÃES",
+            "RUA DOUTOR ALBINO MAGALHAES",
             "RUA DOUTOR JOÃO DE AZEVEDO FILHO",
             "RUA ENGENHEIRO OTÁVIO CABRAL",
             "RUA INDUSTRIAL LUIZ CALHEIROS JÚNIOR",
@@ -363,10 +363,10 @@
             "AVENIDA GENERAL WALFRIDO JERÔNIMO DA ROCHA",
             "AVENIDA JORNALISTA TEÓFILO ALVEZ LINS",
             "AVENIDA POETA LUIZ GONZAGA BARROSO",
-            "RUA ANTÔNIO SILVA - OSMAN LOUREIRO",
+            "RUA ANTONIO SILVA - OSMAN LOUREIRO",
             "RUA ANTÔNIO HOLANDA",
             "RUA BOA VISTA - CLIMA BOM",
-            "RUA CARLOS GUIDO FERRÁRIO LOBO",
+            "RUA CARLOS GUIDO FERRÁRIO LÔBO",
             "RUA DEZENOVE",
             "RUA DOUTOR JOÃO CRISÓSTOMO DE FARIAS",
             "RUA DOUTORA NADJA",
@@ -390,15 +390,15 @@
             "AVENIDA EVILÁSIO SORIANO",
             "AVENIDA GOVERNADOR OSMAN LOUREIRO",
             "AVENIDA JOÃO DAVINO",
-            "MACEIÓ SHOPPING",
+            "MACEIO SHOPPING",
             "RUA GOVERNADOR CARLOS LACERDA",
             "RUA JOSÉ LOURENÇO DE ALBUQUERQUE",
             "RUA MÁRIO PALMEIRA JÚNIOR",
-            "RUA VENERAVEL JOÃO VIEIRA CHAGAS"
+            "RUA VENERAVEL JOAO VIEIRA CHAGAS"
         ],
         "PRADO":[
             "RUA DO CEARÁ",
-            "RUA DOUTOR VIRGÍLIO GUEDES",
+            "RUA DOUTOR VÍRGILIO GUEDES",
             "RUA MANAUS",
             "TRAVESSA CABRAL",
             "TRAVESSA CALABAR"
@@ -423,7 +423,7 @@
             "AVENIDA PROFESSOR SANTOS FERRAZ",
             "BOMBA DA MARIETA",
             "PRAÇA 13 DE MAIO",
-            "PRAÇA GUIMARÃES PASSOS",
+            "PRAÇA GUIMARAES PASSOS",
             "PRAÇA SENHOR DO BONFIM",
             "RUA 13 DE MAIO",
             "RUA AURELINA LIMA DA SILVA",
@@ -459,7 +459,7 @@
             "RUA DOUTOR LAURO MACHADO COSTA",
             "RUA HAVAÍ",
             "RUA JOSÉ DE MELO",
-            "RUA JOÃO CANUTO DA SILVA",
+            "RUA JOÃO CANÚTO DA SILVA",
             "RUA MARECHAL MASCARENHAS DE MORAES",
             "RUA MARIA ANTÔNIETA TEIXEIRA LEITE",
             "RUA PADRE LUIZ AMÉRICO GALVÃO",
@@ -477,12 +477,12 @@
             "AVENIDA EDUARDO TADEU LOPES DA SILVA",
             "AVENIDA ENGENHEIRO CORINTHO CAMPELO DA PAZ",
             "AVENIDA JOSÉ MANHÃES",
-            "TRAVESSA INAILDA FÉLIX DE O SANTOS",
+            "TRAVESSA INAILDA FELIX DE O SANTOS",
             "TERMINAL DA FORENE",
             "TERMINAL SANTOS DUMONT",
             "TRAVESSA EDGAR DE GÓES MONTEIRO",
             "TRAVESSA ELIZEU GOMES DE SENA",
-            "TRAVESSA INAILDA FÉLIX"
+            "TRAVESSA INAILDA FELIX"
         ],
         
         "LEVADA":[
@@ -511,7 +511,7 @@
             "RUA LEOPOLDO ARAÚJO AMORIM",
             "RUA MARIA CECÍLIA DA ROCHA",
             "RUA PADRE SIZENANDO SILVA",
-            "RUA PASTOR EURICO CALHEIROS",
+            "RUA PASTOR EURÍCO CALHEIROS",
             "RUA PAU DARCO",
             "RUA SÃO BENEDITO",
             "RUA TRÊS",
@@ -524,16 +524,16 @@
             "AVENIDA JOSEFA DE MELO",
             "AVENIDA JOSÉ AÍRTON GONDIM LAMENHA",
             "AVENIDA RUI BARBOSA",
-            "RUA H - SÃO JORGE",
+            "RUA H - SAO JORGE",
             "RUA EBENEZER DE OLIVEIRA FRIAS",
             "RUA FRED STONE",
             "RUA SANTA AMÁLIA",
-            "PONTO DE RETORNO SÃO JORGE",
+            "PONTO DE RETORNO SAO JORGE",
             "RETORNO DO ATACADAO",
             "RETORNO DO VIADUTO JOSEPHA DE MELO",
             "RETORNO JOSEFA DE MELO",
-            "RUA ÁLVARO MELO LADEIRA SÃO JORGE",
-            "RUA G - SÃO JORGE"
+            "RUA ALVARO MELO LADEIRA SAO JORGE",
+            "RUA G - SAO JORGE"
 
         ],
 
@@ -568,12 +568,14 @@
             "RUA MARECHAL ROBERTO FERREIRA",
             "RUA MELO MORAIS",
             "RUA OLIVEIRA E SILVA",
+            "RUA PEDRO MONTEIRO",
+            "RUA PONTES DE MIRANDA",
             "RUA PROFESSOR DOMINGOS MOEDA",
             "RUA SANTOS PACHECO",
             "RUA SARGENTO BENEVIDES",
             "RUA SETE DE SETEMBRO - CENTRO",
             "RUA ZADIR ÍNDIO",
-            "RUA ZAFIRA ATAIDE CERQUEIRA-LOT J SAÚDE",
+            "RUA ZAFIRA ATAIDE CERQUEIRA-LOT J SAUDE",
             "TRAVESSA SETE DE SETEMBRO",
             "RETORNO AVENIDA DA PAZ",
             "RUA BUARQUE DE MACÊDO",
@@ -598,7 +600,7 @@
             "RUA F, G - SERRARIA",
             "RUA JOSÉ AUGUSTO SILVA SOUTO",
             "TERMINAL JOSÉ TENÓRIO",
-            "AVENIDA PRESIDENTE GETÚLIO VARGAS",
+            "AVENIDA PRESIDENTE GETULIO VARGAS",
             "ESTRADA DO GAMA",
             "LOTEAMENTO BRISA DA SERRARIA",
             "RETORNO CONJUNTO JOSÉ TENÓRIO",
@@ -607,11 +609,11 @@
             
         ],
         "PONTA VERDE":[
-            "AVENIDA DURVAL GUIMARÃES",
+            "AVENIDA DURVAL GUIMARAES",
             "AVENIDA PROFESSOR SANDOVAL ARROXELAS",
             "AVENIDA SENADOR RUI PALMEIRA",
             "AVENIDA ÁLVARO OTACÍLIO",
-            "RUA ENGENHEIRO MÁRIO DE GUSMÃO",
+            "RUA ENGENHEIRO MARIO DE GUSMAO",
             "TRAVESSA ANTÔNIO MACIEL DE OLIVEIRA",
             "RUA SENADOR RUI PALMEIRA - PONTA VERDE"
         ],
@@ -624,12 +626,12 @@
             "RUA ARIOSVALDO PEREIRA CINTRA",
             "RUA ARTUR VITAL DA SILVA",
             "RUA B - GRUTA DE LOURDES",
-            "RUA COMENDADOR LUIZ JARDIM FRANÇA",
+            "RUA COMENDADOR LUIZ JARDIM FRANCA",
             "RUA CONSELHEIRO JOSÉ BARBOSA",
             "RUA DEPUTADO SILOÉ TAVARES",
             "RUA DESEMBARGADOR BERRETO CARDOSO",
             "RUA DOUTOR SEBASTIÃO DA HORA",
-            "RUA ELÓI DE LEMOS FRANÇA",
+            "RUA ELÓI DE LEMOS FRANCA",
             "RUA FERNANDO JÚNIOR",
             "RUA HUGO CORRÊA PAES",
             "RUA NILO TORRES",
@@ -650,7 +652,8 @@
             "PRAÇA TENENTE MOISÉS SILVA FILHO",
             "RUA BENJAMIN CONSTANT",
             "RUA DOUTOR LUÍS DE BARROS",
-            "RUA GETÚLIO CORRÊA LIMA",
+            "RUA GETULIO CORRÊA LIMA",
+            "RUA JOSÉ CORRÊA DE MELO",
             "TERMINAL DO VERGEL",
             "TRAVESSA MONTE CASTELO",
             "RUA DOUTOR LUIZ DE BARROS"
@@ -662,6 +665,7 @@
             "RUA COMENDADOR VASCONCELOS",
             "TERMINAL GOIABEIRA",
             "RUA DA PRAIA",
+            "RUA DOUTOR PONTES DE MIRANDA",
             "RUA DOUTOR MANOEL MACHADO",
             "TERMINAL FERNÃO VELHO",
             "ESTRADA DA GOIABEIRA",
@@ -670,7 +674,7 @@
 
         "JATIÚCA":[
             "AVENIDA DOUTOR ANTÔNIO GOMES DE BARROS",
-            "AVENIDA DOUTOR JÚLIO MARQUES LUZ - AVENIDA JATIÚCA",
+            "AVENIDA DOUTOR JULIO MARQUES LUZ - AVENIDA JATIUCA",
             "AVENIDA DEPUTADO JOSÉ LAGES",
             "RUA I - JATIÚCA",
             "RUA MANOEL RIBEIRO DA ROCHA",
@@ -701,7 +705,7 @@
             "AVENIDA LITORÂNEA",
             "AVENIDA PIERRE CHALITA",
             "RUA FISCAL VERA DE MELLO QUEIROZ",
-            "RUA JORNALISTA JOSÉ NILTON DE OLIVEIRA CORREIA",
+            "RUA JORNALISTA JOSE NILTON DE OLIVEIRA CORREIA",
             "RUA MAJOR ISIDÓRO JERÔNIMO DA ROCHA",
             "CONJUNTO JACARECICA",
             "ESTRADA JACARECICA PARA",
@@ -718,7 +722,7 @@
             "RUA ITAPUÃ",
             "RUA JOEL VIEIRA DOS ANJOS",
             "RUA MAJOR ÁLVARO EUSTÓRGIO DE OLIVEIRA E SILVA",
-            "TERMINAL RODOVIARIO DE MACEIÓ",
+            "TERMINAL RODOVIARIO DE MACEIO",
             "TRAVESSA PENEDO"
             
         ],
@@ -748,7 +752,7 @@
             "RUA ALMEIDA GUIMARÃES",
             "RUA DA FLORESTA",
             "RUA DOUTORA NOÉLIA LESSA DOS SANTOS",
-            "RUA EMANI ROCHA CAVALCANTE PASSOS",
+            "RUA EMANI DA ROCHA CAVALCANTE PASSOS",
             "RUA ESTRADA ARNOUMAR CHAGAS",
             "RUA ESTUDANTE ARNOUMAR CHAGAS",
             "RUA GILBERTO VIEIRA LEITE",
@@ -775,7 +779,7 @@
         "TRAPICHE DA BARRA":[
             "AVENIDA ROBERTO PONTES LIMA",
             "AVENIDA SIQUEIRA CAMPOS",
-            "RUA CORONEL JOSÉ FRANCISCO VIEIRA",
+            "RUA CORONEL JOSÉ FRANCISCO VIÊIRA",
             "RUA CÔNEGO FERNANDO LYRA",
             "RUA DOUTOR PAULO NETO",
             "RUA JORNALISTA OSÉIAS ROSAS",
@@ -830,10 +834,10 @@
         "PONTA GROSSA":[
             "RUA FORMOSA - PONTA GROSSA",
             "RUA CABO REIS",
-            "RUA FÉLIX BANDEIRA",
+            "RUA FELIX BANDEIRA",
             "RUA MARQUÊS DE POMBAL",
             "RUA MOACIR MIRANDA",
-            "RUA PADRE CÍCERO ROMÃO BATISTA",
+            "RUA PADRE CICERO ROMÃO BATISTA",
             "RUA PAISSANDU",
             "RUA RADIALISTA DJALMA VALENÇA",
             "RUA SANTO ANTÔNIO",
@@ -846,7 +850,7 @@
             "RUA ANTENOR GOMES DE OLIVEIRA",
             "RUA ANTÔNIO MURTA",
             "RUA CONSELHEIRO JOSÉ BEZERRA",
-            "RUA DOUTOR LUÍS DE MASCARENHAS",
+            "RUA DOUTOR LUIS DE MASCARENHAS",
             "RUA FREI CANECA",
             "RUA MAJOR FRANCISCO DE BARROS REGO",
             "RUA MIGUEL PALMEIRA",
@@ -884,7 +888,7 @@
         ],
 
         "PITANGUINHA":[
-            "RUA CORONEL PACHECO RAMALHO",
+            "RUA CORONEL PACHÊCO RAMALHO",
             "RUA DEZ DE NOVEMBRO"
         ],
 

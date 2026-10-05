@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Eleição no ônibus: 2022 e 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
+<style>
+:root{
+  --canvas:#f5f5f5;--paper:#fff;--alt:#fafafa;--ink:#0a0a0a;--ink-soft:#171717;--mid:#737373;--hair:#e5e5e5;
+  --cima:#EAB308;--real:#DC2626;--sfra:#2563EB;--comum:#c4c4c4;
+  --r-card:24px;--r-ctl:18px;--r-nest:10px;
+  --shadow:0 0 0 1px rgba(23,23,23,.05),0 1px 3px rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);
+  --font:'Geist',ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--canvas);color:var(--ink);font:400 15px/1.5 var(--font);font-feature-settings:"ss01" on,"cv11" on;-webkit-font-smoothing:antialiased}
+button,input{font:inherit;color:inherit}button{cursor:pointer}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+h1,h2,h3,p{margin:0}
+.app{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:190px minmax(0,1fr);gap:24px;padding:16px 16px 56px}
+.side{position:sticky;top:16px;align-self:start;background:var(--alt);border-radius:var(--r-card);padding:16px;display:flex;flex-direction:column;gap:24px;min-height:calc(100vh - 32px)}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-mark{width:36px;height:36px;border-radius:var(--r-nest);background:var(--ink);color:var(--alt);display:grid;place-items:center;font-weight:600;font-size:12px;flex:none}
+.brand b{display:block;font-weight:600;line-height:1.2}.brand span{color:var(--mid);font-size:13px}
+.nav{display:flex;flex-direction:column;gap:4px}
+.nav button{display:flex;align-items:center;gap:12px;height:40px;padding:0 12px;border:0;border-radius:var(--r-ctl);background:transparent;color:var(--mid);font-weight:500;text-align:left;transition:background .15s,color .15s}
+.nav button:hover,.nav button[aria-current="page"]{background:var(--canvas);color:var(--ink)}
+.nav svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.side-foot{margin-top:auto;font-size:13px;color:var(--mid)}
+.main{min-width:0;display:flex;flex-direction:column;gap:16px}
+.mnav{display:none}
+.head{padding-block:4px}
+.head h1{font-size:32px;line-height:1.15;font-weight:600;letter-spacing:-.8px;text-wrap:balance}
+.head p{color:var(--mid);margin-top:6px;max-width:64ch;font-size:16px}
+.badge{display:inline-flex;align-items:center;gap:6px;height:24px;padding:2px 8px;border-radius:var(--r-ctl);font-size:12px;font-weight:500;white-space:nowrap;background:var(--canvas);color:var(--ink-soft)}
+.badge.solid{background:var(--ink-soft);color:var(--alt)}
+.badge.out{background:transparent;border:1px solid var(--hair);color:var(--ink)}
+.badge.dash{background:transparent;border:1px dashed #a3a3a3;color:var(--mid)}
+.dot{width:10px;height:10px;border-radius:50%;flex:none;display:inline-block}
+.card{background:var(--paper);border:1px solid var(--hair);border-radius:var(--r-card);box-shadow:var(--shadow);padding:22px;min-width:0}
+.ch{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:8px 16px;margin-bottom:16px}
+.ch h2{font-size:20px;line-height:1.35;font-weight:600;letter-spacing:-.3px}
+.ch p{color:var(--mid);max-width:62ch}
+.seg{display:inline-flex;gap:2px;padding:3px;background:var(--canvas);border-radius:var(--r-ctl);flex-wrap:wrap}
+.seg button{height:32px;padding:0 16px;border:0;border-radius:16px;background:transparent;color:var(--mid);font-size:14px;font-weight:500;white-space:nowrap;transition:background .15s,color .15s}
+.seg button:hover{color:var(--ink)}
+.seg button[aria-pressed="true"]{background:var(--paper);color:var(--ink);box-shadow:var(--shadow)}
+.chip{height:34px;padding:0 14px;border-radius:var(--r-ctl);border:1px solid var(--ink-soft);background:var(--paper);color:var(--ink);font-size:14px;font-weight:500;display:inline-flex;align-items:center;gap:8px;flex:none}
+.chip[aria-pressed="false"]{border-color:var(--hair);color:var(--mid)}
+.chip[aria-pressed="false"] .dot{opacity:.3}
+.toolbar{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.lbl{font-size:12px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:var(--mid)}
+
+/* como a comparação funciona */
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.step{background:var(--alt);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.step .n{width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--alt);display:grid;place-items:center;font-weight:600;font-size:13px}
+.step b{font-size:16px;font-weight:600}
+.step span{color:var(--mid)}
+.example{margin-top:14px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;background:var(--canvas);border-radius:18px;padding:14px 16px}
+.example .ex-b{display:flex;align-items:center;gap:8px;font-weight:500}
+.example .ex-b i{width:56px;height:12px;border-radius:6px;display:inline-block}
+.goal{margin-top:14px;padding:14px 16px;border:1px solid var(--hair);border-radius:18px}
+.goal b{display:block;margin-bottom:2px}
+
+/* resposta em uma frase */
+.answer{font-size:22px;line-height:1.3;font-weight:600;letter-spacing:-.4px;text-wrap:balance;margin-bottom:6px}
+.answer em{font-style:normal;background:linear-gradient(transparent 62%,#fde68a 62%)}
+.qn{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--alt);font-size:14px;font-weight:600;flex:none}
+.ch h2:has(.qn){display:flex;align-items:center;gap:10px}
+/* cores das empresas só nas bolinhas numeradas */
+.n.c1,.qn.c1{background:var(--cima);color:var(--ink)}
+.n.c2,.qn.c2{background:var(--real);color:#fff}
+.n.c3,.qn.c3{background:var(--sfra);color:#fff}
+/* efeitos de entrada */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1);transition-delay:var(--d,0ms)}
+.rv.in{opacity:1;transform:none}
+.step.rv .n{transform:scale(.4);transition:transform .6s cubic-bezier(.34,1.56,.64,1);transition-delay:calc(var(--d,0ms) + 160ms)}
+.step.rv.in .n{transform:none}
+.qn{transition:transform .6s cubic-bezier(.34,1.56,.64,1)}
+.card.rv .qn{transform:scale(.4)}
+.card.rv.in .qn{transform:none}
+.pb-t i{transition:width 1s cubic-bezier(.22,1,.36,1)}
+.pb-t i[data-late]{transition-delay:.18s}
+.hb-r i{transition:width .9s cubic-bezier(.22,1,.36,1)}
+.chart .bar{animation-play-state:paused}
+.chart.in .bar{animation-play-state:running}
+.delta{transition:transform .5s cubic-bezier(.34,1.56,.64,1)}
+.pb.rv .delta{transform:scale(.6)}
+.pb.rv.in .delta{transform:none}
+.pbs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:14px}
+.pbs.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.pb h3{font-size:14px;font-weight:600;margin-bottom:8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.pb-row{display:grid;grid-template-columns:104px minmax(0,1fr) auto;gap:10px;align-items:center;margin:6px 0}
+.pb-l{color:var(--mid);font-size:13px}
+.pb-t{height:22px;background:var(--canvas);border-radius:11px;overflow:hidden}
+.pb-t i{display:block;height:100%;border-radius:11px;transition:width .6s cubic-bezier(.22,1,.36,1)}
+.pb-v{font-weight:600;font-variant-numeric:tabular-nums;min-width:60px;text-align:right}
+.delta{display:inline-flex;align-items:center;height:24px;padding:0 10px;border-radius:12px;font-size:13px;font-weight:600;background:var(--ink-soft);color:var(--alt)}
+.delta.neg{background:transparent;color:var(--ink);border:1px solid #a3a3a3}
+.delta.flat{background:var(--canvas);color:var(--ink-soft)}
+.compare{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:0;font-variant-numeric:tabular-nums}
+.compare>div{padding:10px 12px;border-bottom:1px solid var(--hair)}
+.compare>.h{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--mid);font-weight:500}
+.compare>.r{text-align:right}
+
+/* gráficos svg */
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{font-family:var(--font);font-size:12px;fill:var(--mid);font-variant-numeric:tabular-nums}
+.chart text.v{fill:var(--ink);font-weight:600}.chart text.x{fill:var(--ink);font-weight:500}
+.chart .grid{stroke:var(--hair)}.chart .axis{stroke:#d4d4d4}
+.chart .hit{fill:transparent}.chart .hit:hover{fill:rgba(10,10,10,.035)}
+.chart .bar{transform-box:fill-box;transform-origin:50% 100%;animation:grow .5s cubic-bezier(.22,1,.36,1) both}
+@keyframes grow{from{transform:scaleY(0)}to{transform:none}}
+.legend{display:flex;gap:6px 16px;flex-wrap:wrap;color:var(--ink-soft);font-size:13px;font-weight:500}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend i{width:12px;height:12px;border-radius:4px;display:inline-block}
+.hb{display:grid;grid-template-columns:minmax(110px,190px) minmax(0,1fr);gap:6px 16px;align-items:center;padding:9px 0;border-bottom:1px solid var(--hair)}
+.hb:last-child{border-bottom:0}
+.hb-l{display:flex;align-items:center;gap:8px;min-width:0}
+.hb-l .t{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hb-l .nm{color:var(--mid);font-size:12px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hb-b{display:flex;flex-direction:column;gap:4px;min-width:0}
+.hb-r{display:flex;align-items:center;gap:8px}
+.hb-r i{display:block;height:12px;border-radius:6px;min-width:2px}
+.hb-r span{font-size:12px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.hb-r span.m{color:var(--mid);font-weight:500}
+.tip{position:fixed;z-index:30;pointer-events:none;min-width:168px;max-width:280px;background:var(--paper);border:1px solid var(--hair);border-radius:var(--r-nest);box-shadow:0 4px 12px rgba(0,0,0,.08),var(--shadow);padding:10px 12px;font-size:13px}
+.tip b{display:block;font-weight:600;margin-bottom:6px}
+.tip .r{display:flex;justify-content:space-between;gap:16px;color:var(--ink-soft)}
+.tip .r span:first-child{display:inline-flex;align-items:center;gap:8px}
+.tip .r em{font-style:normal;font-weight:600}
+.tip .m{color:var(--mid);margin-top:6px;font-size:12px}
+/* tabela e cards de linha */
+.scroll{overflow:auto;max-width:100%;border-radius:var(--r-nest)}
+.scroll.tall{max-height:560px}
+table{border-collapse:separate;border-spacing:0;width:100%}
+.tbl th,.tbl td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--hair);white-space:nowrap}
+.tbl th{position:sticky;top:0;z-index:2;background:var(--paper);font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--mid);font-weight:500}
+.tbl th button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:4px}
+.tbl th button:hover,.tbl th[aria-sort] button{color:var(--ink)}
+.tbl .n{text-align:right;font-variant-numeric:tabular-nums}
+.tbl tbody tr:hover td{background:var(--alt)}
+.tbl .sub{color:var(--mid)}
+.search{display:flex;align-items:center;gap:8px;height:36px;padding:0 10px;min-width:180px;flex:1 1 220px;max-width:340px;background:var(--canvas);border-radius:var(--r-ctl);border:1px solid transparent;color:var(--mid)}
+.search svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round}
+.search:focus-within{border-color:var(--hair);background:var(--paper)}
+.search input{flex:1;min-width:0;border:0;background:transparent;outline:0;color:var(--ink)}
+.lcards{display:none;flex-direction:column;gap:10px}
+.lc{border:1px solid var(--hair);border-radius:16px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.lc-h{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.lc-h .t{min-width:0}.lc-h .t b{display:flex;align-items:center;gap:8px}.lc-h .t span{color:var(--mid);font-size:12px;display:block}
+.lc-n{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;border-top:1px solid var(--hair);padding-top:8px}
+.lc-n div{display:flex;flex-direction:column}
+.lc-n small{color:var(--mid);font-size:12px}
+.lc-n b{font-variant-numeric:tabular-nums;font-weight:600}
+.scrollbox{max-height:640px;overflow:auto;padding-right:6px;scrollbar-width:thin}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.ecard h3{display:flex;align-items:center;gap:8px;font-size:18px;font-weight:600}
+.empty{text-align:center;padding:36px 16px;color:var(--mid)}
+details.help{color:var(--mid);padding:0 4px}
+details.help summary{cursor:pointer;font-weight:500;color:var(--ink);height:32px;display:flex;align-items:center}
+details.help ul{margin:4px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:4px;max-width:80ch}
+.view{animation:rise .28s cubic-bezier(.22,1,.36,1);display:flex;flex-direction:column;gap:16px}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(max-width:980px){.steps,.grid3,.pbs.three{grid-template-columns:1fr}}
+@media(max-width:760px){
+  .app{grid-template-columns:minmax(0,1fr);gap:12px;padding:10px 10px 32px}
+  .side{display:none}
+  .mnav{display:flex;gap:6px;position:sticky;top:0;z-index:10;background:var(--canvas);padding:4px 0}
+  .mnav button{flex:1;height:38px;padding:0 10px;border-radius:var(--r-ctl);border:1px solid var(--hair);background:var(--paper);font-weight:500;color:var(--mid);white-space:nowrap}
+  .mnav button[aria-current="page"]{background:var(--ink-soft);color:var(--alt);border-color:var(--ink-soft)}
+  .head h1{font-size:26px}.head p{font-size:15px}
+  .card{padding:16px;border-radius:20px}
+  .answer{font-size:19px}
+  .pbs{grid-template-columns:1fr}
+  .pb-row{grid-template-columns:92px minmax(0,1fr) auto}
+  .hb{grid-template-columns:minmax(0,1fr);gap:6px}
+  .tblwrap{display:none}.lcards{display:flex}
+  .scrollbox{max-height:460px}
+  .lc{padding:12px}
+  .lc-n{grid-template-columns:repeat(2,1fr)}
+  .toolbar{align-items:stretch}.search{max-width:none}
+  .compare{grid-template-columns:1.1fr 1fr 1fr 1fr;font-size:13px}.compare>div{padding:8px 6px}
+}
+@media(prefers-reduced-motion:reduce){.view,.chart .bar{animation:none}*{transition:none!important}.rv{opacity:1;transform:none}}
+</style></head><body>
+<div class="app">
+  <aside class="side">
+    <div class="brand"><div class="brand-mark" aria-hidden="true">1T</div><div><b>Eleição 1º turno</b><span>2022 e 2026</span></div></div>
+    <nav class="nav" id="nav" aria-label="Telas"></nav>
+    <div class="side-foot"><span id="b-upd"></span></div>
+  </aside>
+  <main class="main">
+    <nav class="mnav" id="mnav" aria-label="Telas (celular)"></nav>
+    <header class="head"><h1 id="h1"></h1><p id="sub"></p></header>
+    <div id="view" class="view"></div>
+    <details class="help"><summary>Sobre os números</summary><ul>
+      <li><b>Domingo anterior:</b> o domingo logo antes da eleição, sem nada especial (2022: 25/09; 2026: 27/09). É com ele que o dia da eleição é comparado (2022: 02/10; 2026: 04/10).</li>
+      <li><b>Passageiros:</b> pessoas que passaram o cartão no ônibus (relatório de embarques, já filtrado).</li>
+      <li><b>Ônibus:</b> quantos ônibus diferentes rodaram. Na empresa, soma dos ônibus de cada linha.</li>
+      <li><b>Viagens:</b> cada vez que um ônibus faz o trajeto de uma linha.</li>
+      <li><b>Dados provisórios:</b> as linhas 0001 e 0004 ficaram fora das somas de viagens e ônibus, por existirem em mais de uma empresa.</li>
+    </ul></details>
+  </main>
+</div>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+
+<script>
+const D = {"dias":[{"iso":"2022-09-18","ano":"2022","papel":"REF","lab":"18/09","full":"dom, 18/09/2022"},{"iso":"2022-09-25","ano":"2022","papel":"REF","lab":"25/09","full":"dom, 25/09/2022"},{"iso":"2022-10-02","ano":"2022","papel":"ELEI","lab":"02/10","full":"dom, 02/10/2022"},{"iso":"2026-09-20","ano":"2026","papel":"REF","lab":"20/09","full":"dom, 20/09/2026"},{"iso":"2026-09-27","ano":"2026","papel":"REF","lab":"27/09","full":"dom, 27/09/2026"},{"iso":"2026-10-04","ano":"2026","papel":"ELEI","lab":"04/10","full":"dom, 04/10/2026"}],"rows":[["2022-09-18","CIMA","0001",null,301,null,null],["2022-09-18","CIMA","0036","DUBEAUX LEÃO/CENTRO",788,20,2],["2022-09-18","CIMA","0114","C DAS ALMAS/TRAPICHE(JACINTINHO-J. LEÃO)",668,19,4],["2022-09-18","CIMA","0221","SAÚDE/TERMINAL CRUZ DAS ALMAS",742,17,3],["2022-09-18","CIMA","0223","IPIOCA/VERGEL(PONTA VERDE-TRAPICHE-POÇO)",3448,32,10],["2022-09-18","CIMA","0226","IPIOCA/TRAPICHE(POÇO-VERGEL-PONTA VERDE)",2951,31,5],["2022-09-18","CIMA","0501","VERGEL/SÃO JORGE(MERCADO-JACINTINHO)",294,9,1],["2022-09-18","CIMA","0504","TRAPICHE/SÃO JORGE(PTA VERDE-JACARECICA)",1057,14,5],["2022-09-18","CIMA","0601","BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)",984,null,null],["2022-09-18","CIMA","0603","VERGEL/MIRANTE(VIA POÇO - PÇA BOMFIM)",1173,19,4],["2022-09-18","CIMA","0604","EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY",3551,41,7],["2022-09-18","CIMA","0606","JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)",581,18,2],["2022-09-18","CIMA","0613","VERGEL/GUAXUMA(SANTO EDUARDO-JACARECICA)",517,15,3],["2022-09-18","CIMA","0614","TRAPICHE/MANGABEIRAS(J. LEÃO-PT. VERDE)",584,16,2],["2022-09-18","CIMA","0700","GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)",1075,17,3],["2022-09-18","CIMA","0708","CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC",1309,19,2],["2022-09-18","CIMA","1019","T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)",67,32,1],["2022-09-18","CIMA","M004","OURO PRETO/PONTA VERDE(FEITOSA)",15,3,2],["2022-09-18","CIMA","M005","IPIOCA/PONTAL(PONTA VERDE)",38,1,1],["2022-09-18","REAL","0001",null,221,null,null],["2022-09-18","REAL","0042","BEN. BENTES / CENTRO / SALVADOR LIRA",1443,19,3],["2022-09-18","REAL","0046","VILLAGE CAMPESTRE II / CENTRO",711,11,1],["2022-09-18","REAL","0048","BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)",1993,20,5],["2022-09-18","REAL","0052","T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)",447,7,1],["2022-09-18","REAL","0053","GRACILIANO RAMOS/CENTRO(FAROL)",819,15,2],["2022-09-18","REAL","0072","GAMA LINS / COLINA / PTA. VERDE",512,9,2],["2022-09-18","REAL","0104","BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)",2512,21,5],["2022-09-18","REAL","0110","GRACILIANO RAMOS/TRAPICHE(T. ROD.)",461,5,2],["2022-09-18","REAL","0111","T.I. EUST. GOMES/TRAPICHE(POÇO-PRADO)",781,9,3],["2022-09-18","REAL","0113","T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)",1632,15,3],["2022-09-18","REAL","0117","VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)",589,5,2],["2022-09-18","REAL","0214","HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA",541,12,2],["2022-09-18","REAL","0217","BENEDITO BENTES/MERCADO/FEITOSA",853,12,3],["2022-09-18","REAL","0601","BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)",1959,21,5],["2022-09-18","REAL","0602","S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE",2499,25,4],["2022-09-18","REAL","0607","T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)",1204,15,3],["2022-09-18","REAL","0612","E GOMES/JATIÚCA (VIA CENTRO-PONTA VERDE)",2458,25,5],["2022-09-18","REAL","0703","BENEDITO BENTES/PONTA VERDE",2732,27,7],["2022-09-18","REAL","0704","BENEDITO BENTES/PONTA VERDE/FAROL",3203,25,4],["2022-09-18","REAL","0706","T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT",2016,16,4],["2022-09-18","REAL","0707","GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)",1980,16,4],["2022-09-18","REAL","0717","VILLAGE II/PTª VERDE (JACINT-J DE MELO)",1713,13,4],["2022-09-18","REAL","0800","CATRACA SOLO DO BENEDITO BENTES II",3927,7,7],["2022-09-18","REAL","0804","CONJ. CIDADE SORRISO I/TER. B. BENTES",55,13,2],["2022-09-18","REAL","0805","GUAXUMA/TERMINAL DO BENEDITO BENTES",106,24,1],["2022-09-18","REAL","0807","JOSÉ APRÍGIO VILLELA / T.I. B. BENTES",919,41,6],["2022-09-18","REAL","0809","SELMA BANDEIRA/TERMINAL BENEDITO BENTES",425,24,3],["2022-09-18","REAL","0812","PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES",191,21,2],["2022-09-18","REAL","0901","T.I. B. BENTES/T.I. E. GOMES(H. METROP)",454,12,1],["2022-09-18","REAL","0903","T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)",505,9,3],["2022-09-18","REAL","4003","T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)",518,26,1],["2022-09-18","REAL","4004","B. BENTES/E. GOMES(G. RAMOS-VILLAGE II)",166,9,2],["2022-09-18","REAL","4006","TERMINAL MOCAMBO/T.I. BENEDITO BENTES",748,42,3],["2022-09-18","REAL","4011","TERM. SAL. LYRA / TERM. INTEG. VIA REC.",942,18,4],["2022-09-18","REAL","4012","CONJ. MACEIÓ I/TERM. EUSTÁQUIO GOMES",449,20,2],["2022-09-18","REAL","M001","VILLAGE II/PONTA VERDE(GRACILIANO RAMOS)",24,3,2],["2022-09-18","REAL","M002","BENEDITO BENTES/PONTA VERDE(TRAPICHE)",65,3,2],["2022-09-18","REAL","M003","EUSTAQUIO GOMES/PONTA VERDE(TRAPICHE)",35,3,2],["2022-09-18","SFRA","0068","COLINA/CENTRO(SANTA AMÉLIA - FAROL)",531,23,2],["2022-09-18","SFRA","0101","CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)",355,16,2],["2022-09-18","SFRA","0108","CLIMA BOM / TRAPICHE / BEBEDOURO",1641,23,4],["2022-09-18","SFRA","0401","CIRCULAR / BAIRROS 1",845,14,2],["2022-09-18","SFRA","0402","CIRCULAR / BAIRROS 2",789,15,2],["2022-09-18","SFRA","0709","CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO",1126,16,2],["2022-09-18","SFRA","0710","CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA",2331,23,3],["2022-09-18","SFRA","0712","SANTO DUMONT/ PONTA VERDE/ IGUATEMI",1595,21,4],["2022-09-18","SFRA","0714","RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)",2888,23,4],["2022-09-18","SFRA","0716","CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL",3459,29,4],["2022-09-18","SFRA","0719","CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)",318,7,1],["2022-09-18","SFRA","0723","ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT",2042,25,5],["2022-09-18","SFRA","0802","T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)",1521,21,2],["2022-09-18","SFRA","2058","FERNÃO VELHO/COLINA-VIA FEIRINHA-M. NETO",244,17,1],["2022-09-18","SFRA","M006","CLIMA BOM/PONTA VERDE(FERNAO VELHO)",69,3,2],["2022-09-25","CIMA","0001",null,340,null,null],["2022-09-25","CIMA","0036","DUBEAUX LEÃO/CENTRO",917,18,3],["2022-09-25","CIMA","0114","C DAS ALMAS/TRAPICHE(JACINTINHO-J. LEÃO)",731,21,2],["2022-09-25","CIMA","0221","SAÚDE/TERMINAL CRUZ DAS ALMAS",661,16,2],["2022-09-25","CIMA","0223","IPIOCA/VERGEL(PONTA VERDE-TRAPICHE-POÇO)",3207,26,5],["2022-09-25","CIMA","0226","IPIOCA/TRAPICHE(POÇO-VERGEL-PONTA VERDE)",2470,31,7],["2022-09-25","CIMA","0501","VERGEL/SÃO JORGE(MERCADO-JACINTINHO)",346,9,1],["2022-09-25","CIMA","0504","TRAPICHE/SÃO JORGE(PTA VERDE-JACARECICA)",773,14,3],["2022-09-25","CIMA","0601","BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)",1004,null,null],["2022-09-25","CIMA","0603","VERGEL/MIRANTE(VIA POÇO - PÇA BOMFIM)",1072,16,3],["2022-09-25","CIMA","0604","EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY",3668,46,7],["2022-09-25","CIMA","0606","JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)",571,16,2],["2022-09-25","CIMA","0613","VERGEL/GUAXUMA(SANTO EDUARDO-JACARECICA)",529,14,3],["2022-09-25","CIMA","0614","TRAPICHE/MANGABEIRAS(J. LEÃO-PT. VERDE)",380,17,2],["2022-09-25","CIMA","0700","GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)",1060,15,2],["2022-09-25","CIMA","0708","CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC",1113,16,3],["2022-09-25","CIMA","1019","T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)",30,35,1],["2022-09-25","CIMA","M004","OURO PRETO/PONTA VERDE(FEITOSA)",43,3,2],["2022-09-25","CIMA","M005","IPIOCA/PONTAL(PONTA VERDE)",23,3,2],["2022-09-25","REAL","0001",null,318,null,null],["2022-09-25","REAL","0042","BEN. BENTES / CENTRO / SALVADOR LIRA",1542,18,2],["2022-09-25","REAL","0046","VILLAGE CAMPESTRE II / CENTRO",729,10,1],["2022-09-25","REAL","0048","BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)",1812,19,6],["2022-09-25","REAL","0052","T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)",424,7,2],["2022-09-25","REAL","0053","GRACILIANO RAMOS/CENTRO(FAROL)",904,14,2],["2022-09-25","REAL","0072","GAMA LINS / COLINA / PTA. VERDE",597,8,2],["2022-09-25","REAL","0104","BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)",2165,21,7],["2022-09-25","REAL","0110","GRACILIANO RAMOS/TRAPICHE(T. ROD.)",554,8,2],["2022-09-25","REAL","0111","T.I. EUST. GOMES/TRAPICHE(POÇO-PRADO)",758,10,3],["2022-09-25","REAL","0113","T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)",1694,15,5],["2022-09-25","REAL","0117","VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)",597,6,2],["2022-09-25","REAL","0214","HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA",573,9,2],["2022-09-25","REAL","0217","BENEDITO BENTES/MERCADO/FEITOSA",877,14,2],["2022-09-25","REAL","0601","BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)",1904,25,5],["2022-09-25","REAL","0602","S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE",2232,23,4],["2022-09-25","REAL","0607","T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)",1099,12,4],["2022-09-25","REAL","0612","E GOMES/JATIÚCA (VIA CENTRO-PONTA VERDE)",2001,22,5],["2022-09-25","REAL","0703","BENEDITO BENTES/PONTA VERDE",2498,28,7],["2022-09-25","REAL","0704","BENEDITO BENTES/PONTA VERDE/FAROL",2460,28,9],["2022-09-25","REAL","0706","T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT",1864,15,4],["2022-09-25","REAL","0707","GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)",1507,15,4],["2022-09-25","REAL","0717","VILLAGE II/PTª VERDE (JACINT-J DE MELO)",1138,12,2],["2022-09-25","REAL","0727","EUSTÁQUIO GOMES/PTA VERDE(VILLAGE II)",1222,13,6],["2022-09-25","REAL","0800","CATRACA SOLO DO BENEDITO BENTES II",3905,7,7],["2022-09-25","REAL","0804","CONJ. CIDADE SORRISO I/TER. B. BENTES",91,14,3],["2022-09-25","REAL","0805","GUAXUMA/TERMINAL DO BENEDITO BENTES",124,24,1],["2022-09-25","REAL","0807","JOSÉ APRÍGIO VILLELA / T.I. B. BENTES",806,39,4],["2022-09-25","REAL","0809","SELMA BANDEIRA/TERMINAL BENEDITO BENTES",496,21,4],["2022-09-25","REAL","0812","PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES",197,21,5],["2022-09-25","REAL","0901","T.I. B. BENTES/T.I. E. GOMES(H. METROP)",569,12,1],["2022-09-25","REAL","0903","T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)",482,8,2],["2022-09-25","REAL","4003","T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)",439,25,1],["2022-09-25","REAL","4004","B. BENTES/E. GOMES(G. RAMOS-VILLAGE II)",167,9,1],["2022-09-25","REAL","4006","TERMINAL MOCAMBO/T.I. BENEDITO BENTES",876,35,3],["2022-09-25","REAL","4011","TERM. SAL. LYRA / TERM. INTEG. VIA REC.",907,17,2],["2022-09-25","REAL","4012","CONJ. MACEIÓ I/TERM. EUSTÁQUIO GOMES",532,20,2],["2022-09-25","REAL","M001","VILLAGE II/PONTA VERDE(GRACILIANO RAMOS)",22,3,2],["2022-09-25","REAL","M002","BENEDITO BENTES/PONTA VERDE(TRAPICHE)",52,2,2],["2022-09-25","REAL","M003","EUSTAQUIO GOMES/PONTA VERDE(TRAPICHE)",14,4,2],["2022-09-25","SFRA","0068","COLINA/CENTRO(SANTA AMÉLIA - FAROL)",665,22,2],["2022-09-25","SFRA","0101","CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)",444,15,3],["2022-09-25","SFRA","0108","CLIMA BOM / TRAPICHE / BEBEDOURO",1688,24,5],["2022-09-25","SFRA","0401","CIRCULAR / BAIRROS 1",631,14,2],["2022-09-25","SFRA","0402","CIRCULAR / BAIRROS 2",731,13,3],["2022-09-25","SFRA","0709","CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO",846,14,2],["2022-09-25","SFRA","0710","CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA",1994,20,4],["2022-09-25","SFRA","0712","SANTO DUMONT/ PONTA VERDE/ IGUATEMI",1885,20,5],["2022-09-25","SFRA","0714","RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)",2461,24,5],["2022-09-25","SFRA","0716","CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL",3080,29,5],["2022-09-25","SFRA","0719","CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)",298,7,2],["2022-09-25","SFRA","0723","ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT",1709,24,5],["2022-09-25","SFRA","0802","T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)",1402,22,2],["2022-09-25","SFRA","2058","FERNÃO VELHO/COLINA-VIA FEIRINHA-M. NETO",272,17,1],["2022-09-25","SFRA","M006","CLIMA BOM/PONTA VERDE(FERNAO VELHO)",1,3,2],["2022-10-02","CIMA","0012","CONJ. JOSÉ S. PEIXOTO/CENTRO",62,10,1],["2022-10-02","CIMA","0024","GRUTA/CENTRO-VIA C. ALMAS(TERM. ROTARY)",189,7,1],["2022-10-02","CIMA","0027","VILA SAEM/CENTRO(PINHEIRO-PITANGUINHA)",32,9,1],["2022-10-02","CIMA","0033","JOSÉ TENÓRIO/CENTRO (ROTARY-GRUTA)",816,20,2],["2022-10-02","CIMA","0036","DUBEAUX LEÃO/CENTRO",1353,18,3],["2022-10-02","CIMA","0041","FEITOSA / CENTRO / PIABAS / C. DAS ALMAS",623,14,4],["2022-10-02","CIMA","0114","C DAS ALMAS/TRAPICHE(JACINTINHO-J. LEÃO)",861,17,4],["2022-10-02","CIMA","0221","SAÚDE/TERMINAL CRUZ DAS ALMAS",1045,17,3],["2022-10-02","CIMA","0223","IPIOCA/VERGEL(PONTA VERDE-TRAPICHE-POÇO)",3737,28,7],["2022-10-02","CIMA","0226","IPIOCA/TRAPICHE(POÇO-VERGEL-PONTA VERDE)",4185,36,9],["2022-10-02","CIMA","0403","TRAPICHE/OURO PRETO(JACINTINHO-FAROL)",324,6,1],["2022-10-02","CIMA","0404","TRAPICHE/NOVO MUNDO(FAROL-JACINTINHO)",270,3,1],["2022-10-02","CIMA","0501","VERGEL/SÃO JORGE(MERCADO-JACINTINHO)",476,8,2],["2022-10-02","CIMA","0502","VERGEL/SÃO JORGE(MERCADO-FAROL)",267,6,2],["2022-10-02","CIMA","0504","TRAPICHE/SÃO JORGE(PTA VERDE-JACARECICA)",1040,14,2],["2022-10-02","CIMA","0601","BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)",1065,null,null],["2022-10-02","CIMA","0603","VERGEL/MIRANTE(VIA POÇO - PÇA BOMFIM)",1568,18,4],["2022-10-02","CIMA","0604","EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY",4721,40,13],["2022-10-02","CIMA","0606","JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)",796,17,2],["2022-10-02","CIMA","0610","CRUZ DAS ALMAS/OURO PRETO (VIA GRUTA)",536,13,3],["2022-10-02","CIMA","0613","VERGEL/GUAXUMA(SANTO EDUARDO-JACARECICA)",675,15,2],["2022-10-02","CIMA","0614","TRAPICHE/MANGABEIRAS(J. LEÃO-PT. VERDE)",561,16,2],["2022-10-02","CIMA","0700","GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)",1046,13,3],["2022-10-02","CIMA","0708","CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC",1713,18,3],["2022-10-02","CIMA","1019","T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)",41,32,1],["2022-10-02","CIMA","M004","OURO PRETO/PONTA VERDE(FEITOSA)",101,1,1],["2022-10-02","CIMA","M005","IPIOCA/PONTAL(PONTA VERDE)",71,3,2],["2022-10-02","REAL","0001",null,416,null,null],["2022-10-02","REAL","0042","BEN. BENTES / CENTRO / SALVADOR LIRA",3034,27,5],["2022-10-02","REAL","0046","VILLAGE CAMPESTRE II / CENTRO",1781,14,3],["2022-10-02","REAL","0048","BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)",3464,29,10],["2022-10-02","REAL","0052","T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)",716,7,2],["2022-10-02","REAL","0053","GRACILIANO RAMOS/CENTRO(FAROL)",1575,16,3],["2022-10-02","REAL","0072","GAMA LINS / COLINA / PTA. VERDE",808,9,3],["2022-10-02","REAL","0104","BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)",3753,28,11],["2022-10-02","REAL","0110","GRACILIANO RAMOS/TRAPICHE(T. ROD.)",672,4,2],["2022-10-02","REAL","0111","T.I. EUST. GOMES/TRAPICHE(POÇO-PRADO)",1597,11,4],["2022-10-02","REAL","0113","T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)",3137,18,9],["2022-10-02","REAL","0117","VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)",943,5,3],["2022-10-02","REAL","0214","HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA",870,11,2],["2022-10-02","REAL","0217","BENEDITO BENTES/MERCADO/FEITOSA",1387,13,4],["2022-10-02","REAL","0601","BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)",2194,24,5],["2022-10-02","REAL","0602","S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE",3965,30,6],["2022-10-02","REAL","0607","T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)",1688,14,7],["2022-10-02","REAL","0612","E GOMES/JATIÚCA (VIA CENTRO-PONTA VERDE)",3486,32,6],["2022-10-02","REAL","0703","BENEDITO BENTES/PONTA VERDE",2983,27,5],["2022-10-02","REAL","0704","BENEDITO BENTES/PONTA VERDE/FAROL",4364,31,11],["2022-10-02","REAL","0706","T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT",2019,13,4],["2022-10-02","REAL","0707","GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)",2462,17,4],["2022-10-02","REAL","0717","VILLAGE II/PTª VERDE (JACINT-J DE MELO)",1348,12,2],["2022-10-02","REAL","0727","EUSTÁQUIO GOMES/PTA VERDE(VILLAGE II)",2485,16,7],["2022-10-02","REAL","0800","CATRACA SOLO DO BENEDITO BENTES II",6723,7,7],["2022-10-02","REAL","0804","CONJ. CIDADE SORRISO I/TER. B. BENTES",76,22,3],["2022-10-02","REAL","0805","GUAXUMA/TERMINAL DO BENEDITO BENTES",176,28,2],["2022-10-02","REAL","0806","T. I. BENEDITO BENTES/CONJ. CAETÉS",537,15,3],["2022-10-02","REAL","0807","JOSÉ APRÍGIO VILLELA / T.I. B. BENTES",679,39,6],["2022-10-02","REAL","0809","SELMA BANDEIRA/TERMINAL BENEDITO BENTES",578,29,2],["2022-10-02","REAL","0812","PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES",147,23,3],["2022-10-02","REAL","0901","T.I. B. BENTES/T.I. E. GOMES(H. METROP)",882,12,1],["2022-10-02","REAL","0903","T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)",751,8,2],["2022-10-02","REAL","4003","T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)",636,26,1],["2022-10-02","REAL","4004","B. BENTES/E. GOMES(G. RAMOS-VILLAGE II)",361,9,1],["2022-10-02","REAL","4005","CONJ. FREI DAMIÃO/T.I. BENEDITO BENTES",180,17,2],["2022-10-02","REAL","4006","TERMINAL MOCAMBO/T.I. BENEDITO BENTES",1690,57,5],["2022-10-02","REAL","4007","CIDADE SORRISO II/T.I. BENEDITO BENTES",111,9,1],["2022-10-02","REAL","4011","TERM. SAL. LYRA / TERM. INTEG. VIA REC.",1550,17,2],["2022-10-02","REAL","4012","CONJ. MACEIÓ I/TERM. EUSTÁQUIO GOMES",908,25,3],["2022-10-02","REAL","M001","VILLAGE II/PONTA VERDE(GRACILIANO RAMOS)",44,3,2],["2022-10-02","REAL","M002","BENEDITO BENTES/PONTA VERDE(TRAPICHE)",63,3,1],["2022-10-02","REAL","M003","EUSTAQUIO GOMES/PONTA VERDE(TRAPICHE)",31,3,2],["2022-10-02","SFRA","0001",null,447,null,null],["2022-10-02","SFRA","0056","JOÃO SAMPAIO I / CENTRO / FAROL",488,5,1],["2022-10-02","SFRA","0068","COLINA/CENTRO(SANTA AMÉLIA - FAROL)",1180,28,4],["2022-10-02","SFRA","0101","CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)",949,18,3],["2022-10-02","SFRA","0108","CLIMA BOM / TRAPICHE / BEBEDOURO",1876,19,6],["2022-10-02","SFRA","0401","CIRCULAR / BAIRROS 1",1133,16,3],["2022-10-02","SFRA","0402","CIRCULAR / BAIRROS 2",1114,18,3],["2022-10-02","SFRA","0709","CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO",1532,20,4],["2022-10-02","SFRA","0710","CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA",3010,24,4],["2022-10-02","SFRA","0712","SANTO DUMONT/ PONTA VERDE/ IGUATEMI",2317,23,7],["2022-10-02","SFRA","0714","RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)",3599,26,7],["2022-10-02","SFRA","0716","CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL",4263,34,7],["2022-10-02","SFRA","0719","CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)",401,6,1],["2022-10-02","SFRA","0723","ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT",2773,25,6],["2022-10-02","SFRA","0802","T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)",2196,26,4],["2022-10-02","SFRA","2058","FERNÃO VELHO/COLINA-VIA FEIRINHA-M. NETO",406,17,1],["2022-10-02","SFRA","M006","CLIMA BOM/PONTA VERDE(FERNAO VELHO)",68,3,2],["2026-09-20","CIMA","0001",null,367,null,null],["2026-09-20","CIMA","0004",null,646,null,null],["2026-09-20","CIMA","0014","C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)",251,14,1],["2026-09-20","CIMA","0036","DUBEAUX LEÃO/CENTRO",713,22,2],["2026-09-20","CIMA","0109","C DAS ALMAS/TRAPICHE-VERGEL(P. VDE/POÇO)",3825,54,7],["2026-09-20","CIMA","0209","C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO)",556,18,3],["2026-09-20","CIMA","0501","VERGEL/SÃO JORGE(MERCADO-JACINTINHO)",356,10,2],["2026-09-20","CIMA","0604","EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY",3063,39,5],["2026-09-20","CIMA","0606","JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)",547,16,2],["2026-09-20","CIMA","0617","C DAS ALMAS/IPIOCA(SAÚDE-SAUAÇUHY)",4375,58,7],["2026-09-20","CIMA","0700","GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)",856,16,3],["2026-09-20","CIMA","0708","CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC",1137,16,2],["2026-09-20","CIMA","1000","TRAPICHE/PONTAL(V. DOS PESCADORES)",242,null,null],["2026-09-20","CIMA","1018","A. DO CRUZEIRO/AL 101 NORTE(ANDRAÚJO)",184,24,1],["2026-09-20","CIMA","1019","T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)",72,14,1],["2026-09-20","CIMA","1020","C. DAS ALMAS/SÃO JORGE(JOSEPHA DE MELO)",253,29,1],["2026-09-20","CIMA","1022","C.DAS ALMAS/ALTO DE GUAXUMA(JACARECICA)",215,19,1],["2026-09-20","CIMA","1023","C. DAS ALMAS/J. TENÓRIO(L. ÓLEO-MURILÓP)",225,16,2],["2026-09-20","CIMA","M004","OURO PRETO/PONTA VERDE(FEITOSA)",10,3,2],["2026-09-20","CIMA","M005","IPIOCA/PONTAL(PONTA VERDE)",20,2,2],["2026-09-20","REAL","0003","JARBAS OITICICA",1009,22,3],["2026-09-20","REAL","0004",null,872,null,null],["2026-09-20","REAL","0042","BEN. BENTES / CENTRO / SALVADOR LIRA",764,14,3],["2026-09-20","REAL","0046","VILLAGE CAMPESTRE II / CENTRO",485,10,1],["2026-09-20","REAL","0048","BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)",1411,18,3],["2026-09-20","REAL","0052","T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)",426,7,1],["2026-09-20","REAL","0053","GRACILIANO RAMOS/CENTRO(FAROL)",608,15,2],["2026-09-20","REAL","0104","BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)",1819,18,5],["2026-09-20","REAL","0110","GRACILIANO RAMOS/TRAPICHE(T. ROD.)",424,6,1],["2026-09-20","REAL","0113","T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)",1996,23,4],["2026-09-20","REAL","0117","VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)",417,6,1],["2026-09-20","REAL","0214","HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA",525,12,2],["2026-09-20","REAL","0217","BENEDITO BENTES/MERCADO/FEITOSA",630,12,3],["2026-09-20","REAL","0601","BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)",4448,41,5],["2026-09-20","REAL","0602","S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE",3081,29,5],["2026-09-20","REAL","0607","T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)",620,10,3],["2026-09-20","REAL","0612","A - E GOMES/JATIÚCA(VIA CENTRO-PONTA VERDE)",1860,null,null],["2026-09-20","REAL","0615","E. GOMES/MANGABEIRAS(M. MARCELO/J. MELO)",1129,17,3],["2026-09-20","REAL","0703","BENEDITO BENTES/PONTA VERDE",1768,23,5],["2026-09-20","REAL","0704","BENEDITO BENTES/PONTA VERDE/FAROL",2591,24,5],["2026-09-20","REAL","0706","T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT",1046,13,5],["2026-09-20","REAL","0707","GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)",1416,19,3],["2026-09-20","REAL","0720","DENISSON MENEZES/PONTA VERDE(FAROL)",722,14,2],["2026-09-20","REAL","0727","EUSTÁQUIO GOMES/PTA VERDE(VILLAGE II)",3373,26,7],["2026-09-20","REAL","0800","CATRACA SOLO DO BENEDITO BENTES II",2593,7,7],["2026-09-20","REAL","0804","CONJ. CIDADE SORRISO I/TER. B. BENTES",5,16,2],["2026-09-20","REAL","0805","GUAXUMA/TERMINAL DO BENEDITO BENTES",32,22,2],["2026-09-20","REAL","0807","JOSÉ APRÍGIO VILLELA / T.I. B. BENTES",3,26,4],["2026-09-20","REAL","0809","SELMA BANDEIRA/TERMINAL BENEDITO BENTES",16,23,3],["2026-09-20","REAL","0812","PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES",6,22,2],["2026-09-20","REAL","0901","T.I. B. BENTES/T.I. E. GOMES(H. METROP)",304,12,1],["2026-09-20","REAL","0902","CATRACA SOLO TI EUS GOMES",1398,3,3],["2026-09-20","REAL","0903","T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)",250,8,1],["2026-09-20","REAL","1000","TRAPICHE/PONTAL(V. DOS PESCADORES)",null,25,1],["2026-09-20","REAL","4003","T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)",1062,54,2],["2026-09-20","REAL","4006","TERMINAL MOCAMBO/T.I. BENEDITO BENTES",505,38,3],["2026-09-20","REAL","4011","TERM. SAL. LYRA / TERM. INTEG. VIA REC.",1143,31,3],["2026-09-20","REAL","4013","T.I. EUSTÁQUIO GOMES/FORENE(J SAÚDE)",180,37,2],["2026-09-20","REAL","4014","T.I. EUSTÁQUIO GOMES/N JARDIM-JD ROYAL",311,40,3],["2026-09-20","REAL","4015","T.I. EUST. GOMES/JD. AMARILIS(FLAMBOYANT",308,37,2],["2026-09-20","REAL","M001","VILLAGE II/PONTA VERDE(GRACILIANO RAMOS)",84,3,2],["2026-09-20","REAL","M002","BENEDITO BENTES/PONTA VERDE(TRAPICHE)",83,3,2],["2026-09-20","REAL","M003","EUSTAQUIO GOMES/PONTA VERDE(TRAPICHE)",64,3,2],["2026-09-20","SFRA","0001",null,935,null,null],["2026-09-20","SFRA","0068","COLINA/CENTRO(SANTA AMÉLIA - FAROL)",593,16,2],["2026-09-20","SFRA","0101","CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)",574,14,2],["2026-09-20","SFRA","0108","CLIMA BOM / TRAPICHE / BEBEDOURO",1042,16,4],["2026-09-20","SFRA","0301","VILLAGE II/C. DA JAQUEIRA(UFAL-COLINA)",244,8,1],["2026-09-20","SFRA","0401","CIRCULAR / BAIRROS 1",763,15,2],["2026-09-20","SFRA","0402","CIRCULAR / BAIRROS 2",772,14,2],["2026-09-20","SFRA","0612","A - E GOMES/JATIÚCA(VIA CENTRO-PONTA VERDE)",513,29,4],["2026-09-20","SFRA","0709","CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO",1139,20,4],["2026-09-20","SFRA","0710","CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA",2239,25,4],["2026-09-20","SFRA","0712","SANTO DUMONT/ PONTA VERDE/ IGUATEMI",1559,18,3],["2026-09-20","SFRA","0714","RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)",2306,20,5],["2026-09-20","SFRA","0716","CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL",2825,24,4],["2026-09-20","SFRA","0719","CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)",256,7,1],["2026-09-20","SFRA","0723","ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT",2075,23,4],["2026-09-20","SFRA","0802","T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)",1026,22,3],["2026-09-20","SFRA","0999","JOÃO SAMPAIO/FLEXAIS-VIA CHÃ DA JAQUEIRA",395,23,1],["2026-09-20","SFRA","2058","FERNÃO VELHO/COLINA-VIA FEIRINHA-M. NETO",325,16,1],["2026-09-20","SFRA","M006","CLIMA BOM/PONTA VERDE(FERNAO VELHO)",48,4,2],["2026-09-27","CIMA","0001",null,354,null,null],["2026-09-27","CIMA","0004",null,788,null,null],["2026-09-27","CIMA","0014","C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)",238,14,1],["2026-09-27","CIMA","0036","DUBEAUX LEÃO/CENTRO",620,17,3],["2026-09-27","CIMA","0109","C DAS ALMAS/TRAPICHE-VERGEL(P. VDE/POÇO)",3836,52,10],["2026-09-27","CIMA","0209","C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO)",432,18,2],["2026-09-27","CIMA","0501","VERGEL/SÃO JORGE(MERCADO-JACINTINHO)",288,9,1],["2026-09-27","CIMA","0604","EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY",2549,38,7],["2026-09-27","CIMA","0606","JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)",419,16,2],["2026-09-27","CIMA","0617","C DAS ALMAS/IPIOCA(SAÚDE-SAUAÇUHY)",4099,63,10],["2026-09-27","CIMA","0700","GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)",759,16,3],["2026-09-27","CIMA","0708","CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC",1158,16,4],["2026-09-27","CIMA","1000","TRAPICHE/PONTAL(V. DOS PESCADORES)",172,null,null],["2026-09-27","CIMA","1018","A. DO CRUZEIRO/AL 101 NORTE(ANDRAÚJO)",206,17,2],["2026-09-27","CIMA","1019","T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)",44,14,2],["2026-09-27","CIMA","1020","C. DAS ALMAS/SÃO JORGE(JOSEPHA DE MELO)",193,29,1],["2026-09-27","CIMA","1022","C.DAS ALMAS/ALTO DE GUAXUMA(JACARECICA)",177,26,1],["2026-09-27","CIMA","1023","C. DAS ALMAS/J. TENÓRIO(L. ÓLEO-MURILÓP)",180,17,2],["2026-09-27","CIMA","M005","IPIOCA/PONTAL(PONTA VERDE)",11,2,2],["2026-09-27","REAL","0003","JARBAS OITICICA",1099,27,4],["2026-09-27","REAL","0004",null,770,null,null],["2026-09-27","REAL","0042","BEN. BENTES / CENTRO / SALVADOR LIRA",713,14,3],["2026-09-27","REAL","0046","VILLAGE CAMPESTRE II / CENTRO",467,9,1],["2026-09-27","REAL","0048","BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)",1498,18,4],["2026-09-27","REAL","0052","T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)",377,7,1],["2026-09-27","REAL","0053","GRACILIANO RAMOS/CENTRO(FAROL)",574,14,2],["2026-09-27","REAL","0104","BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)",1949,18,3],["2026-09-27","REAL","0110","GRACILIANO RAMOS/TRAPICHE(T. ROD.)",397,6,1],["2026-09-27","REAL","0113","T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)",1875,22,7],["2026-09-27","REAL","0117","VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)",416,6,1],["2026-09-27","REAL","0214","HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA",564,12,2],["2026-09-27","REAL","0217","BENEDITO BENTES/MERCADO/FEITOSA",591,11,4],["2026-09-27","REAL","0601","BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)",4125,39,7],["2026-09-27","REAL","0602","S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE",2670,26,4],["2026-09-27","REAL","0607","T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)",569,10,3],["2026-09-27","REAL","0612","A - E GOMES/JATIÚCA(VIA CENTRO-PONTA VERDE)",1624,null,null],["2026-09-27","REAL","0615","E. GOMES/MANGABEIRAS(M. MARCELO/J. MELO)",1083,16,3],["2026-09-27","REAL","0703","BENEDITO BENTES/PONTA VERDE",1852,23,5],["2026-09-27","REAL","0704","BENEDITO BENTES/PONTA VERDE/FAROL",2388,23,6],["2026-09-27","REAL","0706","T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT",1280,13,5],["2026-09-27","REAL","0707","GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)",1282,16,4],["2026-09-27","REAL","0720","DENISSON MENEZES/PONTA VERDE(FAROL)",819,13,2],["2026-09-27","REAL","0727","EUSTÁQUIO GOMES/PTA VERDE(VILLAGE II)",3053,24,8],["2026-09-27","REAL","0800","CATRACA SOLO DO BENEDITO BENTES II",2641,7,7],["2026-09-27","REAL","0804","CONJ. CIDADE SORRISO I/TER. B. BENTES",2,13,2],["2026-09-27","REAL","0805","GUAXUMA/TERMINAL DO BENEDITO BENTES",23,16,1],["2026-09-27","REAL","0807","JOSÉ APRÍGIO VILLELA / T.I. B. BENTES",16,26,3],["2026-09-27","REAL","0809","SELMA BANDEIRA/TERMINAL BENEDITO BENTES",4,23,2],["2026-09-27","REAL","0812","PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES",5,21,2],["2026-09-27","REAL","0901","T.I. B. BENTES/T.I. E. GOMES(H. METROP)",326,11,2],["2026-09-27","REAL","0902","CATRACA SOLO TI EUS GOMES",1353,3,3],["2026-09-27","REAL","0903","T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)",236,8,1],["2026-09-27","REAL","1000","TRAPICHE/PONTAL(V. DOS PESCADORES)",null,25,1],["2026-09-27","REAL","4003","T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)",1018,49,4],["2026-09-27","REAL","4006","TERMINAL MOCAMBO/T.I. BENEDITO BENTES",570,40,4],["2026-09-27","REAL","4011","TERM. SAL. LYRA / TERM. INTEG. VIA REC.",1161,31,2],["2026-09-27","REAL","4013","T.I. EUSTÁQUIO GOMES/FORENE(J SAÚDE)",164,20,1],["2026-09-27","REAL","4014","T.I. EUSTÁQUIO GOMES/N JARDIM-JD ROYAL",259,32,1],["2026-09-27","REAL","4015","T.I. EUST. GOMES/JD. AMARILIS(FLAMBOYANT",286,37,2],["2026-09-27","REAL","M001","VILLAGE II/PONTA VERDE(GRACILIANO RAMOS)",75,3,2],["2026-09-27","REAL","M002","BENEDITO BENTES/PONTA VERDE(TRAPICHE)",98,3,2],["2026-09-27","REAL","M003","EUSTAQUIO GOMES/PONTA VERDE(TRAPICHE)",60,3,2],["2026-09-27","SFRA","0001",null,827,null,null],["2026-09-27","SFRA","0068","COLINA/CENTRO(SANTA AMÉLIA - FAROL)",438,16,2],["2026-09-27","SFRA","0101","CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)",587,14,2],["2026-09-27","SFRA","0108","CLIMA BOM / TRAPICHE / BEBEDOURO",883,15,2],["2026-09-27","SFRA","0301","VILLAGE II/C. DA JAQUEIRA(UFAL-COLINA)",255,8,1],["2026-09-27","SFRA","0401","CIRCULAR / BAIRROS 1",675,13,3],["2026-09-27","SFRA","0402","CIRCULAR / BAIRROS 2",641,13,3],["2026-09-27","SFRA","0612","A - E GOMES/JATIÚCA(VIA CENTRO-PONTA VERDE)",560,29,6],["2026-09-27","SFRA","0709","CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO",1094,18,3],["2026-09-27","SFRA","0710","CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA",1939,25,4],["2026-09-27","SFRA","0712","SANTO DUMONT/ PONTA VERDE/ IGUATEMI",1498,16,4],["2026-09-27","SFRA","0714","RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)",2233,20,4],["2026-09-27","SFRA","0716","CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL",2492,24,5],["2026-09-27","SFRA","0719","CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)",296,7,1],["2026-09-27","SFRA","0723","ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT",1942,22,5],["2026-09-27","SFRA","0802","T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)",979,22,2],["2026-09-27","SFRA","0999","JOÃO SAMPAIO/FLEXAIS-VIA CHÃ DA JAQUEIRA",321,22,1],["2026-09-27","SFRA","2058","FERNÃO VELHO/COLINA-VIA FEIRINHA-M. NETO",313,16,1],["2026-09-27","SFRA","M006","CLIMA BOM/PONTA VERDE(FERNAO VELHO)",46,3,2],["2026-10-04","CIMA","0001",null,21,null,null],["2026-10-04","CIMA","0003","JARBAS OITICICA",3,20,2],["2026-10-04","CIMA","0004",null,101,null,null],["2026-10-04","CIMA","0014","C DAS ALMAS/CENTRO(PEIXOTO-RODOV-MERCAD)",267,8,3],["2026-10-04","CIMA","0036","DUBEAUX LEÃO/CENTRO",1211,20,2],["2026-10-04","CIMA","0109","C DAS ALMAS/TRAPICHE-VERGEL(P. VDE/POÇO)",4302,50,9],["2026-10-04","CIMA","0112","IPIOCA/TRAPICH-VERGEL(P VDE-POÇO-J. LEÃO",72,2,1],["2026-10-04","CIMA","0209","C DAS ALMAS/VERGEL(STº EDUARDO-J LEÃO)",627,16,2],["2026-10-04","CIMA","0501","VERGEL/SÃO JORGE(MERCADO-JACINTINHO)",604,9,1],["2026-10-04","CIMA","0504","TRAPICHE/SÃO JORGE(PTA VERDE-JACARECICA)",413,4,1],["2026-10-04","CIMA","0604","EUST. GOMES/C. DAS ALMAS(VIA UFAL-ROTARY",3632,35,7],["2026-10-04","CIMA","0606","JOSÉ TENÓRIO/MANGABEIRAS(ROTARY-GRUTA)",797,16,2],["2026-10-04","CIMA","0617","C DAS ALMAS/IPIOCA(SAÚDE-SAUAÇUHY)",5419,63,8],["2026-10-04","CIMA","0700","GRUTA/PONTA VERDE-VIA JACINT.(T. ROTARY)",976,15,3],["2026-10-04","CIMA","0708","CRUZ DAS ALMAS / PTA VERDE/TER. ROD. JAC",1493,17,3],["2026-10-04","CIMA","1000","TRAPICHE/PONTAL(V. DOS PESCADORES)",180,null,null],["2026-10-04","CIMA","1018","A. DO CRUZEIRO/AL 101 NORTE(ANDRAÚJO)",243,26,1],["2026-10-04","CIMA","1019","T. SAUAÇUHY/ALTO DE IPIOCA(ALTO DO BOI)",133,13,1],["2026-10-04","CIMA","1020","C. DAS ALMAS/SÃO JORGE(JOSEPHA DE MELO)",283,26,2],["2026-10-04","CIMA","1022","C.DAS ALMAS/ALTO DE GUAXUMA(JACARECICA)",311,18,1],["2026-10-04","CIMA","1023","C. DAS ALMAS/J. TENÓRIO(L. ÓLEO-MURILÓP)",401,16,3],["2026-10-04","CIMA","M004","OURO PRETO/PONTA VERDE(FEITOSA)",14,4,2],["2026-10-04","CIMA","M005","IPIOCA/PONTAL(PONTA VERDE)",18,2,2],["2026-10-04","REAL","0001",null,98,null,null],["2026-10-04","REAL","0004",null,93,null,null],["2026-10-04","REAL","0042","BEN. BENTES / CENTRO / SALVADOR LIRA",1373,12,2],["2026-10-04","REAL","0046","VILLAGE CAMPESTRE II / CENTRO",900,9,2],["2026-10-04","REAL","0048","BEN. BENTES/CENTRO(VIA JOSEPHA DE MELO)",2087,18,4],["2026-10-04","REAL","0052","T.I. EUST GOMES/CENTRO(CAMBUCÍ/S. LÚCIA)",747,7,2],["2026-10-04","REAL","0053","GRACILIANO RAMOS/CENTRO(FAROL)",1281,15,2],["2026-10-04","REAL","0104","BENEDITO BENTES/TRAPICHE(VIA JACINTINHO)",2444,18,4],["2026-10-04","REAL","0110","GRACILIANO RAMOS/TRAPICHE(T. ROD.)",716,6,2],["2026-10-04","REAL","0113","T.I. EUST. GOMES/TRAPICHE(CENTRO-VERGEL)",2616,18,5],["2026-10-04","REAL","0117","VILLAGE II/TRAPICHE(CAMBUCÍ-RODOVIÁRIA)",512,5,1],["2026-10-04","REAL","0214","HENRIQUE EQUELMAN/VERGEL-TER. A. ALEGRIA",1033,12,2],["2026-10-04","REAL","0217","BENEDITO BENTES/MERCADO/FEITOSA",1051,11,5],["2026-10-04","REAL","0601","BEN. BENTES/JATIÚCA(VIA ROTA DO MAR)",4797,39,6],["2026-10-04","REAL","0602","S. LIRA/IGUAT./VIA D.LEÃO/CLETO/P.VERDE",3438,25,4],["2026-10-04","REAL","0607","T.I. EUST. GOMES/MANGABEIRAS(MCZ SHOP)",862,10,3],["2026-10-04","REAL","0612","A - E GOMES/JATIÚCA(VIA CENTRO-PONTA VERDE)",2286,null,null],["2026-10-04","REAL","0615","E. GOMES/MANGABEIRAS(M. MARCELO/J. MELO)",1703,16,3],["2026-10-04","REAL","0703","BENEDITO BENTES/PONTA VERDE",2597,23,6],["2026-10-04","REAL","0704","BENEDITO BENTES/PONTA VERDE/FAROL",2948,21,5],["2026-10-04","REAL","0706","T.I. EUST. GOMES/PT VERDE(J. MELO-JACINT",1378,14,7],["2026-10-04","REAL","0707","GRAC. RAMOS/P. VERDE(JACINT. - J DE MEL)",1877,18,4],["2026-10-04","REAL","0720","DENISSON MENEZES/PONTA VERDE(FAROL)",794,10,2],["2026-10-04","REAL","0727","EUSTÁQUIO GOMES/PTA VERDE(VILLAGE II)",3527,20,8],["2026-10-04","REAL","0800","CATRACA SOLO DO BENEDITO BENTES II",4546,7,7],["2026-10-04","REAL","0804","CONJ. CIDADE SORRISO I/TER. B. BENTES",1,13,1],["2026-10-04","REAL","0805","GUAXUMA/TERMINAL DO BENEDITO BENTES",10,21,1],["2026-10-04","REAL","0807","JOSÉ APRÍGIO VILLELA / T.I. B. BENTES",14,19,4],["2026-10-04","REAL","0809","SELMA BANDEIRA/TERMINAL BENEDITO BENTES",30,17,2],["2026-10-04","REAL","0812","PQE DAS AMERICAS/C.CARMINHA/T.B.BENTES",10,19,3],["2026-10-04","REAL","0901","T.I. B. BENTES/T.I. E. GOMES(H. METROP)",719,11,2],["2026-10-04","REAL","0902","CATRACA SOLO TI EUS GOMES",2143,3,3],["2026-10-04","REAL","0903","T.I. B.BENTES/T.I EUST. GOMES(G. VIL II)",449,7,3],["2026-10-04","REAL","1000","TRAPICHE/PONTAL(V. DOS PESCADORES)",null,25,1],["2026-10-04","REAL","4003","T.I. EUST. GOMES/GRAN JARDIM(MACEIÓ 1)",1691,46,3],["2026-10-04","REAL","4006","TERMINAL MOCAMBO/T.I. BENEDITO BENTES",991,37,2],["2026-10-04","REAL","4011","TERM. SAL. LYRA / TERM. INTEG. VIA REC.",1925,31,4],["2026-10-04","REAL","4013","T.I. EUSTÁQUIO GOMES/FORENE(J SAÚDE)",237,36,3],["2026-10-04","REAL","4014","T.I. EUSTÁQUIO GOMES/N JARDIM-JD ROYAL",709,38,2],["2026-10-04","REAL","4015","T.I. EUST. GOMES/JD. AMARILIS(FLAMBOYANT",467,36,2],["2026-10-04","REAL","M001","VILLAGE II/PONTA VERDE(GRACILIANO RAMOS)",76,3,2],["2026-10-04","REAL","M002","BENEDITO BENTES/PONTA VERDE(TRAPICHE)",90,3,2],["2026-10-04","REAL","M003","EUSTAQUIO GOMES/PONTA VERDE(TRAPICHE)",37,3,2],["2026-10-04","SFRA","0004",null,3,null,null],["2026-10-04","SFRA","0056","JOÃO SAMPAIO I / CENTRO / FAROL",365,15,2],["2026-10-04","SFRA","0068","COLINA/CENTRO(SANTA AMÉLIA - FAROL)",930,14,2],["2026-10-04","SFRA","0101","CHÃ DA JAQUEIRA/TRAPICHE(J.S.-B. PARTO)",915,14,2],["2026-10-04","SFRA","0108","CLIMA BOM / TRAPICHE / BEBEDOURO",1262,12,2],["2026-10-04","SFRA","0301","VILLAGE II/C. DA JAQUEIRA(UFAL-COLINA)",401,8,1],["2026-10-04","SFRA","0401","CIRCULAR / BAIRROS 1",968,14,2],["2026-10-04","SFRA","0402","CIRCULAR / BAIRROS 2",908,13,2],["2026-10-04","SFRA","0612","A - E GOMES/JATIÚCA(VIA CENTRO-PONTA VERDE)",627,30,6],["2026-10-04","SFRA","0709","CHÃ DA JAQUEIRA / PONTA VERDE / MUTIRÃO",1620,18,3],["2026-10-04","SFRA","0710","CHÃ DA JAQUEIRA/PONTA VERDE/BOA VISTA",2834,26,4],["2026-10-04","SFRA","0712","SANTO DUMONT/ PONTA VERDE/ IGUATEMI",1748,16,3],["2026-10-04","SFRA","0714","RIO NOVO/PONTA VERDE(FAROL-JACINTINHO)",2686,18,4],["2026-10-04","SFRA","0716","CLIMA BOM/PTA.VERDE/IGUATEMI/V.FAROL",3295,24,4],["2026-10-04","SFRA","0719","CHÃ NOVA/PONTA VERDE(VIA J. SAMPAIO)",387,7,1],["2026-10-04","SFRA","0723","ROSANE COLLOR/PONTA VERDE(B PARTO-JACINT",2670,22,4],["2026-10-04","SFRA","0802","T.I. COLINA/T.I. B. BENTES(C BOM-CORREI)",1610,21,3],["2026-10-04","SFRA","0999","JOÃO SAMPAIO/FLEXAIS-VIA CHÃ DA JAQUEIRA",487,23,2],["2026-10-04","SFRA","2058","FERNÃO VELHO/COLINA-VIA FEIRINHA-M. NETO",338,15,1],["2026-10-04","SFRA","M006","CLIMA BOM/PONTA VERDE(FERNAO VELHO)",37,3,2]],"gerado":"05/10/2026 12:59"};
+
+/* ── utilidades ─────────────────────────────────────────── */
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>Array.from(r.querySelectorAll(s));
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const f0=n=>n==null||isNaN(n)?'—':Math.round(n).toLocaleString('pt-BR');
+const fc=n=>n==null||isNaN(n)?'—':n>=1000?(n/1000).toLocaleString('pt-BR',{maximumFractionDigits:1})+' mil':f0(n);
+const pct=(a,b)=>(a==null||b==null||!b)?null:(a/b-1)*100;
+const fp=p=>p==null?'—':(p>0?'+':p<0?'−':'')+Math.abs(p).toLocaleString('pt-BR',{maximumFractionDigits:0})+'%';
+const sum=a=>a.reduce((s,x)=>s+(x||0),0);
+const avg=a=>{const v=a.filter(x=>x!=null);return v.length?sum(v)/v.length:null};
+/* frase simples: "53% a mais", "5% a menos", "quase igual" */
+const mais=p=>p==null?'—':Math.abs(p)<3?'quase igual':p>0?`${Math.round(p)}% a mais`:`${Math.round(-p)}% a menos`;
+/* "53% a mais de passageiros", "6% a menos de ônibus", "quase a mesma quantidade de viagens" */
+const qtd=(p,nome)=>p==null?'—':Math.abs(p)<3?`quase a mesma quantidade de ${nome}`:p>0?`${Math.round(p)}% a mais de ${nome}`:`${Math.round(-p)}% a menos de ${nome}`;
+const deltaB=p=>p==null?'':`<span class="delta ${Math.abs(p)<3?'flat':p<0?'neg':''}">${Math.abs(p)<3?'quase igual':fp(p)}</span>`;
+
+const EMP=['CIMA','REAL','SFRA'];
+const COL={CIMA:'var(--cima)',REAL:'var(--real)',SFRA:'var(--sfra)'};
+const MET={p:'Passageiros',v:'Viagens',c:'Ônibus'};
+const MET1={p:'pessoas',v:'viagens',c:'ônibus'};
+const ANOS=['2022','2026'];
+const DIAS=D.dias;
+const REFS={},ELEI={};
+/* comparação simples: só o domingo imediatamente anterior à eleição */
+ANOS.forEach(a=>{const refs=DIAS.filter(d=>d.ano===a&&d.papel==='REF').map(d=>d.iso).sort();REFS[a]=[refs[refs.length-1]];ELEI[a]=DIAS.find(d=>d.ano===a&&d.papel==='ELEI').iso});
+const DIA=Object.fromEntries(DIAS.map(d=>[d.iso,d]));
+const DIAS_USO=ANOS.flatMap(a=>[DIA[REFS[a][0]],DIA[ELEI[a]]]);
+const REFLAB=Object.fromEntries(ANOS.map(a=>[a,DIA[REFS[a][0]].lab])),ELEILAB=Object.fromEntries(ANOS.map(a=>[a,DIA[ELEI[a]].lab]));
+
+const LIN=new Map();
+D.rows.forEach(([dia,emp,linha,nome,p,v,c])=>{
+  const k=emp+'|'+linha;
+  if(!LIN.has(k))LIN.set(k,{emp,linha,nome,k,vals:{}});
+  const o=LIN.get(k); if(nome&&!o.nome)o.nome=nome;
+  o.vals[dia]={p,v,c};
+});
+const LINHAS=[...LIN.values()];
+const gv=(l,d,m)=>l.vals[d]?(l.vals[d][m]??null):null;
+function tot(dia,emps,m){let s=0;LINHAS.forEach(l=>{if(emps.has(l.emp)){const x=gv(l,dia,m);if(x!=null)s+=x}});return s}
+const ALL=new Set(EMP);
+const comum=(a,E,m)=>tot(REFS[a][0],E,m);   // domingo imediatamente anterior
+const eleicao=(a,E,m)=>tot(ELEI[a],E,m);
+
+const S={view:'resumo',emps:new Set(EMP),m:'p',ano:'2026',q:'',sort:{k:'linha',dir:1}};
+
+/* ── tooltip ───────────────────────────────────────────── */
+const tipEl=$('#tip');let TIPS=[];
+const addTip=h=>TIPS.push(h)-1;
+function showTip(h,x,y){tipEl.innerHTML=h;tipEl.hidden=false;const w=tipEl.offsetWidth,hh=tipEl.offsetHeight;let l=x+14,t=y+14;if(l+w>innerWidth-8)l=x-w-14;if(t+hh>innerHeight-8)t=y-hh-14;tipEl.style.left=Math.max(8,l)+'px';tipEl.style.top=Math.max(8,t)+'px'}
+document.addEventListener('pointermove',e=>{const el=e.target.closest&&e.target.closest('[data-t]');if(el&&TIPS[+el.dataset.t])showTip(TIPS[+el.dataset.t],e.clientX,e.clientY);else tipEl.hidden=true});
+document.addEventListener('pointerleave',()=>tipEl.hidden=true);
+document.addEventListener('touchstart',e=>{const el=e.target.closest&&e.target.closest('[data-t]');if(el&&TIPS[+el.dataset.t]){const t=e.touches[0];showTip(TIPS[+el.dataset.t],t.clientX,t.clientY);setTimeout(()=>tipEl.hidden=true,2400)}},{passive:true});
+const trow=(c,l,v)=>`<div class="r"><span>${c?`<i class="dot" style="background:${c}"></i>`:''}${l}</span><em>${v}</em></div>`;
+
+/* ── blocos visuais ────────────────────────────────────── */
+/* dois valores lado a lado: domingo anterior x dia da eleição */
+function pair(titulo,a,b,max,col,ano){
+  const w=v=>Math.max(1.5,v/max*100);
+  return `<div class="pb"><h3>${titulo} ${deltaB(pct(b,a))}</h3>
+    <div class="pb-row"><span class="pb-l">Domingo ${REFLAB[ano]}</span><div class="pb-t"><i data-w="${w(a)}%" style="width:0;background:var(--comum)"></i></div><span class="pb-v" data-count="${a}">${f0(a)}</span></div>
+    <div class="pb-row"><span class="pb-l">Eleição ${ELEILAB[ano]}</span><div class="pb-t"><i data-w="${w(b)}%" data-late style="width:0;background:${col}"></i></div><span class="pb-v" data-count="${b}">${f0(b)}</span></div></div>`;
+}
+function axis(max){const steps=[1,2,5,10,20,25,50,100,200,250,500,1000,2000,2500,5000,10000,20000,25000,50000];const step=steps.find(s=>max/s<=4)||50000;return{max:Math.max(step,Math.ceil(max/step)*step),step}}
+function gridY(ax,yv,l,W,compact){let s='';for(let v=0;v<=ax.max;v+=ax.step)s+=`<line class="${v===0?'axis':'grid'}" x1="${l}" x2="${W}" y1="${yv(v)}" y2="${yv(v)}"/><text x="${l-6}" y="${yv(v)+4}" text-anchor="end">${compact?fc(v):f0(v)}</text>`;return s}
+/* seis dias, empilhado por empresa */
+function drawStack(el,m){
+  const W=Math.max(280,el.clientWidth),narrow=W<520,H=narrow?270:320,l=narrow?36:46,r=4,t=28,b=narrow?44:50,gap=narrow?18:40;
+  const tots=DIAS_USO.map(d=>tot(d.iso,ALL,m));
+  const ax=axis(Math.max(...tots,1)),yv=v=>t+(H-t-b)*(1-v/ax.max);
+  const slot=(W-l-r-gap)/DIAS_USO.length,bw=Math.min(84,slot*.62);
+  let s=`<svg viewBox="0 0 ${W} ${H+14}" width="${W}" height="${H+14}" role="img" aria-label="${MET[m]} em cada dia">`+gridY(ax,yv,l,W-r,narrow);
+  DIAS_USO.forEach((d,i)=>{
+    const cx=l+slot*i+slot/2+(i>=2?gap:0),x=cx-bw/2,ele=d.papel==='ELEI';
+    let acc=0,tip=`<b>${d.full}${ele?' · dia da eleição':' · domingo anterior'}</b>`;
+    EMP.forEach(e=>{const v=tot(d.iso,new Set([e]),m);if(!v)return;const y0=yv(acc),y1=yv(acc+v);
+      s+=`<rect class="bar" x="${x}" y="${y1}" width="${bw}" height="${Math.max(0,y0-y1)}" fill="${COL[e]}" fill-opacity="${ele?1:.42}" rx="3"/>`;acc+=v;tip+=trow(COL[e],e,f0(v))});
+    tip+=`<div class="r" style="margin-top:4px;border-top:1px solid var(--hair);padding-top:4px"><span>Total</span><em>${f0(acc)}</em></div>`;
+    s+=`<text class="v" x="${cx}" y="${yv(acc)-8}" text-anchor="middle">${narrow?fc(acc):f0(acc)}</text>`;
+    s+=`<text class="x" x="${cx}" y="${H-b+18}" text-anchor="middle">${d.lab}</text>`;
+    if(ele)s+=`<text class="x" x="${cx}" y="${H-b+33}" text-anchor="middle" style="font-size:11px">eleição</text>`;
+    s+=`<rect class="hit" data-t="${addTip(tip)}" x="${cx-slot/2}" y="${t-20}" width="${slot}" height="${H-t-b+20}" rx="10"/>`;
+  });
+  [['2022',0],['2026',2]].forEach(([a,i])=>{const x1=l+slot*i+(i>=2?gap:0)+4,x2=l+slot*(i+2)+(i>=2?gap:0)-4;s+=`<line x1="${x1}" x2="${x2}" y1="${H-4}" y2="${H-4}" stroke="#d4d4d4"/><text class="x" x="${(x1+x2)/2}" y="${H+10}" text-anchor="middle">${a}</text>`});
+  el.innerHTML=s+'</svg>';
+}
+function hbars(items,max){
+  return items.map(it=>{const bar=x=>x?`<div class="hb-r"><i data-w="${Math.max(1,(x.v||0)/max*100)*0.78}%" style="width:0;background:${x.col};opacity:${x.op??1}"></i><span class="${x.muted?'m':''}">${x.txt}</span></div>`:'';
+    return `<div class="hb"><div class="hb-l">${it.dot?`<i class="dot" style="background:${it.dot}"></i>`:''}<div style="min-width:0"><span class="t"><b>${it.label}</b></span><span class="nm">${esc(it.sub||'')}</span></div></div><div class="hb-b">${bar(it.a)}${bar(it.b)}</div></div>`}).join('');
+}
+
+/* ── regras por linha ──────────────────────────────────── */
+function flag(e,a,b){const r=[a,b].filter(x=>x!=null);if(e==null||!r.length)return null;return e>Math.max(...r)?'R':e<Math.min(...r)?'D':'N'}
+function calc(l,ano){
+  const r1=REFS[ano][0],e=ELEI[ano];   // domingo anterior x dia da eleição
+  const o={p1:gv(l,r1,'p'),pe:gv(l,e,'p'),v1:gv(l,r1,'v'),ve:gv(l,e,'v'),c1:gv(l,r1,'c'),ce:gv(l,e,'c')};
+  o.pn=o.p1;o.vn=o.v1;o.cn=o.c1;o.up=pct(o.pe,o.pn);
+  o.fv=flag(o.ve,o.v1);o.fc=flag(o.ce,o.c1);
+  const temRef=[o.p1,o.v1].some(x=>x!=null),temEle=[o.pe,o.ve].some(x=>x!=null);
+  o.sinal=!temRef&&temEle?'Só na eleição':temRef&&!temEle?'Não rodou':!temRef&&!temEle?'—':(o.fv==='R'||o.fc==='R')?'Mais ônibus':(o.fv==='D'||o.fc==='D')?'Menos ônibus':'Igual';
+  return o;
+}
+const sinalBadge=s=>`<span class="badge ${s==='Mais ônibus'?'solid':s==='Menos ônibus'?'out':(s==='Só na eleição'||s==='Não rodou')?'dash':''}">${s}</span>`;
+const empDot=e=>`<i class="dot" style="background:${COL[e]}"></i>`;
+const arrow=(a,b)=>(a==null&&b==null)?'—':`${f0(a)} → ${f0(b)}`;
+const segMet=()=>`<div class="seg" role="group" aria-label="O que mostrar">${Object.entries(MET).map(([k,v])=>`<button data-act="met" data-v="${k}" aria-pressed="${S.m===k}">${v}</button>`).join('')}</div>`;
+const segAno=()=>`<div class="seg" role="group" aria-label="Ano">${ANOS.map(a=>`<button data-act="ano" data-v="${a}" aria-pressed="${S.ano===a}">${a}</button>`).join('')}<button data-act="ano" data-v="cmp" aria-pressed="${S.ano==='cmp'}">2022 x 2026</button></div>`;
+const chipsEmp=()=>`<div class="chips">${EMP.map(e=>`<button class="chip" data-act="emp" data-v="${e}" aria-pressed="${S.emps.has(e)}"><i class="dot" style="background:${COL[e]}"></i>${e}</button>`).join('')}</div>`;
+const searchBox=()=>`<label class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="q" type="search" placeholder="Buscar linha ou trajeto" value="${esc(S.q)}" autocomplete="off"></label>`;
+const lineMatch=l=>S.emps.has(l.emp)&&(!S.q||(l.linha+' '+(l.nome||'')).toLowerCase().includes(S.q.toLowerCase()));
+
+/* ── telas ─────────────────────────────────────────────── */
+const VIEWS={
+  resumo:{label:'Resumo',title:'Eleição no ônibus: 2022 e 2026',icon:'<rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/>',
+    sub:'Comparação entre o domingo do 1º turno das eleições de 2022 e de 2026 e o domingo anterior, nas empresas de ônibus de Maceió.',
+    render(){
+      const g=(a,m)=>({c:comum(a,ALL,m),e:eleicao(a,ALL,m)});
+      const P={22:g('2022','p'),26:g('2026','p')},V={22:g('2022','v'),26:g('2026','v')},C={22:g('2022','c'),26:g('2026','c')};
+      const u=o=>pct(o.e,o.c);
+      const mp=Math.max(P[22].c,P[22].e,P[26].c,P[26].e),mv=Math.max(V[22].c,V[22].e,V[26].c,V[26].e),mc=Math.max(C[22].c,C[22].e,C[26].c,C[26].e);
+      const bus=(a,Vv,Cc)=>(Math.abs(u(Vv))<3&&Math.abs(u(Cc))<3)?`Em ${a}, rodaram quase as mesmas viagens e os mesmos ônibus do que no domingo ${REFLAB[a]}.`:`Em ${a}, rodaram ${qtd(u(Vv),'viagens')} e ${qtd(u(Cc),'ônibus')} do que no domingo ${REFLAB[a]}.`;
+      const col='var(--ink-soft)';
+      return `
+      <section class="card"><div class="ch"><div><h2>Como a comparação funciona</h2><p>Três passos simples, sem conta difícil.</p></div></div>
+        <div class="steps">
+          <div class="step"><span class="n c1">1</span><b>O domingo anterior</b><span>É usado o domingo logo antes da eleição, quando não havia nada especial: ${REFLAB['2022']}/2022 e ${REFLAB['2026']}/2026.</span></div>
+          <div class="step"><span class="n c2">2</span><b>O dia da eleição</b><span>É o domingo da votação, 1º turno: ${ELEILAB['2022']}/2022 e ${ELEILAB['2026']}/2026.</span></div>
+          <div class="step"><span class="n c3">3</span><b>A diferença entre os dois</b><span>São comparados quantas pessoas andaram de ônibus e quantas viagens e ônibus rodaram.</span></div>
+        </div>
+        <div class="example"><b>Exemplo:</b><span class="ex-b"><i style="background:var(--comum)"></i>100 pessoas no domingo anterior</span><span class="ex-b"><i style="background:var(--ink-soft);width:84px"></i>150 na eleição</span><span class="delta">+50%</span><span>= metade a mais.</span></div>
+        <div class="goal"><b>Objetivo</b>Mostrar se a eleição aumenta o uso do ônibus e se a frota acompanhou esse aumento, para apoiar o planejamento dos próximos dias de votação.</div>
+      </section>
+
+      <section class="card"><div class="ch"><div><h2><span class="qn c1">1</span>Passageiros no dia da eleição</h2><p>Em 2022, houve ${qtd(u(P[22]),'passageiros')} do que no domingo ${REFLAB['2022']}. Em 2026, ${qtd(u(P[26]),'passageiros')} do que no domingo ${REFLAB['2026']}.</p></div></div>
+        <div class="pbs">${pair('Eleição 2022',P[22].c,P[22].e,mp,col,'2022')}${pair('Eleição 2026',P[26].c,P[26].e,mp,col,'2026')}</div></section>
+
+      <section class="card"><div class="ch"><div><h2><span class="qn c2">2</span>Viagens e ônibus em circulação</h2><p>${bus('2022',V[22],C[22])} ${bus('2026',V[26],C[26])}</p></div></div>
+        <div class="pbs">${pair('Viagens, 2022',V[22].c,V[22].e,mv,col,'2022')}${pair('Viagens, 2026',V[26].c,V[26].e,mv,col,'2026')}
+        ${pair('Ônibus, 2022',C[22].c,C[22].e,mc,col,'2022')}${pair('Ônibus, 2026',C[26].c,C[26].e,mc,col,'2026')}</div></section>
+
+      <section class="card"><div class="ch"><div><h2><span class="qn c3">3</span>Eleição de 2026 ao lado da de 2022</h2><p>No dia da eleição, o sistema levou ${qtd(pct(P[26].e,P[22].e),'passageiros')} em 2026 do que em 2022.</p></div></div>
+        <div class="compare"><div class="h">No dia da eleição</div><div class="h r">2022</div><div class="h r">2026</div><div class="h r">Mudou</div>
+          ${[['Passageiros',P],['Viagens',V],['Ônibus',C]].map(([n,o])=>`<div><b>${n}</b></div><div class="r">${f0(o[22].e)}</div><div class="r">${f0(o[26].e)}</div><div class="r"><b>${fp(pct(o[26].e,o[22].e))}</b></div>`).join('')}</div></section>`;
+    }},
+
+  empresas:{label:'Empresas',title:'Cada empresa',icon:'<path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/>',
+    sub:'Como cada empresa se saiu no dia da eleição, comparada ao domingo anterior.',
+    render(){
+      const mx=Math.max(...ANOS.flatMap(a=>EMP.flatMap(e=>[comum(a,new Set([e]),S.m),eleicao(a,new Set([e]),S.m)])),1);
+      return `<div class="toolbar"><span class="lbl">O que mostrar</span>${segMet()}</div>
+      <section class="card"><div class="ch"><div><h2>${MET[S.m]} em cada dia</h2><p>Barra cheia: dia da eleição. Barra clara: o domingo anterior (${REFLAB['2022']}/2022 e ${REFLAB['2026']}/2026).</p></div><div class="legend">${EMP.map(e=>`<span><i style="background:${COL[e]}"></i>${e}</span>`).join('')}</div></div><div class="chart" id="ch-stack"></div></section>
+      <div class="grid3">${EMP.map(e=>{const E=new Set([e]);return `<section class="card ecard"><h3>${empDot(e)}${e}</h3>
+        <div class="pbs" style="grid-template-columns:1fr;gap:16px">${ANOS.map(a=>pair(`Eleição ${a}`,comum(a,E,S.m),eleicao(a,E,S.m),mx,COL[e],a)).join('')}</div></section>`}).join('')}</div>`;
+    },
+    after(){drawStack($('#ch-stack'),S.m)}},
+
+  linhas:{label:'Linhas',title:'Cada linha',icon:'<path d="M4 6h16M4 12h16M4 18h10"/>',
+    sub:'Passageiros, viagens e ônibus de cada linha no dia da eleição, comparados ao domingo anterior ou entre as duas eleições.',
+    render(){
+      return `<section class="card"><div class="toolbar">${segAno()}${chipsEmp()}</div></section>
+      <section class="card"><div class="ch"><div><h2 id="lt"></h2><p id="ld"></p></div></div><div id="lb"></div></section>
+      <section class="card"><div class="ch"><div><h2>Todas as linhas</h2><p>Toque no título de uma coluna para ordenar.</p></div>${searchBox()}</div><div id="lt-tbl"></div></section>`;
+    },
+    after(){drawLinhas()}}
+};
+
+function tableGen(cols,rows){
+  const k=S.sort.k,dir=S.sort.dir,col=cols.find(c=>c.k===k)||cols[0];
+  rows=[...rows].sort((a,b)=>{const x=col.get(a),y=col.get(b);if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;return(typeof x==='string'?x.localeCompare(y,'pt-BR'):x-y)*dir});
+  return {rows,html:`<div class="scroll tall"><table class="tbl"><thead><tr>${cols.map(c=>`<th class="${c.n?'n':''}" ${c.k===k?`aria-sort="${dir>0?'ascending':'descending'}"`:''}><button data-act="sort" data-v="${c.k}">${c.h}${c.k===k?(dir>0?' ↑':' ↓'):''}</button></th>`).join('')}</tr></thead><tbody>${rows.length?rows.map(r=>`<tr>${cols.map(c=>`<td class="${c.n?'n':''}">${c.f(r)}</td>`).join('')}</tr>`).join(''):`<tr><td colspan="${cols.length}" class="empty">Nenhuma linha para os filtros atuais.</td></tr>`}</tbody></table></div>`};
+}
+function drawLinhas(instant){
+  const cmp=S.ano==='cmp';
+  const base=LINHAS.filter(lineMatch);
+  let rows,cols,cards,top;
+  const num=(h,k,get,fmt)=>({k,h,n:true,get,f:fmt||(r=>f0(get(r)))});
+  const lin={k:'linha',h:'Linha',get:r=>r.l.linha,f:r=>`<span style="display:inline-flex;align-items:center;gap:8px">${empDot(r.l.emp)}<b>${r.l.linha}</b></span>`};
+  const nm={k:'nome',h:'Trajeto',get:r=>r.l.nome||'',f:r=>`<span class="sub">${esc(r.l.nome)}</span>`};
+  const rd=x=>x!=null?Math.round(x):null;
+  if(!cmp){
+    rows=base.map(l=>({l,c:calc(l,S.ano)})).filter(r=>r.c.sinal!=='—');
+    const rl=REFLAB[S.ano],el=ELEILAB[S.ano];
+    cols=[lin,nm,num(`Passageiros dom. ${rl}`,'pn',r=>r.c.pn),num(`Passageiros eleição ${el}`,'p',r=>r.c.pe,r=>`<b>${f0(r.c.pe)}</b>`),num('A mais','up',r=>r.c.up,r=>`<b>${fp(r.c.up)}</b>`),
+      num(`Viagens (${rl} → ${el})`,'v',r=>r.c.ve,r=>arrow(rd(r.c.vn),r.c.ve)),num(`Ônibus (${rl} → ${el})`,'c',r=>r.c.ce,r=>arrow(rd(r.c.cn),r.c.ce)),
+      {k:'s',h:'Situação',get:r=>r.c.sinal,f:r=>sinalBadge(r.c.sinal)}];
+    cards=r=>`<div class="lc"><div class="lc-h"><div class="t"><b>${empDot(r.l.emp)}${r.l.linha}</b><span>${esc(r.l.nome)}</span></div>${sinalBadge(r.c.sinal)}</div><div class="lc-n"><div><small>Passageiros</small><b>${f0(r.c.pe)}</b></div><div><small>A mais</small><b>${fp(r.c.up)}</b></div><div><small>Viagens</small><b>${arrow(rd(r.c.vn),r.c.ve)}</b></div><div><small>Ônibus</small><b>${arrow(rd(r.c.cn),r.c.ce)}</b></div></div></div>`;
+    top=rows.map(r=>({l:r.l,a:r.c.pn,b:r.c.pe}));
+    $('#lt').textContent=`Passageiros de cada linha, eleição de ${S.ano}`;$('#ld').textContent=`Todas as linhas em ordem numérica. Barra clara: domingo ${REFLAB[S.ano]}/${S.ano}. Barra cheia: eleição ${ELEILAB[S.ano]}/${S.ano}.`;
+  }else{
+    rows=base.map(l=>({l,a:calc(l,'2022'),b:calc(l,'2026')})).filter(r=>(r.a.pe!=null||r.a.ve!=null)||(r.b.pe!=null||r.b.ve!=null));
+    cols=[lin,nm,num('Passageiros 2022','p22',r=>r.a.pe),num('Passageiros 2026','p26',r=>r.b.pe,r=>`<b>${f0(r.b.pe)}</b>`),num('Mudou','vp',r=>pct(r.b.pe,r.a.pe),r=>`<b>${fp(pct(r.b.pe,r.a.pe))}</b>`),
+      num('Viagens (2022 → 2026)','v26',r=>r.b.ve,r=>arrow(r.a.ve,r.b.ve)),num('Ônibus (2022 → 2026)','c26',r=>r.b.ce,r=>arrow(r.a.ce,r.b.ce))];
+    cards=r=>`<div class="lc"><div class="lc-h"><div class="t"><b>${empDot(r.l.emp)}${r.l.linha}</b><span>${esc(r.l.nome)}</span></div><span class="badge">${fp(pct(r.b.pe,r.a.pe))}</span></div><div class="lc-n"><div><small>Pass. 2022</small><b>${f0(r.a.pe)}</b></div><div><small>Pass. 2026</small><b>${f0(r.b.pe)}</b></div><div><small>Viagens</small><b>${arrow(r.a.ve,r.b.ve)}</b></div></div></div>`;
+    top=rows.map(r=>({l:r.l,a:r.a.pe,b:r.b.pe}));
+    $('#lt').textContent='Passageiros de cada linha: eleição 2022 e 2026';$('#ld').textContent='Todas as linhas em ordem numérica. Barra clara: eleição de 2022. Barra cheia: eleição de 2026.';
+  }
+  top=top.filter(z=>(z.b??z.a)!=null).sort((x,y)=>x.l.linha.localeCompare(y.l.linha,'pt-BR',{numeric:true}));
+  const mx=Math.max(...top.flatMap(z=>[z.a||0,z.b||0]),1);
+  $('#lb').innerHTML=`<div class="scrollbox">${top.length?'':'<div class="empty">Nenhuma linha para os filtros atuais.</div>'}`+hbars(top.map(z=>({label:z.l.linha,sub:z.l.nome,dot:COL[z.l.emp],a:{v:z.a||0,txt:f0(z.a),col:COL[z.l.emp],op:.4,muted:true},b:{v:z.b||0,txt:f0(z.b),col:COL[z.l.emp]}})),mx)+'</div>';
+  if(instant)fill($('#lb'),true);
+  const t=tableGen(cols,rows);
+  $('#lt-tbl').innerHTML=`<div class="tblwrap">${t.html}</div><div class="lcards">${t.rows.slice(0,80).map(cards).join('')||'<div class="empty">Nenhuma linha para os filtros atuais.</div>'}${t.rows.length>80?`<p style="text-align:center;color:var(--mid)">Mostrando 80 de ${t.rows.length}. Use a busca.</p>`:''}</div>`;
+}
+
+/* ── efeitos de entrada ────────────────────────────────── */
+const REDUCE=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function countUp(el){
+  const to=+el.dataset.count;if(REDUCE||!to){el.textContent=f0(to);return}
+  const t0=performance.now(),dur=1100;
+  const tick=t=>{const k=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-k,3);el.textContent=f0(to*e);if(k<1)requestAnimationFrame(tick)};
+  requestAnimationFrame(tick);
+}
+/* preenche barras e números dentro de root (sem entrar em blocos .pb ainda não revelados) */
+function fill(root,own){
+  $$('[data-w]',root).forEach(el=>{const pb=el.closest('.pb');if(pb&&pb!==root&&!own)return;el.style.width=el.dataset.w});
+  $$('[data-count]',root).forEach(el=>{const pb=el.closest('.pb');if(pb&&pb!==root&&!own)return;if(!el.dataset.done){el.dataset.done=1;countUp(el)}});
+}
+let IO=null;
+function setupReveal(){
+  if(IO)IO.disconnect();
+  const alvos=[...$$('#view > *')];
+  alvos.forEach((el,i)=>{el.classList.add('rv');el.style.setProperty('--d',(Math.min(i,3)*70)+'ms')});
+  $$('#view .step').forEach((el,i)=>{el.classList.add('rv');el.style.setProperty('--d',(i*110)+'ms')});
+  $$('#view .pb').forEach((el,i)=>{el.classList.add('rv');el.style.setProperty('--d',((i%3)*120)+'ms')});
+  $$('#view .example,#view .goal,#view .compare').forEach((el,i)=>{el.classList.add('rv');el.style.setProperty('--d','120ms')});
+  const charts=$$('#view .chart');
+  const todos=[...$$('#view .rv'),...charts];
+  if(REDUCE||!('IntersectionObserver' in window)){todos.forEach(el=>{el.classList.add('in');if(!el.matches('.chart'))fill(el)});return}
+  IO=new IntersectionObserver(es=>es.forEach(en=>{if(!en.isIntersecting)return;const el=en.target;el.classList.add('in');if(!el.matches('.chart'))fill(el,el.matches('.pb'));IO.unobserve(el)}),{threshold:0,rootMargin:'0px 0px -8% 0px'});   // threshold 0: blocos muito altos (lista de linhas no celular) também aparecem
+  todos.forEach(el=>IO.observe(el));
+  /* segurança: o que já está na tela e não foi revelado aparece de qualquer jeito */
+  setTimeout(()=>todos.forEach(el=>{if(!el.classList.contains('in')&&el.getBoundingClientRect().top<innerHeight){el.classList.add('in');if(!el.matches('.chart'))fill(el,el.matches('.pb'))}}),1500);
+}
+
+/* ── shell ─────────────────────────────────────────────── */
+function render(){
+  TIPS=[];const V=VIEWS[S.view];
+  $('#nav').innerHTML=Object.entries(VIEWS).map(([k,v])=>`<button data-act="view" data-v="${k}" ${k===S.view?'aria-current="page"':''}><svg viewBox="0 0 24 24" aria-hidden="true">${v.icon}</svg>${v.label}</button>`).join('');
+  $('#mnav').innerHTML=Object.entries(VIEWS).map(([k,v])=>`<button data-act="view" data-v="${k}" ${k===S.view?'aria-current="page"':''}>${v.label}</button>`).join('');
+  $('#h1').textContent=V.title;$('#sub').textContent=V.sub;
+  $('#view').innerHTML=V.render();V.after&&V.after();setupReveal();
+}
+function keepFocus(){if(S.view==='linhas'){drawLinhas(true)}}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-act]');if(!b)return;const v=b.dataset.v,a=b.dataset.act;
+  if(a==='view'){S.view=v;S.q='';render();scrollTo({top:0})}
+  else if(a==='emp'){S.emps.has(v)?(S.emps.size>1&&S.emps.delete(v)):S.emps.add(v);render()}
+  else if(a==='met'){S.m=v;render()}
+  else if(a==='ano'){S.ano=v;render()}
+  else if(a==='sort'){S.sort=S.sort.k===v?{k:v,dir:-S.sort.dir}:{k:v,dir:(v==='linha'||v==='nome')?1:-1};drawLinhas(true)}
+});
+document.addEventListener('input',e=>{if(e.target.id==='q'){S.q=e.target.value;keepFocus()}});
+let rz,lastW=innerWidth;addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(()=>{if(innerWidth!==lastW){lastW=innerWidth;render()}},150)});
+$('#b-upd').textContent='Gerado em '+D.gerado;
+render();
+</script>
+</body></html>

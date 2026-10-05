@@ -9,10 +9,24 @@ import passeLivreEstudantil from "./assets/dashboards/passe-livre-estudantil.png
 import domingoLivreCidadao from "./assets/dashboards/domingo-livre-cidadao.png";
 import onibusDaMulher from "./assets/dashboards/onibus-da-mulher.png";
 import embarques4003 from "./assets/dashboards/embarques-4003.png";
+import eleicaoOnibus from "./assets/dashboards/eleicao-onibus.png";
 
 const base = import.meta.env.BASE_URL;
 
 export const DASHBOARDS = [
+  {
+    titulo: "ELEIÇÃO NO ÔNIBUS — 2022 E 2026",
+    descricao: "Comparação do transporte coletivo no 1º turno das eleições de 2022 e 2026 com o domingo anterior a cada eleição.",
+    indicadores: [
+      "Passageiros no dia da eleição",
+      "Ônibus em operação",
+      "Viagens realizadas",
+      "Comparação com o domingo anterior",
+    ],
+    imagem: eleicaoOnibus,
+    link: `${base}dashboards/eleicao-onibus.html`,
+    tipo: "publico",
+  },
   {
     titulo: "EMBARQUES — LINHA 4003",
     descricao: "Embarques na volta da linha 4003 no ponto da Reserva das Águas, de 25 a 27/09/2026.",

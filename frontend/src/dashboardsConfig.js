@@ -10,10 +10,24 @@ import domingoLivreCidadao from "./assets/dashboards/domingo-livre-cidadao.png";
 import onibusDaMulher from "./assets/dashboards/onibus-da-mulher.png";
 import embarques4003 from "./assets/dashboards/embarques-4003.png";
 import eleicaoOnibus from "./assets/dashboards/eleicao-onibus.png";
+import eleicaoPassageirosViagensFrota from "./assets/dashboards/eleicao-passageiros-viagens-frota.png";
 
 const base = import.meta.env.BASE_URL;
 
 export const DASHBOARDS = [
+  {
+    titulo: "ELEIÇÃO 1º TURNO — PASSAGEIROS, VIAGENS E FROTA",
+    descricao: "Passageiros, viagens programadas e frota por empresa no dia da eleição de 2022 e de 2026.",
+    indicadores: [
+      "Passageiros por empresa",
+      "Viagens programadas, com reforço da eleição",
+      "Frota programada, com reforço da eleição",
+      "Comparação 2022 x 2026",
+    ],
+    imagem: eleicaoPassageirosViagensFrota,
+    link: `${base}dashboards/eleicao-passageiros-viagens-frota.html`,
+    tipo: "publico",
+  },
   {
     titulo: "ELEIÇÃO NO ÔNIBUS — 2022 E 2026",
     descricao: "Comparação do transporte coletivo no 1º turno das eleições de 2022 e 2026 com o domingo anterior a cada eleição.",
